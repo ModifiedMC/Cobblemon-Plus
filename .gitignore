@@ -1,3 +1,4 @@
+build
 client/mods/**
 !client/mods/.gitkeep
 client/shaderpacks/**

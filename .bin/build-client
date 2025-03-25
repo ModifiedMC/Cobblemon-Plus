@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+VERSION=$1
+FILENAME="MODIFIED COBBLEMON PLUS-v$VERSION.zip"
+BASE_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" )/../ )
+
+pushd "$BASE_DIR" 2>&1 >/dev/null
+
+trap "popd 2>&1 >/dev/null" EXIT
+
+# remove any previous build
+rm -rf build/work
+
+# make working directory structure
+mkdir -p build/work/overrides
+
+# copy client files over
+cp -pR client/* build/work/overrides
+
+# delete metadata files
+find build/work -name ".git*" -delete
+
+# move the root files out of overrides
+mv build/work/overrides/modlist.html build/work/
+mv build/work/overrides/manifest.json build/work/
+
+# create CurseForge zip
+pushd "build/work" 2>&1 >/dev/null
+zip "$FILENAME" *
+popd 2>&1 >/dev/null
+
+# cleanup
+mv "build/work/$FILENAME" build/
+rm build/work -rf
