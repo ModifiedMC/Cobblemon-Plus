@@ -1,0 +1,4 @@
+client/mods/**
+!client/mods/.gitkeep
+client/shaderpacks/**
+!client/shaderpacks/.gitkeep
