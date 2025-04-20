@@ -1,0 +1,13 @@
+name = "Torchmaster Cobblemon Compat"
+filename = "torchmastercobblemoncompat-1.6-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0028d0cf31246e5e883897e3adc3ce689530063"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6388838
+project-id = 1236250

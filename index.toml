@@ -6560,7 +6560,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "44ce2eb4737334e21e771fbad567672129bfbd859df21a915ad91c0363625d62"
+hash = "8ee145365be521b53878ecfa8f50ece4bb826106b22c595167f31cfc18e314bd"
 metafile = true
 
 [[files]]
@@ -6631,6 +6631,11 @@ metafile = true
 [[files]]
 file = "mods/golden-hopper.pw.toml"
 hash = "373b49f5326798ea30c000bbb36b797a066fd068b45350b9fcbae7c16b4d4f41"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "98abdca2e152d32ba414e5b1117ac7b122c0ba9d57a4d73da4a2122ff463fbfb"
 metafile = true
 
 [[files]]
@@ -7299,6 +7304,11 @@ hash = "f3e0525ea52b000c4939f8d16b9755d26d2d45982dda8240e9a6e288aa473a5c"
 metafile = true
 
 [[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "8a0fd4adfdd72ae16fe87c3ea6d1bd0e4ddb9ee36761048611ead1b4c4fd4371"
+metafile = true
+
+[[files]]
 file = "mods/pretty-pipes-fluids.pw.toml"
 hash = "fe3899cefdf3a96300e88fb8ea58a67a9a18bc97493bb82a840c622280566e47"
 metafile = true
@@ -7751,6 +7761,11 @@ metafile = true
 [[files]]
 file = "mods/tomtarus-cobblemon-immersive-engineering-tweaks.pw.toml"
 hash = "12dc5ad70440f66bc676b38d2cf76709a215cdd6d05b27ecc1700b40d81e579d"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "f20c38f9378a6946dec3f7465dd074c8359843eea0729bccc1912b6472d815e7"
 metafile = true
 
 [[files]]
