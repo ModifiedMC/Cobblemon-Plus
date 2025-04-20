@@ -1638,7 +1638,7 @@ hash = "e2a22c8f410a57c3b3b00509d36385c7cc3933a4c24e43926997bfd98362e686"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "01c90930265e22a375ac29acdf993eeb50e4e5aa6b2e6ddb0fa82f1598d5d87e"
+hash = "7a8949c4051ae9d038f577ac886f0b6b6de72d8c267ed5a76b1f46d1c3165e2f"
 
 [[files]]
 file = "config/better_respawn-server.toml"
@@ -2113,6 +2113,10 @@ file = "config/cubes_without_borders.json"
 hash = "a4aee6e8a5d70b99ff27b14f9093c519909d96e54e1e1a06caff60b186696786"
 
 [[files]]
+file = "config/cumulus_menus-client.toml"
+hash = "b4550f3e772171362da19b147efd979660a71d1853315e08ccaebb78864c99f2"
+
+[[files]]
 file = "config/cupboard.json"
 hash = "08bda8a4a20d302cb97d06bf11c4991e152a3a9e04c17302ea3b42aa77e6b028"
 
@@ -2530,7 +2534,7 @@ hash = "95bd7671cf413d0fe38fce067266c1cfbdd9fcb7d5fd471e9073689505a5c72f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "76ea48f596837b4a3dde487665472412394cffd4aa0a9c6f7e587456aaadd24a"
+hash = "4ec90ef644f9c5d9dd6f42a5a8df656625e52c2a5ad41759432145609f906348"
 
 [[files]]
 file = "config/fancymenu/customization/welcomescreen_welcome_layout.txt"
@@ -2538,7 +2542,7 @@ hash = "e2f9a1cbabaed0ec1642b9b11112d41ee40228f0e4d8debf2d0c6005892a3e90"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "42121c9a41ac5682c6e60101523eeb4aa813517e2f827e7cbba78e11c7251ae5"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -2546,11 +2550,11 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "324649f4bf8f57a9f165a612ba956e53d8307814184f9a800a3fa007c898bef1"
+hash = "8ba4bac437c66371d878eeacc309e4a2fc8808080f236ab552126e121b233bc7"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+hash = "45541e5c5019585b9c4ff114aed530826129e8a7ac6866b5d5fe41dd278abae4"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
@@ -4391,6 +4395,10 @@ hash = "88b597e6b6b4e6d05eaf4b649a7edd2e56abf24cb7bbdc609dfa9b3f5c56fe5f"
 [[files]]
 file = "config/toms_storage-server.toml"
 hash = "2cd44930add8d579912ef81d9b3537b588b9705a7b7ef31ca0b17bf13a3d08a8"
+
+[[files]]
+file = "config/torchmaster.toml"
+hash = "0353f103e29764ca1a3c14ae2ffce80f6cd0a9a3de4f394816f2f9b7c027b867"
 
 [[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
@@ -7030,7 +7038,7 @@ metafile = true
 
 [[files]]
 file = "mods/magnesium-extras.pw.toml"
-hash = "176315847d74c7b2dd39471b09da612f7cb8293fe754fbcecee15e79bd2fcca0"
+hash = "fdd006310581166036f331a95adc9cef032914fece1aabacfbfbc4fa609fde85"
 metafile = true
 
 [[files]]
@@ -7761,6 +7769,11 @@ metafile = true
 [[files]]
 file = "mods/tomtarus-cobblemon-immersive-engineering-tweaks.pw.toml"
 hash = "12dc5ad70440f66bc676b38d2cf76709a215cdd6d05b27ecc1700b40d81e579d"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster-cobblemon-compat.pw.toml"
+hash = "a6f684e071a2e53086bc9281338a5509efc452946252ffe775eb29a513c8b036"
 metafile = true
 
 [[files]]
