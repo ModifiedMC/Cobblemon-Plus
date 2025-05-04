@@ -3681,16 +3681,16 @@ file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
 hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
 
 [[files]]
+file = "config/paxi/resourcepacks/CI-v1.4.1-Vanilla-Icons.zip"
+hash = "316f9b9e6ca914607fc29c226a0540814598d171b786998522a8298e25d48302"
+
+[[files]]
 file = "config/paxi/resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip"
 hash = "4386b800db3f7710c23f5ead9c911c9f265831a02e74c704f7cc29fcd9070880"
 
 [[files]]
-file = "config/paxi/resourcepacks/Cobblemon Interface Modded v1.7.0.zip"
-hash = "e8e675538490ca96baed873dda52a1657c32163caf693b658d2ec20991943446"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobblemon Interface-Vanilla Icons.zip"
-hash = "faecfaa114c5b2288e88db12ef3912f3d18699e6dde2be2b80c52bdc8906db67"
+file = "config/paxi/resourcepacks/Cobblemon Interface Modded v1.9.0.zip"
+hash = "7d0327811e78d5519f554557632927335b157da1c14f3c76ec91cb6719d69041"
 
 [[files]]
 file = "config/paxi/resourcepacks/CobblemonTweaksBrewingGuide.zip"
