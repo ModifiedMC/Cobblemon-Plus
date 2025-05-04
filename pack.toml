@@ -9,7 +9,7 @@ hash = "654b41105f9717946f67c7cf70abc6c7d80acc7f57a201a06f8c9781cc845762"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.148"
+neoforge = "21.1.169"
 
 [export]
 [export.curseforge]
