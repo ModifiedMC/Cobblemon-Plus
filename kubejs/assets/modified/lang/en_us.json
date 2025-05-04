@@ -4,5 +4,7 @@
 "block.modified.coinpile_pokedollar.initial": "a Pile of PokéDollars",
 "block.modified.coinpile_pokedollar.plural": "Pile of PokéDollars",
 "block.modified.coinblock_pokedollar.initial": "a Block of PokéDollar",
-"block.modified.coinblock_pokedollar.plural": "Block of PokéDollars"
+"block.modified.coinblock_pokedollar.plural": "Block of PokéDollars",
+"item.modified.reliccoin.initial": "Relic Coin",
+"item.modified.reliccoin.plural": "Relic Coins"
 }
