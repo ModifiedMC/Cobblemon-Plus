@@ -1638,7 +1638,7 @@ hash = "e2a22c8f410a57c3b3b00509d36385c7cc3933a4c24e43926997bfd98362e686"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "7a8949c4051ae9d038f577ac886f0b6b6de72d8c267ed5a76b1f46d1c3165e2f"
+hash = "1ead77c4c20d0600090a7f9f69f4fa78906307ac4f7c035488fed6caa1f2e396"
 
 [[files]]
 file = "config/better_respawn-server.toml"
@@ -1926,7 +1926,7 @@ hash = "2a465d43429f59798ec98ea0fe30c2bb4fc380b9b0fb125367bbc10a0a027a8a"
 
 [[files]]
 file = "config/cobblemonoutbreaks/outbreaks_config.json"
-hash = "1fd912c1942bfdddcf59e1dd732c1ac7424206d14ff667b7c606d9ae6d0e1f81"
+hash = "3d97ab1b4d3b0f2698a07d5c972ec43b6efb23993c99f88de70ac44c9a202e7a"
 
 [[files]]
 file = "config/cobblenav/client-config.json"
@@ -3378,19 +3378,19 @@ hash = "16e4cac7ed59f8a713aac6f930177bccfd0ffcd2406b49e87507d16bf6a9bd23"
 
 [[files]]
 file = "config/lightmanscurrency-client.txt"
-hash = "ce2a9e6ac3c52ce2f7e348bf51c970aa33edc04cf8850011d2497ae9c775a39e"
+hash = "cf550ef450142da993f7d7fd6eda7a35e0f107c64d7b84b746602b9d0a19df5e"
 
 [[files]]
 file = "config/lightmanscurrency-common.txt"
-hash = "6a8cd376358d2c7a2eba852dd4d04b13f67ce6bdfce826bcf78c74f9daf659cb"
+hash = "62a979f6ddca0628f14e86c889fe2a8eeb2d69e9e2e9cae02cc4dab4e64a73a5"
 
 [[files]]
 file = "config/lightmanscurrency-server.txt"
-hash = "5d32cfe6cad9060b4d666c2cbfd8e2f618567f264ccf7def1609bb88f78b19c9"
+hash = "8795f86e0356302b1073efb2d5eabd2de3b358ac48763a0da981dd016bb3aff3"
 
 [[files]]
 file = "config/lightmanscurrency/MasterCoinList.json"
-hash = "71663b34152040a0e607749b452ef4b1459fb378470bfe6f06ab908e91d37c35"
+hash = "ba14dd0b9974c9b7196a8d519962cff36a4663c7e654a3b1341ba40c8ce9d9a1"
 
 [[files]]
 file = "config/lightmanscurrency/PersistentTraders.json"
@@ -3486,7 +3486,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "56d26859e6de6936acbe409aacd872d932482c6b6d2aa4052122b42c733bc344"
+hash = "ba94605420a6eafa3a665490ec818b37fadb77289482be318520c35fa1c800a4"
 
 [[files]]
 file = "config/modernworldcreation/config.txt"
@@ -3629,8 +3629,8 @@ file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/datapacks/ATM 2.2 for MEGASHOWDOWN v9.0.0.zip"
-hash = "6a485f899a249af3f29a786e4f860fabe46a43c0359290ea3a2dccf545049dd8"
+file = "config/paxi/datapacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
+hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
 
 [[files]]
 file = "config/paxi/datapacks/BCA-Datapack-3.5_GE_C1.6.1_M1.21.1.zip"
@@ -3645,12 +3645,16 @@ file = "config/paxi/datapacks/Legenday spawns revamped 1.4.zip"
 hash = "149f83b07b12779ee94ab16274e752dd165296128c038687a798e194b36655f1"
 
 [[files]]
+file = "config/paxi/datapacks/MegaShowdownTweaks_Vanilla-1.6.2.zip"
+hash = "92934c0d1627ab99f33bb743b2a33ef540aa61ad4c0d7033b6174e86232c1a6e"
+
+[[files]]
 file = "config/paxi/datapacks/Megashowdown RECIPES REVAMP.zip"
 hash = "a7b9f7e3ef0f50bd4473e62b14e7ff845ad8b0b795b2a00a48052d546778b4db"
 
 [[files]]
-file = "config/paxi/datapacks/PartingGems_1.0.zip"
-hash = "82de615550866ab0e415719c8cf6760652edb285d3593e702067645965e36e91"
+file = "config/paxi/datapacks/PartingTweaks_2.0.zip"
+hash = "5bef72dfba87f0077cbb9c97b2c00325187c1ad24eb08eab9f6cdb4048ce9b7c"
 
 [[files]]
 file = "config/paxi/datapacks/RCT-Badges-PKGBadges.zip"
@@ -3662,7 +3666,7 @@ hash = "40c46b091d2e838b180020b1e8b7bb5847af6b4481439b17772cc25f8e3d0b82"
 
 [[files]]
 file = "config/paxi/datapacks/mega_loot.zip"
-hash = "cb4c7b82d7cf5b9591e5a8db966af3e59038ec2842667db21d6fba2f78118f09"
+hash = "6061578db1c05b6f3c5c657882e5fe1b9a85b7c08356153d52e390b609ea81a0"
 
 [[files]]
 file = "config/paxi/datapacks/pokedollar_trainer_loot.zip"
@@ -3673,8 +3677,8 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/resourcepacks/ATM 2.2 for MEGASHOWDOWN v9.0.0.zip"
-hash = "6a485f899a249af3f29a786e4f860fabe46a43c0359290ea3a2dccf545049dd8"
+file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
+hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
 
 [[files]]
 file = "config/paxi/resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip"
@@ -3701,12 +3705,8 @@ file = "config/paxi/resourcepacks/FreshAnimations_v1.9.2.zip"
 hash = "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b"
 
 [[files]]
-file = "config/paxi/resourcepacks/Jakotens' Poké-Hats 3.0.zip"
-hash = "cd912af0ddce281706481c5438b67caf59e19d45f462f7a2f8559d937ddf0701"
-
-[[files]]
-file = "config/paxi/resourcepacks/RCT Trainers+ [1.6] v1.5.zip"
-hash = "24912569e16adbdceed8a84de17de4d98de321b6b2693fb7ee21effebad1b57f"
+file = "config/paxi/resourcepacks/RCT Trainers+ [1.6] v2.0.zip"
+hash = "8d628bbc31e9d644c49d8bce09e135d053f4e7b4eb1b470998a4e547d81c163f"
 
 [[files]]
 file = "config/paxi/resourcepacks/Tom's Cobblemoned.zip"
@@ -4309,6 +4309,10 @@ file = "config/structure_layout_optimizer.jsonc"
 hash = "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579"
 
 [[files]]
+file = "config/structurecompass-common.toml"
+hash = "baedfcc4c00f20f0d11496a6e5158c2b4b64dc459af37894df2ce1174a73e799"
+
+[[files]]
 file = "config/structureessentials.json"
 hash = "459197eaf56c15c9ff6df7c1d4f3a00645aec18fb81e0b8f2d05f3e458bd4488"
 
@@ -4366,7 +4370,7 @@ hash = "9b8571e8205adec32a678cb681f29133bf62276b439fe2a14b07fc71507f25ca"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "016b5c7a35fdde67f5be167effc9ff7b365f266dff3521b3e4d94d50fea9e02a"
+hash = "0db7dc6d9ea18c316af2097c4a69264cd41aaa7cc1998b59a9f87fae8639a3e2"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -5553,8 +5557,8 @@ file = "kubejs/server_scripts/login_kit.js"
 hash = "1665543d1bea956080b5186ea1595c1e1951c934be15a4d0d709011cdd6d01ec"
 
 [[files]]
-file = "kubejs/server_scripts/masterball.js"
-hash = "d29e73266e3bb0dccbd6ed2a3187ecbe8e9dcb1aa76fe9248032209be44328e6"
+file = "kubejs/server_scripts/modified_recipes.js"
+hash = "f8978a4e162f43cfd8e5f54326f28284bae8e34057fd2cd802e09408a04418bf"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removal.js"
@@ -6319,11 +6323,6 @@ metafile = true
 [[files]]
 file = "mods/curios-continuation.pw.toml"
 hash = "728964f212cc592a2fc2ae5106e06893a0697568aa9983d164dc112821dc8fc6"
-metafile = true
-
-[[files]]
-file = "mods/curios.pw.toml"
-hash = "6cd932ae5f59b1119208b90d4e985a3f0e543afbb6c8e8f5a948bbcd9453a12d"
 metafile = true
 
 [[files]]
