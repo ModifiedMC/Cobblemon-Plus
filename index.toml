@@ -6321,11 +6321,6 @@ hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
 metafile = true
 
 [[files]]
-file = "mods/curios-continuation.pw.toml"
-hash = "728964f212cc592a2fc2ae5106e06893a0697568aa9983d164dc112821dc8fc6"
-metafile = true
-
-[[files]]
 file = "mods/cyanide.pw.toml"
 hash = "5dc1d489ff26e602c1816d0f4d41817fca10d2de0be4a6525bcb605dc47bc5d0"
 metafile = true
