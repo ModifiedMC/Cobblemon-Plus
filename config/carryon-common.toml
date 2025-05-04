@@ -235,6 +235,7 @@ forbiddenEntities = [
 	"easy_npc:*",
 	"bodiesbodies:dead_body",
 	"rctmod:*",
+	"cobblemon:*"
 ]
 #Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]

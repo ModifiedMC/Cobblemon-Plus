@@ -5926,6 +5926,11 @@ hash = "878a1fb7315162e0bcba8c6f74428cc699885c442db104c118264eec4b4ffe79"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "2b4c244aa7a303dead0a1b659c25b9b9bce2ced2758ea55aca347556f7348189"
+metafile = true
+
+[[files]]
 file = "mods/cat-jammies.pw.toml"
 hash = "ac5c0ef1e765a8bdfda150fbacda371ab9cd18059deb1f62ed4aab44d48096f1"
 metafile = true
