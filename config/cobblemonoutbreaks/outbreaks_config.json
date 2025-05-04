@@ -27,8 +27,8 @@
   "sound": {
     "volumes": {
       "outbreak_portal_pokemon_spawn_volume": 0.2,
-      "outbreak_portal_shiny_pokemon_spawn_volume": 1.5,
-      "outbreak_portal_spawn_volume": 0.7
+      "outbreak_portal_shiny_pokemon_spawn_volume": 0.5,
+      "outbreak_portal_spawn_volume": 0.1
     },
     "outbreak_portal_spawn_sound": true
   },

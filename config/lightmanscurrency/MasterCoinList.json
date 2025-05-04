@@ -9,33 +9,13 @@
       "InputType": "DEFAULT",
       "CoreChain": [
         {
-          "Coin": "lightmanscurrency:coin_emerald",
+          "Coin": "cobblemon:relic_coin",
           "exchangeRate": 10,
           "initial": {
-            "translate": "item.lightmanscurrency.coin_emerald.initial"
+            "translate": "item.modified.reliccoin.initial"
           },
           "plural": {
-            "translate": "item.lightmanscurrency.coin_emerald.plural"
-          }
-        },
-        {
-          "Coin": "lightmanscurrency:coin_diamond",
-          "exchangeRate": 10,
-          "initial": {
-            "translate": "item.lightmanscurrency.coin_diamond.initial"
-          },
-          "plural": {
-            "translate": "item.lightmanscurrency.coin_diamond.plural"
-          }
-        },
-        {
-          "Coin": "lightmanscurrency:coin_netherite",
-          "exchangeRate": 10,
-          "initial": {
-            "translate": "item.lightmanscurrency.coin_netherite.initial"
-          },
-          "plural": {
-            "translate": "item.lightmanscurrency.coin_netherite.plural"
+            "translate": "item.modified.reliccoin.plural"
           }
         },
         {
@@ -50,75 +30,6 @@
         }
       ],
       "SideChains": [
-        [
-          {
-            "Coin": "lightmanscurrency:coinpile_emerald",
-            "exchangeRate": 9,
-            "ParentCoin": "lightmanscurrency:coin_emerald",
-            "initial": {
-              "translate": "block.lightmanscurrency.coinpile_emerald.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinpile_emerald.plural"
-            }
-          },
-          {
-            "Coin": "lightmanscurrency:coinblock_emerald",
-            "exchangeRate": 4,
-            "initial": {
-              "translate": "block.lightmanscurrency.coinblock_emerald.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinblock_emerald.plural"
-            }
-          }
-        ],
-        [
-          {
-            "Coin": "lightmanscurrency:coinpile_diamond",
-            "exchangeRate": 9,
-            "ParentCoin": "lightmanscurrency:coin_diamond",
-            "initial": {
-              "translate": "block.lightmanscurrency.coinpile_diamond.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinpile_diamond.plural"
-            }
-          },
-          {
-            "Coin": "lightmanscurrency:coinblock_diamond",
-            "exchangeRate": 4,
-            "initial": {
-              "translate": "block.lightmanscurrency.coinblock_diamond.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinblock_diamond.plural"
-            }
-          }
-        ],
-        [
-          {
-            "Coin": "lightmanscurrency:coinpile_netherite",
-            "exchangeRate": 9,
-            "ParentCoin": "lightmanscurrency:coin_netherite",
-            "initial": {
-              "translate": "block.lightmanscurrency.coinpile_netherite.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinpile_netherite.plural"
-            }
-          },
-          {
-            "Coin": "lightmanscurrency:coinblock_netherite",
-            "exchangeRate": 4,
-            "initial": {
-              "translate": "block.lightmanscurrency.coinblock_netherite.initial"
-            },
-            "plural": {
-              "translate": "block.lightmanscurrency.coinblock_netherite.plural"
-            }
-          }
-        ],
         [
           {
             "Coin": "modified:pokedollar_pile",
@@ -141,8 +52,7 @@
               "translate": "block.modified.coinblock_pokedollar.plural"
             }
           }
-        ]
-      ],
+        ]],
       "ATMData": {
         "ExchangeButtons": [
           {
@@ -154,33 +64,9 @@
             "icons": [
               {
                 "type": "lightmanscurrency:item",
-                "x": 10,
-                "y": 1,
-                "item": "lightmanscurrency:coin_emerald"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 22,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
-                "x": 24,
-                "y": 1,
-                "item": "lightmanscurrency:coin_diamond"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 34,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
                 "x": 36,
                 "y": 1,
-                "item": "lightmanscurrency:coin_netherite"
+                "item": "cobblemon:relic_coin"
               },
               {
                 "type": "lightmanscurrency:small_arrow",
@@ -217,74 +103,14 @@
               },
               {
                 "type": "lightmanscurrency:item",
-                "x": -4,
-                "y": 1,
-                "item": "lightmanscurrency:coin_netherite"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 8,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
                 "x": 10,
                 "y": 1,
-                "item": "lightmanscurrency:coin_diamond"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 22,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
-                "x": 24,
-                "y": 1,
-                "item": "lightmanscurrency:coin_emerald"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 36,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
-                "x": 38,
-                "y": 1,
-                "item": "lightmanscurrency:coin_gold"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 50,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
-                "x": 52,
-                "y": 1,
-                "item": "lightmanscurrency:coin_iron"
-              },
-              {
-                "type": "lightmanscurrency:small_arrow",
-                "x": 64,
-                "y": 6,
-                "direction": "RIGHT"
-              },
-              {
-                "type": "lightmanscurrency:item",
-                "x": 66,
-                "y": 1,
-                "item": "lightmanscurrency:coin_copper"
+                "item": "cobblemon:relic_coin"
+              }
+            ]
               }
             ]
           }
+        }
         ]
-      }
-    }
-  ]
 }

@@ -151,15 +151,15 @@ debugLevel=0
 [villagers]
 	#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
 	#Default: true
-	addCustomWanderingTrades=true
+	addCustomWanderingTrades=false
 	
 	#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
 	#Default: true
-	addBanker=true
+	addBanker=false
 	
 	#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
 	#Default: true
-	addCashier=true
+	addCashier=false
 	
 	#Villager Trade Modification
 	#Note: Changes made only apply to newly generated trades. Villagers with trades already defined will not be changed.
@@ -198,13 +198,13 @@ debugLevel=0
 	#Leave blank ("") to not spawn T1 loot.
 	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":1, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
 	#Default: "lightmanscurrency:coin_copper"
-	lootItemT1="lightmanscurrency:coin_copper"
+	lootItemT1="lightmanscurrency:coin_emerald"
 	
 	#T2 loot item.
 	#Leave blank ("") to not spawn T2 loot.
 	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":2, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
 	#Default: "lightmanscurrency:coin_iron"
-	lootItemT2="lightmanscurrency:coin_iron"
+	lootItemT2="lightmanscurrency:coin_emerald"
 	
 	#T3 loot item.
 	#Leave blank ("") to not spawn T3 loot.
@@ -335,4 +335,10 @@ debugLevel=0
 	#Whether new structures will have a chance to spawn in ancient cities
 	#Default: true
 	ancientCity=true
+	
+[compat]
+	#Whether the Impactor compat will be initialized.
+	#Requires a full server reboot for changes to be applied!
+	#Default: true
+	impactorModule=true
 	
