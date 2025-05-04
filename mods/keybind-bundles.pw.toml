@@ -1,13 +1,13 @@
 name = "KeyBind Bundles"
-filename = "keybindbundles-1.2.0.jar"
+filename = "keybindbundles-1.2.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "af4b5ed5accc5a686aa883cc14adbc9660ca6491"
+hash = "4bc47f7b31628af4092c401b665740cdc410cc40"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6203463
+file-id = 6455290
 project-id = 1172594

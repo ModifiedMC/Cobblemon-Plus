@@ -1,13 +1,13 @@
 name = "Radical Cobblemon Trainer Textures Plus"
-filename = "RCT Trainers+ [1.6] v1.5.zip"
+filename = "RCT Trainers+ [1.6] v2.0.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "05887ba3bfa52465d978b37f8c027968f41d70dd"
+hash = "a2c86c3fefd503d5789b765483d6cfb78e7e5795"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6025332
+file-id = 6442443
 project-id = 1118199

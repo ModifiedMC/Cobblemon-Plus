@@ -1,0 +1,13 @@
+name = "Apothic Supplementaries - Enchanting"
+filename = "apothic_sups_enchanting-0.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e3420d1b0976fba5a2ee78f4038c49fb7041279c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6393447
+project-id = 1030522

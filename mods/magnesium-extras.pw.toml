@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Extras"
 filename = "sodiumextras-neoforge-1.0.7-1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

@@ -1,13 +1,13 @@
 name = "Cobblemon: Ride On!"
-filename = "cobbleride-neoforge-0.2.2+1.21.1.jar"
+filename = "cobbleride-neoforge-0.2.5+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "30fab00b6788b8856600be2807c1fa92097d5c3d"
+hash = "d1059c697e1d14bb16dc226811fdb9d1b13f859f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6091355
+file-id = 6472264
 project-id = 1169803

@@ -1,13 +1,13 @@
 name = "Collector's Album"
-filename = "collectorsalbum-neoforge-1.21.1-2.2.0.jar"
+filename = "collectorsalbum-neoforge-1.21.1-2.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "793284b4123f3fcb08a5bdb0fffff8ed23e26bac"
+hash = "d360b9446a9959ab829c652d2cbd52470c57de6b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6363485
+file-id = 6455663
 project-id = 659390

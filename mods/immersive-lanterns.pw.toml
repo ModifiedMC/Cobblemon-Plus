@@ -1,0 +1,13 @@
+name = "Toni's Immersive Lanterns"
+filename = "immersivelanterns-neoforge-1.0.6-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5315b3323b83130123f69b1b3bfc777376e4961f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6052947
+project-id = 1116812

@@ -1,0 +1,13 @@
+name = "Storage No Poof"
+filename = "storagenopoof-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dde904f12a6225798886769c0accab00a707f058"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6264501
+project-id = 1212582
