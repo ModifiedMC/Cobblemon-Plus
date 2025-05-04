@@ -1782,7 +1782,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "b35d97ca06773adf3578564d2e7028cc4be013ab9da590b900d8f8c135cffb62"
+hash = "80edc5c3ebd99a8b67dc478c35566ee4b163e0ca508818d37bf69da87d8b14a8"
 
 [[files]]
 file = "config/cataclysm-1.toml.bak"
@@ -5772,7 +5772,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-technica.pw.toml"
-hash = "15ad2e8e4cd25e084544ee65ee9dc95dac41ad2ebb896fcc8629649fcb1ff176"
+hash = "71ceaf1666990344739bebf49e9e16710785cca149d2a274370bf6c00bee8df6"
 metafile = true
 
 [[files]]
@@ -6256,8 +6256,18 @@ hash = "a96c4530432ddf08f92caf52e01d4142b697420d03d9e1e22722bcae7c9a556e"
 metafile = true
 
 [[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "b9939bcff93b496ec207d244f4ee49bfa3713273cca8fa3399ea40be025720cf"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "8f5c0234b7ff63f22a4825ebd8a800dd9b66b67c3390d3139df80b6baada99cd"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "7655c656b121d26e7945dd268572842ecb288edc497046cb4fecfba98979de38"
 metafile = true
 
 [[files]]
