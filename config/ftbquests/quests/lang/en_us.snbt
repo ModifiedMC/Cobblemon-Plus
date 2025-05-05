@@ -177,9 +177,9 @@
 	quest.0D1CFAEC3FCC6722.quest_desc: ["&dStructures to find a Sail Fossil: &r Eroded Pillar, Frozen Pond, Frozen Spike, Powdered Deposit, Spruce Tree "]
 	quest.0D1CFAEC3FCC6722.quest_subtitle: "Amaura"
 	quest.0D2089FFDE00676B.quest_desc: [
-		"&n&lWARNING:&r "
+		"&n&l&4WARNING:&r "
 		""
-		"&lDO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
 	quest.0D65451D939903B7.title: "Upgrade"
 	quest.0D967633A7095ED0.title: "Galar Bug Types"
@@ -597,6 +597,11 @@
 	quest.27961DE632D73E81.title: "Citrine Ball"
 	quest.27D95FFB4E69AE38.quest_desc: ["Another one of Krisp's personal fave items! This cool band&6 boosts the damage from all physical moves&r. This is perfect for those who prefer the  bash-em-til they faint method!"]
 	quest.280D5B956A76D91F.quest_desc: ["This tiny seed will boost your &2Grass-type moves!&r"]
+	quest.2822F18E54E2A869.quest_desc: [
+		"&n&l&4WARNING:&r "
+		""
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+	]
 	quest.287253B6B153FAAD.title: "Kanto Ground Types"
 	quest.289FC55A51F8E0D6.quest_desc: [
 		"A &dBig Root&r is a crop that can be found growing from the ceilings of caves near the surface. It also functions as a held item that increases the HP recovered from the holder's draining moves by 30%."
@@ -1377,6 +1382,11 @@
 		"This item is usually used to train up lower leveled pokemon, or catch up new freinds you've made along the way!"
 		"&5To craft this necessary item you will need; 2 amethyst shards, 2 lapis lazuli, 2 iron Ingots, 1 gold ingot, and 1 iron helmet.&r"
 	]
+	quest.6046EF7E0D8F5D4D.quest_desc: [
+		"&n&l&4WARNING:&r "
+		""
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+	]
 	quest.60539FC8C0C1B4C0.title: "Kalos Rock Types"
 	quest.60570E75C416BB57.title: "Sinnoh Water Types"
 	quest.6083A75B21C1493B.quest_desc: ["This ancient piece of paper boosts the&5 holders Ghost-Type moves.&r"]
@@ -1423,6 +1433,11 @@
 		"Doublade ➜ Aegislash"
 	]
 	quest.6377483B78DB08A7.title: "Hoenn Region Starters"
+	quest.6383508D2D8A0806.quest_desc: [
+		"&n&l&4WARNING:&r "
+		""
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+	]
 	quest.63D7369995C2E2BE.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
 	quest.63F1CAE7C06306B7.title: "Hard Stone"
 	quest.641829A8BDA025CB.quest_desc: [
@@ -1811,6 +1826,11 @@
 		""
 		"If the holder is hit by a damaging move, the Air Balloon will pop, removing its effects. The item itself, however, will not be destroyed and will return to normal once the battle ends. "
 	]
+	quest.7D2697AB8904FDFC.quest_desc: [
+		"&n&l&4WARNING:&r "
+		""
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+	]
 	quest.7D6163F60A4BC973.title: "Unova Bug Types"
 	quest.7D8F1DC7A845F79D.title: "Oval Stone"
 	quest.7D97398100802544.quest_subtitle: "More effective when used on Bug or Water-type Pokémon."
@@ -1825,6 +1845,11 @@
 	quest.7DF02363DB2496BD.title: "Dark Types"
 	quest.7E19F5FBDDDE651F.title: "Citrine Ball"
 	quest.7E3BCB0A4C7598E3.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
+	quest.7E410ABFDD97F894.quest_desc: [
+		"&n&l&4WARNING:&r "
+		""
+		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
+	]
 	quest.7E5311B28FDF0E00.quest_desc: ["If your Pokemon &6has full HP&r, this item gurantees the&6 holder will survive a One-Hit KO&r, leaving it &6with 1 HP&r."]
 	quest.7EBAF1D56B1151D8.quest_subtitle: "Used to spawn Trainer Brendan for the last time!"
 	quest.7EC74F87EAC80BD5.quest_subtitle: "Use a MasterBall to guarantee the capture"

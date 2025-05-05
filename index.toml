@@ -3681,16 +3681,16 @@ file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
 hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
 
 [[files]]
+file = "config/paxi/resourcepacks/CI-M-v1.9.0-NoAppleSkin.zip"
+hash = "b5e0aabb7bbb8901f2abfa118142da469f0be53275ce68aab428b9ac1d3d5e77"
+
+[[files]]
 file = "config/paxi/resourcepacks/CI-v1.4.1-Vanilla-Icons.zip"
 hash = "316f9b9e6ca914607fc29c226a0540814598d171b786998522a8298e25d48302"
 
 [[files]]
 file = "config/paxi/resourcepacks/Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip"
 hash = "4386b800db3f7710c23f5ead9c911c9f265831a02e74c704f7cc29fcd9070880"
-
-[[files]]
-file = "config/paxi/resourcepacks/Cobblemon Interface Modded v1.9.0.zip"
-hash = "7d0327811e78d5519f554557632927335b157da1c14f3c76ec91cb6719d69041"
 
 [[files]]
 file = "config/paxi/resourcepacks/CobblemonTweaksBrewingGuide.zip"
@@ -4662,7 +4662,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/modified/lang/en_us.json"
-hash = "9a54539a9d5b4aa0527ffd001a866074decfb898fbf206e81e0855b96153b9d4"
+hash = "7c99fd6436c14da6f56798a328dbbb8efd90b8e5c2ce9346eb8d4b131b4d3b42"
 
 [[files]]
 file = "kubejs/assets/modified/models/item/pokedollar.json"
@@ -5657,7 +5657,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "fd4156ee76622661111c29c4cd41f197168510bc1df50c6ba41ee9ace18c3d0e"
+hash = "590e976a8ccbf2b5c3feddf637bd3e162c4f03b33d6f6cf39cbf9d0290bff13f"
 metafile = true
 
 [[files]]
@@ -6771,11 +6771,6 @@ hash = "68c48eeaee34bdd0d22981a4f85105bc1037d558be74d2c115696430049f839d"
 metafile = true
 
 [[files]]
-file = "mods/icarus.pw.toml"
-hash = "b216d54bf3b22b4bc65445ce1e468f65dfea47461fb457de4de0125386482e0f"
-metafile = true
-
-[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "dbc34ada7af1fe08105d440312f544dc1fc0ef2032ef8bc0adda9f0e9c4fb067"
 metafile = true
@@ -7192,7 +7187,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "8c15629383377a143b061fbecde2b9a33e036e3dca6d578b3d3734b05240ce20"
+hash = "d1bd6300efb711e7c69a32c83ab9a20dd2144ec90145f0feb3df05f425924181"
 metafile = true
 
 [[files]]

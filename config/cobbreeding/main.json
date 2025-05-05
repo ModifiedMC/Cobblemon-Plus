@@ -3,16 +3,22 @@
   "eggCheckChance": 0.5,
   "eggHatchMultiplier": 1.0,
   "shinyMethod": [
-    "masuda"
+    "crystal"
   ],
-  "shinyMultiplier": 4.0,
+  "shinyMultiplier": 2.0,
   "hiddenAbilitiesEnabled": true,
   "forcedAbilitiesEnabled": false,
-  "dittoAndDittoRandomEgg": false,
+  "dittoAndDittoRandomEgg": true,
   "dittoAndDittoAllowLegendary": false,
   "dittoAndDittoAllowParadox": false,
   "dittoAndDittoAllowUltraBeast": false,
   "dittoAndDittoAllowUndiscovered": false,
   "customColors": true,
-  "allowHoppersToPullFromPastureBlock": true
+  "allowHoppersToPullFromPastureBlock": true,
+  "blacklistedAspects": [
+    "shiny",
+    "male",
+    "female",
+    "sheared"
+  ]
 }
