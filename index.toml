@@ -1638,7 +1638,7 @@ hash = "e2a22c8f410a57c3b3b00509d36385c7cc3933a4c24e43926997bfd98362e686"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "1ead77c4c20d0600090a7f9f69f4fa78906307ac4f7c035488fed6caa1f2e396"
+hash = "5ebf6714661d6d2b6c961e7a70b877727d629c897a7490c627d848149bc9ea7b"
 
 [[files]]
 file = "config/better_respawn-server.toml"
@@ -1942,7 +1942,7 @@ hash = "845b5d4e99006be023726fc799a1b1a2ad3acf055a76cc2a18339cc29d7a5e1c"
 
 [[files]]
 file = "config/cobbreeding/main.json"
-hash = "efb032aab8592b14c54b1fc9106f01f10ccfc3a023ac99b3c487e1b4899a0719"
+hash = "c99a96062b5eb7750e6684a05e05a06cb4a4ac7739e5e631aee2efc1088786ab"
 
 [[files]]
 file = "config/collectibles-client.toml"
@@ -2702,7 +2702,7 @@ hash = "c084eb68f1101e1dea2aa8c8482c2c3177a381d66e05d5d35260c2c62f44ece9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/champions_league.snbt"
-hash = "03193baf5cd9dea801b8563650bf26f880fb9754c796c53fdbe91e707a0a41ff"
+hash = "f25bf3eca5c099ba460befa65a750b890f6d00aa40bca235170708371f7b8235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/completionist.snbt"
@@ -2822,7 +2822,7 @@ hash = "5c6661881b58d08139f476dc810796c5bd80324a388492942ce47404240870cc"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "30aa09beaf6830817528e750847343f6e87aa70be1745b120143288e5d8dbd12"
+hash = "b03a55b75a0fd630923a888a385eccf95390456c7820afb0b3665ab3b95c71c6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/018B7DD83BAE2B01.snbt"
@@ -3426,7 +3426,7 @@ hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/logbegone.json"
-hash = "de308df11c7d097b3d2c604bd3e5a5b92990635b542a2b1f54053757f3420434"
+hash = "3da439fa11af97ae6c16f2b23d898890879c1b028bab357f3c459e233c2eedd7"
 
 [[files]]
 file = "config/logprot.json"
@@ -3681,8 +3681,8 @@ file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
 hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
 
 [[files]]
-file = "config/paxi/resourcepacks/CI-M-v1.9.0-NoAppleSkin.zip"
-hash = "b5e0aabb7bbb8901f2abfa118142da469f0be53275ce68aab428b9ac1d3d5e77"
+file = "config/paxi/resourcepacks/CI-M-1.9.1-modified.zip"
+hash = "1bf510725d32424fe40f5cb5b11a1f968b46cd5abf391b9fa3be5351ae11d3dc"
 
 [[files]]
 file = "config/paxi/resourcepacks/CI-v1.4.1-Vanilla-Icons.zip"
@@ -4721,6 +4721,10 @@ file = "kubejs/assets/modified/textures/ftbquests/backgrounds/pokecentre.png"
 hash = "fe76dab4b446ea8cbe08eaddf1770c863523f8c4377e275e846b2413f27ac2e8"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/backgrounds/winner_trophy.png"
+hash = "ed24012cae2d25c7a338b7be9212eacb4b27233736389c03163d4ad4dcbb660e"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/divider.png"
 hash = "48f3288aca3bb223a534936609d9fb91510b1d989f15b9d234d18209cf9529c6"
 
@@ -4761,8 +4765,44 @@ file = "kubejs/assets/modified/textures/ftbquests/logos/modified_mew_static.png"
 hash = "d5ef46b2d5b09cd6fcaf1b58b96c710c80483c32c04296a11665d45c43808498"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/logos/pmon_bd.png"
+hash = "15a714dc78c4b2cc5ac30d645c696ac72dfb6fd6b8a5ef47e5bd07fdc168c687"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/logos/pmon_rr.png"
+hash = "d58c12e078a5dc6c132281bb75af87c7f7d2f1d5dd642bb2f07951b503e77b84"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/logos/pmon_sp.png"
+hash = "bf93c9b448324674f0298bdfa09f754af0b3509f5bf53f0b125bf40924d0ec99"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/logos/pmon_ub.png"
+hash = "43cac2015052baeda22ea38ff2a4a894f60db3ee24e4c629d6c657302c8d6915"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/champ_ribbon_1.png"
+hash = "725b49230cd3135a908b620535d8bfb880ee06dea6243f069eefe637b612897b"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/champ_ribbon_2.png"
+hash = "714b39cd3e6bb4eef71780867c8b3cb040378183869ed3c022bf1b5c935a8e0d"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/champ_ribbon_3.png"
+hash = "1232e9820cc9f5487a92b88de8b6632e4b60ffc8f389603447e43306a5952ee8"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/league_logo.png"
+hash = "c4c08d52376258e8071be96569f32dc99033050d17e2b2f0538c97dd8b267095"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/misc_icon/physical_icon.png"
 hash = "70b20490cef96b7e13bafbd00f62c919868da23849188ec7ad772f508b2325c9"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/pmon_league.png"
+hash = "9240b3820027c8fbf9e8dcd4258f2dfdec2cb4d6a91f6c01d742a4713a32380d"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/misc_icon/pokedollar-greyscale.png"
@@ -4779,6 +4819,22 @@ hash = "aee7dbb4cb96c259050e060972b9497c1a78ecc5e9fb5faaf71486dce1d5d3da"
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/misc_icon/status_icon.png"
 hash = "68ca77a32db4b101db4a851c1f0038e9001fbb9e9345aa5fd03315b44b12db24"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/trophy_rect_gold.png"
+hash = "4b2fe4259b33eca71c4be0f34b69461f4172edffb2853ba946bafaffe064d665"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+hash = "c305ad06ba8608c7fbfc2dd793172885a8db9f3ebd7c1507c28c4513d31c67ac"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/trophy_round_gold.png"
+hash = "572a3b0c32df74278cfd695a6381daf295132f35003084be42ec82a4022e64b4"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/misc_icon/trophy_round_rainbow.png"
+hash = "7a5223bb207ad71d07abd8be35a7fb42247c561f770a99c261f9825aed29df37"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/mon_icon/gengar_face.png"
@@ -4925,12 +4981,28 @@ file = "kubejs/assets/modified/textures/ftbquests/mon_icon/unown_z_ques.png"
 hash = "ee89e2558abf454f5bbc6c7fd8f4ea0dae099c758aa3cd7cf36b46e54971eb5d"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/aaron.png"
+hash = "8eccea972d7d5f2b66919406e5aa88fc84ae0fa2f68b1aabcf679728928f33eb"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/agatha.png"
 hash = "9dddc4a0c5f0e54e8c486ee9e38bc0df4d4df4f77d5ed17074844c3e9f43bb31"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/barry.png"
 hash = "1acbf0dc42617f44afa76e9c8e52ead238c48c9b714017075e46428ad4054b46"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/barry_2.png"
+hash = "cddd92d2a4e8cbd1736526c0c7fc392627f32bf1f9d664dcefd4c92b5692b1be"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/barry_back.png"
+hash = "fe9932541b09f789467eae08a1157b9486b1416c982cce42f143110864aac2a2"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/bertha.png"
+hash = "b8ca2e34a7079dcd5e08aa778fcce72212d850ef804b458e5b4d003b169eb408"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/blackbelt.png"
@@ -4973,6 +5045,18 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/bugmaniac.png"
 hash = "d9b7245c2e94018c11aa9ead6582411b4175ccc11f816c1fe0ee08558258203f"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/byron.png"
+hash = "543b8deaf861d95b02399dc271d86f748a9791df7ce87a444c909ad2a0098dbf"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/candice.png"
+hash = "c6797730dec4ca14812037bf79cad82d9cd37f67e716e47bf68671516d21c9b1"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/charon.png"
+hash = "f4965753fec366c5046f528c51d8d5709afe1c4e4f10f6cea0290b935fc15b7c"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/clair.png"
 hash = "fdb61b784ff69d1d30e29d1566d23b6cd2de5a619eea25d0fcbca389261a63ae"
 
@@ -4985,6 +5069,14 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/cynthia.png"
 hash = "a1d1c7974e93b9308efd5796aa22685e220ec0e68c2fbfddc5af3ea1e61f0932"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/cyrus.png"
+hash = "0f237073186757f4cade7d1a32e972a8644ff79f072bdcc0d35240c8d76ed35e"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/cyrus_2.png"
+hash = "af799119ed48841886ec3437609a715696dc83886b1bb228efc422c245e0cca6"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/engineer.png"
 hash = "cc2cd469b078da1c9cf178f744bd42b44d0ec0bdcd580bb8703b70fc9ec165f6"
 
@@ -4993,8 +5085,16 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/erika.png"
 hash = "02972b89e7993907629b750953e5a07bf74859a40bd021f87e448188dbb48885"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/fantina.png"
+hash = "c7c95260847aa6b5e951e70665eb489a090c9e7e8cc9548cf8c1193e33d039c7"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/fisher.png"
 hash = "60da4f15d5c23b3f723f103ecdc2c87528068461d2bea8ae28ce00f3b9bb2965"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/flint.png"
+hash = "63a858c9018fbdd683b5142de42f1181964d78fd619d280a5a77260d6cf37503"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/gardenia.png"
@@ -5015,6 +5115,10 @@ hash = "2beef8a33e0762a2dd172f15ddf47e185452570fcc1c1a98f06d803c4289b417"
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/juggler.png"
 hash = "c047f3a48b14aabbf1a1eadab285692093c281ff8cd236d7a30eedeae7707ca6"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/jupiter.png"
+hash = "80a9eb9a0b70c49da8848fbe7b4dbb537aa2300f85e06fb6393847f4f65bcabd"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/koga.png"
@@ -5045,12 +5149,28 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/lt_surge.png"
 hash = "013a3f74e8910094304dd12299ff2fa759bf116fecde8304860d7d6ce79dd494"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/lucas_back.png"
+hash = "68dafb80cee7ea84c22df44f097a8da800dc73c15ea08d859ec5d28799bee3e8"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/lucas_portrait.png"
+hash = "e93c61e235f670d286c11e06f4b3086d07a6ad75e2559dda3737f43549458b8f"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/lucian.png"
 hash = "313b556f1244ae60c8805362c4ba47fca391ebdfe4494453ef79289ad6c5a4ac"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/mars.png"
+hash = "3da3ce7bef700e821f97b19da6848cff759a9b2f3f745ce8c5de9332b73db7e8"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/may.png"
 hash = "90f6eac48b6a0b287e615d2d754804c3ff1484a1114a9656c59ef40661a5675c"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/maylene.png"
+hash = "8e42bac4928b8f8254d51b12d2e65e6055a93c7fb9d59d75d0b7e122d71dd7ef"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/misty.png"
@@ -5089,6 +5209,10 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/red_portrait.png"
 hash = "f8887e94a2b9aa98a6308c1bcb1bfb579cd92a38c064fe9d19907b44ce5cddd7"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/roark.png"
+hash = "37fd1376f75e567d302135068324e5f3dc4769775849d62f40d1ba277179a496"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/rocket_archer.png"
 hash = "be5f5b439a63aebcc6bc3fdbe05225c0fb048d6e0cf8e056de7188e906c7f21e"
 
@@ -5113,6 +5237,10 @@ file = "kubejs/assets/modified/textures/ftbquests/trainers/sailor.png"
 hash = "d38b98ea9d75a17979ef5a494300369f39dee3bbb449cbb2702659c25abf8aa0"
 
 [[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/saturn.png"
+hash = "7aeadd7212d06beb7da53216ed87e5b55b32c11c2e73c224af1e21b899ab7a65"
+
+[[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/school_kid_f.png"
 hash = "851185cdaa4dd339af18659f704cb079599d5d3bb6a01e87b16ccbb61af072f9"
 
@@ -5135,6 +5263,14 @@ hash = "802ba5598fc3ea31367312d4043ad8329cb6f8b6a8f4b836f8b48c4216a7bb5c"
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/trainers/tuber_m.png"
 hash = "a763cd827023b13f67273625fab6ea63194ce76b90d7a2fbd20b9ddacd31ab9c"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/volkner.png"
+hash = "73776846462a729d873b4d652490f235fed71d0c8e2c611afc1a6a13c74fd9fa"
+
+[[files]]
+file = "kubejs/assets/modified/textures/ftbquests/trainers/wake.png"
+hash = "43018c4346ca3cbab6fc0a955c24a8dfde3befbec2e24d0779702310c2a81a74"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/type_icons/bug_full.png"
@@ -8112,7 +8248,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/cobblemon-interface-modded.pw.toml"
-hash = "90d5bf54484790e230200a152e90a31ee7e1388e4a488dff819d5031f6fa125b"
+hash = "c7540d589112ce9a4edae37afafe463afcb6873b7ed10535f2f40c44fe8e9175"
 metafile = true
 
 [[files]]
