@@ -18,7 +18,7 @@
 	chapter.33E63977963CD33D.title: "&3Silent Gear"
 	chapter.35BA9BDD51EA2E41.title: "The End"
 	chapter.3A540E4A05F9C254.title: "&3Apoth. Enchanting"
-	chapter.445E0A012CE83970.title: "&3The Ores Below"
+	chapter.445E0A012CE83970.title: "&8The Ores Below"
 	chapter.44AA793570165146.title: "&eChampions League"
 	chapter.48AD9200F46301BE.title: "&6Mob Hunter"
 	chapter.4AF3C71FC353146E.title: "&8Food \\& Farming"
@@ -130,6 +130,7 @@
 	quest.065739A79D4F6B3D.title: "Hoenn Ice Types"
 	quest.066ED74217A194D5.quest_desc: ["Mining Skill Card - Used to progress with Ultimine!"]
 	quest.072AD0FD23E0C283.quest_desc: ["This tome can be used to remove the enchantments from an item, though the process is lossy unless using a Tome of Extraction.  The basic Tome of Scrapping will only pull half of the enchantments, and destroy the item.  The Tome of Superior Scrapping will pull all the enchantments, but still destroys the item. In contrast, the Tome of Extraction will retrieve all the enchantments and leave the original item intact."]
+	quest.0740DE864E0C3E0A.quest_desc: ["Can go on your belt slot!"]
 	quest.0740DE864E0C3E0A.quest_subtitle: "Hold z to zoom!"
 	quest.0740DE864E0C3E0A.title: "Spyglass Improvements!"
 	quest.074C9C0469DFD312.title: "Unova Grass Types"
@@ -177,7 +178,7 @@
 	quest.0D1CFAEC3FCC6722.quest_desc: ["&dStructures to find a Sail Fossil: &r Eroded Pillar, Frozen Pond, Frozen Spike, Powdered Deposit, Spruce Tree "]
 	quest.0D1CFAEC3FCC6722.quest_subtitle: "Amaura"
 	quest.0D2089FFDE00676B.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -598,7 +599,7 @@
 	quest.27D95FFB4E69AE38.quest_desc: ["Another one of Krisp's personal fave items! This cool band&6 boosts the damage from all physical moves&r. This is perfect for those who prefer the  bash-em-til they faint method!"]
 	quest.280D5B956A76D91F.quest_desc: ["This tiny seed will boost your &2Grass-type moves!&r"]
 	quest.2822F18E54E2A869.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -822,9 +823,9 @@
 	quest.3C6694A14854EE68.title: "Dubious Disc"
 	quest.3C6BCDC1548589AD.quest_desc: ["This dazzling ball &6boosts Pikachu's Atk and SP. Atk&r, giving an edge to our beloved electric mouse."]
 	quest.3C6C4BBDDBB63C96.quest_desc: [
-		"Welcome to the world of &dModified Cobblemon!&r This isn't your typical Minecraft adventure—here, pokémon, technology, magic, and endless possibilities await!"
+		"Welcome to the world of &dModified Cobblemon!&r This isn't your typical Minecraft adventure—here, pokémon, technology, magic, and endless possibilities await with all our QOL Improvements!"
 		""
-		"You will periodically obtain &6PokéDollars&r from completing quests, \\& in game events! These can be used for the &bQuest Shop&r - &dThe Modified Exchange&r, as well as using to trade with villagers! <work in progress>"
+		"You will periodically obtain &6PokéDollars&r from completing quests, \\& in game events! These can be used for the &bQuest Shop&r - &dThe Modified Exchange&r!"
 		""
 		"Before you dive headfirst into automation, mystic rituals, or taking on team rocket, let’s make sure you’ve got the basics covered. "
 		""
@@ -1185,7 +1186,14 @@
 	]
 	quest.53553193E421B9C1.quest_subtitle: "Swirlix -> Slurpuff"
 	quest.53793A1711744622.quest_desc: ["This mystical pendant boosts the holders &3Water-Type moves!&r"]
-	quest.53B63856D2DA0DDE.quest_desc: ["&eA casual series but still with decent difficulty. Are you ready to conquer &dSinnoh&r&e?"]
+	quest.53B63856D2DA0DDE.quest_desc: [
+		"&cONLY CLICK THIS IF YOU ARE NEW / HAVE NO DATA SAVED WITH RADICAL COBBLEOM TRAINERS!!"
+		""
+		"Switching between series without completing it will overwrite your progress*"
+		""
+		""
+		"&eA casual series but still with decent difficulty. Are you ready to conquer &dSinnoh&r&e?"
+	]
 	quest.53B63856D2DA0DDE.quest_subtitle: "Based on the Sinnoh Region."
 	quest.53B63856D2DA0DDE.title: "Brilliant Diamond, Shining Pearl"
 	quest.53D72BFDCE980276.title: "Charcoal"
@@ -1275,6 +1283,8 @@
 	quest.58A05E9960629A37.quest_subtitle: "Used to spawn Elite Four: Lance"
 	quest.58A5D991AD0BDF1D.quest_desc: ["These sylish specs boost the &8&0holder's Dark-Type moves&r.&r"]
 	quest.58A96D504F6D0BDB.title: "Hoenn Bug Types"
+	quest.58FF3077CDC3AB45.quest_desc: ["Craft a structure compass to find structures up to 25k blocks away!"]
+	quest.58FF3077CDC3AB45.quest_subtitle: "Used for finding specific structures"
 	quest.5919CAA1EC57AA34.title: "Kanto Dragon Types"
 	quest.595126FE93EAD30D.quest_desc: ["This bulb will raise&6 your Pokemons' Sp. Atk by 1 stage&r when it takes damage from &9a Water Type move.&r"]
 	quest.595F5BFC46536D68.quest_desc: [
@@ -1383,7 +1393,7 @@
 		"&5To craft this necessary item you will need; 2 amethyst shards, 2 lapis lazuli, 2 iron Ingots, 1 gold ingot, and 1 iron helmet.&r"
 	]
 	quest.6046EF7E0D8F5D4D.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -1402,6 +1412,7 @@
 	quest.61F7AAFB73A1FCA1.title: "Sinnoh Dragon Types"
 	quest.626504DF6F2FA32E.quest_desc: ["Use &6/wits&r to see what structures are nearby."]
 	quest.626504DF6F2FA32E.quest_subtitle: "What is that Structure??"
+	quest.626504DF6F2FA32E.title: "Where am I???"
 	quest.6265FD29EAC0B159.title: "Kalos Steel Types"
 	quest.62686725CEF63030.title: "Jasmine"
 	quest.628A9A9BEEFEEDDD.title: "Paldea Region Starters"
@@ -1434,7 +1445,7 @@
 	]
 	quest.6377483B78DB08A7.title: "Hoenn Region Starters"
 	quest.6383508D2D8A0806.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -1827,7 +1838,7 @@
 		"If the holder is hit by a damaging move, the Air Balloon will pop, removing its effects. The item itself, however, will not be destroyed and will return to normal once the battle ends. "
 	]
 	quest.7D2697AB8904FDFC.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -1846,7 +1857,7 @@
 	quest.7E19F5FBDDDE651F.title: "Citrine Ball"
 	quest.7E3BCB0A4C7598E3.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
 	quest.7E410ABFDD97F894.quest_desc: [
-		"&n&l&4WARNING:&r "
+		"&n&lWARNING:&r "
 		""
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
@@ -1899,19 +1910,28 @@
 	reward_table.6BFF69C03C41F1D1.title: "mob drops - 3"
 	reward_table.6D49D96AB92F092E.title: "modified"
 	reward_table.6E8AAA979EFAADB9.title: "cobblemon - battle items"
+	task.0120E1B98D2816FD.title: "Commander Jupiter"
 	task.02F8BF4FF138982D.title: "Revive a fossil mon!"
 	task.0336F5B103389F65.title: "click to recieve"
 	task.03824593F4CFAA4F.title: "Any #c:plates"
 	task.05A7956910C8712E.title: "Summoning Familiars"
+	task.06194C439AD2D9C0.title: "Commander Mars 2"
+	task.063C21CB308549E0.title: "Gym Leader Byron"
+	task.065B64E65C143BEF.title: "Gym Leader Fantina"
+	task.07CF829A3DA8E7FF.title: "Barry Battle 1"
+	task.087D0BD627C067D9.title: "Galactic Boss Cyrus"
+	task.093F45E5EBD5DFE5.title: "Gym Leader Wake"
 	task.097D63388CDECE0E.title: "Specific Card"
 	task.09AEC91D5F8E67AE.title: "Any #cobblemon:mints"
 	task.0A22F21D4514AC08.title: "Form & Aspect"
 	task.0AD3941FE8028987.title: "Exclusive mons!"
+	task.0B794FEFD2FA7E4F.title: "Barry Final Rival"
 	task.0C80121CB1DF1B5D.title: "Any #cobblemon:pokedex"
 	task.0CDC0CE8213EC844.title: "Pasture must be loaded"
 	task.0D52C10DE22BED66.title: "Build a fossil Machine"
 	task.100DF988FEA2C144.title: "Any #minecraft:logs"
 	task.10E5A09BC4A42BE1.title: "~Ultimine~"
+	task.117952267CF6CE7E.title: "Commander Saturn"
 	task.12599C869A4D32A6.title: "Any #c:rods"
 	task.12FD24418A1A96B9.title: "Any #silentgear:blueprints"
 	task.14B528A7C80DDD6E.title: "Any #cobblemon:fossils"
@@ -1929,6 +1949,7 @@
 	task.202E55490CD5350B.title: "Any #cobblemon:berries"
 	task.2149A9C3227F6130.title: "Any #cobblemon:type_gems"
 	task.2248DF9C96CCFB93.title: "Full Party of Shinies!"
+	task.237FB28198C0CBBB.title: "Mars Jupiter Double"
 	task.241E9AE7FE81F125.title: "Any #c:crops"
 	task.24FB1538225F2269.title: "TYPE BOOSTING"
 	task.2A9658243ADAC536.title: "Combine Items"
@@ -1940,15 +1961,20 @@
 	task.2E379B119390BD4A.title: "Any #c:crops/mint"
 	task.2F86CDE6A03524AA.title: "Any #cobblemon:apricorns"
 	task.2FA7F342FC8DD8AE.title: "Moves"
+	task.30ACBDECF508BD8C.title: "Elite Four Lucian"
+	task.33CF276A3642E78E.title: "Commander Saturn 2"
 	task.341D5C636025F750.title: "Champions League"
 	task.342222CF128E2602.title: "Any #cobblemon:sweets"
 	task.34777A2453DAE448.title: "Trainers"
+	task.351220E2D71C88B4.title: "Elite Four Bertha"
 	task.356B0B62EB53419C.title: "Catch 500 Fire-Type Pokemon"
 	task.3759023A10358EB1.title: "Any #cobblemon:tumblestones"
 	task.37670642F75FF1D0.title: "More to come"
 	task.3936D2B409299F92.title: "Any #cobblemon:berries"
+	task.3C2EABBF60D3460A.title: "Galactic Boss Cyrus 2"
 	task.3D3DE2643E50A4F7.title: "Any #cobblemon:berries"
 	task.3E5EBA1EFF801DAC.title: "Cobblemon Extras"
+	task.3E8C4A00A2478C58.title: "Elite Four Flint"
 	task.3E9251A7A6C4DD0C.title: "Starter Blueprints"
 	task.3FB26ADD79C50811.title: "Unknown type: ftbchunks:claim_chunks"
 	task.40BE5F8EDB2E0801.title: "Why must I submit?"
@@ -1960,6 +1986,7 @@
 	task.458CE6320E29219D.title: "Explore!"
 	task.45C05A39AB498BCF.title: "More storage?"
 	task.48D8F3FAE72576C6.title: "Repeatable Quests"
+	task.4B14972D76AD981A.title: "BDSP!"
 	task.4BBEF1E9ABA4469C.title: "Unlockable Ultimine"
 	task.4DF8845F405A6375.title: "Any #cobblemon:apricorn_sprouts"
 	task.4F11941A3076A00E.title: "EVO STONES?"
@@ -1971,8 +1998,12 @@
 	task.5868D4B0472E315B.title: "Any #cobblemon:plants"
 	task.58CEF0D65D843475.title: "Brock"
 	task.58E32C1EA24AB829.title: "Any #ultimine_addition:mining_skill_card"
+	task.5AE0955C2576D023.title: "Gym Leader Roark"
+	task.5CC4CEC3C7A1AC9D.title: "Commander Mars"
 	task.5FCD05B3C2C76356.title: "Skip Progress"
+	task.6053E7464BACBC0C.title: "Gym Leader Maylene"
 	task.638DBEBCCD8DA41A.title: "Completionist"
+	task.63F7D534ECF49F79.title: "Gym Leader Volkner"
 	task.640A4C2298948CA1.title: "Any #c:dusts/iron"
 	task.6441B7B9DF767AFC.title: "Egg Groups"
 	task.6634DA4AF480256C.title: "Cobblemon Extras"
@@ -1980,20 +2011,26 @@
 	task.66952071FCBF8F47.title: "FTB Mods!"
 	task.66CEB846C28BF8CB.title: "Enchantmets"
 	task.6978CDF80A35B992.title: "DEX SECTION IS A WIP!"
+	task.6984E152931ABF96.title: "Elite Four Aaron"
 	task.699D3B962C6CCF46.title: "Any #cobblemon:tier_5_poke_balls"
 	task.6A92FB2B20B8B33E.title: "Check out Champions League!"
 	task.6A97EE9320E2A4A6.title: "Level Cap?!"
+	task.6DBD96F81CCA3700.title: "Gym Leader Candice"
+	task.6E1BC37B21BEA425.title: "Barry Battle 2"
 	task.6E50118539F7C215.title: "Gotta Hatch ‘Em All"
 	task.6E50A10CF724B7F1.title: "Complete collection"
 	task.7058FB73F98E6CB0.title: "Any #functionalstorage:drawer"
 	task.71BDF56668A9A014.title: "Any #c:seeds"
 	task.75E6D59319FF80C8.title: "Claims"
+	task.7832529314B3B64F.title: "Barry 3"
 	task.79009E592ABDBEEF.title: "fill remaining held items"
 	task.79C541499C6C2E5B.title: "Type-Boosting Items"
+	task.7A0E8F4B7E37272F.title: "Gym Leader Gardenia"
 	task.7A29C96C42A52CE3.title: "Radical Red"
 	task.7AFBEC0C6E882060.title: "Starter Completionist"
 	task.7C32A663A495C247.title: "Fossil Completionist"
 	task.7CD257FAD325A2EC.title: "Evolution Items"
+	task.7D0BF51174841A94.title: "Champion Cynthia"
 	task.7D589771CBEE4E0F.title: "Unknown type: cobblemon:catch_pokemon"
 	task.7E4F58DA7D60D982.title: "Any #cobblenav:pokenav"
 	task.7F6185FDB0123D56.title: "Fossil Combinations!"

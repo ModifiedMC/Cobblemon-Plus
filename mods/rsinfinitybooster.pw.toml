@@ -1,0 +1,13 @@
+name = "RSInfinityBooster"
+filename = "rsinfinitybooster-neoforge-1.21.1-1.0.0.48.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f104583702e3ea99e533e3198e0d47757b97f5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6487415
+project-id = 446870

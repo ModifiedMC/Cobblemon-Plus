@@ -6,7 +6,7 @@
 	group: "1F4AE109ED6749AD"
 	icon: {
 		components: {
-			"ftbquests:icon": "relics:textures/gui/description/general/badges/relic/flawless_relic.png"
+			"ftbquests:icon": "modified:textures/ftbquests/backgrounds/winner_trophy.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -30,14 +30,6 @@
 			y: 0.5d
 		}
 		{
-			height: 3.0d
-			image: "relics:textures/gui/description/general/badges/relic/flawless_relic.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.5d
-			y: 9.5d
-		}
-		{
 			height: 1.0d
 			image: "cobblemon:item/poke_balls/master_ball"
 			rotation: 0.0d
@@ -52,15 +44,6 @@
 			width: 1.0d
 			x: 4.5d
 			y: 6.0d
-		}
-		{
-			height: 4.0d
-			hover: ["Under construction"]
-			image: "minecraft:item/empty_slot_pickaxe"
-			rotation: 0.0d
-			width: 4.0d
-			x: 13.0d
-			y: 4.5d
 		}
 		{
 			height: 5.0d
@@ -81,11 +64,67 @@
 		}
 		{
 			height: 1.0d
-			image: "relics:textures/abilities/missing.png"
+			image: "minecraft:block/trial_spawner_side_active_ominous"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
-			y: 4.5d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0483_dialga/dialga.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0484_palkia/palkia.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			height: 1.5d
+			image: "modified:textures/ftbquests/logos/pmon_bd.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "modified:textures/ftbquests/logos/pmon_sp.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "modified:textures/ftbquests/logos/pmon_rr.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.5d
+			y: 9.5d
 		}
 	]
 	order_index: 1
@@ -173,24 +212,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4A9CD8DF4334CA09"
-			rewards: [
-				{
-					id: "46967C17C062D7B5"
-					item: {
-						count: 1
-						id: "pkgbadges:big_badges_box"
-					}
-					type: "item"
+			rewards: [{
+				id: "46967C17C062D7B5"
+				item: {
+					count: 1
+					id: "pkgbadges:big_badges_box"
 				}
-				{
-					id: "72C31525D4E52F57"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			size: 2.5d
 			tasks: [{
 				id: "34777A2453DAE448"
@@ -694,17 +723,34 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "simplyswords:item/empowered_remnant"
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/lucas_back.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
+			icon_scale: 1.5d
 			id: "53B63856D2DA0DDE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/rctmod player set series bdsp @p"
+					disable_reward_screen_blur: true
+					exclude_from_claim_all: true
+					id: "19704F05E87DD219"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/say !!! Hi, @p ! You have now started on your path to champion of the Sinnoh Region! Welcome to \"Brilliant Diamond, Shining Pearl\"."
+					id: "777671262B845280"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
-				id: "1AF22FC4F50844C3"
-				type: "custom"
+				id: "4B14972D76AD981A"
+				type: "checkmark"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 1.0d
 		}
 		{
@@ -740,16 +786,399 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
-			id: "767C4468F48635F0"
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/roark.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5206DA39EF40267E"
 			tasks: [{
-				id: "1F513AB9F8DEF7FC"
+				id: "5AE0955C2576D023"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/mars.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "36D23AA7ADD23E72"
+			tasks: [{
+				id: "5CC4CEC3C7A1AC9D"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/jupiter.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B65C952F02FD3F8"
+			tasks: [{
+				id: "0120E1B98D2816FD"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/gardenia.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "50A27C2F51A711E2"
+			tasks: [{
+				id: "7A0E8F4B7E37272F"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/barry.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "554C4A283B1537CB"
+			tasks: [{
+				id: "07CF829A3DA8E7FF"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/maylene.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2981BA6FC0E8510A"
+			tasks: [{
+				id: "6053E7464BACBC0C"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/wake.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "61D00728EEBE8C4B"
+			tasks: [{
+				id: "093F45E5EBD5DFE5"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/barry.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "269A3318AFDED628"
+			tasks: [{
+				id: "6E1BC37B21BEA425"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/fantina.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "62973A2788EDA099"
+			tasks: [{
+				id: "065B64E65C143BEF"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/barry.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5000CF36055EC89D"
+			tasks: [{
+				id: "7832529314B3B64F"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/byron.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67DE89D4243C2F29"
+			tasks: [{
+				id: "063C21CB308549E0"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/saturn.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47E1CA67D58E20BF"
+			tasks: [{
+				id: "117952267CF6CE7E"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/mars.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C7CB29A9C64364E"
+			tasks: [{
+				id: "06194C439AD2D9C0"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/candice.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1F3AF58B2297B52E"
+			tasks: [{
+				id: "6DBD96F81CCA3700"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/cyrus.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4764A3913D8E4BE9"
+			tasks: [{
+				id: "087D0BD627C067D9"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/saturn.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3B80211FD37355FC"
+			tasks: [{
+				id: "33CF276A3642E78E"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/jupiter.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6FA60108865A31CB"
+			tasks: [{
+				id: "237FB28198C0CBBB"
 				type: "checkmark"
 			}]
 			x: 13.0d
-			y: 2.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/cyrus.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6A910038D72D23A2"
+			tasks: [{
+				id: "3C2EABBF60D3460A"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/volkner.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4F8CA40C986EA27E"
+			tasks: [{
+				id: "63F7D534ECF49F79"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/barry_back.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "57B7DA6546C6396B"
+			tasks: [{
+				id: "0B794FEFD2FA7E4F"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/aaron.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B5F85BF8AA75893"
+			tasks: [{
+				id: "6984E152931ABF96"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/bertha.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "08C535D38E761D21"
+			tasks: [{
+				id: "351220E2D71C88B4"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/flint.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B9037536F9B9CA0"
+			tasks: [{
+				id: "3E8C4A00A2478C58"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/lucian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1C7C22A12D409120"
+			tasks: [{
+				id: "30ACBDECF508BD8C"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/cynthia.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D124ABC55250B59"
+			tasks: [{
+				id: "7D0BF51174841A94"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			id: "73CE42B9656AAA15"
+			invisible: true
+			rewards: [{
+				command: "/rctmod player set progress @p after champion_cynthia_05a7"
+				id: "1E951FD9DDBDA902"
+				permission_level: 2
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2CECBA48B36F58A5"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 10.0d
 		}
 	]
 }
