@@ -6572,6 +6572,11 @@ hash = "1dffb7b72d41c7457849c09715e662ae3aebcef1988ce8f6fc060c46170b1a4a"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+metafile = true
+
+[[files]]
 file = "mods/emotecraft-forge.pw.toml"
 hash = "eca084cc366d216f4bff73da142efd1eaafd2fc9fe2fcae8e02e115daf864339"
 metafile = true
@@ -6644,6 +6649,11 @@ metafile = true
 [[files]]
 file = "mods/extra-disks.pw.toml"
 hash = "47266b5e6441314d03c503401d5339aea698c5295affd88bf4cbfcd0d38a484d"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "1e55e6873a5a1dcf5a326e409c2cc856ffbc950183fe61f96e76e778e1cbe4a3"
 metafile = true
 
 [[files]]
