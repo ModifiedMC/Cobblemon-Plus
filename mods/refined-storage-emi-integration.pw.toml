@@ -1,0 +1,13 @@
+name = "Refined Storage - EMI Integration"
+filename = "refinedstorage-emi-integration-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66302f8ea98bf4fb9c7beb948556bda98539b0cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6360283
+project-id = 1230691
