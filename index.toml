@@ -2670,23 +2670,11 @@ hash = "5b03458fce4ea77f9a755dfae5ba8a724fb74c982571d3300efd057ac39721b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e62cac0363d3e3ff13c0b3d987e53c4f70775917748ba6446b4d1d2ce123481d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "35631d0ba38533d1df06af150b5940889bdb948f90f263e6ac77187d01dfa5f3"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/apothic_enchanting.snbt"
-hash = "77c7a42e2738e704be2b1d306d500e743e50e33a3d606dd1a35cf873853488b8"
+hash = "07b8cab997134e0c19a8fe87f841144a53795943218e5f4d8504e709b8d4bee4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armour__trims.snbt"
-hash = "de8e223fdd40eac23e3f45b4be236fd217959e5ea5405f32b0823dc7127bc69f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "9006db82087eeb8137c8aed8ec341a260947b45d9b0461972ce8da98bda49418"
+hash = "d46c1215fda8585cc158e1f023c259bf076fcbe8bdf1039693785397ac5c8869"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/battle_items.snbt"
@@ -6770,6 +6758,11 @@ hash = "411f4aad76bde144db1556ba7265e7b311463df0e4eb93f32fd5cd27a73c77b9"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "35bad9f01671b5b4284ad547dab6635b2a029980c88d82007690e9232a5cb420"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "2728d8eb6fced8220aaebafacfdef1ebca454657fbb215cc46d80442efd25dab"
 metafile = true
@@ -7830,6 +7823,11 @@ hash = "9d1a63a82efecfe15d459532dc8d41d59c4d0191036c60ee4a1a0731e3c1cf8d"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-jei-integration.pw.toml"
+hash = "4ef51a87a42bf93295c8af21e543d41b204a7b604a810a2329923937362d2e61"
+metafile = true
+
+[[files]]
 file = "mods/refined-storage-quartz-arsenal.pw.toml"
 hash = "7b0b5aceec69413e3a2d3e0441f095165c98cd66d47c5604eeb3f54126220cda"
 metafile = true
@@ -8107,11 +8105,6 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "97f0df4c55858f545b95ccaff7e919fccbc26910555ea0cc6087553bc1ae5d61"
-metafile = true
-
-[[files]]
-file = "mods/structure-compass.pw.toml"
-hash = "0a6d45dcc95c67b042daf942c7015eedcd16477d7d7a472821e6187e8ba1e4d2"
 metafile = true
 
 [[files]]
