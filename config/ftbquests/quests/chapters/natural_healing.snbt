@@ -44,8 +44,8 @@
 				item: { count: 1, id: "cobblemon:red_mint_leaf" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D434229693AAB78"]
@@ -73,8 +73,8 @@
 				item: { count: 1, id: "cobblemon:blue_mint_leaf" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D434229693AAB78"]
@@ -102,8 +102,8 @@
 				item: { count: 1, id: "cobblemon:cyan_mint_leaf" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D434229693AAB78"]
@@ -131,8 +131,8 @@
 				item: { count: 1, id: "cobblemon:pink_mint_leaf" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D434229693AAB78"]
@@ -160,8 +160,8 @@
 				item: { count: 1, id: "cobblemon:green_mint_leaf" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D434229693AAB78"]
@@ -189,10 +189,11 @@
 				item: { count: 1, id: "cobblemon:white_mint_leaf" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["55B2618C69E9CFCC"]
 			id: "66DD4EBB58D0E22A"
 			rewards: [{
 				id: "6042E9BAEEB9B6FB"
@@ -208,7 +209,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "55B2618C69E9CFCC"
@@ -232,7 +233,7 @@
 				}
 			]
 			x: -1.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			id: "6D434229693AAB78"
@@ -249,8 +250,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops/mint)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			id: "7BF009042089D88E"
@@ -267,8 +268,8 @@
 				item: { count: 1, id: "cobblemon:lonely_mint" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			id: "6A395E40D1C7FEA4"
@@ -285,8 +286,8 @@
 				item: { count: 1, id: "cobblemon:serious_mint" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			id: "2366DA4610BDF5F7"
@@ -322,8 +323,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:apricorns)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -352,8 +353,8 @@
 				item: { count: 1, id: "cobblemon:red_apricorn" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -382,8 +383,8 @@
 				item: { count: 1, id: "cobblemon:yellow_apricorn" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -412,8 +413,8 @@
 				item: { count: 1, id: "cobblemon:green_apricorn" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -442,8 +443,8 @@
 				item: { count: 1, id: "cobblemon:blue_apricorn" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -472,8 +473,8 @@
 				item: { count: 1, id: "cobblemon:pink_apricorn" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -502,8 +503,8 @@
 				item: { count: 1, id: "cobblemon:black_apricorn" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -532,10 +533,11 @@
 				item: { count: 1, id: "cobblemon:white_apricorn" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["55B2618C69E9CFCC"]
 			id: "34ED6C315089450B"
 			rewards: [{
 				id: "0A49AC091EA8DD58"
@@ -550,8 +552,8 @@
 				item: { count: 1, id: "cobblemon:cheri_berry" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: 0.5d
+			y: -7.5d
 		}
 		{
 			id: "1EECFD384F3A607E"
@@ -568,8 +570,8 @@
 				item: { count: 1, id: "cobblemon:mulch_base" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -587,8 +589,8 @@
 				item: { count: 1, id: "cobblemon:growth_mulch" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -606,8 +608,8 @@
 				item: { count: 1, id: "cobblemon:rich_mulch" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -625,8 +627,8 @@
 				item: { count: 1, id: "cobblemon:surprise_mulch" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -644,8 +646,8 @@
 				item: { count: 1, id: "cobblemon:loamy_mulch" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -663,8 +665,8 @@
 				item: { count: 1, id: "cobblemon:coarse_mulch" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -682,8 +684,8 @@
 				item: { count: 1, id: "cobblemon:peat_mulch" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -701,8 +703,8 @@
 				item: { count: 1, id: "cobblemon:humid_mulch" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1EECFD384F3A607E"]
@@ -720,8 +722,8 @@
 				item: { count: 1, id: "cobblemon:sandy_mulch" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["44DEDD13A522DC22"]
@@ -747,8 +749,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:apricorn_sprouts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			id: "50277EE6B6C87232"
@@ -765,8 +767,8 @@
 				item: { count: 1, id: "cobblemon:adamant_mint" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			id: "2E3C63F2D30A475A"
@@ -783,8 +785,8 @@
 				item: { count: 1, id: "cobblemon:naughty_mint" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			id: "088C7547BD7DE90A"
@@ -801,8 +803,8 @@
 				item: { count: 1, id: "cobblemon:brave_mint" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			id: "662644AB030FD0E8"
@@ -819,8 +821,8 @@
 				item: { count: 1, id: "cobblemon:bold_mint" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			id: "51AB4942271B075B"
@@ -837,8 +839,8 @@
 				item: { count: 1, id: "cobblemon:impish_mint" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "5A11D30FFAB5F305"
@@ -855,8 +857,8 @@
 				item: { count: 1, id: "cobblemon:lax_mint" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			id: "02215A92BDD214FF"
@@ -873,8 +875,8 @@
 				item: { count: 1, id: "cobblemon:relaxed_mint" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			id: "009B8E9C9F0F0C42"
@@ -891,8 +893,8 @@
 				item: { count: 1, id: "cobblemon:modest_mint" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			id: "30BE785B59929F65"
@@ -909,8 +911,8 @@
 				item: { count: 1, id: "cobblemon:mild_mint" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			id: "17861AFE4A970D76"
@@ -927,8 +929,8 @@
 				item: { count: 1, id: "cobblemon:rash_mint" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "3C8A1662DFB2E7F4"
@@ -945,8 +947,8 @@
 				item: { count: 1, id: "cobblemon:quiet_mint" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			id: "5516C8A69FF3E564"
@@ -963,8 +965,8 @@
 				item: { count: 1, id: "cobblemon:calm_mint" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			id: "4B3805C1369BC30B"
@@ -981,8 +983,8 @@
 				item: { count: 1, id: "cobblemon:timid_mint" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "57EFD5782E083F85"
@@ -999,8 +1001,8 @@
 				item: { count: 1, id: "cobblemon:gentle_mint" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			id: "0B365D156A2AF58C"
@@ -1017,8 +1019,8 @@
 				item: { count: 1, id: "cobblemon:hasty_mint" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			id: "7699B5B5D2E0E9AD"
@@ -1035,8 +1037,8 @@
 				item: { count: 1, id: "cobblemon:careful_mint" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			id: "67AB8EB88F855BB4"
@@ -1053,8 +1055,8 @@
 				item: { count: 1, id: "cobblemon:sassy_mint" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			id: "18AE0E5FFC99BDFF"
@@ -1071,8 +1073,8 @@
 				item: { count: 1, id: "cobblemon:jolly_mint" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "6C390213B22CBDE3"
@@ -1089,8 +1091,794 @@
 				item: { count: 1, id: "cobblemon:naive_mint" }
 				type: "item"
 			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "79485234A497F43C"
+			tasks: [{
+				id: "556DAD4C4951B303"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "71F89479B2825D7E"
+			tasks: [{
+				id: "5AF3EA46C38E0783"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "59E7AA2CE4FD6445"
+			tasks: [{
+				id: "423E752D0334AA2C"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "2B6CCEBC24239B0A"
+			tasks: [{
+				id: "33B526CA2B28B302"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "2449C747CEC8C148"
+			tasks: [{
+				id: "5D0FA77B908E3EDF"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "03B1A27032B14251"
+			tasks: [{
+				id: "524EF899592F6029"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "4669A109685CB8FF"
+			tasks: [{
+				id: "6360122EF4085596"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "21A8033263B211A4"
+			tasks: [{
+				id: "178F98FECC7BF7E2"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "450428EBD3E3C0BA"
+			tasks: [{
+				id: "2A70F73F96FD46BA"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "688473E3C471D414"
+			tasks: [{
+				id: "523D95A050BB8BFC"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "42B13A2DB35ACC90"
+			tasks: [{
+				id: "1E7622F83112D58A"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
 			x: 4.5d
-			y: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3DB61C568903752A"
+			tasks: [{
+				id: "5990825A8CB87F1A"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "02A565F7A2A52582"
+			tasks: [{
+				id: "0871BC17A4738484"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "5507CC953FDA1A01"
+			tasks: [{
+				id: "327409E0F32E5525"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7A58BDE7EB5861AE"
+			tasks: [{
+				id: "60AC017A02E9187A"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "71F7EB6A202D78D5"
+			tasks: [{
+				id: "0CD694F2B9FD1E4F"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "4193BA094FB5A772"
+			tasks: [{
+				id: "1BD4551820A28557"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "1519DF5B34752F00"
+			tasks: [{
+				id: "701FF91928F0EC35"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3C0667C71FC18018"
+			tasks: [{
+				id: "29279F4317B3A570"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "37BE571B6CD98AF5"
+			tasks: [{
+				id: "17A6FC26BAAB3454"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "5FA8DBC3B6C0231D"
+			tasks: [{
+				id: "734D0C1351254A07"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "770B0DD8F5DC0F18"
+			tasks: [{
+				id: "3C20A7503E310F59"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "4E0736A9297FA0CC"
+			tasks: [{
+				id: "1FAD94E17721284D"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "679990300849CA69"
+			tasks: [{
+				id: "20A3D96BEB9F17FC"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "12EE59056ABBE3D2"
+			tasks: [{
+				id: "392DBA63E63B48D2"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "20939279E9C17C38"
+			tasks: [{
+				id: "76813B8874B14B4F"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "62761D75BBD96456"
+			tasks: [{
+				id: "0F4CDEE39F479132"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "1284BB6015A99DE0"
+			tasks: [{
+				id: "2C129BEA15183789"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7A3843F481339880"
+			tasks: [{
+				id: "6B58B10616B80520"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "69D4D5942EB49A0F"
+			tasks: [{
+				id: "47D52743C9F8A6DD"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3E97182528FBFE50"
+			tasks: [{
+				id: "76246578FD6EE178"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3015E8C9DBCBD3A0"
+			tasks: [{
+				id: "61E9B5CC1EDF5D06"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "1B8A1BCDC8769A93"
+			tasks: [{
+				id: "6DFB786287E12FF7"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "1A48290E7F214BF4"
+			tasks: [{
+				id: "4C34BD39A2769776"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "4287D70BC63003E2"
+			tasks: [{
+				id: "3A6A9DEC1E621EEB"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7B2A6E821D72749A"
+			tasks: [{
+				id: "673961EF53D44AB5"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "6422EB9E3B793D5C"
+			tasks: [{
+				id: "766F8F77BBFA9879"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "449EE0E1386130A3"
+			tasks: [{
+				id: "25D4FD11C930869E"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "5729BB31D3F25E33"
+			tasks: [{
+				id: "4E21AF1818F6BC41"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "011DE6DDE7076901"
+			tasks: [{
+				id: "4282F082C127F91E"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "6E88404A5D123EB4"
+			tasks: [{
+				id: "69A84906AB017F69"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "23246F65796B9AF3"
+			tasks: [{
+				id: "35F98BE9EC11171E"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "0C258624F5BC8C93"
+			tasks: [{
+				id: "1D0EDF1A1199E711"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "0AC02DCE7CF34CFC"
+			tasks: [{
+				id: "699DA1FF479CF898"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "19088EE3393ABA80"
+			tasks: [{
+				id: "6DFABC324DFA5EF4"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "383B8E2F83EEA085"
+			tasks: [{
+				id: "08D51BD34F6BBFD3"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7E75C4A9C561006C"
+			tasks: [{
+				id: "473563C311B83BDA"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "044470153EBD4314"
+			tasks: [{
+				id: "759F675E278443EE"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "0F317C467E704F89"
+			tasks: [{
+				id: "1EC140E23B768EC2"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "490196D4AFB4109B"
+			tasks: [{
+				id: "6DC4000D0C222643"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "0BC59FE6F710D072"
+			tasks: [{
+				id: "5B367DF1E89CC379"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "1FF30F5A7F2507E4"
+			tasks: [{
+				id: "13808436ACA3EBDA"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "43163EB044178AF3"
+			tasks: [{
+				id: "566EB19BE5E5151F"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "4C61E10117BC96E0"
+			tasks: [{
+				id: "61C61D622809A04A"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "475D2563DCFD80F3"
+			tasks: [{
+				id: "793DD6A534107281"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "2CF7A1EA73A3019D"
+			tasks: [{
+				id: "1DF57BF06D40D654"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3874039A61B0F00B"
+			tasks: [{
+				id: "608771BEA2FAF2D3"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "41745D9BC43C0BDB"
+			tasks: [{
+				id: "4144F446A1866131"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "10484D7AE5784586"
+			tasks: [{
+				id: "03D907CEC8B2276B"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "6DB346601C14BE3E"
+			tasks: [{
+				id: "174AB4AB09E9F243"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "27BC7A7F1DA13CBE"
+			tasks: [{
+				id: "6FA5E5A1B13D1040"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "31DEF3F68077A1FB"
+			tasks: [{
+				id: "163D1C8BE2036F7D"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "3B7CE5C7E5ED283F"
+			tasks: [{
+				id: "01B3F1DBB17EB394"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "58A329E0A1A6E0CF"
+			tasks: [{
+				id: "7E56E9F977096912"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7B8B8DEEE5B11934"
+			tasks: [{
+				id: "699F29AF8BA58F20"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "7A1E93F70365FA28"
+			tasks: [{
+				id: "65EF79162D18477D"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55B2618C69E9CFCC"]
+			id: "55B058ACDB811327"
+			tasks: [{
+				id: "1A5E448D5B966F25"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "7342814E77C05218"
+			rewards: [{
+				id: "52A41E4011923961"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "45876C0F718E908E"
+				item: { count: 1, id: "berrypouch:berry_pouch_30" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "02036208ACA48E38"
+			rewards: [
+				{
+					count: 8
+					id: "645C32A0E7CC8CB8"
+					item: {
+						count: 1
+						id: "cobblemon:vivichoke_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "4E028CB8C31ACF6F"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "299DA81E8693ED4F"
+				item: { count: 1, id: "cobblemon:vivichoke" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
 		}
 	]
 }

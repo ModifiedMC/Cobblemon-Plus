@@ -8,7 +8,7 @@
 	chapter.0D50D729CD170633.title: "&3Sophisticated Storage"
 	chapter.0EA78EDC04F4F381.title: "The Overworld"
 	chapter.12A92C174D824303.title: "The Aether"
-	chapter.14700AA514981A98.title: "&5Gotta Catch 'em All"
+	chapter.14700AA514981A98.title: "&5&lGotta Catch 'em All"
 	chapter.174BFB085BAE897F.title: "&3Ars Nouveau"
 	chapter.18CDA60FF118F821.title: "&3Pokeballs"
 	chapter.1EBE16D7B09460C9.title: "&3Breeding \\& Fishing"
@@ -19,14 +19,14 @@
 	chapter.35BA9BDD51EA2E41.title: "The End"
 	chapter.3A540E4A05F9C254.title: "&3Apoth. Enchanting"
 	chapter.445E0A012CE83970.title: "&8The Ores Below"
-	chapter.44AA793570165146.title: "&eChampions League"
+	chapter.44AA793570165146.title: "&e&lChampions League"
 	chapter.48AD9200F46301BE.title: "&6Mob Hunter"
 	chapter.4AF3C71FC353146E.title: "&8Food \\& Farming"
 	chapter.550C0D9C4C04DC2F.chapter_subtitle: ["Unlock Ultimine!"]
 	chapter.550C0D9C4C04DC2F.title: "&3Basic Tools"
 	chapter.55606C3E0A76E6B8.title: "&3Lightmans &eCurrency"
 	chapter.55A09894E962312A.title: "&3Held Items"
-	chapter.5CE9470963026BD4.title: "&dThe Modified Exchange"
+	chapter.5CE9470963026BD4.title: "&d&lThe Modified Exchange"
 	chapter.5F3C2D5936DF2212.title: "&3Evo Items"
 	chapter.603EDE1FAA1E414B.title: "&3Sophisticated Backpacks"
 	chapter.62FB5E6CC09105B7.title: "Pokeballs"
@@ -62,14 +62,31 @@
 	quest.006AF107DE0373E2.title: "White Herb"
 	quest.00AB6F755789A4B2.quest_subtitle: "It has a static catch rate of 1×. "
 	quest.00C07F48A8B0D6B8.title: "Galar Flying Types"
+	quest.011DE6DDE7076901.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.01C9A6C228EDC1A1.title: "Any TM Item"
+	quest.01E593EF7E9F5B61.quest_desc: ["Causes a Pokémon that makes direct contact with the holder to take damage."]
 	quest.01E621F5343075C2.quest_desc: [
 		"There are four different Mining Skill Card types: Pickaxe, Axe, Shovel, and Hoe."
 		""
 		"You can craft one of these types by putting the empty card with one of the mentioned tools."
 	]
 	quest.01E621F5343075C2.quest_subtitle: "Using the Skills Record pt.1"
+	quest.02036208ACA48E38.quest_desc: [
+		"&dVivichoke&r is a rare item only obtained by harvesting vivichoke crops grown from vivichoke seeds. Its primary use is to increase a medicine's potency, but it is also used for a wide variety of other healing/food items."
+		""
+		"Right-click the item in EMI to see all available recipes!"
+	]
 	quest.0282C4ED58CC4CDD.quest_desc: ["Magical robes will increase the wearers mana regen and can be upgraded with special abilities using Threads. The Sorceror's set provides the lowest defence, but provides the most powerful set of slots for Threads. The Arcanist's and Battlemage's sets provide increasingly more defence, but fewer and less powerful Thread Slots."]
 	quest.0282C4ED58CC4CDD.title: "Get some robes!"
+	quest.02A565F7A2A52582.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.02AC9EF873B299F2.title: "Night Hunter: Dusk Ball"
 	quest.02FD79EADB51EBC0.quest_desc: [
 		"The &dPoké Rod&r is a tool used to &6fish up various Pokémon from water&r via casting a bobber. There are &648 unique Poke Rods&r based on the Poké Ball used to craft the Poké Rod. "
@@ -90,6 +107,11 @@
 	quest.03A4B6CFE315AA46.title: "Defense Based "
 	quest.03A73528FCD209B3.quest_subtitle: "Water wheels"
 	quest.03A73528FCD209B3.title: "Hydro Power!"
+	quest.03B1A27032B14251.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.03EF866E75AAAF42.quest_subtitle: "+ Sp. Defense"
 	quest.043388CAF9A98011.quest_desc: [
 		"A &eBlack Augurite&r is an evolution item that is used to evolve &dScyther&r into &dKleavor&r. "
@@ -101,6 +123,11 @@
 	]
 	quest.043388CAF9A98011.quest_subtitle: "Scyther -> Kleavor"
 	quest.04417F793BF98E2D.title: "Big Root"
+	quest.044470153EBD4314.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.0450F04A3921A60D.quest_desc: [
 		"A &dRestoration Tank&r is a utility block which is used as part of the &6Resurrection Machine multi-block&r. It functions as the chamber in which the fossil embryo grows within and can contain liquid organic material. "
 		"{@pagebreak}"
@@ -109,6 +136,7 @@
 		"Check out the wiki for more information regarding the different values for each kind of &6OM&r"
 	]
 	quest.0481F95AED479F59.title: "Kalos Psychic Types"
+	quest.0482D07DB337738E.title: "Any Cobblestones"
 	quest.04937A8B54AF68DA.title: "Kalos Poison Types"
 	quest.04A988D1ACFC134B.title: "Galarica Wreath"
 	quest.04BE10B3DADDAAC5.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
@@ -144,12 +172,23 @@
 		"The &6Trainer Card&r will show a list of all possible items for trainers that can be spawned with the Trainer Spawner."
 	]
 	quest.07863C1899A78E38.quest_subtitle: "Summoning Tool"
+	quest.07863C1899A78E38.title: "Tired of waiting?"
 	quest.0787A831F0E2E631.title: "Water \\& Bug Expert: Net Ball"
 	quest.07C157ECBFF06AC2.quest_desc: ["This item can cause the &6opponent to flinch when the holder succesfully damages it&r. &5This is also needed to evolve Gligar into Gliscor.&r"]
 	quest.07EE494FFBA25002.title: "Precision Engineering: Ultra Ball"
 	quest.08256B4DE816C673.quest_subtitle: "Boosts the power of &lIce-type&r moves by 20%."
 	quest.083FB891B9505413.quest_subtitle: "Craft / obtain all available pokéballs!"
 	quest.088C7547BD7DE90A.quest_subtitle: "+ Attack / - Speed"
+	quest.08C535D38E761D21.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"{image:modified:textures/ftbquests/type_icons/ground_icon.png width:25 height:25 align:center}"
+		"&eSpecialty:&r Ground-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Soft Sand&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/soft_sand width:25 height:25 align:center}"
+	]
+	quest.08C535D38E761D21.quest_subtitle: "Defeat to raise your level cap to 61!"
 	quest.096EF3E02DD9A4BF.quest_desc: [
 		"Poliwhirl ➜ Poliwrath"
 		"Shellder ➜ Cloyster"
@@ -172,9 +211,20 @@
 	quest.0AF60CF5659323EC.title: "Sinnoh Region Starters"
 	quest.0B09CA0EECD3D059.title: "Roseate Ball"
 	quest.0B8FF038A16D8410.quest_desc: ["This fashionable scarf will&b Boost your Pokemons Speed,&r but only allows the &6use of one move&r. This is useful if you have a slower high-attack Pokemon, and want it to deal damage first."]
+	quest.0BC59FE6F710D072.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.0C258624F5BC8C93.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.0C7821C2663BE71B.quest_desc: ["This band gives extra &6Special Defense Evs&r when your pokemon holds it and &6participates in battle.&r"]
 	quest.0C7821C2663BE71B.quest_subtitle: "+ Sp. Defense EVs"
 	quest.0CB255F5CD6E31CD.title: "Blane"
+	quest.0CECBC4D8B4F6DEE.title: "Any Stones"
 	quest.0D1CFAEC3FCC6722.quest_desc: ["&dStructures to find a Sail Fossil: &r Eroded Pillar, Frozen Pond, Frozen Spike, Powdered Deposit, Spruce Tree "]
 	quest.0D1CFAEC3FCC6722.quest_subtitle: "Amaura"
 	quest.0D2089FFDE00676B.quest_desc: [
@@ -183,6 +233,7 @@
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
 	quest.0D65451D939903B7.title: "Upgrade"
+	quest.0D74ED93AADEE41A.quest_desc: ["Grants the holder immunity to powder and spore moves and damage from weather."]
 	quest.0D967633A7095ED0.title: "Galar Bug Types"
 	quest.0DDEA9AEA517107F.quest_desc: [
 		"A &ePrism Scale&r is an evolution item that is used to evolve &dFeebas&r into &dMilotic&r when held while trading or using a link cable. This consumes the Prism Scale. "
@@ -225,6 +276,11 @@
 	quest.0F15A46C95033EB4.quest_desc: ["&dStructures to find a Claw Fossil: &rDripstone Oasis, Frozen Spike, Mossy Pond, Preserved Skeleton, Submerged Impact, Submerged Spike, Underwater Fissure "]
 	quest.0F15A46C95033EB4.quest_subtitle: "Anorith"
 	quest.0F2582B0DE63B841.title: "Reaper Cloth"
+	quest.0F317C467E704F89.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.0F6A09571E346E00.quest_desc: ["Repeatable quest - Take a chance at getting a different random fossil!"]
 	quest.0F6A09571E346E00.quest_subtitle: "Reroll that fossil!"
 	quest.0F6A09571E346E00.title: "Not what you were looking for?"
@@ -239,6 +295,11 @@
 		"Eevee ➜ Leafeon"
 		"Nuzleaf ➜ Shiftry"
 		"Pansage ➜ Simisage"
+	]
+	quest.10484D7AE5784586.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
 	]
 	quest.10618F35AB20AFAA.quest_desc: [
 		"Eevee ➜ Flareon"
@@ -292,6 +353,11 @@
 	quest.123FB8D6351AAF1F.title: "Sinnoh Ghost Types"
 	quest.1278EEF642B2C82E.quest_desc: ["There will be completionist trophies for finishing chapters of this quest book \\& for completing all progress of certain mods. "]
 	quest.1278EEF642B2C82E.quest_subtitle: "Check back later for updates, Quests for this chapter are being still being worked on!"
+	quest.1284BB6015A99DE0.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.1289DBC3B069002E.quest_desc: [
 		"The following secondary stats exist to help you fine-tune your enchanting table:"
 		"Enchanting Clues change the number of enchantments you are shown when hovering a slot in the Enchanting Table. Typically, more clues are always better."
@@ -300,6 +366,13 @@
 		"Enchantment Filters allow you to blacklist certain enchantments from the Enchanting Table. Blocks which provide this stat can be used to remove unwanted enchantments from the pool."
 	]
 	quest.12B1103C319AB062.title: "Choice Scarf"
+	quest.12C6F2F0696BF6DF.quest_desc: [
+		"Take these &dSafari Balls&r and use them to get enough pokemon for a full party, where you will recieve some more rewards to help you on your cobblemon journey!"
+		""
+		"Like most Poké Balls, its catch rate can change drastically under specific conditions."
+		""
+		"&6It has a catch rate of 1.5× when used on a Pokémon outside of battle.&r"
+	]
 	quest.12D76E217F409A72.quest_desc: ["A &7Metal Coat&r is an evolution item&r that is used to evolve &6Scyther&r and &eOnix&r into &6Scizor&r and &eSteelix&r respectively, &dwhen held while trading&r or using a &dlink cable&r. This consumes the Metal Coat."]
 	quest.12D76E217F409A72.quest_subtitle: "Used for Scyther \\& Onix"
 	quest.12E69501F970C8D9.title: "Kalos Normal Types"
@@ -317,6 +390,7 @@
 		"Shell Helmet &6drops from a Shelmet&r when evolved using a &6Link Cable&r. "
 	]
 	quest.1404B4B3FBE175BA.quest_subtitle: "Karrablast -> Escavalier"
+	quest.142B9F3AA455BBEA.quest_desc: ["Grants the holder a chance of going first."]
 	quest.14493F864DD8ACEE.quest_desc: [
 		"A &ePeat Block&r is an evolution item that is used to evolve&d Ursaring&r into &dUrsaluna&r when used &6during a full moon at night&r. Right-clicking an Ursaring whilst holding the Peat Block will consume it and allow Ursaring to evolve into Ursaluna. "
 		""
@@ -327,6 +401,11 @@
 	quest.14BDB596CAB82499.quest_subtitle: "A sleek commemorative Poké Ball with the same catch rate as a standard Poké Ball."
 	quest.14BDB596CAB82499.title: "Premier Ball"
 	quest.14FD6212B109BE0B.title: "Braised Vivichoke"
+	quest.1519DF5B34752F00.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.15423DCD50C9B832.quest_subtitle: "More effective when used on sleeping Pokémon."
 	quest.15423DCD50C9B832.title: "Dream Ball"
 	quest.1580C123E939E304.quest_desc: [
@@ -352,6 +431,38 @@
 	quest.162894ECEF081A38.title: "Mental Herb"
 	quest.16290D18E9D67988.quest_desc: [""]
 	quest.16290D18E9D67988.title: "Kanto Bug Types"
+	quest.1652746389A20AB4.quest_desc: [
+		"&6Gym keys&r are used to fight &eGym Leaders that are seperate&r from the progression track of the ones listed around this quest from &bBDSP&r \\& &cRadical Red&r"
+		""
+		"There are 2 different ways of entering a Gym. You can enter via naturally spawning Gym Entrance structures in the overworld OR you can enter a random one by using a Poké Gym Key."
+		""
+		"&eContinue reading to learn more about the gym structures, pokecaches \\& more!&r ->"
+		""
+		"{@pagebreak}"
+		""
+		"Gym Entrance structures are one of the two ways of entering Gyms. They will enter you into a specific themed Gym however can only be used a maximum of 3 times per player. There are currently three different of variants:"
+		""
+		"&2Woodland Gym Entrance&r - &oMost commonly found in forests, jungle, swamp etc&r."
+		"&cVolcanic Gym Entrance&r - &oMost commonly found in deserts, mesa, savanna etc&r."
+		"&bAquatic Gym Entrance&r - &oMost commonly found in snowy biomes, taiga etc&r."
+		""
+		"&eKeep reading to learn more about the rewards you can get from these battles!&r ->"
+		""
+		""
+		"{@pagebreak}"
+		""
+		"&l&ePoké Shards&r&r (Gym Completion Reward)"
+		"Poké shards are one of the various rewards you can get for beating a Gym. There are four different types: &6Lesser, Adept, Master and Legendary&r. These drop at different Gym Pokémon level intervals:"
+		""
+		"&aLesser&r: level 0-59 (most common at level 30)"
+		"&cAdept&r: level 30-89 (most common at level 60)"
+		"&dMaster&r: level 60-100 (most common at level 90)"
+		"&6Legendary&r: level 90-100 (most common at level 100)"
+		""
+		"&ePoké shards&r are used to make a &dPoké Cache&r of the corresponding rarity, or can be dismantled to a lower rarity of Poké shards."
+	]
+	quest.1652746389A20AB4.quest_subtitle: "Whats a Gym Key?"
+	quest.166715904F4D6A69.quest_desc: ["Boosts the power of the holder's physical moves."]
 	quest.169403A7ABE23E19.title: "Paldea Dark Types"
 	quest.16BD408A5CAF433B.quest_desc: [
 		"Optional way to get Ultimine Ability temporarily:"
@@ -367,9 +478,13 @@
 	quest.16EAD2F5D4CA9B93.title: "Alola Region Starters"
 	quest.17052794146772C7.title: "Johto Ice Types"
 	quest.17299D0188D8AF68.title: "Fairy Feather"
-	quest.173D2B8A8694F17A.quest_subtitle: "Used to spawn Rival Terry (again)"
-	quest.1750BF5DABF5B181.quest_desc: ["&6For now click here to obtain items to evolve applin.&r"]
-	quest.1750BF5DABF5B181.quest_subtitle: "Not Yet obtainable"
+	quest.173D2B8A8694F17A.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Lucky Egg&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/lucky_egg width:25 height:25 align:center}"
+	]
+	quest.173D2B8A8694F17A.quest_subtitle: "Defeat to raise your level cap to 82!"
+	quest.1750BF5DABF5B181.quest_subtitle: "Applin -> Flapple"
 	quest.178069BF4E304459.quest_desc: [
 		"&eBy default players will start with a &dlevel cap of 15&r. &6To increase the level cap players have to defeat key trainers in a certain order.&r"
 		""
@@ -401,7 +516,17 @@
 	]
 	quest.17E6D808893D5AF3.quest_subtitle: "Increase power of type moves by 30%"
 	quest.17E6D808893D5AF3.title: "Type Gems"
-	quest.17EE02A867A34A4C.quest_subtitle: "Used to spawn Gym Leader Lt. Surge!"
+	quest.17EE02A867A34A4C.quest_desc: [
+		"&eSpecialty:&r Electric-type"
+		"&dReward:&r Thunder Badge, TM24"
+		""
+		"{image:pkgbadges:item/thethunderbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Magnet&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/magnet width:25 height:25 align:center}"
+	]
+	quest.17EE02A867A34A4C.quest_subtitle: "Defeat to raise your level cap to 44!"
 	quest.1800A8DBF14CF4B2.quest_desc: ["Can be crafted in the stonecutter."]
 	quest.1800A8DBF14CF4B2.quest_subtitle: "Boosts the power of &lRock-type&r moves by 20%."
 	quest.1843438B5A2CD6A6.title: "Medicinal Leek"
@@ -409,6 +534,11 @@
 	quest.18B2D9F75B1DDDA0.quest_desc: ["&dStructures to find a Armor Fossil: &r Eroded Pillar, Lush Den, Mud Pit, Powdered Deposit, Sandy Den, Sunscorched Den"]
 	quest.18B2D9F75B1DDDA0.quest_subtitle: "Shieldon"
 	quest.190733EFBFC3430A.quest_subtitle: "does not throw as far"
+	quest.19088EE3393ABA80.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.1958B07C212A340C.quest_subtitle: "Grass is one of the three basic elemental types along with Fire and Water, which constitute the three starter Pokémon"
 	quest.1958B07C212A340C.title: "Grass Types"
 	quest.196ECFC06EC71B90.title: "Johto Water Types"
@@ -423,6 +553,16 @@
 	quest.19F24B2EBC1E46D9.title: "Deep Sea Tooth"
 	quest.1A282189711E1EC0.quest_subtitle: "Click to unlock level cap of 100"
 	quest.1A3C3DB2CE713DBE.title: "Kanto Fire Types"
+	quest.1A48290E7F214BF4.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.1A4A546FB0DD1E63.quest_desc: [
+		"STOP! - Before you sell these, read more about the keys in the;"
+		""
+		"            { \"text\": \"Champions League\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1652746389A20AB4\" } } "
+	]
 	quest.1A505EE2B4EB9265.quest_desc: [
 		"A &eDubious Disc&r is an evolution item that is used to evolve &dPorygon2&r into &dPorygon-Z&r when held &6while trading&r or using a &6link cable&r. This consumes the Dubious Disc"
 		""
@@ -437,14 +577,44 @@
 	]
 	quest.1AEA184928A2C542.title: "Kanto Normal Types"
 	quest.1B020504EB55F7D3.title: "Galar Fairy Types"
+	quest.1B5F85BF8AA75893.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"{image:modified:textures/ftbquests/type_icons/bug_icon.png width:25 height:25 align:center}"
+		"&eSpecialty:&r Bug-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Silver Powder&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/silver_powder width:25 height:25 align:center}"
+	]
+	quest.1B5F85BF8AA75893.quest_subtitle: "Defeat to raise your level cap to 59!"
+	quest.1B8A1BCDC8769A93.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.1B90D3E433D7B7DC.title: "Natural Items"
-	quest.1B93842B9AD3B422.quest_subtitle: "Used to spawn Giovanni for the last time!"
+	quest.1B93842B9AD3B422.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Destiny Knot&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/destiny_knot width:25 height:25 align:center}"
+	]
+	quest.1B93842B9AD3B422.quest_subtitle: "Defeat to raise your level cap to 81!"
 	quest.1BB661DB2BCFE858.quest_desc: ["Using the &dBlueprint Package&r will place several &6blueprints&r into your inventory, so you may want to wait until you have picked a spot to set up. By default, this only gives a few basic blueprints. You will need to craft or find blueprints or templates for other items."]
 	quest.1BB661DB2BCFE858.quest_subtitle: "Click the check to recieve a blueprint package!"
 	quest.1BB661DB2BCFE858.title: "Getting started..."
 	quest.1BBDE7080AD2E4A2.title: "Kalos Grass Types"
 	quest.1BC76858BDC41C2B.quest_desc: ["To craft new glyphs, use a spell book on the table to open the codex. Each glyph requires a set of items and experience points to unlock. Select a glyph by clicking on it in the menu, and hit select. Throw the items onto the table as rendered above, and the table will scribe a new glyph. The table will also pull items from nearby inventories. Using the dominion wand on the table will disable auto-pull."]
 	quest.1C54C9B630849865.title: "Johto Grass Types"
+	quest.1C7C22A12D409120.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"{image:modified:textures/ftbquests/type_icons/psychic_icon.png width:25 height:25 align:center}"
+		"&eSpecialty:&r Psychic-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Psychic Seed&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/psychic_seed width:25 height:25 align:center}"
+	]
+	quest.1C7C22A12D409120.quest_subtitle: "Defeat to raise your level cap to 66!"
 	quest.1CAAF31DEB3DB642.quest_desc: ["Everyones favorite dice. This item &6gurantees that the users multi-strike moves will hit at least 4 times&r. It also provides a &dchance for the move to hit up to 8 times instead of the normal 5.&r"]
 	quest.1CC7DDCA68C5746F.quest_desc: [
 		"A&e Deep Sea Scale&r is an evolution item that is used to evolve &dClamperl&r into &dGorebyss&r when held &6while trading&r or using a &6link cable&r. This consumes the Deep Sea Scale."
@@ -476,12 +646,40 @@
 	]
 	quest.1F16224CBA8D7B2D.quest_desc: ["A &6Dire Hit&r is a type of item that temporarily boosts a Pokémon's critical hit ratio by two stages, the effect wears off if the Pokémon is withdrawn."]
 	quest.1F289F5F2C432644.quest_desc: ["Connects any containers touching this block."]
+	quest.1F3AF58B2297B52E.quest_desc: [
+		"&eSpecialty:&r Ice-type"
+		"&dReward:&r Icicle Badge, TM72"
+		""
+		"{image:pkgbadges:item/theiciclebadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Ice Stone&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/ice_stone width:25 height:25 align:center}"
+	]
+	quest.1F3AF58B2297B52E.quest_subtitle: "Defeat to raise your level cap to 43!"
+	quest.1F50E79F4A1D2488.quest_desc: [
+		"Spend your coins for a chance at the &6GoldenCap&r!"
+		""
+		""
+		""
+		"48% for a &eWooden Cap&r: Randomizes IVs"
+		""
+		"48% for a &5Void Cap&r: Sets IVs to 0"
+		""
+		"4% for a &6Golden Cap&r: Boosts &nall IVs to max&r"
+	]
+	quest.1F50E79F4A1D2488.quest_subtitle: "Feeling Lucky?"
 	quest.1FEB88B4732DFFF8.quest_desc: [
 		"&eRazor Claw&r is an evolution item that can be used to evolve &dSneasel&r into &dWeavile&r if Sneasel levels up whilst holding a Razor Claw &6at night&r. This consumes the Razor Claw"
 		""
 		"[ \"It is also a \", { \"text\": \"Held Item\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54CB62FD8943CE34\" } } ]"
 	]
 	quest.1FEB88B4732DFFF8.quest_subtitle: "Sneasel -> Weavile"
+	quest.1FF30F5A7F2507E4.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.1FFD692A2B655419.quest_subtitle: "Boosts the power of &lDragon-type&r moves by 20%."
 	quest.20420F2BF84AC83B.title: "Kanto Region Starters"
 	quest.204B7F1E9DA58947.quest_desc: ["We'll explain the use of blueprints later, but first before using the empty card to craft the Skills Record, try to craft a card &eblueprint&r so you can make another card out of it!"]
@@ -529,10 +727,20 @@
 		"&6Undiscovered Group:&r Pokémon in this group are unable to breed. - Mainly includes legendaries, \\& other mythical pokemon."
 	]
 	quest.2070339C4B12CEC3.quest_subtitle: "< relevant to both fishing \\& breeding >"
+	quest.20939279E9C17C38.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.20A9045213580DAA.title: "Falkner"
 	quest.20DE88BBFB1C1DF9.title: "Azure Ball"
 	quest.214CF0BDFE336E17.title: "Protector"
 	quest.21A1C83979A34B34.quest_desc: ["This upgrade will take a lot, two bosses and defending a raid isn't a challenge for you, is it? Alowing you to cast tier 3 glyphs, it's worth it."]
+	quest.21A8033263B211A4.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.226479326EE3F703.title: "Paldea Psychic Types"
 	quest.2272AA0870D1C4FC.quest_desc: ["A Sandy Mulch makes the Berry Tree act like it's in an Arid biome for an infinite duration. "]
 	quest.227F62798FB014FB.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
@@ -540,13 +748,26 @@
 	quest.227F62798FB014FB.title: "Quests coming soon!"
 	quest.22DD18B39E62B05B.title: "Alola Bug Types"
 	quest.231EBC7F1EDEB123.title: "Speed Catcher: Quick Ball"
+	quest.23246F65796B9AF3.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.2366DA4610BDF5F7.quest_desc: ["This chapter is primarily about how you can use &6natural resources&r to your advantage!"]
 	quest.2366DA4610BDF5F7.quest_subtitle: "Apricorns, Berries, \\& Mints, Oh My!!"
 	quest.2366DA4610BDF5F7.title: "Green Thumb"
 	quest.236AC5BC65C01A4C.title: "Paldea Fire Types"
 	quest.2376948E99BFD608.quest_subtitle: "A basic Poké Ball with a 1× catch rate, crafted using green apricorns."
 	quest.2376948E99BFD608.title: "Verdant Ball"
-	quest.23AF41B039B8C705.quest_subtitle: "Used to spawn Elite Four: Bruno"
+	quest.23AF41B039B8C705.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"&eSpecialty:&r Rock \\& Fighting-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Focus Band&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/focus_band width:25 height:25 align:center}"
+	]
+	quest.23AF41B039B8C705.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.23B044951A22D2FA.quest_subtitle: "Best used at night or in dark places like caves."
 	quest.23B044951A22D2FA.title: "Dusk Ball"
 	quest.23BFC094A4C7618A.quest_subtitle: "A basic Poké Ball with a 1× catch rate, crafted using pink apricorns."
@@ -555,6 +776,11 @@
 	quest.23CCB88D6B97B5E8.title: "Gears in Motion"
 	quest.240A0A53EBE8C159.quest_desc: ["This rock will extend &3Hail and Snow for 8 turns instead of 5&r. Useful as your &3Icy friends won't be affected!&r"]
 	quest.2410422F6CF701A9.title: "Black Sludge"
+	quest.2449C747CEC8C148.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.2473547F46CF16CD.quest_desc: ["This item boosts the &5holders moves that are consecutive by 20%&r. The maximum &5increase this can give is 100% or 6 or more consecutive hits.&r"]
 	quest.24F14E750E141A62.quest_desc: [
 		"Combine a &dDrake&r \\& &dFish&r fossil to obtain &eDracovish&r!"
@@ -568,7 +794,12 @@
 	quest.2502CB87FF0EF942.title: "Johto Fairy Types"
 	quest.250CC2FE0F7DCC42.title: "Hoenn Electric Types"
 	quest.25223EF4991A1FD8.title: "Dragon Scale"
-	quest.2541EB890D364B99.quest_subtitle: "Used to spawn Trainer Brendan"
+	quest.2541EB890D364B99.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Silk Scarf&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/silk_scarf width:25 height:25 align:center}"
+	]
+	quest.2541EB890D364B99.quest_subtitle: "Defeat to raise your level cap to 34!"
 	quest.2550749BBA4B4309.title: "Hoenn Rock Types"
 	quest.256BE43416AD50B3.quest_desc: [
 		"Once you've progressed through all the levels for each card you will unlock the &6mastery&r."
@@ -588,6 +819,13 @@
 	quest.260E17F008F355C3.title: "Master Ball"
 	quest.2635646DA4564163.title: "Hoenn Normal Types"
 	quest.2669FA867691A5E3.title: "Paldea Ghost Types"
+	quest.269A3318AFDED628.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Eviolite&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/eviolite width:25 height:25 align:center}"
+	]
+	quest.269A3318AFDED628.quest_subtitle: "Defeat to raise your level cap to 36!"
+	quest.269A3318AFDED628.title: "Rival Battle 2"
 	quest.26BB07D3244B69B6.quest_desc: ["This rock allows the holder to have &6a chance at inflicting a flinch&r on your opponents Pokemon when &6you use a physical attack&r. &bThis item also evolves Poliwhirl into Politoed and Slowpoke into Slowking.&r"]
 	quest.26C3EDF25F66E4AE.quest_subtitle: "Catches and immediately heals the Pokémon, restoring HP and status conditions."
 	quest.26C3EDF25F66E4AE.title: "Heal Ball"
@@ -596,6 +834,11 @@
 	quest.276614F1CAEEF005.title: "Paldea Ice Types"
 	quest.27961DE632D73E81.quest_subtitle: "A basic Poké Ball with a 1× catch rate, crafted using yellow apricorns."
 	quest.27961DE632D73E81.title: "Citrine Ball"
+	quest.27BC7A7F1DA13CBE.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.27D95FFB4E69AE38.quest_desc: ["Another one of Krisp's personal fave items! This cool band&6 boosts the damage from all physical moves&r. This is perfect for those who prefer the  bash-em-til they faint method!"]
 	quest.280D5B956A76D91F.quest_desc: ["This tiny seed will boost your &2Grass-type moves!&r"]
 	quest.2822F18E54E2A869.quest_desc: [
@@ -627,6 +870,17 @@
 		"Female Snorunt ➜ Froslass"
 	]
 	quest.29574652784E07B0.quest_desc: ["This item extends the use of moves that &bsummon rain from 5 to 8 turns&r. This can give an &badvantage to your water types&r!"]
+	quest.2981BA6FC0E8510A.quest_desc: [
+		"&eSpecialty:&r Fighting-type"
+		"&dReward:&r Cobble Badge, TM60"
+		""
+		"{image:pkgbadges:item/thecobblebadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Black Belt&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/black_belt width:25 height:25 align:center}"
+	]
+	quest.2981BA6FC0E8510A.quest_subtitle: "No raise in cap, but defeat for Badge!"
 	quest.298BEFED52443273.quest_desc: [
 		"Cobblemon’s&d Pasture Block&r is a block that lets you select Pokémon from your PC to have them roaming around the block. If you put compatible Pokémon inside, they may lay an egg that will appear in the bottom part of the block. You can collect it by right clicking the egg or by placing a hopper below the Pasture Block."
 		""
@@ -645,15 +899,35 @@
 	quest.2A006D5314E1449A.title: "Kalos Fire Types"
 	quest.2A1370BC2CF53FBC.quest_desc: ["This energizing battery boosts the &eholders attack by 1 stage when hit by a damaging Electric-Type move.&r"]
 	quest.2A181ABDCE118CF3.title: "Friend Ball"
-	quest.2AC137852DA4C38E.quest_subtitle: "Used to spawn Rival Terry (again)"
+	quest.2AC137852DA4C38E.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Soothe Bell&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/soothe_bell width:25 height:25 align:center}"
+	]
+	quest.2AC137852DA4C38E.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.2AEFD3732FD3A2EB.quest_desc: ["This adorable feather boosts the power of &dthe holders Fairy-Type moves by 20%.&r"]
 	quest.2AFC1D3F11B9A665.title: "Kalos Ice Types"
 	quest.2B0D4EC981D4715D.quest_subtitle: "Boosts the power of &lWater-type&r moves by 20%."
 	quest.2B0E8C06D78723E7.title: "Galar Normal Types"
+	quest.2B6CCEBC24239B0A.quest_desc: [
+		"&dEffect on Pokémon:&r -"
+		""
+		"&dBait Effect:&r 25% chance to attract a Pokémon with a Special Attack boosting nature"
+	]
 	quest.2B6D75828A32A57B.title: "Sinnoh Psychic Types"
 	quest.2B869F678F3F902F.quest_subtitle: "A ball designed to make captured Pokémon immediately more friendly toward the trainer."
 	quest.2B869F678F3F902F.title: "Friend Ball"
 	quest.2B8F940EC3BF74C3.title: "Miracle Seed"
+	quest.2B9037536F9B9CA0.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"{image:modified:textures/ftbquests/type_icons/fire_icon.png width:25 height:25 align:center}"
+		"&eSpecialty:&r Fire-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Fire Stone&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/fire_stone width:25 height:25 align:center}"
+	]
+	quest.2B9037536F9B9CA0.quest_subtitle: "Defeat to raise your level cap to 63!"
 	quest.2B96CF5A7F373178.quest_subtitle: "does not throw as far"
 	quest.2BC323F95005BCE2.quest_desc: ["This item boosts the&5 holders accuracy by 20%.&r"]
 	quest.2BC5F581E33DF457.title: "Sinnoh Normal Types"
@@ -662,6 +936,11 @@
 	quest.2C6A0968B1041F07.title: "Kalos Dragon Types"
 	quest.2CA10E0B91910A75.title: "Speedy Catcher: Quick Ball"
 	quest.2CEBB86F1F75570C.title: "Metal Coat"
+	quest.2CF7A1EA73A3019D.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.2D34AC3506CB3B61.quest_subtitle: "Gains about 0.3× catch rate per turn passed in battle, up to a maximum catch rate of 4×."
 	quest.2D6288823D3173E9.title: "Johto Bug Types"
 	quest.2D74109F121C5116.title: "Modest Mint"
@@ -685,14 +964,51 @@
 	quest.2E97F28D2504C31B.title: "Choice Scarf"
 	quest.2E9B7413004856C4.title: "Ice Types"
 	quest.2EAB275BBAA46C3F.title: "Kalos Flying Types"
-	quest.2EB779BBD6F1BECF.quest_subtitle: "Used to spawn Gym Leader Erika!"
+	quest.2EB779BBD6F1BECF.quest_desc: [
+		"&eSpecialty:&r Grass-type"
+		"&dReward:&r Rainbow Badge, TM21"
+		""
+		"{image:pkgbadges:item/therainbowbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Miracle Seed&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/miracle_seed width:25 height:25 align:center}"
+	]
+	quest.2EB779BBD6F1BECF.quest_subtitle: "Defeat to raise your level cap to 46!"
 	quest.2EE72A02330B60BD.quest_subtitle: "The standard Poké Ball with a 1× catch rate."
 	quest.2EE72A02330B60BD.title: "Poké Ball"
 	quest.2F3F0390A1331505.quest_subtitle: "Boosts the power of &lFire-type&r moves by 20%."
-	quest.301F1696722B5175.quest_subtitle: "Used to spawn Gym Leader Sabrina"
+	quest.2F5834397E3394EC.quest_desc: ["When holder is struck by a damaging move, forces the attacker that used the move to switch out"]
+	quest.2FE05D2E1C636174.quest_desc: ["Increases the amount of experience earned by the holder in battle."]
+	quest.3015E8C9DBCBD3A0.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.301F1696722B5175.quest_desc: [
+		"&eSpecialty:&r Psychic-type"
+		"&dReward:&r Marsh Badge, TM46"
+		""
+		"{image:pkgbadges:item/themarshbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Twisted Spoon&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/twisted_spoon width:25 height:25 align:center}"
+	]
+	quest.301F1696722B5175.quest_subtitle: "Defeat to raise your level cap to 63!"
 	quest.30419A82959384E7.quest_desc: ["&6Apricorn sprouts&r have a 10% chance of dropping when an apricorn is harvested. "]
 	quest.30419A82959384E7.title: "Seedlings"
-	quest.30C269E0695A704D.quest_subtitle: "Used to spawn Gym Leader Clair"
+	quest.30C269E0695A704D.quest_desc: [
+		"&eSpecialty:&r Dragon-type"
+		"&dReward:&r Rising Badge, TM24"
+		""
+		"{image:pkgbadges:item/therisingbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Dragon Scale&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/dragon_scale width:25 height:25 align:center}"
+	]
+	quest.30C269E0695A704D.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.30C658B66F1BF29E.quest_subtitle: "Boosts the power of &lGrass-type&r moves by 20%."
 	quest.30C7BF6B8B82A86D.title: "Johto Dark Types"
 	quest.30E3DB4CBBF7F548.quest_desc: ["This item increases the duration of the &6holders terrain moves to 8 turns.&r"]
@@ -712,8 +1028,18 @@
 	quest.31726B2C1F66926F.quest_subtitle: "Track down those mon!"
 	quest.31726B2C1F66926F.title: "PokeNav!"
 	quest.319C0C831856A13F.title: "Nest Ball"
+	quest.31DEF3F68077A1FB.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.3268C79A48C15A30.title: "Focus Sash"
-	quest.32B00B671E8CFC02.quest_subtitle: "Used to spawn Trainer May"
+	quest.32B00B671E8CFC02.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Vivichoke&r in a Trainer Spawner"
+		"{image:cobblemon:item/vivichoke width:25 height:25 align:center}"
+	]
+	quest.32B00B671E8CFC02.quest_subtitle: "Defeat to raise your level cap to 76!"
 	quest.32BA8274ED8ACCA6.quest_desc: [
 		"A&e Protector&r is an evolution item that is used to evolve &dRhydon&r into &dRhyperior&r when held while trading or using a link cable. This consumes the Protector. "
 		""
@@ -755,9 +1081,22 @@
 	quest.353698360881F015.quest_desc: ["This unreakable egg gives the &5holder extra Exp. Points at the end of the battle&r. This is good for faster training!"]
 	quest.359A7AB198BD451E.quest_subtitle: "Drawers.. but with upgrades!"
 	quest.359A7AB198BD451E.title: "Functional Storage"
-	quest.35DF00F1E81A6B18.quest_subtitle: "Used to spawn Boss Giovanni"
+	quest.35DF00F1E81A6B18.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Upgrade&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/upgrade width:25 height:25 align:center}"
+	]
+	quest.35DF00F1E81A6B18.quest_subtitle: "Defeat to raise your level cap to 55!"
 	quest.35FD148D36DC6AB3.title: "Mulch"
-	quest.360505F6E85575B3.quest_subtitle: "Used to spawn Elite Four: Agatha"
+	quest.360505F6E85575B3.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"&eSpecialty:&r Poison \\& Ghost-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Cleanse Tag&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/cleanse_tag width:25 height:25 align:center}"
+	]
+	quest.360505F6E85575B3.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.3648308AA4CED9A3.quest_subtitle: "Most effective on Ultra Beasts, All other Pokéballs have a 0.1× catch rate."
 	quest.3648308AA4CED9A3.title: "Beast Ball"
 	quest.3648D0790D050B8D.title: "Master Ball"
@@ -765,7 +1104,14 @@
 	quest.3693E0613199AF16.title: "Fast Ball"
 	quest.36CDE637FCDBBC8B.quest_desc: ["This band grants extra &bSpeed EVs&r to the Pokemon holding it that participated in battling,"]
 	quest.36CDE637FCDBBC8B.quest_subtitle: "+ Speed EVs"
+	quest.36D23AA7ADD23E72.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Wide Lens&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/wide_lens width:25 height:25 align:center}"
+	]
+	quest.36D23AA7ADD23E72.quest_subtitle: "Defeat to raise your level cap to 20!"
 	quest.37139A8E2EA9C97C.title: "Sinnoh Fairy Types"
+	quest.371400B53BDAF461.quest_subtitle: "Applin -> Appletun"
 	quest.37185708AFCB4964.title: "Sinnoh Rock Types"
 	quest.3724A409E62C8AC0.quest_desc: ["These dazzling glasses will &5boost your Pokemons SP. Atk,&r but only allow the&6 use of one move.&r This can be useful in battle to get out some heavy-hitting Sp. Atk moves."]
 	quest.372955E458EB53EA.quest_desc: [
@@ -779,9 +1125,20 @@
 	quest.3736A76E201484E0.title: "Unova Poison Types"
 	quest.3743811366CC7850.quest_desc: ["This once perfect spoon boosts the holders &dPsychic-Type moves.&r"]
 	quest.37903AB013169316.title: "Paldea Steel Types"
+	quest.37B85552391A5268.title: "x64 Apricorns"
+	quest.37BE571B6CD98AF5.quest_desc: [
+		"&dEffect on Pokémon:&r Holder is cured if it is poisoned."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Water 3 and Bug Egg Groups 10x more likely to be encountered"
+	]
 	quest.3808B72C1784E21C.title: "Johto Ghost Types"
 	quest.384A99EC058C63ED.title: "Alola Dragon Types"
 	quest.385DCF0C7BEB5366.title: "Poké Ball Crafting"
+	quest.3874039A61B0F00B.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.388DFF1E8BBC8E10.quest_subtitle: "More effective when capturing Pokémon of the opposite gender to the one you have out."
 	quest.388DFF1E8BBC8E10.title: "Love Ball"
 	quest.38D4520EAE00F888.title: "Sinnoh Ice Types"
@@ -803,12 +1160,29 @@
 		"Casings can only be crafted through physically applying a &6valid alloy or ingot&r to any &6Stripped variant of Log or Wood&r. The logs will convert themselves into the &dcasing&r, where the player can either mine it with their preferred tool or use a Wrench to place the casing in their inventory."
 	]
 	quest.3A25B3BC77AB54AE.title: "Casings"
-	quest.3A41743DE64680C2.quest_subtitle: "make recipe for these"
 	quest.3A4882B06BBDF337.quest_desc: ["These very fashionable boots&5 prevent your Pokemon from being hurt by an opponents trap moves&r that are active on the field. These make a&5 great defense against opponents&r who prefer &6setting up switch-trap style moves&r."]
+	quest.3AA6B39F2D9AD982.quest_desc: [
+		"Used to view information on who to battle next, and key information like biomes and level caps for each gym leader."
+		""
+		"Read more here:"
+		""
+		"{ \"text\": \"Champions League\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7676E887F513A1BE\" } }"
+	]
 	quest.3AC234AB2A9B559E.quest_desc: ["A Peat Mulch makes the Berry Tree act like it's in a Forest biome for an infinite duration. "]
 	quest.3B2CC4A88101C4AA.title: "Razor Claw"
 	quest.3B54337A8D3B90FA.title: "Sinnoh Fighting Types"
 	quest.3B6104230CEAE2CD.title: "Heavy Ball"
+	quest.3B7CE5C7E5ED283F.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.3B80211FD37355FC.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Wind Charge&r in a Trainer Spawner"
+		"{image:minecraft:item/wind_charge width:25 height:25 align:center}"
+	]
+	quest.3B80211FD37355FC.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.3B8E70F6F5188048.quest_subtitle: "Boosts the power of &lDark-type&r moves by 20%."
 	quest.3BE217F31248FFDB.quest_desc: [
 		"A &eCracked Pot&r is one of the evolution items that is used to evolve &dPhony Form Sinistea&r into &dPhony Form Polteageist&r when used. "
@@ -818,6 +1192,11 @@
 		"Can also be found in &6Ruin Structures&r within &6Suspicious Blocks&r in Decaying Crypt Ruins, Deserted Tower Ruins, Deserted Town Center Ruins or Rooted Arch Ruins. "
 	]
 	quest.3BE217F31248FFDB.quest_subtitle: "Phony Form Sinistea -> Polteageist"
+	quest.3C0667C71FC18018.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.3C2870B5D25C260E.quest_desc: ["A Coarse Mulch makes the Berry Tree act like it's in a Mountains or Taiga biome for an infinite duration. "]
 	quest.3C4980136D4E6D6D.title: "Leftovers"
 	quest.3C6694A14854EE68.title: "Dubious Disc"
@@ -835,6 +1214,12 @@
 	quest.3C6C4BBDDBB63C96.title: "Getting Started"
 	quest.3C78A25B14F6AD2B.quest_subtitle: "Additional starters for this modpack"
 	quest.3C78A25B14F6AD2B.title: "Modified Starters"
+	quest.3C7CB29A9C64364E.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Fire Charge&r in a Trainer Spawner"
+		"{image:minecraft:item/fire_charge width:25 height:25 align:center}"
+	]
+	quest.3C7CB29A9C64364E.quest_subtitle: "Defeat to raise your level cap to 42!"
 	quest.3C9C8265B6387D0F.quest_desc: [
 		"You’ve laid the foundation for an incredible journey. Whether you focus on becoming a &6Pokémon Champion&r, automating your base, or discovering modded treasures, the choice is yours!\\n\\nFuture chapters will guide you through resource collection, new storage solutions, advanced mechanics, automation, and building your dream world!"
 		""
@@ -850,6 +1235,8 @@
 	quest.3C9C8265B6387D0F.quest_subtitle: "Check out the Cobblemon Quests!"
 	quest.3C9C8265B6387D0F.title: "Whats next?"
 	quest.3CA61B578E0BCA83.quest_subtitle: "Boosts the power of &lNormal-type&r moves by 20%."
+	quest.3CC292C6490FCBFA.quest_desc: ["You can also do so in the ATM where you will get 1 &6Pokedollar&r per 10&e Relic Coins&r."]
+	quest.3CC292C6490FCBFA.quest_subtitle: "Covert to PokeDollars"
 	quest.3CC55A0122FAB639.quest_desc: ["Check the Tattered Tome for mor information on Magical Equipment!"]
 	quest.3CD34A691E644B39.quest_subtitle: "One book to rule them all!"
 	quest.3CF15690DA7F02EB.quest_desc: [
@@ -863,6 +1250,11 @@
 	quest.3D009C82BACAF3B1.title: "Advanced Crafting: Great Ball"
 	quest.3D0A24C140121FA8.title: "Bugsy"
 	quest.3D2CF22295547B2D.title: "Slate Ball"
+	quest.3DB61C568903752A.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.3DCFEA9C79659B3A.quest_desc: ["This stabby barb will boost the holders&d Poison-Type moves.&r"]
 	quest.3DE81858A2C537E6.quest_desc: [
 		"&dUsed to craft:&r "
@@ -882,9 +1274,24 @@
 	quest.3E06C455AF761E60.quest_subtitle: "+ Attack"
 	quest.3E36E566148233EC.quest_desc: ["&dStructures to find a Cover Fossil: &rFrozen Pond, Hydrothermal Vents, Preserved Skeleton, Submerged Impact, Submerged Spike, Underwater Fissure, Vibrant Hydrothermal Vents"]
 	quest.3E36E566148233EC.quest_subtitle: "Tirtouga"
+	quest.3E97182528FBFE50.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.3EB4914309D5073F.title: "Kalos Electric Types"
 	quest.3F743F2B71DD403C.title: "Claiming Your Territory"
-	quest.3F83AD208596996B.quest_subtitle: "Used to spawn Gym Leader Blaine"
+	quest.3F83AD208596996B.quest_desc: [
+		"&eSpecialty:&r Fire-type"
+		"&dReward:&r Volcano Badge, TM38"
+		""
+		"{image:pkgbadges:item/thevolcanobadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Charcoal Stick&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/charcoal_stick width:25 height:25 align:center}"
+	]
+	quest.3F83AD208596996B.quest_subtitle: "Defeat to raise your level cap to 79!"
 	quest.3F8E092B859327DD.quest_desc: ["This special scale &6boosts Clamperls Sp. Def stat&r. Thats all folks!"]
 	quest.3F9FAA2DD812468C.quest_desc: ["This curious clay &6boosts protective moves like Light Screen and Reflect and makes them last longer, too&r. Very useful to reduce affects from opponents in battle."]
 	quest.3FC02DA3E0C2FF43.quest_desc: ["&dStructures to find a Jaw Fossil: &rEroded Pillar, Lush Den, Mud Pit, Sunscorched Den, Sunscorched Remains "]
@@ -896,6 +1303,7 @@
 	]
 	quest.40219301DDDB15A2.quest_subtitle: "Galarian Slowpoke -> Slowbro"
 	quest.403B258AD3499171.quest_desc: ["This strange apple &6heals your Pokemon for 1/16th of the holders' Maximum HP at the end of each turn!&r Occasionally, the gluttonous Pokemon; Snorlax and Munchlax, will drop this when defeated. Sometimes, very rarely, you can also &6get one from eating apples&r! &5So go shake some Apple Trees and get to snacking!&r"]
+	quest.403D89BAB550D066.quest_desc: ["Boosts the power of the holder's special moves."]
 	quest.406E1387DC4189FB.quest_desc: ["An &3X Special Defense&r is a type of item that raises the target's special defense stat by one stage when used in battle."]
 	quest.4090EF7D28DCA27F.quest_desc: [
 		"A &dHealing Machine&r is a utility block that allows you to &dheal the Pokémon in your party&r!"
@@ -926,6 +1334,11 @@
 	quest.40E62B65DFCA91D0.quest_subtitle: "See all the details!"
 	quest.40FA5BAEA92ADAE0.title: "Galarica Cuff"
 	quest.412DCDBCFDB0DB28.title: "Vivichoke Seeds"
+	quest.41745D9BC43C0BDB.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.417F33B815B5EF96.quest_desc: [
 		"Pikachu ➜ Raichu"
 		"Magneton ➜ Magnezone"
@@ -935,16 +1348,36 @@
 		"Charjabug ➜ Vikavolt"
 		"Tadbulb ➜ Bellibolt"
 	]
+	quest.4193BA094FB5A772.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.41A1F41DEECA82C0.title: "The Ultimate Poké Ball: Master Ball"
 	quest.421D0CFE1AE62935.title: "Efficiency Catcher: Repeat Ball"
 	quest.422652BAAA75458A.quest_desc: ["These are all the&d tier 2 glyphs&r and require an &6Mage's Spell Book&r to cast. Hold &eLShift&r over any glyph for the description!"]
 	quest.426ABFD8A9A892D0.title: "Oval Stone"
+	quest.4287D70BC63003E2.quest_desc: [
+		"&dEffect on Pokémon:&r Holder is cured if it is burned."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Field Egg Group 10x more likely to be encountered"
+	]
 	quest.42941AD8F80D28DC.quest_desc: [
 		"- You need first to search for a villager who has a profession of &dtoolsmith&r."
 		"- You must trade with that villager until it reaches &dLevel 2&r (Apprentice)."
 		"- When you have reached that level, The villager will have a new offer for an empty &eMining Skill Card&r."
 	]
 	quest.42941AD8F80D28DC.quest_subtitle: "Step 1"
+	quest.42B13A2DB35ACC90.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
+	quest.43163EB044178AF3.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.433D45B5077ABAB3.title: "Unova Steel Types"
 	quest.437E9D159405D8FE.title: "Kalos Water Types"
 	quest.43A6C69606380D41.quest_desc: ["These held items can&5 give various benefits&r in battle and&5 provide an edge&r, but use them wisely because they will be&6 consumed on use and disappear!&r"]
@@ -961,6 +1394,11 @@
 	]
 	quest.44112E71C2FD9C25.title: "Kanto Fairy Types"
 	quest.442DF1DE4CFA5938.title: "Hard Stone"
+	quest.449EE0E1386130A3.quest_desc: [
+		"&dEffect on Pokémon:&r -"
+		""
+		"&dBait Effect:&r 25% chance to attract a Pokémon with a Special Defense boosting nature"
+	]
 	quest.44C944ADBB885F4D.quest_desc: ["An &cX Attack&r is a type of item that raises the target's attack stat by one stage when used in battle."]
 	quest.44DEDD13A522DC22.quest_desc: [
 		"&dApricorns&r can be found growing naturally on &6apricorn trees&r. Interacting with one when fully grown will yield a single apricorn item and will leave behind an apricorn bud in its first growth stage."
@@ -983,6 +1421,11 @@
 	quest.44DEDD13A522DC22.title: "Poke-Farmer"
 	quest.44E6A9D7CA7C06E2.title: "First Catch!"
 	quest.44F6672482C9B339.title: "Galar Rock Types"
+	quest.450428EBD3E3C0BA.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.450758EB6B91E9B2.quest_desc: [
 		"&dUsed to craft:&r"
 		"- Roseate Balls, "
@@ -991,16 +1434,44 @@
 		"- Love Balls, "
 		"\\& &6can be smelted down to &dpink dye&r."
 	]
+	quest.452713D0292FDE53.quest_desc: ["No battle effect. Increases the holder's friendship earned by 50%."]
 	quest.45316703D40D3AD3.title: "Unova Water Types"
 	quest.45639CC8CAD89C62.quest_desc: ["A Rich Mulch increases the yield of the harvest of the Berry Tree that it is used on for 3 harvests. "]
 	quest.45756BA722FEEA0E.title: "Apricorn Sprout"
-	quest.4589A549DA946A35.quest_subtitle: "Used to spawn Boss Giovanni (pt.2)"
+	quest.4589A549DA946A35.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Dubious Disc&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/dubious_disc width:25 height:25 align:center}"
+	]
+	quest.4589A549DA946A35.quest_subtitle: "Defeat to raise your level cap to 59!"
 	quest.45B91690BAC71CAF.title: "Next Steps: Building Your Legacy"
+	quest.4669A109685CB8FF.quest_desc: [
+		"&dEffect on Pokémon:&r Halves damage from one super effective Fire-type attack."
+		""
+		"&dBait Effect:&r Makes Fire Type Pokemon 10x more likely to be encountered"
+	]
 	quest.46AD6DC143517BC4.quest_desc: ["Each piece amplify Elemental glyphs of the matching school, reduces damage from sources tied to their school element, giving a short mana regen. If the full set is worn, part of the reduced damage is converted into mana. Other extra damage reduction effects may apply."]
 	quest.46C6475321032CFB.quest_desc: ["This sharp claw (use caution!) &5boots the chance of a critical hit&r! &6This item is also also necessary to evolve Sneasel and its Hisuian counterpart.&r"]
 	quest.4741D14B8ADAE9C8.title: "Kanto Ice Types"
 	quest.4742B4F7A1EFE244.title: "Timer Ball"
+	quest.475D2563DCFD80F3.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.4764A3913D8E4BE9.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Clock&r in a Trainer Spawner"
+		"{image:minecraft:item/clock_00 width:25 height:25 align:center}"
+	]
+	quest.4764A3913D8E4BE9.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.47CD11A9FFEFE03E.title: "Sinnoh Grass Types"
+	quest.47E1CA67D58E20BF.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Zoom Lens&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/zoom_lens width:25 height:25 align:center}"
+	]
+	quest.47E1CA67D58E20BF.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.47F955F5949100EA.quest_desc: [
 		"Drops: Melon Seeds 0-1, Miracle Seed 5%"
 		""
@@ -1025,11 +1496,26 @@
 	quest.481C3421E299CA28.quest_subtitle: "Discover new biomes and resources"
 	quest.481C3421E299CA28.title: "Exploration and Adventure"
 	quest.481D36A0E4BE03E3.title: "Paldea Grass Types"
-	quest.48866AD1EEF52D49.quest_subtitle: "Used to spawn Gym Leader Misty!"
+	quest.48866AD1EEF52D49.quest_desc: [
+		"&eSpecialty:&r Water-type"
+		"&dReward:&r Cascade Badge, TM31"
+		""
+		"{image:pkgbadges:item/thecascadebadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Mystic Water&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/mystic_water width:25 height:25 align:center}"
+	]
+	quest.48866AD1EEF52D49.quest_subtitle: "Defeat to raise your level cap to 29!"
 	quest.48AC93A701381753.quest_desc: [""]
 	quest.48AC93A701381753.quest_subtitle: "It has a static catch rate of 2×. "
 	quest.48D71FE973995BDD.quest_subtitle: "Windmills"
 	quest.48D71FE973995BDD.title: "A Spinning Start"
+	quest.490196D4AFB4109B.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.49084993B6ADCAB4.quest_desc: [
 		"Combine a &dBird&r \\& &dDrake&r fossil to obtain &eDracozolt&r!"
 		""
@@ -1048,9 +1534,21 @@
 	quest.4915825B660CD27C.title: "Johto Electric Types"
 	quest.4925855DA6F1A770.title: "Galar Electric Types"
 	quest.4938249C0361EC11.quest_desc: ["This peaceful sounding bell &5increases the holders' friendliness earned by 50%&r. Speed-run those friendships!"]
-	quest.494AF7259DBD4110.quest_desc: ["Many cobblemon can be rode in this modpack, feel something is missing? Let us know in discord!"]
+	quest.494AF7259DBD4110.quest_desc: [
+		"Many cobblemon can be rode in this modpack, feel something is missing? Let us know in discord!"
+		""
+		"Interact (&eRClick&r) to mount!"
+		"Jump (&eSpace&r) to ascend, fly and jump!"
+		"Sneak (&eShift&r) to descend and dive!"
+		"Sprint (&eLCtrl&r) to sprint!"
+		"Sneak and Call Pokemon (&eShift + R&r)&6 to dismount&r! "
+		""
+		"Your pokemons &dSpeed Stat&r affects how fast your mount can go."
+	]
 	quest.494AF7259DBD4110.quest_subtitle: "Traverse the land, sea, \\& sky with your mons!"
 	quest.496C2FC7DBDFF1A6.title: "Black Belt"
+	quest.49715D490B752014.quest_subtitle: "Used to store your money!"
+	quest.49715D490B752014.title: "Wallet"
 	quest.498C88555AA1C1F4.title: "Verdant Ball"
 	quest.49954006C2965840.title: "Eviolite"
 	quest.49ACF940C0C6AC18.quest_subtitle: "Click to get the guide to ImmersiveEngineering!"
@@ -1065,7 +1563,14 @@
 	quest.49F7EF94A99C2A1A.title: "Kanto Poison Types"
 	quest.4A0AAADCDF3570B0.quest_subtitle: "Used for finding biomes."
 	quest.4A674554BF289531.title: "Leftovers"
-	quest.4A9CD8DF4334CA09.quest_desc: ["Here you will find quests guiding you through the progression of the radical trainers mod."]
+	quest.4A9CD8DF4334CA09.quest_desc: [
+		"Here you will find quests guiding you through the progression of the radical trainers mod."
+		""
+		"Defeat trainers to increase your &6level cap&r!"
+	]
+	quest.4AA91831F6D6858C.quest_desc: ["You can also do so in the ATM where you will get 10 &eRelic coins&r per 1 &6Pokedollar&r"]
+	quest.4AA91831F6D6858C.quest_subtitle: "Covert to Relic coins"
+	quest.4AB697C5C37E84FE.title: "x1 &6PokeDollar"
 	quest.4AD34FB82D13693A.title: "Galarica Wreath"
 	quest.4B201529BF967EBA.title: "Steel Types"
 	quest.4B40BEBAF65F7A8F.quest_desc: ["Once you stand on the pad it will teleport you to the Mining Dimension / A resource world where you can mine till your hearts content!"]
@@ -1094,6 +1599,11 @@
 	]
 	quest.4C286C9572E9CED0.title: "0005 Charmeleon"
 	quest.4C45C634BEC11BA9.title: "Johto Fire Types"
+	quest.4C61E10117BC96E0.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.4CA48D65000B4B28.quest_desc: ["A &aGuard Spec&r is a battle item that prevents the player's Pokémon from status reductions for 5 turns during battle."]
 	quest.4CB426CB4F9FE862.quest_desc: [
 		"While enchanting, the most important stats are:"
@@ -1105,8 +1615,13 @@
 	quest.4D3834BC5BCBCE5B.title: "Metal Coat"
 	quest.4D765EDD774384BB.quest_desc: ["Boosts the holders&e' Electric-type moves,&r how shocking!"]
 	quest.4DFC4CA748310BBC.quest_subtitle: "Boosts the power of &lGround-type&r moves by 20%."
+	quest.4E0736A9297FA0CC.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.4E26EAF8AB40DA65.quest_desc: [
-		"&dPoké Rods can also be enchanted.&r The Lure enchantment affects which Pokémon spawn pools can be accessed, with different Pokémon having a different minimum and maximum lure level. Luck of the Sea increases the chance of a higher tier rarity bucket being chosen when reeling in a Pokémon. "
+		"&dPoké Rods can also be enchanted.&r &6The Lure enchantment affects which Pokémon spawn pools can be accessed&r, with different Pokémon having a different minimum and maximum lure level. &6Luck of the Sea increases the chance of a higher tier rarity&r bucket being chosen when reeling in a Pokémon. "
 		"{@pagebreak}"
 		"Treasure and Junk Item Fishing!"
 		""
@@ -1126,6 +1641,7 @@
 	]
 	quest.4ECBFA9E68E42205.title: "Kanto Grass Types"
 	quest.4EEDE57964EC8F04.title: "Mirror Herb"
+	quest.4F2D2F587D594828.title: "Any type of Berry"
 	quest.4F7A34424782A021.quest_desc: ["&dStructures to find a Helix Fossil: &rDripstone Oasis, Enhydro Agate, Eroded Pillar, Preserved Skeleton, Sandy Den, Vibrant Hydrothermal Vents "]
 	quest.4F7AA7CFC1BCE6C1.quest_desc: [
 		"Togetic ➜ Togekiss"
@@ -1137,9 +1653,39 @@
 		"Used to craft a &dMega Bracelet&r - Available in many colours just change the apricorns used!"
 		"{image:mega_showdown:item/megabracelet_2d width:100 height:100 align:center}"
 	]
+	quest.4F8CA40C986EA27E.quest_desc: [
+		"&eSpecialty:&r Electric-type"
+		"&dReward:&r Beacon Badge, TM57"
+		""
+		"{image:pkgbadges:item/thebeaconbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Thunder Stone&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/thunder_stone width:25 height:25 align:center}"
+	]
+	quest.4F8CA40C986EA27E.quest_subtitle: "Defeat to raise your level cap to 55!"
 	quest.4FFE28C589CA2A39.quest_desc: ["This top-tier helmet causes a Pokemon that &5makes direct contact with the holder to take damage&r. I recommend putting this on a Pokemon with&6 Rough Skin to double the damage output.&r "]
+	quest.5000CF36055EC89D.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Dawnstone&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/dawn_stone width:25 height:25 align:center}"
+	]
+	quest.5000CF36055EC89D.quest_subtitle: "Defeat to raise your level cap to 39!"
+	quest.5000CF36055EC89D.title: "Rival Battle 3"
 	quest.50277EE6B6C87232.quest_subtitle: "+ Attack / - Sp. Attack."
 	quest.5032D5FCFDBE580A.title: "Clair"
+	quest.50A27C2F51A711E2.quest_desc: [
+		"&eSpecialty:&r Grass-type"
+		"&dReward:&r Forest Badge, TM86"
+		""
+		"{image:pkgbadges:item/theforestbadge width:25 height:25 align:centre}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Sunflower&r in a Trainer Spawner"
+		""
+		"{image:minecraft:block/sunflower_front width:25 height:25 align:center}"
+	]
+	quest.50A27C2F51A711E2.quest_subtitle: "No raise in cap, but defeat for Badge!"
 	quest.50B86BAE30501DC2.title: "Fighting Types"
 	quest.511C1070B209F039.quest_desc: ["A Growth Mulch increases the growth rate of the Berry Tree that it is used on for 3 harvests. "]
 	quest.5168938F27179AC3.quest_desc: ["This band gives extra &4Attack EVs&r when held by the Pokemon that participated in battle."]
@@ -1150,11 +1696,33 @@
 	quest.51C4A52380140FE2.title: "Cobblemon Counter"
 	quest.51F4D610F76AE7A8.quest_subtitle: "It has a static catch rate of 1×. "
 	quest.51FF87991E05EC1F.title: "Mint Leaf"
+	quest.5201B0CA44E2F86E.title: "Food Items"
+	quest.5206DA39EF40267E.quest_desc: [
+		"&eSpecialty:&r Rock-type"
+		"&dReward:&r Coal Badge, TM76"
+		""
+		"{image:pkgbadges:item/thecoalbadge width:25 height:25 align:centre}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Smooth Rock&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/smooth_rock width:25 height:25 align:center}"
+	]
+	quest.5206DA39EF40267E.quest_subtitle: "Defeat to raise your level cap to 16!"
 	quest.5225AD878439028B.title: "Paldea Bug Types"
 	quest.52448677A15B7316.title: "Magnet"
 	quest.525A623CB8D9597E.quest_subtitle: "Click to receive"
 	quest.525A623CB8D9597E.title: "Guide to Apotheosis"
-	quest.5271B269DAFB24B0.quest_subtitle: "Used to spawn Gym Leader Koga"
+	quest.5271B269DAFB24B0.quest_desc: [
+		"&eSpecialty:&r Poison-type"
+		"&dReward:&r Soul Badge, TM06"
+		""
+		"{image:pkgbadges:item/thesoulbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Poison Barb&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/poison_barb width:25 height:25 align:center}"
+	]
+	quest.5271B269DAFB24B0.quest_subtitle: "Defeat to raise your level cap to 73!"
 	quest.5278073C5222DD3D.quest_desc: ["A &dData Monitor&r is a utility block with a light-up screen. It is used in the &6Resurrection Machine multi-block&r, alongside the &eFossil Analyzer&r and &eRestoration Tank&r."]
 	quest.52911056CA80626D.title: "Kanto Water Types"
 	quest.52B1F17ECA8264A0.quest_desc: [
@@ -1186,6 +1754,7 @@
 	]
 	quest.53553193E421B9C1.quest_subtitle: "Swirlix -> Slurpuff"
 	quest.53793A1711744622.quest_desc: ["This mystical pendant boosts the holders &3Water-Type moves!&r"]
+	quest.53950EA8A2C5B59A.title: "Common Hostile Drops"
 	quest.53B63856D2DA0DDE.quest_desc: [
 		"&cONLY CLICK THIS IF YOU ARE NEW / HAVE NO DATA SAVED WITH RADICAL COBBLEOM TRAINERS!!"
 		""
@@ -1216,9 +1785,27 @@
 		""
 		"[ \"It is also an \", { \"text\": \"Evo Item\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FEB88B4732DFFF8\" } }, \".\" ]"
 	]
+	quest.5507CC953FDA1A01.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.552935A8E94ECAF0.quest_subtitle: "Most effective when used at night, during a full moon."
 	quest.552935A8E94ECAF0.title: "Moon Ball"
-	quest.55544A30100D89BD.quest_subtitle: "Used to spawn Rival Terry."
+	quest.554C4A283B1537CB.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Everstone&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/everstone width:25 height:25 align:center}"
+	]
+	quest.554C4A283B1537CB.quest_subtitle: "Defeat to raise your level cap to 30!"
+	quest.554C4A283B1537CB.title: "Rival Battle 1"
+	quest.55544A30100D89BD.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Gold Nugget&r in a Trainer Spawner"
+		"{image:minecraft:item/gold_nugget width:25 height:25 align:center}"
+	]
+	quest.55544A30100D89BD.quest_subtitle: "Defeat to raise your level cap to 27!"
+	quest.55544A30100D89BD.title: "Rival Terry (pt. 1)"
 	quest.555F5354AAA471D1.quest_desc: [
 		"&eRazor Fang&r is an evolution item that can be used to evolve &dGligar&r into &dGliscor&r if Gligar levels up whilst holding a Razor Fang &6at night&r. This consumes the Razor Fang. "
 		""
@@ -1226,6 +1813,11 @@
 	]
 	quest.555F5354AAA471D1.quest_subtitle: "Gligar -> Gliscor"
 	quest.558EAF85AF805975.quest_desc: ["This luciously soft sand boosts the holders &cGround-Type moves.&r"]
+	quest.55B058ACDB811327.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.55B2618C69E9CFCC.quest_desc: [
 		"A berry is a status item for Pokémon that provides an effect in or outside of battle."
 		""
@@ -1271,18 +1863,47 @@
 		"- Ancient Heavy/Leaden/Gigaton Balls"
 		"\\& &6can be smelted down to &dblack dye."
 	]
+	quest.5729BB31D3F25E33.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.5735AAFE475C7801.quest_subtitle: "Boosts the power of &lElectric-type&r moves by 20%."
 	quest.5745DDDDC2767056.title: "Pep-Up Flower"
 	quest.57514F9CC526163D.title: "Vivichoke Dip"
 	quest.575B1DD72C29542F.quest_desc: ["This annoying barb &5damages the holder by 1/8th of the max HP by turn&r. &6Good news though, it transfers on contact to the Pokemon attacked, so pass it on and hurt your opponent instead!&r"]
 	quest.576D15B4CDAF79B8.quest_desc: ["An &eX Special Attack&r is a type of item that raises the target's special attack stat by one stage when used in battle."]
+	quest.57B7DA6546C6396B.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Shiny Stone&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/shiny_stone width:25 height:25 align:center}"
+	]
+	quest.57B7DA6546C6396B.quest_subtitle: "Defeat to raise your level cap to 57!"
+	quest.57B7DA6546C6396B.title: "Final Rival Battle"
 	quest.57BB4CC75B4C2E59.quest_subtitle: "A basic Poké Ball with a 1× catch rate, crafted using blue apricorns."
 	quest.57BB4CC75B4C2E59.title: "Azure Ball"
 	quest.57C173845F12F769.quest_desc: ["This groovy glove&4 increases the power of the holders punching moves&r and &6prevents them from triggering the contact effect&r."]
 	quest.5803C8628EEA49D3.quest_desc: ["A &dBinding Band&r is a held item that causes binding moves used by the holder to inflict 1/6 of the target's health instead of the usual 1/8 of the target's health at the end of each turn. "]
-	quest.58A05E9960629A37.quest_subtitle: "Used to spawn Elite Four: Lance"
+	quest.58159F55C45FECAF.title: "Any TR Item"
+	quest.58A05E9960629A37.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"&eSpecialty:&r Dragon-type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Dragon Fang&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/dragon_fang width:25 height:25 align:center}"
+	]
+	quest.58A05E9960629A37.quest_subtitle: "No raise in cap, but defeat for Rewards!"
+	quest.58A329E0A1A6E0CF.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.58A5D991AD0BDF1D.quest_desc: ["These sylish specs boost the &8&0holder's Dark-Type moves&r.&r"]
 	quest.58A96D504F6D0BDB.title: "Hoenn Bug Types"
+	quest.58B6F91540877718.quest_desc: ["You can also check your level cap and who to battle next with your &cTrainers Card&r."]
+	quest.58B6F91540877718.quest_subtitle: "Sends your current level cap to chat"
+	quest.58B6F91540877718.title: "Check Level Cap"
 	quest.58FF3077CDC3AB45.quest_desc: ["Craft a structure compass to find structures up to 25k blocks away!"]
 	quest.58FF3077CDC3AB45.quest_subtitle: "Used for finding specific structures"
 	quest.5919CAA1EC57AA34.title: "Kanto Dragon Types"
@@ -1315,12 +1936,29 @@
 	]
 	quest.59CD372599A1ECFE.quest_subtitle: "Most Bug Pokémon grow quickly and evolve sooner than other types."
 	quest.59CD372599A1ECFE.title: "Bug Types"
+	quest.59E7AA2CE4FD6445.quest_desc: [
+		"&dEffect on Pokémon:&r -"
+		""
+		"&dBait Effect:&r 25% chance to attract a Pokémon with an Attack boosting nature"
+	]
+	quest.59EE84B56B128637.title: "Sapplings"
 	quest.5A38B1D6685BB89A.quest_desc: ["This funky herb will restore the &dholders stats to normal after they have been affected&r. It will be consumed on use."]
 	quest.5A531FBF767E4983.title: "Ground Types"
 	quest.5A7B819F3E7E0322.quest_desc: ["Boosts the &1&5holder's Dragon-type moves&r.&r Careful, its sharp!"]
 	quest.5AAC286CC05907CF.quest_subtitle: "The Wrench is a tool used to rotate, dismantle and configure components "
+	quest.5ACEB4A2B7A7F73C.title: "Logs"
 	quest.5B15BD154D395DB0.title: "Poison Types"
 	quest.5B1F60891CBEDA8C.title: "Hoenn Water Types"
+	quest.5B3D2FF22FFA5722.quest_desc: [
+		"(If enabled on your server) you will have access to;"
+		""
+		"- &d/RTP&r - Teleport to a random location"
+		"- /sethome - set your home location"
+		"- /home - Teleport to your home"
+		"- etc."
+	]
+	quest.5B3D2FF22FFA5722.quest_subtitle: "FTB Essentials"
+	quest.5B3D2FF22FFA5722.title: "RTP \\& more!"
 	quest.5B47B854A372939A.title: "Big Root"
 	quest.5B6C3506A92A1A3C.quest_desc: ["This strange backpack causes your Pokemon to&6 switch out when its stats are lowered&r by the opponent."]
 	quest.5B7B893A69457555.title: "Black Glasses"
@@ -1335,6 +1973,16 @@
 	quest.5C98312AF90A4AF1.title: "Mystic Water"
 	quest.5CA5C2DBBB299093.title: "Black Sludge"
 	quest.5CD55745E0E12FC6.title: "Johto Fighting Types"
+	quest.5D124ABC55250B59.quest_desc: [
+		"{image:modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png width:50 height:50 align:center}"
+		""
+		"Her team has no major focus and is designed to withstand and dish out a lot of damage, good luck!"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Prism Scale&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/prism_scale width:25 height:25 align:center}"
+	]
+	quest.5D124ABC55250B59.quest_subtitle: "Defeat to raise your level cap to 100!"
 	quest.5D22D76A4A1DD7B8.title: "0004 Charmander"
 	quest.5D3311AA4AA0B591.quest_subtitle: "Octagon = Section Complete"
 	quest.5D33561D06F89872.quest_desc: ["THis band grants the holder that participated in battle extra &cDefense EVs&r,"]
@@ -1356,7 +2004,13 @@
 	quest.5F181FC004426355.quest_subtitle: "+ Defense"
 	quest.5F3DB370AC772E48.quest_subtitle: "It has a static catch rate of 1×. "
 	quest.5F4CD36297C94EC0.title: "Galar Region Starters"
+	quest.5F5DC7A548BC73E3.title: "x5 &eRelic Coins"
 	quest.5F8B88A3D68ECA87.title: "Dusk Ball"
+	quest.5FA8DBC3B6C0231D.quest_desc: [
+		"&dEffect on Pokémon:&r -"
+		""
+		"&dBait Effect:&r 25% chance to attract a Pokémon with a Speed boosting nature"
+	]
 	quest.5FDAF21C72ADE73F.quest_desc: [
 		"This block allows you to link any container with a Storage Controller."
 		""
@@ -1399,6 +2053,7 @@
 	]
 	quest.60539FC8C0C1B4C0.title: "Kalos Rock Types"
 	quest.60570E75C416BB57.title: "Sinnoh Water Types"
+	quest.6063D86C30BD471D.quest_desc: ["The holder's multi-strike moves will hit at least 4 times."]
 	quest.6083A75B21C1493B.quest_desc: ["This ancient piece of paper boosts the&5 holders Ghost-Type moves.&r"]
 	quest.609C3A4391CA3E65.quest_desc: ["This upgrade requires materials from the nether and allows you to cast tier 2 glyphs."]
 	quest.60CDAE3198AA2FD1.title: "Sinnoh Ground Types"
@@ -1409,13 +2064,41 @@
 	quest.61243F7498C6074C.quest_subtitle: "capable of being thrown further. "
 	quest.6158C620A866F32A.title: "Koga"
 	quest.61AAC173D24A2D74.title: "Galar Ground Types"
+	quest.61D00728EEBE8C4B.quest_desc: [
+		"&eSpecialty:&r Water-type"
+		"&dReward:&r Fen Badge, TM55"
+		""
+		"{image:pkgbadges:item/thefenbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Nautilus Shell&r in a Trainer Spawner"
+		"{image:minecraft:item/nautilus_shell width:25 height:25 align:center}"
+	]
+	quest.61D00728EEBE8C4B.quest_subtitle: "Defeat to raise your level cap to 31!"
 	quest.61F7AAFB73A1FCA1.title: "Sinnoh Dragon Types"
 	quest.626504DF6F2FA32E.quest_desc: ["Use &6/wits&r to see what structures are nearby."]
 	quest.626504DF6F2FA32E.quest_subtitle: "What is that Structure??"
 	quest.626504DF6F2FA32E.title: "Where am I???"
 	quest.6265FD29EAC0B159.title: "Kalos Steel Types"
+	quest.62673B1C2426F051.title: "Crops"
 	quest.62686725CEF63030.title: "Jasmine"
+	quest.62761D75BBD96456.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.628A9A9BEEFEEDDD.title: "Paldea Region Starters"
+	quest.62973A2788EDA099.quest_desc: [
+		"&eSpecialty:&r Ghost-type"
+		"&dReward:&r Relic Badge, TM65"
+		""
+		"{image:pkgbadges:item/therelicbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Eye of Ender&r in a Trainer Spawner"
+		"{image:minecraft:item/ender_eye width:25 height:25 align:center}"
+	]
+	quest.62973A2788EDA099.quest_subtitle: "Defeat to raise your level cap to 37!"
 	quest.62A812BC21ED5BCE.quest_desc: ["Check back later for updates, Quests for this chapter are being still being worked on!"]
 	quest.62A812BC21ED5BCE.quest_subtitle: "Work in Progress.."
 	quest.62A812BC21ED5BCE.title: "Quests Coming Soon!"
@@ -1457,8 +2140,21 @@
 		"Check out the cobblemon wiki's &6Unique Form&r page for more info on the biomes with boosted rates!"
 	]
 	quest.641829A8BDA025CB.quest_subtitle: "Magikarp Jump variants \\& more!"
+	quest.6422EB9E3B793D5C.quest_desc: [
+		"&dEffect on Pokémon:&r -"
+		""
+		"&dBait Effect:&r Has a 25% chance to attract a Pokémon with a Defense boosting nature"
+	]
 	quest.64303CC2037C37B1.title: "Pryce"
-	quest.649732FA0F7D0AE0.quest_subtitle: "Used to spawn Elite Four: Lorelei"
+	quest.649732FA0F7D0AE0.quest_desc: [
+		"                 &b&lELITE FOUR!&r"
+		"&eSpecialty:&r Water \\& Ice-Type"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Never Melt Ice&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/never_melt_ice width:25 height:25 align:center}"
+	]
+	quest.649732FA0F7D0AE0.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.64BF31C3D18F6404.quest_subtitle: "+ / -"
 	quest.64F3B95278C7A52F.quest_desc: ["These held items boost the &6power&r of specific types &6of moves, fire water, grass, etc&r. Very useful if you prefer a certain type, or want to use a well rounded team.&5 Find what suits your style, and mix and match!&r"]
 	quest.650E0ADAF60321D8.quest_desc: [
@@ -1467,6 +2163,8 @@
 	]
 	quest.650E252CE49DCB91.title: "Galar Dragon Types"
 	quest.655BB4FDE629E70F.title: "Hoenn Poison Types"
+	quest.65989E63D429B561.quest_desc: ["&6Silver Caps&r - Boosts particular IV to max"]
+	quest.65989E63D429B561.quest_subtitle: "Boost those IVs!"
 	quest.65CDB9F01373E258.quest_subtitle: "Click the check to begin your training adventure!"
 	quest.65CDB9F01373E258.title: "Choose your starter"
 	quest.65E148B2698618F4.quest_desc: ["This fashionistas belt will &5boost the effect of super-effective moves&r. &6This boosts your pokemons' damage even further&r, so&6 learn your type advantages&r to maximize the effectiveness of this item!"]
@@ -1502,6 +2200,28 @@
 	]
 	quest.6764FAFA232450EE.quest_subtitle: "Work together with FTBTeams"
 	quest.6764FAFA232450EE.title: "Teaming Up!"
+	quest.679990300849CA69.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.67D81671CB3044DE.quest_desc: [
+		"You will also find a wide variety of other trainers looking to battle you, they are all just optional although some have some awesome rewards!"
+		""
+		"Good luck on your journey to &dPokemon Master&r!"
+	]
+	quest.67D81671CB3044DE.quest_subtitle: "Optional Battles"
+	quest.67DE89D4243C2F29.quest_desc: [
+		"&eSpecialty:&r Steel-type"
+		"&dReward:&r Mine Badge, TM91"
+		""
+		"{image:pkgbadges:item/theminebadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Metal Coat&r in a Trainer Spawner"
+		"{image:cobblemon:item/evolution/metal_coat width:25 height:25 align:center}"
+	]
+	quest.67DE89D4243C2F29.quest_subtitle: "No raise in cap, but defeat for Badge!"
 	quest.67ED8996E37C1AE2.quest_desc: [
 		"Pondering is an in-game guide system that allows the player to quickly get information about Create blocks."
 		""
@@ -1521,8 +2241,24 @@
 	]
 	quest.67ED8996E37C1AE2.quest_subtitle: "Hold <w> while hovering."
 	quest.687C3A35B0F473BD.quest_desc: ["A magically infused flower, Mageblooms provide additional source to nearby Agronomic Sourcelinks as they grow and provide a source of Magebloom Fiber. Mageblooms can also be used in crafting Potions of Spell Damage, increasing the damage of your spells."]
+	quest.688473E3C471D414.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.68AFEA8C96067CF3.title: "Electirizer"
-	quest.68CBF7464655509E.quest_subtitle: "Used to spawn Gym Leader Brock!"
+	quest.68CBF7464655509E.quest_desc: [
+		"&eSpecialty:&r Rock-type"
+		"&dReward:&r Boulder Badge, TM34"
+		""
+		"{image:pkgbadges:item/theboulderbadge width:25 height:25 align:center}"
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Hard Stone&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/hard_stone width:25 height:25 align:center}"
+	]
+	quest.68CBF7464655509E.quest_subtitle: "Defeat to raise your level cap to 21!"
+	quest.68CBF7464655509E.title: "Gym Leader Brock"
 	quest.68EBA239349273BE.quest_desc: ["&dStructures to find a Root Fossil: &rHydrothermal Vents, Rooted Pit, Sandy Den, Submerged Impact, Submerged Spike, Sunscorched Remains, Underwater Fissure, Vibrant Hydrothermal Vents "]
 	quest.68EBA239349273BE.quest_subtitle: "Lileep"
 	quest.68EC0599102A0D94.title: "Luxury Ball"
@@ -1531,6 +2267,11 @@
 	quest.6982D926C358AE8B.quest_desc: ["This item cures the holder of &dinfatuation and other mental effects. It is consumed on use.&r"]
 	quest.699D495C37E18137.title: "Vivichoke"
 	quest.69CB779BD0D57B79.title: "Johto Steel Types"
+	quest.69D4D5942EB49A0F.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.69DC33C34B2596CA.title: "Air Balloon"
 	quest.69DEF8E186F11261.quest_desc: ["These are all the &dtier 1 glyphs&r and can all be cast with the &6Novice Spell Book&r. Hold &eLShift&r over any glyph for the description!"]
 	quest.69F52A7752C19CF5.title: "Johto Normal Types"
@@ -1540,11 +2281,26 @@
 	quest.6A6BA5929CEFA82C.title: "Machines on the go!"
 	quest.6A7D7FE80876EEC8.title: "Adamant Mint"
 	quest.6A87D3B41E5E1A39.title: "Quick Ball"
+	quest.6A910038D72D23A2.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Echo Shard&r in a Trainer Spawner"
+		"{image:minecraft:item/echo_shard width:25 height:25 align:center}"
+	]
+	quest.6A910038D72D23A2.quest_subtitle: "Defeat to raise your level cap to 49!"
+	quest.6AC38F4284A28299.quest_desc: ["Restores 1/8 HP to holder based on damage dealt by moves to opponents."]
 	quest.6AD2EB3A4E10E567.quest_desc: ["This parasol prevents the holder from &bbeing affected by weather.&r"]
 	quest.6ADA1C14E7C4FA93.title: "Paldea Fairy Types"
 	quest.6B057C91A8B2499C.title: "Giovanni"
 	quest.6B05FA7513976F58.title: "Paldea Normal Types"
+	quest.6B14675F41A28934.quest_desc: ["Protective moves like Light Screen and Reflect will be effective longer."]
 	quest.6B3643977D7CB388.quest_desc: ["This snazzy headband will &4boost the holders Attack Stat&r, but &6only allow the use of one move&r. High Attack Pokemon that are naturally fast would be best suited for this item."]
+	quest.6B65C952F02FD3F8.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Scope Lens&r in a Trainer Spawner"
+		""
+		"{image:cobblemon:item/held_items/scope_lens width:25 height:25 align:center}"
+	]
+	quest.6B65C952F02FD3F8.quest_subtitle: "Defeat to raise your level cap to 22!"
 	quest.6BAE11A4142830A0.title: "Deep Sea Scale"
 	quest.6BE794938550E7B6.title: "Verdant Ball"
 	quest.6C5869FD1F9CBA7A.quest_desc: ["This curious button will cause your&6 Pokemon to switch out&r when it is hit by &6an opponents' damaging move. &r"]
@@ -1561,7 +2317,12 @@
 	]
 	quest.6C76C34DABDA4E76.quest_desc: ["It has a static catch rate of 2×. "]
 	quest.6C76C34DABDA4E76.quest_subtitle: "capable of being thrown further. "
-	quest.6CDA73F7FC7AD616.quest_subtitle: "Used to spawn Rocket Admin Ariana (pt.2)"
+	quest.6CDA73F7FC7AD616.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Utility Umbrella&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/utility_umbrella width:25 height:25 align:center}"
+	]
+	quest.6CDA73F7FC7AD616.quest_subtitle: "Defeat to raise your level cap to 80!"
 	quest.6CFDBF647DBF30B7.quest_desc: ["This lump of charcoal boosts the&4 holders fiery Fire-Type moves&r."]
 	quest.6D07A8E7E38DB346.title: "Dragon Fang"
 	quest.6D0D1AA9E5100F98.title: "Alola Grass Types"
@@ -1581,6 +2342,11 @@
 	quest.6D4A4E12435D8388.quest_subtitle: "Transfer of Motion"
 	quest.6D4A4E12435D8388.title: "Shafts \\& Gears"
 	quest.6DA8396B9412F29E.quest_subtitle: "Boosts the power of &lGhost-type&r moves by 20%."
+	quest.6DB346601C14BE3E.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.6DB8347D54D57BC9.quest_subtitle: "Boost your stats in battle!"
 	quest.6DB8347D54D57BC9.title: "Battle items"
 	quest.6E265F802B7CA155.quest_subtitle: "Collect all fossilmons!"
@@ -1595,8 +2361,14 @@
 		"Can be crafted."
 	]
 	quest.6E41FC2D07C53BBF.quest_subtitle: "Spritzee -> Aromatisse"
+	quest.6E88404A5D123EB4.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.6EACC905A9981091.quest_subtitle: "Collect a Mon from every single region!"
 	quest.6EACC905A9981091.title: "National Collector"
+	quest.6ED467145697C3DD.quest_desc: ["Raises the holder's Attack and Sp. Atk by 2 stages when holder is hit by a super effective move."]
 	quest.6F0128C5F6A8E758.title: "Sinnoh Poision Types"
 	quest.6F2B7C0B7E53E6B4.quest_desc: ["Comes in many sizes! - 1x1, 1x2, 2x2, and framed options for more customizability! "]
 	quest.6F2B7C0B7E53E6B4.quest_subtitle: "Used to store Fluids"
@@ -1612,7 +2384,21 @@
 		"Helioptile ➜ Heliolisk"
 	]
 	quest.6F951730D7FB249D.title: "Poké Ball"
-	quest.703DF3EB9543851F.quest_subtitle: "Used to spawn Trainer Brendan (pt.2)"
+	quest.6FA60108865A31CB.quest_desc: [
+		"              &n&oDOUBLE BATTLE!&r"
+		""
+		"Need to summon these trainers again? "
+		"-> Use a &6Smoke Ball&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/smoke_ball width:25 height:25 align:center}"
+	]
+	quest.6FA60108865A31CB.quest_subtitle: "Defeat to raise your level cap to 48!"
+	quest.703DF3EB9543851F.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Expert Belt&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/expert_belt width:25 height:25 align:center}"
+	]
+	quest.703DF3EB9543851F.quest_subtitle: "Defeat to raise your level cap to 68!"
+	quest.704527E8483BD6F8.quest_desc: ["The holder loses 1/8 of max HP per turn. Transfers to other Pokémon on contact."]
 	quest.70A0FDCEC5AC6EDB.title: "Exploration and Adventure"
 	quest.70E7D208D1221DC0.quest_desc: ["&dArctovish&r, &dArctozolt&r,&d Dracovish&r, and &dDracozolt&r all &6require 2&r fossils to be revived, "]
 	quest.70E7D208D1221DC0.quest_subtitle: "2 Fossils for 1 mon!"
@@ -1634,6 +2420,16 @@
 		"{ \"text\": \"Quest Line here\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11CA74A02F4C5C83\" } }"
 	]
 	quest.71D3D2C181B923C9.quest_subtitle: "Yes! You can unlock the ~ key!"
+	quest.71F7EB6A202D78D5.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
+	quest.71F89479B2825D7E.quest_desc: [
+		"&dEffect on Pokémon:&r Holder is cured if it is confused."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Mineral and Amorphous Egg Groups 10x more likely to be encountered, chance to attract a special Wooper variant"
+	]
 	quest.721A3264FA7A9C85.quest_desc: ["This item gives the holder &6a chance to move first if it is slower than the opponent&r. This can give a boost to your slower pokemon. "]
 	quest.724A064DD2B0C4EC.quest_desc: [
 		"Check out the other chapters if you would like more control over your storage systems."
@@ -1651,15 +2447,34 @@
 	quest.730E73CB41894271.quest_subtitle: "Milcery -> Various Alcremie forms"
 	quest.73192893BBFAFA46.quest_desc: ["This cool card raises the &6holder's Attack and SP. Atk by 2 stages&r when the holder is &6hit by a super-effective move.&r "]
 	quest.7329A4B4989D5EC7.title: "Unova Ghost Types"
+	quest.7342814E77C05218.quest_desc: [
+		"You can also upgrade it to a &dLarge Berry Pouch&r to hold ALL 69 types of berries!"
+		""
+		"&cDO NOT SUBMIT A FULL BERRY POUCH!&r"
+	]
+	quest.7342814E77C05218.quest_subtitle: "Hold all your berries!"
+	quest.7342814E77C05218.title: "Berry Pouch"
 	quest.738CA63FC60EECEB.quest_desc: [
 		"The &6final battle&r of &cradical red&r!"
 		""
-		"&eGrants you the final level cap of 100!"
+		"{image:modified:textures/ftbquests/misc_icon/trophy_rect_gold.png width:50 height:50 align:center}"
+		"There is no specialty for Terry's team type."
+		""
+		"Need to summon this trainer again? "
+		"-> Use a &6Life Orb&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/life_orb width:25 height:25 align:center}"
 	]
-	quest.738CA63FC60EECEB.quest_subtitle: "Used to spawn Champion Terry"
+	quest.738CA63FC60EECEB.quest_subtitle: "&eGrants you the final level cap of 100!"
 	quest.738D1F88FF7A44F3.quest_desc: ["&dStructures to find a Plume Fossil: &r Birch Tree, Mossy Pond, Powdered Deposit, Rooted Pit, Spruce Tree, Suspicious mound "]
 	quest.738D1F88FF7A44F3.quest_subtitle: "Archen"
-	quest.73BA9B5BD210B6F2.quest_subtitle: "Used to spawn Rocket Admin Archer."
+	quest.73BA9B5BD210B6F2.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Black Tumblestone&r in a Trainer Spawner"
+		"{image:cobblemon:item/black_tumblestone width:25 height:25 align:center}"
+	]
+	quest.73BA9B5BD210B6F2.quest_subtitle: "No raise in cap, but defeat for Rewards!"
+	quest.73CE42B9656AAA15.quest_subtitle: "Click to unlock level cap of 100"
+	quest.73CE42B9656AAA15.title: "Skip Progress"
 	quest.73ECA29DAD74C6AF.quest_desc: ["This cool ball of yarn will &dcause your opponents pokemon to fall in love&r if they have &dused a move, such as attract, on your Pokemon!&r"]
 	quest.73EE607E604868BE.quest_subtitle: "Fire is one of the three basic elemental types along with Water and Grass, which constitute the three starter Pokémon."
 	quest.73EE607E604868BE.title: "Fire Types"
@@ -1686,6 +2501,7 @@
 	quest.766692BF4F783126.quest_subtitle: "Recharge that PP!"
 	quest.7676E887F513A1BE.quest_desc: ["The &cTrainer Card &rwill help you to keep track of your progress, find information about trainers and to locate the next key trainer to increase your level cap, when they spawn nearby."]
 	quest.7676E887F513A1BE.quest_subtitle: "A Trainers Best Friend"
+	quest.7676E887F513A1BE.title: "Trainer Card"
 	quest.767B5940CE5BDEF9.quest_desc: [
 		"&dUsed to craft:"
 		"- Verdant Balls,"
@@ -1701,7 +2517,19 @@
 	quest.7694FB5A1A38F1E1.title: "Precision Engineering: Ultra Ball"
 	quest.76CBBB30A7203C68.title: "1x &6PokeDollar"
 	quest.76D7F0FEBB08B9E2.title: "Alola Fire Types"
-	quest.773DD3685CEC3C45.quest_subtitle: "Used to spawn Rocket Admin Ariana"
+	quest.770B0DD8F5DC0F18.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.773DD3685CEC3C45.quest_desc: [
+		"              &n&oDOUBLE BATTLE!&r"
+		""
+		"Need to summon these trainers again? "
+		"-> Use a &6Black Sludge&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/black_sludge width:25 height:25 align:center}"
+	]
+	quest.773DD3685CEC3C45.quest_subtitle: "Defeat to raise your level cap to 56!"
 	quest.777DC499E565AA92.title: "Rock Types"
 	quest.778833161119F423.title: "Hoenn Ground Types"
 	quest.781DAB6DD8759ED0.title: "Teaming Up!"
@@ -1749,6 +2577,11 @@
 	quest.7918C871EF92F77F.title: "Fairy Types"
 	quest.793C21A78A522417.quest_subtitle: "Some rods have additional traits!"
 	quest.793C21A78A522417.title: "Tool Rods"
+	quest.79485234A497F43C.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.79490B7380D0CD9F.quest_desc: ["A &dFossil Analyzer&r is a utility block which is used as part of the &6Resurrection Machine multi-block&r. It is used to hold the fossils that are to be revived in the machine. Fossils can also be inserted via a hopper. "]
 	quest.795F0F29602B5777.title: "Mastering the Craft: Timer Ball"
 	quest.7975C9CC5C2BF644.quest_desc: [
@@ -1789,20 +2622,50 @@
 		""
 		"Only some can be crafted, click the check to receive a &drandom evo item&r!"
 	]
+	quest.7A1E93F70365FA28.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.7A3843F481339880.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.7A3F6967D5410C1E.quest_subtitle: "Medicinal Leek"
 	quest.7A3F6967D5410C1E.title: "The first step to healing..."
 	quest.7A46B6AE28CB32E8.title: "Fire Stone"
+	quest.7A58BDE7EB5861AE.quest_desc: [
+		"&dEffect on Pokémon:&r Holder cures itself if it is paralyzed. "
+		""
+		"&dBait Effect:&r Makes Pokémon in the Fairy and Grass Egg Groups 10x more likely to be encountered"
+	]
 	quest.7A88810CD390ADA0.title: "Red Apricorn"
 	quest.7A950C6D89028DC2.title: "Sinnoh Bug Types"
 	quest.7AF0F49FD5B1B4E4.quest_desc: ["Use &dPoké Balls&r to throw at wild Cobblemon to catch them—lower their health first to increase your chances!\\n\\n&e&lTips for Trainers:&r&r\\n- Press \"&6P&r\" to access your party summary, check stats, etc. \\n- Some Pokémon spawn only in specific biomes or at certain times.\\n- Use the all new &cpokedex&r to learn more about Pokémon spawns.\\n- Check out more cobblemon quests on the various chapters to the left!\\n- Hold &6SHIFT&r to view quick info like the level / name IF you've &eencountered&r the mon!"]
 	quest.7AF0F49FD5B1B4E4.quest_subtitle: "Start your Pokémon journey"
 	quest.7AF0F49FD5B1B4E4.title: "Catch Your First Cobblemon!"
+	quest.7B2A6E821D72749A.quest_desc: [
+		"&dEffect on Pokémon:&r Holder is cured if it is frozen."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Water 1 and Water 2 Egg Groups 10x more likely to be encountered"
+	]
 	quest.7B4339AC69C66AB2.title: "Getting Started"
 	quest.7B4E44A914D7CFF8.quest_desc: ["Requires diamonds to turn into a full featured &6PokeNav&r!"]
 	quest.7B4E44A914D7CFF8.quest_subtitle: "Can be found while fishing"
 	quest.7B52DCB755A1B95F.title: "Alola Electric Types"
-	quest.7B7E824D7BD29739.quest_subtitle: "Used to spawn Rocket Admin Archer (pt.2)"
+	quest.7B7E824D7BD29739.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Covert Cloak&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/covert_cloak width:25 height:25 align:center}"
+	]
+	quest.7B7E824D7BD29739.quest_subtitle: "No raise in cap, but defeat for Rewards!"
 	quest.7B85355A8C431289.quest_subtitle: "Blueprint + Skill card = duplicate!"
+	quest.7B8B8DEEE5B11934.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
 	quest.7BA1EF8D17CC5F6F.title: "Park Ball"
 	quest.7BC83E1C825581CD.quest_desc: ["&6PokéDollars (₽)&r are the main currency used throughout your adventure in this modpack. They’re the top tier in our custom economy system and play a big role in buying many types of items, trading with NPCs, and using various special features!"]
 	quest.7BD6E4825155780E.title: "Galar Dark Types"
@@ -1862,7 +2725,17 @@
 		"&l&4DO NOT SUBMIT A BAG IF YOU HAVE STUFF INSIDE, IT WILL BE LOST!&r"
 	]
 	quest.7E5311B28FDF0E00.quest_desc: ["If your Pokemon &6has full HP&r, this item gurantees the&6 holder will survive a One-Hit KO&r, leaving it &6with 1 HP&r."]
-	quest.7EBAF1D56B1151D8.quest_subtitle: "Used to spawn Trainer Brendan for the last time!"
+	quest.7E75C4A9C561006C.quest_desc: [
+		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
+		""
+		"&dBait Effect:&r Makes Pokémon in the Human-Like and Flying Egg Groups 10x more likely to be encountered"
+	]
+	quest.7EBAF1D56B1151D8.quest_desc: [
+		"Need to summon this trainer again? "
+		"-> Use a &6Choice Scarf&r in a Trainer Spawner"
+		"{image:cobblemon:item/held_items/choice_scarf width:25 height:25 align:center}"
+	]
+	quest.7EBAF1D56B1151D8.quest_subtitle: "Defeat to raise your level cap to 85!"
 	quest.7EC74F87EAC80BD5.quest_subtitle: "Use a MasterBall to guarantee the capture"
 	quest.7EC74F87EAC80BD5.title: "YOU'RE MINE!"
 	quest.7EEBC8A4B3AAAE14.title: "Offense Based Items"
@@ -1871,6 +2744,7 @@
 	quest.7F13F30AA2DC7338.title: "Mechanical Power!"
 	quest.7F2D3DDF3A914B25.quest_subtitle: "A second tier Pokéball more effective on mon under level 30."
 	quest.7F401B66471E4CAD.title: "Johto Ground Types"
+	quest.7F4FC736A3C6C28C.quest_desc: ["Doubles the Attack and Sp. Atk of Pikachu when held."]
 	quest.7F7FE2EE906CD18C.quest_desc: ["This strange herb &acopies all of the opponents increased stat changes&r. &5It will be consumed on use.&r"]
 	quest.7FA641CA161D2163.title: "Kanto Ghost Types"
 	quest.7FED8C5B8B3F0DA7.quest_desc: [
@@ -1893,12 +2767,14 @@
 	reward_table.29ABA53F117A56ED.title: "mc - sapplings"
 	reward_table.2A271B3EB4418F9F.title: "mekanism"
 	reward_table.2AD2D1E18E9F7E0D.title: "tier 2 stones"
+	reward_table.2BF3581852A0714B.title: "cobblemon - caps"
 	reward_table.34A27ADF92D70931.title: "cobblemon - util"
 	reward_table.391B75243489BC59.title: "cobblemon - megabrace"
 	reward_table.3CD76C21E777A1C2.title: "mc - terracotta"
 	reward_table.42E46DC97C21BC14.title: "tier 1 blocks"
 	reward_table.4B9591150FF02C87.title: "create - general"
 	reward_table.4DD012439EAAD4C1.title: "mc - wood"
+	reward_table.509DD0724E0D4BF0.title: "cobblemon - caps2"
 	reward_table.529A9535D7E1E874.title: "cobblemon - dexes"
 	reward_table.54015B3BE7076FB5.title: "cobblemon - evo items"
 	reward_table.55F104F2D5888BB7.title: "mc - bricks etc"
@@ -1907,6 +2783,7 @@
 	reward_table.5B83C9E030554346.title: "cobblemon - fossil"
 	reward_table.5C99B7E9DB0AD5DE.title: "cobblemon - balls"
 	reward_table.5FB2D85C48F4A657.title: "cobblemon - loot - ultrarare"
+	reward_table.63A0AFB25886B2B7.title: "cobblemon - tumblestones"
 	reward_table.6BFF69C03C41F1D1.title: "mob drops - 3"
 	reward_table.6D49D96AB92F092E.title: "modified"
 	reward_table.6E8AAA979EFAADB9.title: "cobblemon - battle items"
@@ -1929,18 +2806,21 @@
 	task.0C80121CB1DF1B5D.title: "Any #cobblemon:pokedex"
 	task.0CDC0CE8213EC844.title: "Pasture must be loaded"
 	task.0D52C10DE22BED66.title: "Build a fossil Machine"
+	task.0F621DD8886ED884.title: "Final Giovanni Battle"
 	task.100DF988FEA2C144.title: "Any #minecraft:logs"
 	task.10E5A09BC4A42BE1.title: "~Ultimine~"
 	task.117952267CF6CE7E.title: "Commander Saturn"
 	task.12599C869A4D32A6.title: "Any #c:rods"
 	task.12FD24418A1A96B9.title: "Any #silentgear:blueprints"
 	task.14B528A7C80DDD6E.title: "Any #cobblemon:fossils"
+	task.1710356889E5C579.title: "Final Rival Battle"
 	task.1818972F56B9C67A.title: "Shiny Hunting!"
 	task.1890E6B96B8AB7F4.title: "Any #cobblemon:apricorns"
 	task.18C3A3D257515DC9.title: "Ability"
 	task.19CC9BA72BE88239.title: "Any #cobblemon:poke_rods"
 	task.1A154881FC881589.title: "Out of Moves?"
 	task.1BCE1D7EDDE6EA22.title: "Any #silentgear:repair_kits"
+	task.1CEEE65C68D6C795.title: "Elite Four Lorelei"
 	task.1E1E578DD8EE5FC8.title: "Any #create:casing"
 	task.1E3F14546A55CCCC.title: "Unknown type: ftbteams:create_or_join_team"
 	task.1E6B20592343D02F.title: "Structures"
@@ -1950,15 +2830,21 @@
 	task.2149A9C3227F6130.title: "Any #cobblemon:type_gems"
 	task.2248DF9C96CCFB93.title: "Full Party of Shinies!"
 	task.237FB28198C0CBBB.title: "Mars Jupiter Double"
+	task.23BC4586AB0D2A1F.title: "Elite Four Lance"
 	task.241E9AE7FE81F125.title: "Any #c:crops"
+	task.24C4A155A6249BC0.title: "Gym Leader Erika"
 	task.24FB1538225F2269.title: "TYPE BOOSTING"
+	task.26D0F91517C3EFD7.title: "Other Trainers"
+	task.28B6C4CB64878B29.title: "Rival Terry"
 	task.2A9658243ADAC536.title: "Combine Items"
 	task.2B7206DD336F752E.title: "Quests coming soon..."
 	task.2BA12480E42A02E2.title: "Pokemans"
 	task.2CA317FA51926586.title: "Any #cobblemon:tier_5_poke_balls"
 	task.2CEADAA3C6AFBB1B.title: "&6₽okeDollars!"
+	task.2D29B68BC00533DF.title: "Gym Leader Clair"
 	task.2D8D58D1152E299C.title: "Catch a Shiny!"
 	task.2E379B119390BD4A.title: "Any #c:crops/mint"
+	task.2E903343B1AC6F98.title: "Champion Terry"
 	task.2F86CDE6A03524AA.title: "Any #cobblemon:apricorns"
 	task.2FA7F342FC8DD8AE.title: "Moves"
 	task.30ACBDECF508BD8C.title: "Elite Four Lucian"
@@ -1968,31 +2854,42 @@
 	task.34777A2453DAE448.title: "Trainers"
 	task.351220E2D71C88B4.title: "Elite Four Bertha"
 	task.356B0B62EB53419C.title: "Catch 500 Fire-Type Pokemon"
+	task.35C140CBC9FE0FD2.title: "Rocket Admin Archer"
 	task.3759023A10358EB1.title: "Any #cobblemon:tumblestones"
 	task.37670642F75FF1D0.title: "More to come"
+	task.37B039FA3E281465.title: "Default Progression Track"
 	task.3936D2B409299F92.title: "Any #cobblemon:berries"
 	task.3C2EABBF60D3460A.title: "Galactic Boss Cyrus 2"
+	task.3D2AC1FFEABF861B.title: "Rocket Double Battle"
 	task.3D3DE2643E50A4F7.title: "Any #cobblemon:berries"
+	task.3D8F030F42EF6F6A.title: "Boss Giovanni"
+	task.3D9E30D05323280B.title: "Any #lightmanscurrency:wallet"
 	task.3E5EBA1EFF801DAC.title: "Cobblemon Extras"
 	task.3E8C4A00A2478C58.title: "Elite Four Flint"
 	task.3E9251A7A6C4DD0C.title: "Starter Blueprints"
 	task.3FB26ADD79C50811.title: "Unknown type: ftbchunks:claim_chunks"
+	task.3FF4746E05F262D3.title: "Gym Leader Sabrina"
 	task.40BE5F8EDB2E0801.title: "Why must I submit?"
 	task.417B7AC6E24A118D.title: "Riding Cobblemon"
 	task.41E926EA7E817694.title: "Berries"
 	task.43352FCD96C1E9D5.title: "Any #cobblemon:tier_5_poke_balls"
 	task.4368400EDBEBD42D.title: "Any #cobblemon:battle_items"
+	task.443F8468C229AB58.title: "Admin Adriana (again)"
 	task.44518033148EC4A4.title: "Check your progress"
 	task.458CE6320E29219D.title: "Explore!"
 	task.45C05A39AB498BCF.title: "More storage?"
+	task.4723C1DE154CA576.title: "Boss Gio (pt. 2)"
 	task.48D8F3FAE72576C6.title: "Repeatable Quests"
 	task.4B14972D76AD981A.title: "BDSP!"
 	task.4BBEF1E9ABA4469C.title: "Unlockable Ultimine"
 	task.4DF8845F405A6375.title: "Any #cobblemon:apricorn_sprouts"
 	task.4F11941A3076A00E.title: "EVO STONES?"
+	task.4F3D76EBA5FE338F.title: "Brendan Battle Finale"
 	task.50347B0B468B82E6.title: "Collect all FossilMons!"
 	task.50F00566C9770C2F.title: "The Beginning"
+	task.51DAF675A5E1D76A.title: "Gym Leader Surge"
 	task.52A575BE1A56A5C5.title: "Guide of Apotheosis"
+	task.53EABCA6C5CBF95D.title: "Brendan Battle (pt. 2)"
 	task.555EF830C9144F02.title: "Unknown type: ftbchunks:explore_chunks"
 	task.57D1FA069BE150DA.title: "Any #c:chests"
 	task.5868D4B0472E315B.title: "Any #cobblemon:plants"
@@ -2000,6 +2897,7 @@
 	task.58E32C1EA24AB829.title: "Any #ultimine_addition:mining_skill_card"
 	task.5AE0955C2576D023.title: "Gym Leader Roark"
 	task.5CC4CEC3C7A1AC9D.title: "Commander Mars"
+	task.5D49ADA12D3C370D.title: "RTP"
 	task.5FCD05B3C2C76356.title: "Skip Progress"
 	task.6053E7464BACBC0C.title: "Gym Leader Maylene"
 	task.638DBEBCCD8DA41A.title: "Completionist"
@@ -2010,23 +2908,34 @@
 	task.66930ED579FA547B.title: "Click to view all fossils."
 	task.66952071FCBF8F47.title: "FTB Mods!"
 	task.66CEB846C28BF8CB.title: "Enchantmets"
+	task.67074CE3BD818F17.title: "Spawn Brock"
+	task.6828C92C934147D0.title: "Trainer Brendan"
 	task.6978CDF80A35B992.title: "DEX SECTION IS A WIP!"
 	task.6984E152931ABF96.title: "Elite Four Aaron"
 	task.699D3B962C6CCF46.title: "Any #cobblemon:tier_5_poke_balls"
 	task.6A92FB2B20B8B33E.title: "Check out Champions League!"
 	task.6A97EE9320E2A4A6.title: "Level Cap?!"
+	task.6AC4917AD804B0E7.title: "Gym Leader Misty"
+	task.6C22807A36126639.title: "Admin Archer (again)"
+	task.6CBDE2F86810FBA3.title: "Click to receive"
 	task.6DBD96F81CCA3700.title: "Gym Leader Candice"
 	task.6E1BC37B21BEA425.title: "Barry Battle 2"
 	task.6E50118539F7C215.title: "Gotta Hatch ‘Em All"
 	task.6E50A10CF724B7F1.title: "Complete collection"
 	task.7058FB73F98E6CB0.title: "Any #functionalstorage:drawer"
+	task.70E9EDECDCB79DE4.title: "Trainer May"
 	task.71BDF56668A9A014.title: "Any #c:seeds"
+	task.72CBF1344368BBC2.title: "Rival Terry (pt. 2)"
 	task.75E6D59319FF80C8.title: "Claims"
+	task.7669E44E6C78097B.title: "Gym Leader Blaine"
+	task.76EF292DEB2462E7.title: "Elite Four Bruno"
 	task.7832529314B3B64F.title: "Barry 3"
 	task.79009E592ABDBEEF.title: "fill remaining held items"
+	task.79A709C56D9577DC.title: "Elite Four Agatha"
 	task.79C541499C6C2E5B.title: "Type-Boosting Items"
 	task.7A0E8F4B7E37272F.title: "Gym Leader Gardenia"
 	task.7A29C96C42A52CE3.title: "Radical Red"
+	task.7A6C70D6CEFCCC44.title: "Gym Leader Koga"
 	task.7AFBEC0C6E882060.title: "Starter Completionist"
 	task.7C32A663A495C247.title: "Fossil Completionist"
 	task.7CD257FAD325A2EC.title: "Evolution Items"

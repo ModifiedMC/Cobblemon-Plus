@@ -51,10 +51,10 @@
 					type: "item"
 				}
 				{
-					id: "1C1F03663CF448B3"
+					id: "2865ADCAE0C9BBA3"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -80,10 +80,10 @@
 					type: "item"
 				}
 				{
-					id: "08BBB00FCDA3BD5B"
+					id: "117B3970807286D1"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -109,10 +109,10 @@
 					type: "item"
 				}
 				{
-					id: "3A331689544C7EA0"
+					id: "1F1C63FF819CC4B6"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -138,10 +138,10 @@
 					type: "item"
 				}
 				{
-					id: "6420A18533D1CA47"
+					id: "56984BA217F9C69F"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}

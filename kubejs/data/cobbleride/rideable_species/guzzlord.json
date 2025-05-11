@@ -1,0 +1,15 @@
+{
+  "name": "guzzlord",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -1.65,
+      "z": 4.0
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

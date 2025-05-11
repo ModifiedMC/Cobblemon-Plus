@@ -25,8 +25,11 @@
 				{
 					id: "432B0624806EA600"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -56,8 +59,11 @@
 					count: 2
 					id: "651DA4F8172D9EB8"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -85,8 +91,11 @@
 				{
 					id: "14053CE54A1F31A9"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -116,8 +125,11 @@
 					count: 2
 					id: "15DC4ED407A0F56A"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -145,8 +157,11 @@
 				{
 					id: "5E34639733EB7728"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -176,8 +191,11 @@
 					count: 2
 					id: "13360912FF3EED07"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -205,8 +223,11 @@
 				{
 					id: "0FCB67FDC09D7616"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -236,8 +257,11 @@
 					count: 2
 					id: "7C23E6F5CB4254B3"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -265,8 +289,11 @@
 				{
 					id: "5B36195E8A0A80A1"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -296,8 +323,11 @@
 					count: 2
 					id: "68F030AE6D36E516"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -325,8 +355,11 @@
 				{
 					id: "37C72D6B013CA2F5"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -356,8 +389,11 @@
 					count: 2
 					id: "346AA0A7C1E09F1B"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -385,8 +421,11 @@
 				{
 					id: "5B3591C73A3549A4"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -416,8 +455,11 @@
 					count: 2
 					id: "7E635D7D3983B70A"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -445,8 +487,11 @@
 				{
 					id: "781EFFA6D944665D"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -476,8 +521,11 @@
 					count: 2
 					id: "77981BADE1AEB6D1"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -505,8 +553,11 @@
 				{
 					id: "40E1C23045D58DEB"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -536,8 +587,11 @@
 					count: 2
 					id: "4D6864D294089C99"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -565,8 +619,11 @@
 				{
 					id: "1504A366D9548F29"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -594,8 +651,11 @@
 				{
 					id: "0CD03E28B5920919"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -623,8 +683,11 @@
 				{
 					id: "3F47B7EE6FE54E12"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -652,8 +715,11 @@
 				{
 					id: "791310A5111428C8"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -681,8 +747,11 @@
 				{
 					id: "6D2F94423F5AE335"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -712,8 +781,11 @@
 					count: 2
 					id: "3AD4E12D1F9DA196"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -743,8 +815,11 @@
 					count: 3
 					id: "419899BEB461CC53"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -782,8 +857,11 @@
 					count: 5
 					id: "74F1A2E170312B29"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -812,8 +890,11 @@
 				{
 					id: "49D2F5BC51ABB539"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -841,8 +922,11 @@
 				{
 					id: "28DD70E70A257E02"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -871,8 +955,11 @@
 				{
 					id: "5D7B01ABADE0479A"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -880,8 +967,11 @@
 					count: 2
 					id: "7F40EB1911A458A1"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -911,8 +1001,11 @@
 					count: 3
 					id: "12E86D42AE2B90C2"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -940,8 +1033,11 @@
 				{
 					id: "4960AABCDA8F6312"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -969,8 +1065,11 @@
 				{
 					id: "023281C63A676D39"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -999,8 +1098,11 @@
 				{
 					id: "7BB32296B8FC792A"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1027,8 +1129,11 @@
 				{
 					id: "4666B2A98ABEA2AD"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1056,8 +1161,11 @@
 				{
 					id: "378A04EE0A43A23E"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1085,8 +1193,11 @@
 				{
 					id: "0019904A7E7702BB"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1114,8 +1225,11 @@
 				{
 					id: "60B861B82CD9394B"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1145,8 +1259,11 @@
 					count: 3
 					id: "3789350266C77889"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1176,8 +1293,11 @@
 					count: 5
 					id: "19C8D6DA99B9F930"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1204,8 +1324,11 @@
 				{
 					id: "29B3CC50CF0E64A2"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1234,8 +1357,11 @@
 				{
 					id: "32985F061DE1189D"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1264,8 +1390,11 @@
 				{
 					id: "2BFD63AAFC9B2AE4"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1294,8 +1423,11 @@
 				{
 					id: "6DD926871AAC3037"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1324,8 +1456,11 @@
 				{
 					id: "65D124FED9C10041"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1354,8 +1489,11 @@
 				{
 					id: "00305CDB87EB054C"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1385,8 +1523,11 @@
 				{
 					id: "28ED226C16765534"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1415,8 +1556,11 @@
 				{
 					id: "74290540E82BE33B"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1443,8 +1587,11 @@
 				{
 					id: "0C723E9C0148780A"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1472,8 +1619,11 @@
 				{
 					id: "281FE9F7966BF0D6"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1501,8 +1651,11 @@
 					count: 3
 					id: "3398377EBF0ED488"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1530,8 +1683,11 @@
 				{
 					id: "410FDBF8E53FD249"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
+						}
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}

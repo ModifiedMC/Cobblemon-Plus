@@ -1,0 +1,13 @@
+{
+	id: "2BF3581852A0714B"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{ id: "5CE029DF3EE7AEC5", item: { count: 1, id: "cobblemon_utility:atksilvercap" } }
+		{ id: "27CD4C63DCCDBE01", item: { count: 1, id: "cobblemon_utility:spatksilvercap" } }
+		{ id: "048787929B22331F", item: { count: 1, id: "cobblemon_utility:spdefsilvercap" } }
+		{ id: "2BBB0B4DD1C0FBAC", item: { count: 1, id: "cobblemon_utility:speedsilvercap" } }
+		{ id: "39D927BDC9048D20", item: { count: 1, id: "cobblemon_utility:defsilvercap" } }
+		{ id: "492657BB1CE7BAA5", item: { count: 1, id: "cobblemon_utility:hpsilvercap" } }
+	]
+}

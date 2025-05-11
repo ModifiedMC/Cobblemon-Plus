@@ -10,33 +10,6 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "06E8CAAA161E4A46"
-	images: [
-		{
-			height: 2.0d
-			image: "lightmanscurrency:item/master_ticket_overlay"
-			order: 1
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			height: 3.0d
-			image: "cosmeticarmoursmod:item/imperialcrownpurple"
-			rotation: 0.0d
-			width: 3.0d
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			height: 6.0d
-			image: "relics:textures/abilities/missing.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: 2.5d
-			y: 5.0d
-		}
-	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [{

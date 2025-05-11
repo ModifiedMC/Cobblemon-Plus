@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7BC83E1C825581CD"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_repeatable_quest: true
@@ -6,7 +7,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "lightmanscurrency:item/coin_chest_bank_upgrade"
+			"ftbquests:icon": "minecraft:textures/entity_icon/villager/nitwit.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -37,13 +38,13 @@
 			y: 5.0d
 		}
 		{
-			height: 25.0d
-			image: "ars_nouveau:textures/gui/advancements/backgrounds/sourcestone.png"
+			height: 33.0d
+			image: "modified:textures/ftbquests/backgrounds/bg_space.png"
 			order: -3
 			rotation: 0.0d
 			width: 45.0d
-			x: 0.0d
-			y: -1.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			height: 1.5d
@@ -172,6 +173,38 @@
 			width: 1.0d
 			x: 11.0d
 			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0201_unown/unown_s.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0201_unown/unown_e.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0201_unown/unown_l.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:textures/entity_icon/0201_unown/unown_l.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.5d
 		}
 	]
 	order_index: 2
@@ -407,7 +440,7 @@
 			y: 2.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -1151,7 +1184,7 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			icon: {
 				id: "mega_showdown:megabracelet"
 			}
@@ -1214,6 +1247,367 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			id: "58159F55C45FECAF"
+			rewards: [{
+				count: 5
+				id: "40F02AE0D50A0A57"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FEC7F95754952EF"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(simpletms:tr_items))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			id: "1A4A546FB0DD1E63"
+			rewards: [{
+				count: 10
+				id: "0E50B200151DB4F1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B6A850216613AA"
+				item: { count: 1, id: "cobgyms:gym_key" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			id: "37B85552391A5268"
+			rewards: [{
+				count: 32
+				id: "179E50DA6AF0E742"
+				item: {
+					count: 1
+					id: "cobblemon:relic_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "27E5F860FE5D4CEF"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cobblemon:apricorns))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			id: "4F2D2F587D594828"
+			rewards: [{
+				count: 4
+				id: "48183B7B6A4B997B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7025C1017C267A66"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(cobblemon:berries))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			id: "01C9A6C228EDC1A1"
+			rewards: [{
+				count: 10
+				id: "28F8543F969ADFBE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A4F8781D17AF151"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(simpletms:tm_items))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			id: "0482D07DB337738E"
+			rewards: [{
+				id: "5CA0ABDA663F5068"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "61FB5036C85C7996"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:cobblestones))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "0CECBC4D8B4F6DEE"
+			rewards: [{
+				id: "2C772C8B913DD66F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5609AE72BD811E6E"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:stones))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "5ACEB4A2B7A7F73C"
+			rewards: [{
+				id: "689E9A572AD6C0C3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2BD4A9073542201C"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "cobblemon:sky_tumblestone"
+			}
+			id: "4AB697C5C37E84FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BBF27A17654AE0F"
+				table_id: 7178930986552832695L
+				type: "choice"
+			}]
+			tasks: [{
+				icon: {
+					id: "modified:pokedollar"
+				}
+				id: "6482CBE1B493EBCC"
+				item: { count: 1, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cobblemon:pink_apricorn"
+			}
+			id: "5F5DC7A548BC73E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19255A9AE360FB81"
+				table_id: 1372949679785449849L
+				type: "random"
+			}]
+			tasks: [{
+				count: 5L
+				id: "72770B3432499D8F"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			id: "53950EA8A2C5B59A"
+			rewards: [{
+				id: "49B7FDB8C1D39C5D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "60CD0FEF520DD2D3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:rotten_flesh)item(minecraft:bone)item(minecraft:string))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			id: "62673B1C2426F051"
+			rewards: [{
+				id: "114DF0DD4929ADB0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0695EA2D747FCE09"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:foods/vegetables))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			id: "5201B0CA44E2F86E"
+			rewards: [{
+				count: 5
+				id: "69BB148CA38BF6D0"
+				item: {
+					count: 1
+					id: "cobblemon:relic_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3793A4173B04E3"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(croptopia:advancements_food_crafted))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			id: "59EE84B56B128637"
+			rewards: [{
+				id: "22309CE70457C480"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1AC52F19C448566A"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:saplings)or()item_tag(minecraft:saplings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			id: "4AA91831F6D6858C"
+			rewards: [{
+				count: 99
+				id: "65D77F3A99CF7B21"
+				item: {
+					count: 1
+					id: "cobblemon:relic_coin"
+				}
+				type: "item"
+			}]
+			size: 0.88d
+			tasks: [{
+				count: 10L
+				id: "0DF28EB3347473E4"
+				item: { count: 1, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -1.3199999999999998d
+			y: 4.3999999999999995d
+		}
+		{
+			id: "3CC292C6490FCBFA"
+			rewards: [{
+				count: 6
+				id: "0F904EB3F806AA9C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 0.88d
+			tasks: [{
+				count: 64L
+				id: "67F5B6E44A0BBE78"
+				item: { count: 50, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			x: 1.3199999999999998d
+			y: 4.3999999999999995d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon_utility:item/goldencap"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1F50E79F4A1D2488"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6044FCA1799FD795"
+				table_id: 5809028283732151280L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 20L
+				id: "02084CE19FD8CE7C"
+				item: { count: 10, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon_utility:item/spdefsilvercap"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "65989E63D429B561"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B6E45C13D0BF582"
+				table_id: 3166971824460296523L
+				type: "random"
+			}]
+			tasks: [{
+				count: 99L
+				id: "39DEC0172F865E61"
+				item: { count: 1, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
 		}
 	]
 }

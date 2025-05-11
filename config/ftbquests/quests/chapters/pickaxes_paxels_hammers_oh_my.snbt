@@ -98,19 +98,18 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "0352A93EE0C7A1DA"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-				{
 					id: "5620B9DA126435FC"
 					item: {
 						count: 1
 						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					id: "74DB1755DE632FA2"
+					item: {
+						count: 1
+						id: "create:experience_block"
 					}
 					type: "item"
 				}
@@ -145,6 +144,7 @@
 			id: "16BD408A5CAF433B"
 			rewards: [
 				{
+					count: 3
 					id: "06BEF288CCB4E334"
 					item: {
 						components: {
@@ -154,15 +154,6 @@
 						}
 						count: 1
 						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "51EAD5C1CF78E67F"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
 					}
 					type: "item"
 				}
@@ -205,11 +196,11 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "08BB89E6ACC87DF0"
+					count: 11
+					id: "19A08B0C288769CE"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "create:experience_block"
 					}
 					type: "item"
 				}

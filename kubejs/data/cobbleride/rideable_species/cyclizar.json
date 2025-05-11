@@ -1,0 +1,15 @@
+{
+  "name": "cyclizar",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -0.5
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 1.15,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

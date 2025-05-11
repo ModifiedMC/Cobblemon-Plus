@@ -1,0 +1,15 @@
+{
+  "name": "mandibuzz",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.15,
+      "y": 0.1,
+      "z": -0.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.25,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

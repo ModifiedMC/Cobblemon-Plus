@@ -5,7 +5,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "chalk:block/mark/house"
+			"ftbquests:icon": "journeymap:textures/waypoint/icon/waypoint-house-1.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -199,7 +199,7 @@
 					id: "cobblemon:poke_ball"
 				}
 				id: "2FC6EA0D0BEBDD49"
-				permission_level: 2
+				permission_level: 4
 				team_reward: false
 				type: "command"
 			}]
@@ -212,9 +212,16 @@
 		}
 		{
 			dependencies: ["65CDB9F01373E258"]
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "3C9C8265B6387D0F"
 			rewards: [
 				{
+					auto: "enabled"
 					count: 10
 					id: "263023CAEA87E839"
 					item: {
@@ -224,6 +231,7 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					count: 10
 					id: "3AC4C5BEAFF373CC"
 					item: {
@@ -233,6 +241,7 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					count: 16
 					id: "7551D86B9C09C7F7"
 					item: {
@@ -271,7 +280,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "relics:textures/gui/description/general/badges/relic/flawless_relic.png"
+					"ftbquests:icon": "chipped:block/raw_gold_block/creeper_raw_gold_block_carving"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -293,11 +302,18 @@
 			y: -1.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dynamic_fps:textures/battery/toast/charging.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "178069BF4E304459"
+			size: 1.5d
 			tasks: [{
 				icon: {
 					components: {
-						"ftbquests:icon": "relics:textures/gui/description/general/icons/leveling_point.png"
+						"ftbquests:icon": "dynamic_fps:textures/battery/toast/charging.png"
 					}
 					id: "ftbquests:custom_icon"
 				}

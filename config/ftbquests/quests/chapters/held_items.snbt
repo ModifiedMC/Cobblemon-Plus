@@ -18,7 +18,7 @@
 					id: "57BCFC439073F54F"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -47,7 +47,7 @@
 					id: "19512C44C1DD4CF4"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -69,12 +69,13 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "0E46543D9D98E126"
 			rewards: [{
-				id: "386A88E3C1C6B500"
+				id: "0AB055E839AB32EC"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -87,12 +88,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "7D09F106BE93FA47"
 			rewards: [{
-				id: "546D48388ABEF66E"
+				id: "7161F84D7B09D325"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -105,12 +107,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "6E40C69BE97CD161"
 			rewards: [{
-				id: "7DF6FF4813AF105F"
+				id: "089547E303E3D97F"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -123,12 +126,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "289FC55A51F8E0D6"
 			rewards: [{
-				id: "6A0F54F0A6967452"
+				id: "6157E81DE99BF493"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -141,7 +145,16 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "5803C8628EEA49D3"
+			rewards: [{
+				id: "2521F1E2999FF2ED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E2CABFE6D5542E1"
 				item: { count: 1, id: "cobblemon:binding_band" }
@@ -151,7 +164,16 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "350E9D8F5B616998"
+			rewards: [{
+				id: "16B9C7E7B8C9F415"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D767767801179D7"
 				item: { count: 1, id: "cobblemon:black_sludge" }
@@ -189,7 +211,7 @@
 					id: "2E53AEC41421C8E0"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -218,7 +240,7 @@
 					id: "5FC688CC1EAAE4F1"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -247,7 +269,7 @@
 					id: "558FB61E96E4F310"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -276,7 +298,7 @@
 					id: "7FFE528ADE146E99"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -300,9 +322,12 @@
 		{
 			id: "1136E124D537B296"
 			rewards: [{
-				id: "26CE09D83A7E0285"
-				type: "xp"
-				xp: 50
+				id: "36AF4D10345CB7E9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "13DEFFC83AE32907"
@@ -312,12 +337,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "403B258AD3499171"
 			rewards: [{
-				id: "1D55F5F6B0B01013"
+				id: "5D392430D1BF4052"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -330,12 +356,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "595126FE93EAD30D"
 			rewards: [{
-				id: "0884838271131208"
+				id: "603254DE7A0958B4"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -348,12 +375,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "0B8FF038A16D8410"
 			rewards: [{
-				id: "1E48AA6CA6F0282B"
+				id: "719047D327F7EB42"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -366,12 +394,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "3724A409E62C8AC0"
 			rewards: [{
-				id: "631716EF295CEA9F"
+				id: "34C9A5C6F80A4163"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -384,12 +413,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "6B3643977D7CB388"
 			rewards: [{
-				id: "70D6E9B97CC97107"
+				id: "070F501BF67B0751"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -402,12 +432,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "0765266C08DB9261"
 			rewards: [{
-				id: "6AD2B016727BC152"
+				id: "217D74CD81342C18"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -420,12 +451,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "29574652784E07B0"
 			rewards: [{
-				id: "409C1070C988B6C6"
+				id: "1475BCBA22324F81"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -438,12 +470,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "39125D68A4AA32A5"
 			rewards: [{
-				id: "7552B85B922D76F7"
+				id: "1D49A8DE5A1902BF"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -456,12 +489,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "76262AD9AE375A9C"
 			rewards: [{
-				id: "09AC768281D1B37A"
+				id: "1992ED1BBC815119"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -474,12 +508,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "240A0A53EBE8C159"
 			rewards: [{
-				id: "447424D8808E7343"
+				id: "444DA2897BF8392E"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -492,12 +527,13 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "73ECA29DAD74C6AF"
 			rewards: [{
-				id: "3629E9EE905EDB1E"
+				id: "7C8C197123C6E1F5"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -510,12 +546,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "3F8E092B859327DD"
 			rewards: [{
-				id: "558C2952F189A7EF"
+				id: "58D3FF3480F3418E"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -528,12 +565,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "6368437B278346AA"
 			rewards: [{
-				id: "21E3567E8D33819E"
+				id: "5397D9D9E0DE06EE"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -546,12 +584,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "6C5869FD1F9CBA7A"
 			rewards: [{
-				id: "6A36A3F11EC88C07"
+				id: "4D526F0E1D5320FB"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -564,12 +603,13 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "5B6C3506A92A1A3C"
 			rewards: [{
-				id: "6AFA8BA864EB1B4B"
+				id: "159EA04C81831CF6"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -582,12 +622,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "2DF2115ED2E13890"
 			rewards: [{
-				id: "2C018A46BFF9B6F7"
+				id: "4DEBB7CC5A2E7F20"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -600,12 +641,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "601C1B329EA51DC9"
 			rewards: [{
-				id: "722FD512EFE9BB2D"
+				id: "47397D228F83F002"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -618,12 +660,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "65E148B2698618F4"
 			rewards: [{
-				id: "07E00704B6D40BB4"
+				id: "1AB2D9C47DE12715"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -636,12 +679,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "650E0ADAF60321D8"
 			rewards: [{
-				id: "3F6C2BB704DD8E91"
+				id: "19729B46467366A9"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -654,12 +698,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "1EE29DA147B26284"
 			rewards: [{
-				id: "7E22E73BFCE1C8FD"
+				id: "1E61F442027C2582"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -672,12 +717,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "7E5311B28FDF0E00"
 			rewards: [{
-				id: "2AE4B173E7ACB386"
+				id: "62B88699473630DD"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -690,12 +736,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "3A4882B06BBDF337"
 			rewards: [{
-				id: "46C6D1C4ED2BBA88"
+				id: "5158FEC53A27CB4A"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -708,12 +755,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "25C345D9A4D81EF9"
 			rewards: [{
-				id: "484EBD384B04EEE3"
+				id: "14F4C67B80350B77"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -726,12 +774,13 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1136E124D537B296"]
 			id: "26BB07D3244B69B6"
 			rewards: [{
-				id: "3D21B518349A35F4"
+				id: "4E0BF474524109BA"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -764,6 +813,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "122538ED9CC3B27C"
+			rewards: [{
+				id: "7E10B2733EE69C8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57B0F3C9B0E47062"
 				item: { count: 1, id: "cobblemon:black_belt" }
@@ -775,6 +832,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "3B8E70F6F5188048"
+			rewards: [{
+				id: "2B096BDC9462CE62"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "22214242216F440E"
 				item: { count: 1, id: "cobblemon:black_glasses" }
@@ -786,6 +851,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "2F3F0390A1331505"
+			rewards: [{
+				id: "57666122E5A1880E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39D603A8A99D7783"
 				item: { count: 1, id: "cobblemon:charcoal_stick" }
@@ -797,6 +870,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "1FFD692A2B655419"
+			rewards: [{
+				id: "3438043EA1130530"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "63B6554C714344FD"
 				item: { count: 1, id: "cobblemon:dragon_fang" }
@@ -808,6 +889,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "5DF8E29A288EBDCC"
+			rewards: [{
+				id: "784017E2DCFCF7B9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AE205CBF8E5DB0C"
 				item: { count: 1, id: "cobblemon:fairy_feather" }
@@ -819,6 +908,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "1800A8DBF14CF4B2"
+			rewards: [{
+				id: "2FD174B8B28194E5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39FBD0D7A303CB30"
 				item: { count: 1, id: "cobblemon:hard_stone" }
@@ -830,6 +927,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "5735AAFE475C7801"
+			rewards: [{
+				id: "6DAFF9979398D7E1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14C0EB37247E72EF"
 				item: { count: 1, id: "cobblemon:magnet" }
@@ -841,6 +946,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "5FDCF20A8DB9D5F8"
+			rewards: [{
+				id: "232F514946A628D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31DE3C6BD194A548"
 				item: { count: 1, id: "cobblemon:metal_coat" }
@@ -852,6 +965,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "30C658B66F1BF29E"
+			rewards: [{
+				id: "6E19491301A1538B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1626A0798B417405"
 				item: { count: 1, id: "cobblemon:miracle_seed" }
@@ -863,6 +984,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "2B0D4EC981D4715D"
+			rewards: [{
+				id: "22DE9D172C0A27F8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ECC8282C6AD3CE4"
 				item: { count: 1, id: "cobblemon:mystic_water" }
@@ -874,6 +1003,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "08256B4DE816C673"
+			rewards: [{
+				id: "4392428006AE4445"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51EAFC4DE103435E"
 				item: { count: 1, id: "cobblemon:never_melt_ice" }
@@ -885,6 +1022,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "7BDCB1B263A519CE"
+			rewards: [{
+				id: "0B32D0BD4F3CBD64"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B7F77428C0B23DA"
 				item: { count: 1, id: "cobblemon:poison_barb" }
@@ -896,6 +1041,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "3CA61B578E0BCA83"
+			rewards: [{
+				id: "7F3FC72DBB71D242"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50EF7B224E22C06B"
 				item: { count: 1, id: "cobblemon:silk_scarf" }
@@ -907,6 +1060,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "1A8A70476B2E5E73"
+			rewards: [{
+				id: "6A4D00597FD668FB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F8FB6DA72BD3728"
 				item: { count: 1, id: "cobblemon:silver_powder" }
@@ -918,6 +1079,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "4DFC4CA748310BBC"
+			rewards: [{
+				id: "07E9784C6F228EC0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39D2EDD3593A3DAD"
 				item: { count: 1, id: "cobblemon:soft_sand" }
@@ -929,6 +1098,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "6DA8396B9412F29E"
+			rewards: [{
+				id: "3F0CD8B541484077"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "423F878660B62129"
 				item: { count: 1, id: "cobblemon:spell_tag" }
@@ -940,6 +1117,14 @@
 		{
 			dependencies: ["111C604023D503FE"]
 			id: "51B824448B761D29"
+			rewards: [{
+				id: "4F00E098230CA0A6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59669F8ACC526802"
 				item: { count: 1, id: "cobblemon:twisted_spoon" }
@@ -949,39 +1134,307 @@
 			y: -2.5d
 		}
 		{
-			icon: {
-				components: {
-					"ftbquests:icon": "cobblemon:textures/gui/interact/icon_exclamation.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "302187E50ED3AD72"
-			invisible: true
-			tasks: [{
-				id: "79009E592ABDBEEF"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 5.5d
-		}
-		{
+			dependencies: ["1136E124D537B296"]
 			id: "54CB62FD8943CE34"
+			rewards: [{
+				id: "641411621C1B9FB7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "185DC00BBEC9EAF1"
 				item: { count: 1, id: "cobblemon:razor_claw" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "1AD81D9BC609DD6A"
+			rewards: [{
+				id: "57B245A57965A43C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5277AE2CA14C6262"
+				item: { count: 1, id: "cobblemon:razor_fang" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "403D89BAB550D066"
+			rewards: [{
+				id: "2978ADFA717B0127"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C7F66CC0E163E03"
+				item: { count: 1, id: "cobblemon:wise_glasses" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "6ED467145697C3DD"
+			rewards: [{
+				id: "5685886C4A1F149B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C65B03C39EB517D"
+				item: { count: 1, id: "cobblemon:weakness_policy" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "452713D0292FDE53"
+			rewards: [{
+				id: "54B0AE08C2B2FB8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "203BEA97796C530B"
+				item: { count: 1, id: "cobblemon:soothe_bell" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "704527E8483BD6F8"
+			rewards: [{
+				id: "47F1E9E1FADC5A4E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7930FE952405B429"
+				item: { count: 1, id: "cobblemon:sticky_barb" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "6AC38F4284A28299"
+			rewards: [{
+				id: "7DB82DB7555DDD1E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AA67C65387B8CEB"
+				item: { count: 1, id: "cobblemon:shell_bell" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "0D74ED93AADEE41A"
+			rewards: [{
+				id: "738D267E08C1C19C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AE83732AB54A918"
+				item: { count: 1, id: "cobblemon:safety_goggles" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "01E593EF7E9F5B61"
+			rewards: [{
+				id: "469BC535CE6D7848"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E08D9DAD3E3E2CB"
+				item: { count: 1, id: "cobblemon:rocky_helmet" }
 				type: "item"
 			}]
 			x: 0.5d
 			y: 5.0d
 		}
 		{
-			id: "1AD81D9BC609DD6A"
+			dependencies: ["1136E124D537B296"]
+			id: "2F5834397E3394EC"
+			rewards: [{
+				id: "471CC634967822CD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "5277AE2CA14C6262"
-				item: { count: 1, id: "cobblemon:razor_fang" }
+				id: "354BCC8A349C5E23"
+				item: { count: 1, id: "cobblemon:red_card" }
 				type: "item"
 			}]
 			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "142B9F3AA455BBEA"
+			rewards: [{
+				id: "189DA6E9C65E88A1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED181AFC89D12D6"
+				item: { count: 1, id: "cobblemon:quick_claw" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "166715904F4D6A69"
+			rewards: [{
+				id: "70A5FB3229D39518"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "602122264AD9F2DE"
+				item: { count: 1, id: "cobblemon:muscle_band" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "2FE05D2E1C636174"
+			rewards: [{
+				id: "046114C324B7159C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68D2EB29DE81C954"
+				item: { count: 1, id: "cobblemon:lucky_egg" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "6063D86C30BD471D"
+			rewards: [{
+				id: "4DB6F1EBC13C9EF1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F88D529780DB12C"
+				item: { count: 1, id: "cobblemon:loaded_dice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "6B14675F41A28934"
+			rewards: [{
+				id: "46BDD88F20277A3B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE1BBCB12EA1883"
+				item: { count: 1, id: "cobblemon:light_clay" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1136E124D537B296"]
+			id: "7F4FC736A3C6C28C"
+			rewards: [{
+				id: "3D830B029F30FA8C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43189F5CB4F09793"
+				item: { count: 1, id: "cobblemon:light_ball" }
+				type: "item"
+			}]
+			x: -8.5d
 			y: 5.0d
 		}
 	]

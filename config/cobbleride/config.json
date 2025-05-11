@@ -1,17 +1,17 @@
 {
   "general": {
-    "globalBaseSpeedModifier": 1.0,
+    "globalBaseSpeedModifier": 1.5,
     "globalLandSpeedModifier": 1.0,
     "globalWaterSpeedModifier": 1.0,
     "globalAirSpeedModifier": 1.0,
-    "underwaterSpeedModifier": 2.0,
+    "underwaterSpeedModifier": 1.0,
     "waterVerticalClimbSpeed": 2.0,
     "airVerticalClimbSpeed": 0.5,
     "rideSpeedLimit": 0.0,
     "isWaterBreathingShared": true
   },
   "client": {
-    "canDismountInMidair": false,
+    "canDismountInMidair": true,
     "useCameraNavigation": false
   },
   "restrictions": {
@@ -29,7 +29,7 @@
     "rideSprintSpeed": 1.5,
     "canSprintOnLand": true,
     "canSprintInWater": true,
-    "canSprintInAir": false,
+    "canSprintInAir": true,
     "canExhaust": true,
     "maxStamina": 200,
     "recoveryTime": 300,

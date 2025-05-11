@@ -1,0 +1,17 @@
+{
+	id: "509DD0724E0D4BF0"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			id: "6CCFC6A3A1FBD712"
+			item: {
+				count: 1
+				id: "cobblemon_utility:goldencap"
+			}
+			weight: 0.05f
+		}
+		{ id: "2B9E516C4ABCF0FD", item: { count: 1, id: "cobblemon_utility:woodencap" } }
+		{ id: "14E46145EC235427", item: { count: 1, id: "cobblemon_utility:voidcap" } }
+	]
+}

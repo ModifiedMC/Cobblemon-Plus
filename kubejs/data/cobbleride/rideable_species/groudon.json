@@ -1,0 +1,20 @@
+{
+  "name": "groudon",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.5,
+      "z": 0.4
+    },
+    "WALKING": {
+      "x": 0.0,
+      "y": -0.55,
+      "z": 0.6
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

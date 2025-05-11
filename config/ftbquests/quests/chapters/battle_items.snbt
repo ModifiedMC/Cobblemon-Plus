@@ -296,10 +296,10 @@
 		{
 			id: "766692BF4F783126"
 			rewards: [{
-				id: "545961948F6BD886"
+				id: "0DD49C5BF24F5116"
 				item: {
 					count: 1
-					id: "ars_nouveau:greater_experience_gem"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]

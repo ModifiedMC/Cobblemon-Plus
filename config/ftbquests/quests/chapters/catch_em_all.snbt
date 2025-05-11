@@ -752,13 +752,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "1A01E53668EACBD0"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "4EE2E454E3F54DA4"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -842,13 +838,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "4CA29CD3E7CA21F6"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "2354164325759677"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -932,13 +924,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "06941D29A18B1FED"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "7B5E9C6A08DAFA95"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1022,13 +1010,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "7915EC9112EBA3C2"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "1396BB956F8A2DDC"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1112,13 +1096,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "4CE99923113204E4"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "66D4628DCBEF53A8"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1202,13 +1182,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "65E7BBF1FFCE7DAD"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "4124A86152E3ED92"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1292,13 +1268,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "3175B28B8F62A35F"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "31712404B2E5C8E0"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1382,13 +1354,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "79FC3A70E70D2214"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "4D7991E2A41E694D"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -1472,13 +1440,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "2AAB78130AF65D7C"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "1766EF7688E141BA"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -2367,7 +2331,7 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "relics:textures/gui/description/icons/completed.png"
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -2423,7 +2387,7 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "relics:textures/gui/description/general/badges/relic/flawless_relic.png"
+					"ftbquests:icon": "nochatreports:textures/gui/sprites/encryption/checkmark.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -2465,14 +2429,25 @@
 		}
 		{
 			id: "12C6F2F0696BF6DF"
-			rewards: [{
-				id: "49E475B258232F4F"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
+			rewards: [
+				{
+					id: "49E475B258232F4F"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 3
+					id: "750C9ECC44EDE227"
+					item: {
+						count: 1
+						id: "cobblemon:safari_ball"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				action: "select_starter"
 				amount: 1L
@@ -2500,7 +2475,10 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "cobgyms:legendary_cache_shiny"
+				components: {
+					"ftbquests:icon": "cobblemon:block/shiny_stone_block"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "6C458CF5ABF7AFB5"
 			rewards: [
@@ -2511,6 +2489,7 @@
 					type: "random"
 				}
 				{
+					count: 5
 					id: "5C0A4F60A450CF37"
 					item: {
 						count: 1
@@ -2664,13 +2643,9 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "2D78CBE3B6E42599"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
+					id: "41403231DAC03348"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [
@@ -2916,6 +2891,12 @@
 			y: -24.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblenav:item/pokenav_item_base"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "31726B2C1F66926F"
 			rewards: [
 				{
@@ -2977,12 +2958,13 @@
 				}
 				type: "item"
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "3E5EBA1EFF801DAC"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -26.5d
+			x: -18.75d
+			y: -26.875d
 		}
 		{
 			id: "7B4E44A914D7CFF8"
@@ -3035,12 +3017,13 @@
 				}
 				type: "item"
 			}]
+			size: 1.76d
 			tasks: [{
 				id: "417B7AC6E24A118D"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: -26.5d
+			x: -1.7599999999999998d
+			y: -26.4d
 		}
 		{
 			id: "16290D18E9D67988"

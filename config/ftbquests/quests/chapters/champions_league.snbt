@@ -59,8 +59,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 33.0d
-			x: 8.5d
-			y: 0.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			height: 1.0d
@@ -103,7 +103,7 @@
 			y: -0.5d
 		}
 		{
-			height: 2.0d
+			height: 1.7d
 			image: "modified:textures/ftbquests/logos/pmon_rr.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -132,9 +132,13 @@
 	quests: [
 		{
 			dependencies: ["4A9CD8DF4334CA09"]
+			icon: {
+				id: "rctmod:trainer_card"
+			}
 			id: "7676E887F513A1BE"
 			rewards: [
 				{
+					auto: "enabled"
 					id: "4E0C104DEA528977"
 					item: {
 						count: 1
@@ -143,12 +147,14 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					exclude_from_claim_all: true
 					id: "453515B7D679238B"
 					table_id: 3792728936859240753L
 					type: "random"
 				}
 				{
+					auto: "enabled"
 					count: 25
 					id: "3963DBDC7590912D"
 					item: {
@@ -159,9 +165,8 @@
 				}
 			]
 			tasks: [{
-				id: "7202FF17B0E455A2"
-				item: { count: 1, id: "rctmod:trainer_card" }
-				type: "item"
+				id: "6CBDE2F86810FBA3"
+				type: "checkmark"
 			}]
 			x: 7.5d
 			y: -3.0d
@@ -169,9 +174,16 @@
 		{
 			dependencies: ["4A9CD8DF4334CA09"]
 			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/sculk_shrieker_can_summon_inner_top"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "07863C1899A78E38"
 			rewards: [
 				{
+					auto: "enabled"
 					id: "169B0B5F0AC85862"
 					item: {
 						count: 1
@@ -180,12 +192,14 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					exclude_from_claim_all: true
 					id: "40D62F1F077D1F3A"
 					table_id: 3792728936859240753L
 					type: "random"
 				}
 				{
+					auto: "enabled"
 					count: 10
 					id: "5ADD960BE6686E60"
 					item: {
@@ -196,9 +210,8 @@
 				}
 			]
 			tasks: [{
-				id: "4D4026198399CDD0"
-				item: { count: 1, id: "rctmod:trainer_spawner" }
-				type: "item"
+				id: "14412AAB0C764F0D"
+				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.5d
@@ -213,6 +226,7 @@
 			}
 			id: "4A9CD8DF4334CA09"
 			rewards: [{
+				auto: "enabled"
 				id: "46967C17C062D7B5"
 				item: {
 					count: 1
@@ -226,10 +240,9 @@
 				type: "checkmark"
 			}]
 			x: 7.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/brock.png"
@@ -237,16 +250,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "68CBF7464655509E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_brock_019e"
+				exclude_from_claim_all: true
+				id: "011969C87311AE9D"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "46E2B33378274EFD"
-				item: { count: 1, id: "cobblemon:hard_stone" }
-				type: "item"
+				id: "67074CE3BD818F17"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/misty.png"
@@ -254,16 +273,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "48866AD1EEF52D49"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_misty_019f"
+				exclude_from_claim_all: true
+				id: "5A4DCBBA897927A1"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "31EDDB8E80D7DD3C"
-				item: { count: 1, id: "cobblemon:mystic_water" }
-				type: "item"
+				id: "6AC4917AD804B0E7"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/rocket_archer.png"
@@ -271,16 +296,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "73BA9B5BD210B6F2"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rocket_admin_archer_002e"
+				exclude_from_claim_all: true
+				id: "16AF743CB315E01A"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "2220F9FBE197211F"
-				item: { count: 1, id: "cobblemon:black_tumblestone" }
-				type: "item"
+				id: "35C140CBC9FE0FD2"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/blue.png"
@@ -288,16 +319,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "55544A30100D89BD"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rival_terry_014c"
+				exclude_from_claim_all: true
+				id: "501B1A5E9ABBC8B8"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "7E009F62BF17910E"
-				item: { count: 1, id: "minecraft:gold_nugget" }
-				type: "item"
+				id: "28B6C4CB64878B29"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/brendan.png"
@@ -305,16 +342,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2541EB890D364B99"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon trainer_brendan_0032"
+				exclude_from_claim_all: true
+				id: "188EC00CCE822CEC"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "7DFD70FF69D75226"
-				item: { count: 1, id: "cobblemon:silk_scarf" }
-				type: "item"
+				id: "6828C92C934147D0"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/lt_surge.png"
@@ -322,16 +365,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "17EE02A867A34A4C"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_lt_surge_01a0"
+				exclude_from_claim_all: true
+				id: "2E1099CF73BD85FD"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "1EBEF5D77E6BDD94"
-				item: { count: 1, id: "cobblemon:magnet" }
-				type: "item"
+				id: "51DAF675A5E1D76A"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/erika.png"
@@ -339,16 +388,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2EB779BBD6F1BECF"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_erika_01a1"
+				exclude_from_claim_all: true
+				id: "08BD4E4C1E4A68A2"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "0AF59D2632204C83"
-				item: { count: 1, id: "cobblemon:miracle_seed" }
-				type: "item"
+				id: "24C4A155A6249BC0"
+				type: "checkmark"
 			}]
 			x: 4.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/giovanni.png"
@@ -356,16 +411,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "35DF00F1E81A6B18"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon boss_giovanni_015c"
+				exclude_from_claim_all: true
+				id: "674B5820B5F489EF"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "6A587FFED14AB1AD"
-				item: { count: 1, id: "cobblemon:upgrade" }
-				type: "item"
+				id: "3D8F030F42EF6F6A"
+				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/blue_2.png"
@@ -373,16 +434,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2AC137852DA4C38E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rival_terry_01b0"
+				exclude_from_claim_all: true
+				id: "7B4FEE9092E323F7"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "467388DA03AE30BE"
-				item: { count: 1, id: "cobblemon:soothe_bell" }
-				type: "item"
+				id: "72CBF1344368BBC2"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/rocket_ari.png"
@@ -390,16 +457,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "773DD3685CEC3C45"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rocket_admin_archer_ariana_m000"
+				exclude_from_claim_all: true
+				id: "5824D5B1F228CF30"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "5FAB34ACD3D7671A"
-				item: { count: 1, id: "cobblemon:black_sludge" }
-				type: "item"
+				id: "3D2AC1FFEABF861B"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/giovanni.png"
@@ -407,16 +480,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4589A549DA946A35"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon boss_giovanni_015d"
+				exclude_from_claim_all: true
+				id: "3100034CD5ED40F5"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "3C4D4A2E2621C302"
-				item: { count: 1, id: "cobblemon:dubious_disc" }
-				type: "item"
+				id: "4723C1DE154CA576"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/sabrina.png"
@@ -424,16 +503,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "301F1696722B5175"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_sabrina_01a4"
+				exclude_from_claim_all: true
+				id: "017D52A91780BF43"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "7DCA60CBCE18298B"
-				item: { count: 1, id: "cobblemon:twisted_spoon" }
-				type: "item"
+				id: "3FF4746E05F262D3"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/brendan.png"
@@ -441,16 +526,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "703DF3EB9543851F"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon trainer_brendan_0039"
+				exclude_from_claim_all: true
+				id: "3EB2ECDE76C1CDB7"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "2AFB42A829BC18E4"
-				item: { count: 1, id: "cobblemon:expert_belt" }
-				type: "item"
+				id: "53EABCA6C5CBF95D"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/koga.png"
@@ -458,16 +549,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5271B269DAFB24B0"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_koga_01a2"
+				exclude_from_claim_all: true
+				id: "1E07294B11542259"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "3ECF311B843237E7"
-				item: { count: 1, id: "cobblemon:poison_barb" }
-				type: "item"
+				id: "7A6C70D6CEFCCC44"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/may.png"
@@ -475,16 +572,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "32B00B671E8CFC02"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon trainer_may_003d"
+				exclude_from_claim_all: true
+				id: "52FA4FFCA85E42AC"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "22CF8334144392AB"
-				item: { count: 1, id: "cobblemon:vivichoke" }
-				type: "item"
+				id: "70E9EDECDCB79DE4"
+				type: "checkmark"
 			}]
 			x: 4.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/blaine.png"
@@ -492,16 +595,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3F83AD208596996B"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_blaine_01a3"
+				exclude_from_claim_all: true
+				id: "1EC71C784755C801"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "5CBFA167DE1BC935"
-				item: { count: 1, id: "cobblemon:charcoal_stick" }
-				type: "item"
+				id: "7669E44E6C78097B"
+				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 3.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/rocket_archer.png"
@@ -509,16 +618,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7B7E824D7BD29739"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rocket_admin_archer_0043"
+				exclude_from_claim_all: true
+				id: "0391C3C00F86EDD9"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "791A8E424AD14C5F"
-				item: { count: 1, id: "cobblemon:covert_cloak" }
-				type: "item"
+				id: "6C22807A36126639"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/rocket_ari.png"
@@ -526,16 +641,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6CDA73F7FC7AD616"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rocket_admin_ariana_0044"
+				exclude_from_claim_all: true
+				id: "72872836ADF0D769"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "51B2F3D6961E3FED"
-				item: { count: 1, id: "cobblemon:utility_umbrella" }
-				type: "item"
+				id: "443F8468C229AB58"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/giovanni.png"
@@ -543,16 +664,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "1B93842B9AD3B422"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon boss_giovanni_0045"
+				exclude_from_claim_all: true
+				id: "2F65FED0BB1F03FD"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "05036B6774CE9938"
-				item: { count: 1, id: "cobblemon:destiny_knot" }
-				type: "item"
+				id: "0F621DD8886ED884"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/clair.png"
@@ -560,16 +687,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "30C269E0695A704D"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon leader_clair_004a"
+				exclude_from_claim_all: true
+				id: "1FCB5F086DF30656"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "023167F2627AE650"
-				item: { count: 1, id: "cobblemon:dragon_scale" }
-				type: "item"
+				id: "2D29B68BC00533DF"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/blue_2.png"
@@ -577,16 +710,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "173D2B8A8694F17A"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon rival_terry_01b3"
+				exclude_from_claim_all: true
+				id: "66B6BCCFBD98935E"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "2114BD8B39157E3B"
-				item: { count: 1, id: "cobblemon:lucky_egg" }
-				type: "item"
+				id: "1710356889E5C579"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/brendan.png"
@@ -594,16 +733,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "7EBAF1D56B1151D8"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon trainer_brendan_001a"
+				exclude_from_claim_all: true
+				id: "7266AC96121A8EB3"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "672A7DEB8330F54D"
-				item: { count: 1, id: "cobblemon:choice_scarf" }
-				type: "item"
+				id: "4F3D76EBA5FE338F"
+				type: "checkmark"
 			}]
 			x: 4.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/agatha.png"
@@ -611,16 +756,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "360505F6E85575B3"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_agatha_0053"
+				exclude_from_claim_all: true
+				id: "061BD743AD675ACA"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "1DF4A4FD9ABC57E8"
-				item: { count: 1, id: "cobblemon:cleanse_tag" }
-				type: "item"
+				id: "79A709C56D9577DC"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/bruno.png"
@@ -628,16 +779,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "23AF41B039B8C705"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_bruno_0050"
+				exclude_from_claim_all: true
+				id: "60B3CA6F3843BD4C"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "46792D2A27A143BE"
-				item: { count: 1, id: "cobblemon:focus_band" }
-				type: "item"
+				id: "76EF292DEB2462E7"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/lance.png"
@@ -645,16 +802,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "58A05E9960629A37"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_lance_0056"
+				exclude_from_claim_all: true
+				id: "44F157787441AB4D"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "5305657E9672FBEB"
-				item: { count: 1, id: "cobblemon:dragon_fang" }
-				type: "item"
+				id: "23BC4586AB0D2A1F"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/lorelei.png"
@@ -662,16 +825,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "649732FA0F7D0AE0"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_lorelei_004d"
+				exclude_from_claim_all: true
+				id: "543CF536D7E12C0F"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "1206EF5BA5EB24C7"
-				item: { count: 1, id: "cobblemon:never_melt_ice" }
-				type: "item"
+				id: "1CEEE65C68D6C795"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["07863C1899A78E38"]
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/blue_3.png"
@@ -679,15 +848,23 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "738CA63FC60EECEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon champion_terry_01b6"
+				exclude_from_claim_all: true
+				id: "24968242993D4191"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
-				id: "4E22C544E910BBD8"
-				item: { count: 1, id: "cobblemon:life_orb" }
-				type: "item"
+				id: "2E903343B1AC6F98"
+				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 7.5d
 		}
 		{
+			can_repeat: false
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/red_portrait.png"
@@ -713,6 +890,7 @@
 				}
 			]
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "7A29C96C42A52CE3"
 				type: "checkmark"
@@ -721,6 +899,7 @@
 			y: 1.0d
 		}
 		{
+			can_repeat: false
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/lucas_back.png"
@@ -736,16 +915,19 @@
 					disable_reward_screen_blur: true
 					exclude_from_claim_all: true
 					id: "19704F05E87DD219"
-					permission_level: 2
+					permission_level: 4
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					command: "/say !!! Hi, @p ! You have now started on your path to champion of the Sinnoh Region! Welcome to \"Brilliant Diamond, Shining Pearl\"."
 					id: "777671262B845280"
+					permission_level: 4
 					type: "command"
 				}
 			]
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "4B14972D76AD981A"
 				type: "checkmark"
@@ -755,29 +937,37 @@
 		}
 		{
 			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "aggroindicator:textures/alert_icon_0.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0A02FD6DD9B44D49"
 			rewards: [{
 				auto: "enabled"
 				command: "/rctmod player get progress @p graph"
 				id: "6376417EE39825F2"
-				permission_level: 2
+				permission_level: 4
 				type: "command"
 			}]
 			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "44518033148EC4A4"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			id: "1A282189711E1EC0"
 			invisible: true
 			rewards: [{
+				auto: "enabled"
 				command: "/rctmod player set progress @p after champion_terry_01b7"
 				id: "1D9D964C08D10BE3"
-				permission_level: 2
+				permission_level: 4
 				type: "command"
 			}]
 			shape: "diamond"
@@ -796,6 +986,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5206DA39EF40267E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_roark_0395"
+				exclude_from_claim_all: true
+				id: "4A1BE40A824A19EA"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "5AE0955C2576D023"
 				type: "checkmark"
@@ -811,6 +1009,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "36D23AA7ADD23E72"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_mars_03c2"
+				exclude_from_claim_all: true
+				id: "3B20ECAA818E3C28"
+				permission_level: 4
+				team_reward: false
+				type: "command"
+			}]
 			tasks: [{
 				id: "5CC4CEC3C7A1AC9D"
 				type: "checkmark"
@@ -826,6 +1033,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6B65C952F02FD3F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_jupiter_041d"
+				exclude_from_claim_all: true
+				id: "056D6E485C39CF9B"
+				permission_level: 4
+				team_reward: false
+				type: "command"
+			}]
 			tasks: [{
 				id: "0120E1B98D2816FD"
 				type: "checkmark"
@@ -841,6 +1057,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "50A27C2F51A711E2"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_gardenia_03d6"
+				exclude_from_claim_all: true
+				id: "10D83895FCF0CECC"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "7A0E8F4B7E37272F"
 				type: "checkmark"
@@ -856,6 +1080,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "554C4A283B1537CB"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon pokemon_trainer_cedric_0445"
+				exclude_from_claim_all: true
+				id: "5F3A0982466E4E1A"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "07CF829A3DA8E7FF"
 				type: "checkmark"
@@ -871,6 +1103,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2981BA6FC0E8510A"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_maylene_03d8"
+				exclude_from_claim_all: true
+				id: "5C182466DB225E21"
+				permission_level: 4
+				team_reward: false
+				type: "command"
+			}]
 			tasks: [{
 				id: "6053E7464BACBC0C"
 				type: "checkmark"
@@ -886,6 +1127,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "61D00728EEBE8C4B"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_wake_03d7"
+				exclude_from_claim_all: true
+				id: "44FBC1CD197EB3A9"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "093F45E5EBD5DFE5"
 				type: "checkmark"
@@ -901,6 +1150,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "269A3318AFDED628"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon pokemon_trainer_cedric_0448"
+				exclude_from_claim_all: true
+				id: "13DE37F1F21B2CF7"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "6E1BC37B21BEA425"
 				type: "checkmark"
@@ -916,6 +1173,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "62973A2788EDA099"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_fantina_03d9"
+				exclude_from_claim_all: true
+				id: "3A0D5BAFC1303EB1"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "065B64E65C143BEF"
 				type: "checkmark"
@@ -931,6 +1196,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5000CF36055EC89D"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon pokemon_trainer_cedric_044b"
+				exclude_from_claim_all: true
+				id: "2290128F12226BB6"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "7832529314B3B64F"
 				type: "checkmark"
@@ -946,6 +1219,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "67DE89D4243C2F29"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_byron_0399"
+				exclude_from_claim_all: true
+				id: "67304333CE1AB8BC"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "063C21CB308549E0"
 				type: "checkmark"
@@ -961,6 +1242,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "47E1CA67D58E20BF"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_saturn_041f"
+				exclude_from_claim_all: true
+				id: "6E0FBA9E8BF99E13"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "117952267CF6CE7E"
 				type: "checkmark"
@@ -976,6 +1265,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3C7CB29A9C64364E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_mars_041c"
+				exclude_from_claim_all: true
+				id: "051B5872361916C9"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "06194C439AD2D9C0"
 				type: "checkmark"
@@ -991,6 +1288,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "1F3AF58B2297B52E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_candice_03da"
+				exclude_from_claim_all: true
+				id: "373D0BE9AB026DD6"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "6DBD96F81CCA3700"
 				type: "checkmark"
@@ -1006,6 +1311,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4764A3913D8E4BE9"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon team_galactic_boss_cyrus_041a"
+				exclude_from_claim_all: true
+				id: "5C40E70ADB9AF8A3"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "087D0BD627C067D9"
 				type: "checkmark"
@@ -1021,6 +1334,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "3B80211FD37355FC"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_saturn_0420"
+				exclude_from_claim_all: true
+				id: "5AF636EF8EAA30EF"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "33CF276A3642E78E"
 				type: "checkmark"
@@ -1036,6 +1357,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6FA60108865A31CB"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon commander_mars_jupiter_m009"
+				exclude_from_claim_all: true
+				id: "2B7229D450BE406E"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "237FB28198C0CBBB"
 				type: "checkmark"
@@ -1051,6 +1380,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "6A910038D72D23A2"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon team_galactic_boss_cyrus_041b"
+				exclude_from_claim_all: true
+				id: "4158C36D47D3DCBA"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "3C2EABBF60D3460A"
 				type: "checkmark"
@@ -1066,6 +1403,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4F8CA40C986EA27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_volkner_03db"
+				exclude_from_claim_all: true
+				id: "69012FEEC4AC7128"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "63F7D534ECF49F79"
 				type: "checkmark"
@@ -1081,6 +1426,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "57B7DA6546C6396B"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon pokemon_trainer_cedric_044e"
+				exclude_from_claim_all: true
+				id: "2DFC65B184404C3A"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "0B794FEFD2FA7E4F"
 				type: "checkmark"
@@ -1096,6 +1449,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "1B5F85BF8AA75893"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_aaron_039f"
+				exclude_from_claim_all: true
+				id: "5D25B71C0758A4A7"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "6984E152931ABF96"
 				type: "checkmark"
@@ -1111,6 +1472,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "08C535D38E761D21"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_bertha_03a0"
+				exclude_from_claim_all: true
+				id: "428A2553C7FE5EBC"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "351220E2D71C88B4"
 				type: "checkmark"
@@ -1126,6 +1495,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2B9037536F9B9CA0"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_flint_03a1"
+				exclude_from_claim_all: true
+				id: "4D155E5D29040E72"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "3E8C4A00A2478C58"
 				type: "checkmark"
@@ -1141,6 +1518,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "1C7C22A12D409120"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon elite_four_lucian_03a2"
+				exclude_from_claim_all: true
+				id: "76F045373DCEA7B7"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "30ACBDECF508BD8C"
 				type: "checkmark"
@@ -1156,6 +1541,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5D124ABC55250B59"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod trainer summon gym_leader_maylene_03d8"
+				exclude_from_claim_all: true
+				id: "26AA0CA40BACD7B5"
+				permission_level: 4
+				type: "command"
+			}]
 			tasks: [{
 				id: "7D0BF51174841A94"
 				type: "checkmark"
@@ -1167,9 +1560,10 @@
 			id: "73CE42B9656AAA15"
 			invisible: true
 			rewards: [{
+				auto: "enabled"
 				command: "/rctmod player set progress @p after champion_cynthia_05a7"
 				id: "1E951FD9DDBDA902"
-				permission_level: 2
+				permission_level: 4
 				type: "command"
 			}]
 			shape: "diamond"
@@ -1179,6 +1573,93 @@
 			}]
 			x: 13.5d
 			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "aggroindicator:textures/alert_icon_0.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "58B6F91540877718"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod player get level_cap @p"
+				id: "398AB587DF05EA66"
+				permission_level: 4
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "24760CE04CC37CBA"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "1652746389A20AB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2393795C66DCBE61"
+					table_id: 3792728936859240753L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "33B4AF62053265BE"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "2854804398EAA22F"
+				item: { count: 1, id: "cobgyms:gym_key" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/trainers/bugmaniac.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67D81671CB3044DE"
+			rewards: [
+				{
+					id: "376827A3E834FB92"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "083AC8F8A038770B"
+					table_id: 3792728936859240753L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "26D0F91517C3EFD7"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 8.5d
 		}
 	]
 }

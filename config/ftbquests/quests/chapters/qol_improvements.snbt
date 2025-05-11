@@ -46,7 +46,7 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -61,10 +61,10 @@
 					type: "item"
 				}
 				{
-					id: "74AB2B0E9F6E4C19"
+					id: "0F774735C513333C"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -74,35 +74,7 @@
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			id: "2C1D9F06ED3A144B"
-			rewards: [
-				{
-					id: "27F7A276A7CD6C0A"
-					item: {
-						count: 1
-						id: "xpbook:xp_tome"
-					}
-					type: "item"
-				}
-				{
-					id: "0D8B3E56ADBC0364"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "43E578D4BA210D43"
-				item: { count: 1, id: "xpbook:xp_tome" }
-				type: "item"
-			}]
-			x: -3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -117,10 +89,10 @@
 					type: "item"
 				}
 				{
-					id: "1788F9D8806CC8D9"
+					id: "1F5A680C19D7756E"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -130,142 +102,83 @@
 				item: { count: 1, id: "akashictome:tome" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				id: "minecraft:recovery_compass"
-			}
-			id: "626504DF6F2FA32E"
-			rewards: [
-				{
-					id: "22DB01B13CDF2304"
-					item: {
-						count: 1
-						id: "cobblemon:relic_coin"
-					}
-					type: "item"
-				}
-				{
-					id: "62E07BC5986F8F11"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1E6B20592343D02F"
-				type: "checkmark"
-			}]
-			x: -4.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
 			id: "0740DE864E0C3E0A"
-			rewards: [
-				{
-					id: "4F10B716CBDB006C"
-					item: {
-						count: 1
-						id: "minecraft:spyglass"
-					}
-					type: "item"
+			rewards: [{
+				id: "4F10B716CBDB006C"
+				item: {
+					count: 1
+					id: "minecraft:spyglass"
 				}
-				{
-					id: "6B39825DDC27C819"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "524990FCFC484384"
 				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
-			id: "6A6BA5929CEFA82C"
+			id: "58FF3077CDC3AB45"
 			rewards: [
 				{
-					id: "10657DE124AB2851"
+					id: "2718FB52DBA8FB91"
 					item: {
 						count: 1
-						id: "ars_nouveau:greater_experience_gem"
+						id: "explorerscompass:explorerscompass"
 					}
 					type: "item"
 				}
 				{
-					id: "77ADCAAA9904E43F"
+					id: "3D0C3F85634370F9"
 					item: {
 						count: 1
-						id: "pocketmachines:pocket_crafting"
-					}
-					type: "item"
-				}
-				{
-					id: "24B1E28BDF20EAE5"
-					item: {
-						count: 1
-						id: "pocketmachines:pocket_furnace"
-					}
-					type: "item"
-				}
-				{
-					id: "06EFF7B6BB6D1F8F"
-					item: {
-						count: 1
-						id: "pocketmachines:pocket_anvil"
-					}
-					type: "item"
-				}
-				{
-					id: "1A829C91E5587B5C"
-					item: {
-						count: 1
-						id: "pocketmachines:pocket_ender_chest"
-					}
-					type: "item"
-				}
-				{
-					id: "249F8AA97970ECCE"
-					item: {
-						count: 1
-						id: "pocketmachines:pocket_brewing_stand"
+						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "42619053C0E5D953"
-					item: { count: 1, id: "pocketmachines:pocket_crafting" }
-					type: "item"
+			tasks: [{
+				id: "361BECCFCB268683"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "5B3D2FF22FFA5722"
+			tasks: [{
+				id: "1FAC62E2C1735571"
+				item: { count: 1, id: "ftblibrary:icon_item" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			id: "49715D490B752014"
+			rewards: [{
+				id: "6BD07D4F687512C2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "14A4210CD70F6063"
-					item: { count: 1, id: "pocketmachines:pocket_furnace" }
-					type: "item"
-				}
-				{
-					id: "438F8D6E5C3EA96B"
-					item: { count: 1, id: "pocketmachines:pocket_anvil" }
-					type: "item"
-				}
-				{
-					id: "47E5DE6B2F8C781C"
-					item: { count: 1, id: "pocketmachines:pocket_ender_chest" }
-					type: "item"
-				}
-			]
-			x: 3.0d
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D9E30D05323280B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(lightmanscurrency:wallet)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
 			y: 0.0d
 		}
 	]

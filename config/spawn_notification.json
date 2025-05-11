@@ -1,27 +1,35 @@
 {
+  "announceDespawnPlayer": true,
   "broadcastShiny": true,
   "broadcastCoords": true,
   "broadcastBiome": false,
   "playShinySound": true,
   "playShinySoundPlayer": false,
-  "announceCrossDimensions": true,
-  "broadcastDespawns": false,
+  "announceCrossDimensions": false,
+  "broadcastCaptures": true,
+  "broadcastFaints": true,
   "broadcastVolatileDespawns": false,
   "broadcastSpeciesName": true,
-  "broadcastPlayerSpawnedOn": true,
+  "broadcastPlayerSpawnedOn": false,
+  "disableWaypoints": false,
   "broadcastRange": -1,
   "playerLimit": -1,
   "labelsForBroadcast": [
     "legendary",
     "mythical",
-    "ultra-beast",
-    "paradox"
+    "ultra_beast",
+    "paradox",
+    "starter"
   ],
-  "bucketsForBroadcast": [
-    "ultra-rare"
-  ],
+  "bucketsForBroadcast": [],
+  "blacklistForBroadcast": [],
+  "blacklistForBroadcastEvenIfShiny": [],
   "formatting": {
     "label.legendary": "LIGHT_PURPLE",
+    "label.mythical": "LIGHT_PURPLE",
+    "label.ultra_beast": "LIGHT_PURPLE",
+    "label.paradox": "LIGHT_PURPLE",
+    "label.starter": "YELLOW",
     "bucket.ultra-rare": "AQUA",
     "shiny": "GOLD"
   }

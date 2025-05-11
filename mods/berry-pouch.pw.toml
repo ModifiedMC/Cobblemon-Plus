@@ -1,0 +1,13 @@
+name = "Berry Pouch [Cobblemon]"
+filename = "berrypouch-neoforge-1.21.1-0.4.0-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9427419c39aa6740a6f80767204b687ddf780004"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6473801
+project-id = 1246510

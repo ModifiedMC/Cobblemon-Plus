@@ -7,14 +7,6 @@
 		id: "allthemodium:allthemodium_chestplate"
 	}
 	id: "7BE632CBCC81A9CB"
-	images: [{
-		height: 6.0d
-		image: "relics:textures/abilities/missing.png"
-		rotation: 0.0d
-		width: 6.0d
-		x: -1.5d
-		y: 0.0d
-	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [{

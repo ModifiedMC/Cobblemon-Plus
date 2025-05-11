@@ -7,14 +7,6 @@
 		id: "croptopia:hops_seed"
 	}
 	id: "4AF3C71FC353146E"
-	images: [{
-		height: 6.0d
-		image: "relics:textures/abilities/missing.png"
-		rotation: 0.0d
-		width: 6.0d
-		x: -0.5d
-		y: -1.0d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

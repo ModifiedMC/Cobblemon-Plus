@@ -5,10 +5,9 @@
 	group: "1F4AE109ED6749AD"
 	icon: {
 		components: {
-			"cobbreeding:second": 1
-			"cobbreeding:timer": 160
+			"ftbquests:icon": "cobbreeding:item/default_pokemon_egg"
 		}
-		id: "cobbreeding:pokemon_egg"
+		id: "ftbquests:custom_icon"
 	}
 	id: "1EBE16D7B09460C9"
 	images: [
@@ -43,7 +42,10 @@
 	quests: [
 		{
 			icon: {
-				id: "cobblemon:master_rod"
+				components: {
+					"ftbquests:icon": "cobblemon:textures/entity_icon/0129_magikarp/magikarp_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "641829A8BDA025CB"
 			tasks: [{
@@ -54,25 +56,21 @@
 			y: -0.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:item/fishing/master_rod"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "02FD79EADB51EBC0"
-			rewards: [
-				{
-					id: "43E1A7A888387D9C"
-					item: {
-						count: 1
-						id: "cobblemon:pokerod_smithing_template"
-					}
-					type: "item"
+			rewards: [{
+				id: "43E1A7A888387D9C"
+				item: {
+					count: 1
+					id: "cobblemon:pokerod_smithing_template"
 				}
-				{
-					id: "03326EDA9AC2D72A"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: false
@@ -90,23 +88,19 @@
 			y: -0.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:item/berries/leppa_berry"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "56D889B6AF3BF89A"
-			rewards: [
-				{
-					id: "4DFD5A4FA43AFA11"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2E6C0750E922421E"
-					table_id: 3792728936859240753L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E6C0750E922421E"
+				table_id: 3792728936859240753L
+				type: "random"
+			}]
 			tasks: [{
 				id: "202E55490CD5350B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:berries)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -117,7 +111,10 @@
 		}
 		{
 			icon: {
-				id: "easy_mob_farm:luck_enhancement"
+				components: {
+					"ftbquests:icon": "chipped:item/alchemy_book"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "4E26EAF8AB40DA65"
 			tasks: [{
@@ -140,21 +137,18 @@
 				}
 				{
 					count: 3
-					id: "67E481980585CE0A"
-					item: {
-						count: 1
-						id: "ars_nouveau:greater_experience_gem"
-					}
-					type: "item"
-				}
-				{
-					count: 3
 					id: "02FAD4C12A00E132"
 					item: {
 						count: 1
 						id: "cobblemon:rare_candy"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567F3F01A3511218"
+					table_id: 3792728936859240753L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -167,7 +161,10 @@
 		}
 		{
 			icon: {
-				id: "cobbreeding:fire_steel_pokemon_egg"
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/pokedex/platform_unknown.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "71AE3633F61FD6A5"
 			tasks: [{
@@ -179,7 +176,10 @@
 		}
 		{
 			icon: {
-				id: "cobbreeding:fighting_ground_pokemon_egg"
+				components: {
+					"ftbquests:icon": "cobblenav:textures/gui/finder/ability.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "2E4AFEB3B97245C5"
 			tasks: [{
@@ -191,7 +191,10 @@
 		}
 		{
 			icon: {
-				id: "cobbreeding:electric_ghost_pokemon_egg"
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/pasture/pc_slot_icon_move.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "1E7128595422D3B8"
 			rewards: [{
