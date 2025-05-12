@@ -1,0 +1,20 @@
+{
+  "name": "Tyrantrum",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.6,
+      "z": 0
+    },
+    "WALKING": {
+      "x": 0,
+      "y": -0.2,
+      "z": 1
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

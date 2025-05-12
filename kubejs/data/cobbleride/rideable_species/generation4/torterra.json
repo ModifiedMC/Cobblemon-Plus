@@ -1,0 +1,15 @@
+{
+  "name": "Torterra",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.8,
+      "z": 0.7
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

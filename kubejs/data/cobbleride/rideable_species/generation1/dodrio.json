@@ -1,0 +1,15 @@
+{
+  "name": "Dodrio",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 0.8,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

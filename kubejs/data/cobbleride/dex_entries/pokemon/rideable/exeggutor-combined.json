@@ -1,0 +1,21 @@
+{
+  "id": "cobbleride:exeggutor-combined",
+  "speciesId": "cobblemon:exeggutor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Alola",
+      "unlockForms": [
+        "Alola"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cobbleride:ninetales-combined",
+  "speciesId": "cobblemon:ninetales",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Alola",
+      "unlockForms": [
+        "Alola"
+      ]
+    }
+  ],
+  "variations": []
+}

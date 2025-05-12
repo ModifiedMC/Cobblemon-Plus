@@ -1,0 +1,25 @@
+{
+  "name": "Dragapult",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": -0.5
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "SUSPENDED": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

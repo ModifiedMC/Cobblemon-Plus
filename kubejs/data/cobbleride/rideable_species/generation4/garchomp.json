@@ -1,0 +1,25 @@
+{
+  "name": "Garchomp",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": 0
+    },
+    "WALKING": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0.5
+    },
+    "FLYING": {
+      "x": 0,
+      "y": -0.5,
+      "z": 0.5
+    }
+  },
+  "baseSpeedModifier": 0.8,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

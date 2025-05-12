@@ -1,0 +1,25 @@
+{
+  "name": "altaria",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.2,
+      "z": -0.6
+    },
+    "FLYING": {
+      "x": 0.0,
+      "y": -0.2,
+      "z": -0.6
+    },
+    "HOVERING": {
+      "x": 0.0,
+      "y": -0.2,
+      "z": -0.6
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.25,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

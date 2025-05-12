@@ -1,0 +1,35 @@
+{
+  "name": "Quaquaval",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.7,
+      "z": -0.3
+    },
+    "FLOATING": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": -0.8,
+      "z": 0.4
+    },
+    "SUSPENDED": {
+      "x": 0,
+      "y": 0,
+      "z": 0.1
+    },
+    "DIVING": {
+      "x": 0,
+      "y": -0.1,
+      "z": 0.4
+    }
+  },
+  "baseSpeedModifier": 0.8,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

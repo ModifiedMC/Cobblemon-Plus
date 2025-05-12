@@ -1,0 +1,20 @@
+{
+  "name": "Blastoise",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.7,
+      "z": -0.4
+    },
+    "DIVING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.2
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

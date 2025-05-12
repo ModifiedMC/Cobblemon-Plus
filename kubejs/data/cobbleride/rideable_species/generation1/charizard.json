@@ -1,0 +1,40 @@
+{
+  "name": "Charizard",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.1,
+      "z": -0.4
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.2
+    },
+    "FLOATING": {
+      "x": 0,
+      "y": -0.9,
+      "z": 0.6
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": -0.9,
+      "z": 0.7
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0.4
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.2,
+      "z": 1.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 0.125,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

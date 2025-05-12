@@ -1,0 +1,40 @@
+{
+  "name": "Decidueye",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.8,
+      "z": -0.4
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0,
+      "z": -0.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": [
+    {
+      "name": "Hisui",
+      "offsets": {
+        "DEFAULT": {
+          "x": 0,
+          "y": -0.8,
+          "z": -0.4
+        },
+        "FLYING": {
+          "x": 0,
+          "y": 0,
+          "z": -0.1
+        }
+      },
+      "baseSpeedModifier": 1.0,
+      "landSpeedModifier": 0.5,
+      "waterSpeedModifier": 0.5,
+      "airSpeedModifier": 1.0
+    }
+  ]
+}

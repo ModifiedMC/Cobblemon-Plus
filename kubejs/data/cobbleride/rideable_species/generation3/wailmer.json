@@ -1,0 +1,15 @@
+{
+  "name": "Wailmer",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": -0.2
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

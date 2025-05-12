@@ -1,0 +1,15 @@
+{
+  "name": "Veluza",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 2.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

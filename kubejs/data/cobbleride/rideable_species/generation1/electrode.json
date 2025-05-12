@@ -1,0 +1,32 @@
+{
+  "name": "Electrode",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.6,
+      "z": 0
+    }
+  },
+  "shouldRiderSit": false,
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": [
+    {
+      "name": "Hisui",
+      "offsets": {
+        "DEFAULT": {
+          "x": 0,
+          "y": 0.6,
+          "z": 0
+        }
+      },
+      "shouldRiderSit": false,
+      "baseSpeedModifier": 0.5,
+      "landSpeedModifier": 1.0,
+      "waterSpeedModifier": 0.5,
+      "airSpeedModifier": 1.0
+    }
+  ]
+}

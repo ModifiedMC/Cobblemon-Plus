@@ -1,0 +1,40 @@
+{
+  "name": "Dragonite",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.9,
+      "z": -0.5
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0.0,
+      "z": 0.2
+    },
+    "SUSPENDED": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "DIVING": {
+      "x": 0,
+      "y": -0.3,
+      "z": 1.5
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.2,
+      "z": 1.5
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

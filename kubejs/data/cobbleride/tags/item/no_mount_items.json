@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:pokedex",
+    {
+      "id": "#mega_showdown:form_change_items",
+      "required": false
+    },
+    {
+      "id": "#mega_showdown:tera_shards",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:dynamax_candy",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:max_soup",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:sweet_max_soup",
+      "required": false
+    }
+  ]
+}

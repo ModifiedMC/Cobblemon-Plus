@@ -1,0 +1,25 @@
+{
+  "name": "Poliwrath",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.2,
+      "z": -0.4
+    },
+    "SUSPENDED": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "DIVING": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0.2
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.3,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

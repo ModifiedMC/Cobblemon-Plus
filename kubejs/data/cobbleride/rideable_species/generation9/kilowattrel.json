@@ -1,0 +1,20 @@
+{
+  "name": "Kilowattrel",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.9,
+      "z": -0.3
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.3
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

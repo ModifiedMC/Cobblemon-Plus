@@ -1,0 +1,30 @@
+{
+  "name": "Gyarados",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": -0.1
+    },
+    "FLOATING": {
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": -1.7,
+      "z": -0.3
+    },
+    "DIVING": {
+      "x": 0,
+      "y": -1.5,
+      "z": 0.5
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

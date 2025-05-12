@@ -1,0 +1,25 @@
+{
+  "name": "Aerodactyl",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.4,
+      "z": 0.6
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0,
+      "z": -0.2
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 0.25,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

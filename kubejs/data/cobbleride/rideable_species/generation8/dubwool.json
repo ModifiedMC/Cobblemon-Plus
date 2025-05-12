@@ -1,0 +1,20 @@
+{
+  "name": "Dubwool",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.1,
+      "z": -0.3
+    },
+    "SHEARED": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Samurott",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.9,
+      "z": -0.3
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.8,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": [
+    {
+      "name": "Hisui",
+      "offsets": {
+        "DEFAULT": {
+          "x": 0,
+          "y": -0.9,
+          "z": -0.3
+        }
+      },
+      "baseSpeedModifier": 1.0,
+      "landSpeedModifier": 0.8,
+      "waterSpeedModifier": 1.0,
+      "airSpeedModifier": 1.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Serperior",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.3,
+      "y": -1.6,
+      "z": -0.6
+    },
+    "WALKING": {
+      "x": -0.3,
+      "y": 0,
+      "z": 0.3
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

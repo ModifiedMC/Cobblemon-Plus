@@ -1,0 +1,21 @@
+{
+  "name": "Victreebel",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1,
+      "z": 0.1
+    },
+    "WALKING": {
+      "x": 0,
+      "y": -0.1,
+      "z": -0.2
+    }
+  },
+  "shouldRiderSit": false,
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

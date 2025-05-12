@@ -1,0 +1,40 @@
+{
+  "name": "Exeggutor",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.2,
+      "z": 0
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0.2
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": [
+    {
+      "name": "Alola",
+      "offsets": {
+        "DEFAULT": {
+          "x": 0,
+          "y": -20.3,
+          "z": -0.7
+        },
+        "WALKING": {
+          "x": 0,
+          "y": 0.2,
+          "z": 0.1
+        }
+      },
+      "baseSpeedModifier": 0.25,
+      "landSpeedModifier": 1.0,
+      "waterSpeedModifier": 0.5,
+      "airSpeedModifier": 1.0
+    }
+  ]
+}

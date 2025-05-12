@@ -1,0 +1,25 @@
+{
+  "name": "Kingdra",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.8,
+      "z": -0.2
+    },
+    "SUSPENDED": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "DIVING": {
+      "x": 0,
+      "y": -0.2,
+      "z": -0.2
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

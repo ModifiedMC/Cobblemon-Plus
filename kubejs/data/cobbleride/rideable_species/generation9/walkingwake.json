@@ -1,0 +1,30 @@
+{
+  "name": "Walking Wake",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.1,
+      "z": -0.2
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": 0.4,
+      "z": 0
+    },
+    "DIVING": {
+      "x": 0,
+      "y": 0.4,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

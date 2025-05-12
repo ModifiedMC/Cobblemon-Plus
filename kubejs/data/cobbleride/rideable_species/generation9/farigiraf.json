@@ -1,0 +1,15 @@
+{
+  "name": "Farigiraf",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -3.4,
+      "z": -0.2
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

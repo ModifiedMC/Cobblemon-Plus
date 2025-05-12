@@ -1,0 +1,15 @@
+{
+  "name": "Chansey",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": -0.6
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

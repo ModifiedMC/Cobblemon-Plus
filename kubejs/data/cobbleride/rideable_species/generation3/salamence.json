@@ -1,0 +1,20 @@
+{
+  "name": "Salamence",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": 0.7
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.3,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.125,
+  "waterSpeedModifier": 0.0625,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}
