@@ -1,13 +1,13 @@
 name = "Create Mechanical Extruder"
-filename = "create_mechanical_extruder-1.21.1-2.0.5-6.0.4.jar"
+filename = "create_mechanical_extruder-1.21.1-2.1.1-6.0.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fe82433f5d7de24917a18a3aa50585e3c2d29e3d"
+hash = "a7105f6090247bb4128a2ec35bdb46c34986ce4a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6437309
+file-id = 6510597
 project-id = 686100

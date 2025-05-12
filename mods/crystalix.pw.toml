@@ -1,13 +1,13 @@
 name = "Crystalix"
-filename = "crystalix-1.3.3_neoforge_1.21.1.jar"
+filename = "crystalix-1.3.4_neoforge_1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "769d8714bde797e94427bd60834c0aa02076d020"
+hash = "415baf894afbd5f91fd01ffaa438330bde6595d6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6492325
+file-id = 6513314
 project-id = 1187033

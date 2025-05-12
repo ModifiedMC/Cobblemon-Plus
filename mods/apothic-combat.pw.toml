@@ -1,0 +1,13 @@
+name = "Better Combat x Apotheosis Compat"
+filename = "apothiccombat-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01c58c5fa571179832b53fd121b9f32b36880c44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6105085
+project-id = 986982

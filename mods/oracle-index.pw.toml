@@ -1,13 +1,13 @@
 name = "Oracle Index"
-filename = "oracle_index-neoforge-0.2.0.jar"
+filename = "oracle_index-neoforge-0.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1e04c2c0294e19e35bc39c765d91efa120439bc8"
+hash = "d3040a378ad4d61fb635c3ff86db4555cec6e41e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6300145
+file-id = 6518858
 project-id = 1206582

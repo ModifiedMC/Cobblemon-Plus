@@ -1,13 +1,13 @@
 name = "Create: Trading Floor"
-filename = "trading_floor-3.0.6.jar"
+filename = "trading_floor-3.0.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "efe4fcdeecff3156ea60be3976df66771b57b810"
+hash = "033a18bd53125d6bf1a4d27b935dc6bfdf54e5bb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6469913
+file-id = 6516617
 project-id = 1102591
