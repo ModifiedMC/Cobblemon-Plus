@@ -6559,7 +6559,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "e6f72f9d4fd91c8666c52e75fc9c430b95da7bc38b120887d04e6f87b515bca8"
+hash = "230422ff1bab935c2ed7354ef92bbff82fbef22616fc4dbf3547a74dfbcb8554"
 metafile = true
 
 [[files]]
@@ -6905,6 +6905,11 @@ metafile = true
 [[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "cd6722988536fc6a348afbb17aabbf4bba8c5a8ebd7287e6e4dd7e26647c99cb"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "2f787a7e8069f65cc7492f946a1fb58e9b66cb74505477e79cbfc4d9b217f737"
 metafile = true
 
 [[files]]
@@ -8094,7 +8099,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "030b998adc585c042f0871cdcf7d98a60a4b0829c0f03dceb73181ea9ad7bf24"
+hash = "d1fa073d694bf570e4d6f92710a78a5c3793474c8831252bfc77e22921f62593"
 metafile = true
 
 [[files]]
@@ -8104,12 +8109,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "039ea507c484287eceb0593b0625743d8401d63d23594be2ecb85245631e5df5"
+hash = "e105fab3eeae9379709e66afb5f08be466c04bf4a7a43ca5ccb7e6f4f7bf86c0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "571127133f2369aaefd4d9390ed6d7133b9137b34337dddbbcc07e7212fc3760"
+hash = "c55dcfb0927063047a217355df09fbae8c076b056af1970f044b06b571acbd2f"
 metafile = true
 
 [[files]]
