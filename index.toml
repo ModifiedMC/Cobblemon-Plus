@@ -8320,11 +8320,6 @@ hash = "aa758ae489bc3749580962244b65932c3a2965ac595f1f8c8cce79cd17dffa95"
 metafile = true
 
 [[files]]
-file = "mods/recipe-essentials-forge-fabric.pw.toml"
-hash = "fba0893c1da8c6e93beb9dac0e03228ebc108e3016a44d43c6e4d1faea2a16f2"
-metafile = true
-
-[[files]]
 file = "mods/redirected.pw.toml"
 hash = "a8e09044fb84c6b63782d68be84c899fbecebf7b70ee3f36a83bcff9e475d411"
 metafile = true
