@@ -1,25 +1,61 @@
 {
-  "name": "latios",
-  "offsets": {
-    "DEFAULT": {
-      "x": 0.0,
-      "y": 0.8,
-      "z": 0.0
-    },
-  "FLYING": {
-    "x": 0.0,
-    "y": 0.8,
-    "z": 0.0
-  },
-  "HOVERING": {
-    "x": 0.0,
-    "y": 0.8,
-    "z": 0.0
-  }
-},
-  "baseSpeedModifier": 1.0,
-  "landSpeedModifier": 0.2,
-  "waterSpeedModifier": 1.0,
-  "airSpeedModifier": 1.2,
-  "forms": []
+	"name": "Latios",
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -0.5,
+			"z": 0.0
+		},
+		"WALKING": {
+			"x": 0.0,
+			"y": -0.1,
+			"z": 0.0
+		},
+		"HOVERING": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"FLYING": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 1.0,
+	"waterSpeedModifier": 0.5,
+	"airSpeedModifier": 1.2,
+	"forms": [
+		{
+			"name": "Mega",
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": 0.1,
+					"z": 0.0
+				},
+				"WALKING": {
+					"x": 0.0,
+					"y": -0.2,
+					"z": 0.0
+				},
+				"HOVERING": {
+					"x": 0.0,
+					"y": -0.1,
+					"z": 0.0
+				},
+				"FLYING": {
+					"x": 0.0,
+					"y": -0.2,
+					"z": 0.0
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 0.5,
+			"airSpeedModifier": 1.5
+		}
+
+	]
 }

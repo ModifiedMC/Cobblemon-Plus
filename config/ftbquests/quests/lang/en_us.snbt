@@ -834,6 +834,7 @@
 	quest.276614F1CAEEF005.title: "Paldea Ice Types"
 	quest.27961DE632D73E81.quest_subtitle: "A basic Poké Ball with a 1× catch rate, crafted using yellow apricorns."
 	quest.27961DE632D73E81.title: "Citrine Ball"
+	quest.27BC2E59AD0790BE.quest_desc: ["&6Rare Candy&r - Increase a cobblemon's level by one."]
 	quest.27BC7A7F1DA13CBE.quest_desc: [
 		"&dEffect on Pokémon:&r Holder wakes up if it is asleep."
 		""
@@ -1576,6 +1577,7 @@
 	quest.4B40BEBAF65F7A8F.quest_desc: ["Once you stand on the pad it will teleport you to the Mining Dimension / A resource world where you can mine till your hearts content!"]
 	quest.4B40BEBAF65F7A8F.quest_subtitle: "Travel to the mining dim!"
 	quest.4B40BEBAF65F7A8F.title: "Teleport Pad"
+	quest.4B60EEAD40100CC0.quest_desc: ["&6Common Candy&r - Reduce a cobblemon's level by one."]
 	quest.4B782091B3732253.title: "Unova Fire Types"
 	quest.4B813054AAFB96ED.title: "Poké Ball"
 	quest.4B9CE98B95BB9182.quest_desc: ["A PC is a utility block that allows the player to access the Pokémon storage system. "]

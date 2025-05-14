@@ -1,13 +1,13 @@
 {
-	"name": "Kangaskhan",
+	"name": "Zacian",
 	"offsets": {
 		"DEFAULT": {
-			"x": 0.4,
-			"y": -1.7,
-			"z": 0.6
+			"x": 0.0,
+			"y": -0.3,
+			"z": 0.0
 		}
 	},
-	"baseSpeedModifier": 0.25,
+	"baseSpeedModifier": 1.0,
 	"landSpeedModifier": 1.0,
 	"waterSpeedModifier": 0.5,
 	"airSpeedModifier": 1.0,

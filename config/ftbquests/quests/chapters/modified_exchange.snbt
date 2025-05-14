@@ -1251,7 +1251,7 @@
 		{
 			id: "58159F55C45FECAF"
 			rewards: [{
-				count: 5
+				count: 8
 				id: "40F02AE0D50A0A57"
 				item: {
 					count: 1
@@ -1329,7 +1329,7 @@
 		{
 			id: "01C9A6C228EDC1A1"
 			rewards: [{
-				count: 10
+				count: 24
 				id: "28F8543F969ADFBE"
 				item: {
 					count: 1
@@ -1583,8 +1583,8 @@
 				item: { count: 10, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -13.5d
-			y: 3.0d
+			x: -14.25d
+			y: 3.75d
 		}
 		{
 			icon: {
@@ -1606,8 +1606,52 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:commoncandy"
+			}
+			id: "4B60EEAD40100CC0"
+			rewards: [{
+				id: "1D5437B6F0D0CB4D"
+				item: {
+					count: 1
+					id: "cobblemon_utility:commoncandy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4A972EA85A6994DE"
+				item: { count: 1, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "cobblemon:rare_candy"
+			}
+			id: "27BC2E59AD0790BE"
+			rewards: [{
+				id: "0F227F7C52054A50"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5DBF66BEB3BD7A22"
+				item: { count: 16, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
 		}
 	]
 }

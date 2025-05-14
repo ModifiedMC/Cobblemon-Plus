@@ -21,6 +21,14 @@
     {
       "id": "mega_showdown:sweet_max_soup",
       "required": false
+    },
+    {
+      "id": "#simpletms:tm_items",
+      "required": false
+    },
+    {
+      "id": "#simpletms:tr_items",
+      "required": false
     }
   ]
 }

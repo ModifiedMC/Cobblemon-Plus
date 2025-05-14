@@ -1638,7 +1638,7 @@ hash = "e2a22c8f410a57c3b3b00509d36385c7cc3933a4c24e43926997bfd98362e686"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "6d8e0b2d3a767a2d2eb996c095925b119e3eb1fa1a3474be37c85f3f4278b7e3"
+hash = "db2706901b7e32807a17dbb89b8ef89ef2f4dc619b70ebbbe8c1b15566e2280a"
 
 [[files]]
 file = "config/better_respawn-server.toml"
@@ -3617,8 +3617,8 @@ file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/datapacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
-hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
+file = "config/paxi/datapacks/ATM 2.3 for Mega Showdown v9.5.2.zip"
+hash = "0df7dfd32714e8b01f907f6ed6fcf74fa40952f19ed7571b03ee92faae8be267"
 
 [[files]]
 file = "config/paxi/datapacks/BCA-Datapack-3.5_GE_C1.6.1_M1.21.1.zip"
@@ -3629,12 +3629,8 @@ file = "config/paxi/datapacks/BCA-PokeDollars.zip"
 hash = "3bfe5cdf14e3363f941175bfae74ef7574e664e408061bcf767b8bfa3d15bfdc"
 
 [[files]]
-file = "config/paxi/datapacks/Legenday spawns revamped 1.4.zip"
-hash = "149f83b07b12779ee94ab16274e752dd165296128c038687a798e194b36655f1"
-
-[[files]]
-file = "config/paxi/datapacks/MegaShowdownTweaks_Vanilla-1.6.2.zip"
-hash = "92934c0d1627ab99f33bb743b2a33ef540aa61ad4c0d7033b6174e86232c1a6e"
+file = "config/paxi/datapacks/MegaShowdownTweaks_Vanilla-1.8.zip"
+hash = "2ac15a047918d8f2e9a4ea435a2dc42d3b3532dfdb8ab68b414beb7e048be154"
 
 [[files]]
 file = "config/paxi/datapacks/Megashowdown RECIPES REVAMP.zip"
@@ -3665,8 +3661,8 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.3.6.zip"
-hash = "3b4ffced66214374d2c6928356ed2c7cad83e1caea8decb30dde93b32671047b"
+file = "config/paxi/resourcepacks/ATM 2.3 for Mega Showdown v9.5.2.zip"
+hash = "0df7dfd32714e8b01f907f6ed6fcf74fa40952f19ed7571b03ee92faae8be267"
 
 [[files]]
 file = "config/paxi/resourcepacks/CI-M-1.9.1-modified.zip"
@@ -3994,7 +3990,7 @@ hash = "9e5d4a1869bb499cd08e18e9c2ea9f0658650c7b52714870aa7e2f72b02fa181"
 
 [[files]]
 file = "config/serverbrowser.conf"
-hash = "667a3bf29d9a50d3e6cccd2341ae94a1ccacf415490e3346681f72d64c86fdfe"
+hash = "f11b122d3da5e025c1f147eff5d3c94e38c81d63cdc746a92d59e3ab7b3ac24d"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -5533,132 +5529,724 @@ file = "kubejs/data/cardiac/recipe/lifesteal.json"
 hash = "568879e654a596c3efe2864c14ef0ff68950cfacd6916e71744601a548ecbcbd"
 
 [[files]]
-file = "kubejs/data/cobbleride/dexes/rideable.json"
-hash = "76110bad480ada7b50c5ed7d054417f6c5f4ec74d5cf46d8b324c39b27ef18d4"
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/decidueye-combined.json"
+hash = "9b7eb858a5976ed6aed008277141da4bdbfbe42d2aff2cab43a930068c6dad4b"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/altaria.json"
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/electrode-combined.json"
+hash = "be2baaef85b42e098f6b050daf651606656a53a2c08c2e3e18b4173510804a42"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/exeggutor-combined.json"
+hash = "480f1577310a6dcb9a345b8d9c861c7b7bc3c941ac84649cd7373912be301516"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/goodra-combined.json"
+hash = "4a036ad265fd04db4a2d36313659cc218133bcfb907eb955e754d31f1ed75050"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/ninetales-combined.json"
+hash = "441c0651b7ca6f86bc5e59c313c4b810ef3d93011be73b0c50120a4b1af7f7a7"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/rapidash-combined.json"
+hash = "e5dce6237c3cf1dfd66aa3238e0bc5d5d45095eacea9092e8bdcf9e4a19f74f2"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/samurott-combined.json"
+hash = "4b8e059d67794ec166a183aa5f8b4d353018c6a9541fd5705e2e853c83cf3c68"
+
+[[files]]
+file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/typhlosion-combined.json"
+hash = "8bfa0c696332804bed09213a4c9ad42c4cd72d5c0f614d888257b5871600948e"
+
+[[files]]
+file = "kubejs/data/cobbleride/dexes/rideable.json"
+hash = "d04ed98c55e58f851192f06f4e4e3a7317dd2eb8c6ec4d4804cc12af5a6cffa7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/aerodactyl.json"
+hash = "97b70f54356fb29af126c8566dc3ee04c1fc1a7ca63140ab4298fb39b45928ee"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/arcanine.json"
+hash = "69f8b23cba6e2ae016ed5f13c0ae6d8d5c48261eea2fbddcca96270c7f6b8cee"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/articuno.json"
+hash = "4c7617fdf675d2072a462b507fe88fae892dc3ac8b003aa0835447613caf6b47"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/blastoise.json"
+hash = "36976523e14e45c34c4a1e9d699fa0082151db412f9dd99f04f21712182e09d8"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/chansey.json"
+hash = "46df6377880737566c8110d8f4af90ccd1c0174cad41d5a5467a51606cd992e5"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/charizard.json"
+hash = "7c771202390119a32094604553d8bcf2885e44cb9d9a760ccf468766885f3616"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/cloyster.json"
+hash = "7a3b346a534e6952a66ae0ae5aeca80b90b90777c7375fefbb3b396ed1011ed1"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/dodrio.json"
+hash = "20d0d636a8da5830338b90476830bfae72844f4f8f2122f21fc476875766ab7a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/dragonite.json"
+hash = "5173b8c7b4788aa6bb9de471cf00801403c8880e00228b715837af7a34c679ea"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/electrode.json"
+hash = "49c5b363a0b60e5360799139f4a2a2e2eac09849f840b059f5ccb12b59bcd9f6"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/exeggutor.json"
+hash = "6207f3e5e9b8a169fa6006be0f4042d7aff46329b53d30503f61696e2474836e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/fearow.json"
+hash = "703a6379a2633e7d37cdf8cca65a5ff185a2908a5c0e62ef6ad0e21815c6d84e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/gengar.json"
+hash = "60fd77ec3f2868a6fd9891ee7b905c465d95492eb59b918c4eb4b051281a41e3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/golbat.json"
+hash = "fe8ac4bc5b6014f7f00515fa99164e8b733e3f74b1c9213bf2abf0d06719122e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/golduck.json"
+hash = "c78bf315d3770891b7feb34fb179456e458bc4d80bfe6268762d058230e000b7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/golem.json"
+hash = "8148cd4c229408f5afab0e0fb30c52fa67783ba62849cab15705a39aa8453a7e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/gyarados.json"
+hash = "8a656cc1cbe230f9c5a627946e49be182b5ce3f32633aab49a2bc0504b1497ad"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/kangaskhan.json"
+hash = "57022ee5e7ff576b3ced901a901b56d157567dee0503ae68f534ffdfd4807c99"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/kingler.json"
+hash = "9a878ec87b8f9fe3332a773208e04f43e47e036f5885e05562db96a7588acf1f"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/lapras.json"
+hash = "17e72e9995820157585ac5e1ce02a5d4569a52f0afee728b1e0b4ad376784be8"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/machamp.json"
+hash = "9aab5b1ceda8bb6913573c2a608f4ea9e49735a6cff76365a36654092e547b93"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/moltres.json"
+hash = "83d5ab80d09ead5603425d92db869694f30198fb246b791f6a4df6f6fbed7aa8"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/muk.json"
+hash = "7938f184c92803d83575c3fa9a319675234245b64209deb412babbd29555e108"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/nidoking.json"
+hash = "b2056df179835713befce7fd7b44f9728349be3857655bc8fe44cb2f46a57e71"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/nidoqueen.json"
+hash = "7bb168dde62e8c827cec4be85866f49a537483df8bf90716f2a65ff0162df769"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/ninetales.json"
+hash = "53e9fea885045569fa8cfd21efbea259cbc99d1ba9c7fe222ea9b83858e5d4d3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/onix.json"
+hash = "47897648f4a85514d76056923d0582f2cae7de5f294e2977285c90e14e1c930d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/pidgeot.json"
+hash = "bb8185b00f6e38c96330bb2d7517a4ac62a52e334b8ac461158fa2209c91273d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/poliwrath.json"
+hash = "c296de280c6e56b8f8eecbb51204c4648c2c36d4b490ad20668e197348377ccc"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/rapidash.json"
+hash = "8a2cddf8e5b0f8796f95c734ac093118a48c7d186de2f278e31bbfbbefb9680a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/rhydon.json"
+hash = "598ad73cb96f18d863046334500d8e6429ee939c1ac25afabcd14e5bb0760287"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/rhyhorn.json"
+hash = "965863cd07d410a7eb79e977a239250faee0cadace789e9d39429b6e8134c280"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/slowbro.json"
+hash = "191c89f203b85b7a0bfa02c0d1ed68db5fbf77e108712e507e2642c7f73f1b4b"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/snorlax.json"
+hash = "063cbfb3a9f14dcd712c539ec3a35ef257694a092377a3d996bf81678cb45474"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/tauros.json"
+hash = "965863cd07d410a7eb79e977a239250faee0cadace789e9d39429b6e8134c280"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/tentacruel.json"
+hash = "b9be6abb82f79690c03cf443a676ae520c28636f4f0afb21908733c7ba875036"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/venusaur.json"
+hash = "76e8563eec4911db09785f0a56d9f62b0d2b3a4581aa01eb1f02b75b95bbd90c"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/victreebel.json"
+hash = "379edc6bd03e75b4e09673cc5a7ba21a9dd814012a86a2114a42b400c4dd3bd3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation1/zapdos.json"
+hash = "e04cb032dc927cf95a117e5e1422f873c3e8a850796e884a1b8f32546ec0bd42"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/ampharos.json"
+hash = "ba3d66812d01794175aaf4fa6adfb44bbed02364e9007a40f88721bbb7f91f83"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/crobat.json"
+hash = "954a743a627e52cf83ac5d88d05ea85ea5d31116f6ee0d397c5c8327b06fd17d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/feraligatr.json"
+hash = "6217d7a226fa176379bd13fdc0eb9c0739f89e0d3c0b3458abb69ed55d1a091e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/girafarig.json"
+hash = "bea13a364663fb76f42a50658e3facec8059d2ae4f665669015c3e629e9fd086"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/kingdra.json"
+hash = "8f16ef795e9c0c500fd258fa55b99b02fd1b49075684255f57a5133e0a1759c6"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/magcargo.json"
+hash = "8e4f98eb8bdbbcf8b8728227d025cf2653f8a304bec46bc219dc162c7944ba9d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/mantine.json"
+hash = "f0197acbdd83ade3313de9a559840df08385bf9ff318b4cc9fda7d143e9075a7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/meganium.json"
+hash = "7b219b7f666146749f806651924eced5959cccda130181ca5a70b9cf70111846"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/noctowl.json"
+hash = "2e8fd01fd4be663e64aa10d897b9f7e8ba90dbdd28d06029ffc7a2145588b42a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/stantler.json"
+hash = "6f3fbfec8a9595f07283018de1114bcfc2dfb4e0610c834cd61bc2ab46d114f4"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/steelix.json"
+hash = "18be27d1c0e38941030cbde8473ecfe733a736128d8c419dc7f7ed17f1717c50"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/typhlosion.json"
+hash = "1716a04ab0da67b209a35947dde80c1d032ee1e1e04964b8b074e5d84fa48b83"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/tyranitar.json"
+hash = "425373d57a1955d6cab0e1f6d0f40fe3e5dd0e6c9b39916eb09aa54fbe2b8f63"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation2/ursaring.json"
+hash = "3beabe6c8fed6579bc230527ae179f50206e09256a65c076579804a2fb1ead11"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/absol.json"
+hash = "b11402f95e3d3814c300805e772a2e15a9ae5c0d5dac965dcaa76ac78fca3aff"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/aggron.json"
+hash = "c0a5f8c8a149660d46852ab20095b02009fe57b27c72247f773f2061aea5fe18"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/altaria.json"
 hash = "72835018a32d9fa36fed0fd37407531d3782f341a08cda8d14cbf2348bd7231b"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/araquanid.json"
-hash = "cec32d8728e05f644614ec2276fe4c505365e1c0200678adc4bed1357ae7b977"
+file = "kubejs/data/cobbleride/rideable_species/generation3/blaziken.json"
+hash = "76c3810f9a47be8d02257d5b7a744ba0952a26eb81387caf8686a5d872bacbd1"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/articuno.json"
-hash = "044017ac69995525daf912ac34859be3bef15ac14225cb18433d1de2bb4b5924"
+file = "kubejs/data/cobbleride/rideable_species/generation3/exploud.json"
+hash = "b0e70dda098dd7adb8aebf865046b057e0835ad9df610b165c946c6940dcf922"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/bidoof.json"
-hash = "ede2e8051e3d15bd5c417f430127fc908f45a0eec638e3f49ff32019a94d269d"
+file = "kubejs/data/cobbleride/rideable_species/generation3/flygon.json"
+hash = "1a87416115f351f5485e1589b59dc28f0385c052a6f7a7699233c6e75c2fba50"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/cresselia.json"
-hash = "1305a5aa969a22b5e51f2f034296c75e8c0b8809d59eebb372cd0d7f711be778"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/crobat.json"
-hash = "116ddbe9c3bea1e8b06582d14397b1b19fe56827b3edb270ebcdf90c432486dd"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/cyclizar.json"
-hash = "3511f532ca83a7644a1389901eea6ff78aadf59ea00beb357676b1c36ae32f96"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/drapion.json"
-hash = "7b16c4e0708f4ab8ac436912af5f6ddbf005f460d4e0c56c392df12cf5034b7c"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/eternatus.json"
-hash = "666819aff3616a715bc2f56c7113417ea5c12e220402a5e5e3ffaee1f6633076"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/glastrier.json"
-hash = "044538f358a91871551ab6948aed86c7c9de00b71b2a4469411f30027c98e8e7"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/gogoat.json"
-hash = "efbc89d72e8bdec65b75651024828dce687ebeea1abbe54345abe668ed041da9"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/groudon.json"
+file = "kubejs/data/cobbleride/rideable_species/generation3/groudon.json"
 hash = "34a6414618c3a7327c4d14d5355e7b8ec2a2ea2e2eb997b39854d163aad7c6e8"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/guzzlord.json"
-hash = "4338ea9bc7a4e6ff7780621efd60df98f5e758f273c83c6be174057f47de8f14"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/haxorus.json"
-hash = "5f2723c2da03758c245c069e115db93c26cc99c3eca1b9f3c4af0e6ff08b21b7"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/kyogre.json"
+file = "kubejs/data/cobbleride/rideable_species/generation3/kyogre.json"
 hash = "5d04af198f9f9aeae15d5bb36ade76f4f79a3bed2db1dbd6fe05cf4318ac2079"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/kyurem.json"
-hash = "010b0ad37b6c345b03c58ed48f98a4db130840472236b392dad9bb1647eab92d"
+file = "kubejs/data/cobbleride/rideable_species/generation3/latias.json"
+hash = "e7ea7cd256b57ef0f7e8e463e6ccfcffb914e63d17405401a992e61ec641af46"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/latias.json"
-hash = "7de707d3cbd08d560bdf4a63ce3d93b3c47a4ed35c56b15a3f4a695e68f4fe42"
+file = "kubejs/data/cobbleride/rideable_species/generation3/latios.json"
+hash = "f5b9a9951502ec0e21eb1c125aa3bae240947b34361cf58e32275a6eda5b41a0"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/latios.json"
-hash = "b799d050cc8d6918ed788b8c1eb063670e7b00e1e8de3e9263b23de7b68ddc1c"
+file = "kubejs/data/cobbleride/rideable_species/generation3/metagross.json"
+hash = "31ea1e983ade5b229b17e3ee5b57719f1413dea6ac71d3ca8708eb12ea4cf525"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/mandibuzz.json"
-hash = "44756a386103f76e51bc426c5796451778dcd3198e63bf9a449df2b45f746a34"
+file = "kubejs/data/cobbleride/rideable_species/generation3/milotic.json"
+hash = "88e9797de4afa8591f011c96399714908078b1f3d9eb12ff64c523d21dca45a4"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/moltres.json"
-hash = "bf4d63f18a349cf3a2ca320f4b4fdfa52da14e6aac4a11c6f6ad5a8c6d53808a"
+file = "kubejs/data/cobbleride/rideable_species/generation3/pelipper.json"
+hash = "be9f6bd96997a5b7fb4375a7b491dd7b9882b412423e899c1597e87314a9b13e"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/nihilego.json"
-hash = "948b05ce8618e968ac69a3b233819b4ea5f20d1af850cb2411747cb001f3246e"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/noivern.json"
-hash = "3e88ceb9b7a1b0684e4c3cfdae9a30ed607b971bc6f8c1c80e47ba22a734028f"
-
-[[files]]
-file = "kubejs/data/cobbleride/rideable_species/rayquaza.json"
+file = "kubejs/data/cobbleride/rideable_species/generation3/rayquaza.json"
 hash = "e1629510669c2af77110955adfbe838203da9b4b9c3c831a1b4a3e4fef814782"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/reshiram.json"
+file = "kubejs/data/cobbleride/rideable_species/generation3/salamence.json"
+hash = "64dac8589de6b7019082410c4107dc6566d4b6701acf4d841f3ca22adf319eba"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/sceptile.json"
+hash = "8b4d6d966295c291320b47e8f4fdbe091f521d679ed992096a13affdab47cba4"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/sharpedo.json"
+hash = "9cacc3fafc9e27e2a548d37d7a35e610d6f559c446f546fb35cb967ce676a1fc"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/swampert.json"
+hash = "dea5bbe083cd0aaa00b9bdf75283550342594e03cc8f30b44418d8048b05b04f"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/swellow.json"
+hash = "6d49c5307c952e8bd8d805c337a6c16ed1a67e6005034ae33b308158d9f56e24"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/tropius.json"
+hash = "9e545bb42fa94177d54cc2cdfdc5baf30632dcbac7907d1adbd2ecd0a296f569"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/wailmer.json"
+hash = "50da57a21171bb600e8679ee055fe8cbe67a8cbf248ba562e4ac76707e8591f3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation3/wailord.json"
+hash = "b8128ba7f8a7c06e1734873774e4957eda5421a5431dca7cc513f859de296a15"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/arceus.json"
+hash = "6e483afd1d1c1a06c7e487694a59c1ace11a1a31663c676a7e231568a8b033ee"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/bastiodon.json"
+hash = "f0f06950a6383761a08f52e1f105855bb8957d991c10c6deff9c40b42b8ff436"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/bidoof.json"
+hash = "ede2e8051e3d15bd5c417f430127fc908f45a0eec638e3f49ff32019a94d269d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/cresselia.json"
+hash = "1305a5aa969a22b5e51f2f034296c75e8c0b8809d59eebb372cd0d7f711be778"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/drapion.json"
+hash = "7b16c4e0708f4ab8ac436912af5f6ddbf005f460d4e0c56c392df12cf5034b7c"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/empoleon.json"
+hash = "6151d99d8231be4bf98f6da40e10cb4b752bc98de10b0f28dd6fda6421abc01d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/garchomp.json"
+hash = "3a1f72975cd44d61b351a0b0abadefb52e5f7075cd153da90d1900786a8b634d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/honchkrow.json"
+hash = "2b5cf2a1f711fd91ae4cd41042551c462bb61705e8a7680acc2ca793208e6084"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/infernape.json"
+hash = "ca429ef3e3f73d6a11cd050df288cc9038fce25b5960f057011d7c8baf0386e6"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/luxray.json"
+hash = "ced05c5bd36566bb98a2088e5fb060c9fabb231138963192deb1a0c9fce24d42"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/magnezone.json"
+hash = "a2c46f5235e6911ee7e91effb65b2d51916b58e5116dc5fe32bc3c1a8e7b1bb0"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/rampardos.json"
+hash = "a6586781de9bfbd30d1e0b1b29d2d6c6fc2ea3966d4bdeceb66ae8b0e35968ff"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/staraptor.json"
+hash = "acc5c28731f3de6b3b29351c49af7a882140a88b53629a09bcfb9195b438bcdb"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation4/torterra.json"
+hash = "7d4725b13073580787dec307d984d1456a32993f0e3b86d1f1008c35e49232ce"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/archeops.json"
+hash = "3ee38aa16079fdf459da266ad80afdcd6ee7460fcdc2bf1507a68632b4e505bb"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/bouffalant.json"
+hash = "c427bc84b4f95a9263961badce57ab75ac7c15f186a9ff29a552ecf59156f31c"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/carracosta.json"
+hash = "508571135f8f2d2eaef4595e653cec07d4382f1d699b0702db0f2d1d14e88bf5"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/crustle.json"
+hash = "8b2f6ab5ba46c9a700a8e0ec6157ed5d62cdaa6a1ac85e52651aa3e5d78e590c"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/darmanitan.json"
+hash = "50d2ac7e48d23da109b8d2237ecb9c887bc9d136ec97cf5f6ee8a16c6d65508b"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/emboar.json"
+hash = "630e162c2de9d7a7b46a43c6e8c9c81547bc90293ff992d5b989410f56bd0f63"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/galvantula.json"
+hash = "94b350ac8528af52cd0b755b8cf31c6616af2b2caa83be188a575775f4f6d186"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/golurk.json"
+hash = "22ebb150b35e545f2b8386ef31de342af51a507445abd1352ed79923fa3a0fa0"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/haxorus.json"
+hash = "5f2723c2da03758c245c069e115db93c26cc99c3eca1b9f3c4af0e6ff08b21b7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/hydreigon.json"
+hash = "b8afe6b5891b0ffcd3e13efd8517035591d5208c8a2ffc05de3f15861ef46af5"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/kyurem.json"
+hash = "010b0ad37b6c345b03c58ed48f98a4db130840472236b392dad9bb1647eab92d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/mandibuzz.json"
+hash = "04735533c56e6d042c703ad6c4e077d49b977e8e04cae4bfbc97457e1fddaffc"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/reshiram.json"
 hash = "3ec7fe5f5e748a8ecbe65341d9d76539ccb3bb17510b32cd6fa4c53812bc0bf7"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/spectrier.json"
-hash = "7469ab28a4a002b0d69fcc6013b49651c505f981619fe8a366209c4804f3382d"
+file = "kubejs/data/cobbleride/rideable_species/generation5/samurott.json"
+hash = "04c9b62d8671e31189fe30f4f78413d110bf130ec59f1852893cf4596441d6fa"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/tauros.json"
-hash = "f95e5fb386f9d5e725c83d2fe88d9dec214a0fa6066ad461214491b03ec7fe36"
+file = "kubejs/data/cobbleride/rideable_species/generation5/sawsbuck.json"
+hash = "a44b9bb2cfe69336d54d9e7a9184480f7e6fede95b1bfa4375729fcd104221a8"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/toedscruel.json"
-hash = "ff2d6a00e90810cb41188becbf6090d12db79469976832bdaf5c15dd10b5619c"
+file = "kubejs/data/cobbleride/rideable_species/generation5/scolipede.json"
+hash = "6ae7503deb52ba642a1f59ecc624654a5e62df7ae48c588a2d3871525b76f7df"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/volcanion.json"
+file = "kubejs/data/cobbleride/rideable_species/generation5/serperior.json"
+hash = "a36802bc2fb40b740de13c1419f4f89cfb76991c2afb63256c3eabcd276b5f3f"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/stoutland.json"
+hash = "63af7d628bef1ca6cf12861fc7eaf135e6b5911f5dac3073f00beffd087e90cb"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/unfezant.json"
+hash = "b8326ff5aeac6c9d0147a2d1b7069b971d7dfa5aa282bda4b4e9fce11d7da65d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/volcarona.json"
+hash = "91b4f0c2b1f69490103347ee840d0ed15e0a445a652bb7260c339e7e3448ce8a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation5/zekrom.json"
+hash = "a66130fa5d68a8107c55555547b04f20699665664b27ee00ae63d12dca1e9a43"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/aurorus.json"
+hash = "3df19e052acf311c70e868023a9b2dd6baeee0a3ee0b2b36a3bfd8b7d32a9949"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/avalugg.json"
+hash = "0fa1b9a1857224b42c30bdd2f010bd45a8b763eb169bf5999ade3ce35f4bbffb"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/chesnaught.json"
+hash = "4dd856b6da971cc50dc3234ba3a28164dcef0726d2f2ea4ab2492676b753fedd"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/delphox.json"
+hash = "b3e27fac0608603cbba3db24202ecf555a4f60863342173d2c5f084bd54e375a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/dragalge.json"
+hash = "1fc0691f24a7d1c1f8fbfb2d6aedf06c7953a941a8b934e5ccc6494008d3ba5b"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/gogoat.json"
+hash = "efbc89d72e8bdec65b75651024828dce687ebeea1abbe54345abe668ed041da9"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/goodra.json"
+hash = "e0479d6f0bc38cebb744bc2c98407c6ec7af0494ae06594e0e31cc4755e02066"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/greninja.json"
+hash = "4bbcc00a4b767b075c60473f9dd31f43b8725fd5a1689ffce4c97ebc29b1ee0a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/noivern.json"
+hash = "dcba9ee3d6c6be54447b7e1aa6ffac0e1629edf7a38af468652d91e08975cd9e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/talonflame.json"
+hash = "c6b641d640569985fb75011d25f146e5c1745952dbfea7f9840ceb1042f4b22e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/tyrantrum.json"
+hash = "79615e5167fad8a730b13595efdb79c09af451d25db425c3f9f9d777230a94af"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation6/volcanion.json"
 hash = "aca77c6353556d47505a2f615dae25b2817d514d446f34851a589291043421d4"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/xerneas.json"
+file = "kubejs/data/cobbleride/rideable_species/generation6/xerneas.json"
 hash = "c5784dcc9ac6c4da2061846ed6358335654594958bdb9bfea7573dcc72ca273d"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/zapdos.json"
-hash = "553dc95f5a1ff495f549207e9916677e7d18fe77a960f6881b1f1405c5cfdd3c"
+file = "kubejs/data/cobbleride/rideable_species/generation7/araquanid.json"
+hash = "cec32d8728e05f644614ec2276fe4c505365e1c0200678adc4bed1357ae7b977"
 
 [[files]]
-file = "kubejs/data/cobbleride/rideable_species/zekrom.json"
-hash = "a66130fa5d68a8107c55555547b04f20699665664b27ee00ae63d12dca1e9a43"
+file = "kubejs/data/cobbleride/rideable_species/generation7/bewear.json"
+hash = "e093a38aa998c4d92c63a19a0494cf19629b68b801d27d59a35ddc1778d49e46"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/decidueye.json"
+hash = "11445ebcf1b60ce85133f9fb471bff627998266b5f74bcf156d90db1e52138c4"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/golisopod.json"
+hash = "87cebe92ac7ea82a4deed087f2f8fb79afac172def1d832399da992bdc1ae6c9"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/guzzlord.json"
+hash = "4338ea9bc7a4e6ff7780621efd60df98f5e758f273c83c6be174057f47de8f14"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/incineroar.json"
+hash = "0ac8cd13133ce7a57ff949a1ae25783473cec1129090b2db3ca8992e9cc02aa3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/kommoo.json"
+hash = "15ac00629556a57b061371d77a1804f17b947723a049fc2646dac06841cca2b9"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/mudsdale.json"
+hash = "db443a112910e38da43912dd18b7090253673644199380df377819451f580384"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/naganadel.json"
+hash = "36ed677ccc23a2b8c7581392ef8de453683b13d2fe3f12959619f24483c58862"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/nihilego.json"
+hash = "948b05ce8618e968ac69a3b233819b4ea5f20d1af850cb2411747cb001f3246e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/primarina.json"
+hash = "34fcc2f21711b554c9cc6f6a11900743b4e6b7dde7c3dd868083832e1b0b900d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation7/toucannon.json"
+hash = "c762e8c2d4919c250125b2a1b55ae5de35a5191843cc5dfe62661977ac8a77af"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/arctovish.json"
+hash = "67f55f808d12202da94244a4789c32fc2c295be3295aafcae8c3d9520c3e959e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/arctozolt.json"
+hash = "67cf006bc6e0887b3590919ced765b68633dbdee8fc379b8d6f69b450cc837b5"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/basculegion.json"
+hash = "d6feaf7fd16537f8c77696eb631c1876323c7c7b26acfc4f003d4ecb995d65b2"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/cinderace.json"
+hash = "2f9e4e8441ab5f52cdf6eba7eb5e458852d89f51318ead5843323929df9019f3"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/corviknight.json"
+hash = "a975bcf39f23d5d1b21fa8e436e36882a849d3a32c5857c8ca54860555b7eb2e"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/dracovish.json"
+hash = "2244b8f75d132d21cd654391a969ce305a8b81f88cf927e8e5a46e389bd85fee"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/dracozolt.json"
+hash = "ced34844a4065c8f63c986fb23d63b5728ac39ae6041a10d11aa6c5e5b4fc12c"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/dragapult.json"
+hash = "d629f619cbfe88d8dcdd699f815db0905aee69fbf0eb215e53f64897d6be4a9a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/dubwool.json"
+hash = "248834fabd932691d43e3c8d2d017edacda57091b7cf5998e2dd2d1196a42e81"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/eternatus.json"
+hash = "666819aff3616a715bc2f56c7113417ea5c12e220402a5e5e3ffaee1f6633076"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/glastrier.json"
+hash = "044538f358a91871551ab6948aed86c7c9de00b71b2a4469411f30027c98e8e7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/grimmsnarl.json"
+hash = "0969297d418eaf8c2fdd7faea3daba801871e1c3c85bb7e83a2401c2baaa07e9"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/inteleon.json"
+hash = "51c9f458d468859a12b0d6a5acc9f898f684ed9e5286e897d0cb601a1fa36772"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/obstagoon.json"
+hash = "1e07632fc8c1914205608241b57735ddc476b62ceac2626b5cbc524a50870676"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/rillaboom.json"
+hash = "21509d435cfc58175235286d7906ff52f96a19610cf48cca38ac3e1316a5bef7"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/sneasler.json"
+hash = "991ef31d95603691ecb69bc019c74403913fe6ba84517f377e8b140c372ae1cd"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/spectrier.json"
+hash = "7469ab28a4a002b0d69fcc6013b49651c505f981619fe8a366209c4804f3382d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/ursaluna.json"
+hash = "9a2af9653ee06dd2dfb0e90526f7da1d7d5e9fd1d643cd2b6c11995094be81e4"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/wyrdeer.json"
+hash = "53d5eb9895b6e5bd75b853d4d72957b652a92145f8ac6e5c1897e7dfeed9b300"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/cetitan.json"
+hash = "1c11268e73c7ce1e1e732e9014a96f5ae5d45f2783ceacc9ef189113c0afb643"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/cyclizar.json"
+hash = "3511f532ca83a7644a1389901eea6ff78aadf59ea00beb357676b1c36ae32f96"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/dondozo.json"
+hash = "668524b61f33865a6f4b3dc52789b4e9b393439e8a9695fcd3c1cec1489060e1"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/espathra.json"
+hash = "4f30d3e9638f3a18f0045efbb20ff3fd6062169bfc35f046444e83b3231075da"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/farigiraf.json"
+hash = "79a07b8a13f7a2856d1c8636f6445936f5f7a0c7421345f2ef74f4d19c536dfb"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/ironleaves.json"
+hash = "c246fe548b7cec36dbce98c27e4c65620661bb89c4e9050ccaef9e1f00ac0ea1"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/kilowattrel.json"
+hash = "eaf5fb100da4f62a00136cf1f39b6659f2b515b7dda4d0836ff0c4ca605c5c80"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/mabosstiff.json"
+hash = "e522148f23f15a75c83ccdef03af2b920a2856e7d9248d377d825baf5ba14f1d"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/meowscarada.json"
+hash = "08bcca63092f406e6556481aba4b6f2f9da9b734b0767bab7ed0a2590f6ed374"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/quaquaval.json"
+hash = "5c264b08b71d5fdcff1354d8ca7f7c7eb4bada44b5306bfd48cc1a496baa11fa"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/revavroom.json"
+hash = "850b4fdd5ff035e0641c651c2ef097c35ebdfb696bebc2167d27c2f79dc63681"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/skeledirge.json"
+hash = "5dc99662595f3e15ccdd42eb8fa163ad2554de4c4a30cd295d4e8d2dc873edfc"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/toedscruel.json"
+hash = "77df0d06661ba4c00a55603b0f2bc2533fb1732e65aca5871414c42178b5014a"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/veluza.json"
+hash = "536c78a1a50b3efe0d4286d49d2de5e438702b4b45ecb1733996daac8fe8fd81"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation9/walkingwake.json"
+hash = "6318b3e0624237bcd391a4925e043047dbbc16deedad14676f672595885c618e"
+
+[[files]]
+file = "kubejs/data/cobbleride/tags/item/no_mount_battle_items.json"
+hash = "5c1425f9b941d3f880423f5d487304211ecc60c6e865c9abf66e9d39590a738a"
+
+[[files]]
+file = "kubejs/data/cobbleride/tags/item/no_mount_items.json"
+hash = "5e0248240ff840feb4c25f2691fb6805c50736200fe79bd73d2ff7eddf699af1"
 
 [[files]]
 file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
@@ -5711,6 +6299,22 @@ hash = "2b662566af8e2479dbfa96dc8bff6d0ac5cace071c3a130c20effdf82b413a57"
 [[files]]
 file = "kubejs/data/lightmanscurrency/recipe/money_mending.json"
 hash = "4abf711ec248eb590f61c74c0515edf39e189b69ed330d1fbb3283e3bf8f6cbf"
+
+[[files]]
+file = "kubejs/data/mega_showdown/tags/item/form_change_items.json"
+hash = "8894e971c924490992207599c843f3d2aa42f75d9e06ed14db5034ec3d93fcd6"
+
+[[files]]
+file = "kubejs/data/mega_showdown/tags/item/oricorio_form_items.json"
+hash = "d792e50f6fbab04ec26f2babc1b664152d38e4f46b0d39f3fc70159f9c680168"
+
+[[files]]
+file = "kubejs/data/mega_showdown/tags/item/rotom_form_items.json"
+hash = "ca8180d05354259f4e0e67ad2f9c91a4b0586044672dc758ed0ef4e3155f9543"
+
+[[files]]
+file = "kubejs/data/mega_showdown/tags/item/tera_shards.json"
+hash = "8483ef1fa6b889c4a1548d7abc46819f560081c3b35d908a4e2a2eb741df8032"
 
 [[files]]
 file = "kubejs/data/minecolonies/recipe/raider_bane.json"
@@ -6044,7 +6648,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "8213d19c122bac391b34948da56497c8cae8ce536217e4593306e04e07b78fce"
+hash = "59d8e6469877bf2ff9faf22f4ad02f8344dc3ea95624e37c599dd2c20cc67728"
 metafile = true
 
 [[files]]
@@ -6189,7 +6793,7 @@ metafile = true
 
 [[files]]
 file = "mods/byzantine-styles-pack-for-minecolonies.pw.toml"
-hash = "643dc9d067486908bcaae3cd97b0690c71f6b7ce9b05d1613071e8a40984831e"
+hash = "346b93ea37f38840009677ac255810d688e1e322b3de264e66142ce74d55ee26"
 metafile = true
 
 [[files]]
@@ -6344,7 +6948,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "5d23a1effd460388e6da8978a17ee24c65884b88ee4880b53c5d7a460e2fb39f"
+hash = "890e8ec87eb5d76ba92cd343e59500eaa087db94302e1542c1ef19cb722021b2"
 metafile = true
 
 [[files]]
@@ -6509,7 +7113,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "5affec8c0e9310624642cb3c88d8757bec563c31bb6d4699b33210c51da8a6ed"
+hash = "7b76fc6918dcfdee452c152873c039a7a9f61ecacec763f152ce860edf841a4d"
 metafile = true
 
 [[files]]
@@ -7314,7 +7918,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightmans-currency.pw.toml"
-hash = "a54e1f82203e7d24df34e038f5b62d483d31820ef2bee319264e076d440988e0"
+hash = "7a30abcda18be1711a58ab3d3f75d3289f21dec10a728a142e93552a0ca1cb63"
 metafile = true
 
 [[files]]
@@ -7454,7 +8058,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-roofs.pw.toml"
-hash = "b51167974d5a426b624cebc11ef3120b0436f2cbf8b4f84a01be8a45bfe1117e"
+hash = "8b0e9d3c66f2a5276a3e1eaaab073f4e41f8d352c6d282e724129c23f0940bfc"
 metafile = true
 
 [[files]]
@@ -7804,7 +8408,7 @@ metafile = true
 
 [[files]]
 file = "mods/puffish-skills.pw.toml"
-hash = "69cb6d762090f65b8d487e83579765de87ba77e763391c8d3518d4eed511f40c"
+hash = "994046c836f803cdd6ddb269b955c74e9d7660f8be98bb4dd87dc426cee805dc"
 metafile = true
 
 [[files]]
@@ -7819,7 +8423,7 @@ metafile = true
 
 [[files]]
 file = "mods/radical-cobblemon-trainers-api.pw.toml"
-hash = "58c45a703a58f6a177599edd6e5165b27f91c8da7eaa1bfef60db94d331d8ed2"
+hash = "c570598a7f579255e5e1b2b90a381d0198ba6aca43e08db9102aa414128874b7"
 metafile = true
 
 [[files]]
@@ -7844,7 +8448,7 @@ metafile = true
 
 [[files]]
 file = "mods/rctmod.pw.toml"
-hash = "350e2e0fca728518ead37691ef0a785bee93a1e08b1b8d3e5449813551633d14"
+hash = "aa758ae489bc3749580962244b65932c3a2965ac595f1f8c8cce79cd17dffa95"
 metafile = true
 
 [[files]]
