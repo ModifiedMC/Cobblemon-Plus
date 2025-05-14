@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "complementary-reimagined.pw.toml"
+hash = "77648e26296071f790bea303b2b2c171b64681385e5b3bacada7d9f75dd54297"
+metafile = true
+
+[[files]]
+file = "complementary-unbound.pw.toml"
+hash = "0ecc8df3b8cc35aaae4ea7757417a8050e99657e683e7b7e05410aeedfc28d0b"
+metafile = true
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
@@ -6305,6 +6315,11 @@ file = "kubejs/startup_scripts/money.js"
 hash = "24dba5c39211bdc5b786bb5c6507ded6d0589b08de4f956e86e1ddffaa4d59b6"
 
 [[files]]
+file = "miniature-shader.pw.toml"
+hash = "9f77874d3fb783385e413cb806437667b79293700abf4156b98d8675b7614ce2"
+metafile = true
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
@@ -8960,4 +8975,9 @@ metafile = true
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "9897f712dac548e028f00f62c1cabb7671a0a2dbe6063baa65f0a6895cdb11f7"
+metafile = true
+
+[[files]]
+file = "solas-shader.pw.toml"
+hash = "839c0c8a311a07ef589583b5678907cf57220d8df26860be804c86bf80c1aac9"
 metafile = true
