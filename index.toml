@@ -2714,7 +2714,7 @@ hash = "75e1fe601c0e2d39b27bda8475b5403c4595240f010d0a17fdfd80e2c345cc29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "7d15c5525c620ae84353da5cb4b1807bdca8a8187e1cac62cc88b014e683c89d"
+hash = "327c0d42c0971500e147280c6d55802d810151fa1175e08be8209c72c72d1c23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/held_items.snbt"
@@ -2734,7 +2734,7 @@ hash = "6b9b23c90249686fc1ed69d806f5a94243b2a81903ad705aa3fe8f04f061e718"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modified_exchange.snbt"
-hash = "fb1a3b98c4d51751b8353b799a11984567cbeea9e26d42c48edc11888fb2b989"
+hash = "669f0eca40a660f1921f40af5f532ac1cada722db91b5ecc7b0c6bb32583b53c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/more_then_meets_the_ball.snbt"
@@ -2798,7 +2798,7 @@ hash = "5c6661881b58d08139f476dc810796c5bd80324a388492942ce47404240870cc"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "426d2f41a0475344e5d6cf4a657a790b5d6bd61706b7daa50e44e7ccfc1ae70f"
+hash = "60fb88b077042fb1888109fed14d62530c55f1fedb8fae6007bb02c221118fc6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/018B7DD83BAE2B01.snbt"
@@ -3438,7 +3438,7 @@ hash = "f25e0012be339dc6020bc892faea1c9765466a16fd1bb4174c00d885270a9241"
 
 [[files]]
 file = "config/mega_showdown-common.toml"
-hash = "335cefc57c6956544355499ff6d905904bc2e75ce294d37c5c619e1a2184b1a3"
+hash = "5cfaa9ee04881a04e1b74cb5466f3c40f4b954a78f5415a56588bdc98c5fbc4c"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -3474,7 +3474,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "ba94605420a6eafa3a665490ec818b37fadb77289482be318520c35fa1c800a4"
+hash = "9ece250d0382e1c86de6cbfcd9755306ca60ca710c8f17d46c56b973c467a1d4"
 
 [[files]]
 file = "config/modernworldcreation/config.txt"
@@ -4649,8 +4649,44 @@ file = "kubejs/assets/modified/lang/en_us.json"
 hash = "7c99fd6436c14da6f56798a328dbbb8efd90b8e5c2ce9346eb8d4b131b4d3b42"
 
 [[files]]
+file = "kubejs/assets/modified/models/block/mtoken_block.json"
+hash = "1fe6bdf0f66d55acea1ee4bab3ddf5970bc075a44ba71486d7a187fbf8ec04b9"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/mtoken_pile.json"
+hash = "0cfbb5e6060ccf30a195036bcd2d61582692910a21fb0599cb9128d7950a5806"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/pokedollar_block.json"
+hash = "cc60e796aa7dc5a9b6d98ff4fde794b4f9c905e5d16242d5b8c5abdb05e64da2"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/pokedollar_pile.json"
+hash = "94917ae95f02229999a4ceaa04d3eb4903647bf0d3f1fcfc2f8832e2b91b7c1e"
+
+[[files]]
+file = "kubejs/assets/modified/models/item/mtoken.json"
+hash = "9efc34477926dd261b0c11e8865bfd6f08830fd3167a49d4e2694995ff5b2fdd"
+
+[[files]]
 file = "kubejs/assets/modified/models/item/pokedollar.json"
 hash = "7abe853232e4457e5c1b722d58f51ba1cf9cfeb4e1835ad23d6ddfd2e63e4ad5"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/mtoken_block.png"
+hash = "84872b681c93335460ed113a3c9459f35ce12be1edddfd9fb0fa38b77c878a35"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/mtoken_pile.png"
+hash = "84872b681c93335460ed113a3c9459f35ce12be1edddfd9fb0fa38b77c878a35"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/pokedollar_block.png"
+hash = "5bec1257a135b5f9e52f34229b2f55ddc122be169ba5bf121ed69f0f4d3a04a6"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/pokedollar_pile.png"
+hash = "5bec1257a135b5f9e52f34229b2f55ddc122be169ba5bf121ed69f0f4d3a04a6"
 
 [[files]]
 file = "kubejs/assets/modified/textures/ftbquests/backgrounds/bg_crag.png"
@@ -5401,12 +5437,20 @@ file = "kubejs/assets/modified/textures/ftbquests/type_icons/water_icon.png"
 hash = "867a2d5efca049ee84be4b811cb97ebb2bdf3bb588ccb6c0319c1705670b8dac"
 
 [[files]]
+file = "kubejs/assets/modified/textures/item/mtoken.png"
+hash = "58f756bca6e657f82388a217559bc4c21e67f603ab154ca3464b0fd233864541"
+
+[[files]]
 file = "kubejs/assets/modified/textures/item/pokedollar.png"
 hash = "9d773a5af16cd7ca379e166ae7ad9a8b27b53fcc90c6e239e6ddeddcefa11be0"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "bf3c8597df0521316f23f9412e02e076f925275dab3af1146a54fe008dfedcb1"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -5447,86 +5491,6 @@ hash = "9097ca1c7f63a46676e309c2f47caa8eb7e10ba49b05820ce35e45b8a6eb27b0"
 [[files]]
 file = "kubejs/data/alltheores/worldgen/placed_feature/ore_sapphire_placed.json"
 hash = "045dc7beb2b3aed5eef961a1ec88f3f393165e41bc8c244d85ee3f6127236b62"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/berserkers_fury_1.json"
-hash = "088438cb2c4dbb707c8e690daa71b22cc887fc757d26f89c13ba3f2acd7e64bf"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/boon_earth.json"
-hash = "ef307988ebf58efa3ad4a4540a25664a9005589413358e0c8a61cc866bb54a34"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/chainsaw.json"
-hash = "c03b9a4ab0f3ce39197a60d09b935282efd4c5de0617e029b40fc9a06fc08f9f"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/chromatic_aberration.json"
-hash = "023800f12693a30de37830f78115c8ecb07808e51ada5eee1b4e7c496859de24"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/crescendo_of_bolts.json"
-hash = "a23e5027d671e984bc348968ee6e45dc27be3675d2cef47aecf0f1711ba3421d"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/endless_quiver.json"
-hash = "9097b4ece58cb4d2a55bdeec9f48dd0c591a7f0e17a5148d7da1d890ef43d5a6"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/growth_serum.json"
-hash = "532efc0a44ad199365c8097228e7fb6e56c943df124483682b8418ae74718dc2"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/icy_thorns.json"
-hash = "356f2c5882b2d35e6c17c6d82dbf86608c88bd7a4015614c19cfaac6909da833"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/knowledge_of_the_ages.json"
-hash = "033326342d277bb5632d1c8273b4958cad5c80a9e0717b1346087bda787ae06f"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/life_mending.json"
-hash = "45bc07417fe6315ee0205eebb8fb04a1d9b2e9544cbc647c30c261052118c7ee"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/miners_fervor.json"
-hash = "570352d432023de1b7deebf781da73bad6fd070efbd4b7b890c169766d0f75d7"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/natures_blessing.json"
-hash = "9d18d25a3018e80230de0313d56714006fd35384fef42efe353f80d1289b8226"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/rebounding.json"
-hash = "75de9949213519c5919c2da100e32452560d7c9341d4f810de96ed2b4ebd3839"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/reflective_defences.json"
-hash = "6283143b63caca51d5ea820323c3718f77276d40928cf59fc15e2736102dc8a4"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/scavenger.json"
-hash = "0253c379d65e2d3d29d04abd87defa95832ee68d8fce72c314370cffa831a7b1"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/shield_bash.json"
-hash = "ddeb21a14b551e1673a35f30529bad9e48f8326fecd76810fa62c80ed5e03b63"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/stable_footing.json"
-hash = "bb5133fd111ea813801ba43d727315c973f79848f26956054b81bb171097bd66"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/temptation.json"
-hash = "f880f917560ccd0394c1d4e958c2c55a01bf8af7f9fb0b3130090eeb943bd65d"
-
-[[files]]
-file = "kubejs/data/apothic_enchanting/recipe/worker_exploitation.json"
-hash = "b277a45fd204b8603be95915c42756a612b0602fa5fb4fc5111082c54c51148b"
-
-[[files]]
-file = "kubejs/data/cardiac/recipe/lifesteal.json"
-hash = "568879e654a596c3efe2864c14ef0ff68950cfacd6916e71744601a548ecbcbd"
 
 [[files]]
 file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/decidueye-combined.json"
@@ -5614,7 +5578,7 @@ hash = "703a6379a2633e7d37cdf8cca65a5ff185a2908a5c0e62ef6ad0e21815c6d84e"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation1/gengar.json"
-hash = "60fd77ec3f2868a6fd9891ee7b905c465d95492eb59b918c4eb4b051281a41e3"
+hash = "56a9a4bee644b7a45b31d2e59f3435f40091c43e363a153fd3b459359c6350ce"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation1/golbat.json"
@@ -5634,7 +5598,7 @@ hash = "8a656cc1cbe230f9c5a627946e49be182b5ce3f32633aab49a2bc0504b1497ad"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation1/kangaskhan.json"
-hash = "57022ee5e7ff576b3ced901a901b56d157567dee0503ae68f534ffdfd4807c99"
+hash = "2a9cc12f1b6fdd4de08571a1ae7fb79af210657dec47260f379264e021ce02a9"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation1/kingler.json"
@@ -5726,7 +5690,7 @@ hash = "ba3d66812d01794175aaf4fa6adfb44bbed02364e9007a40f88721bbb7f91f83"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation2/crobat.json"
-hash = "954a743a627e52cf83ac5d88d05ea85ea5d31116f6ee0d397c5c8327b06fd17d"
+hash = "503209f7094db38e43e16dc85b3d1ab64ebfd0f8c080b4b7c193dc31996a8424"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation2/feraligatr.json"
@@ -5810,11 +5774,11 @@ hash = "5d04af198f9f9aeae15d5bb36ade76f4f79a3bed2db1dbd6fe05cf4318ac2079"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation3/latias.json"
-hash = "e7ea7cd256b57ef0f7e8e463e6ccfcffb914e63d17405401a992e61ec641af46"
+hash = "3d45e62f1243ba00a767d5444140d88dbbbd9c836919f440735b95f12b47d544"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation3/latios.json"
-hash = "f5b9a9951502ec0e21eb1c125aa3bae240947b34361cf58e32275a6eda5b41a0"
+hash = "dc2f9bc07965679af26a28abdcb4111011db6a9c681170d8491c67da64c25d24"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation3/metagross.json"
@@ -5874,7 +5838,7 @@ hash = "f0f06950a6383761a08f52e1f105855bb8957d991c10c6deff9c40b42b8ff436"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation4/bidoof.json"
-hash = "ede2e8051e3d15bd5c417f430127fc908f45a0eec638e3f49ff32019a94d269d"
+hash = "d10692b211abb8dbf417cfda0dbb8a424d8fffb147bb8d1b2e2bb288db7eb9f8"
 
 [[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation4/cresselia.json"
@@ -6181,6 +6145,14 @@ file = "kubejs/data/cobbleride/rideable_species/generation8/wyrdeer.json"
 hash = "53d5eb9895b6e5bd75b853d4d72957b652a92145f8ac6e5c1897e7dfeed9b300"
 
 [[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/zacian.json"
+hash = "886883b81a1e57362f663b049cd8b51c3b803edda6c478e6eb8299e3a02b5af6"
+
+[[files]]
+file = "kubejs/data/cobbleride/rideable_species/generation8/zamazenta.json"
+hash = "ce350b4533c7b906e86ee8bea2ddb0c70227ccdd2c4d7f24914ad41a84db4e2b"
+
+[[files]]
 file = "kubejs/data/cobbleride/rideable_species/generation9/cetitan.json"
 hash = "1c11268e73c7ce1e1e732e9014a96f5ae5d45f2783ceacc9ef189113c0afb643"
 
@@ -6241,12 +6213,20 @@ file = "kubejs/data/cobbleride/rideable_species/generation9/walkingwake.json"
 hash = "6318b3e0624237bcd391a4925e043047dbbc16deedad14676f672595885c618e"
 
 [[files]]
+file = "kubejs/data/cobbleride/species_additions/latias.json"
+hash = "7e7d7438d4c4bfd1eaffc43689350f435ad2b0f34210b4c87ce855c300c049d8"
+
+[[files]]
+file = "kubejs/data/cobbleride/species_additions/latios.json"
+hash = "65a7675c0dd979b5517e05ad8aecfd76131e0b04170265861ded6c3f1f2dbaf6"
+
+[[files]]
 file = "kubejs/data/cobbleride/tags/item/no_mount_battle_items.json"
 hash = "5c1425f9b941d3f880423f5d487304211ecc60c6e865c9abf66e9d39590a738a"
 
 [[files]]
 file = "kubejs/data/cobbleride/tags/item/no_mount_items.json"
-hash = "5e0248240ff840feb4c25f2691fb6805c50736200fe79bd73d2ff7eddf699af1"
+hash = "f8fe2859bd1ad76ce765ee1038832b13119d9ad5deff832980dd8fba799475f4"
 
 [[files]]
 file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
@@ -6269,38 +6249,6 @@ file = "kubejs/data/dungeon/worldgen/biome/basic.json"
 hash = "b2976481cba8bd8e7c6de3ace070bb90684a0af806a432d090a338182c28b7bd"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/recipe/discharge.json"
-hash = "a0c0dbd6e103f8d4152e505d544c52de10eb0bb13b387213b3ee16ab0836419a"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/recipe/ensnaring.json"
-hash = "ac6954b0bbf9355f06b88dbc3badfeddf1148b8285b4754c82d3763f4d337486"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/recipe/lolths_curse.json"
-hash = "ba7517668b91a044d5fcb58855791b1a75c922234e437fb46f5923589d030fd5"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/recipe/purification.json"
-hash = "dcc107b7373359d2232834cbcaa340bee8aa3cfbc908f0d4771708f746503019"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/recipe/voltaic_shot.json"
-hash = "3d0fb62a6a97c3b5c6f30b69e0d48acabe3353d3734bb67bf44c406a5a4cf871"
-
-[[files]]
-file = "kubejs/data/farmersdelight/recipe/backstabbing_1.json"
-hash = "49cbe918692c4d27a14213b2862b0bd041cd6d50562e7d9d124f1f8ee1adb2e1"
-
-[[files]]
-file = "kubejs/data/lightmanscurrency/recipe/coin_magnet.json"
-hash = "2b662566af8e2479dbfa96dc8bff6d0ac5cace071c3a130c20effdf82b413a57"
-
-[[files]]
-file = "kubejs/data/lightmanscurrency/recipe/money_mending.json"
-hash = "4abf711ec248eb590f61c74c0515edf39e189b69ed330d1fbb3283e3bf8f6cbf"
-
-[[files]]
 file = "kubejs/data/mega_showdown/tags/item/form_change_items.json"
 hash = "8894e971c924490992207599c843f3d2aa42f75d9e06ed14db5034ec3d93fcd6"
 
@@ -6317,90 +6265,6 @@ file = "kubejs/data/mega_showdown/tags/item/tera_shards.json"
 hash = "8483ef1fa6b889c4a1548d7abc46819f560081c3b35d908a4e2a2eb741df8032"
 
 [[files]]
-file = "kubejs/data/minecolonies/recipe/raider_bane.json"
-hash = "93f3d44b85a5cd467cdb9fa7e0b6b954eb3016af61c265d77813d7ee02e34da4"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/breach.json"
-hash = "a4fe252eb24886d6374da989ca51b40a69e8ebb96edb6d9be70376b9a3ff804d"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/channeling.json"
-hash = "d054d7f72f9613b202180a9262b1d87892cce8aeff036057748fa6d4acc4d39b"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/curse_binding.json"
-hash = "2025055a9c6ddd534f77e613393e3ee1c75b676b4c6498df20ecb30328d7df74"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/density.json"
-hash = "1da448780a4bee728667de038098dc0a4f1c5bb9f770ebc8c7a4a70d7ebb1a6b"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/frost_walker.json"
-hash = "9a75012ea88fb6d0d2222133a9c8694750974f2d9b4d48666c5f53b26ce8c2f3"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/impaling.json"
-hash = "ebeeb38eb403f894500c643199d4f92fb77b9280e4d182076c186893ddc2b9d1"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/loyalty.json"
-hash = "234df61beb2ae8429600f13ac9224082c8e1b14894f31de48c8479ddcd629578"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/luck_of_the_sea.json"
-hash = "b77ce917def33f6693f72e32a362f4f2acc8285a39e51c317b648952166dfb03"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/lure.json"
-hash = "79a28ffca3af1257b935be35329657abd2c9f8fcc6af5c6d14142fec7a8abbab"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/mending.json"
-hash = "13eef9d2d07dfab9fcbd1fadd1b0221ceaaf79a31c2878edd1357a9de4f32738"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/riptide.json"
-hash = "d60231884d27e5a9a0404b7c0d89de834822fab00c748478cce50d1c3247dfd4"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/soul_fire_aspect.json"
-hash = "bcd9d4e9cd351b66414b8615b63b447a60dad5170f9071e3afabbe7781629637"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/soul_flame.json"
-hash = "03e6c16682f22b0e1317f314a03d5dc5adb574410fb61f34bbbe661e882284eb"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/soul_speed.json"
-hash = "618694d96a64f2a4d841b6f780428831d5f3047d0277dc576fff8639c210123c"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/swift_sneak.json"
-hash = "7859e66ef6d68b83612804b329758ae7bb64bac4bb420170be2fa0817133e214"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/vanishing_curse.json"
-hash = "f43e942b6bc95bed1655e5c0f29eb5f70e092d0048675355e43d7e780c36d35c"
-
-[[files]]
-file = "kubejs/data/minecraft/recipe/wind_burst.json"
-hash = "bb1fd070ecaa4fba7ab7c385d32b27d31fd03bd13aa0528e2f9f35c4b5e4b9d9"
-
-[[files]]
-file = "kubejs/data/mynethersdelight/recipe/poaching.json"
-hash = "dba19d522b06280a7629d50105de990da677f10ff770fb689bca8104d268c13f"
-
-[[files]]
-file = "kubejs/data/supplementaries/recipe/stasis.json"
-hash = "0b8c3bfb51458efa6c29c8797f5c2ced0cb76f3ef644307c5dd2069fe779bd62"
-
-[[files]]
-file = "kubejs/data/yigd/recipe/death_sight.json"
-hash = "5e0377145cfdf8c9aee0c1ca9ac4cdba234bf7c41ca8d21910993a0a6d2ffc9c"
-
-[[files]]
 file = "kubejs/server_scripts/dungeon_teleport.js"
 hash = "8d395a920d71fee0dc39805ab15893a4b2df9277003bfc211716ce523368aa42"
 
@@ -6413,12 +6277,12 @@ file = "kubejs/server_scripts/login_kit.js"
 hash = "1665543d1bea956080b5186ea1595c1e1951c934be15a4d0d709011cdd6d01ec"
 
 [[files]]
-file = "kubejs/server_scripts/modified_recipes.js"
-hash = "601f0c88c268ac7311899877769decd1aeb30a30f850894b2a0ed7949f8b16b1"
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_removal.js"
-hash = "1002be6aa9722fc5077e4909bc81cee9ff9ad10782f5ff93664ee51029b8e3bf"
+file = "kubejs/server_scripts/modified_recipes.js"
+hash = "601f0c88c268ac7311899877769decd1aeb30a30f850894b2a0ed7949f8b16b1"
 
 [[files]]
 file = "kubejs/startup_scripts/dungeon_blocks.js"
@@ -6433,8 +6297,12 @@ file = "kubejs/startup_scripts/jsconfig.json"
 hash = "19c11c4004d8686b4b26e35026a5f8dd2bcb1f9164b2827d31625e2b02585aa7"
 
 [[files]]
-file = "kubejs/startup_scripts/pokedollar.js"
-hash = "cc3cbb7344e4c10101bbdd7bb3b8b115f571abe53fe609923d092c843f138732"
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/money.js"
+hash = "24dba5c39211bdc5b786bb5c6507ded6d0589b08de4f956e86e1ddffaa4d59b6"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -7888,7 +7756,7 @@ metafile = true
 
 [[files]]
 file = "mods/lc-tech.pw.toml"
-hash = "8fd0fc39389c95b6a1dcd3a56f3eb30e1a0e99d6ad21462f8bac47cbc03c54cb"
+hash = "87428cfd5f61f19218d983afa3a5a1915a9e394244ad73ecca42cf338bb07eae"
 metafile = true
 
 [[files]]
@@ -8818,7 +8686,7 @@ metafile = true
 
 [[files]]
 file = "mods/tbcs.pw.toml"
-hash = "7e645c97ae2eaaffe1b46df5dc7bb3981fef415be909431131382f99646b2cd6"
+hash = "687b4add8473092c139a5ca3e6462dd2045659874941e82c68a8bb2d754a67d3"
 metafile = true
 
 [[files]]

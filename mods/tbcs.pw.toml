@@ -1,13 +1,13 @@
 name = "Cobblemon Trainer Battle Commands"
-filename = "tbcs-neoforge-1.21.1-0.11.0-beta.jar"
+filename = "tbcs-neoforge-1.21.1-0.12.0-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6a134fd59802ec5fe9d5fe608a21f67ad548cc77"
+hash = "bcc9ead5877697aa6b6e7e1f72568f97ff599082"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6415920
+file-id = 6526802
 project-id = 1172731
