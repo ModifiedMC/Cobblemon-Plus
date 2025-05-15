@@ -16,7 +16,7 @@ hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "12f3d173bb1f1ac9f599ac7ad081cac64ac0ede9d98797a48a39c7e6283cf6b4"
+hash = "4e42c7995ac23c2ade8a05d7115b8326ad76f3f8bd7602d8167e767bbe780df1"
 
 [[files]]
 file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
@@ -152,7 +152,7 @@ hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
 file = "config/accessories.json5"
-hash = "89404e6ab1aea9393d990f6b1d7a2f7e7cce4a36c2cca564d74978aff169620f"
+hash = "3abf287bb6c0383137ee6bac3921498000201acc7f2488e0f64aa3f9685670b8"
 
 [[files]]
 file = "config/achiopt-common.toml"
@@ -3376,19 +3376,19 @@ hash = "16e4cac7ed59f8a713aac6f930177bccfd0ffcd2406b49e87507d16bf6a9bd23"
 
 [[files]]
 file = "config/lightmanscurrency-client.txt"
-hash = "cf550ef450142da993f7d7fd6eda7a35e0f107c64d7b84b746602b9d0a19df5e"
+hash = "ce2a9e6ac3c52ce2f7e348bf51c970aa33edc04cf8850011d2497ae9c775a39e"
 
 [[files]]
 file = "config/lightmanscurrency-common.txt"
-hash = "62a979f6ddca0628f14e86c889fe2a8eeb2d69e9e2e9cae02cc4dab4e64a73a5"
+hash = "3e64ddde3b35b01a1496b43a93b8c6c42e83916d4238c109f54a73997469f798"
 
 [[files]]
 file = "config/lightmanscurrency-server.txt"
-hash = "8795f86e0356302b1073efb2d5eabd2de3b358ac48763a0da981dd016bb3aff3"
+hash = "47bc9498ccaff1d4c525883b8d818d2295093c092e3009b95f061bd3e6e6d547"
 
 [[files]]
 file = "config/lightmanscurrency/MasterCoinList.json"
-hash = "ba14dd0b9974c9b7196a8d519962cff36a4663c7e654a3b1341ba40c8ce9d9a1"
+hash = "457c6422592e0eb5602a291c9c0ff463ec6072671a0b8b37bccf97ced18980b8"
 
 [[files]]
 file = "config/lightmanscurrency/PersistentTraders.json"
@@ -4655,8 +4655,32 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/modified/blockstates/coinblock_mtoken.json"
+hash = "1b273edbd6d67ed4e1fa25a6bc21c8e77b03e7f5eb5875c4fdf935fa7ce1b7dc"
+
+[[files]]
+file = "kubejs/assets/modified/blockstates/coinblock_pokedollar.json"
+hash = "f1b5cbdbf9646944b48298fc60237e25321ee6ea52569fbc365148cc76b061e9"
+
+[[files]]
 file = "kubejs/assets/modified/lang/en_us.json"
-hash = "7c99fd6436c14da6f56798a328dbbb8efd90b8e5c2ce9346eb8d4b131b4d3b42"
+hash = "0a41d4e71239e1ef149507256b6f1ea8f477a5ea84ec5c85a49eeee5df9bedc3"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/coinblock_mtoken.json"
+hash = "d3105a35ad49c523ce35b0637bf219a74faf5000eb630f82dce8f84085ca85a0"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/coinblock_pokedollar.json"
+hash = "2bb659c8530016ff6223af30ef77359f30f49f34f6689c64093d72c2f476da02"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/coinpile_mtoken.json"
+hash = "57b4cc2089f4f593a302f3ef2769c032d2d001200ba7c766e69191db5b8558b7"
+
+[[files]]
+file = "kubejs/assets/modified/models/block/coinpile_pokedollar.json"
+hash = "fba66d912255a8b39dc954f636acc53e4ab3b471916c0ff264b332d1cf417eb6"
 
 [[files]]
 file = "kubejs/assets/modified/models/block/mtoken_block.json"
@@ -4675,6 +4699,14 @@ file = "kubejs/assets/modified/models/block/pokedollar_pile.json"
 hash = "94917ae95f02229999a4ceaa04d3eb4903647bf0d3f1fcfc2f8832e2b91b7c1e"
 
 [[files]]
+file = "kubejs/assets/modified/models/item/coinblock_mtoken.json"
+hash = "f360283e8df2a908a11d0fb79808c7b50dc6772ab53fef427e99b80bd956b5fb"
+
+[[files]]
+file = "kubejs/assets/modified/models/item/coinblock_pokedollar.json"
+hash = "d172cf8d0ec2120a1ba801a2519342f54f96e8e4dc65f4e2cfdbf02a6ade3cd9"
+
+[[files]]
 file = "kubejs/assets/modified/models/item/mtoken.json"
 hash = "9efc34477926dd261b0c11e8865bfd6f08830fd3167a49d4e2694995ff5b2fdd"
 
@@ -4683,12 +4715,28 @@ file = "kubejs/assets/modified/models/item/pokedollar.json"
 hash = "7abe853232e4457e5c1b722d58f51ba1cf9cfeb4e1835ad23d6ddfd2e63e4ad5"
 
 [[files]]
+file = "kubejs/assets/modified/textures/block/coinblock_mtoken.png"
+hash = "e2bfe3e9ed02ac7c67caa11b7dbebfec3a8a9a628083ba68f4385ae2bfb3f853"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/coinblock_pokedollar.png"
+hash = "221a3f47edf9a6038d6c6c70bfb962e78c59a59aa77a650a93244444ba6a2337"
+
+[[files]]
 file = "kubejs/assets/modified/textures/block/mtoken_block.png"
 hash = "84872b681c93335460ed113a3c9459f35ce12be1edddfd9fb0fa38b77c878a35"
 
 [[files]]
 file = "kubejs/assets/modified/textures/block/mtoken_pile.png"
 hash = "84872b681c93335460ed113a3c9459f35ce12be1edddfd9fb0fa38b77c878a35"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/particle_mtoken.png"
+hash = "ab52e8976430bbd2bc4e71257e9df20981edb2e64571f46cbc7c8693ec39b5c2"
+
+[[files]]
+file = "kubejs/assets/modified/textures/block/particle_pokedollar.png"
+hash = "a2b3071cecc2301751f8477f00be439ae06204699586a40d9ddd2ed4bc14e5a6"
 
 [[files]]
 file = "kubejs/assets/modified/textures/block/pokedollar_block.png"
@@ -5448,11 +5496,11 @@ hash = "867a2d5efca049ee84be4b811cb97ebb2bdf3bb588ccb6c0319c1705670b8dac"
 
 [[files]]
 file = "kubejs/assets/modified/textures/item/mtoken.png"
-hash = "58f756bca6e657f82388a217559bc4c21e67f603ab154ca3464b0fd233864541"
+hash = "ab39ced16032e7687eea5b1e0b220d908e4c62227d7857f9bf46fa06f749742e"
 
 [[files]]
 file = "kubejs/assets/modified/textures/item/pokedollar.png"
-hash = "9d773a5af16cd7ca379e166ae7ad9a8b27b53fcc90c6e239e6ddeddcefa11be0"
+hash = "b0cd49a511ce1f21970de65cbab17fe6602dc723fd82a4ef2b46c3a87422ba5e"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -6223,6 +6271,10 @@ file = "kubejs/data/cobbleride/rideable_species/generation9/walkingwake.json"
 hash = "6318b3e0624237bcd391a4925e043047dbbc16deedad14676f672595885c618e"
 
 [[files]]
+file = "kubejs/data/cobbleride/species_additions/altaria.json"
+hash = "04acca88b96a240b6a930a8fe1aa13d689cdfedff8eeaa13d56b4052631631d7"
+
+[[files]]
 file = "kubejs/data/cobbleride/species_additions/latias.json"
 hash = "7e7d7438d4c4bfd1eaffc43689350f435ad2b0f34210b4c87ce855c300c049d8"
 
@@ -6311,8 +6363,12 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
-file = "kubejs/startup_scripts/money.js"
-hash = "24dba5c39211bdc5b786bb5c6507ded6d0589b08de4f956e86e1ddffaa4d59b6"
+file = "kubejs/startup_scripts/mtoken.js"
+hash = "e94afaa6158912dfa6ffab1a1acbd8f0fef37ae166ba60019badc5e88316a1d7"
+
+[[files]]
+file = "kubejs/startup_scripts/pokedollar.js"
+hash = "b9958b584c16817dcac9ef0ee101eef024d90627350960080fecc5ce85a18c69"
 
 [[files]]
 file = "miniature-shader.pw.toml"
