@@ -6985,11 +6985,6 @@ hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
-file = "mods/cosmeticarmours.pw.toml"
-hash = "d9cf242b0f110f786bfeb469918a632e4e8471eec3f34a1cb3e217ebbdae1544"
-metafile = true
-
-[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "141bec32c90144fdf64617a3a7c997cabb062b6f6690f21dd70b6a83034d11fd"
 metafile = true
@@ -8827,6 +8822,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "fc78ef9544451ddcd18f7b9da9b438f851e508ad8eeeee8d08e69da8656b74f6"
+metafile = true
+
+[[files]]
+file = "mods/weavers-cosmetics-cosplay.pw.toml"
+hash = "fcfff6a05ef147e6b3d9f35e43b3ee00e36a127993ff172afc413c0e8a2ff298"
 metafile = true
 
 [[files]]

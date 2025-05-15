@@ -1,0 +1,18 @@
+{
+	"target": "cobblemon:altaria",
+
+	"baseScale": 1.2,
+	"hitbox": {
+		"width": 2.25,
+		"height": 2.25,
+		"fixed": false
+	},
+	"behaviour": {
+		"moving": {
+			"canLook": true,
+			"fly": {
+				"canFly": true
+			}
+		}
+	}
+}

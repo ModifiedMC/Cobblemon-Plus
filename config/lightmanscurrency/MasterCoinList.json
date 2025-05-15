@@ -27,12 +27,22 @@
           "plural": {
             "translate": "item.modified.pokedollar.plural"
           }
+        },
+        {
+          "Coin": "modified:mtoken",
+          "exchangeRate": 100,
+          "initial": {
+            "translate": "item.modified.mtoken.initial"
+          },
+          "plural": {
+            "translate": "item.modified.mtoken.plural"
+          }
         }
       ],
       "SideChains": [
         [
           {
-            "Coin": "modified:pokedollar_pile",
+            "Coin": "modified:coinpile_pokedollar",
             "exchangeRate": 9,
             "ParentCoin": "modified:pokedollar",
             "initial": {
@@ -43,13 +53,35 @@
             }
           },
           {
-            "Coin": "modified:pokedollar_block",
+            "Coin": "modified:coinblock_pokedollar",
             "exchangeRate": 4,
             "initial": {
               "translate": "block.modified.coinblock_pokedollar.initial"
             },
             "plural": {
               "translate": "block.modified.coinblock_pokedollar.plural"
+            }
+          }],
+          [
+          {
+            "Coin": "modified:coinpile_mtoken",
+            "exchangeRate": 9,
+            "ParentCoin": "modified:mtoken",
+            "initial": {
+              "translate": "block.modified.coinpile_mtoken.initial"
+            },
+            "plural": {
+              "translate": "block.modified.coinpile_mtoken.plural"
+            }
+          },
+          {
+            "Coin": "modified:coinblock_mtoken",
+            "exchangeRate": 4,
+            "initial": {
+              "translate": "block.modified.coinblock_mtoken.initial"
+            },
+            "plural": {
+              "translate": "block.modified.coinblock_mtoken.plural"
             }
           }
         ]],
@@ -64,21 +96,33 @@
             "icons": [
               {
                 "type": "lightmanscurrency:item",
-                "x": 36,
+                "x": 12,
                 "y": 1,
                 "item": "cobblemon:relic_coin"
               },
               {
                 "type": "lightmanscurrency:small_arrow",
-                "x": 48,
+                "x": 24,
                 "y": 6,
                 "direction": "RIGHT"
               },
-             {
-              "type": "lightmanscurrency:item",
-              "x": 50,
-              "y": 1,
-              "item": "modified:pokedollar"
+              {
+                "type": "lightmanscurrency:item",
+                "x": 26,
+                "y": 1,
+                "item": "modified:pokedollar"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 38,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 40,
+                "y": 1,
+                "item": "modified:mtoken"
               }
             ]
           },
@@ -91,24 +135,140 @@
             "icons": [
               {
                 "type": "lightmanscurrency:item",
-                "x": -4,
+                "x": 12,
                 "y": 1,
-                "item": "modified:pokedollar"
+                "item": "modified:mtoken"
               },
               {
                 "type": "lightmanscurrency:small_arrow",
-                "x": 8,
+                "x": 24,
                 "y": 6,
                 "direction": "RIGHT"
               },
               {
                 "type": "lightmanscurrency:item",
-                "x": 10,
+                "x": 26,
+                "y": 1,
+                "item": "modified:pokedollar"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 38,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 40,
                 "y": 1,
                 "item": "cobblemon:relic_coin"
               }
             ]
+              },
+          {
+            "x": 6,
+            "y": 61,
+            "width": 26,
+            "command": "exchangeDown-modified:pokedollar",
+            "icons": [
+              {
+                "type": "lightmanscurrency:item",
+                "x": -2,
+                "y": 1,
+                "item": "modified:pokedollar"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 10,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 12,
+                "y": 1,
+                "item": "cobblemon:relic_coin"
               }
+            ]
+          },
+          {
+            "x": 6,
+            "y": 88,
+            "width": 26,
+            "command": "exchangeUp-cobblemon:relic_coin",
+            "icons": [
+              {
+                "type": "lightmanscurrency:item",
+                "x": -2,
+                "y": 1,
+                "item": "cobblemon:relic_coin"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 10,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 12,
+                "y": 1,
+                "item": "modified:pokedollar"
+              }
+            ]
+          },
+          {
+            "x": 41,
+            "y": 61,
+            "width": 26,
+            "command": "exchangeDown-modified:mtoken",
+            "icons": [
+              {
+                "type": "lightmanscurrency:item",
+                "x": -2,
+                "y": 1,
+                "item": "modified:mtoken"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 10,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 12,
+                "y": 1,
+                "item": "modified:pokedollar"
+              }
+            ]
+          },
+          {
+            "x": 41,
+            "y": 88,
+            "width": 26,
+            "command": "exchangeUp-modified:pokedollar",
+            "icons": [
+              {
+                "type": "lightmanscurrency:item",
+                "x": -2,
+                "y": 1,
+                "item": "modified:pokedollar"
+              },
+              {
+                "type": "lightmanscurrency:small_arrow",
+                "x": 10,
+                "y": 6,
+                "direction": "RIGHT"
+              },
+              {
+                "type": "lightmanscurrency:item",
+                "x": 12,
+                "y": 1,
+                "item": "modified:mtoken"
+              }
+            ]
+          }
             ]
           }
         }

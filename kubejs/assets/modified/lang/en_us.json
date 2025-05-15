@@ -3,8 +3,14 @@
 "item.modified.pokedollar.plural": "PokéDollars",
 "block.modified.coinpile_pokedollar.initial": "a Pile of PokéDollars",
 "block.modified.coinpile_pokedollar.plural": "Pile of PokéDollars",
-"block.modified.coinblock_pokedollar.initial": "a Block of PokéDollar",
-"block.modified.coinblock_pokedollar.plural": "Block of PokéDollars",
+"block.modified.coinblock_pokedollar.initial": "a Block of PokéDollars",
+"block.modified.coinblock_pokedollar.plural": "Blocks of PokéDollars",
+"item.modified.mtoken.initial": "Master Token",
+"item.modified.mtoken.plural": "Master Tokens",
+"block.modified.coinpile_mtoken.initial": "a Pile of Master Tokens",
+"block.modified.coinpile_mtoken.plural": "Piles of Master Tokens",
+"block.modified.coinblock_mtoken.initial": "a Block of Master Tokens",
+"block.modified.coinblock_mtoken.plural": "Blocks of Master Tokens",
 "item.modified.reliccoin.initial": "Relic Coin",
 "item.modified.reliccoin.plural": "Relic Coins"
 }

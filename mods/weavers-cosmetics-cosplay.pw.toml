@@ -1,0 +1,13 @@
+name = "Weaver's Cosmetics: Cosplay"
+filename = "weavers_cosmetics_cosplay-v1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f1e1b5931a945cafaca51f9b3a8a1fa790989036"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6449555
+project-id = 1248340

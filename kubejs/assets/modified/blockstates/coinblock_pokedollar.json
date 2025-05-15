@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "modified:block/coinblock_pokedollar" },
+    "facing=south": { "model": "modified:block/coinblock_pokedollar", "y": 180 },
+    "facing=west":  { "model": "modified:block/coinblock_pokedollar", "y": 270 },
+    "facing=east":  { "model": "modified:block/coinblock_pokedollar", "y": 90 },
+    "facing=up":    { "model": "modified:block/coinblock_pokedollar", "x": -90 },
+    "facing=down":  { "model": "modified:block/coinblock_pokedollar", "x": 90 }
+  }
+}

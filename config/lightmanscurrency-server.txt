@@ -131,22 +131,22 @@
 		#The amount of item storage added by the Item Capacity Upgrade (Iron)
 		#Range: 1 -> 6400
 		#Default: 192
-		itemCapacity1=128
+		itemCapacity1=192
 		
 		#The amount of item storage added by the Item Capacity Upgrade (Gold)
 		#Range: 2 -> 6400
 		#Default: 384
-		itemCapacity2=600
+		itemCapacity2=384
 		
 		#The amount of item storage added by the Item Capacity Upgrade (Diamond)
 		#Range: 3 -> 6400
 		#Default: 576
-		itemCapacity3=2400
+		itemCapacity3=576
 		
 		#The amount of item storage added by the Item Capacity Upgrade (Netherite)
 		#Range: 4 -> 6400
 		#Default: 1152
-		itemCapacity4=6400
+		itemCapacity4=1152
 		
 	#Interaction Upgrade
 	[upgrades.interaction_upgrade]
@@ -381,8 +381,8 @@
 		
 		#The price per forceload chunk purchased.
 		#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
-		#Default: "coin;100000-modified:pokedollar"
-		forceloadPrice="coin;100000-modified:pokedollar"
+		#Default: "coin;1000-modified:mtoken"
+		forceloadPrice="coin;1010-modified:mtoken,10-modified:pokedollar"
 		
 		#The maximum number of extra forceload chunks allowed to be purchased with this command.
 		#Note: This count includes extra forceload chunks given to the player/team via normal FTB Chunks methods as well (if applicable).
