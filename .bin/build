@@ -24,6 +24,43 @@ function packwiz-path() {
     fi
 }
 
+function download-file() {
+    local file=$1
+
+    if [[ ! -f "$BASE_DIR/download/$file" ]] && [[ ! -z "${MOD_BASE_URL+x}" ]]; then
+        url="$MOD_BASE_URL/$file"
+        status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
+        if [[ "$status" == "200" ]]; then
+            curl -sL "$MOD_BASE_URL/$file" -o "$BASE_DIR/download/$file" 2>/dev/null 1>&2 || true
+        fi
+    fi
+}
+
+function check-upload() {
+    local file=$1
+
+    if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
+        url="$MOD_BASE_URL/$file"
+        status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
+        if [[ "$status" != "200" ]]; then
+            upload-file "$file"
+        fi
+    fi
+}
+
+function upload-file() {
+    local file=$1
+
+    if [[ ! -z "${SCP_URL+x}" ]]; then
+        UPLOAD_FILE="/public$(echo "$MOD_BASE_URL" | sed -e 's/https.*\.com//g')"
+        SSH_CONFIGURED="$(ssh $SCP_URL true && echo "true" || echo "false")"
+        if [[ "$SSH_CONFIGURED" == "true" ]]; then
+            echo "Upload $file to $SCP_URL:$UPLOAD_FILE/$file"
+            scp "$BASE_DIR/download/$file" "$SCP_URL:$UPLOAD_FILE/$file"
+        fi
+    fi
+}
+
 # check for commands we need
 zip_installed="$(type zip 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$zip_installed" == "false" ]]; then
@@ -137,7 +174,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     can_continue="true"
     echo "Building server (pass 1/2)..."
     # loop over packwiz install output to get mods that need to be downloaded manually
-    java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1 | while read -r line ; do
+    while read line; do
         if [[ ! "$line" =~ ^Please\ go\ to ]]; then
             continue
         fi
@@ -149,23 +186,18 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         fi
 
         any_download="true"
-        if [[ ! -f "$BASE_DIR/download/$filename" ]] && [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-            url="$MOD_BASE_URL/$filename"
-            status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
-            if [[ "$status" == "200" ]]; then
-                curl -sL "$MOD_BASE_URL/$filename" -o "$BASE_DIR/download/$filename" 2>/dev/null 1>&2 || true
-            fi
-        fi
+        download-file "$filename"
         if [[ -f "$BASE_DIR/download/$filename" ]]; then
             cp "$BASE_DIR/download/$filename" "mods/$filename"
+            check-upload $filename
         fi
 
         if [[ ! -f "mods/$filename" ]]; then
-            echo Download "$cf_url" to "$BASE_DIR/download/$filename"
+            echo ERROR: Found file that requires manual download. Download "$cf_url" to "$BASE_DIR/download/$filename"
             can_continue="false"
         fi
         old_filename="$filename"
-    done || true
+    done <<< "$(java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1)" || true
 
     if [[ "$can_continue" == "false" ]]; then
         exit 1
@@ -177,7 +209,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     fi
 
     rm "$BASE_DIR/build/server/packwiz"*
-    sed -ie "s/MODLOADER_VERSION=.*/MODLOADER_VERSION=$NEOFORGE_VERSION/" "$BASE_DIR/server/variables.txt"
+    sed -i -e "s/MODLOADER_VERSION=.*/MODLOADER_VERSION=$NEOFORGE_VERSION/" "$BASE_DIR/server/variables.txt"
     cp "$BASE_DIR/server/"* "$BASE_DIR/build/server"
 
     zip -r "$server_zip_file" * 2>/dev/null 1>&2
