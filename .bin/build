@@ -53,7 +53,7 @@ function upload-file() {
 
     if [[ ! -z "${SCP_URL+x}" ]]; then
         UPLOAD_FILE="/public$(echo "$MOD_BASE_URL" | sed -e 's/https.*\.com//g')"
-        SSH_CONFIGURED="$(ssh $SCP_URL true && echo "true" || echo "false")"
+        SSH_CONFIGURED="$(echo bye | sftp -b - $SCP_URL 2>/dev/null 1>&2 && echo "true" || echo "false")"
         if [[ "$SSH_CONFIGURED" == "true" ]]; then
             echo "Upload $file to $SCP_URL:$UPLOAD_FILE/$file"
             scp "$BASE_DIR/download/$file" "$SCP_URL:$UPLOAD_FILE/$file"
