@@ -28,7 +28,7 @@ function download-file() {
     local file=$1
 
     if [[ ! -f "$BASE_DIR/download/$file" ]] && [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-        url="$MOD_BASE_URL/$file"
+        url="$MOD_BASE_URL/${file/ /%20}"
         status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
         if [[ "$status" == "200" ]]; then
             curl -sL "$MOD_BASE_URL/$file" -o "$BASE_DIR/download/$file" 2>/dev/null 1>&2 || true
@@ -40,9 +40,10 @@ function check-upload() {
     local file=$1
 
     if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-        url="$MOD_BASE_URL/$file"
+        url="$MOD_BASE_URL/$(echo "$file" | sed "s/ /%20/g")"
         status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
         if [[ "$status" != "200" ]]; then
+            echo "$url"
             upload-file "$file"
         fi
     fi
@@ -189,7 +190,7 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         download-file "$filename"
         if [[ -f "$BASE_DIR/download/$filename" ]]; then
             cp "$BASE_DIR/download/$filename" "mods/$filename"
-            check-upload $filename
+            check-upload "$filename"
         fi
 
         if [[ ! -f "mods/$filename" ]]; then

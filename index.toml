@@ -4607,40 +4607,44 @@ file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 
 [[files]]
+file = "journeymap/config/6.0/addons/addon.cobblemon.config"
+hash = "be7ba80504645dc533b4a7ea87f9db1fc313b59c0bc4b7aadd66e306b7932585"
+
+[[files]]
 file = "journeymap/config/6.0/addons/addon.minecolonies.config"
-hash = "201afc3f9bebb089579f4bf8d59a47a03fac025cbc2cdd6f52c5737ae8b72943"
+hash = "48928fe948758da01cc96505e269160c12f2aaeb7e50100a1658e04c24670d25"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.core.config"
-hash = "85d5579759e256851ba99f139a7da62a7439c8a453219a417fc20e00fb075fa3"
+hash = "76b607e0c6555492fd2375b9931b386a5fe4af13ffe7c18123bfea701dd9c46a"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.fullmap.config"
-hash = "4187752616d987c6c81bff9d867f73d61cb57f1be40fbac2b1b989f83de4a13b"
+hash = "5d62d8b79961816157363b21b6520f4ae0e3db75a74d1e2679673d7fb2ee925e"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap.config"
-hash = "bacbba1aba48ac10b979e289b20e86ea02ac95a5ea152fde0edc916d73e0596d"
+hash = "41125b52db31c0349d3e6f3ec08352c47e0f79418ead4bd2c1ec8be36c8275f4"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.minimap2.config"
-hash = "99dd56558e29c93b631ff979c9e9037eb6b53ebd46f25b1d6e7c580580a66ab0"
+hash = "a12999967d533bf39eb8a83e19260658a468fe09a54ea42f9c52d458a593a94b"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.rendering.config"
-hash = "4f5e92a24733dd796531bc787ff7dd10ac5fb7a59cdf17200c144fc43f98f1eb"
+hash = "c255d11d5a70ed453a5969e4fd40a3e57c1a89af592c5b8bfd9ba539f6cb0b10"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.topo.config"
-hash = "4cffec1f4357b1d9a7d0496c3c17a52e27976ec53a843a07c0a3794d4c19e4d0"
+hash = "63aa85abb6a71e6abd69263491d7d6e6e67fe0cf839eeb15a0964a173d09776c"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.waypoint.config"
-hash = "96019e1b763ffbd4a8f214fd82c1d7e89d7773c0debe3011ef1134aafde8c5ae"
+hash = "25877aefaa3275eb0ec7268655d9b2133a27946320aa932677ae56db0abb971a"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.webmap.config"
-hash = "c16fbd26298a686715a729b9837c3729867d0760814008bc7abb1697194a7821"
+hash = "4ec3a46d1bb7f273e46dd2ad12e8c26ee2ace0cc86fe207f0874b2931b5d9310"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -9035,5 +9039,5 @@ metafile = true
 
 [[files]]
 file = "solas-shader.pw.toml"
-hash = "839c0c8a311a07ef589583b5678907cf57220d8df26860be804c86bf80c1aac9"
+hash = "52175ed288afb59b24777f0cd6e6fc8aa5d6cc5365890d4cad910dbb505311e0"
 metafile = true
