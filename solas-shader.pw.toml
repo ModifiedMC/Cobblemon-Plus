@@ -1,6 +1,6 @@
 name = "Solas Shader"
-filename = "Solas Shader V2.9b.zip"
-side = "both"
+filename = "Solas Shader V2.8b.zip"
+side = "client"
 
 [download]
 hash-format = "sha1"
