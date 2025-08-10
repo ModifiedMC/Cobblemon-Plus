@@ -9,6 +9,10 @@ file = "config/CoroUtil/General.toml"
 hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "dcea3bf4cd04f1108279a319febe3c5303ca2f22c1e8a42a5243835e73ed9338"
+
+[[files]]
 file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
 hash = "0ce694b7842011f30705cbadc1140a105e15eabe5983dd62605d82e57fefd201"
 
@@ -2017,6 +2021,10 @@ file = "config/configured-client.properties"
 hash = "a9f1058d68eb630eb4783d12da4a5dea5c2f5481fdf38280e33944b9593d2d9c"
 
 [[files]]
+file = "config/connectivity.json"
+hash = "15de6d09567ab4c8194a1b0b344343ac0e5c9d9e4a72592696dafd0ff6b64587"
+
+[[files]]
 file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
 
@@ -3727,6 +3735,14 @@ hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 [[files]]
 file = "config/lithostitched.json"
 hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
+
+[[files]]
+file = "config/littletiles-client.json"
+hash = "9217db4bfe5f0a44061e2d04b615e589f47ca3e9679cbf6274aa8abe5466c6ee"
+
+[[files]]
+file = "config/littletiles.json"
+hash = "cabc422d2e5f595e66e52a6e92bca74c7eeca2095e95106dfd24ae43b7ee3c39"
 
 [[files]]
 file = "config/lmft.json"
@@ -6041,10 +6057,6 @@ file = "kubejs/config/web_server.json"
 hash = "bdfc2d5fbe14b78dfeadc04a3ca4e3b5a74dde9e13a786005e2399ca84bb251f"
 
 [[files]]
-file = "kubejs/data/YellowCore/license.txt"
-hash = "c83a8b5216c9395b0eb4b1f133fa01acac467118e29bed58b42386cc85eadce5"
-
-[[files]]
 file = "kubejs/data/YellowCore/data/tomtaru/recipe/mixer/hyper_potion_from_sitrus.json"
 hash = "cede229e9b1ffc1f3bc6335e6529f67f659f5427abe2d6cd571d8811dce79a54"
 
@@ -6095,6 +6107,10 @@ hash = "1f0f9fcc8c4b75d3c0f63d095d372ba617517e0bc13574e8880017e47ef6e3f8"
 [[files]]
 file = "kubejs/data/YellowCore/data/yellowcore/recipe/sequenced_assembly/shiny_card.json"
 hash = "f102d1e3831e0923e3384cfe1d5fb37c73780bf0705b00d264969e03d76bdb66"
+
+[[files]]
+file = "kubejs/data/YellowCore/license.txt"
+hash = "c83a8b5216c9395b0eb4b1f133fa01acac467118e29bed58b42386cc85eadce5"
 
 [[files]]
 file = "kubejs/data/YellowCore/pack.mcmeta"
@@ -8430,11 +8446,6 @@ hash = "a77c051483c3182542400b0eb644bbead02ed7f63aca6cf4a0063516c2bfbe4b"
 metafile = true
 
 [[files]]
-file = "mods/littletiles.pw.toml"
-hash = "328c33419e23e3d8b9e1934a5f931cd3183cdb1e1220998dead37a13e32e08b1"
-metafile = true
-
-[[files]]
 file = "mods/lmft.pw.toml"
 hash = "3c4da499a2fd3071525f97c3f7d009325f12a229635d3d529ce9dede2242a980"
 metafile = true
@@ -9086,7 +9097,7 @@ metafile = true
 
 [[files]]
 file = "mods/silent-gear.pw.toml"
-hash = "a7cfcddb5bcd25eacd89a45ce48aa8faa7e4c9ecba4745ebb7c873e5c95281b0"
+hash = "62fbd593360bd782e03a768f8f0b15720443554881ce6ef467ba410914d65669"
 metafile = true
 
 [[files]]
