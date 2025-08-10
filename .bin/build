@@ -67,35 +67,28 @@ zip_installed="$(type zip 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$zip_installed" == "false" ]]; then
     echo "✗ zip is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
-else
-    echo "✓ zip is available"
 fi
 
 if [[ -z "$(packwiz-path)" ]]; then
     echo "✗ packwiz is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
-else
-    echo "✓ packwiz is available"
 fi
 
 jq_installed="$(type jq 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$jq_installed" == "false" ]]; then
     echo "✗ jq is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
-else
-    echo "✓ jq is available"
 fi
 
 java_installed="$(type java 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$java_installed" == "false" ]]; then
     echo "✗ java is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
-else
-    echo "✓ java is available"
 fi
 
-echo "✓ All dependencies verified"
-echo ""
+if [[ "$zip_installed" == "false" ]] || [[ -z "$(packwiz-path)" ]] || [[ "$jq_installed" == "false" ]] || [[ "$java_installed" == "false" ]]; then
+    echo "✓ All dependencies verified"
+fi
 
 cd $BASE_DIR
 
@@ -103,18 +96,6 @@ if [[ -f ".env" ]]; then
     set -a # automatically export all variables
     source .env
     set +a
-    
-    # Verify important environment variables
-    if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
-        echo "✓ MOD_BASE_URL configured: $MOD_BASE_URL"
-    fi
-    if [[ ! -z "${SCP_URL+x}" ]]; then
-        echo "✓ SCP_URL configured for uploads"
-    fi
-    if [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ ! -z "${SHADER_REIMAGINED_URL+x}" ]]; then
-        echo "✓ Shader URLs configured"
-    fi
-    echo ""
 fi
 
 echo "Build pack $NAME v$VERSION"

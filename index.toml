@@ -8832,7 +8832,7 @@ metafile = true
 
 [[files]]
 file = "mods/paperdoll.pw.toml"
-hash = "b6bb56e7a4c46ead8eb69634c43133e52393eca192a48b78ba1d18e44d500d46"
+hash = "ada5cfc569e7a5af35827ffa8f3693493f8cc196e762ccdbcf555d63d8256280"
 metafile = true
 
 [[files]]
@@ -9462,7 +9462,7 @@ metafile = true
 
 [[files]]
 file = "mods/waveycapes.pw.toml"
-hash = "e14e18ad1cd5aa231af854bad0925763821cff9eb7b4a4e49d66e4f72c919376"
+hash = "f8d1cde55f5b3a77368bc9aef822f9f50d453f63e6ef79ec1683e770355951f5"
 metafile = true
 
 [[files]]
@@ -9622,7 +9622,3 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "9897f712dac548e028f00f62c1cabb7671a0a2dbe6063baa65f0a6895cdb11f7"
 metafile = true
-
-[[files]]
-file = "test-download/packwiz-installer-bootstrap.jar"
-hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
