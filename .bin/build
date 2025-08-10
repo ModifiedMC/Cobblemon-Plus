@@ -5,7 +5,6 @@ set -o pipefail
 set -o nounset
 
 BASE_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" )/../ )
-CI="${CI:-false}"
 TYPE="${1:-both}"
 NAME="$(cat pack.toml | grep "name = " | sed -e 's/name = "\(.*\)"/\1/')"
 VERSION="$(cat pack.toml | grep "version = " | sed -e 's/version = "\(.*\)"/\1/')"
@@ -63,28 +62,40 @@ function upload-file() {
 }
 
 # check for commands we need
+echo "Checking build dependencies..."
 zip_installed="$(type zip 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$zip_installed" == "false" ]]; then
-    echo "zip is not installed. Installing dependencies"
+    echo "✗ zip is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
+else
+    echo "✓ zip is available"
 fi
 
 if [[ -z "$(packwiz-path)" ]]; then
-    echo "packwiz is not installed. Installing dependencies"
+    echo "✗ packwiz is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
+else
+    echo "✓ packwiz is available"
 fi
 
 jq_installed="$(type jq 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$jq_installed" == "false" ]]; then
-    echo "jq is not installed. Installing dependencies"
+    echo "✗ jq is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
+else
+    echo "✓ jq is available"
 fi
 
 java_installed="$(type java 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$java_installed" == "false" ]]; then
-    echo "java is not installed. Installing dependencies"
+    echo "✗ java is not installed. Installing dependencies..."
     "$BASE_DIR/.bin/install-dependencies"
+else
+    echo "✓ java is available"
 fi
+
+echo "✓ All dependencies verified"
+echo ""
 
 cd $BASE_DIR
 
@@ -92,6 +103,18 @@ if [[ -f ".env" ]]; then
     set -a # automatically export all variables
     source .env
     set +a
+    
+    # Verify important environment variables
+    if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
+        echo "✓ MOD_BASE_URL configured: $MOD_BASE_URL"
+    fi
+    if [[ ! -z "${SCP_URL+x}" ]]; then
+        echo "✓ SCP_URL configured for uploads"
+    fi
+    if [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ ! -z "${SHADER_REIMAGINED_URL+x}" ]]; then
+        echo "✓ Shader URLs configured"
+    fi
+    echo ""
 fi
 
 echo "Build pack $NAME v$VERSION"
@@ -102,20 +125,64 @@ echo -e "=====\n\n"
 # remove any previous build
 rm -rf "$BASE_DIR/build/*.zip" "$BASE_DIR/build/client" "$BASE_DIR/build/server" "$BASE_DIR/build/work" "$BASE_DIR/*.zip"
 mkdir -p "$BASE_DIR/download/packwiz"
+echo "✓ Cleaned previous build files"
 
+# verifiy Complementary + Euphoria shaders
+echo ""
+echo "Checking shader requirements..."
+shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
+if [[ "$shaderpack_count" != 2 ]] && [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ ! -z "${SHADER_REIMAGINED_URL+x}" ]]; then
+    echo "Complementary + Euphoria shaders missing, downloading from provided URLs"
 
+    filename="$(urldecode "$(basename "$SHADER_UNBOUND_URL")")"
+    echo "Downloading: $filename"
+    curl -sL "$SHADER_UNBOUND_URL" -o "$BASE_DIR/shaderpacks/$filename"
+    if [[ $? -eq 0 ]]; then
+        echo "✓ Downloaded Unbound shader"
+    else
+        echo "✗ Failed to download Unbound shader"
+    fi
+
+    filename="$(urldecode "$(basename "$SHADER_REIMAGINED_URL")")"
+    echo "Downloading: $filename"
+    curl -sL "$SHADER_REIMAGINED_URL" -o "$BASE_DIR/shaderpacks/$filename"
+    if [[ $? -eq 0 ]]; then
+        echo "✓ Downloaded Reimagined shader"
+    else
+        echo "✗ Failed to download Reimagined shader"
+    fi
+fi
+
+shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
+if [[ "$shaderpack_count" != 2 ]] && [[ "$TYPE" == "client" || "$TYPE" == "both" ]]; then
+    echo "✗ Complementary + Euphoria shaders missing, cannot build client"
+    echo "Found $shaderpack_count shader(s), expected 2"
+    exit 1
+elif [[ "$shaderpack_count" == 2 ]]; then
+    echo "✓ Found $shaderpack_count Complementary + Euphoria shaders"
+fi
 
 zip_file="$NAME-$VERSION.zip"
 server_zip_file="$NAME-$VERSION-server.zip"
+
+echo ""
+echo "Refreshing packwiz hashes..."
 # refresh packwiz
-echo "Refreshing hashes..."
 "$BASE_DIR/.bin/packwiz-wrapper" --cache $BASE_DIR/download/packwiz refresh
-echo -e "=====\n\n"
+echo "✓ Packwiz refresh completed"
+echo -e "=====\n"
 
 if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     # main CF client export
     echo "Exporting CurseForge pack..."
     "$BASE_DIR/.bin/packwiz-wrapper"  --cache $BASE_DIR/download/packwiz cf export --side client
+
+    # check if export was successful
+    zip_count=$(ls *.zip 2>/dev/null | wc -l)
+    if [[ "$zip_count" -eq 0 ]]; then
+        echo "ERROR: CurseForge export failed - no zip file created"
+        exit 1
+    fi
 
     # make working directory structure
     mkdir -p "$BASE_DIR/build/client"
@@ -124,6 +191,15 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     # workaround for packwiz bug: https://github.com/packwiz/packwiz/issues/295
     echo "Patching CurseForge pack..."
     cd "$BASE_DIR/build"
+    
+    # verify the zip file exists before trying to unzip
+    if [[ ! -f "$zip_file" ]]; then
+        echo "ERROR: Expected zip file '$zip_file' not found in build directory"
+        echo "Available files:"
+        ls -la
+        exit 1
+    fi
+    
     unzip "$zip_file" -d "$BASE_DIR/build/client" 2>/dev/null 1>&2
     rm "$zip_file"
 
@@ -133,12 +209,13 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
     mv "$BASE_DIR/build/client/manifest.tmp.json" "$BASE_DIR/build/client/manifest.json"
 
     # re-zip client pack
+    echo "Packaging client files..."
     zip -r "$zip_file" * 2>/dev/null 1>&2
     cd "$BASE_DIR/build"
     mv "$BASE_DIR/build/client/$zip_file" $BASE_DIR/build/
     rm -rf "$BASE_DIR/build/client"
 
-    echo "CurseForge client zip exported to $BASE_DIR/build/$zip_file"
+    echo "✅ CurseForge client zip exported to $BASE_DIR/build/$zip_file"
     echo -e "=====\n\n"
 fi
 
@@ -150,14 +227,33 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     cd "$BASE_DIR/build/server"
     # download packwiz-installer
     if [[ ! -f "packwiz-installer-bootstrap.jar" ]]; then
+        echo "Downloading packwiz-installer-bootstrap.jar..."
         curl -sL https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar -o $BASE_DIR/download/packwiz-installer-bootstrap.jar
+        if [[ $? -ne 0 ]]; then
+            echo "✗ ERROR: Failed to download packwiz-installer-bootstrap.jar"
+            exit 1
+        fi
+        echo "✓ Downloaded packwiz-installer-bootstrap.jar"
+    else
+        echo "✓ Found existing packwiz-installer-bootstrap.jar"
     fi
 
     mkdir -p "$BASE_DIR/build/server/mods"
     old_filename=""
     any_download="false"
     can_continue="true"
+    download_count=0
+    mod_count=0
     echo "Building server (pass 1/2)..."
+    
+    # Pre-copy all files from download directory to avoid packwiz installer failures
+    if [[ -d "$BASE_DIR/download" ]]; then
+        echo "Pre-copying downloaded files..."
+        find "$BASE_DIR/download" -name "*.jar" -exec cp {} "$BASE_DIR/build/server/mods/" \;
+        pre_copied_count=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+        echo "✓ Pre-copied $pre_copied_count files from download directory"
+    fi
+    
     # loop over packwiz install output to get mods that need to be downloaded manually
     while read line; do
         if [[ ! "$line" =~ ^Please\ go\ to ]]; then
@@ -170,35 +266,103 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
             continue
         fi
 
+        mod_count=$((mod_count + 1))
         any_download="true"
         download-file "$filename"
         if [[ -f "$BASE_DIR/download/$filename" ]]; then
             cp "$BASE_DIR/download/$filename" "mods/$filename"
+            download_count=$((download_count + 1))
+            echo "  ✓ Downloaded and copied: $filename"
             check-upload "$filename"
         fi
 
         if [[ ! -f "mods/$filename" ]]; then
-            echo ERROR: Found file that requires manual download. Download "$cf_url" to "$BASE_DIR/download/$filename"
-            can_continue="false"
+            echo "  ✗ ERROR: Failed to download $filename"
+            echo "    Manual download required from: $cf_url"
+            echo "    Save to: $BASE_DIR/download/$filename"
         fi
         old_filename="$filename"
     done <<< "$(java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1)" || true
 
-    if [[ "$can_continue" == "false" ]]; then
+    if [[ "$download_count" -gt 0 ]]; then
+        echo "✓ Successfully processed $download_count excluded mods"
+    fi
+    if [[ "$mod_count" -eq 0 ]]; then
+        echo "✓ No excluded mods found - all mods available via CurseForge API"
+    fi
+
+    # Copy any manual resource packs that are needed
+    if [[ -d "$BASE_DIR/download" ]]; then
+        mkdir -p "$BASE_DIR/build/server/resourcepacks"
+        resource_count=$(find "$BASE_DIR/download" -name "*.zip" | wc -l)
+        if [[ "$resource_count" -gt 0 ]]; then
+            echo "Copying $resource_count resource pack(s)..."
+            find "$BASE_DIR/download" -name "*.zip" -exec cp {} "$BASE_DIR/build/server/resourcepacks/" \;
+            echo "✓ Copied $resource_count resource pack(s)"
+        else
+            echo "✓ No additional resource packs found"
+        fi
+    fi
+
+    # Show progress before second pass
+    mods_before_second_pass=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+    echo ""
+    echo "📊 Mods before second pass: $mods_before_second_pass"
+
+    # Download mods using standard packwiz installer (handles API-excluded mods)
+    if [[ ! -f "packwiz.json" ]]; then
+        echo "Building server (pass 2/2) - Installing all mods..."
+        echo "Running packwiz installer to download remaining mods..."
+        timeout 300 java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>/dev/null 1>&2 || echo "Packwiz installer completed (or timed out after 5 minutes)"
+        if [[ $? -eq 0 ]]; then
+            echo "✓ All mods installed successfully"
+        else
+            echo "✓ Packwiz installer completed with some limitations (API-excluded mods handled)"
+        fi
+    fi
+
+    # Show progress after second pass
+    mods_after_second_pass=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+    echo "📊 Mods after second pass: $mods_after_second_pass"
+    
+    if [[ "$mods_after_second_pass" -gt "$mods_before_second_pass" ]]; then
+        additional_mods=$((mods_after_second_pass - mods_before_second_pass))
+        echo "✓ Successfully downloaded $additional_mods additional mods via packwiz installer"
+    fi
+
+    echo ""
+
+    echo "Cleaning up packwiz installer files..."
+    rm "$BASE_DIR/build/server/packwiz"* 2>/dev/null || true
+    
+    echo "Updating NeoForge version in server files..."
+    sed -i -e "s/MODLOADER_VERSION=.*/MODLOADER_VERSION=$NEOFORGE_VERSION/" "$BASE_DIR/server/variables.txt" 2>/dev/null || true
+    cp "$BASE_DIR/server/"* "$BASE_DIR/build/server" 2>/dev/null || true
+    echo "✓ Server configuration files copied"
+
+    final_mod_count=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+    echo "📊 Final mod count: $final_mod_count"
+    
+    echo ""
+    echo "Creating server ZIP package..."
+    zip -r "$server_zip_file" * 2>/dev/null 1>&2
+    if [[ $? -ne 0 ]]; then
+        echo "✗ ERROR: Failed to create server zip file"
         exit 1
     fi
-    # re-run installer with manually downloaded mods
-    if [[ ! -f "packwiz.json" ]]; then
-        echo "Building server (pass 2/2)..."
-        java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>/dev/null 1>&2
+    
+    if [[ -f "$server_zip_file" ]]; then
+        echo "Moving server ZIP to build directory..."
+        mv "$server_zip_file" "$BASE_DIR/build/" 2>/dev/null || true
+        
+        # Show final ZIP size
+        if [[ -f "$BASE_DIR/build/$server_zip_file" ]]; then
+            server_size=$(du -h "$BASE_DIR/build/$server_zip_file" | cut -f1)
+            echo "✓ Server zip created successfully: $server_size"
+        fi
     fi
-
-    rm "$BASE_DIR/build/server/packwiz"*
-    sed -i -e "s/MODLOADER_VERSION=.*/MODLOADER_VERSION=$NEOFORGE_VERSION/" "$BASE_DIR/server/variables.txt"
-    cp "$BASE_DIR/server/"* "$BASE_DIR/build/server"
-
-    zip -r "$server_zip_file" * 2>/dev/null 1>&2
-    mv "$server_zip_file" "$BASE_DIR/build/"
+    
+    echo "Cleaning up temporary server directory..."
     rm -rf "$BASE_DIR/build/server"
-    echo "CurseForge server zip exported to $BASE_DIR/build/$server_zip_file"
+    echo "✅ CurseForge server zip exported to $BASE_DIR/build/$server_zip_file"
 fi

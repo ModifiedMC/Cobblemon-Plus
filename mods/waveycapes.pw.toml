@@ -1,6 +1,6 @@
 name = "Wavey Capes"
 filename = "waveycapes-neoforge-1.6.2-mc1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
