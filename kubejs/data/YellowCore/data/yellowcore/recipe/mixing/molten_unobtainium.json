@@ -1,0 +1,10 @@
+{
+	"type": "create:mixing",
+	"heat_requirement": "superheated",
+	"ingredients": [
+		{ "tag": "c:ingots/unobtainium" }
+	],
+	"results": [
+		{ "id": "allthemodium:molten_unobtainium", "amount": 1000 }
+	]
+}

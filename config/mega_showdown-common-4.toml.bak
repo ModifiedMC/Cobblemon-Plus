@@ -1,0 +1,39 @@
+#Enable multiple megas at one time
+multipleMegas = false
+#Enable mega evolution only for battles
+battleModeOnly = false
+#Allows you to have outside megas but they devolve on battle and then you can have battle mode style theme
+battleMode = true
+#Allows you to have multiple primals in your team
+multiplePrimals = true
+#Allows you to have both the mega btn and allows u to carry your mega's into the battle, battleMode should be false for this
+scuffedMode = false
+#Makes it so that you need to have 200+ friendship in order to mega outside
+friendshipMode = false
+#Enables/Disables zMoves in game
+zMoves = true
+#Enables/Disables teralization in game
+teralization = true
+#Allows you to trade even if your pokemon is not in base form
+tradeForm = false
+#Enables etermax eternus forme
+etermaxForme = true
+#Enables/Disables dmax in game
+dynamax = true
+#Allows you to dynamax anywhere you dont need to be near the dynamax area
+dynamaxAnywhere = false
+#Range around a power spot where Dynamax is allowed
+# Default: 20
+# Range: 0 ~ 10000
+powerSpotRange = 20
+#By how many times should the pokemon size increase when g/dmaxing
+# Default: 4
+# Range: 0 ~ 10000
+dynamaxScaleFactor = 4
+# Enable/Disable loading of showdown files from the mod, 
+# note this means once you load the game and the showdown changes have been affected you disable
+# this it will stop overwriting it ever load, this is for people who want to edit showdown 
+# but can't since mega showdown keeps overriding the files
+showdownFilesLoading = true
+#Disables pokemons from dropping tera shards
+disableTeraShardDrop = false

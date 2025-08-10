@@ -4,7 +4,7 @@
 	ftbChunks = true
 	# Default: 0.17499999701976776
 	# Range: 0.0 ~ 1.0
-	claimedChunkOverlayOpacity = 0.22222299873828888
+	claimedChunkOverlayOpacity = 0.17499999701976776
 	#Disable conflict functions for FTBChunks (MiniMap, Waypoint beam, Death waypoint)
 	disableFTBFunction = true
 

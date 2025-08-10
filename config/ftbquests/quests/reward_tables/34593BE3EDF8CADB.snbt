@@ -1,0 +1,225 @@
+{
+	id: "34593BE3EDF8CADB"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{
+			count: 8
+			id: "73D1EC5B43EFD0EA"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 2
+			id: "551A7E4936D7F8DD"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 12
+			id: "2FF8C843A0DBBA95"
+			item: {
+				count: 1
+				id: "cobblemon:max_potion"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "4BA73E3E48393AD2"
+			item: {
+				count: 1
+				id: "create:experience_block"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "4E30EBA180383FED"
+			item: {
+				count: 1
+				id: "create_enchantment_industry:super_experience_block"
+			}
+			weight: 5.0f
+		}
+		{ id: "0D7CFACF85B0AE7C", item: { count: 1, id: "cobblemon:ancient_origin_ball" } }
+		{
+			id: "2730A39D344664E9"
+			item: {
+				count: 1
+				id: "cobblemon:master_ball"
+			}
+			weight: 2.0f
+		}
+		{
+			id: "290FC9F18D24FB09"
+			item: {
+				count: 1
+				id: "minecraft:beacon"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			id: "39DC8538C9FF1F78"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "1A3E53F0161F7427"
+			item: {
+				count: 1
+				id: "modified:coinpile_mtoken"
+			}
+			weight: 2.5f
+		}
+		{
+			count: 16
+			id: "5D6FFDE0D8812EFA"
+			item: {
+				count: 1
+				id: "cobblemon:quick_ball"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 16
+			id: "3A941A086EE337B2"
+			item: {
+				count: 1
+				id: "cobblemon:ultra_ball"
+			}
+			weight: 7.0f
+		}
+		{ id: "69C7F15E28A5FDD0", item: { count: 1, id: "cobblemon_utility:goldencap" } }
+		{
+			id: "06D489D82347C586"
+			item: {
+				count: 1
+				id: "cobblemon_utility:shinycard"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7BCCE38CA3E84FD8"
+			item: {
+				count: 1
+				id: "cobblemon_utility:cobblemax"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "692B1FBA7DF2AC4A"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:efficiency": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_pickaxe"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "301044456D1FB72D"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:efficiency": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_axe"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3728F31EFB910F03"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_helmet"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "5993D0180973887A"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_chestplate"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "20E325A7DE8EBF6A"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_leggings"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "098A70691B675164"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 4
+							"minecraft:unbreaking": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:diamond_boots"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "45664D8793D199B1"
+			item: {
+				count: 1
+				id: "cobgyms:legendary_cache_shiny"
+			}
+			weight: 0.2f
+		}
+	]
+}

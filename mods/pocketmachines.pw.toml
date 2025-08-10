@@ -1,13 +1,13 @@
 name = "Simple Pocket Machines"
-filename = "SimplePocketMachines-NeoForge-1.21.1-1.0.2.jar"
+filename = "SimplePocketMachines-NeoForge-1.21.1-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "597deaaf3332f981601b8f71743d0e32f6c9661d"
+hash = "4d167655ad896e67899e05802e65ffae694dc617"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5935885
+file-id = 6534690
 project-id = 1090864

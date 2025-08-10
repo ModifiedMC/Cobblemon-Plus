@@ -39,17 +39,17 @@
     "minecraft:blaze_powder": 1200
   },
   "validDimensions": {
-    "minecraft:the_end": true,
+    "minecraft:the_nether": true,
     "minecraft:overworld": true,
-    "minecraft:the_nether": true
+    "minecraft:the_end": true
   },
   "gunpowderAmmunition": {
     "minecraft:gunpowder": 100
   },
   "arrowAmmunition": {
     "minecraft:spectral_arrow": 100,
-    "minecraft:arrow": 100,
-    "minecraft:tipped_arrow": 100
+    "minecraft:tipped_arrow": 100,
+    "minecraft:arrow": 100
   },
   "bombBayAmmunition": {
     "minecraft:tnt": 100

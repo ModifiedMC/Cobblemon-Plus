@@ -3,6 +3,7 @@
   "showDiversityChangeInTooltip": true,
   "showDisabledTooltip": true,
   "shouldShowInactiveBenefits": true,
+  "shouldShowInactiveDetriments": true,
   "showButtonInInventory": true,
   "buttonInventoryX": 130,
   "buttonInventoryY": 62,

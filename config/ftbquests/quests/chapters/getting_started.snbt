@@ -52,8 +52,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "484AB4D5E721DD92"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "04719FAFD218CFE4"
+				type: "dimension"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -211,6 +212,7 @@
 				}
 				id: "2FC6EA0D0BEBDD49"
 				permission_level: 4
+				silent: true
 				team_reward: false
 				type: "command"
 			}]
@@ -261,6 +263,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "39FFD829D75DADEC"
+					table_id: 1103341638671289457L
+					type: "choice"
+				}
 			]
 			tasks: [{
 				id: "319C9413423E6C3C"
@@ -273,6 +281,7 @@
 			can_repeat: true
 			id: "611489B6370D9559"
 			rewards: [{
+				auto: "enabled"
 				id: "4EF9841FBFF758C0"
 				item: {
 					count: 1

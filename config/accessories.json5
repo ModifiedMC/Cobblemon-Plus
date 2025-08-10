@@ -1,5 +1,5 @@
 {
-	"useExperimentalCaching": true,
+	"useExperimentalCaching": false,
 	"clientOptions": {
 		"equipControl": "MUST_NOT_CROUCH",
 		"forceNullRenderReplacement": false,
@@ -8,7 +8,7 @@
 		"disabledDefaultRenders": []
 	},
 	"screenOptions": {
-		"selectedScreenType": "NONE",
+		"selectedScreenType": "EXPERIMENTAL_V1",
 		"showUnusedSlots": false,
 		"allowSlotScrolling": true,
 		"inventoryButtonOffset": {

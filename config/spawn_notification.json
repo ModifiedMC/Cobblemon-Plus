@@ -10,7 +10,7 @@
   "broadcastFaints": true,
   "broadcastVolatileDespawns": false,
   "broadcastSpeciesName": true,
-  "broadcastPlayerSpawnedOn": false,
+  "broadcastPlayerSpawnedOn": true,
   "disableWaypoints": false,
   "broadcastRange": -1,
   "playerLimit": -1,
@@ -19,7 +19,8 @@
     "mythical",
     "ultra_beast",
     "paradox",
-    "starter"
+    "starter",
+    "ultra_rare"
   ],
   "bucketsForBroadcast": [],
   "blacklistForBroadcast": [],

@@ -1,0 +1,23 @@
+{
+	id: "5A2F57BFA694CA63"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ id: "01DD92F9432D7BE2", item: { components: { "easy_mob_farm:mob_capture_data": { color: "white", data: { Color: 0 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "10B7EBF67DF432A5", item: { components: { "easy_mob_farm:mob_capture_data": { color: "light_gray", data: { Color: 8 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "03029F5E0852925C", item: { components: { "easy_mob_farm:mob_capture_data": { color: "gray", data: { Color: 7 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "2FA487CFED4C2B7D", item: { components: { "easy_mob_farm:mob_capture_data": { color: "black", data: { Color: 15 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "750F81519D612306", item: { components: { "easy_mob_farm:mob_capture_data": { color: "brown", data: { Color: 12 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "6526D1D0DFFD1BA5", item: { components: { "easy_mob_farm:mob_capture_data": { color: "red", data: { Color: 14 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "78F77134D65C5CBB", item: { components: { "easy_mob_farm:mob_capture_data": { color: "pink", data: { Color: 6 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "5F6CC87AC713DE1F", item: { components: { "easy_mob_farm:mob_capture_data": { color: "blue", data: { Color: 11 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "4CE45F19BAC40D7E", item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "0E3BB993630B69B7", item: { components: { "easy_mob_farm:mob_capture_data": { color: "magenta", data: { Color: 2 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "7544BB8A4D275EED", item: { components: { "easy_mob_farm:mob_capture_data": { color: "green", data: { Color: 13 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "377CB3BA0D2080F7", item: { components: { "easy_mob_farm:mob_capture_data": { color: "lime", data: { Color: 5 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "0D55BA01A7836A6C", item: { components: { "easy_mob_farm:mob_capture_data": { color: "yellow", data: { Color: 4 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "76D53C57BF8DA1B7", item: { components: { "easy_mob_farm:mob_capture_data": { color: "orange", data: { Color: 1 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "3C9D68B55977174B", item: { components: { "easy_mob_farm:mob_capture_data": { color: "cyan", data: { Color: 9 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "48F741D9168ED9AA", item: { components: { "easy_mob_farm:mob_capture_data": { color: "purple", data: { Color: 10 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+	]
+}

@@ -1,10 +1,3774 @@
 {
+	autofocus_id: "6323CAA83554E65F"
+	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_overworld"
 	group: "3C2F0E57BE919025"
+	icon: {
+		components: {
+			"ftbquests:icon": "regions_unexplored:block/alpha_grass_side"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "0EA78EDC04F4F381"
+	images: [
+		{
+			height: 5.0d
+			image: "cataclysm:block/dungeon_block"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/prismarine/simple_prismarine_pillar"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:block/witherite_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/chiseled_sandstone"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/remnant_skull"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/mech_eye"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/frosted_ice_3"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:block/cursium_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:block/pointed_icicle_up_tip"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:item/the_baby_leviathan_bucket"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "cobblepedia:textures/gui/entries/village_plains_pokecenter.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			height: 1.5d
+			image: "cobblemon:textures/entity_icon/0999_gimmighoul/gimmighoul_chest_minecraft_shiny.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "mega_showdown:item/mega_meteorid_block_item"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "cobblepedia:textures/gui/entries/crumbling_arch_ruins.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/suspicious_gravel_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/suspicious_sand_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "betterarcheology:block/suspicious_dirt/suspicious_dirt_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "emi_loot:textures/gui/spawns_with.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/map/decorations/jungle_temple.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/map/decorations/desert_village.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity_icon/skeleton/skeleton.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity_icon/spider/cave_spider.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "exposure:textures/exposure/shipwreck/ship_dock_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "supplementaries:textures/map/decorations/ruined_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "supplementaries:item/globes/globe_the_world"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:textures/entity_icon/guardian.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:item/deepslate_prismoss_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:textures/particle/cursed_flame.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/enchanted_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/fossils/plume_fossil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/fossils/claw_fossil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/fossils/helix_fossil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/fossils/armor_fossil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "kobolds:textures/koboldicon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 9.5d
+		}
+	]
 	order_index: 0
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [
+		{
+			id: "1F5FAD8384256688"
+			linked_quest: "5EF4CF4F7BDD5693"
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			id: "0F1B915B4B3F1D25"
+			linked_quest: "781EBCD4D8F1368B"
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			id: "428BF9709A95069C"
+			linked_quest: "130B2FCFDB76A008"
+			x: 16.5d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cataclysm:textures/mob_effect/blessing_of_amethyst.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4B3B95798745A9D0"
+			rewards: [{
+				count: 77
+				id: "7780158BDAE113A9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					icon: {
+						components: {
+							"ftbquests:icon": "cataclysm:textures/mob_effect/blessing_of_amethyst.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6FCD5724286901CC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					biome: "minecraft:lush_caves"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:block/cave_vines_lit"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7114EF1B6B5F9B0C"
+					type: "biome"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/antique_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5B6C916800329A88"
+			rewards: [{
+				count: 10
+				id: "460FFACE61E081AE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7063629D00FCBD14"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+				{
+					id: "05D5BF8A0249D512"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "3657C0D13E6E4687"
+			rewards: [{
+				count: 50
+				id: "2B3374FB2A2E996F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4026C1075C221AD2"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "10F042BB78261CE1"
+			rewards: [{
+				id: "7EA504C01ED22DAF"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "5DFFED4E4F57BDC4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "2291F4B10A6F0C28"
+			rewards: [{
+				count: 25
+				id: "06A33BDA219D5E50"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB34A15B5D82911"
+				item: { count: 1, id: "cataclysm:abyssal_egg" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "32EF35BA8094026C"
+			rewards: [{
+				count: 77
+				id: "1E581399162EC14E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "677D1FBE26E27F08"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "5D2797195310F26F"
+			rewards: [{
+				count: 77
+				id: "3712DD416081264F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				id: "548907421354B6F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D8F4340B626167D"
+			rewards: [{
+				id: "708A3900B7B76264"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "35BEE59F4AB948EA"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/antique_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "43FC9C0EC5AD175F"
+			rewards: [{
+				count: 5
+				id: "00EBE96AF720BED6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:lush"
+				id: "6B082B079DDA0B62"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "283932D734590B70"
+			rewards: [{
+				count: 50
+				id: "52BA6B0F79421F7B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling"
+				id: "12EE949A37E83F51"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "21871E95378D1444"
+			rewards: [{
+				count: 50
+				id: "595FC5567657A766"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				id: "1844D71DA428A1BB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "75E9CD8142D971AF"
+			rewards: [{
+				count: 50
+				id: "0CDE49BB64D34421"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_brute"
+				id: "2CC76D687ED71DD7"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "7A2074BD8E3E816B"
+			rewards: [{
+				count: 50
+				id: "2638CECA5B1B514A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				id: "56DBD8EC30EBAC23"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "2A2E58139E03E66C"
+			rewards: [{
+				count: 50
+				id: "50EF6015438B33E8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				id: "67E717C0B2769B17"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/antique_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "55C95564A3A37653"
+			rewards: [{
+				count: 10
+				id: "5DB5B465D4E8F47D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08BAA6411EAA1B79"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+				{
+					id: "643341714B1089C5"
+					item: { count: 1, id: "cataclysm:mech_eye" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			id: "6D09BBEF0FBE50FC"
+			rewards: [{
+				count: 25
+				id: "63834F8347B56638"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03CDE122D08FD700"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			id: "2AE0F29A7A3C2C9C"
+			rewards: [{
+				count: 50
+				id: "4035DA7F208B3A01"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				id: "01C69E5294132947"
+				type: "kill"
+				value: 25L
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "2E5278FE1D257E60"
+			rewards: [{
+				count: 77
+				id: "0798EF283E1766B5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "5D92BFF8C648F360"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			id: "78AC37C77AD1CC98"
+			rewards: [{
+				count: 4
+				id: "7C0D44A7750A4AA4"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "1E4B4CC6C5498EC4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "5CBA8FC88DC9F483"
+			rewards: [{
+				count: 25
+				id: "28750A1E86B6CC5F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "769F6B78B0281417"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			id: "1B605488859A3633"
+			rewards: [{
+				count: 25
+				id: "074C3C94589F52EE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA90D40B0588D5C"
+				item: { components: { "cataclysm:laser_gatling": 0b }, count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			id: "1C94415C2C3A25FF"
+			rewards: [{
+				count: 25
+				id: "684385F1BE16F0A5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "621A29249AE3C68F"
+				item: { count: 1, id: "cataclysm:meat_shredder" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			id: "29E7AA0B5979DD6F"
+			rewards: [{
+				count: 50
+				id: "6BA53CD6A2E1CC18"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2E90D5A7092DCDA0"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/antique_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B0EEECA3ED3DA47"
+			rewards: [{
+				count: 10
+				id: "060119DE88ADAC78"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7662EF646695C0DD"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+				{
+					id: "1FDCF88565A31A2F"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "2D9BC987E126C1E2"
+			rewards: [{
+				count: 3
+				id: "1D1B7973E91236CD"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "39AF4DD8F2E10311"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "3BEBA6723034077C"
+			rewards: [{
+				count: 77
+				id: "18A40D2CA501EB98"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "528BDCE67788109C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "6B5E6F3EAC159D43"
+			rewards: [{
+				count: 50
+				id: "4429594E23ADB94C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "2D61ADA80F19E249"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "0D2A1E0EF66B5093"
+			rewards: [{
+				count: 50
+				id: "5CDDB0036EC326B6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "0563423ED466F44A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "2611AD7B3E0B7197"
+			rewards: [{
+				count: 50
+				id: "6EB63B6C674CDB55"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B793D65F87C3AA2"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:item/antique_map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "75DD728FA12D28F1"
+			rewards: [{
+				count: 10
+				id: "3B996E4D7C011EC7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F4B573AC789C5EA"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+				{
+					id: "2B7EB1B4A89673A2"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "571ABD3000FF05E3"
+			rewards: [{
+				count: 50
+				id: "15095C34FC05F3D8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:draugr"
+				id: "1B975DCDFB4C6D60"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "50D424BF12587F27"
+			rewards: [{
+				count: 50
+				id: "4E2C4B5A586B6E16"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:elite_draugr"
+				id: "585CF2063F174B6B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "628072D66ED13D4E"
+			rewards: [{
+				count: 50
+				id: "775C904B62FF6BAC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:royal_draugr"
+				id: "4C8B37A49EDC5E7E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "26422473A71CC510"
+			rewards: [{
+				count: 77
+				id: "60E702F25CD90743"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				id: "6F0EEC5D536AE3D8"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "28D5B06D60651D60"
+			rewards: [{
+				count: 3
+				id: "29EB6F49B2D9B28F"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "617481C9DA76F117"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "1CCE03C082C2B2FB"
+			rewards: [{
+				count: 25
+				id: "315D4208B39A4DBF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E058237591A1680"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "1CE84F30F258156E"
+			rewards: [{
+				count: 25
+				id: "34CD7A5F474B5059"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "333EC9E06C2A6E55"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "63DBB8F5A6868AC5"
+			rewards: [{
+				count: 25
+				id: "5F214D48AE815BF4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56AA9AB92E4DDB56"
+				item: { count: 1, id: "cataclysm:ancient_spear" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "0B7D842F670C4E37"
+			rewards: [{
+				count: 25
+				id: "2E735C5E5C73EA6D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4153429249881CD2"
+				item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			id: "21F1C7AA64929142"
+			rewards: [{
+				count: 25
+				id: "7A00CFDB976E6117"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35CF15E576D04C08"
+				item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "10D371924AF386A9"
+			rewards: [{
+				count: 25
+				id: "6D331A04691AFB74"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74BB93B0095502BE"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "6EE08284541A45A2"
+			rewards: [{
+				count: 25
+				id: "52849063A8F857C1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "403B2E43B0C8D88E"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			id: "2777A1DE0054F24E"
+			rewards: [{
+				count: 25
+				id: "02F86852768F97F0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0997690370A8DB0C"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			id: "5B8CA5CE8F9A305D"
+			rewards: [{
+				count: 25
+				id: "5D8B8F494DEC9062"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69AA2965B25D845A"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "0B2DCD35D65BEE9A"
+			rewards: [{
+				count: 5
+				id: "17497FA765156D2C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02711B42BB3BC6F8"
+				structure: "#minecraft:mineshaft"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "3D82991330AE13B9"
+			rewards: [{
+				count: 5
+				id: "04DE36E5098A46A5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A5B60DB0EEEA1B"
+				structure: "supplementaries:way_sign"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblepedia:textures/gui/entries/crumbling_arch_ruins2.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7BB97C394B4EF7F7"
+			tasks: [{
+				id: "06D35DEEA6E6C25B"
+				structure: "#cobblemon:ruin"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "735B80F0E99F453C"
+			rewards: [{
+				count: 5
+				id: "43D5F1731FA0EBA6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F8C59E2F33C43EB"
+				structure: "cobblemon:ruins/decaying_crypt_ruins"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "5FF2E4317771175F"
+			rewards: [{
+				count: 5
+				id: "5FECEF08CCF085E5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B0AE7A8DBB62C41"
+				structure: "cobblemon:ruins/crumbling_arch_ruins"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			id: "74BE986C7780CC39"
+			rewards: [{
+				count: 5
+				id: "3B76018E37C63F8D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7830BA0F9320EA4A"
+				structure: "#bca:villages"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "1AEF00A2A665EB35"
+			rewards: [{
+				count: 5
+				id: "3B03A608F4324A51"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "472DB2FB25A809FF"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "262A99A8918B935C"
+			rewards: [{
+				count: 5
+				id: "6BFA90727991E5EC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "385DDDC4B8D17F7B"
+				structure: "#ctov:village"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "0E3ABE7644D7103F"
+			rewards: [{
+				count: 5
+				id: "3CFE0E9AE0E546ED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3697BAA656CF5657"
+				structure: "betterdungeons:skeleton_dungeon"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "000768A06AA413E0"
+			rewards: [{
+				count: 5
+				id: "013A373EB57CF1AE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A145806B5670237"
+				structure: "betterdungeons:small_dungeon"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "3C873E2A40757897"
+			rewards: [{
+				count: 5
+				id: "4E70C8EA9E6B3B87"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F4D1E684B4398F8"
+				structure: "betterdungeons:spider_dungeon"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			id: "294DCFFBD6CC24E1"
+			rewards: [{
+				count: 5
+				id: "260E0AFBFCC83CE2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C61A16BE0E4FF3B"
+				structure: "betterdungeons:zombie_dungeon"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "3F4C872BD3BDE907"
+			rewards: [{
+				count: 5
+				id: "3557BAB96132C35D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E2FB41289AA0B86"
+				structure: "valhelsia_structures:spawner_dungeon"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			id: "227C03013F0629AA"
+			rewards: [{
+				count: 5
+				id: "4F77572BAF03DABB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7941D6040BBDEF20"
+				structure: "minecraft:shipwreck"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "627C3A3D93D01F99"
+			rewards: [{
+				count: 5
+				id: "09FACACA9C199A34"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "477233405FB88467"
+				structure: "#minecraft:ocean_ruin"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "52F95A2C42064457"
+			rewards: [{
+				count: 5
+				id: "29CC322F2DD1D5D8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "294F42D611636805"
+				structure: "cobblemon:fishing_boat/warm_ocean"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "757CC5AEF1D1014C"
+			rewards: [{
+				count: 5
+				id: "68F766DD88A4FDDC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5714D948241B553F"
+				structure: "cobblemon:fishing_boat/beach"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			id: "54FDAE9E5C044455"
+			rewards: [{
+				count: 5
+				id: "11DECB7E7535E290"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "069DA64A881B5602"
+				structure: "cobblemon:fishing_boat/deep_ocean"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			id: "6323CAA83554E65F"
+			rewards: [{
+				id: "46713B5F815B6D54"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "473AC881C845DDDF"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "412E84D1DC7B0347"
+			rewards: [{
+				count: 5
+				id: "0EB404BAEB4CC0EC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "383E1C359CD22B23"
+				structure: "#minecraft:jungle_pyramid"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 13.5d
+		}
+		{
+			id: "70BF10B9EB09C60C"
+			rewards: [{
+				count: 5
+				id: "77E83BBCF78D6F86"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59DCA71389D15288"
+				structure: "#minecraft:desert_pyramid"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/entity_icon/0999_gimmighoul/gimmighoul_chest.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D4DC66B06328696"
+			rewards: [{
+				count: 5
+				id: "7323EBC8D96E08BA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ED7FFC85D903D5A"
+				structure: "#cobblemon:gimmi_tower"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			id: "22F1F9F285EB431A"
+			rewards: [{
+				count: 25
+				id: "149FB3B86B30EB2D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62E563A35FBE5807"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			id: "50AF2CF07570EC22"
+			rewards: [{
+				count: 5
+				id: "66787BC6F0DD17A4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07DE59BD58F05BFE"
+				structure: "cobblemon:ruins/stonjourner_henge_ruins"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			id: "44624662E18C81FB"
+			rewards: [{
+				count: 5
+				id: "52C9F5968520BC62"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03539D0BFA521A80"
+				structure: "cobblemon:ruins/sol_henge_ruins"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			id: "3C1465D57194E426"
+			rewards: [{
+				count: 5
+				id: "0F4A2C4F2637903E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4AB2BB32CB2FBA"
+				structure: "cobblemon:ruins/luna_henge_ruins"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			id: "6411B5B7A98F7AA9"
+			rewards: [{
+				count: 5
+				id: "000C11000A142853"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21AC4C2819CCDE99"
+				structure: "cobblemon:ruins/unstable_cave_ruins"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			id: "0A258548F3467291"
+			rewards: [{
+				count: 5
+				id: "18FFF7B1AE672F33"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D82683157A20F8"
+				structure: "cobblemon:ruins/toppled_pillars_ruins"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			id: "2480FC5792C48CD0"
+			rewards: [{
+				count: 5
+				id: "18756028F702D05A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D91946976A03D5"
+				structure: "cobblemon:ruins/rooted_arch_ruins"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			id: "62F81A0B840A624E"
+			rewards: [{
+				count: 5
+				id: "1CF800A73D1E8D19"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17997ECA4429FA9B"
+				structure: "cobblemon:ruins/mossy_oubliette_ruins"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			id: "54FE1B47825F12B8"
+			rewards: [{
+				count: 5
+				id: "132ED2A252043ADD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D60B2BE84485018"
+				structure: "cobblemon:ruins/hidden_bunker_ruins"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			id: "0E183C7846CC2421"
+			rewards: [{
+				count: 5
+				id: "4B6143A6E02C8AC6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E50E28C22AF3286"
+				structure: "cobblemon:ruins/fallen_statue_ruins"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 8.5d
+		}
+		{
+			id: "7D3A2295DEE1F98F"
+			rewards: [{
+				count: 5
+				id: "53A4547871F777AA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D6EB1D94B4942E"
+				structure: "cobblemon:ruins/deserted_town_center_ruins"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			id: "7B255AF4B057BA43"
+			rewards: [{
+				count: 5
+				id: "36A9C266786175BB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1F119EBBA52A9A"
+				structure: "cobblemon:ruins/deserted_tower_ruins"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			id: "34EED6EA5419D804"
+			rewards: [{
+				count: 5
+				id: "199E67A6156FC104"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7299D975E84637AD"
+				structure: "cobblemon:ruins/deserted_house_ruins"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			id: "44101B7B4CD18835"
+			rewards: [{
+				count: 5
+				id: "41525AB39589F557"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/deserted_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3A53AF806AAC3DB9"
+				structure: "cobblemon:ruins/deserted_gimmi_tower"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			id: "4772E0DEEC8CB897"
+			rewards: [{
+				count: 5
+				id: "14A88458A700F6DF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/temperate_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "42628DB6D001F253"
+				structure: "cobblemon:ruins/temperate_gimmi_tower"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			id: "76630F41935C8ACC"
+			rewards: [{
+				count: 5
+				id: "22725650207A46FD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/sunscorched_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "358D6BB606EA85AD"
+				structure: "cobblemon:ruins/sunscorched_gimmi_tower"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "13193BCB3B0E046C"
+			rewards: [{
+				count: 5
+				id: "46237E9317B0B564"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/rooted_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1E1A0C3923AE5FCE"
+				structure: "cobblemon:ruins/rooted_gimmi_tower"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			id: "167660CB569E66B6"
+			rewards: [{
+				count: 5
+				id: "3CE95AF3689B3B5B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/lush_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "533BECC02D7604DD"
+				structure: "cobblemon:ruins/lush_gimmi_tower"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			id: "0F40E004D1D08283"
+			rewards: [{
+				count: 5
+				id: "04E976A097603EDF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "cobblepedia:textures/gui/entries/frozen_gimmi_tower.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "550A5A56349EF635"
+				structure: "cobblemon:ruins/frozen_gimmi_tower"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "5757FB087FC5C851"
+			rewards: [{
+				count: 10
+				id: "392B6DD8E3880180"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5936D3AF4B55A6C3"
+				structure: "#minecraft:ruined_portal"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "338994D4D79BA440"
+			rewards: [{
+				id: "5F8267A3E9A32C47"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_aquatic"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "20D0E4F25341E6D5"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "59F9FEE7DF36F8EF"
+			rewards: [{
+				id: "2CFF44E2DA83C4FB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_aquatic_icy"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "6C7BD108540D48DB"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "274316485B00001E"
+			rewards: [{
+				id: "1C4858B2699C0DED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_badlands"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "471AA07D31041B50"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "0B32B8B0AECF8C11"
+			rewards: [{
+				id: "17FACFF4B52E549E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_birch_forest"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "559815266868F3CD"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "17A9C4DBAE68BF21"
+			rewards: [{
+				id: "78FD00F9AF6CB20F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_cold/overworld"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "04C48F840B7AC026"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "483FBF01A817AEB3"
+			rewards: [{
+				id: "10A5D8A33B251789"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_deep_ocean"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "424E22824AD113AA"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "135AC36DFB68EC13"
+			rewards: [{
+				id: "5CF65C4157B8C6D5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_desert"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "2643A3F6EC1974E5"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "4203EE48BFDCFC62"
+			rewards: [{
+				id: "598E3E29C95D3AA3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_dry/overworld"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "4D20E4CBEFA845FD"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "5F07760F0A36A50A"
+			rewards: [{
+				id: "09AA1FB2DE30E60B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_dense_vegetation/overworld"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "60000F68D0F1B367"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "7CC945DF7C4A1EE9"
+			rewards: [{
+				id: "2C68BB1053AD897A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_dead"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "70086D0E67E47468"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "6668D3C8A52F43B8"
+			rewards: [{
+				id: "6E10828B2C69CDFD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_cave"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "7CCFFBBF7F850D58"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "731ADEE784A86E7E"
+			rewards: [{
+				id: "2B3445AE1FF5C886"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_beach"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "7ABDB69B45BB9674"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "54EFF2B2886C8B71"
+			rewards: [{
+				id: "0A79B516BDF29B9C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_floral"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "67412F69DBF2AE2E"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "3DF1071B62101DA7"
+			rewards: [{
+				id: "33E0A4C40E36534A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_flower_forest"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "1BB3FFBEFFA43888"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "4C4D41B86A00421A"
+			rewards: [{
+				id: "2DE0B29D21C69637"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_forest"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "7597398D5DB9969E"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "2AF3E341F3196B01"
+			rewards: [{
+				id: "2160E2B5491F15C2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_hill"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "6DD0C0346E588BEB"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "4BB6F3805809B706"
+			rewards: [{
+				id: "07C950155D433656"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_hot/overworld"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "3D61FE8E97242D50"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "33D100013630C828"
+			rewards: [{
+				id: "78DAAD2B53D457C1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_icy"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "61827A7D40C64849"
+				type: "biome"
+			}]
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "633FFBD4E5410392"
+			rewards: [{
+				id: "1BA2F33F7B4DB953"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_jungle"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "74D19C9D2B4B8961"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "1AF24E667FE89C1E"
+			rewards: [{
+				id: "72966F0D2E2CA506"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_lush"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "79894FA83D88EA19"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "50265677BF1AC6E7"
+			rewards: [{
+				id: "16E5898522D958E5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_magical"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "600D9FDD2BB6731E"
+				type: "biome"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "70241D9E021287D1"
+			rewards: [{
+				id: "1EB0DFA478FC55B5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_mountain"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "5CD532055F42A341"
+				type: "biome"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "6486F46FF659BBE5"
+			rewards: [{
+				id: "37E5179EF07BB239"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_floral"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "78C2C856A2A3CF56"
+				type: "biome"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "53604271ABBC379B"
+			rewards: [{
+				id: "674CCEA9AA777F8B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_mushroom"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "4F9E1535AB92487B"
+				type: "biome"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "351654868A7DA8F8"
+			rewards: [{
+				id: "72C1008383B35C90"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_ocean"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "2D559BADF6395838"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "0BF9513D299B1B3C"
+			rewards: [{
+				id: "6AAAA614A728DFE3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_old_growth"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "645BBD70FEA91515"
+				type: "biome"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "63BB9BD51301039C"
+			rewards: [{
+				id: "560B86C2F23659C2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_plains"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "03720C64B03D2973"
+				type: "biome"
+			}]
+			x: 11.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "7D3E86EBF32E7904"
+			rewards: [{
+				id: "22112753E0BB2370"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_plateau"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "7B558F3A8CE5D3F7"
+				type: "biome"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "77BC3822BB1DE61B"
+			rewards: [{
+				id: "3A415784590AB164"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_river"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "529C13073AF86618"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "69EDAC00E15A4A1C"
+			rewards: [{
+				id: "1D70AD926A76296B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_sandy"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "4ED253E713286355"
+				type: "biome"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "11454B25452DAA58"
+			rewards: [{
+				id: "28D6E8A5AC611E61"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_snowy"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "60120B515C378014"
+				type: "biome"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "3CB88A444D58C57C"
+			rewards: [{
+				id: "2CBFFF246DAD7162"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_savanna"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "003F03BF9B8389F9"
+				type: "biome"
+			}]
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "5C3E182BF4BBFA6D"
+			rewards: [{
+				id: "5B291C851B401AB2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_snowy_plains"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "0590140CE1642BC7"
+				type: "biome"
+			}]
+			x: 13.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "6755EF9FA05250D4"
+			rewards: [{
+				id: "362EE24CC642E3C4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_sparse_vegetation/overworld"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "45B915958AEDBC26"
+				type: "biome"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "4C1097C00AEBDEDA"
+			rewards: [{
+				id: "6D2BD383D21F66E8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_stony_shores"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "7F93D95F33053236"
+				type: "biome"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "4CD7759888249936"
+			rewards: [{
+				id: "5B0B9468D52D0D98"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_spooky"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "4415B574AEE79319"
+				type: "biome"
+			}]
+			x: 14.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "73FC3BAC6C2E89A4"
+			rewards: [{
+				id: "22C811D48A229871"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_swamp"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "3E6F1ACCF3D2F917"
+				type: "biome"
+			}]
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "062995B568C4B9F7"
+			rewards: [{
+				id: "233636F9410339E8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_taiga"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "528AD63F664C3714"
+				type: "biome"
+			}]
+			x: 16.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "1A9C2A8313ECA6C6"
+			rewards: [{
+				id: "7DB7D53E6D8F7B38"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:is_wasteland"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "385B6EDD234D6706"
+				type: "biome"
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			id: "746C5F9A4DECB0D4"
+			rewards: [{
+				id: "3B518B228BEFE1A7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "#c:islands"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "02A077DD06BC046E"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"54EFF2B2886C8B71"
+				"5C3E182BF4BBFA6D"
+				"338994D4D79BA440"
+				"59F9FEE7DF36F8EF"
+				"33D100013630C828"
+				"6755EF9FA05250D4"
+				"135AC36DFB68EC13"
+				"746C5F9A4DECB0D4"
+				"11454B25452DAA58"
+				"6486F46FF659BBE5"
+				"274316485B00001E"
+				"351654868A7DA8F8"
+				"3CB88A444D58C57C"
+				"77BC3822BB1DE61B"
+				"73FC3BAC6C2E89A4"
+				"483FBF01A817AEB3"
+				"0B32B8B0AECF8C11"
+				"4CD7759888249936"
+				"3DF1071B62101DA7"
+				"4C1097C00AEBDEDA"
+				"1AF24E667FE89C1E"
+				"0BF9513D299B1B3C"
+				"2AF3E341F3196B01"
+				"69EDAC00E15A4A1C"
+				"731ADEE784A86E7E"
+				"50265677BF1AC6E7"
+				"062995B568C4B9F7"
+				"4C4D41B86A00421A"
+				"63BB9BD51301039C"
+				"5F07760F0A36A50A"
+				"1A9C2A8313ECA6C6"
+				"4203EE48BFDCFC62"
+				"7CC945DF7C4A1EE9"
+				"53604271ABBC379B"
+				"6668D3C8A52F43B8"
+				"633FFBD4E5410392"
+				"70241D9E021287D1"
+				"4BB6F3805809B706"
+				"17A9C4DBAE68BF21"
+				"7D3E86EBF32E7904"
+				"70BF10B9EB09C60C"
+				"412E84D1DC7B0347"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "72DB3A8A2D50B940"
+			rewards: [
+				{
+					count: 3
+					id: "0CBE07A035EFDFBD"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542253DD7499DAFC"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "598ED8F3B73493A4"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 12.75d
+		}
+		{
+			id: "0DDE7C0CACBCD471"
+			rewards: [{
+				count: 5
+				id: "6EFCBD1960615FB4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E58C0B42E763BA2"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"43FC9C0EC5AD175F"
+				"6323CAA83554E65F"
+				"72DB3A8A2D50B940"
+				"78AC37C77AD1CC98"
+				"1D4DC66B06328696"
+				"3D82991330AE13B9"
+				"2CF48B9B38BE5B9B"
+				"4459E28F74E4CED8"
+				"74BE986C7780CC39"
+				"10F042BB78261CE1"
+				"75DD728FA12D28F1"
+				"1B0EEECA3ED3DA47"
+				"0745E6C53DF61BA7"
+				"262A99A8918B935C"
+				"4B3B95798745A9D0"
+				"2D9BC987E126C1E2"
+				"28D5B06D60651D60"
+				"55C95564A3A37653"
+				"1AEF00A2A665EB35"
+				"5B6C916800329A88"
+				"2AEEF92A29198E47"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1BDC0F629BAB70F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38B57F15BCC78B69"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "70D0C3FA369FF485"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "20E54399E39B1DC6"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			id: "3B07EB88755E08EF"
+			rewards: [{
+				count: 5
+				id: "60BF95DF8EAD0678"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "regions_unexplored:bioshroom_caves"
+				icon: {
+					id: "regions_unexplored:pink_bioshroom"
+				}
+				id: "542C7C36ECE91388"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			id: "60A4DF619EFF495F"
+			rewards: [{
+				count: 5
+				id: "612C93D72E76E510"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "regions_unexplored:ancient_delta"
+				icon: {
+					id: "regions_unexplored:dropleaf"
+				}
+				id: "6BEDA5449833B1D1"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "regions_unexplored:item/large_prismarite_cluster"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6D997C63EBE6A02A"
+			rewards: [{
+				count: 5
+				id: "22B44C58085B6FD5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "regions_unexplored:prismachasm"
+				id: "09FEB0527695E544"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			id: "3D49A8A34A3CC673"
+			rewards: [{
+				count: 5
+				id: "619411CD4AF23CF1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "regions_unexplored:redstone_caves"
+				icon: {
+					components: {
+						"ftbquests:icon": "regions_unexplored:block/pointed_redstone_down_base"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "342CAF03014DD2A3"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			id: "3A32C346F1F55BEC"
+			rewards: [{
+				count: 5
+				id: "293D696001F5A461"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "regions_unexplored:scorching_caves"
+				icon: {
+					id: "minecraft:magma_block"
+				}
+				id: "70EDDDE41E429C5B"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			id: "7AD86288A5418128"
+			rewards: [{
+				count: 5
+				id: "534364294DAEDE86"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				icon: {
+					id: "minecraft:pointed_dripstone"
+				}
+				id: "5F75688642897A4E"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			id: "3B268EC5F0EC0041"
+			rewards: [{
+				count: 5
+				id: "08F1B06492E74CA1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/cave_vines_plant_lit"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "119B38E355B03538"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			id: "45F8C7A36FDD9F16"
+			rewards: [{
+				count: 25
+				id: "2834DE7F0D9EF2E3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59FDF714AD065180"
+				item: { count: 1, id: "cataclysm:the_annihilator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			id: "4E82A8A39731A2DC"
+			rewards: [{
+				count: 25
+				id: "22D77221DA714054"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0398A92C581928E0"
+				item: { count: 1, id: "cataclysm:cursed_bow" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			id: "738D8A08BE69AA11"
+			rewards: [{
+				count: 25
+				id: "61A6CF2FAD6AECDA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5130513515F81D20"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			id: "3CCB395C5CA9F640"
+			rewards: [{
+				count: 25
+				id: "20F0CE1A2C7EB3D9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "529860E69144FCB9"
+				item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "398441CD29E3A14B"
+			tasks: [{
+				id: "299AFB2F2E93C9C5"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			id: "56FB22A27ACA81B4"
+			tasks: [{
+				id: "1B7E741CAB84C412"
+				item: { count: 1, id: "betterarcheology:artifact_shards" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			id: "59807D1E1AC7D349"
+			tasks: [{
+				id: "3D4F8BE314245537"
+				item: { count: 1, id: "betterarcheology:unidentified_artifact" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			id: "01AE6EF033985542"
+			rewards: [{
+				count: 5
+				id: "269C1252146D0015"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E51FAAB96F147DF"
+				structure: "kobolds:kobold_den_pirate"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			id: "37C21BDF7F903CF1"
+			rewards: [{
+				count: 5
+				id: "0F9A0552609B8BEC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D05F04BA572E371"
+				structure: "kobolds:kobold_den"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2FA485A860B2156C"
+			rewards: [{
+				id: "108DB0EC6776F214"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3358043271F4FD6C"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"000768A06AA413E0"
+				"0E3ABE7644D7103F"
+				"01AE6EF033985542"
+				"60A4DF619EFF495F"
+				"3D49A8A34A3CC673"
+				"3A32C346F1F55BEC"
+				"3B268EC5F0EC0041"
+				"3C873E2A40757897"
+				"6D997C63EBE6A02A"
+				"0B2DCD35D65BEE9A"
+				"7AD86288A5418128"
+				"294DCFFBD6CC24E1"
+				"37C21BDF7F903CF1"
+				"3F4C872BD3BDE907"
+				"3B07EB88755E08EF"
+				"43FC9C0EC5AD175F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CF48B9B38BE5B9B"
+			rewards: [
+				{
+					id: "738DDFAA5E646734"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B7F40BD23EB3CFD"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "698902832C1A71E9"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6411B5B7A98F7AA9"
+				"398441CD29E3A14B"
+				"7D3A2295DEE1F98F"
+				"2480FC5792C48CD0"
+				"7B255AF4B057BA43"
+				"56FB22A27ACA81B4"
+				"735B80F0E99F453C"
+				"5757FB087FC5C851"
+				"0E183C7846CC2421"
+				"50AF2CF07570EC22"
+				"5FF2E4317771175F"
+				"59807D1E1AC7D349"
+				"781EBCD4D8F1368B"
+				"3C1465D57194E426"
+				"5EF4CF4F7BDD5693"
+				"62F81A0B840A624E"
+				"44624662E18C81FB"
+				"34EED6EA5419D804"
+				"7BB97C394B4EF7F7"
+				"130B2FCFDB76A008"
+				"0A258548F3467291"
+				"54FE1B47825F12B8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4459E28F74E4CED8"
+			rewards: [
+				{
+					count: 3
+					id: "4BA6C211F03709EB"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C0A311496DE644"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "32CA69E5A801AC6C"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"227C03013F0629AA"
+				"54FDAE9E5C044455"
+				"52F95A2C42064457"
+				"627C3A3D93D01F99"
+				"5B6C916800329A88"
+				"0DDE7C0CACBCD471"
+				"757CC5AEF1D1014C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0745E6C53DF61BA7"
+			rewards: [
+				{
+					id: "5AC3CF09E4C1F629"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AEE6663B2D9A053"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "05AF809E0D14874E"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1B605488859A3633"
+				"78AC37C77AD1CC98"
+				"6D09BBEF0FBE50FC"
+				"5B8CA5CE8F9A305D"
+				"2291F4B10A6F0C28"
+				"0B7D842F670C4E37"
+				"21F1C7AA64929142"
+				"4E82A8A39731A2DC"
+				"10F042BB78261CE1"
+				"1C94415C2C3A25FF"
+				"63DBB8F5A6868AC5"
+				"1CE84F30F258156E"
+				"45F8C7A36FDD9F16"
+				"22F1F9F285EB431A"
+				"2777A1DE0054F24E"
+				"1CCE03C082C2B2FB"
+				"5CBA8FC88DC9F483"
+				"2D9BC987E126C1E2"
+				"29E7AA0B5979DD6F"
+				"10D371924AF386A9"
+				"6EE08284541A45A2"
+				"738D8A08BE69AA11"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2AEEF92A29198E47"
+			rewards: [
+				{
+					count: 3
+					id: "75305130184A2957"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A4355BF24ABB21F"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "7B1FA40F54047B3D"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			id: "1020019D768F85B0"
+			rewards: [{
+				count: 5
+				id: "71DDE880D2F51CA4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C099829E53A1CC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(boatload:large_boats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			id: "26C8FAC109291BDA"
+			rewards: [{
+				count: 5
+				id: "2B7B80D16F228E58"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3073DDE4902F53"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:chest_boats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "028E8F95770BBF45"
+			rewards: [{
+				count: 5
+				id: "349418945BCEDF84"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29763FE27BB246D0"
+				item: { count: 1, id: "boatload:wide_bamboo_raft" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "61BAF9C2C35F4AD4"
+			rewards: [{
+				count: 5
+				id: "0681658AF3970F7E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "220AF057BF8E9D10"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(boatload:furnace_boats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+	]
 }

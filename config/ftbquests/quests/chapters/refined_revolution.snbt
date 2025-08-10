@@ -1,0 +1,1106 @@
+{
+	autofocus_id: "44119808A5477776"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_revolution"
+	group: "4669DE74F6076139"
+	icon: {
+		id: "refinedstorage:creative_controller"
+	}
+	id: "5AB88439FAB04AA4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "064E9F11A5441981"
+			rewards: [{
+				count: 5
+				id: "3108071F4A81BD9D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB7CA48E437E0DB"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:grids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "40BA3B98D52B2E5F"
+			rewards: [{
+				count: 5
+				id: "6FAFF25971950F36"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FF216A304FA39B8"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:pattern_grids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "6A637F4F0BF6D11F"
+			rewards: [{
+				count: 10
+				id: "4E7853C67535FCCD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E82A34D35FF1CA8"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:crafting_grids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "025F5967B5E9C84A"
+			rewards: [{
+				count: 10
+				id: "6F4B9DEA6CA662AA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BB2C0D74D5FB0FA"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:autocrafter_managers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "2E0C11A4B25D55B1"
+			rewards: [{
+				count: 10
+				id: "3ED566814E2F4F70"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E17D2878DC59FEF"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:autocrafters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "5B52483DDE9A51EC"
+			rewards: [{
+				count: 10
+				id: "20A0F0FC35439BDC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "344E265BC7C48750"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:autocrafting_monitors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			id: "0DF116B87AA89073"
+			rewards: [{
+				count: 5
+				id: "2639381A1CB358D0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "05AF0F0FD5F5207E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:cables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "1C477E752C701019"
+			rewards: [{
+				count: 10
+				id: "0879660BDDF9E7AB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A27838AEB0E03C9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:constructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "refinedstorage:orange_creative_controller"
+			}
+			id: "44119808A5477776"
+			rewards: [{
+				count: 10
+				id: "6DE1874A9A522A83"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3B1F1183F69CDBE7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "6B2765D1E1B3781B"
+			rewards: [{
+				count: 10
+				id: "32B2CFED52307E16"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7929823B03CD9C26"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:destructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "7CA3F40B8CAD15E3"
+			rewards: [{
+				count: 10
+				id: "6B939AC4EA836F6B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32DCC1A62A682D6E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:detectors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "6FAF782D1458FF95"
+			rewards: [{
+				count: 5
+				id: "6FA8A8EAA45AB842"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A858237AF1B26C9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:disk_interfaces)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "00C2DBE008D05E3C"
+			rewards: [{
+				count: 10
+				id: "705FA276E3BDDA5C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A3A53D04AC17564"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:exporters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "4F0069BBF559A0EA"
+			rewards: [{
+				count: 10
+				id: "1F7C03A685279755"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A84AE49BEF9756"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:external_storages)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "722D9A1C4CA25E65"
+			rewards: [{
+				count: 5
+				id: "063DA7E8391665E6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1758EA133F674795"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:fluid_storage_disks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "270A11E01395976A"
+			rewards: [{
+				count: 10
+				id: "3B02E28E390D5172"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0221530CB5C7777A"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:importers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "5F7FC46D12719121"
+			rewards: [{
+				count: 10
+				id: "44117D7F7579519E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D0E2E55A628E524"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:network_receivers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			id: "3BF231253730F9B3"
+			rewards: [{
+				count: 10
+				id: "6CF0E31ADE831F38"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51840BA2EFDEF4E0"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:network_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			id: "358E0E2FF11C07A7"
+			rewards: [{
+				count: 10
+				id: "7140791F56296A94"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E381A197A44C663"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:relays)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			id: "7E881C56D7629A64"
+			rewards: [{
+				count: 5
+				id: "29D177B97423E320"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0393AA9CAB928F"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:storage_disks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "2E83689C05C5DD60"
+			rewards: [{
+				count: 10
+				id: "1F27A78D0809E076"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "491A8881B301D6C4"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(refinedstorage:wireless_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			id: "0312D68F03DB1750"
+			rewards: [{
+				count: 5
+				id: "4DB0E2D7164FAD4D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F6A0828073C80A7"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "3DEDD7596C0036DE"
+			rewards: [{
+				count: 5
+				id: "20448567168D11DB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51EEFE0A2662B94D"
+				item: { count: 1, id: "refinedstorage:wrench" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "7D659169B5791AE3"
+			rewards: [{
+				count: 10
+				id: "457749635C18033E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07CF2E95BE04CBBF"
+				item: { count: 1, id: "refinedstorage:stack_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			id: "26C22D7262A4101A"
+			rewards: [{
+				count: 10
+				id: "24848402692EE7C6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02FBCDD41E63E769"
+				item: { count: 1, id: "refinedstorage:regulator_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			id: "7003ABB52D497D47"
+			rewards: [{
+				count: 5
+				id: "5B77297586E3E559"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "716CE5612411A1F1"
+				item: { count: 1, id: "refinedstorage:construction_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			id: "28FAF632CF2AB377"
+			rewards: [{
+				count: 5
+				id: "7DA5B12DBF62CAC9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "450BD12997A80CF1"
+				item: { count: 1, id: "refinedstorage:raw_basic_processor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			id: "1C2267A9BE26E0DF"
+			rewards: [{
+				count: 10
+				id: "1F32E28A99BFAAA6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E9953C068B9B3E"
+				item: { count: 1, id: "refinedstorage:basic_processor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			id: "6C420CC8EB00E99D"
+			rewards: [{
+				count: 5
+				id: "045661F46BBE70CE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A612522289162C"
+				item: { count: 1, id: "refinedstorage:raw_improved_processor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			id: "5D4F112681879A74"
+			rewards: [{
+				count: 5
+				id: "56BEC8992A69E33F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D8EEDB3BE44919"
+				item: { count: 1, id: "refinedstorage:raw_advanced_processor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "050046789B7A00D2"
+			rewards: [{
+				count: 10
+				id: "2CF8189B245B48E5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DA6473398BFDD2"
+				item: { count: 1, id: "refinedstorage:improved_processor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			id: "639FD7E975B28CDE"
+			rewards: [{
+				count: 10
+				id: "02635F670742D295"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B12C6A9761EE278"
+				item: { count: 1, id: "refinedstorage:advanced_processor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			id: "3AB02A2C287089CD"
+			rewards: [{
+				count: 5
+				id: "1205DEE656FDAB06"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FAD0740D0637EBE"
+				item: { count: 1, id: "refinedstorage:processor_binding" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			id: "32CCA92495103810"
+			rewards: [{
+				count: 10
+				id: "2F9C450678E3BBE3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BA63AAA09F769A3"
+				item: { count: 1, id: "refinedstorage:destruction_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			id: "7A7C93A054DA32C5"
+			rewards: [{
+				count: 10
+				id: "20A1C79D7C95FC43"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16E5999611103B69"
+				item: { count: 1, id: "refinedstorage:range_upgrade" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			id: "089F96CAAAE2500F"
+			rewards: [{
+				count: 10
+				id: "18F4A093ECCC2F85"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C3B4FCA7B4653E6"
+				item: { count: 1, id: "refinedstorage:network_card" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_exclamation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5878EDD27F4A86F0"
+			rewards: [{
+				count: 5
+				id: "3A918A38B9F3535E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E678482C0D2BA1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			id: "1FD060E85672C086"
+			rewards: [{
+				count: 10
+				id: "3B70B99A746DA533"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A84573EF7302FAD"
+				item: { count: 1, id: "refinedstorage:wireless_grid" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			id: "297E074F12B30F6B"
+			rewards: [{
+				count: 10
+				id: "40D1B2CD1E9D8FAB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14DA964323AE0518"
+				item: { count: 1, id: "refinedstorage:wireless_autocrafting_monitor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			id: "26C317E5375C3BE7"
+			rewards: [{
+				count: 10
+				id: "7F47C6E2A0A81034"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29DE856C3636F9B1"
+				item: { count: 1, id: "refinedstorage:speed_upgrade" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			id: "6638BFCBEFC36D76"
+			rewards: [{
+				count: 10
+				id: "6B89940537B927FF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "261454643680F20B"
+				item: { count: 1, id: "refinedstorage:fortune_1_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			id: "12901E9A3095F0FE"
+			rewards: [{
+				count: 10
+				id: "030328FCB127E62E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA8AEB5B2C4F76E"
+				item: { count: 1, id: "refinedstorage:fortune_2_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			id: "519C82EC7A26199F"
+			rewards: [{
+				count: 10
+				id: "3C25D1EB31E3C84B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BACB1D94CB389DE"
+				item: { count: 1, id: "refinedstorage:fortune_3_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			id: "7664D59D964CA523"
+			rewards: [{
+				count: 10
+				id: "76E7FD192CCC8F66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51174AC8C6F0E24B"
+				item: { count: 1, id: "refinedstorage:silk_touch_upgrade" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			id: "15DAE5F32CF8369F"
+			rewards: [{
+				count: 10
+				id: "48BB3B8A622CCC7E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "471B268A990CAF38"
+				item: { count: 1, id: "refinedstorage:autocrafting_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.0d
+		}
+		{
+			id: "0568FF555D9A1F6E"
+			rewards: [{
+				count: 5
+				id: "377070CD7119725A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30AC3C4378218D11"
+				item: { count: 1, id: "refinedstorage:interface" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "0AD70F9F26F740FC"
+			rewards: [{
+				count: 10
+				id: "1E07E4AE6A37C5AD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54FA722D0926FE56"
+				item: { count: 1, id: "refinedstorage:pattern" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "411EB9A7F8563EA4"
+			rewards: [{
+				count: 10
+				id: "5746885BF7ACDD03"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69B857A1BC2DC4DC"
+				item: { count: 1, id: "refinedstorage:security_manager" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			id: "3F6014541B320379"
+			rewards: [{
+				count: 5
+				id: "10D3606E1D4C5EF8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79057F9BBF9A13E6"
+				item: { count: 1, id: "refinedstorage:security_card" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			id: "407BD4D1A9E6418B"
+			rewards: [{
+				count: 5
+				id: "0301021D5845714C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3EE7C7E0A1CEA3"
+				item: { count: 1, id: "refinedstorage:fallback_security_card" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			id: "5A7BD9F7F2C2658C"
+			rewards: [{
+				count: 5
+				id: "76F682A8EA2C0261"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F466E559A9F606C"
+				item: { count: 1, id: "refinedstorage:silicon" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4F0069BBF559A0EA"
+				"0DF116B87AA89073"
+				"28FAF632CF2AB377"
+				"270A11E01395976A"
+				"0312D68F03DB1750"
+				"6C420CC8EB00E99D"
+				"5B52483DDE9A51EC"
+				"639FD7E975B28CDE"
+				"5D4F112681879A74"
+				"064E9F11A5441981"
+				"358E0E2FF11C07A7"
+				"025F5967B5E9C84A"
+				"3AB02A2C287089CD"
+				"44119808A5477776"
+				"7003ABB52D497D47"
+				"089F96CAAAE2500F"
+				"2E83689C05C5DD60"
+				"5A7BD9F7F2C2658C"
+				"5F7FC46D12719121"
+				"0AD70F9F26F740FC"
+				"2E0C11A4B25D55B1"
+				"6A637F4F0BF6D11F"
+				"407BD4D1A9E6418B"
+				"0568FF555D9A1F6E"
+				"411EB9A7F8563EA4"
+				"1FD060E85672C086"
+				"00C2DBE008D05E3C"
+				"6FAF782D1458FF95"
+				"050046789B7A00D2"
+				"3BF231253730F9B3"
+				"40BA3B98D52B2E5F"
+				"7E881C56D7629A64"
+				"1C477E752C701019"
+				"6B2765D1E1B3781B"
+				"7CA3F40B8CAD15E3"
+				"32CCA92495103810"
+				"297E074F12B30F6B"
+				"3DEDD7596C0036DE"
+				"1C2267A9BE26E0DF"
+				"722D9A1C4CA25E65"
+				"3F6014541B320379"
+				"18BE939D5C3FACA8"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "02BF65337163E3B3"
+			rewards: [
+				{
+					id: "495DDE7F4F7044FA"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E7FB9059971329"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "2F8AEBA64C274447"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"12901E9A3095F0FE"
+				"7A7C93A054DA32C5"
+				"7D659169B5791AE3"
+				"6638BFCBEFC36D76"
+				"7664D59D964CA523"
+				"519C82EC7A26199F"
+				"26C317E5375C3BE7"
+				"15DAE5F32CF8369F"
+				"26C22D7262A4101A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "18BE939D5C3FACA8"
+			rewards: [{
+				id: "69F7E69BD9959DB3"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "296D0C045006E984"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+	]
+}

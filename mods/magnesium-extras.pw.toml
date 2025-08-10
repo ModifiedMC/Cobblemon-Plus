@@ -1,13 +1,13 @@
 name = "Sodium/Embeddium Extras"
-filename = "sodiumextras-neoforge-1.0.7-1.21.1.jar"
+filename = "sodiumextras-neoforge-1.0.8-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "70ae3f6f3c5825d542a60d98ec7007270d385f5f"
+hash = "d678f6eb28fec11f3e99bc7f17f5e385703bc44a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6041699
+file-id = 6394141
 project-id = 558905

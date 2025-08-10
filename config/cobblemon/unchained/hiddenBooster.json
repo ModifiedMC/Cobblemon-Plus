@@ -1,12 +1,13 @@
 {
-  "koStreakPoints": 100,
-  "koCountPoints": 1,
-  "captureStreakPoints": 0,
-  "captureCountPoints": 0,
+  "koStreakPoints": 0.0,
+  "koCountPoints": 1.0,
+  "captureStreakPoints": 0.0,
+  "captureCountPoints": 0.0,
   "thresholds": {
-    "99": 1
+    "99": 1.0
   },
   "marbles": 5,
+  "defaultValue": 1.0,
   "debug": false,
   "blacklist": [],
   "whitelist": [],

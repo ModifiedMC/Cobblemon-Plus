@@ -37,7 +37,7 @@
 			y: -1.5d
 		}
 	]
-	order_index: 8
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -48,6 +48,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "641829A8BDA025CB"
+			rewards: [{
+				count: 5
+				id: "02F21B728850D0B8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AD3941FE8028987"
 				type: "checkmark"
@@ -63,14 +72,25 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "02FD79EADB51EBC0"
-			rewards: [{
-				id: "43E1A7A888387D9C"
-				item: {
-					count: 1
-					id: "cobblemon:pokerod_smithing_template"
+			rewards: [
+				{
+					id: "43E1A7A888387D9C"
+					item: {
+						count: 1
+						id: "cobblemon:pokerod_smithing_template"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 5
+					id: "61B40729C3A38886"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: false
@@ -95,12 +115,23 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "56D889B6AF3BF89A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E6C0750E922421E"
-				table_id: 3792728936859240753L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E6C0750E922421E"
+					table_id: 3792728936859240753L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "7720B7D89EB7DE84"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "202E55490CD5350B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblemon:berries)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -117,6 +148,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "4E26EAF8AB40DA65"
+			rewards: [{
+				count: 5
+				id: "64DB7E1F87EDCEEC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66CEB846C28BF8CB"
 				type: "checkmark"
@@ -127,14 +167,6 @@
 		{
 			id: "298BEFED52443273"
 			rewards: [
-				{
-					id: "16720E76EEF17690"
-					item: {
-						count: 1
-						id: "cobblemon:pasture"
-					}
-					type: "item"
-				}
 				{
 					count: 3
 					id: "02FAD4C12A00E132"
@@ -149,6 +181,15 @@
 					id: "567F3F01A3511218"
 					table_id: 3792728936859240753L
 					type: "random"
+				}
+				{
+					count: 5
+					id: "41187120B8D49800"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -167,6 +208,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "71AE3633F61FD6A5"
+			rewards: [{
+				count: 5
+				id: "35051C299F166B69"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A22F21D4514AC08"
 				type: "checkmark"
@@ -182,6 +232,15 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2E4AFEB3B97245C5"
+			rewards: [{
+				count: 5
+				id: "64A401930752DA07"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18C3A3D257515DC9"
 				type: "checkmark"
@@ -198,11 +257,11 @@
 			}
 			id: "1E7128595422D3B8"
 			rewards: [{
-				count: 3
-				id: "6CD9B9B3C8DB4BE5"
+				count: 5
+				id: "6F10BF351FDA4380"
 				item: {
 					count: 1
-					id: "cobblemon:mirror_herb"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
@@ -225,6 +284,15 @@
 				id: "mcwholidays:stars_wall_deco"
 			}
 			id: "5FF89891E9345218"
+			rewards: [{
+				count: 5
+				id: "49EBBBCAD51F7A9E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1818972F56B9C67A"
 				type: "checkmark"
@@ -241,7 +309,8 @@
 			}
 			id: "2070339C4B12CEC3"
 			rewards: [{
-				id: "00A20346E9BCD66A"
+				count: 5
+				id: "3582E3C1191F609B"
 				item: {
 					count: 1
 					id: "modified:pokedollar"

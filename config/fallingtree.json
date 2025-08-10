@@ -7,7 +7,9 @@
     "deniedLeaves": [],
     "breakMode": "INSTANTANEOUS",
     "detectionMode": "WHOLE_TREE",
+    "detectionModeBiomeOverride": {},
     "maxScanSize": 500,
+    "minSize": 0,
     "maxSize": 100,
     "maxLeafDistanceFromLog": 15,
     "maxSizeAction": "ABORT",
@@ -23,7 +25,8 @@
     "searchAreaRadius": -1,
     "allowedAdjacentBlocks": [],
     "adjacentStopMode": "STOP_ALL",
-    "spawnItemsAtBreakPoint": false
+    "spawnItemsAtBreakPoint": false,
+    "trunkLootPercentage": 1.0
   },
   "tools": {
     "allowed": [],

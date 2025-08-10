@@ -1,0 +1,11 @@
+{
+	id: "705F4A199D1D4818"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{ id: "1A7350159482A0CB", item: { count: 1, id: "weavers_cosmetics_cosplay:links_tunic_kokiri_helmet" } }
+		{ id: "3E240670261E2F04", item: { count: 1, id: "weavers_cosmetics_cosplay:links_tunic_goron_helmet" } }
+		{ id: "400AE3D12BE331FB", item: { count: 1, id: "weavers_cosmetics_cosplay:links_tunic_zora_helmet" } }
+		{ id: "4AB17801C63BD2E5", item: { count: 1, id: "weavers_cosmetics_cosplay:links_tunic_dark_helmet" } }
+	]
+}

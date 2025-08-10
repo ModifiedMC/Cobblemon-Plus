@@ -1,13 +1,13 @@
 name = "Improved Village Placement"
-filename = "improved_village_placement_1.0.0.jar"
+filename = "improved-village-placement-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "46d1f5091c9fcf8122587c5388067826a0b125ea"
+hash = "15740b951061eea637a36a967d64085f9375a932"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6070620
+file-id = 6680730
 project-id = 1175325

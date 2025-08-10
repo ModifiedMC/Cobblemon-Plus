@@ -1,4 +1,5 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ores_beneath_the_surface"
@@ -10,15 +11,6 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			id: "7E3BCB0A4C7598E3"
-			tasks: [{
-				id: "32F3B4E8DCD18DE1"
-				type: "custom"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
 		{
 			id: "4B40BEBAF65F7A8F"
 			rewards: [
@@ -38,14 +30,24 @@
 					}
 					type: "item"
 				}
+				{
+					count: 50
+					id: "5C3D86181D5B6C81"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "709F0B4464F39D96"
 				item: { count: 1, id: "allthemodium:teleport_pad" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			id: "31270876DE747651"
@@ -68,7 +70,7 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 50
 					id: "1382310223D4B694"
 					item: {
 						count: 1
@@ -76,14 +78,21 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "46B03B018337896A"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "7AD0D767DB3C2045"
 				item: { count: 1, id: "allthemodium:allthemodium_ore" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 14.5d
+			y: 0.0d
 		}
 		{
 			id: "4E73E84B766893C1"
@@ -106,22 +115,28 @@
 					type: "item"
 				}
 				{
-					count: 10
 					id: "23E3C848308DD543"
 					item: {
 						count: 1
-						id: "modified:pokedollar"
+						id: "modified:mtoken"
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "54F2C132AC0645EC"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "255F6411E9E9B515"
 				item: { count: 1, id: "allthemodium:vibranium_ore" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			id: "7FED8C5B8B3F0DA7"
@@ -144,8 +159,42 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "04EACDCE82F81065"
+					count: 3
+					id: "05CA74A221E362C8"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14546AE24E2EA4C6"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "54AB333D90768E88"
+				item: { count: 1, id: "allthemodium:unobtainium_ore" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "608B7D3BFB1C27EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DFBAB9C905FC0F0"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "23C3E5D0E6678C33"
 					item: {
 						count: 1
 						id: "modified:pokedollar"
@@ -154,12 +203,767 @@
 				}
 			]
 			tasks: [{
-				id: "54AB333D90768E88"
-				item: { count: 1, id: "allthemodium:unobtainium_ore" }
+				id: "074C51A42B20A9C1"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:coal_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "5220FDC2E7DE16A3"
+			rewards: [{
+				id: "1E2297FC6FAA6C3E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "564593954AB7939B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4BA8BB997E54452A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71FF08EDE0DD6348"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "44752B871F62C9BE"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A02103C52BF5819"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:diamond_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "17DBD429771F8C25"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0876A6AE914002A9"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "7D73AAA52CA378BA"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2027CE2D87D0381E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:emerald_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "46D666F30E8EA421"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F77B504F5625048"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "69A0177F428C6AE3"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "301A7164E4D45A55"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:gold_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "1635B575A22BA5F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "324214E62B258E5D"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "4A205DAC898AC5FA"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "359725F7885D92E2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:lapis_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "1CACB96F55BDD0AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738B68D8B8F3E5BF"
+				table_id: 5908052254546743763L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0234BD2629688BF8"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(cobblemon:evolution_stones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "0142DD7C7FF2F4F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37F158AF861A390C"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "56243F533E767783"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C99A6FEB2F3DE67"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:iron_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "01BADC4896B031A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "536099B1CCC15ADA"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "2892B99CB0FAEA69"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61FDEF5E70574004"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:copper_ores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "14BF24B456AAAA1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29C5689F2546A6AB"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "45752C1D65721BD4"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D398152DAE02120"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "56B0025B29BBFAC1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "537CBD35A37B6284"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0391416DD33493C2"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F363ADCC809F889"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/tin)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "5C7E0ED690E9A4DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BBAFC7997B22A78"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "18A7A76200184C3A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "728162DF0CB7A421"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/zinc)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "4BE1611B889CDCF8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "365944E9B16D8C54"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "4F187308AF139729"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64AE406479B34025"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/platinum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "6C10A2CEFBA5CE55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53B5EEF594B724C9"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0C95C0A7034B3AA3"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C2D6C21D49478FB"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/salt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "26E5EFE7E4F48364"
+					item: { count: 1, id: "croptopia:salt_ore" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "435478D592B7E6E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CD6F84870A6217E"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "5E5146B1A778CC58"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A0EE204CA009DC8"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/aluminum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "2ACCFEDA94E8C31F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0995AB0B2E6AF85A"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "2DB203EEA86729F1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "066E20269E3D7D7D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/fluorite)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "12DAAE52A8A3F7BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A88CFBBD8F1B7AF"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "19D4241B706E02EB"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "331B779B2ECA3FCE"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/iridium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "0762701AF880B506"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1628BB588A44ECC5"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "50F119F4B35A1202"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2154D65C3343A8D5"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			id: "6B909C51D2EFE12E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AC8AC5B1368C250"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0CD7A72B48A8AE5E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A97AFCBFD091BE1"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/osmium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "781CC1B9E9F13971"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "683C306D331AD8E7"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "4F0829814501D7ED"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A98F06C61D7E4FB"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/peridot)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "775F04C8BFAEB22E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D1347051A38CED4"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "5735074ADD87C043"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20D127798BB5C9ED"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/quartz)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "711DA7E6AC6EA142"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7267F6439A457369"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "222749E8EF8E4FD2"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63E0BA0E39E8E7E3"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/ruby)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "09364CCE8E4A5DB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "250542755C0241F7"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "5A3654FBD33AF691"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A43B2B39CD58DB6"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/sapphire)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "3CA07FC41C430262"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "277B411AC1EC7A55"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "12EFAA7529621FE6"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BCEF60C6DFD3FED"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/silver)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "157AC588649CF43E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6149CD2292472293"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "61B232413C84B7A0"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44C6342AABE9482D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/sulfur)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "47C1A23A60B383C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19D1D2D7DFBBD526"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "481617DEA16C5C7D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D60312706B58124"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/uranium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "52E6205E59FA7469"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35B7F4511DF80887"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "0A3E0755A4B48127"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57203180F197315F"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ores/redstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B909C51D2EFE12E"
+				"608B7D3BFB1C27EF"
+				"3CA07FC41C430262"
+				"17DBD429771F8C25"
+				"47C1A23A60B383C1"
+				"46D666F30E8EA421"
+				"09364CCE8E4A5DB9"
+				"4BA8BB997E54452A"
+				"157AC588649CF43E"
+				"4E73E84B766893C1"
+				"56B0025B29BBFAC1"
+				"435478D592B7E6E2"
+				"775F04C8BFAEB22E"
+				"12DAAE52A8A3F7BC"
+				"711DA7E6AC6EA142"
+				"1635B575A22BA5F3"
+				"5C7E0ED690E9A4DC"
+				"4BE1611B889CDCF8"
+				"2ACCFEDA94E8C31F"
+				"01BADC4896B031A3"
+				"781CC1B9E9F13971"
+				"52E6205E59FA7469"
+				"7FED8C5B8B3F0DA7"
+				"6C10A2CEFBA5CE55"
+				"31270876DE747651"
+				"0142DD7C7FF2F4F5"
+				"14BF24B456AAAA1F"
+				"0762701AF880B506"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "06BA3769DB4EB2EB"
+			rewards: [
+				{
+					id: "6F8515CD1E5E80E9"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FDF14CB7A154188"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2F22C13510334E99"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -3.75d
 		}
 	]
 }

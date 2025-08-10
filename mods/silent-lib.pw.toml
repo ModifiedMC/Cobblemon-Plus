@@ -1,13 +1,13 @@
 name = "Silent Lib (silentlib)"
-filename = "silent-lib-1.21.1-neoforge-10.4.0.jar"
+filename = "silent-lib-1.21.1-neoforge-10.5.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "75fc2618dfa212b251ae710ac8244e124f0d843a"
+hash = "b08b639706ce8cbc426045501b7f2da59eceb14f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6285150
+file-id = 6565251
 project-id = 242998

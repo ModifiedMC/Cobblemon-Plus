@@ -1,5 +1,6 @@
 {
 	autofocus_id: "4090EF7D28DCA27F"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "medicine"
@@ -16,7 +17,7 @@
 		x: 1.0d
 		y: -2.0d
 	}]
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -936,6 +937,244 @@
 			}]
 			x: -5.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["766692BF4F783126"]
+			id: "5DDC2F02A678119B"
+			rewards: [
+				{
+					count: 2
+					id: "18EC699816433BA2"
+					item: {
+						count: 1
+						id: "cobblemon:max_ether"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3D0FDF0E85F91A5B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49B7C5259755A13E"
+				item: { count: 1, id: "cobblemon:max_ether" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["766692BF4F783126"]
+			id: "3BC6F1902AB4DF2B"
+			rewards: [
+				{
+					count: 3
+					id: "07D96E58C48A9AE2"
+					item: {
+						count: 1
+						id: "cobblemon:ether"
+					}
+					type: "item"
+				}
+				{
+					id: "2C99024ACA14AC9B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B50B9BA298B1822"
+				item: { count: 1, id: "cobblemon:ether" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["766692BF4F783126"]
+			id: "661B8D0DF40290CD"
+			rewards: [
+				{
+					count: 2
+					id: "784B688D8C04FC36"
+					item: {
+						count: 1
+						id: "cobblemon:max_elixir"
+					}
+					type: "item"
+				}
+				{
+					id: "1C8F14C1E526A53C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A1D43777C8877DD"
+				item: { count: 1, id: "cobblemon:max_elixir" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["766692BF4F783126"]
+			id: "199BCCAAE2200C63"
+			rewards: [
+				{
+					count: 3
+					id: "6C77AFF223E29433"
+					item: {
+						count: 1
+						id: "cobblemon:elixir"
+					}
+					type: "item"
+				}
+				{
+					id: "6461D842B00E29DE"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C2F03BA57741879"
+				item: { count: 1, id: "cobblemon:elixir" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "766692BF4F783126"
+			rewards: [{
+				id: "0DD49C5BF24F5116"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A154881FC881589"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2304C7759F710EC7"
+				"37865F6E44E977C6"
+				"7A3F6967D5410C1E"
+				"6E3CFD9314B56992"
+				"3BC6F1902AB4DF2B"
+				"4384F8BEBF860677"
+				"4090EF7D28DCA27F"
+				"6B9176CF06095419"
+				"708B85A13C34D18D"
+				"1E5DBF7BFBBC3F09"
+				"149B8A05A3F72CFD"
+				"572AF8B435EE58A5"
+				"5A1C152E12229208"
+				"34ADE77EE2C1EC0B"
+				"661B8D0DF40290CD"
+				"53E0177A490A51CA"
+				"086EF8303A117654"
+				"131E6C9BFA16C30F"
+				"5AF8EA3A9C971E8B"
+				"15B39020E5F0F000"
+				"7EC1A3AA7A9D1CDC"
+				"44C8E6A159F888BD"
+				"058E6235C1DB5C4C"
+				"63A9558D3A0F905A"
+				"3706D3AD3D97108E"
+				"199BCCAAE2200C63"
+				"1902F60DDE1419E8"
+				"527568027F252B66"
+				"2C5C59E55BE2BF2E"
+				"49D0DDB64EC3AF50"
+				"547B0570CFD8E12A"
+				"0422CBF4D6E91642"
+				"5DDC2F02A678119B"
+				"2EEE8BD5DF368AF3"
+				"4B119221FFCC165B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "547A4C4A0644ACF0"
+			rewards: [
+				{
+					count: 3
+					id: "1492B13BCCE08AEF"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2428925061D36842"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57D44B58A1EE208F"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "4B119221FFCC165B"
+			rewards: [
+				{
+					count: 3
+					id: "0B17A7C82909ECD3"
+					item: {
+						count: 1
+						id: "cobblemon:throat_spray"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "71A4321FA4285C47"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33A9D37BFF764F2A"
+				item: { count: 1, id: "cobblemon:throat_spray" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 }

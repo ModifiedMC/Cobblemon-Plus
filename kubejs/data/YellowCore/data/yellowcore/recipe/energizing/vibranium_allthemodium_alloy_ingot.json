@@ -1,0 +1,13 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        { "item": "allthemodium:allthemodium_ingot" },
+        { "item": "allthemodium:piglich_heart" },
+        { "item": "powah:nitro_crystal_block" },
+        { "item": "powah:nitro_crystal_block" },
+        { "item": "allthemodium:piglich_heart" },
+        { "item": "allthemodium:vibranium_ingot" }
+    ],
+    "energy": 1000000000,
+    "result": { "id": "allthemodium:vibranium_allthemodium_alloy_ingot", "count": 1 }
+}

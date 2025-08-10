@@ -12,8 +12,8 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
-gamma:0.5
+fullscreen:true
+gamma:1.0
 graphicsMode:1
 guiScale:3
 maxFps:120
@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:16
+renderDistance:12
 simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","file/RCT Trainers+ [1.6] v1.5.zip","mod/towntalk:respack","moonlight:mods_dynamic_assets","Cobblemon Classic Grass Pack v2.1 MC1.21.1.zip","CobblemonTweaksBrewingGuide.zip","FreshAnimations_v1.9.2.zip","Jakotens\u0027 Poké-Hats 3.0.zip","RCT Trainers+ [1.6] v1.5.zip","emissive-cobblemon-ores.zip","Cobblemon Interface Modded v1.7.0.zip","Cobblemon Interface-Vanilla Icons.zip","CobblemonTweaksUnownGalactic.zip","[m]odified-additional-spawns.zip","dCIM1.0.3.zip"]
-incompatibleResourcePacks:["CobblemonTweaksBrewingGuide.zip","Jakotens\u0027 Poké-Hats 3.0.zip","CobblemonTweaksUnownGalactic.zip","[m]odified-additional-spawns.zip"]
+resourcePacks:["fabric"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -87,10 +87,10 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
-soundCategory_master:0.6922030215231789
-soundCategory_music:0.25523767605633785
+soundCategory_master:0.5066276903973509
+soundCategory_music:0.207075264084507
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.10253631161971814
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
@@ -104,3 +104,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+fullscreenResolution:2560x1440@120:24

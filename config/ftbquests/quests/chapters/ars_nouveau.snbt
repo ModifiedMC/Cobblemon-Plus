@@ -1,0 +1,4328 @@
+{
+	autofocus_id: "40D4D2F0C3A090AA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "29492D17252C54A8"
+	icon: {
+		id: "allthearcanistgear:creative_spell_book"
+	}
+	id: "174BFB085BAE897F"
+	images: [
+		{
+			height: 4.0d
+			image: "ars_nouveau:block/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 4.0d
+			image: "ars_nouveau:block/red_archwood_sapling"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40D4D2F0C3A090AA"
+			rewards: [{
+				count: 25
+				id: "79480B80F36ACCFC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA9D7B904D182C6"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			id: "1BC76858BDC41C2B"
+			rewards: [{
+				count: 25
+				id: "4EC481171F3BFFB2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "753D30FBCC402851"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BC76858BDC41C2B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_technica:item/glyph_whirl"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "69DEF8E186F11261"
+			rewards: [{
+				count: 10
+				id: "31B15FF994E35FE4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D65A64BDA28CAB"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BC76858BDC41C2B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_technica:item/glyph_whirl"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "422652BAAA75458A"
+			rewards: [{
+				count: 20
+				id: "31921EF0151AEA21"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E1C75C9F0FE4E06"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BC76858BDC41C2B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_technica:item/glyph_whirl"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "292F16BA90092795"
+			rewards: [{
+				id: "7065BDAF10F5A285"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35DA8AA9D0C2368F"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "040283365931B5DB"
+			rewards: [{
+				count: 10
+				id: "6555E2EB41583559"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67A5E0DECC1E4C0B"
+				item: { count: 1, id: "ars_nouveau:glyph_pantomime" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "61EB86BEDA3C7798"
+			rewards: [{
+				count: 10
+				id: "4B0A4A99BDE32902"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA5AFEF3A7B854B"
+				item: { count: 1, id: "ars_nouveau:glyph_underfoot" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "67E9A52A41BE88CC"
+			rewards: [{
+				count: 10
+				id: "14306DC81EDF0A9B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73D932CFC93B0FD6"
+				item: { count: 1, id: "ars_nouveau:glyph_amplify" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "301C1E8BFBC8FAB3"
+			rewards: [{
+				count: 10
+				id: "72E6ABF71AEF3320"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F15E5BAC4F31B30"
+				item: { count: 1, id: "ars_nouveau:glyph_randomize" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "1A0CB34EA139F535"
+			rewards: [{
+				count: 10
+				id: "05F7DF3D726026EF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "414B4D461196945F"
+				item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "73BE0CF4BC785C54"
+			rewards: [{
+				count: 10
+				id: "168997CF4D976C30"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A539AB0FA5E95AA"
+				item: { count: 1, id: "ars_nouveau:glyph_bounce" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "44D5936C17EFB06F"
+			rewards: [{
+				count: 10
+				id: "3BC77BF91B6D4DD4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EC63E810D8B715D"
+				item: { count: 1, id: "ars_nouveau:glyph_bubble" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "1DA5B37EB4724472"
+			rewards: [{
+				count: 10
+				id: "7A82E5FE5784A8CE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78AD2DB7BE379798"
+				item: { count: 1, id: "ars_nouveau:glyph_phantom_block" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "4E2916B4B9C41E0C"
+			rewards: [{
+				count: 10
+				id: "6928E2224499C043"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EE51333191D5DB"
+				item: { count: 1, id: "ars_nouveau:glyph_light" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "36F81A14CF85046A"
+			rewards: [{
+				count: 10
+				id: "1FEDD174BB7B8C01"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A694B4216D1E24"
+				item: { count: 1, id: "ars_elemental:glyph_conjure_terrain" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "36B580C76C34A72A"
+			rewards: [{
+				count: 10
+				id: "51C72075F991F9A0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F83F115F9D0D568"
+				item: { count: 1, id: "ars_nouveau:glyph_craft" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "6D7BFD5FEE405BB9"
+			rewards: [{
+				count: 10
+				id: "03D0A7D6058B9BFF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "526849A19958C042"
+				item: { count: 1, id: "ars_nouveau:glyph_cut" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "4A2783EAAF01D46D"
+			rewards: [{
+				count: 10
+				id: "514D70BD2127EDF0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22809F52125A1E76"
+				item: { count: 1, id: "ars_nouveau:glyph_delay" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "3049CF43B793529F"
+			rewards: [{
+				count: 10
+				id: "73E7BF4A425B5658"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B32A3914D3D2C77"
+				item: { count: 1, id: "ars_nouveau:glyph_dispel" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "5A92B00BE95594EC"
+			rewards: [{
+				count: 10
+				id: "7FF126083FABDEE2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "134C25EEA51D60A4"
+				item: { count: 1, id: "ars_nouveau:glyph_evaporate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "472BD1D2FDC246C0"
+			rewards: [{
+				count: 10
+				id: "2A149CF09919040E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02CB6AB7776BC903"
+				item: { count: 1, id: "ars_nouveau:glyph_fell" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "251C37BFB263E47B"
+			rewards: [{
+				count: 10
+				id: "1DC9800898BC9CFC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C5DE9F263C9FAAB"
+				item: { count: 1, id: "ars_nouveau:glyph_freeze" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "178CC61A19C1CF10"
+			rewards: [{
+				count: 10
+				id: "7DC7E0189305F9C0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "212DAE05C29A909B"
+				item: { count: 1, id: "ars_nouveau:glyph_harvest" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "522A7943B725AA65"
+			rewards: [{
+				count: 10
+				id: "781F6CD336D3014D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "295F51D32ECA1807"
+				item: { count: 1, id: "ars_nouveau:glyph_ignite" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "4AA068521D5B26E7"
+			rewards: [{
+				count: 10
+				id: "12B03DA6C4D7E1E8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6464DF9685F8E82C"
+				item: { count: 1, id: "ars_nouveau:glyph_interact" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "7D60865E5335C688"
+			rewards: [{
+				count: 10
+				id: "4DF3C2929DC0C2FB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F9C5B0A6076505E"
+				item: { count: 1, id: "ars_nouveau:glyph_pickup" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "2D0A66092FC0B7B7"
+			rewards: [{
+				count: 10
+				id: "1F10522B20A5ED13"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "766C753E2AAF8B3B"
+				item: { count: 1, id: "ars_nouveau:glyph_gust" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "13EFB3AACFA2F9F0"
+			rewards: [{
+				count: 10
+				id: "698280CB14AB5857"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48F5886866207AF8"
+				item: { count: 1, id: "ars_nouveau:glyph_launch" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "2CBDCD18A585334D"
+			rewards: [{
+				count: 10
+				id: "730DEE4D91D078BB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FABCEC29127E6A"
+				item: { count: 1, id: "ars_nouveau:glyph_leap" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "7DC724B0AE5DA4A0"
+			rewards: [{
+				count: 10
+				id: "728B37030ACF0655"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9E9036DEB34967"
+				item: { count: 1, id: "ars_nouveau:glyph_place_block" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "6EB4492612E1C353"
+			rewards: [{
+				count: 10
+				id: "0BCF1EA00E9195BD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A70937B8D93EE2F"
+				item: { count: 1, id: "ars_nouveau:glyph_pull" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "563A1E0BBDFA1500"
+			rewards: [{
+				count: 10
+				id: "1D2DA7064DD9C73A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0501C3022C297BAF"
+				item: { count: 1, id: "ars_nouveau:glyph_redstone_signal" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "4E3F91219BC2A8D0"
+			rewards: [{
+				count: 10
+				id: "1946DE877065FC25"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5D7ACD830655C2"
+				item: { count: 1, id: "ars_nouveau:reset" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "3A4A279D6A93B56C"
+			rewards: [{
+				count: 10
+				id: "73D4D8851134AF1A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCDC856488737DF"
+				item: { count: 1, id: "ars_nouveau:glyph_rotate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "52F4FB355607B45B"
+			rewards: [{
+				count: 10
+				id: "55171C9CE576D9A9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A1C3C7B480120FA"
+				item: { count: 1, id: "ars_nouveau:glyph_rune" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "02B08A16F3F58285"
+			rewards: [{
+				count: 10
+				id: "185F1A635A181F93"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A48296C16C3203E"
+				item: { count: 1, id: "ars_nouveau:glyph_snare" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "785C85D7605545F1"
+			rewards: [{
+				count: 10
+				id: "635A4074D40B8E37"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36FE1F1165A56B7B"
+				item: { count: 1, id: "ars_elemental:glyph_spark" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "4B0B27DF598915F2"
+			rewards: [{
+				count: 10
+				id: "4B782D126EF17965"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D7B4C7CD67AD9E0"
+				item: { count: 1, id: "ars_nouveau:glyph_summon_steed" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "58E4C4ED7E1267D6"
+			rewards: [{
+				count: 10
+				id: "7731F6394C5DE37B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "093A10D208B1563C"
+				item: { count: 1, id: "ars_nouveau:glyph_summon_wolves" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "2D2D7BF10651EC30"
+			rewards: [{
+				count: 10
+				id: "1E71DFC7C85EF50C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70E8FB8FB9DB14C8"
+				item: { count: 1, id: "ars_nouveau:glyph_toss" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "7ADFCD570AED8095"
+			rewards: [{
+				count: 10
+				id: "182E7D03FB1F3602"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "224D8A94962FF237"
+				item: { count: 1, id: "ars_nouveau:glyph_wind_burst" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69DEF8E186F11261"]
+			id: "40D00A4FE939E60A"
+			rewards: [{
+				count: 10
+				id: "29204D9B0236B07C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "694E431C286B66C1"
+				item: { count: 1, id: "ars_nouveau:wololo" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "7365B526C5E831DD"
+			rewards: [{
+				count: 20
+				id: "3D15DE8D1A01C9B5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62FD79AC34F1B534"
+				item: { count: 1, id: "ars_elemental:glyph_arc_projectile" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "6AA5DA06C343B22E"
+			rewards: [{
+				count: 20
+				id: "61070038390B3606"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "785251F9F3116E08"
+				item: { count: 1, id: "ars_elemental:glyph_propagator_arc" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "32580623D5AE18FF"
+			rewards: [{
+				count: 20
+				id: "21D4A3B8A51D7771"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8640A8A6885BF4"
+				item: { count: 1, id: "ars_nouveau:glyph_aoe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "324A685E4FF8F416"
+			rewards: [{
+				count: 20
+				id: "65EDC60604D33317"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C8786421A79DB63"
+				item: { count: 1, id: "ars_nouveau:glyph_accelerate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "008EFFB8742CE08E"
+			rewards: [{
+				count: 20
+				id: "5023906AEDE6AD84"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D532D9369D69F42"
+				item: { count: 1, id: "ars_nouveau:glyph_dampen" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "296F821CF7E11C84"
+			rewards: [{
+				count: 20
+				id: "52C3B5A7D277F408"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58950094A4149E89"
+				item: { count: 1, id: "ars_nouveau:glyph_decelerate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "4FF753BD99A4A4B0"
+			rewards: [{
+				count: 20
+				id: "003D2E013CB6AD52"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F206F297B552679"
+				item: { count: 1, id: "ars_nouveau:glyph_extend_time" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "1D5EB87F66FB3A61"
+			rewards: [{
+				count: 20
+				id: "2872F0DCBA00E5D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E04C4B9892A0D33"
+				item: { count: 1, id: "ars_nouveau:glyph_extract" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "2879BDF4992E7FD6"
+			rewards: [{
+				count: 20
+				id: "5D03E97DBE93FFA0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D51E1BAEE1B80B"
+				item: { count: 1, id: "ars_nouveau:glyph_fortune" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "4C9750A3801F0F7F"
+			rewards: [{
+				count: 20
+				id: "278FF984BCBB0852"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76BA9B1D2E27D6ED"
+				item: { count: 1, id: "ars_nouveau:glyph_pierce" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "10AFB908C4A72218"
+			rewards: [{
+				count: 20
+				id: "24568DF2665F0BF8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43AC9343574FFE4A"
+				item: { count: 1, id: "ars_nouveau:glyph_duration_down" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "1775D651C4FF75FF"
+			rewards: [{
+				count: 20
+				id: "253B5E8C945E49D1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C4CE32E8505A358"
+				item: { count: 1, id: "ars_nouveau:glyph_ender_inventory" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "73AC39130E3BF48A"
+			rewards: [{
+				count: 20
+				id: "678B35B7EC8C2B2E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "696E06A68EB50305"
+				item: { count: 1, id: "ars_nouveau:glyph_animate_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "6E796D8E22CC9593"
+			rewards: [{
+				count: 20
+				id: "44098A76D64BAD68"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F2643278761D02C"
+				item: { count: 1, id: "ars_elemental:glyph_bubble_shield" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "547E473848EF6E98"
+			rewards: [{
+				count: 20
+				id: "2D7733990F42F9AD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235A9D86F04E39BB"
+				item: { count: 1, id: "ars_elemental:glyph_charm" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "387174B941ECFAEE"
+			rewards: [{
+				count: 20
+				id: "5B9B35C737BB9AD6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "170FCB44041F8A37"
+				item: { count: 1, id: "ars_nouveau:glyph_cold_snap" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "265EC038D2A37EB1"
+			rewards: [{
+				count: 20
+				id: "7C7DCC06D08A5E34"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65118B3C55F355D5"
+				item: { count: 1, id: "ars_nouveau:glyph_conjure_water" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "7D5FAEC0E45DD316"
+			rewards: [{
+				count: 20
+				id: "32F1F7728CB72EED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7009989E26F9E5"
+				item: { count: 1, id: "ars_nouveau:glyph_crush" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "614E7087ECC22F4F"
+			rewards: [{
+				count: 20
+				id: "429F6AA7B664DDE4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A1D646F59541C3"
+				item: { count: 1, id: "ars_elemental:glyph_discharge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "40D35247C05F5FA9"
+			rewards: [{
+				count: 20
+				id: "5D9B7727DFD69DC9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47A7155D65CA95F8"
+				item: { count: 1, id: "ars_elemental:glyph_envenom" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "0C7A8C8A595263DA"
+			rewards: [{
+				count: 20
+				id: "2BECA696D6A74BEB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "573BD0475BAE20E3"
+				item: { count: 1, id: "ars_nouveau:glyph_exchange" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "7C59D844F5897E8B"
+			rewards: [{
+				count: 20
+				id: "1E11CAD513587608"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BFC5F9E00ADA318"
+				item: { count: 1, id: "ars_nouveau:glyph_explosion" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "4E77540DFD1C70E5"
+			rewards: [{
+				count: 20
+				id: "72AA136D6A8440F9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FCAC4672C7DAB4"
+				item: { count: 1, id: "ars_nouveau:glyph_firework" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "7780C8FFE1D7E06C"
+			rewards: [{
+				count: 20
+				id: "470FF5335A5C9BC2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5220C763BA9D0D7F"
+				item: { count: 1, id: "ars_nouveau:glyph_flare" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "00B498C5450A3D4F"
+			rewards: [{
+				count: 20
+				id: "7A2909BC385AFAC4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE1108BD2383F28"
+				item: { count: 1, id: "ars_nouveau:glyph_gravity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "50E258F4AD8D081C"
+			rewards: [{
+				count: 20
+				id: "4CADFCCE2F68335C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2315A66288A909A8"
+				item: { count: 1, id: "ars_nouveau:glyph_grow" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "345D253124842E9B"
+			rewards: [{
+				count: 20
+				id: "6A805E884475B049"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76329D1E13C259A8"
+				item: { count: 1, id: "ars_nouveau:glyph_heal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "2DDC7A266C690F9F"
+			rewards: [{
+				count: 20
+				id: "214B3019F12C5694"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "016CBAE45253937B"
+				item: { count: 1, id: "ars_nouveau:glyph_infuse" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "36371867E29010B3"
+			rewards: [{
+				count: 20
+				id: "097D22D331CC4870"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "630AC7B1F4070E9E"
+				item: { count: 1, id: "ars_nouveau:glyph_invisibility" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "69AF1DF9B32F7EA3"
+			rewards: [{
+				count: 20
+				id: "3B6267D3F558636B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7F9EA53BD80C0C"
+				item: { count: 1, id: "ars_nouveau:glyph_name" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "09E5933EFFB5EBD1"
+			rewards: [{
+				count: 20
+				id: "7FAE763FE6DBC318"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CE5DFEC4C4741E"
+				item: { count: 1, id: "ars_elemental:glyph_phantom_grasp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "18B97C0197637F5F"
+			rewards: [{
+				count: 20
+				id: "74D5F219B83CD40F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0D60D7F457A44B"
+				item: { count: 1, id: "ars_elemental:glyph_poison_spores" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "59E1A4EA5E382121"
+			rewards: [{
+				count: 20
+				id: "0E38B663C77EF0B8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6268CD2CFF2EEF5E"
+				item: { count: 1, id: "ars_nouveau:glyph_sense_magic" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "66B02414AC687DE4"
+			rewards: [{
+				count: 20
+				id: "54778F9E5AA71A4E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AEC4D9DC3BDE702"
+				item: { count: 1, id: "ars_nouveau:glyph_slowfall" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "4B9027DBBD759BF6"
+			rewards: [{
+				count: 20
+				id: "62BF3ACEEBE8CD7A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55BEB0D0F0FB42BE"
+				item: { count: 1, id: "ars_nouveau:glyph_smelt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "2080089E1AA89462"
+			rewards: [{
+				count: 20
+				id: "1FAA34FB269C6867"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AAA224BD0807E7"
+				item: { count: 1, id: "ars_elemental:glyph_spike" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "28CA01A33813EB07"
+			rewards: [{
+				count: 20
+				id: "68E69162469A23A7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "224BD9518D19E480"
+				item: { count: 1, id: "ars_elemental:glyph_watery_grave" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422652BAAA75458A"]
+			id: "5AF8B65B04EF386B"
+			rewards: [{
+				count: 20
+				id: "27DFDC6E86E60E2B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "237DC4D5C87BBF77"
+				item: { count: 1, id: "ars_nouveau:glyph_wind_shear" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5B7DC07E322267CF"
+			rewards: [{
+				id: "0C59C63334F3F135"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E9B5EB629D5D351"
+				item: { count: 1, id: "ars_elemental:glyph_homing_projectile" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5A5AD95A8E51CA14"
+			rewards: [{
+				id: "4628441CDE00D206"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D77BEF68BB8635"
+				item: { count: 1, id: "ars_additions:glyph_recall" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "3A054CE336FFB506"
+			rewards: [{
+				id: "71D892054C922F86"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6C0531F5266452"
+				item: { count: 1, id: "ars_additions:glyph_retaliate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "2C5BC7B63EBF8764"
+			rewards: [{
+				id: "739DFA86A9293EA6"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CCD027E162F3EAF"
+				item: { count: 1, id: "ars_elemental:glyph_propagator_homing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5EF2EA9E145BB0A8"
+			rewards: [{
+				id: "3067AC2A525A3918"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBFD81E59C0D829"
+				item: { count: 1, id: "ars_nouveau:glyph_split" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "57BC3936B45130D9"
+			rewards: [{
+				id: "3D42A3EEAD1FBA41"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DF745ABEC99C0A"
+				item: { count: 1, id: "ars_nouveau:glyph_blink" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5DF29E42972A4FA3"
+			rewards: [{
+				id: "0A6E46B6B4EE1345"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E59BA71A2258130"
+				item: { count: 1, id: "ars_nouveau:glyph_burst" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "35913012967A32C2"
+			rewards: [{
+				id: "107C6428B5E9DC8A"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60274EE7E016E9E0"
+				item: { count: 1, id: "ars_elemental:glyph_conflagrate" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "3DA6D5FE37FFB010"
+			rewards: [{
+				id: "4179B31C092C53A5"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ED86F4172AF18DF"
+				item: { count: 1, id: "ars_nouveau:glyph_fangs" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "3600F0BE05108F4D"
+			rewards: [{
+				id: "38AB67735A462094"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E731A2693E36C5"
+				item: { count: 1, id: "ars_nouveau:glyph_glide" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "4A76685475D832CD"
+			rewards: [{
+				id: "199A47070C630057"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B8A2BEFD0B4410"
+				item: { count: 1, id: "ars_nouveau:glyph_hex" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "298F1D46C3DA78DC"
+			rewards: [{
+				id: "0378217BE6D60317"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7687006040D76A7D"
+				item: { count: 1, id: "ars_nouveau:glyph_intangible" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "29FF2966607E8349"
+			rewards: [{
+				id: "18938C8378A7A3A6"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43AB369FF1FB98B1"
+				item: { count: 1, id: "ars_elemental:glyph_life_link" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "065BE9B130F1BB89"
+			rewards: [{
+				id: "3C5F45259A5AB382"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17C99F84697D2C7B"
+				item: { count: 1, id: "ars_nouveau:glyph_lightning" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "450D23F129017BA9"
+			rewards: [{
+				id: "6E028227503E747E"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02B1A0CDE3087DD6"
+				item: { count: 1, id: "ars_nouveau:glyph_linger" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5EAB1D63DC6FCD5E"
+			rewards: [{
+				id: "371DE9AD1C408AEF"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4793D652ABB46CD1"
+				item: { count: 1, id: "ars_additions:glyph_mark" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "0D3A87DBC2961174"
+			rewards: [{
+				id: "2DBFC02595CDA08C"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64A78D0B116FBDD6"
+				item: { count: 1, id: "ars_nouveau:glyph_orbit" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "06B0E5CFB3B586D6"
+			rewards: [{
+				id: "5F126D63AD25F676"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D8657D7902764D1"
+				item: { count: 1, id: "ars_nouveau:rewind" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "6971246ECDEA10C4"
+			rewards: [{
+				id: "03608E842F900AE4"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A9C4368A24C2ACC"
+				item: { count: 1, id: "ars_nouveau:glyph_summon_decoy" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "52593C1E8A3F52C3"
+			rewards: [{
+				id: "5825FAD1B5F84D69"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77025950C6CCC3BE"
+				item: { count: 1, id: "ars_nouveau:glyph_summon_undead" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "5BCA5FA559404BF2"
+			rewards: [{
+				id: "489D259A0EDF34ED"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F7DA12FC2A2ACE9"
+				item: { count: 1, id: "ars_nouveau:glyph_summon_vex" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "37774CD6B1DE5CDA"
+			rewards: [{
+				id: "1E0899E37CC506D4"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57187055AE746EC4"
+				item: { count: 1, id: "ars_nouveau:glyph_wall" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["292F16BA90092795"]
+			id: "1E5F78C14046CFFD"
+			rewards: [{
+				id: "4950EF2BEE460BA8"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EAFD37B246145DA"
+				item: { count: 1, id: "ars_nouveau:glyph_wither" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			id: "6DCA01672B462A53"
+			rewards: [{
+				count: 10
+				id: "20551DC48AC5151D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58D1C49013F7DBAF"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DCA01672B462A53"]
+			id: "609C3A4391CA3E65"
+			rewards: [{
+				count: 10
+				id: "08AA5AF5129BFD6A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6017BA8522CD9884"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["609C3A4391CA3E65"]
+			id: "21A1C83979A34B34"
+			rewards: [{
+				count: 25
+				id: "2668681DC550D0FA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AC0DB688905653A"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21A1C83979A34B34"]
+			id: "0159F73E60025AA6"
+			rewards: [{
+				count: 25
+				id: "6AB08FC4EDC35B63"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B1450CD22E4A9D6"
+				item: { count: 1, id: "allthearcanistgear:allthemodium_spell_book" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0159F73E60025AA6"]
+			id: "2360386A456A4E6F"
+			rewards: [{
+				count: 25
+				id: "6BF78DE6CCB26A78"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06C988933E7355B5"
+				item: { count: 1, id: "allthearcanistgear:vibranium_spell_book" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2360386A456A4E6F"]
+			id: "2D570C806BCF1EAD"
+			rewards: [{
+				count: 50
+				id: "06FC41237E305FA1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C3CA825BFED21B0"
+				item: { count: 1, id: "allthearcanistgear:unobtainium_spell_book" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			id: "75084BF489029B29"
+			rewards: [{
+				count: 25
+				id: "393AC941D542AAF8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C4321FFA88C4602"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "14988C05CCC7DFAB"
+			rewards: [{
+				count: 10
+				id: "43E3B60BF679C20B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E4719FC7AD1FF24"
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "7956529ECDE139A3"
+			rewards: [{
+				count: 10
+				id: "70C24CD9772A328C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "140384A9D1095E99"
+				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "548C865DCE175CEC"
+			rewards: [{
+				count: 10
+				id: "1F95F8030B86D0DA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F6B0606DD0A00E5"
+				item: { count: 1, id: "ars_nouveau:air_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "2CAC645F047BA50E"
+			rewards: [{
+				count: 10
+				id: "1DD208ACD3BB8CF5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "049D24B3055C3552"
+				item: { count: 1, id: "ars_nouveau:earth_essence" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "2E8879F214C9CBD0"
+			rewards: [{
+				count: 10
+				id: "2B119034991CC782"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A8AF37AA35F6F8E"
+				item: { count: 1, id: "ars_nouveau:fire_essence" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "75AB10FB8B5B3241"
+			rewards: [{
+				count: 10
+				id: "71E481C857C6D7C9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FADCA3570FE08A2"
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "2D219CDDEEA44C7E"
+			rewards: [{
+				count: 10
+				id: "696512B41B1D4FB2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73E3AD26394805A6"
+				item: { count: 1, id: "ars_nouveau:water_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "08CD899098528CF6"
+			rewards: [{
+				count: 10
+				id: "2729303A348780D5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C46306D49378296"
+				item: { count: 1, id: "ars_elemental:anima_essence" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75084BF489029B29"]
+			id: "5F07C21BDD70D996"
+			rewards: [{
+				count: 25
+				id: "07B8EE2CD487D5C5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09C3FB46A8566A04"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "156CA44B72254B27"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["687C3A35B0F473BD"]
+			id: "0282C4ED58CC4CDD"
+			rewards: [{
+				count: 10
+				id: "617A86F7ABCE8652"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33E846ADFE13C8EF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ars_nouveau:legs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "00BCDFEE610FB1FA"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ars_nouveau:boot)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "64E6A85006F2E76B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ars_nouveau:robe)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "15EC3442FB767AAD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ars_nouveau:hood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0282C4ED58CC4CDD"]
+			id: "09B2E2611955613B"
+			rewards: [{
+				count: 10
+				id: "6501C3C88C9E6DE1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A61D5C6945E67EC"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09B2E2611955613B"]
+			id: "46AD6DC143517BC4"
+			rewards: [{
+				count: 25
+				id: "61920CC7199870F0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1547DB852454802E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(allthearcanistgear:elemental_hat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "013A4AB1D93B6679"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(allthearcanistgear:elemental_chest)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "004ABE1D6B97D860"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(allthearcanistgear:elemental_legs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1CE700EE2EF01640"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(allthearcanistgear:elemental_boots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46AD6DC143517BC4"]
+			id: "26EA5725BD1AFD42"
+			rewards: [{
+				count: 25
+				id: "32DFF31B1F2AD566"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26827AA4D19DB742"
+					item: { count: 1, id: "allthearcanistgear:allthemodium_hat" }
+					type: "item"
+				}
+				{
+					id: "792B781A8CCABAAA"
+					item: { count: 1, id: "allthearcanistgear:allthemodium_robes" }
+					type: "item"
+				}
+				{
+					id: "443924B0E8F04685"
+					item: { count: 1, id: "allthearcanistgear:allthemodium_leggings" }
+					type: "item"
+				}
+				{
+					id: "163124E2C29E6C86"
+					item: { count: 1, id: "allthearcanistgear:allthemodium_boots" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26EA5725BD1AFD42"]
+			id: "247FD446F04D3ADB"
+			rewards: [{
+				count: 25
+				id: "156636F4A4EFDBC1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "337E00C0A39CF161"
+					item: { count: 1, id: "allthearcanistgear:vibranium_hat" }
+					type: "item"
+				}
+				{
+					id: "0C5D17F354423558"
+					item: { count: 1, id: "allthearcanistgear:vibranium_robes" }
+					type: "item"
+				}
+				{
+					id: "18D01B5FADEB2D0F"
+					item: { count: 1, id: "allthearcanistgear:vibranium_leggings" }
+					type: "item"
+				}
+				{
+					id: "7428CD9B556C0C22"
+					item: { count: 1, id: "allthearcanistgear:vibranium_boots" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["247FD446F04D3ADB"]
+			id: "798F269D8B1BD120"
+			rewards: [{
+				count: 50
+				id: "1BC24615DA84C6F3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69A974D99863D3E7"
+					item: { count: 1, id: "allthearcanistgear:unobtainium_hat" }
+					type: "item"
+				}
+				{
+					id: "28F31BAFBC1715F2"
+					item: { count: 1, id: "allthearcanistgear:unobtainium_robes" }
+					type: "item"
+				}
+				{
+					id: "704F5E572C0A3799"
+					item: { count: 1, id: "allthearcanistgear:unobtainium_leggings" }
+					type: "item"
+				}
+				{
+					id: "32CBBE2679FEA9C6"
+					item: { count: 1, id: "allthearcanistgear:unobtainium_boots" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			id: "687C3A35B0F473BD"
+			rewards: [{
+				count: 10
+				id: "2AC9DB991B74FE44"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AB8D2CD39E0643"
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0282C4ED58CC4CDD"]
+			id: "71A4026599ACCBE5"
+			rewards: [{
+				count: 25
+				id: "2427C9D75F64B005"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11BB53776A221E8A"
+				item: { count: 1, id: "ars_nouveau:alteration_table" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			id: "717CFBEB0EDD36EF"
+			rewards: [{
+				count: 25
+				id: "6680429CE4DCBCE4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "442DEB30F59319FA"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "26268C6664767A53"
+			rewards: [{
+				count: 10
+				id: "44461788B02A4ACE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6700C625FE0A8D68"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "28872C60AEA49BB1"
+			rewards: [{
+				count: 10
+				id: "5C1087CECA594BE9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28AA8E2263418AB0"
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "2A1137D4B36C38B2"
+			rewards: [{
+				count: 10
+				id: "18D11D72EF9610D3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3039BD657FFB96"
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "5AAC1A8A7A9EEB35"
+			rewards: [{
+				count: 10
+				id: "22E0F6292ADE158F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "013F1567337585E4"
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "258912C5B8333516"
+			rewards: [{
+				count: 10
+				id: "3619D44A709E5968"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39E04B55DA33EEE0"
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "502554A4F88E0774"
+			rewards: [{
+				count: 25
+				id: "523F0962792E056E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15F0F34FD32F50EE"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "48D1E14F085E815D"
+			rewards: [{
+				count: 25
+				id: "787BACD1E20704AF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02FCD1949D7CBD58"
+				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "510F834E9E0236DB"
+			rewards: [{
+				count: 25
+				id: "2B2BD2D7F22C704C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1544A315BD2B46B7"
+				item: { count: 1, id: "ars_nouveau:ritual_challenge" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "4D88B52885825480"
+			rewards: [{
+				count: 25
+				id: "4A956A7B01B68FEE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "676A3CA1BD1D2EE7"
+				item: { count: 1, id: "ars_nouveau:ritual_binding" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "473207AC10E065C8"
+			rewards: [{
+				count: 25
+				id: "502717059D0F71D3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E012CA000544DC8"
+				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "14708C88D1DAC0AE"
+			rewards: [{
+				count: 25
+				id: "15EA578D3FEA47D2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC892BF010F57AA"
+				item: { count: 1, id: "ars_nouveau:ritual_disintegration" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "67EE7B44E68B6191"
+			rewards: [{
+				count: 25
+				id: "28DCD9B8353D62B1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB3AC40699D66C6"
+				item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "0717057D0AED978B"
+			rewards: [{
+				count: 25
+				id: "3DAA4A8A21BB2EFC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "315F7D0EED94E9B6"
+				item: { count: 1, id: "ars_elemental:ritual_tesla_coil" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "2D27A3F9C1849A92"
+			rewards: [{
+				count: 25
+				id: "3C82B13DC5AFB58E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73D8052B0F3B2A86"
+				item: { count: 1, id: "ars_elemental:ritual_squirrels" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "5CFDA878A8EFE751"
+			rewards: [{
+				count: 25
+				id: "075E0CA07BAB90EE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "421721D5DE7B2577"
+				item: { count: 1, id: "ars_elemental:ritual_attraction" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "7BE7A03646ABFCC4"
+			rewards: [{
+				count: 25
+				id: "2E74C89E18626978"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33513256CB01860B"
+				item: { count: 1, id: "ars_nouveau:ritual_conjure_island_plains" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "512ED33E1F0BD795"
+			rewards: [{
+				count: 25
+				id: "5F3A55324E712469"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E58E807F366396"
+				item: { count: 1, id: "ars_nouveau:ritual_flight" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "3985EC71D961473A"
+			rewards: [{
+				count: 25
+				id: "45D623DB0EF78B18"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "551C7D0D7C405371"
+				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "683169A5BCF00735"
+			rewards: [{
+				count: 25
+				id: "6C2CDE0E47FF87BC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A613E540717D369"
+				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "6E7898AEB6A8D3A4"
+			rewards: [{
+				count: 25
+				id: "5E1A61535ADCDDE6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6369322BA539EAD3"
+				item: { count: 1, id: "ars_nouveau:ritual_animal_summon" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "02D9C2A58AE903BE"
+			rewards: [{
+				count: 25
+				id: "7CE9C79BDF9789F3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6782393FF2DAAD30"
+				item: { count: 1, id: "ars_additions:ritual_chunk_loading" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "10F952025DAE3232"
+			rewards: [{
+				count: 25
+				id: "52145D3C0CF539AD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "517600A4184B5ED2"
+				item: { count: 1, id: "ars_nouveau:ritual_forestation" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "2456D9383B3BF6E6"
+			rewards: [{
+				count: 25
+				id: "4E33822C3E9244AE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC80FD372F796A1"
+				item: { count: 1, id: "ars_nouveau:ritual_warping" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "12D1C3F97ADBDB1F"
+			rewards: [{
+				count: 25
+				id: "381B6D40F4CAC7D6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BB4580479D036EB"
+				item: { count: 1, id: "ars_nouveau:ritual_moonfall" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "538EFCB16C7710E5"
+			rewards: [{
+				count: 25
+				id: "0D0B3A15FE63A177"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8E88DC3BF391ED"
+				item: { count: 1, id: "ars_nouveau:ritual_containment" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "131339B75D65CDE3"
+			rewards: [{
+				count: 25
+				id: "490A249AC7418F66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DAEF6CE2FB0A6C3"
+				item: { count: 1, id: "ars_nouveau:ritual_scrying" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "22A4871F368E29FF"
+			rewards: [{
+				count: 25
+				id: "0DCA280377DA4DEC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5605CB602DABDF15"
+				item: { count: 1, id: "ars_nouveau:ritual_gravity" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "490A15DFC1ADDE1A"
+			rewards: [{
+				count: 25
+				id: "3445EDC3F664AB67"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE419453555450A"
+				item: { count: 1, id: "ars_nouveau:ritual_flowering" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "076220E628E51658"
+			rewards: [{
+				count: 25
+				id: "2D30B518AC78839B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3EEADDA18D504A"
+				item: { count: 1, id: "ars_elemental:ritual_archwood_forest" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "45962C412CACF649"
+			rewards: [{
+				count: 25
+				id: "791CC6CCEABA3926"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE2C85B001CC264"
+				item: { count: 1, id: "ars_nouveau:ritual_sanctuary" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "37C60E878FDBA507"
+			rewards: [{
+				count: 25
+				id: "5216D62F77A2C732"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B531323C83E8C8C"
+				item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "0BDA14112F3A3F99"
+			rewards: [{
+				count: 25
+				id: "698B20CBDA3FCE42"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AAE64C404C2032D"
+				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "32A4AC5B71555E67"
+			rewards: [{
+				count: 25
+				id: "3C456580EE8E93CB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1873591F32097F34"
+				item: { count: 1, id: "ars_nouveau:ritual_conjure_island_desert" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "09301A76F64E9416"
+			rewards: [{
+				count: 25
+				id: "62DB45C65C96C7D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9F2377466C820A"
+				item: { count: 1, id: "ars_nouveau:ritual_harvest" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "6CE15CAF08477945"
+			rewards: [{
+				count: 25
+				id: "3939E8535E7FAE57"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3486CD09E9F1A4"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["19ECC4517177EAC0"]
+			id: "319872F116F3C8D0"
+			rewards: [{
+				count: 25
+				id: "35CE5F3023678EE3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24806D8C1D6C47CB"
+				item: { count: 1, id: "ars_additions:ritual_locate_structure" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["502554A4F88E0774"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_exclamation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "19ECC4517177EAC0"
+			rewards: [{
+				count: 10
+				id: "2ED516B953AA4019"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FC2406164725850"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71A4026599ACCBE5"]
+			id: "4670D46AFDD51E3B"
+			rewards: [{
+				count: 10
+				id: "5BE583549AE7AD3B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B88EFEA786E6555"
+				item: { count: 1, id: "ars_nouveau:blank_thread" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "45C5D3A057C9D01D"
+			rewards: [{
+				count: 25
+				id: "08711D27C07FBEC2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D38B0A05B23410E"
+				item: { count: 1, id: "ars_nouveau:thread_depths" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "047DA1707C4E3711"
+			rewards: [{
+				count: 25
+				id: "2EBAD55A1C9CCB21"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1322A393C392B91C"
+				item: { count: 1, id: "ars_elemental:thread_spore" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "664656EDFC2985ED"
+			rewards: [{
+				count: 25
+				id: "570377D94D71385B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "428D00AE8DA134B4"
+				item: { count: 1, id: "ars_elemental:thread_shock" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "53005974C38AA9E8"
+			rewards: [{
+				count: 25
+				id: "32F1E341F21A4B51"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ADF21D7AC8BD12D"
+				item: { count: 1, id: "ars_nouveau:thread_drygmy" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "42BFE0E3E1BBE793"
+			rewards: [{
+				count: 25
+				id: "5A746956DA722BCE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4111C8FE26B80AA4"
+				item: { count: 1, id: "ars_nouveau:thread_high_step" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "584EC278F509E0D9"
+			rewards: [{
+				count: 25
+				id: "7255A3544F101357"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70369D5FBFE574E5"
+				item: { count: 1, id: "ars_nouveau:thread_spellpower" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "099CFAC148DD5181"
+			rewards: [{
+				count: 25
+				id: "4CC461AE51593E5C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB00E627E6BD9F9"
+				item: { count: 1, id: "ars_nouveau:thread_life_drain" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "2EF6D7D797630571"
+			rewards: [{
+				count: 25
+				id: "469FEBAEA67747A0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1061FC22BEFD3239"
+				item: { count: 1, id: "ars_nouveau:thread_starbuncle" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "780AC75866DBB6D2"
+			rewards: [{
+				count: 25
+				id: "1E8599985DEA82B8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61BA6BDEA692DE77"
+				item: { count: 1, id: "allthearcanistgear:thread_truesight" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "0A69F9D55F886597"
+			rewards: [{
+				count: 25
+				id: "52F603F8CEAF1FBF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FAECCA983B98C55"
+				item: { count: 1, id: "ars_nouveau:thread_feather" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "227C05AFA72679E2"
+			rewards: [{
+				count: 25
+				id: "5AFF0625C366F623"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B954F72BC9FFB3"
+				item: { count: 1, id: "ars_nouveau:thread_gliding" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "7DD68E59A46591E0"
+			rewards: [{
+				count: 25
+				id: "011B4C2D4946EE85"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CBBBF9219649320"
+				item: { count: 1, id: "ars_nouveau:thread_immolation" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "729CA996421751E1"
+			rewards: [{
+				count: 25
+				id: "77E3F90D06CBC6D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "585EF6677F269887"
+				item: { count: 1, id: "ars_nouveau:thread_amethyst_golem" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "63F9F40ED41E1E7A"
+			rewards: [{
+				count: 25
+				id: "0A6BA118348EFCAA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "575BE2B0B4620884"
+				item: { count: 1, id: "ars_nouveau:thread_magic_capacity" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "14C5B4A0EBA8395C"
+			rewards: [{
+				count: 25
+				id: "53989E8F03F4F80E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44EA5578AB5CA5FF"
+				item: { count: 1, id: "ars_nouveau:thread_kindling" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "24A6F91FDBD5BFCE"
+			rewards: [{
+				count: 25
+				id: "410573BF65E10224"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4537A0E41F12B2B8"
+				item: { count: 1, id: "ars_elemental:thread_summon" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "06397E386E51FABE"
+			rewards: [{
+				count: 25
+				id: "300906486B024184"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56465CFC7066E40B"
+				item: { count: 1, id: "ars_nouveau:thread_wixie" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "62D6698BCDCBF18F"
+			rewards: [{
+				count: 25
+				id: "73773F4D9C222F0A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "163C76F1069DBFA0"
+				item: { count: 1, id: "ars_nouveau:thread_heights" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "46EBDEF413343034"
+			rewards: [{
+				count: 25
+				id: "61322B62F96473D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C4B00A401148E86"
+				item: { count: 1, id: "ars_nouveau:thread_whirlisprig" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "2AB244CE2C06B287"
+			rewards: [{
+				count: 25
+				id: "774EEF13047C9F2A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7658B0038F08A6"
+				item: { count: 1, id: "allthearcanistgear:thread_vitality" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "5DCC189AED4F7128"
+			rewards: [{
+				count: 25
+				id: "034A8945AF0FA3CB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5118336445834D6B"
+				item: { count: 1, id: "ars_nouveau:thread_chilling" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "54A3AF0DF9C5D22A"
+			rewards: [{
+				count: 25
+				id: "4F526B679C551893"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CB7FF9053077F38"
+				item: { count: 1, id: "ars_nouveau:thread_undying" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "7DE6F1532F806A30"
+			rewards: [{
+				count: 25
+				id: "69B152ECFD24A2B4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E17423CBB364918"
+				item: { count: 1, id: "ars_nouveau:thread_warding" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "69640CFA78ED867F"
+			rewards: [{
+				count: 25
+				id: "6849040153B9C4ED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "488E8912F7DEA946"
+				item: { count: 1, id: "allthearcanistgear:thread_flight" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "19D6D8D93BCEE29E"
+			rewards: [{
+				count: 25
+				id: "052B9FB890D9F61E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B202E73A3148DD2"
+				item: { count: 1, id: "allthearcanistgear:thread_spectral_sight" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "59A15B58BFC46FEA"
+			rewards: [{
+				count: 25
+				id: "28E9122E2DC42706"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A9A654D4AC72DC5"
+				item: { count: 1, id: "ars_nouveau:thread_repairing" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["40D4D2F0C3A090AA"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_exclamation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3CC55A0122FAB639"
+			rewards: [{
+				count: 10
+				id: "20AAB54197D06AD0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26EA82B86BC8A0AE"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["502554A4F88E0774"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_exclamation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4BC9FC78D1335665"
+			rewards: [{
+				count: 10
+				id: "3012C956EC6E236E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05A7956910C8712E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"57BC3936B45130D9"
+				"36F81A14CF85046A"
+				"0D3A87DBC2961174"
+				"3049CF43B793529F"
+				"4E3F91219BC2A8D0"
+				"2DDC7A266C690F9F"
+				"73AC39130E3BF48A"
+				"59E1A4EA5E382121"
+				"296F821CF7E11C84"
+				"13EFB3AACFA2F9F0"
+				"10AFB908C4A72218"
+				"06B0E5CFB3B586D6"
+				"7C59D844F5897E8B"
+				"3A054CE336FFB506"
+				"5A92B00BE95594EC"
+				"6EB4492612E1C353"
+				"1775D651C4FF75FF"
+				"1E5F78C14046CFFD"
+				"5AF8B65B04EF386B"
+				"3A4A279D6A93B56C"
+				"66B02414AC687DE4"
+				"522A7943B725AA65"
+				"32580623D5AE18FF"
+				"785C85D7605545F1"
+				"547E473848EF6E98"
+				"6971246ECDEA10C4"
+				"00B498C5450A3D4F"
+				"2C5BC7B63EBF8764"
+				"4A76685475D832CD"
+				"44D5936C17EFB06F"
+				"5DF29E42972A4FA3"
+				"35913012967A32C2"
+				"614E7087ECC22F4F"
+				"5A5AD95A8E51CA14"
+				"178CC61A19C1CF10"
+				"1A0CB34EA139F535"
+				"4AA068521D5B26E7"
+				"4C9750A3801F0F7F"
+				"450D23F129017BA9"
+				"4E2916B4B9C41E0C"
+				"4FF753BD99A4A4B0"
+				"40D35247C05F5FA9"
+				"73BE0CF4BC785C54"
+				"36B580C76C34A72A"
+				"2CBDCD18A585334D"
+				"345D253124842E9B"
+				"36371867E29010B3"
+				"2D0A66092FC0B7B7"
+				"265EC038D2A37EB1"
+				"2879BDF4992E7FD6"
+				"7365B526C5E831DD"
+				"0C7A8C8A595263DA"
+				"28CA01A33813EB07"
+				"7D60865E5335C688"
+				"4E77540DFD1C70E5"
+				"18B97C0197637F5F"
+				"50E258F4AD8D081C"
+				"7DC724B0AE5DA4A0"
+				"065BE9B130F1BB89"
+				"008EFFB8742CE08E"
+				"52F4FB355607B45B"
+				"5EF2EA9E145BB0A8"
+				"4A2783EAAF01D46D"
+				"37774CD6B1DE5CDA"
+				"6E796D8E22CC9593"
+				"40D00A4FE939E60A"
+				"29FF2966607E8349"
+				"4B0B27DF598915F2"
+				"67E9A52A41BE88CC"
+				"3DA6D5FE37FFB010"
+				"251C37BFB263E47B"
+				"1D5EB87F66FB3A61"
+				"52593C1E8A3F52C3"
+				"2D2D7BF10651EC30"
+				"09E5933EFFB5EBD1"
+				"7780C8FFE1D7E06C"
+				"4B9027DBBD759BF6"
+				"387174B941ECFAEE"
+				"563A1E0BBDFA1500"
+				"58E4C4ED7E1267D6"
+				"6AA5DA06C343B22E"
+				"298F1D46C3DA78DC"
+				"2080089E1AA89462"
+				"7D5FAEC0E45DD316"
+				"02B08A16F3F58285"
+				"69AF1DF9B32F7EA3"
+				"1DA5B37EB4724472"
+				"6D7BFD5FEE405BB9"
+				"5BCA5FA559404BF2"
+				"040283365931B5DB"
+				"3600F0BE05108F4D"
+				"301C1E8BFBC8FAB3"
+				"5B7DC07E322267CF"
+				"7ADFCD570AED8095"
+				"61EB86BEDA3C7798"
+				"5EAB1D63DC6FCD5E"
+				"324A685E4FF8F416"
+				"472BD1D2FDC246C0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "38BBA7F187F645B3"
+			rewards: [{
+				id: "23B5A7D9FAAA4281"
+				item: {
+					count: 1
+					id: "modified:coinpile_mtoken"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "40ABBC5A07D6B893"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"099CFAC148DD5181"
+				"54A3AF0DF9C5D22A"
+				"7DE6F1532F806A30"
+				"7DD68E59A46591E0"
+				"69640CFA78ED867F"
+				"14C5B4A0EBA8395C"
+				"047DA1707C4E3711"
+				"63F9F40ED41E1E7A"
+				"53005974C38AA9E8"
+				"26EA5725BD1AFD42"
+				"227C05AFA72679E2"
+				"59A15B58BFC46FEA"
+				"62D6698BCDCBF18F"
+				"780AC75866DBB6D2"
+				"46EBDEF413343034"
+				"19D6D8D93BCEE29E"
+				"24A6F91FDBD5BFCE"
+				"0A69F9D55F886597"
+				"584EC278F509E0D9"
+				"798F269D8B1BD120"
+				"06397E386E51FABE"
+				"247FD446F04D3ADB"
+				"664656EDFC2985ED"
+				"45C5D3A057C9D01D"
+				"5DCC189AED4F7128"
+				"2EF6D7D797630571"
+				"42BFE0E3E1BBE793"
+				"46AD6DC143517BC4"
+				"729CA996421751E1"
+				"2AB244CE2C06B287"
+				"0B1F89BBDC9C6C2B"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "359FCB2B9D8D504B"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "358712836EBCD198"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "07316DE4EEA40992"
+				type: "checkmark"
+			}]
+			x: -11.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2CAC645F047BA50E"
+				"7956529ECDE139A3"
+				"0717057D0AED978B"
+				"14708C88D1DAC0AE"
+				"5AAC1A8A7A9EEB35"
+				"512ED33E1F0BD795"
+				"38BBA7F187F645B3"
+				"510F834E9E0236DB"
+				"2A1137D4B36C38B2"
+				"48D1E14F085E815D"
+				"37C60E878FDBA507"
+				"09301A76F64E9416"
+				"4D88B52885825480"
+				"131339B75D65CDE3"
+				"717CFBEB0EDD36EF"
+				"2D219CDDEEA44C7E"
+				"548C865DCE175CEC"
+				"02D9C2A58AE903BE"
+				"538EFCB16C7710E5"
+				"3985EC71D961473A"
+				"67EE7B44E68B6191"
+				"45962C412CACF649"
+				"2456D9383B3BF6E6"
+				"2D570C806BCF1EAD"
+				"473207AC10E065C8"
+				"076220E628E51658"
+				"5CFDA878A8EFE751"
+				"7BE7A03646ABFCC4"
+				"2D27A3F9C1849A92"
+				"75AB10FB8B5B3241"
+				"22A4871F368E29FF"
+				"319872F116F3C8D0"
+				"6CE15CAF08477945"
+				"32A4AC5B71555E67"
+				"683169A5BCF00735"
+				"6E7898AEB6A8D3A4"
+				"490A15DFC1ADDE1A"
+				"2E8879F214C9CBD0"
+				"26268C6664767A53"
+				"10F952025DAE3232"
+				"0BDA14112F3A3F99"
+				"258912C5B8333516"
+				"12D1C3F97ADBDB1F"
+				"14988C05CCC7DFAB"
+				"359FCB2B9D8D504B"
+				"28872C60AEA49BB1"
+				"08CD899098528CF6"
+				"5F07C21BDD70D996"
+				"502554A4F88E0774"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05EF06E4D55A9347"
+			invisible: true
+			size: 3.0d
+			tasks: [{
+				id: "2CA8E6FF415C0FD7"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4670D46AFDD51E3B"]
+			id: "0B1F89BBDC9C6C2B"
+			rewards: [{
+				count: 25
+				id: "42E96288DFC57BFA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B8E247ABCFF1647"
+				item: { count: 1, id: "ars_nouveau:thread_starbuncle" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "347EA47361D42905"
+			rewards: [{
+				count: 5
+				id: "3B1CB6EE621ABA0A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FCA2F7D515493AA"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["717CFBEB0EDD36EF"]
+			id: "61C0780BB5BDA24E"
+			rewards: [{
+				count: 10
+				id: "126EDAF2E5A72682"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35C543631BAB3069"
+				item: { count: 1, id: "ars_nouveau:relay" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+	]
+}

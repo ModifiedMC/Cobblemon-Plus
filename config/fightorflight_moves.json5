@@ -6,9 +6,9 @@
 	// If a pokemon doesn't have the correct moves to use,the base power will be used to calculate the damage.
 	"base_power": 60,
 	// The minimum radius of the AoE moves
-	"min_AoE_radius": 1.0,
+	"min_AoE_radius": 1.5,
 	// The maximum radius of the AoE moves
-	"max_AoE_radius": 2.0,
+	"max_AoE_radius": 3.0,
 	// The AoE damage will be lower to the target away from the center,this value sets the lowest damage multiplier of the AOE damage
 	"min_AoE_damage_multiplier": 0.6000000238418579,
 	// The radius of the status moves(unused)
@@ -34,6 +34,7 @@
 		"iciclecrash",
 		"iciclespear",
 		"gunkshot",
+		"scaleshot",
 		"spikecannon",
 		"pinmissile",
 		"thousandarrows"
@@ -122,8 +123,7 @@
 		"seedflare",
 		"psyshock",
 		"psystrike",
-		"psychoboost",
-		"earthpower"
+		"psychoboost"
 	],
 	// Moves that hurts the entity(including the allies) around the pokemon
 	"self_centered_aoe_moves": [
@@ -163,7 +163,7 @@
 	],
 	// Moves that start an explode
 	"explosive_moves": [
-		"self-destruct",
+		"selfdestruct",
 		"explosion",
 		"mindblown",
 		"mistyexplosion"
@@ -206,7 +206,7 @@
 		"wimpout"
 	],
 	"recoil_moves_allHP": [
-		"self-destruct",
+		"selfdestruct",
 		"explosion",
 		"mindblown",
 		"mistyexplosion"
@@ -221,6 +221,52 @@
 	// Moves that burns the pokemon(unused)
 	"burn_status_move": [
 		"willowisp"
+	],
+	// Status moves that are used on the user.
+	"self_targeting_status_move": [
+		"bulkup",
+		"meditate",
+		"coil",
+		"calmmind",
+		"takeheart",
+		"charge",
+		"defensecurl",
+		"harden",
+		"withdraw",
+		"slackoff",
+		"synthesis",
+		"milkdrink",
+		"healorder",
+		"recover",
+		"morningsun",
+		"moonlight",
+		"softboiled",
+		"roost",
+		"geomancy",
+		"tidyup",
+		"dragondance",
+		"cosmicpower",
+		"defendorder",
+		"barrier",
+		"irondefense",
+		"shelter",
+		"acidarmor",
+		"amnesia",
+		"rockpolish",
+		"agility",
+		"autotomize",
+		"shiftgear",
+		"cottonguard",
+		"shellsmash",
+		"victorydance",
+		"quiverdance",
+		"honeclaws",
+		"sharpen",
+		"workup",
+		"growth",
+		"swordsdance",
+		"nastyplot",
+		"tailglow"
 	],
 	// Do Pokemon grief(only explosions currently)?
 	"pokemon_griefing": false,

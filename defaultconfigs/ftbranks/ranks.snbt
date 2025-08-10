@@ -1,21 +1,77 @@
 {
-	member: {
-		name: "Member"
+	trainer: {
+		name: "Trainer"
 		power: 1
 		condition: "always_active"
+		ftbranks.name_format: "&7Trainer&r> {name}"
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 0
+		ftbchunks.chunk_load_offline: 0	
 		command.openstarterscreen: true
 		command.openstarterscreen.player: true
 		command.give_me_kit.name: true
+		command.ftbteams.party.join: false
+		command.ftbteams.party.join.team: false
+		command.ftbteams.party.invite: false
+		command.ftbteams.party.invite.players: false
 	}
 	vip: {
 		name: "VIP"
 		power: 50
-		ftbranks.name_format: "&bVIP {name}"
+		ftbranks.name_format: "&bVIP&r> {name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 1
+	}
+	helper: {
+		name: "HELPER"
+		power: 500
+		ftbranks.name_format: "&aHELPER&r> {name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 1
+		ftbchunks.chunk_load_offline: 0	
+		command.spectate: true
+		command.spectate.target: true
+		command.spectate.target.player: true
+		command.openstarterscreen.player: true
+		command.invsee: true
+		command.invsee.player: true
+		command.pc: true
+	}
+	mod: {
+		name: "MOD"
+		power: 700
+		ftbranks.name_format: "&6MOD&r> {name}"
+		ftbchunks.max_claimed: 750
+		ftbchunks.max_force_loaded: 4
+		ftbchunks.chunk_load_offline: 0	
+		command.spectate: true
+		command.spectate.target: true
+		command.spectate.target.player: true
+		command.openstarterscreen.player: true
+		command.invsee: true
+		command.invsee.player: true
+		command.kit.create_from_player_hotbar: true
+		command.kit.create_from_player_hotbar.name: true
+		command.kit.create_from_player_hotbar.name.cooldown: true
+		command.lootr.convert: true
+		command.lootr.chest: true
+		command.lootr.barrel: true
+		command.gamemode: true
+		command.gamemode.gamemode: true
+		command.gamemode.gamemode.target: true
+		command.pokeheal.player: true
+		command.pokeheal: true
+		command.pokegive: true
+		command.pokegive.properties: true
+		command.pokegiveother: true
+		command.pokegiveother.player: true
+		command.pokegiveother.player.properties: true
 	}
 	admin: {
-		name: "Admin"
+		name: "ADMIN"
 		power: 1000
 		condition: "op"
-		ftbranks.name_format: "&2{name}"
+		ftbranks.name_format: "&dADMIN&r> {name}"
+		ftbchunks.max_claimed: 1000
 	}
 }

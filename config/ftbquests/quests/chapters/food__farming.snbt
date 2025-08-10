@@ -1,33 +1,2923 @@
 {
+	autofocus_id: "212D14279684AAF1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "food__farming"
 	group: "4A3FB32F83BB586D"
 	icon: {
-		id: "croptopia:hops_seed"
+		components: {
+			"ftbquests:icon": "allthemodium:item/allthemodium_hoe"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "4AF3C71FC353146E"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "27CA43E3F9B945BB"
+		linked_quest: "063B9BDFDD0C371C"
+		size: 2.0d
+		x: -4.0d
+		y: -5.0d
+	}]
 	quests: [
 		{
-			id: "63D7369995C2E2BE"
-			tasks: [{
-				id: "2899CC5477F539D5"
-				type: "custom"
-			}]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
+			icon: {
+				id: "croptopia:guide"
+			}
 			id: "7B7A6E46C7269AB9"
+			rewards: [{
+				id: "29B3D8DF2B593CCC"
+				item: {
+					count: 1
+					id: "croptopia:guide"
+				}
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "241E9AE7FE81F125"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "151F8223F6B2EDAE"
+			rewards: [{
+				count: 5
+				id: "4465D6012C242200"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "502E8AEE62DF5CC3"
+				item: { count: 1, id: "farmersdelight:straw" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "6CAAFB6F0147B503"
+			rewards: [{
+				count: 10
+				id: "6A3595D20A5E8893"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "3A9E3D3AF88A27D4"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "406A49E33160D29E"
+			rewards: [{
+				count: 5
+				id: "6FF9DF688556CFEC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C67420FD9C2323"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "779B2C5F44BCC2C2"
+			rewards: [{
+				count: 5
+				id: "0E1D7E7482C3B03D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5DB6206509750499"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "25084F13F803D39D"
+			rewards: [{
+				count: 10
+				id: "1686CA68A848B083"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2B1ED080F6C4928B"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "64DDB258CF498254"
+			rewards: [{
+				count: 5
+				id: "338CED17A2FA090C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "397CEE9598B5ACB4"
+				item: { count: 1, id: "farmersdelight:rope" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "4A555393704C2BD0"
+			rewards: [{
+				count: 5
+				id: "13C6344D28EABEB4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3458155610EDB9FA"
+				item: { count: 1, id: "farmersdelight:safety_net" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "095A8005DA10B526"
+			rewards: [{
+				count: 5
+				id: "7DFECF0BEEDED4F1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0790F542CA34DFD5"
+				item: { count: 1, id: "farmersdelight:wild_onions" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "634F87BCB9E6744A"
+			rewards: [{
+				count: 5
+				id: "414F3F71F1E61CAC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71A46C0A1CD7CF45"
+				item: { count: 1, id: "farmersdelight:wild_cabbages" }
+				type: "item"
+			}]
+			x: -5.0d
 			y: -0.5d
+		}
+		{
+			id: "53ADCB69FE68E299"
+			rewards: [{
+				count: 5
+				id: "780D084C9995C4FC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08FA30A58D60A8F5"
+				item: { count: 1, id: "farmersdelight:wild_carrots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "2075446CA2A6594C"
+			rewards: [{
+				count: 5
+				id: "6807702EA2763D97"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C463285937F44AC"
+				item: { count: 1, id: "farmersdelight:wild_potatoes" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "23CA5152CB7E6DEE"
+			rewards: [{
+				count: 5
+				id: "6EF747CA653416E2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "041035430BC8147E"
+				item: { count: 1, id: "farmersdelight:wild_rice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "5174B13AFAB52E08"
+			rewards: [{
+				count: 5
+				id: "2277E895C8B1D30D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75321AC3B48BC8B4"
+				item: { count: 1, id: "extradelight:wild_ginger" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7C00B42B5C92545B"
+			rewards: [{
+				count: 5
+				id: "0E1FB506AB092F23"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DD8EE8A5FEB36E5"
+				item: { count: 1, id: "extradelight:wild_peanut_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "7DD4428179D9C2E9"
+			rewards: [{
+				count: 5
+				id: "66A3E755807835FD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50FF583FFFE8FC04"
+				item: { count: 1, id: "extradelight:wild_chili_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "48D900D16D79EA62"
+			rewards: [{
+				count: 5
+				id: "26B4E66FC768328C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0758300D01857284"
+				item: { count: 1, id: "extradelight:wild_mallow_root_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "0058F84CD8717503"
+			rewards: [{
+				count: 5
+				id: "5F7623899997D5B6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F0A97BC1AB0EB1"
+				item: { count: 1, id: "extradelight:wild_garlic_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "0B6DFB95AB48BE68"
+			rewards: [{
+				count: 5
+				id: "6D6A18853E5C4FFB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EA7690401A24EB6"
+				item: { count: 1, id: "extradelight:corn_seeds" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "6F1002C79275243B"
+			rewards: [{
+				count: 5
+				id: "477CCC3A9D5C3DD0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0813A2DFB69771DC"
+				item: { count: 1, id: "farmersdelight:wild_tomatoes" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "22F63BF578C622A8"
+			rewards: [{
+				count: 5
+				id: "2D30F82358B87F27"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C56621D923E26A1"
+				item: { count: 1, id: "farmersdelight:wild_beetroots" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "181249D34AF4A6B0"
+			rewards: [{
+				count: 5
+				id: "59E4C1DA754C20FC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16A3940EC2EBDBC3"
+					item: { count: 1, id: "minecraft:brown_mushroom" }
+					type: "item"
+				}
+				{
+					id: "00F787A70C77A46B"
+					item: { count: 1, id: "minecraft:red_mushroom" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "4E28AFF7602B9919"
+			rewards: [{
+				count: 5
+				id: "71E1DA9888AD0936"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A12F23C84E38B4"
+				item: { count: 1, id: "extradelight:mint" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "454F461030C71AFB"
+			rewards: [{
+				count: 5
+				id: "42DA9B969AFFE055"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03043DF2B871EAF1"
+				item: { count: 1, id: "extradelight:cinnamon_stick" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "55905177D46B1F9C"
+			rewards: [{
+				count: 5
+				id: "7365C2DF9C185803"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DCB09494D1BEB39"
+				item: { count: 1, id: "extradelight:hazelnuts_in_shell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "2E2830A4AE840D5E"
+			rewards: [{
+				count: 5
+				id: "0F91B29D69E6157D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD496B1AC7A0608"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "39961974BA39BCD2"
+			rewards: [{
+				count: 5
+				id: "21339B2D119E4762"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "316B2B8D4A34F53E"
+				item: { count: 1, id: "extradelight:coffee_cherries" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "384607D98369DAD1"
+			rewards: [{
+				count: 5
+				id: "67F0F82C6B64CA34"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AAB86586A270A94"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "584DFA3EBEB2D836"
+			rewards: [{
+				count: 5
+				id: "6F2C06C2A5A45C07"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DB6994B4B0C79E9"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "1BB50DBF86989631"
+			rewards: [{
+				count: 5
+				id: "085C780E27669671"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5876D81262E16027"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "190F426F86BD3544"
+			rewards: [{
+				count: 5
+				id: "0E3FA84B370FE955"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EEC0C0A28FDCD83"
+				item: { count: 1, id: "extradelight:oven" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "3212563FFABD2313"
+			rewards: [{
+				count: 5
+				id: "4E319179B2D34FF6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67FA04D258DEC73F"
+				item: { count: 1, id: "extradelight:dough_shaping" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "7F411093FC9A69DD"
+			rewards: [{
+				count: 5
+				id: "31A070FC5AC5FAD2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FC32BAFB69F9FEF"
+				item: { count: 1, id: "extradelight:mixing_bowl" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "0CC8F62F08D54C65"
+			rewards: [{
+				count: 5
+				id: "7E7461F70623CBEF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16CF1A0F008B1070"
+					item: { count: 1, id: "extradelight:mortar_stone" }
+					type: "item"
+				}
+				{
+					id: "4C1E6A54CCEEF028"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:pestles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			id: "516161A92952761B"
+			rewards: [{
+				count: 5
+				id: "3D256BA022008AC0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37818E553586D071"
+				item: { count: 1, id: "extradelight:drying_rack_item" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "4A42579C56C68193"
+			rewards: [{
+				count: 5
+				id: "242BCE7587EA15A9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3008227CFEAFCE1C"
+				item: { count: 1, id: "extradelight:melting_pot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "535F78FBA3C2CA53"
+			rewards: [{
+				count: 5
+				id: "3BEE693B5018BD2E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3389609163F888BA"
+				item: { count: 1, id: "extradelight:chiller" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			id: "101191DABC256ACD"
+			rewards: [{
+				count: 5
+				id: "1B2A58C3F91FFF44"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF023CA9E1DF4EE"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(extradelight:baking_trays)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "62D4C98C3799DFD8"
+			rewards: [{
+				count: 5
+				id: "796C6073B46A08A8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CB092D13BCAED9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:spoons)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			id: "1F89DCE60049D646"
+			rewards: [{
+				count: 5
+				id: "55B0010E88BD25B1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E554595D98C9B7"
+				item: { count: 1, id: "extradelight:grater" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			id: "78D0D11CC2A2DBBA"
+			rewards: [{
+				count: 5
+				id: "63A3B476BA0926A7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D374B4E42CE383"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:offset_spatula)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			id: "6B20C2ED0C712309"
+			rewards: [{
+				count: 5
+				id: "69737301577F4B9A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73F706F6D547B22F"
+				item: { count: 1, id: "extradelight:funnel" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			id: "13EA594A0C39D819"
+			rewards: [{
+				count: 5
+				id: "2D913C9F606D2D9F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54328F1E2793687F"
+				item: { count: 1, id: "extradelight:jar" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			id: "3614EA6D070E0799"
+			rewards: [{
+				count: 5
+				id: "6A3F69D12CF4BC24"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2235A25A97CBFACC"
+				item: { count: 1, id: "extradelight:keg_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			id: "5FD1A85676F6ED43"
+			rewards: [{
+				count: 5
+				id: "0A649F4272CFC727"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67ADEC0988270F93"
+				item: { count: 1, id: "extradelight:tap" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			id: "0429C03B703C24B5"
+			rewards: [{
+				count: 5
+				id: "3E3BE79830CF6152"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "737683E2D47F74B6"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "24C4AC2238D0EEDA"
+			rewards: [{
+				count: 5
+				id: "2C497CE14D923BAB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5902A7BD77F295D2"
+				item: { count: 1, id: "brewinandchewin:tankard" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "634668EAF4F8CD67"
+			rewards: [{
+				count: 5
+				id: "3F9A665A2D50ED92"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD854936557F8AF"
+				item: { count: 1, id: "croptopia:blackberry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "7DFCE067434524F2"
+			rewards: [{
+				count: 5
+				id: "7C21590165F56060"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E1D4A48CBF6E6EF"
+				item: { count: 1, id: "croptopia:blueberry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "4A40DD20078B472C"
+			rewards: [{
+				count: 5
+				id: "3EDC010A857CCE3B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40CCD844D2BA2E1F"
+				item: { count: 1, id: "croptopia:cantaloupe" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "3B5CBA23C2E816B2"
+			rewards: [{
+				count: 5
+				id: "5D428BF52E9ADC16"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE8226E7A0184AE"
+				item: { count: 1, id: "croptopia:cranberry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "2BBFE2B55BFE1FD9"
+			rewards: [{
+				count: 5
+				id: "0EF0795B2E9ABEBD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26EE53326EE73B03"
+				item: { count: 1, id: "croptopia:currant" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "191F246260C9F9D7"
+			rewards: [{
+				count: 5
+				id: "077281A376A60B52"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AC194966B506D9C"
+				item: { count: 1, id: "croptopia:elderberry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "38136FFBDD1D6C1A"
+			rewards: [{
+				count: 5
+				id: "00EC67CABC041DD4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0721E9A0CBB7EC07"
+				item: { count: 1, id: "croptopia:grape" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "5A05E44FB428F3D6"
+			rewards: [{
+				count: 5
+				id: "43FEF07496028DB8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E043685A3ECA3AD"
+				item: { count: 1, id: "croptopia:honeydew" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "6F7F91AF9E514DD4"
+			rewards: [{
+				count: 5
+				id: "284966B539D4B525"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "038B39A3E32669E7"
+				item: { count: 1, id: "croptopia:kiwi" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "5A14476CA10C6778"
+			rewards: [{
+				count: 5
+				id: "75CBF565B0D2C7AD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E4663275400326B"
+				item: { count: 1, id: "croptopia:pineapple" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			id: "4E07E2008C9388B6"
+			rewards: [{
+				count: 5
+				id: "6302D7216C887FB9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8B891D38B4B0DE"
+				item: { count: 1, id: "croptopia:raspberry" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "499693C308DAD2A8"
+			rewards: [{
+				count: 5
+				id: "52E3815B2AE558DF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62116EAC86AD45C0"
+				item: { count: 1, id: "croptopia:saguaro" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "50BE4174F8985E2E"
+			rewards: [{
+				count: 5
+				id: "4E5D0E171E1D513D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "338F2B9DF3AD12B8"
+				item: { count: 1, id: "croptopia:strawberry" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "085959110977A3AA"
+			rewards: [{
+				count: 5
+				id: "01257D8401DD3F81"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5828A287BEAD2C69"
+				item: { count: 1, id: "croptopia:artichoke" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "03BFC12AF55CF9C5"
+			rewards: [{
+				count: 5
+				id: "64D260C8BC956559"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A14D319066526A"
+				item: { count: 1, id: "croptopia:asparagus" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "236C3C1546FBC797"
+			rewards: [{
+				count: 5
+				id: "07BFF7B5D18C58EC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B8F281706938B62"
+				item: { count: 1, id: "croptopia:bellpepper" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "05B8CB4A870A394B"
+			rewards: [{
+				count: 5
+				id: "5E8B71CB336E1B31"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03E621A7F15D585A"
+				item: { count: 1, id: "croptopia:blackbean" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "62519F54A0AFE92E"
+			rewards: [{
+				count: 5
+				id: "4AAECF204482D7D0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3282FBB993331069"
+				item: { count: 1, id: "croptopia:broccoli" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "293176F9561B52D3"
+			rewards: [{
+				count: 5
+				id: "703D08E410C19A0F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "012A42FC5D60772C"
+				item: { count: 1, id: "croptopia:cabbage" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "52AC6019136BE554"
+			rewards: [{
+				count: 5
+				id: "303D3855B911028B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BBB09D0DD4E5452"
+				item: { count: 1, id: "croptopia:celery" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "1C8C4FB477D36559"
+			rewards: [{
+				count: 5
+				id: "168698678E0D9DAA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36224FEEC1D3DFF6"
+				item: { count: 1, id: "croptopia:chile_pepper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "181BF1C457A1E033"
+			rewards: [{
+				count: 5
+				id: "16736BEEBE22453C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11FA7E7156D44ADB"
+				item: { count: 1, id: "croptopia:corn" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "5E379057FDCEF562"
+			rewards: [{
+				count: 5
+				id: "1E1CA1FA32E9C459"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20501988C4443118"
+				item: { count: 1, id: "croptopia:cucumber" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "7F66E1E4E3694CD1"
+			rewards: [{
+				count: 5
+				id: "5AC75977D59FE16F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB777C8E02DF804"
+				item: { count: 1, id: "croptopia:eggplant" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "5FB3E5D29E773B02"
+			rewards: [{
+				count: 5
+				id: "55C8E722D0B8ED73"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D0B01FDE4B150C"
+				item: { count: 1, id: "croptopia:garlic" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "15C7DF57F6FF6559"
+			rewards: [{
+				count: 5
+				id: "56F5C478D1DFBA8F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EC1788F7EA9733A"
+				item: { count: 1, id: "croptopia:greenbean" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "46B1D2DE36840F7A"
+			rewards: [{
+				count: 5
+				id: "7059EE441F78B02F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5A17490BA55A53"
+				item: { count: 1, id: "croptopia:greenonion" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "3913AD31BACFC2C1"
+			rewards: [{
+				count: 5
+				id: "3D9CE191CAFF2186"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3232CC0DD5827566"
+				item: { count: 1, id: "croptopia:hops" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "1923A3A64AF64687"
+			rewards: [{
+				count: 5
+				id: "093CB51E77915BE3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8A0FD7BD341902"
+				item: { count: 1, id: "croptopia:lettuce" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "3AB6A50D62B3843B"
+			rewards: [{
+				count: 5
+				id: "5CEC178460F99DDC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DEB2A3CDE79D6F2"
+				item: { count: 1, id: "croptopia:olive" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "5D2B40A9C48386F9"
+			rewards: [{
+				count: 5
+				id: "75105F8030D9089F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4209ECC261DF3335"
+				item: { count: 1, id: "croptopia:soybean" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "09A7BC982F40DBF1"
+			rewards: [{
+				count: 5
+				id: "2E5F115A6FAD0D37"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16D7E0CF09C44143"
+				item: { count: 1, id: "croptopia:spinach" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "19AB04E0B4BB89B4"
+			rewards: [{
+				count: 5
+				id: "313AC5814A543B93"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "026BFB4B8ED10204"
+				item: { count: 1, id: "croptopia:squash" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "09B450BDC6A0525C"
+			rewards: [{
+				count: 5
+				id: "24CE0F99257F7B14"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C246116A42BE9E5"
+				item: { count: 1, id: "croptopia:onion" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "2A268776683C7B5C"
+			rewards: [{
+				count: 5
+				id: "4DC51B8E582C3E1B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF8EB6C96F97799"
+				item: { count: 1, id: "croptopia:radish" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "43B06C76EE41530F"
+			rewards: [{
+				count: 5
+				id: "2E5DFA338136C290"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3575E6D871DAC12E"
+				item: { count: 1, id: "croptopia:rhubarb" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "1DAB215D3470EEC8"
+			rewards: [{
+				count: 5
+				id: "7EF4EF2F0FD2A46A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4557C94F779959E8"
+				item: { count: 1, id: "croptopia:rutabaga" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "37DE01BA4E2F0BC6"
+			rewards: [{
+				count: 5
+				id: "23FF5C93778E9BA8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A2C2FCC3884A1A"
+				item: { count: 1, id: "croptopia:sweetpotato" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "1243E94AC2277A91"
+			rewards: [{
+				count: 5
+				id: "0D8373CFD4067A5B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61512AE8BC242639"
+				item: { count: 1, id: "croptopia:tomatillo" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "06F2C245FB8DD1D7"
+			rewards: [{
+				count: 5
+				id: "1ECD9E9846A9A225"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15C8303A3C221D00"
+				item: { count: 1, id: "croptopia:tomato" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "54C942489A64923E"
+			rewards: [{
+				count: 5
+				id: "7D6EA3E23B9B77EA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CE2B73BE66CE46"
+				item: { count: 1, id: "croptopia:turnip" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "2BD840EEF8F582C4"
+			rewards: [{
+				count: 5
+				id: "524EDF3F49A03036"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "434B15C42A30CAFC"
+				item: { count: 1, id: "croptopia:yam" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "7594C92BF73E2BB8"
+			rewards: [{
+				count: 5
+				id: "10B512C03DB4F391"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F48730CC2CCFB8"
+				item: { count: 1, id: "croptopia:zucchini" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "4D0C2E759210BCD0"
+			rewards: [{
+				count: 5
+				id: "6E5AB061C5F0AFFB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "28D6FB48CE79FC62"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(croptopia:advancements_saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "1784A1F1A3BA5F8C"
+			rewards: [{
+				count: 5
+				id: "09C1A0A786A50022"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1008EB3A16BDCF57"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(croptopia:advancements_seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "638C66BA80C89358"
+			rewards: [{
+				count: 5
+				id: "6FC032D31A869CBA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79AC005C2588D6AC"
+				item: { count: 1, id: "croptopia:barley" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "20EBA06AE09F45B5"
+			rewards: [{
+				count: 5
+				id: "5E4267B9EF7C347D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "690024B899D8018B"
+				item: { count: 1, id: "croptopia:basil" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "720A81FD8F5CDA93"
+			rewards: [{
+				count: 5
+				id: "1488683BE51B661A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FFB214E45BE3337"
+				item: { count: 1, id: "croptopia:coffee_beans" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "69DD1FE19E556829"
+			rewards: [{
+				count: 5
+				id: "16BF80DBA3CE5049"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08142502886CD03B"
+				item: { count: 1, id: "croptopia:ginger" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "51CF4D560CA95EEE"
+			rewards: [{
+				count: 5
+				id: "1DE01CBCEAF39CAC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01DADB6D6F57366F"
+				item: { count: 1, id: "croptopia:mustard" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "7275DE3D1881CF6C"
+			rewards: [{
+				count: 5
+				id: "26BF21F8AC734D2E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F3F8EFCC021D3B7"
+				item: { count: 1, id: "croptopia:oat" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "64ADECB64266BFF0"
+			rewards: [{
+				count: 5
+				id: "79073F7BAF6AF394"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "226A9F680916690B"
+				item: { count: 1, id: "croptopia:peanut" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "72C9AC73978635BD"
+			rewards: [{
+				count: 5
+				id: "05D69E72EC9D32CD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34501BBF23CC049C"
+				item: { count: 1, id: "croptopia:pepper" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "4FE4E6F22C718A8B"
+			rewards: [{
+				count: 5
+				id: "36736F6021D12667"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F7D50A2EB77F163"
+				item: { count: 1, id: "croptopia:rice" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "47295F7FB0CE2044"
+			rewards: [{
+				count: 5
+				id: "431CC75C51B7B9F5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E3DA1D272D10B4"
+				item: { count: 1, id: "croptopia:tea_leaves" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "760F161360950653"
+			rewards: [{
+				count: 5
+				id: "216A1637CC3DDD21"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D18F803D826DC64"
+				item: { count: 1, id: "croptopia:turmeric" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "79BBE60FA89627A6"
+			rewards: [{
+				count: 5
+				id: "3A6B978D5D801CA6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E1C94A5E1941E8B"
+				item: { count: 1, id: "croptopia:vanilla" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "11F9052F72DD994E"
+			rewards: [{
+				count: 5
+				id: "25CAB4EDBB04F6AD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11C7C74F528BEF28"
+				item: { count: 1, id: "croptopia:almond_sapling" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "6740CCAA2EACB0B9"
+			rewards: [{
+				count: 5
+				id: "788B3BC33E1E3E24"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6034C4CF30FF543E"
+				item: { count: 1, id: "croptopia:apple_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "273EC1BB968DF769"
+			rewards: [{
+				count: 5
+				id: "706CAC417FD79162"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73D6E30E8C2583BB"
+				item: { count: 1, id: "croptopia:apricot_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "250BE54F94099E1D"
+			rewards: [{
+				count: 5
+				id: "3056E704CA90611B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "346C9CDA4B6AC5A5"
+				item: { count: 1, id: "croptopia:avocado_sapling" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "5BA43D4F752F3926"
+			rewards: [{
+				count: 5
+				id: "41908387342DB6C4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5CB7369BD0F97B"
+				item: { count: 1, id: "croptopia:banana_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "7C46731E85B850C4"
+			rewards: [{
+				count: 5
+				id: "1545052D862B7D9A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5284E4FFC581DA75"
+				item: { count: 1, id: "croptopia:cashew_sapling" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "00DC13B9DFF892DA"
+			rewards: [{
+				count: 5
+				id: "449F535526DB7A8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AB61811869C66DF"
+				item: { count: 1, id: "croptopia:cherry_sapling" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "6B483A2B72BB6C78"
+			rewards: [{
+				count: 5
+				id: "10F1EEC4E08F1548"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51AD5FC68A1463E7"
+				item: { count: 1, id: "croptopia:cinnamon_sapling" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "18C7CB079E9665EC"
+			rewards: [{
+				count: 5
+				id: "6561427E1718AC48"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E9817E19246BED7"
+				item: { count: 1, id: "croptopia:coconut_sapling" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			id: "48BB527BA42DC648"
+			rewards: [{
+				count: 5
+				id: "0FC85C3FE7581346"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B19B16C7C2D9E5C"
+				item: { count: 1, id: "croptopia:date_sapling" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "02F3C3275892B279"
+			rewards: [{
+				count: 5
+				id: "091BCC58EE102A11"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "129BD5A63270A2F5"
+				item: { count: 1, id: "croptopia:dragonfruit_sapling" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "572E40BD4F845668"
+			rewards: [{
+				count: 5
+				id: "5D32A080F8626336"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "489ECC94F1F4A3C7"
+				item: { count: 1, id: "croptopia:fig_sapling" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "7D522FF8A0680D80"
+			rewards: [{
+				count: 5
+				id: "3CD8D278CBEAE72B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BEED097EFF18277"
+				item: { count: 1, id: "croptopia:grapefruit_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "2E7DD0B0FBCC3160"
+			rewards: [{
+				count: 5
+				id: "7CEF60004BD521D2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F24C3371F92E562"
+				item: { count: 1, id: "croptopia:kumquat_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1ECAF883BB9379EF"
+			rewards: [{
+				count: 5
+				id: "23947501758E671C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0271CD5B6D33179F"
+				item: { count: 1, id: "croptopia:lemon_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "3B93B266916F5F16"
+			rewards: [{
+				count: 5
+				id: "4B4FA0A032ADD92C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A6EEEADD4B2B6F9"
+				item: { count: 1, id: "croptopia:lime_sapling" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "5A3D664244C61E2D"
+			rewards: [{
+				count: 5
+				id: "054A150075477F44"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "630A285D8F28CC54"
+				item: { count: 1, id: "croptopia:mango_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "75C6A1B93273D5D8"
+			rewards: [{
+				count: 5
+				id: "6F07B4437E09AD1E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E72F26F91593905"
+				item: { count: 1, id: "croptopia:nectarine_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "685AC61588E4F281"
+			rewards: [{
+				count: 5
+				id: "3503C2AF6C9E97CB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A6551D967533536"
+				item: { count: 1, id: "croptopia:nutmeg_sapling" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "6E07FF934631ACE5"
+			rewards: [{
+				count: 5
+				id: "53E5931D12E1892C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797DB9A229A672"
+				item: { count: 1, id: "croptopia:orange_sapling" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "5BCEE9823F738D9E"
+			rewards: [{
+				count: 5
+				id: "7835781FFEFAD2D0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "209F35FD4CF2192C"
+				item: { count: 1, id: "croptopia:peach_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "05BE8C190EAE653D"
+			rewards: [{
+				count: 5
+				id: "13DC48DF94936901"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23DD7FF63AA550DF"
+				item: { count: 1, id: "croptopia:pear_sapling" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "07799E1F5C690621"
+			rewards: [{
+				count: 5
+				id: "220E2F1646FEC2D3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "457F4079CE23EEEC"
+				item: { count: 1, id: "croptopia:pecan_sapling" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "57064541AA6E4619"
+			rewards: [{
+				count: 5
+				id: "18FB320372D9E6FF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "470B6DA3660CA267"
+				item: { count: 1, id: "croptopia:persimmon_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "228F95276C2F8415"
+			rewards: [{
+				count: 5
+				id: "6196B7850777E3CF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24FDB00508987588"
+				item: { count: 1, id: "croptopia:plum_sapling" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "412ED4EDFF430CA3"
+			rewards: [{
+				count: 5
+				id: "48F1F049E56E8D37"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FB66BF394B59674"
+				item: { count: 1, id: "croptopia:starfruit_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "5620BAEDB2748271"
+			rewards: [{
+				count: 5
+				id: "6D6A85B2AA38319F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DF99A6A995FA9C"
+				item: { count: 1, id: "croptopia:walnut_sapling" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "6EBE019D8CD03F6A"
+			rewards: [{
+				count: 10
+				id: "19388FABE61BB98E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B767CA0632A9673"
+				item: { count: 1, id: "farmingforblockheads:feeding_trough" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "205DDA7C4E584BFB"
+			rewards: [{
+				count: 5
+				id: "262A3C042B9D2561"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48EC6ABFBA6BA95B"
+				item: { count: 1, id: "farmingforblockheads:chicken_nest" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "2AD888901406E3D3"
+			rewards: [{
+				count: 5
+				id: "183FF399D4AD7AD9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60534585666F3AE2"
+				item: { count: 1, id: "farmingforblockheads:fertilized_farmland_rich" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "212D14279684AAF1"
+			rewards: [{
+				count: 10
+				id: "795BCC28E8DE0C93"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "2B2A7E91373F524D"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"6E07FF934631ACE5"
+				"7D522FF8A0680D80"
+				"11F9052F72DD994E"
+				"00DC13B9DFF892DA"
+				"5620BAEDB2748271"
+				"3B93B266916F5F16"
+				"250BE54F94099E1D"
+				"228F95276C2F8415"
+				"75C6A1B93273D5D8"
+				"5A3D664244C61E2D"
+				"6B483A2B72BB6C78"
+				"273EC1BB968DF769"
+				"5BCEE9823F738D9E"
+				"2E7DD0B0FBCC3160"
+				"5BA43D4F752F3926"
+				"412ED4EDFF430CA3"
+				"7C46731E85B850C4"
+				"48BB527BA42DC648"
+				"685AC61588E4F281"
+				"07799E1F5C690621"
+				"57064541AA6E4619"
+				"05BE8C190EAE653D"
+				"1ECAF883BB9379EF"
+				"18C7CB079E9665EC"
+				"02F3C3275892B279"
+				"572E40BD4F845668"
+				"6740CCAA2EACB0B9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E9EEC9B73A64C66"
+			rewards: [
+				{
+					count: 3
+					id: "0988E5DF2D4455C6"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E4D468BE295915"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "677B053C42F57636"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0E9EEC9B73A64C66"
+				"6FA0E9E3FFE1A40B"
+				"50E0CC87812998D0"
+				"32A40B5E93E06A28"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3115E9F5FD34D8BE"
+			rewards: [
+				{
+					count: 5
+					id: "7668A0A22AB15B29"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268EF93BCBFB6F36"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "35E1A7BB412C3D89"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7C00B42B5C92545B"
+				"454F461030C71AFB"
+				"181249D34AF4A6B0"
+				"7DD4428179D9C2E9"
+				"0058F84CD8717503"
+				"23CA5152CB7E6DEE"
+				"095A8005DA10B526"
+				"39961974BA39BCD2"
+				"22F63BF578C622A8"
+				"4E28AFF7602B9919"
+				"55905177D46B1F9C"
+				"2075446CA2A6594C"
+				"5174B13AFAB52E08"
+				"48D900D16D79EA62"
+				"53ADCB69FE68E299"
+				"2E2830A4AE840D5E"
+				"0B6DFB95AB48BE68"
+				"6F1002C79275243B"
+				"634F87BCB9E6744A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6FA0E9E3FFE1A40B"
+			rewards: [
+				{
+					count: 3
+					id: "2BADC0A486B49FB4"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21FA408945B67600"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "14803CFC7D240694"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"293176F9561B52D3"
+				"72C9AC73978635BD"
+				"79BBE60FA89627A6"
+				"62519F54A0AFE92E"
+				"2BD840EEF8F582C4"
+				"43B06C76EE41530F"
+				"52AC6019136BE554"
+				"03BFC12AF55CF9C5"
+				"5A14476CA10C6778"
+				"64ADECB64266BFF0"
+				"37DE01BA4E2F0BC6"
+				"09A7BC982F40DBF1"
+				"46B1D2DE36840F7A"
+				"5FB3E5D29E773B02"
+				"085959110977A3AA"
+				"236C3C1546FBC797"
+				"4E07E2008C9388B6"
+				"7275DE3D1881CF6C"
+				"3B5CBA23C2E816B2"
+				"638C66BA80C89358"
+				"499693C308DAD2A8"
+				"20EBA06AE09F45B5"
+				"3913AD31BACFC2C1"
+				"7DFCE067434524F2"
+				"2BBFE2B55BFE1FD9"
+				"2A268776683C7B5C"
+				"1C8C4FB477D36559"
+				"05B8CB4A870A394B"
+				"3AB6A50D62B3843B"
+				"634668EAF4F8CD67"
+				"5A05E44FB428F3D6"
+				"15C7DF57F6FF6559"
+				"720A81FD8F5CDA93"
+				"7594C92BF73E2BB8"
+				"7F66E1E4E3694CD1"
+				"1243E94AC2277A91"
+				"69DD1FE19E556829"
+				"19AB04E0B4BB89B4"
+				"4A40DD20078B472C"
+				"5E379057FDCEF562"
+				"181BF1C457A1E033"
+				"1DAB215D3470EEC8"
+				"6F7F91AF9E514DD4"
+				"760F161360950653"
+				"54C942489A64923E"
+				"47295F7FB0CE2044"
+				"51CF4D560CA95EEE"
+				"191F246260C9F9D7"
+				"4FE4E6F22C718A8B"
+				"06F2C245FB8DD1D7"
+				"38136FFBDD1D6C1A"
+				"1923A3A64AF64687"
+				"09B450BDC6A0525C"
+				"5D2B40A9C48386F9"
+				"50BE4174F8985E2E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "50E0CC87812998D0"
+			rewards: [
+				{
+					count: 3
+					id: "6C6D93A33F693590"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB0CDEE22959245"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "614DBD1787EC9451"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"13EA594A0C39D819"
+				"516161A92952761B"
+				"6CAAFB6F0147B503"
+				"3212563FFABD2313"
+				"4A42579C56C68193"
+				"78D0D11CC2A2DBBA"
+				"7F411093FC9A69DD"
+				"0CC8F62F08D54C65"
+				"64DDB258CF498254"
+				"190F426F86BD3544"
+				"62D4C98C3799DFD8"
+				"4A555393704C2BD0"
+				"0429C03B703C24B5"
+				"1F89DCE60049D646"
+				"151F8223F6B2EDAE"
+				"101191DABC256ACD"
+				"1BB50DBF86989631"
+				"384607D98369DAD1"
+				"24C4AC2238D0EEDA"
+				"3614EA6D070E0799"
+				"5FD1A85676F6ED43"
+				"6B20C2ED0C712309"
+				"535F78FBA3C2CA53"
+				"584DFA3EBEB2D836"
+				"406A49E33160D29E"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "32A40B5E93E06A28"
+			rewards: [
+				{
+					id: "0E2277F239857110"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECE06E34AA7524D"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "131E85BA644EC007"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -6.0d
 		}
 	]
 }

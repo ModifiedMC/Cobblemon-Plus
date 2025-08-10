@@ -23,11 +23,12 @@
   ],
   "notifications": [
     {
-      "version": 6,
+      "version": 8,
       "enabled": true,
       "checkOwnMode": "DEFER",
-      "exclusionEnabled": false,
-      "responseEnabled": false,
+      "inclusionEnabled": true,
+      "exclusionEnabled": true,
+      "responseEnabled": true,
       "sound": {
         "version": 1,
         "enabled": true,
@@ -37,8 +38,8 @@
       },
       "textStyle": {
         "version": 2,
-        "doColor": false,
-        "color": 15532287,
+        "doColor": true,
+        "color": 16761856,
         "bold": "DISABLED",
         "italic": "DISABLED",
         "underlined": "DISABLED",
@@ -53,11 +54,15 @@
       "titleMsgEnabled": false,
       "toastMsg": "",
       "toastMsgEnabled": false,
+      "typedMsg": "",
+      "typedMsgEnabled": false,
+      "clipboardMsg": "",
+      "clipboardMsgEnabled": false,
       "triggers": [
         {
           "version": 4,
           "enabled": true,
-          "string": "xImpavid",
+          "string": "Profile name",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -69,7 +74,19 @@
         {
           "version": 4,
           "enabled": true,
-          "string": "xImpavid",
+          "string": "Display name",
+          "styleTarget": {
+            "version": 2,
+            "enabled": false,
+            "string": "",
+            "type": "NORMAL"
+          },
+          "type": "NORMAL"
+        },
+        {
+          "version": 4,
+          "enabled": true,
+          "string": "Shiny",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -79,8 +96,9 @@
           "type": "NORMAL"
         }
       ],
+      "inclusionTriggers": [],
       "exclusionTriggers": [],
-      "responseMessages": []
+      "responses": []
     }
   ]
 }

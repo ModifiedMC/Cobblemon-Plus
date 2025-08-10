@@ -1,13 +1,13 @@
 name = "Structure Expansion"
-filename = "structure-expansion-neoforge-87.0.0.jar"
+filename = "structure-expansion-neoforge-88.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e66bdb4df65bbdb39a9841cd3e2c9ddad626004c"
+hash = "73dbedaa61d5e52297e63bfb7361ea501deaa6b7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5444108
+file-id = 6753853
 project-id = 398430

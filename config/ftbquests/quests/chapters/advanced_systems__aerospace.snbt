@@ -1,0 +1,878 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_systems__aerospace"
+	group: "3CDCB70E6C304444"
+	icon: {
+		components: {
+			"ftbquests:icon": "buildinggadgets2:item/gadget_building"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "35A0313F72979787"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "119FBCFAB10D9F28"
+			rewards: [{
+				count: 3
+				id: "54E7BB9175668D93"
+				item: {
+					count: 1
+					id: "modified:coinpile_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "736D9C6B8B9E0F03"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "0FB45C56F299958F"
+			rewards: [{
+				count: 3
+				id: "1D9FE4AA5971F126"
+				item: {
+					count: 1
+					id: "modified:coinpile_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "728323539475D253"
+				item: { count: 1, id: "charginggadgets:charging_station" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.5d
+		}
+		{
+			id: "20BAE2023BEF0EEA"
+			rewards: [{
+				count: 5
+				id: "14D9DAFC37B0DE41"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E5792DFE33BE82E"
+				item: { count: 1, id: "immersive_aircraft:airship" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "2FB6807000BF7CB4"
+			rewards: [{
+				count: 5
+				id: "524C2D3953AA84D4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "786685F1D339B1A2"
+				item: { count: 1, id: "immersive_aircraft:cargo_airship" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "7722D8A6E773A794"
+			rewards: [{
+				count: 10
+				id: "6EEFAAB672618EF9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7DF457766F9CE4"
+				item: { count: 1, id: "immersive_aircraft:warship" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "729A6EA09BE62820"
+			rewards: [{
+				count: 5
+				id: "605701A3ED91BF16"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1CB25FDA9ABC92"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "2C5BEED91203CCE5"
+			rewards: [{
+				count: 5
+				id: "74BAF35C25B55261"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1703252004B54805"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "00340AB25E205AD9"
+			rewards: [{
+				count: 5
+				id: "20ADC4E6DB7CEC88"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B4767181610D386"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "259AEAAE827B1AB1"
+			rewards: [{
+				count: 5
+				id: "3AEF2DFED60043E5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C08B46C68B2AC25"
+				item: { count: 1, id: "immersive_aircraft:rotary_cannon" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "627DA8584399E13C"
+			rewards: [{
+				count: 5
+				id: "497E7E3D50E1FA2C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D735E946829CF6A"
+				item: { count: 1, id: "immersive_aircraft:heavy_crossbow" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "66BA51C563ED5C38"
+			rewards: [{
+				count: 5
+				id: "58B33FF305A00323"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "063DA82D5D2D925D"
+				item: { count: 1, id: "immersive_aircraft:telescope" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "0E253B13C926299B"
+			rewards: [{
+				count: 5
+				id: "7B83A787EE29DBB0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D47FE8F34E04713"
+				item: { count: 1, id: "immersive_aircraft:bomb_bay" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "453BC4C2154FF294"
+			rewards: [{
+				count: 5
+				id: "6D9CBE103D1E0A66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "387101CCE4401AF1"
+				item: { count: 1, id: "immersive_aircraft:enhanced_propeller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "048499EB0B5A75F2"
+			rewards: [{
+				count: 5
+				id: "110C9D635D02F3D8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7387DEB251EADCB7"
+				item: { count: 1, id: "immersive_aircraft:eco_engine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "2E261603FF6ECEB3"
+			rewards: [{
+				count: 10
+				id: "01C644628E42DC17"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5183DE88745C46E9"
+				item: { count: 1, id: "immersive_aircraft:nether_engine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "24B27295E69885D6"
+			rewards: [{
+				count: 5
+				id: "72BD6F21F4C30565"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA8577DD6C358C4"
+				item: { count: 1, id: "immersive_aircraft:steel_boiler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "5E6F081CC884A766"
+			rewards: [{
+				count: 5
+				id: "4BA0F981D2B4C128"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "660ADF6B5D2DB51B"
+				item: { count: 1, id: "immersive_aircraft:industrial_gears" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "437ECBE2A0D8F530"
+			rewards: [{
+				count: 5
+				id: "27536C7A6E489520"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B443F9DF34272E4"
+				item: { count: 1, id: "immersive_aircraft:sturdy_pipes" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "429F2D88E4694EB1"
+			rewards: [{
+				count: 5
+				id: "2A10DD5FE165FC5C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F166E8F5F0F007C"
+				item: { count: 1, id: "immersive_aircraft:gyroscope" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "373DA049804FBC51"
+			rewards: [{
+				count: 5
+				id: "325AE8E5EF100F89"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D820DFFB1E83F39"
+				item: { count: 1, id: "immersive_aircraft:hull_reinforcement" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "3188CBDEEF6657D5"
+			rewards: [{
+				count: 5
+				id: "700A93D04D7B2C31"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45D737BBA579E5B3"
+				item: { count: 1, id: "immersive_aircraft:improved_landing_gear" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_exclamation.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "37B514480E3C4F42"
+			rewards: [{
+				id: "0DC318CAC1224268"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "287F9D36033F96BB"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "7F3315C2204A23FA"
+			rewards: [{
+				count: 5
+				id: "354B2DDC43122EDD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B676E6B97A670E0"
+					item: { count: 1, id: "exposure:photograph_frame" }
+					type: "item"
+				}
+				{
+					id: "715E4F85CDC61911"
+					item: { count: 1, id: "exposure:glass_photograph_frame" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "7435EF3F9B4B22A1"
+			rewards: [{
+				count: 5
+				id: "1E6CE9B11AFE8BB1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F09D876A6D9C90D"
+				item: { count: 1, id: "exposure:album" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "2EE756A6C5EF3C22"
+			rewards: [{
+				count: 5
+				id: "48B580AF963A62C2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "652B8DF94494F502"
+				item: { count: 1, id: "exposure:lightroom" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "23A052661BAEEA86"
+			rewards: [{
+				count: 5
+				id: "5D4566DD78B3F0F8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC611FDF0C99C56"
+				item: { count: 1, id: "exposure:photograph" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "57AAFA8226772250"
+			rewards: [{
+				count: 5
+				id: "507D31F86D5106B4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C93C706625DE98B"
+				item: { count: 1, id: "exposure:camera_stand" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "7460B84FDFEF5697"
+			rewards: [{
+				count: 10
+				id: "17AB1A5BFC4E28FE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1854A7E9F94B23EA"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: -4.5d
+		}
+		{
+			id: "054C51472DC22A2D"
+			rewards: [{
+				count: 5
+				id: "4C9715401DCAD034"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BB7BD1E5C36AA5"
+				item: { count: 1, id: "exposure:black_and_white_film" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			id: "21E4BFA21488F6A4"
+			rewards: [{
+				count: 5
+				id: "60F644F19319D42D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F06A5F707E3A376"
+				item: { count: 1, id: "exposure:color_film" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			id: "3914E8368C061165"
+			rewards: [{
+				count: 5
+				id: "1224FB5F28BE8032"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3188FF438EEF6EFA"
+				item: { count: 1, id: "exposure:high_sensitivity_black_and_white_film" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "0D8A6895002CCCE5"
+			rewards: [{
+				count: 5
+				id: "0C32E084B0D383D1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25AA12429AAEDE6C"
+				item: { count: 1, id: "exposure:high_sensitivity_color_film" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "70D285E450B9E890"
+			rewards: [{
+				count: 5
+				id: "5F4E8AAB2F5C7742"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "567A68C6F19F7692"
+				item: { count: 1, id: "exposure:developed_black_and_white_film" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			id: "792AB76367139A3E"
+			rewards: [{
+				count: 5
+				id: "66DB7FA130CE008F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F32B88D3ADA18A"
+				item: { count: 1, id: "exposure:developed_color_film" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "79622E13E73B1DD6"
+			rewards: [{
+				count: 5
+				id: "0DC59926416CD4DE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43D351097618CA43"
+				item: { count: 1, id: "immersive_aircraft:hull" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "7CF0CD20B8CE1FC4"
+			rewards: [{
+				count: 5
+				id: "33E4799849EAC590"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AD57BF84E1A5DB7"
+				item: { count: 1, id: "immersive_aircraft:engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "60E305E40C3AC806"
+			rewards: [{
+				count: 5
+				id: "2296E9AE57D25D9E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10226D520ED56699"
+				item: { count: 1, id: "immersive_aircraft:sail" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "7C6945EC2DCA8DD3"
+			rewards: [{
+				count: 5
+				id: "27E39A1A5D520902"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5503CD9D27A01A4C"
+				item: { count: 1, id: "immersive_aircraft:propeller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "270ACAD1AA2C1A88"
+			rewards: [{
+				count: 5
+				id: "01C99AA37F875ADB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "073D288D5D1B20D1"
+				item: { count: 1, id: "immersive_aircraft:boiler" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7435EF3F9B4B22A1"
+				"3914E8368C061165"
+				"7F3315C2204A23FA"
+				"054C51472DC22A2D"
+				"792AB76367139A3E"
+				"0D8A6895002CCCE5"
+				"7460B84FDFEF5697"
+				"21E4BFA21488F6A4"
+				"2EE756A6C5EF3C22"
+				"23A052661BAEEA86"
+				"70D285E450B9E890"
+				"57AAFA8226772250"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C9E5CFC1D849D8A"
+			rewards: [
+				{
+					count: 2
+					id: "07C30414A1229C72"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "768B87C07EE9B7FA"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B782D560DBC21E5"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"627DA8584399E13C"
+				"453BC4C2154FF294"
+				"7722D8A6E773A794"
+				"2C5BEED91203CCE5"
+				"3188CBDEEF6657D5"
+				"048499EB0B5A75F2"
+				"24B27295E69885D6"
+				"66BA51C563ED5C38"
+				"373DA049804FBC51"
+				"0E253B13C926299B"
+				"2FB6807000BF7CB4"
+				"429F2D88E4694EB1"
+				"5E6F081CC884A766"
+				"437ECBE2A0D8F530"
+				"2E261603FF6ECEB3"
+				"7CF0CD20B8CE1FC4"
+				"60E305E40C3AC806"
+				"729A6EA09BE62820"
+				"79622E13E73B1DD6"
+				"7C6945EC2DCA8DD3"
+				"20BAE2023BEF0EEA"
+				"259AEAAE827B1AB1"
+				"00340AB25E205AD9"
+				"270ACAD1AA2C1A88"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "35C073CEE9EE40AB"
+			rewards: [
+				{
+					count: 3
+					id: "49CEB66C4F4CF6AD"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D6D7362C3258C65"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6E8321E36BB2AEB6"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+}

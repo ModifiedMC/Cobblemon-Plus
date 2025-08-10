@@ -1,0 +1,17 @@
+{
+    "type": "ars_nouveau:enchanting_apparatus",
+    "keepNbtOfReagent": true,
+    "pedestalItems": [
+        { "item": "allthemodium:unobtainium_vibranium_alloy_ingot" },
+        { "item": "minecraft:dragon_breath" },
+        { "item": "create:experience_block" },
+        { "item": "allthemodium:unobtainium_allthemodium_alloy_ingot" },
+        { "item": "cobblemon:dragon_gem" },
+        { "item": "allthemodium:vibranium_allthemodium_alloy_ingot" },
+        { "item": "create:experience_block" },
+        { "item": "cobblemon:dragon_fang" }
+    ],
+    "reagent": { "item": "allthemodium:unobtainium_pickaxe" },
+    "result": { "id": "allthemodium:alloy_pick", "count": 1 },
+    "sourceCost": 10000
+}

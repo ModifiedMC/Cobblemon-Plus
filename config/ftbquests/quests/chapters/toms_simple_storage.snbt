@@ -35,8 +35,8 @@
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1F289F5F2C432644"]
@@ -64,8 +64,8 @@
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7C1B8D102A99F485"]
@@ -93,8 +93,8 @@
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F289F5F2C432644"]
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "toms_storage:trim" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4D2D4C55BB22C6C6"]
@@ -151,16 +151,16 @@
 				item: { count: 1, id: "toms_storage:inventory_cable" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			id: "1319830E777800BC"
 			rewards: [{
-				id: "1B21ED85BD9C5709"
+				id: "4CA08305BA69F8EB"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "modified:coinpile_pokedollar"
 				}
 				type: "item"
 			}]
@@ -173,12 +173,19 @@
 			y: 0.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/back_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "724A064DD2B0C4EC"
 			rewards: [{
-				id: "3C141456FE4083A3"
+				count: 3
+				id: "464861C43B590482"
 				item: {
 					count: 1
-					id: "cobblemon:relic_coin"
+					id: "cobblemon:relic_coin_pouch"
 				}
 				type: "item"
 			}]
@@ -186,8 +193,93 @@
 				id: "45C05A39AB498BCF"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1A2830658161CEAC"
+				"1F289F5F2C432644"
+				"1319830E777800BC"
+				"7C1B8D102A99F485"
+				"0358B08685FC6188"
+				"4D2D4C55BB22C6C6"
+				"3380159426A105A7"
+				"3F95B66B7C34E9CF"
+				"60EAA170CC116783"
+				"6C9584FF639F04A9"
+				"207A9E6928E9EAB7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "28CB47E8BAD3B0C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A3EB18234B68B5"
+				table_id: 4334962057985762648L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CBC85435BF28FFE"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			id: "207A9E6928E9EAB7"
+			tasks: [{
+				id: "00818779F77C28BC"
+				item: { count: 1, id: "toms_storage:item_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "60EAA170CC116783"
+			tasks: [{
+				id: "54ECDFD08B5B5865"
+				item: { count: 1, id: "toms_storage:polymorphic_item_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "3380159426A105A7"
+			tasks: [{
+				id: "23FA526979968FF0"
+				item: { count: 1, id: "toms_storage:tag_item_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "6C9584FF639F04A9"
+			tasks: [{
+				id: "7DE9CFB78F06185B"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "3F95B66B7C34E9CF"
+			tasks: [{
+				id: "54631E128C7E1E40"
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 }

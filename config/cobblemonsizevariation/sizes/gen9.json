@@ -1,0 +1,61 @@
+{
+  "name": "gen9",
+  "minSizeModifier": "0.2",
+  "maxSizeModifier": "2.0",
+  "sizes": [
+    {
+      "name": "XXXS",
+      "min": "0",
+      "max": "0",
+      "color": "#1b88cc"
+    },
+    {
+      "name": "XXS",
+      "min": "1",
+      "max": "24",
+      "color": "#1b88cc"
+    },
+    {
+      "name": "XS",
+      "min": "25",
+      "max": "59",
+      "color": "#1b88cc"
+    },
+    {
+      "name": "S",
+      "min": "60",
+      "max": "99",
+      "color": "#1bcc9a"
+    },
+    {
+      "name": "M",
+      "min": "100",
+      "max": "155",
+      "color": "#ffffff"
+    },
+    {
+      "name": "L",
+      "min": "156",
+      "max": "195",
+      "color": "#e6ff2b"
+    },
+    {
+      "name": "XL",
+      "min": "196",
+      "max": "230",
+      "color": "#f21800"
+    },
+    {
+      "name": "XXL",
+      "min": "231",
+      "max": "254",
+      "color": "#f21800"
+    },
+    {
+      "name": "XXXL",
+      "min": "255",
+      "max": "255",
+      "color": "#f21800"
+    }
+  ]
+}

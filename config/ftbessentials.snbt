@@ -81,19 +81,19 @@
 		# Allows users to access an Anvil GUI without needing an Anvil.
 		anvil: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to access a Crafting Table GUI without needing a Crafting Table.
 		crafting: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
 		enderchest: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to set a custom hat as their head item by using a command

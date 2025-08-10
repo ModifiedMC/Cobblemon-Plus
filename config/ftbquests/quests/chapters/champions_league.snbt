@@ -19,7 +19,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 7.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			height: 3.0d
@@ -27,7 +27,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 7.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
@@ -50,8 +50,8 @@
 			image: "cobblemon:textures/particle/request/icon_challenge.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 7.5d
-			y: 4.5d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			height: 33.0d
@@ -126,8 +126,25 @@
 			x: 13.5d
 			y: 9.5d
 		}
+		{
+			height: 5.0d
+			image: "cobblemon:textures/particle/request/icon_challenge.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			height: 33.0d
+			image: "modified:textures/ftbquests/backgrounds/bg_nostalgic.png"
+			order: -3
+			rotation: 0.0d
+			width: 33.0d
+			x: 8.0d
+			y: 14.0d
+		}
 	]
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -137,15 +154,6 @@
 			}
 			id: "7676E887F513A1BE"
 			rewards: [
-				{
-					auto: "enabled"
-					id: "4E0C104DEA528977"
-					item: {
-						count: 1
-						id: "rctmod:trainer_card"
-					}
-					type: "item"
-				}
 				{
 					auto: "enabled"
 					exclude_from_claim_all: true
@@ -165,11 +173,12 @@
 				}
 			]
 			tasks: [{
-				id: "6CBDE2F86810FBA3"
-				type: "checkmark"
+				id: "44B58BABC7CB217D"
+				item: { count: 1, id: "rctmod:trainer_card" }
+				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4A9CD8DF4334CA09"]
@@ -182,15 +191,6 @@
 			}
 			id: "07863C1899A78E38"
 			rewards: [
-				{
-					auto: "enabled"
-					id: "169B0B5F0AC85862"
-					item: {
-						count: 1
-						id: "rctmod:trainer_spawner"
-					}
-					type: "item"
-				}
 				{
 					auto: "enabled"
 					exclude_from_claim_all: true
@@ -210,11 +210,12 @@
 				}
 			]
 			tasks: [{
-				id: "14412AAB0C764F0D"
-				type: "checkmark"
+				id: "1E43C90443B8F36C"
+				item: { count: 1, id: "rctmod:trainer_spawner" }
+				type: "item"
 			}]
 			x: 7.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -226,21 +227,21 @@
 			}
 			id: "4A9CD8DF4334CA09"
 			rewards: [{
-				auto: "enabled"
-				id: "46967C17C062D7B5"
+				id: "77B0A91D2F58EDED"
 				item: {
 					count: 1
-					id: "pkgbadges:big_badges_box"
+					id: "modified:pokedollar"
 				}
 				type: "item"
 			}]
-			size: 2.5d
+			shape: "none"
+			size: 6.0d
 			tasks: [{
 				id: "34777A2453DAE448"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -7.5d
+			x: 6.25d
+			y: -3.75d
 		}
 		{
 			icon: {
@@ -864,7 +865,7 @@
 			y: 7.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/red_portrait.png"
@@ -899,7 +900,7 @@
 			y: 1.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			icon: {
 				components: {
 					"ftbquests:icon": "modified:textures/ftbquests/trainers/lucas_back.png"
@@ -957,8 +958,8 @@
 				id: "44518033148EC4A4"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "1A282189711E1EC0"
@@ -1549,10 +1550,17 @@
 				permission_level: 4
 				type: "command"
 			}]
-			tasks: [{
-				id: "7D0BF51174841A94"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7D0BF51174841A94"
+					type: "checkmark"
+				}
+				{
+					id: "1162CCEC828DE378"
+					item: { count: 1, id: "modified:mtoken" }
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 7.5d
 		}
@@ -1596,8 +1604,8 @@
 				id: "24760CE04CC37CBA"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			id: "1652746389A20AB4"
@@ -1626,7 +1634,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -5.25d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -1660,6 +1668,98 @@
 			}]
 			x: 7.5d
 			y: 8.5d
+		}
+		{
+			icon: {
+				id: "pkgbadges:badges_box_sinnoh_league"
+			}
+			id: "156A0DB050892C4F"
+			rewards: [{
+				auto: "enabled"
+				id: "56B05A515BBE54C7"
+				item: {
+					count: 1
+					id: "pkgbadges:badges_box_sinnoh_league"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D4981F9545BB9C"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "pkgbadges:badges_box_indigo_league"
+			}
+			id: "54B35AE867B0F0F6"
+			rewards: [{
+				auto: "enabled"
+				id: "5BC6298AB7F259C8"
+				item: {
+					count: 1
+					id: "pkgbadges:badges_box_indigo_league"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF477052087D977"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "aggroindicator:textures/alert_icon_0.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "63D4C46514473DC2"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod player get progress @p graph"
+				id: "10E85C6D3E2408EB"
+				permission_level: 4
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "777626F09A080655"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: -2.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "aggroindicator:textures/alert_icon_0.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0E652CAAF2BB8464"
+			rewards: [{
+				auto: "enabled"
+				command: "/rctmod player get level_cap @p"
+				id: "6A656BE6B2D44435"
+				permission_level: 4
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0A59AFF0C0DABC77"
+				type: "checkmark"
+			}]
+			x: 15.75d
+			y: -5.25d
 		}
 	]
 }

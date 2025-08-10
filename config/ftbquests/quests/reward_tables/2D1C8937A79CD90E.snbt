@@ -1,0 +1,23 @@
+{
+	id: "2D1C8937A79CD90E"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{
+			id: "65457A749689BD0F"
+			item: {
+				count: 1
+				id: "weavers_cosmetics_cosplay:pokemaniac_magikarp_helmet"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "059A553A46F70E5D"
+			item: {
+				count: 1
+				id: "weavers_cosmetics_cosplay:pokemaniac_magikarp_shiny_helmet"
+			}
+			weight: 1.5f
+		}
+	]
+}

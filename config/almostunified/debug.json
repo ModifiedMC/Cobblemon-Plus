@@ -4,5 +4,6 @@
   "dump_recipes": false,
   "dump_tags": false,
   "dump_unification": false,
-  "log_invalid_tags": false
+  "log_invalid_tags": false,
+  "cache_recipe_conditions": true
 }

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "pickaxes_paxels_hammers_oh_my"
 	group: "67A2C2B701748D1C"
@@ -7,8 +7,71 @@
 		id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 	}
 	id: "550C0D9C4C04DC2F"
+	images: [
+		{
+			height: 1.5d
+			image: "emi_loot:textures/gui/chest.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/map/decorations/aether_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/map/decorations/nether_portal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.5d
+		}
+	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "17CB24BA3841140E"
+			linked_quest: "0ECAC6F0C686F8C4"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "008D116532385926"
+			linked_quest: "160D6049B8E20325"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "45E74B1E58FF9C4B"
+			linked_quest: "7E60CB924E5AC942"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "2989AB038DAC76CD"
+			linked_quest: "7C8D39FB10648AFE"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "5C15C65466E09CDD"
+			linked_quest: "256BA22ECE812C88"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "06FBD7B1573A430C"
+			linked_quest: "0C611FC7C195D0C5"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			id: "11CA74A02F4C5C83"
@@ -24,8 +87,8 @@
 				id: "10E5A09BC4A42BE1"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["11CA74A02F4C5C83"]
@@ -53,8 +116,8 @@
 				item: { count: 1, id: "ultimine_addition:mining_skill_card_empty" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["42941AD8F80D28DC"]
@@ -82,22 +145,15 @@
 				item: { count: 1, id: "ultimine_addition:card_blueprint" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7B85355A8C431289"]
 			id: "490FD66E4C370550"
 			rewards: [
 				{
-					id: "7011E771D070B055"
-					item: {
-						count: 1
-						id: "ultimine_addition:skills_record"
-					}
-					type: "item"
-				}
-				{
+					count: 5
 					id: "5620B9DA126435FC"
 					item: {
 						count: 1
@@ -119,8 +175,8 @@
 				item: { count: 1, id: "ultimine_addition:skills_record" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.5d
+			x: -11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["204B7F1E9DA58947"]
@@ -137,8 +193,8 @@
 				id: "2A9658243ADAC536"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: -11.5d
+			y: -1.5d
 		}
 		{
 			id: "16BD408A5CAF433B"
@@ -171,36 +227,28 @@
 				item: { components: { "minecraft:potion_contents": { potion: "ultimine_addition:knowledge" } }, count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["05DF0D01D6A1BE7D"]
 			id: "256BE43416AD50B3"
 			rewards: [
 				{
-					count: 300
-					id: "46DCE7C3DC6CF4E6"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-				{
-					id: "59E46489D84EDF56"
-					item: {
-						count: 1
-						id: "ultimine_addition:miner_certificate"
-					}
-					type: "item"
-				}
-				{
-					count: 11
+					count: 12
 					id: "19A08B0C288769CE"
 					item: {
 						count: 1
 						id: "create:experience_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "788FF7C5E67CAF1B"
+					item: {
+						count: 1
+						id: "modified:mtoken"
 					}
 					type: "item"
 				}
@@ -210,8 +258,8 @@
 				item: { count: 1, id: "ultimine_addition:miner_certificate" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.5d
+			x: -11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["01E621F5343075C2"]
@@ -227,15 +275,7 @@
 					type: "item"
 				}
 				{
-					id: "46C843BDE754F0C3"
-					item: {
-						count: 1
-						id: "ultimine_addition:pen"
-					}
-					type: "item"
-				}
-				{
-					count: 3
+					count: 9
 					id: "73447EEE96606072"
 					item: {
 						count: 1
@@ -244,8 +284,8 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "2017758A5B9E20B6"
+					count: 10
+					id: "3D3F45D6BB69F2AD"
 					item: {
 						count: 1
 						id: "modified:pokedollar"
@@ -271,8 +311,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -5.5d
+			x: -11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["490FD66E4C370550"]
@@ -289,8 +329,2319 @@
 				id: "097D63388CDECE0E"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "130B2FCFDB76A008"
+			rewards: [{
+				count: 5
+				id: "453C3CEEE75BCCBC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "390F25411C0D4D67"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "08DD6D35400CDEB3"
+			rewards: [{
+				count: 5
+				id: "6106022F30635CD9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09168F7C0F9329E4"
+				item: { count: 1, id: "betterarcheology:iron_brush" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "204C5FA3776772A3"
+			rewards: [{
+				count: 10
+				id: "1DE3AD97493E023A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC8BC9019D2D34B"
+				item: { count: 1, id: "betterarcheology:diamond_brush" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "6D4D4590FE29FDC4"
+			rewards: [{
+				count: 25
+				id: "7F1FF5D3767E13EE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7272DE7B4CE49A80"
+				item: { count: 1, id: "betterarcheology:netherite_brush" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "62D469E33E1F2C85"
+			rewards: [{
+				id: "00E0792C800240B1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4066DB58D7428B23"
+				item: { count: 1, id: "minecraft:wooden_sword" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "0530C026F9BFACA3"
+			rewards: [{
+				count: 2
+				id: "4C2F2AAD544BDB0B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47A14AFE37D95ED8"
+				item: { count: 1, id: "aether:skyroot_sword" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "676159E4A04A629C"
+			rewards: [{
+				count: 4
+				id: "436508024A7F0F1A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "440287A61F39D8AE"
+				item: { count: 1, id: "aether:holystone_sword" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "3A4363220FA268ED"
+			rewards: [{
+				count: 3
+				id: "1F60980F399A9FD9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EF0A6DD7BD6989"
+				item: { count: 1, id: "minecraft:stone_sword" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "334F930324CD7811"
+			rewards: [{
+				count: 5
+				id: "2F5C8ABB5A979098"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "364D097B30D8B0B7"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "2E2F19AFAED76D4F"
+			rewards: [{
+				count: 7
+				id: "4FE13868C7CD7879"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35266EE0F43A9B05"
+				item: { count: 1, id: "minecraft:golden_sword" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "077D9861200DCE3F"
+			rewards: [{
+				count: 10
+				id: "36A500269E5ED459"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DCB979713B284E4"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "491418CBF662932A"
+			rewards: [{
+				count: 25
+				id: "5FE6A24F60EC209F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4295DA492DA32AE0"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "02DF5EDDB2827EE5"
+			rewards: [{
+				count: 6
+				id: "7DA05C5FD78562C8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E07B35143413070"
+				item: { count: 1, id: "kobolds:kobold_iron_sword" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "0A68DDFCDB174171"
+			rewards: [{
+				count: 25
+				id: "57558682CE82F021"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A56210321B3B7E"
+				item: { count: 1, id: "allthemodium:allthemodium_sword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "40C91028E8FB33A4"
+			rewards: [{
+				count: 25
+				id: "73AD6F37ACF2E93C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "694FBED0DA595ACE"
+				item: { count: 1, id: "allthemodium:vibranium_sword" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "264B7DE66AF0FD4B"
+			rewards: [{
+				count: 25
+				id: "7069EC68E80C2C41"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DC718B4767EE727"
+				item: { count: 1, id: "allthemodium:unobtainium_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "341DAF911CFF6565"
+			rewards: [{
+				count: 8
+				id: "2BDEE06497C7F624"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D0189887A99B4C"
+				item: { count: 1, id: "aether:zanite_sword" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "4EF97694966E6184"
+			rewards: [{
+				count: 10
+				id: "064641062BF38385"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4049CAF164E2DE"
+				item: { count: 1, id: "aether:gravitite_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "59531F0A349BFA76"
+			rewards: [{
+				count: 10
+				id: "2A0215722139BF33"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A2E8825C4632BCB"
+				item: { count: 1, id: "aether:holy_sword" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "65CBA125C8E8E47A"
+			rewards: [{
+				count: 10
+				id: "22C9D5AD506577D1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "095C567C9DE710B2"
+				item: { count: 1, id: "aether:lightning_sword" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "602A43407538E53F"
+			rewards: [{
+				count: 10
+				id: "11132882986C4513"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "244D8E54147CFAE6"
+				item: { count: 1, id: "aether:flaming_sword" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "226D3CC7FE5ADEDF"
+			rewards: [{
+				count: 10
+				id: "4D6E5F8173C768B9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A8A1BD460EB1A7"
+				item: { count: 1, id: "aether:valkyrie_lance" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "2C64E10F17B0F110"
+			rewards: [{
+				count: 10
+				id: "08D16EF766EBEE43"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "435034F350576B86"
+				item: { count: 1, id: "aether:vampire_blade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "0BE64387FD45495B"
+			rewards: [{
+				count: 10
+				id: "58837C4DE67974B9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29083FFC7FADB139"
+				item: { count: 1, id: "aether:pig_slayer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "63F8967C300A80DA"
+			rewards: [{
+				count: 25
+				id: "102ECC0E76860481"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3654BE5511A2215A"
+				item: { count: 1, id: "deeperdarker:warden_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6C545851B45CFA31"
+			rewards: [{
+				count: 8
+				id: "15566B805DD5E492"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "728FA69C70359675"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "1282D9B283A0890F"
+			rewards: [{
+				id: "11B1D0BAACC7C373"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD0AF7688B1CC3B"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "5BF4D8A817DD5E2A"
+			rewards: [{
+				id: "533C268D78EF5E7A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BF14FADE5F7EC3C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "293D988FC1E9EEB1"
+			rewards: [{
+				count: 10
+				id: "1E5505648EB61B19"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F993BA89A4F528C"
+				item: { count: 1, id: "create:cardboard_sword" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "09870E362E9BB13E"
+			rewards: [{
+				count: 8
+				id: "67C5D7BD48999907"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F0D5C501CC2548E"
+				item: { count: 1, id: "cataclysm:black_steel_shovel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "511FC41AF504D3DC"
+			rewards: [{
+				count: 8
+				id: "72D7AC2D7EC11D0F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3579723447022647"
+				item: { count: 1, id: "cataclysm:black_steel_pickaxe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "4183329554CCB08A"
+			rewards: [{
+				count: 8
+				id: "6EBC0398534E8A9C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "368E55A52F4A71EB"
+				item: { count: 1, id: "cataclysm:black_steel_axe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "1382146A8AE55BA2"
+			rewards: [{
+				count: 8
+				id: "5BC65C26FFA06321"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE01C7AAF673B43"
+				item: { count: 1, id: "cataclysm:black_steel_hoe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "75D516BBDEBF95B4"
+			rewards: [{
+				count: 8
+				id: "40CDEBBB7F3A794D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3342E3983E8502E2"
+				item: { count: 1, id: "aether:zanite_pickaxe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "7D1D002042B5CDE0"
+			rewards: [{
+				count: 7
+				id: "15088682E1E729D1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BF7C452E4B28683"
+				item: { count: 1, id: "minecraft:golden_pickaxe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "189BA60C23747568"
+			rewards: [{
+				id: "4CFC8266FA77789C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A8366C6699F5E30"
+				item: { count: 1, id: "minecraft:wooden_shovel" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "1EBC547A0E5B7880"
+			rewards: [{
+				id: "44ACCF3712C082CC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B275BA2588FF839"
+				item: { count: 1, id: "minecraft:wooden_axe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "33377437C5C20F98"
+			rewards: [{
+				count: 3
+				id: "346D39DEBE7E9C12"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53175EB96F24CE5F"
+				item: { count: 1, id: "minecraft:stone_axe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "0C6FC720595D9D44"
+			rewards: [{
+				count: 5
+				id: "58ACC9827B030A1A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "469369876F338CA8"
+				item: { count: 1, id: "minecraft:iron_axe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "426534680B08DDF6"
+			rewards: [{
+				count: 7
+				id: "4F5EE00D37E16B7D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B63BAB520A2E912"
+				item: { count: 1, id: "minecraft:golden_axe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "64E8CF5BAA53A3A5"
+			rewards: [{
+				count: 8
+				id: "19D189A105856D8A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BCAC0C2FCF54871"
+				item: { count: 1, id: "aether:zanite_axe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "6B5C15F667672148"
+			rewards: [{
+				count: 10
+				id: "388255A7267B4357"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30F423A9D580BB0E"
+				item: { count: 1, id: "minecraft:diamond_axe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "0095651C8050089D"
+			rewards: [{
+				count: 10
+				id: "52CE0DED6E2A7F26"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "225C297DF214B24F"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "40E65AF41D37BD91"
+			rewards: [{
+				count: 5
+				id: "523592350BD8D393"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12DEBD6C9F03E1F9"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "6336CD0C6516F423"
+			rewards: [{
+				count: 3
+				id: "017F16FDBE89B7B7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B5AD1CE5A5D1688"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "49763C7464388F41"
+			rewards: [{
+				count: 25
+				id: "1A733A6DC00B7F2A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C2DE6B9F8F9F6AC"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "5EA7ADD787F21AF0"
+			rewards: [{
+				count: 25
+				id: "4C7419DE5B27AA9D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1648A1F78D0881B5"
+				item: { count: 1, id: "minecraft:netherite_axe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "4956B5886705A42D"
+			rewards: [{
+				count: 25
+				id: "1A17D2885F744B65"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40DF1A0942EABF22"
+				item: { count: 1, id: "deeperdarker:warden_axe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "2525989D91BBD2CA"
+			rewards: [{
+				count: 25
+				id: "390C2F27D6089725"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E632378DEEC3EA4"
+				item: { count: 1, id: "deeperdarker:warden_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "21A4D3C98EEDEE21"
+			rewards: [{
+				count: 25
+				id: "12EBA7CE6A898A28"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12FA715B2349232B"
+				item: { count: 1, id: "allthemodium:allthemodium_axe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "51D27E5136ADAA62"
+			rewards: [{
+				count: 25
+				id: "1138346AA191D206"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DF2783F59ED4893"
+				item: { count: 1, id: "allthemodium:allthemodium_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "0C04FA2E2CEFBCB3"
+			rewards: [{
+				count: 25
+				id: "22CCD02AC478AC89"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "318E7B188B93F27C"
+				item: { count: 1, id: "allthemodium:vibranium_axe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "246860F85C775F03"
+			rewards: [{
+				count: 25
+				id: "1CBAFD5EB6C94A3E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FE4145ED3482A89"
+				item: { count: 1, id: "allthemodium:unobtainium_axe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "4EDF10C18AA227B1"
+			rewards: [{
+				count: 25
+				id: "2A0A87F592DA5190"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62E8CB207B298C78"
+				item: { count: 1, id: "allthemodium:unobtainium_pickaxe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "3146940B07714CE0"
+			rewards: [{
+				count: 25
+				id: "184BDED78B8D4EA4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A94E868BE2C46B4"
+				item: { count: 1, id: "allthemodium:vibranium_pickaxe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "28E828BD41DF4CCD"
+			rewards: [{
+				count: 10
+				id: "542D8F71B3EE4368"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F57035A290D884F"
+				item: { count: 1, id: "aether:gravitite_axe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "5B5E9979DF291242"
+			rewards: [{
+				count: 10
+				id: "4BB0D5FCB0EF9FAE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "222007113BD0A103"
+				item: { count: 1, id: "aether:gravitite_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "6E79003749C3ECEE"
+			rewards: [{
+				count: 10
+				id: "5EF037F817F72351"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B4A9E5098FBF261"
+				item: { count: 1, id: "aether:valkyrie_pickaxe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "3FACF13A229F1268"
+			rewards: [{
+				count: 10
+				id: "1D9170105F9CEF8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1E624E53FA44A5"
+				item: { count: 1, id: "aether:valkyrie_axe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "71776F0967D2A2E3"
+			rewards: [{
+				count: 4
+				id: "7AAA56F885819A26"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC4B5017E52E892"
+				item: { count: 1, id: "aether:holystone_axe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "02374B42929DA8BA"
+			rewards: [{
+				count: 4
+				id: "21D749595979E5C6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F10DD6FB72EAD15"
+				item: { count: 1, id: "aether:holystone_pickaxe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "7C7CDD3AE6AC67A0"
+			rewards: [{
+				count: 2
+				id: "09CDFD0DA85559D8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA0F00F88BABBF4"
+				item: { count: 1, id: "aether:skyroot_axe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "083D7F7DE32A630B"
+			rewards: [{
+				count: 2
+				id: "192A6DDD5010A61F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C64F983AB4B43AF"
+				item: { count: 1, id: "aether:skyroot_pickaxe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "7DB443EE649877E1"
+			rewards: [{
+				count: 4
+				id: "6912F7271933D33B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB819EA430901C1"
+				item: { count: 1, id: "aether:holystone_shovel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "7D0205312365515C"
+			rewards: [{
+				count: 2
+				id: "38D0FC118F7EF40C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "221F8D9433D2AADA"
+				item: { count: 1, id: "aether:skyroot_shovel" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "6D5F6B4A1E2FDA38"
+			rewards: [{
+				count: 6
+				id: "09B71C5E264B71E7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CFF5075CB3CB9D8"
+				item: { count: 1, id: "kobolds:kobold_iron_shovel" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "209BFD8143F160A6"
+			rewards: [{
+				count: 10
+				id: "6EFD19D2954B5982"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EA92A9D10EDD221"
+				item: { count: 1, id: "aether:gravitite_shovel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "2293B8F20C3A3094"
+			rewards: [{
+				count: 8
+				id: "0A1B8D3A445F79DC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "363E7C5F3AD96911"
+				item: { count: 1, id: "aether:zanite_shovel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "5024341C176A2222"
+			rewards: [{
+				count: 7
+				id: "0CFC9DC1E3236467"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10999CACF1E756C4"
+				item: { count: 1, id: "minecraft:golden_shovel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "3AC9A598C441EF09"
+			rewards: [{
+				count: 5
+				id: "0FD051445321A9AA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622E7823D08DD010"
+				item: { count: 1, id: "minecraft:iron_shovel" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "61482C450FC70396"
+			rewards: [{
+				count: 3
+				id: "6761006E2CC2FF57"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD95EFEE6337A02"
+				item: { count: 1, id: "minecraft:stone_shovel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "750FDD93225BF3F5"
+			rewards: [{
+				count: 10
+				id: "74E841FDB0162E40"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3588A29CFA42D27C"
+				item: { count: 1, id: "minecraft:diamond_shovel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "783809BB4F78F2B0"
+			rewards: [{
+				count: 25
+				id: "708B8254F8D3AABB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE1FAC612643F3B"
+				item: { count: 1, id: "minecraft:netherite_shovel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "7675A6BE0F578CC6"
+			rewards: [{
+				count: 25
+				id: "6A6AB3F4E4035B66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CA5D9243B57DA9D"
+				item: { count: 1, id: "deeperdarker:warden_shovel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "1E1A558D7B15E5F4"
+			rewards: [{
+				count: 25
+				id: "09F91F7E288B1F8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5573FB36245A1797"
+				item: { count: 1, id: "allthemodium:allthemodium_shovel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "3EDC25A3C51FD801"
+			rewards: [{
+				count: 25
+				id: "1B236393222CB6F9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E71DE6949EB64D3"
+				item: { count: 1, id: "allthemodium:vibranium_shovel" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "35BA812BB0D9C8F9"
+			rewards: [{
+				count: 25
+				id: "7E45E87043ECAFDD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E056A21510FEC2"
+				item: { count: 1, id: "allthemodium:unobtainium_shovel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "445EDB3364730663"
+			rewards: [{
+				id: "018645993A7CEADF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AF5164E243FB494"
+				item: { count: 1, id: "minecraft:wooden_hoe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "31C28BA4DC6632D5"
+			rewards: [{
+				count: 3
+				id: "09B6C2899EBBB8F9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E6FE6985A20A6F7"
+				item: { count: 1, id: "minecraft:stone_hoe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			id: "07DB64CA4A02940C"
+			rewards: [{
+				count: 5
+				id: "383372590C8AC9BC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3559347966E1ECF8"
+				item: { count: 1, id: "minecraft:iron_hoe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "4E90CEF248F67B2B"
+			rewards: [{
+				count: 7
+				id: "363D6D551EB0C01D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7821955FF6FECA7D"
+				item: { count: 1, id: "minecraft:golden_hoe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "36DD9839059CFDFE"
+			rewards: [{
+				count: 8
+				id: "630AEE4D85D6520F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "531E274AD7D95B2A"
+				item: { count: 1, id: "aether:zanite_hoe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "260545EFE2EEB3EA"
+			rewards: [{
+				count: 10
+				id: "1B78D83D1CEFE8C5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D02C68242845ED9"
+				item: { count: 1, id: "minecraft:diamond_hoe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "6BDFEE97CB12884B"
+			rewards: [{
+				count: 25
+				id: "4808AAE7A8E52DDE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ABBE4594D0E18AF"
+				item: { count: 1, id: "minecraft:netherite_hoe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "32F95C09EB5518CE"
+			rewards: [{
+				count: 25
+				id: "19DE8965087F00E1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06699ECA99B87A2A"
+				item: { count: 1, id: "deeperdarker:warden_hoe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "2743BCF63F380B7A"
+			rewards: [{
+				count: 25
+				id: "52BC6215B651581C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC45CD41F0BB5F8"
+				item: { count: 1, id: "allthemodium:allthemodium_hoe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "485CA63457F765E3"
+			rewards: [{
+				count: 25
+				id: "26E0C19A25F1E55D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1732F1FFD888340C"
+				item: { count: 1, id: "allthemodium:vibranium_hoe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "54C5865B96481EC3"
+			rewards: [{
+				count: 25
+				id: "43B5F8F5DEC12468"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B00CD6F806CA08D"
+				item: { count: 1, id: "allthemodium:unobtainium_hoe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "6B4021B1DE3F54F1"
+			rewards: [{
+				count: 10
+				id: "3AF0AB5BA1F90615"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "167731F48DDAF5E7"
+				item: { count: 1, id: "aether:valkyrie_hoe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "63E78F545F4B0A5A"
+			rewards: [{
+				count: 10
+				id: "103880AC01D44808"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04716C9B2AE1F283"
+				item: { count: 1, id: "aether:valkyrie_shovel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "31EFB77DF5EF13CB"
+			rewards: [{
+				count: 6
+				id: "70B0B76C209D3375"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28AAA3C464497CCF"
+				item: { count: 1, id: "kobolds:kobold_iron_pickaxe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "62D78769F5614477"
+			rewards: [{
+				count: 6
+				id: "0059159D94C05495"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "549CBA3FD0EC2473"
+				item: { count: 1, id: "kobolds:kobold_iron_axe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "6F7801A1EEEE5ED3"
+			rewards: [{
+				count: 4
+				id: "490FA36A28BC03F6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5271690D658859B5"
+				item: { count: 1, id: "aether:holystone_hoe" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "61F10C8FCD58DF4C"
+			rewards: [{
+				count: 2
+				id: "2312F8101D41FCF0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47C71ADFD2C1F3CB"
+				item: { count: 1, id: "aether:skyroot_hoe" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "1C2EDBF4DB6D91F5"
+			rewards: [{
+				count: 6
+				id: "3A99C5BD0F69C90F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3267E6548B1C4CFC"
+				item: { count: 1, id: "kobolds:kobold_iron_hoe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "29CFB741F29ECC72"
+			rewards: [{
+				count: 10
+				id: "7FAB4AE18F9AFC2D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00185163CF12C20B"
+				item: { count: 1, id: "aether:gravitite_hoe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "1145D8EC86B91162"
+			rewards: [{
+				count: 25
+				id: "410B320111E211ED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0373ED1BE72D4275"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D4D4590FE29FDC4"
+				"256BE43416AD50B3"
+				"0443F3FB25EB20A0"
+				"11C9CE5395966DEA"
+				"08DD6D35400CDEB3"
+				"0BFA4E6ED73AD2E6"
+				"130B2FCFDB76A008"
+				"204C5FA3776772A3"
+				"79BC3EAA4BD8E8F0"
+				"1FEAD9A1ABEEE9CB"
+				"1BA8B4BEE4BF920D"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "73882FBCE34B2EEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F7C827F8460F035"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711C3B9B436B0246"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E68E786E63120A"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "3288AB9CE35B06E6"
+					item: {
+						count: 1
+						id: "cobblemon_utility:goldencap"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5B39DDEF1DCF689B"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "78182DB91AA880E3"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1C2EDBF4DB6D91F5"
+				"29CFB741F29ECC72"
+				"6F7801A1EEEE5ED3"
+				"36DD9839059CFDFE"
+				"61F10C8FCD58DF4C"
+				"32F95C09EB5518CE"
+				"260545EFE2EEB3EA"
+				"1382146A8AE55BA2"
+				"6BDFEE97CB12884B"
+				"31C28BA4DC6632D5"
+				"54C5865B96481EC3"
+				"2743BCF63F380B7A"
+				"485CA63457F765E3"
+				"445EDB3364730663"
+				"07DB64CA4A02940C"
+				"4E90CEF248F67B2B"
+				"6B4021B1DE3F54F1"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11C9CE5395966DEA"
+			rewards: [
+				{
+					count: 3
+					id: "6101FF89DE18D14E"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BEF755256642FF5"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62C93DA138ACC42C"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3EDC25A3C51FD801"
+				"63E78F545F4B0A5A"
+				"6D5F6B4A1E2FDA38"
+				"7DB443EE649877E1"
+				"7D0205312365515C"
+				"189BA60C23747568"
+				"783809BB4F78F2B0"
+				"209BFD8143F160A6"
+				"2293B8F20C3A3094"
+				"5024341C176A2222"
+				"35BA812BB0D9C8F9"
+				"750FDD93225BF3F5"
+				"09870E362E9BB13E"
+				"1E1A558D7B15E5F4"
+				"3AC9A598C441EF09"
+				"7675A6BE0F578CC6"
+				"61482C450FC70396"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1FEAD9A1ABEEE9CB"
+			rewards: [
+				{
+					count: 3
+					id: "31B0825253150373"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AB308140E7F3017"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21E0C688E717ED52"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"083D7F7DE32A630B"
+				"6E79003749C3ECEE"
+				"0095651C8050089D"
+				"75D516BBDEBF95B4"
+				"7D1D002042B5CDE0"
+				"2525989D91BBD2CA"
+				"51D27E5136ADAA62"
+				"5B5E9979DF291242"
+				"4EDF10C18AA227B1"
+				"6336CD0C6516F423"
+				"02374B42929DA8BA"
+				"40E65AF41D37BD91"
+				"31EFB77DF5EF13CB"
+				"49763C7464388F41"
+				"3146940B07714CE0"
+				"511FC41AF504D3DC"
+				"1282D9B283A0890F"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0443F3FB25EB20A0"
+			rewards: [
+				{
+					count: 3
+					id: "2972AA4DB0AA51CB"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FB0351CDBBFAE32"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5FA9CE6369C1A38C"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"21A4D3C98EEDEE21"
+				"3FACF13A229F1268"
+				"246860F85C775F03"
+				"64E8CF5BAA53A3A5"
+				"6B5C15F667672148"
+				"28E828BD41DF4CCD"
+				"62D78769F5614477"
+				"7C7CDD3AE6AC67A0"
+				"71776F0967D2A2E3"
+				"4183329554CCB08A"
+				"5EA7ADD787F21AF0"
+				"426534680B08DDF6"
+				"0C6FC720595D9D44"
+				"4956B5886705A42D"
+				"0C04FA2E2CEFBCB3"
+				"33377437C5C20F98"
+				"1EBC547A0E5B7880"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0BFA4E6ED73AD2E6"
+			rewards: [
+				{
+					count: 3
+					id: "4E04137CD97AA75C"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4716B276D1097E65"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "447DA67B6EBACA1C"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"160D6049B8E20325"
+				"4EF97694966E6184"
+				"0530C026F9BFACA3"
+				"2C64E10F17B0F110"
+				"334F930324CD7811"
+				"676159E4A04A629C"
+				"63F8967C300A80DA"
+				"341DAF911CFF6565"
+				"264B7DE66AF0FD4B"
+				"491418CBF662932A"
+				"2E2F19AFAED76D4F"
+				"02DF5EDDB2827EE5"
+				"6C545851B45CFA31"
+				"293D988FC1E9EEB1"
+				"7E60CB924E5AC942"
+				"62D469E33E1F2C85"
+				"602A43407538E53F"
+				"3A4363220FA268ED"
+				"077D9861200DCE3F"
+				"226D3CC7FE5ADEDF"
+				"1145D8EC86B91162"
+				"0A68DDFCDB174171"
+				"59531F0A349BFA76"
+				"65CBA125C8E8E47A"
+				"40C91028E8FB33A4"
+				"0BE64387FD45495B"
+				"60021AFB61B37438"
+				"6CAB89686462BB94"
+				"3483FEF39E2D4605"
+				"2F278EDDE56B0249"
+				"0C611FC7C195D0C5"
+				"256BA22ECE812C88"
+				"7C8D39FB10648AFE"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79BC3EAA4BD8E8F0"
+			rewards: [
+				{
+					count: 4
+					id: "213295EC51218703"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28CA4AC4BD9A4280"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8AD771B808085E"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16A7E83001DF532C"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "0213CBBE99FAB3B1"
+			rewards: [{
+				count: 10
+				id: "424ACF99FFBEDCA2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EE1C15FBC4476C9"
+				item: { count: 1, id: "aether:phoenix_bow" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "60021AFB61B37438"
+			rewards: [{
+				count: 25
+				id: "0DB99AC4611ED4F7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F9B5B63AD6246CB"
+				item: { count: 1, id: "minecraft:mace" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "2F278EDDE56B0249"
+			rewards: [{
+				count: 25
+				id: "2F793EF3EAD04E84"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C7864A523398277"
+				item: { count: 1, id: "allthemodium:allthemodium_mace" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "6CAB89686462BB94"
+			rewards: [{
+				count: 25
+				id: "0E5090A7A9F891FD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2135CA26BF938D6C"
+				item: { count: 1, id: "allthemodium:vibranium_mace" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "3483FEF39E2D4605"
+			rewards: [{
+				count: 25
+				id: "12A7B97E3C45D5E1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "749EFD665E3D29D4"
+				item: { count: 1, id: "allthemodium:unobtainium_mace" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"60021AFB61B37438"
+				"6CAB89686462BB94"
+				"2F278EDDE56B0249"
+				"3483FEF39E2D4605"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1BA8B4BEE4BF920D"
+			rewards: [
+				{
+					id: "785370C87DB0A588"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E772D32D0306359"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44D1B1A3A9F5EFE2"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.0d
 		}
 	]
 }

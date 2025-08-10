@@ -1,0 +1,97 @@
+{
+	id: "51FD9E392AB451D3"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			count: 16
+			id: "4C0CBF5EA8C3150E"
+			item: {
+				count: 1
+				id: "minecraft:iron_ore"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 16
+			id: "176D1F059F5F0166"
+			item: {
+				count: 1
+				id: "minecraft:gold_ore"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 32
+			id: "0E60176EECA5E623"
+			item: {
+				count: 1
+				id: "minecraft:coal_ore"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 16
+			id: "659DCC2130A7ACD2"
+			item: {
+				count: 1
+				id: "minecraft:lapis_ore"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "13D28E34B57455B8"
+			item: {
+				count: 1
+				id: "minecraft:copper_ore"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "15F680486BD7DB93"
+			item: {
+				count: 1
+				id: "minecraft:diamond_ore"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 3
+			id: "375C87172D63CC86"
+			item: {
+				count: 1
+				id: "minecraft:emerald_ore"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "557D14ACC53A0960"
+			item: {
+				count: 1
+				id: "minecraft:ancient_debris"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "1F35E4B2B323AD07"
+			item: {
+				count: 1
+				id: "minecraft:nether_quartz_ore"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 16
+			id: "728383AF3415A49D"
+			item: {
+				count: 1
+				id: "create:zinc_ore"
+			}
+			weight: 12.0f
+		}
+		{ id: "50407F4CF442B3C2", item: { count: 1, id: "mega_showdown:keystone_ore" } }
+	]
+}

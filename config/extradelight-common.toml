@@ -16,3 +16,8 @@
 [spooky]
 	#All Year Spooky
 	allYearSpooky = false
+
+#Debug Mode
+[debug]
+	#Enable Debug Mode for Developement
+	enableDebug = false

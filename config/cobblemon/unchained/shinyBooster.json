@@ -1,14 +1,15 @@
 {
-  "koStreakPoints": 0,
-  "koCountPoints": 0,
-  "captureStreakPoints": 0,
-  "captureCountPoints": 1,
+  "koStreakPoints": 0.0,
+  "koCountPoints": 0.0,
+  "captureStreakPoints": 0.0,
+  "captureCountPoints": 1.0,
   "thresholds": {
-    "25": 1,
-    "50": 2,
-    "75": 3,
-    "100": 4
+    "25": 1.0,
+    "50": 2.0,
+    "75": 3.0,
+    "100": 4.0
   },
+  "defaultValue": 1.0,
   "debug": false,
   "blacklist": [],
   "whitelist": [],

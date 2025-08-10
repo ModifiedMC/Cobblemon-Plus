@@ -3,7 +3,10 @@
   "eggMovesLearnable": true,
   "tutorMovesLearnable": true,
   "levelMovesLearnable": false,
-  "anyMovesLearnable": false,
+  "primaryTypeMovesLearnable": false,
+  "secondaryTypeMovesLearnable": false,
+  "anyMovesLearnableTMs": false,
+  "anyMovesLearnableTRs": false,
   "blankTMsUsable": true,
   "blankTRsUsable": true,
   "tmsUsable": true,
@@ -11,8 +14,8 @@
   "tmCoolDownTicks": 0,
   "blankTMCooldownTicks": 0,
   "blankTMBaseDurability": 1,
-  "blankTRBaseDurability": 1,
   "tmBaseDurability": 32,
+  "tmRepairable": true,
   "trStackSize": 16,
   "dropOutsideOfBattle": true,
   "dropInBattle": true,
@@ -30,6 +33,5 @@
   "dropFromTmMoveList": true,
   "dropFromTutorMoveList": true,
   "dropFromEggMoveList": true,
-  "pokemonSortOrder": "ALPHABETICAL_ASC",
-  "allowItemRemovalATOWNRISK": false
+  "allowCustomMovesAndEditing": false
 }

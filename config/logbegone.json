@@ -3,16 +3,16 @@
     "phrases": [
       "Disconnecting VANILLA connection attempt",
       "Channels ",
-      "Unable to load model: 'dramaticdoors:",
-      "[Netty Epoll Server IO #6/ERROR] [minecraft/PacketEncoder]: Error sending packet clientbound/minecraft:disconnect",
-      "io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'"
+      "Found reference to unknown structure 'valhelsia_structures:",
+      "valhelsia",
+      "Unknown structure start: valhelsia_structures:"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",
       "Channels ",
-      "Unable to load model: 'dramaticdoors:",
-      "[Netty Epoll Server IO #6/ERROR] [minecraft/PacketEncoder]: Error sending packet clientbound/minecraft:disconnect",
-      "io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'"
+      "Found reference to unknown structure 'valhelsia_structures:",
+      "valhelsia",
+      "Unknown structure start: valhelsia_structures:"
     ]
   }
 }

@@ -1,4 +1,5 @@
 {
+	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_backpacks"
@@ -11,7 +12,7 @@
 		id: "sophisticatedbackpacks:backpack"
 	}
 	id: "603EDE1FAA1E414B"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -44,25 +45,15 @@
 			can_repeat: false
 			dependencies: ["0D2089FFDE00676B"]
 			id: "7E410ABFDD97F894"
-			rewards: [
-				{
-					id: "71E12DA6D40C04CC"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:copper_backpack"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "0C27579D22BB5228"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 5
-					id: "0C27579D22BB5228"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				id: "2C1E28D7F5B29719"
@@ -75,25 +66,15 @@
 		{
 			dependencies: ["7E410ABFDD97F894"]
 			id: "7D2697AB8904FDFC"
-			rewards: [
-				{
-					id: "267B8A7368C68396"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:iron_backpack"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "25563A148FB78B56"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 10
-					id: "25563A148FB78B56"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				id: "0AC2F081D030D85F"
@@ -106,25 +87,15 @@
 		{
 			dependencies: ["7D2697AB8904FDFC"]
 			id: "6046EF7E0D8F5D4D"
-			rewards: [
-				{
-					id: "296BB555AC0C7DD2"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:gold_backpack"
-					}
-					type: "item"
+			rewards: [{
+				count: 15
+				id: "6815C42F1A048905"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 15
-					id: "6815C42F1A048905"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				id: "5DC726C4BCE06A7D"
@@ -137,25 +108,15 @@
 		{
 			dependencies: ["6046EF7E0D8F5D4D"]
 			id: "6383508D2D8A0806"
-			rewards: [
-				{
-					id: "3F01444247A84C21"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:diamond_backpack"
-					}
-					type: "item"
+			rewards: [{
+				count: 25
+				id: "7D0B6F6D30A6689D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 25
-					id: "7D0B6F6D30A6689D"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				id: "4922EFAFA7519276"
@@ -168,25 +129,15 @@
 		{
 			dependencies: ["6383508D2D8A0806"]
 			id: "2822F18E54E2A869"
-			rewards: [
-				{
-					id: "3DBB8CC59ABA7E3E"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:netherite_backpack"
-					}
-					type: "item"
+			rewards: [{
+				count: 50
+				id: "6D83D003404C224A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 50
-					id: "6D83D003404C224A"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				id: "5F6C12AEAE2E541F"
@@ -218,7 +169,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "7C1973A22B3DC605"
 			rewards: [{
-				id: "234A5C131BFC1A23"
+				count: 3
+				id: "4014AEC6F3E42E8F"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -237,8 +189,8 @@
 			dependencies: ["7C1973A22B3DC605"]
 			id: "29DB1A5F43D5B576"
 			rewards: [{
-				count: 3
-				id: "1498FA430AA0880E"
+				count: 5
+				id: "2CBCCB2FE2CEDB04"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -257,7 +209,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "797ACE18DFBB612E"
 			rewards: [{
-				id: "7918C2E7A41D8ABF"
+				count: 3
+				id: "1B2D4DE6060DA856"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -276,8 +229,8 @@
 			dependencies: ["797ACE18DFBB612E"]
 			id: "462BC3C7B9DC1F95"
 			rewards: [{
-				count: 3
-				id: "1A0115081ADF3450"
+				count: 5
+				id: "4A40E590E07C6964"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -296,7 +249,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "397EA18ACA93DF6A"
 			rewards: [{
-				id: "66DB3B5B7EBB5133"
+				count: 3
+				id: "17F9FDBC1E48D0A4"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -315,8 +269,8 @@
 			dependencies: ["397EA18ACA93DF6A"]
 			id: "4880F494EC56B5E1"
 			rewards: [{
-				count: 3
-				id: "26A89F9138515DA1"
+				count: 5
+				id: "689BE5C1040BAF1D"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -335,7 +289,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "5A78CC32E2AC28EB"
 			rewards: [{
-				id: "49BF7354FF1BD2E5"
+				count: 3
+				id: "496DB8EF5C4985D9"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -354,8 +309,8 @@
 			dependencies: ["5A78CC32E2AC28EB"]
 			id: "6352F8417C7DB116"
 			rewards: [{
-				count: 3
-				id: "5DC1413F31F9AF0D"
+				count: 5
+				id: "7C2A5B73AB8D37B9"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -374,7 +329,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "7606165F32A52F8C"
 			rewards: [{
-				id: "249CDD84A3488006"
+				count: 3
+				id: "14D5759F7791D40D"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -393,8 +349,8 @@
 			dependencies: ["7606165F32A52F8C"]
 			id: "379B96A8915FC1D2"
 			rewards: [{
-				count: 3
-				id: "69174E0C3492CD7E"
+				count: 5
+				id: "2D39BE8AC56CB36E"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -413,7 +369,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "194E66053747AC39"
 			rewards: [{
-				id: "5F42E49FF0CD58CC"
+				count: 3
+				id: "25CA142DE374B078"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -432,8 +389,8 @@
 			dependencies: ["194E66053747AC39"]
 			id: "00A2778AC01EF25E"
 			rewards: [{
-				count: 3
-				id: "7567F342FBD1A951"
+				count: 5
+				id: "19CB0A6FE4DC7151"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -452,7 +409,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "0274FF84579807D0"
 			rewards: [{
-				id: "3455CF99867A499C"
+				count: 3
+				id: "267A7BDEEDC126E6"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -471,8 +429,8 @@
 			dependencies: ["0274FF84579807D0"]
 			id: "61045C125BF90A61"
 			rewards: [{
-				count: 3
-				id: "2718970F93E3B60E"
+				count: 5
+				id: "246ED3FBEF2B19B8"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -491,7 +449,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "1A956E0F75104905"
 			rewards: [{
-				id: "6AF887F61DD2439B"
+				count: 3
+				id: "52AC0729255A50CA"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -510,8 +469,8 @@
 			dependencies: ["1A956E0F75104905"]
 			id: "413A590DEC46CCCA"
 			rewards: [{
-				count: 3
-				id: "79C241E6BA007103"
+				count: 5
+				id: "27EED0EEDDA60E4C"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -530,7 +489,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "0E673339847139F9"
 			rewards: [{
-				id: "3887685A5C159A7A"
+				count: 3
+				id: "54B1E4544834FBC2"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -549,8 +509,8 @@
 			dependencies: ["0E673339847139F9"]
 			id: "2282C5888171CEA1"
 			rewards: [{
-				count: 3
-				id: "23034E0DA053579D"
+				count: 5
+				id: "5BA9B1DF3D89AE3A"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -569,7 +529,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "5A98A7CE83D5E800"
 			rewards: [{
-				id: "608AA886E8FA253C"
+				count: 3
+				id: "6FB33FFFBAAD7EF3"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -582,24 +543,34 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1247921287E2E252"]
 			id: "791026FBC1B2B859"
+			rewards: [{
+				count: 3
+				id: "4A8B6E7BBDA62DEE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17AB3E5945B6DE54"
 				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1247921287E2E252"]
 			id: "002AAFC8783FFE98"
 			rewards: [{
-				id: "45B88BAD0E1D8EDB"
+				count: 3
+				id: "5EA73ECE17113D7E"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -612,14 +583,14 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["002AAFC8783FFE98"]
 			id: "7E23DCE946247716"
 			rewards: [{
-				count: 3
-				id: "24DB10DFD5ED6305"
+				count: 5
+				id: "5C6988EC35C86348"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -631,14 +602,15 @@
 				item: { count: 1, id: "sophisticatedbackpacks:auto_smelting_upgrade" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1247921287E2E252"]
 			id: "7D06C76C2F2D3372"
 			rewards: [{
-				id: "5FAFDD789A6C667D"
+				count: 3
+				id: "459A059D09D5BF1F"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -657,8 +629,8 @@
 			dependencies: ["7D06C76C2F2D3372"]
 			id: "3DB21D8E3CCD17FB"
 			rewards: [{
-				count: 3
-				id: "0491155CC940B40B"
+				count: 5
+				id: "20B5D9376C829703"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -677,7 +649,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "296F88ECE0DC2DAC"
 			rewards: [{
-				id: "38A03F18BD75E0DC"
+				count: 3
+				id: "7256858A654B414F"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -696,8 +669,8 @@
 			dependencies: ["296F88ECE0DC2DAC"]
 			id: "60F4016091EDB3D7"
 			rewards: [{
-				count: 3
-				id: "18621C499E60F667"
+				count: 5
+				id: "78D39299B087F697"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -716,7 +689,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "47FEDA7C30E72A9F"
 			rewards: [{
-				id: "002A3C276219CCAD"
+				count: 3
+				id: "5BEBAE3F5FDBB282"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -735,7 +709,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "16E5119BCD8930B9"
 			rewards: [{
-				id: "51BA9789DC0FFBA4"
+				count: 3
+				id: "1306646A9DD0D4E0"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -747,14 +722,15 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1247921287E2E252"]
 			id: "6F7EE8A7A8A8D8D8"
 			rewards: [{
-				id: "50C1A8C94CC952E9"
+				count: 3
+				id: "6E4AE8C55067AD08"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -773,7 +749,8 @@
 			dependencies: ["6F7EE8A7A8A8D8D8"]
 			id: "7C6C83A8104C7D7C"
 			rewards: [{
-				id: "53FA2B578344B3C7"
+				count: 5
+				id: "42957746EF7BE0C1"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -792,8 +769,8 @@
 			dependencies: ["7C6C83A8104C7D7C"]
 			id: "376DD2FAC65AC794"
 			rewards: [{
-				count: 3
-				id: "6A994BC0B4A00233"
+				count: 10
+				id: "014E7B5ABA73C487"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -812,8 +789,8 @@
 			dependencies: ["376DD2FAC65AC794"]
 			id: "085950850DDDAD55"
 			rewards: [{
-				count: 3
-				id: "0427681487CC7578"
+				count: 25
+				id: "7D341B1522EF66FC"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -832,11 +809,10 @@
 			dependencies: ["085950850DDDAD55"]
 			id: "0E4328EB86ED86B4"
 			rewards: [{
-				count: 5
-				id: "5AA5AA8465BFA111"
+				id: "5975D8340DFF1A4C"
 				item: {
 					count: 1
-					id: "modified:pokedollar"
+					id: "modified:mtoken"
 				}
 				type: "item"
 			}]
@@ -852,7 +828,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "532E6D008C8ACB10"
 			rewards: [{
-				id: "1BEB41AA670E12B2"
+				count: 3
+				id: "213BA06A5477D47A"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -871,7 +848,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "2C5957160492D392"
 			rewards: [{
-				id: "241F314936E27D29"
+				count: 3
+				id: "7E20256F726A21AF"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -890,8 +868,8 @@
 			dependencies: ["2C5957160492D392"]
 			id: "6C93E145EF00FD26"
 			rewards: [{
-				count: 3
-				id: "3BCB32E64FB9B181"
+				count: 5
+				id: "3A86E7DA3D3ED289"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -903,14 +881,15 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1247921287E2E252"]
 			id: "18FB35B37519E04A"
 			rewards: [{
-				id: "4F7AD3DF86E5D913"
+				count: 3
+				id: "19567DE48ED8D75A"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -929,7 +908,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "3DE87CC7F5BCE2F5"
 			rewards: [{
-				id: "718111309458F8C5"
+				count: 3
+				id: "6549EC3033C5FB49"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -948,8 +928,8 @@
 			dependencies: ["3DE87CC7F5BCE2F5"]
 			id: "71A3702B6DEDCD5D"
 			rewards: [{
-				count: 3
-				id: "5C6EB49A92E41E2D"
+				count: 5
+				id: "0968212D63B5AF0A"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -967,15 +947,6 @@
 		{
 			dependencies: ["71A3702B6DEDCD5D"]
 			id: "312784229F451A8F"
-			rewards: [{
-				count: 5
-				id: "4E6C551980643BA6"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "08BB722DE175DE49"
 				item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
@@ -988,7 +959,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "15328922B77092A9"
 			rewards: [{
-				id: "77EC8F2E277E3D30"
+				count: 3
+				id: "380D720006D281AE"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1007,7 +979,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "7274BD1785AC239D"
 			rewards: [{
-				id: "33F16427D086B5C0"
+				count: 3
+				id: "7B80C61FDE40B2C9"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1026,7 +999,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "265FE1FDC216FDCD"
 			rewards: [{
-				id: "294E52C6136DA607"
+				count: 3
+				id: "63D6ED4DAB18E2C2"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1045,7 +1019,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "4581D1C67C575754"
 			rewards: [{
-				id: "044E286C2F65641E"
+				count: 3
+				id: "1ABC6B8483891719"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1064,7 +1039,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "035648BF0379027C"
 			rewards: [{
-				id: "4B11BC8718522A22"
+				count: 3
+				id: "0A3565675AF2FF75"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1083,7 +1059,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "082E8B602867ED50"
 			rewards: [{
-				id: "414FE98700B5D90C"
+				count: 3
+				id: "2ECD635A03BB7FAC"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1102,7 +1079,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "6F7596EDD53C6229"
 			rewards: [{
-				id: "5A6BC57D8B96EDA7"
+				count: 3
+				id: "7B17AB868B62EE09"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1121,7 +1099,8 @@
 			dependencies: ["1247921287E2E252"]
 			id: "4F2896EE67D6EAF0"
 			rewards: [{
-				id: "50FA4CB2E88D0C02"
+				count: 3
+				id: "2576905EA1329CB2"
 				item: {
 					count: 1
 					id: "modified:pokedollar"
@@ -1135,6 +1114,195 @@
 			}]
 			x: 3.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["1247921287E2E252"]
+			id: "2383DA9A3D8449FF"
+			rewards: [{
+				count: 3
+				id: "1620C672B0F48FAE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F59734EC29C3C7A"
+				item: { count: 1, id: "sophisticatedbackpacks:alchemy_upgrade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2383DA9A3D8449FF"]
+			id: "36E24027304ABCAC"
+			rewards: [{
+				count: 5
+				id: "006F2CE33A4E07CB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F0D19E36ADC11D0"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_alchemy_upgrade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E4328EB86ED86B4"]
+			id: "04DB6441BCDFB156"
+			rewards: [{
+				count: 3
+				id: "5F70F2A58524D2C3"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D9AC97B9675200B"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_omega_tier" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"6383508D2D8A0806"
+				"0D2089FFDE00676B"
+				"7D2697AB8904FDFC"
+				"2822F18E54E2A869"
+				"6046EF7E0D8F5D4D"
+				"1A54B6D40671CBCA"
+				"7E410ABFDD97F894"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0D05EE29A4C92BB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AA414E8FF998A3E"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "60050C5DEBF6358E"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "42920CEE0E5CA362"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"791026FBC1B2B859"
+				"5A98A7CE83D5E800"
+				"7C1973A22B3DC605"
+				"3DB21D8E3CCD17FB"
+				"6F7596EDD53C6229"
+				"5A78CC32E2AC28EB"
+				"397EA18ACA93DF6A"
+				"61045C125BF90A61"
+				"1A956E0F75104905"
+				"04DB6441BCDFB156"
+				"18FB35B37519E04A"
+				"36E24027304ABCAC"
+				"4880F494EC56B5E1"
+				"462BC3C7B9DC1F95"
+				"29DB1A5F43D5B576"
+				"6F7EE8A7A8A8D8D8"
+				"60F4016091EDB3D7"
+				"532E6D008C8ACB10"
+				"7D06C76C2F2D3372"
+				"194E66053747AC39"
+				"71A3702B6DEDCD5D"
+				"0274FF84579807D0"
+				"413A590DEC46CCCA"
+				"379B96A8915FC1D2"
+				"4581D1C67C575754"
+				"002AAFC8783FFE98"
+				"15328922B77092A9"
+				"16E5119BCD8930B9"
+				"312784229F451A8F"
+				"2C5957160492D392"
+				"7274BD1785AC239D"
+				"085950850DDDAD55"
+				"0E673339847139F9"
+				"376DD2FAC65AC794"
+				"2282C5888171CEA1"
+				"4F2896EE67D6EAF0"
+				"2383DA9A3D8449FF"
+				"3DE87CC7F5BCE2F5"
+				"00A2778AC01EF25E"
+				"035648BF0379027C"
+				"6C93E145EF00FD26"
+				"7606165F32A52F8C"
+				"0E4328EB86ED86B4"
+				"296F88ECE0DC2DAC"
+				"7C6C83A8104C7D7C"
+				"797ACE18DFBB612E"
+				"7E23DCE946247716"
+				"6352F8417C7DB116"
+				"082E8B602867ED50"
+				"265FE1FDC216FDCD"
+				"47FEDA7C30E72A9F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A54B6D40671CBCA"
+			rewards: [
+				{
+					count: 3
+					id: "22C1786BB9CF2D32"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "490A016BDBE726E3"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "471298EFB7C5C22D"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -12.5d
 		}
 	]
 }

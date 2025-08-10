@@ -1,0 +1,4 @@
+#Controls how many trades a worker can perform in one work cycle
+# Default: 4
+# Range: > 1
+maxTradePerWork = 4

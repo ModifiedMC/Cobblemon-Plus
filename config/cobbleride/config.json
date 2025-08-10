@@ -11,14 +11,23 @@
     "isWaterBreathingShared": true
   },
   "client": {
-    "canDismountInMidair": true,
-    "useCameraNavigation": false
+    "switchToThirdPersonOnMount": true,
+    "switchToFirstPersonOnDismount": true,
+    "dismountCombinationKey": "SNEAK",
+    "useCameraNavigation": false,
+    "useDebugKeys": false
+  },
+  "common": {
+    "canDismountInMidair": false
   },
   "restrictions": {
+    "overrideClientCommonConfig": false,
+    "isSaddleRequired": false,
     "blacklistedDimensions": []
   },
   "speedStat": {
     "affectsSpeed": true,
+    "speedSelection": "BASE_NATURE_VALUES",
     "minStatThreshold": 20,
     "maxStatThreshold": 400,
     "minSpeedModifier": 0.5,

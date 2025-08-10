@@ -3,22 +3,22 @@
 	#A global factor that determines if a spawn attempt for a trainer is made.
 	# Default: 0.85
 	# Range: 0.0 ~ 1.0
-	globalSpawnChance = 0.69
+	globalSpawnChance = 0.85
 	#━━━━━━━━━━
 	#The chance for a trainer to spawn will shrink towards this value based of how many
 	#trainers are already spawned in for a player. For example if a player has 0 trainers
-	#spawned for them the chance will be as configured by globalSpawnChance if a player
+	#spawned for them the chance will be as configured by globalSpawnChance, if a player
 	#has barely filled up their spawn cap (maxTrainersPerPlayer), i.e. only one more free
 	#spot is left, the chance for the last trainer will be as configured by globalSpawnChanceMinimum.
 	#Set to any value equal to or above globalSpawnChance to disable (e.g. 1.0).
-	# Default: 0.15
+	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	globalSpawnChanceMinimum = 0.15
+	globalSpawnChanceMinimum = 0.1
 	#━━━━━━━━━━
 	#The interval in ticks at which a spawn attempt is made per player.
-	# Default: 120
+	# Default: 180
 	# Range: 1 ~ 2147483646
-	spawnIntervalTicks = 120
+	spawnIntervalTicks = 180
 	#━━━━━━━━━━
 	#The spawn interval ticks will grow towards this value based of how many trainers are already
 	#spawned in for a player. For example if a player has 0 trainers spawned for them the spawn
@@ -26,9 +26,9 @@
 	#spawn cap (maxTrainersPerPlayer), i.e. only one more free spot is left, the spawn interval for the
 	#last trainer will be as configured by spawnIntervalTicksMaximum. Set to any value equal to or below
 	#spawnIntervalTicks to disable (e.g. 0).
-	# Default: 1200
+	# Default: 2400
 	# Range: 0 ~ 2147483646
-	spawnIntervalTicksMaximum = 1200
+	spawnIntervalTicksMaximum = 2400
 	#━━━━━━━━━━
 	#The max horizontal distance a trainer can spawn from players.
 	# Default: 70
@@ -48,7 +48,7 @@
 	#Spawn cap of trainers per player.
 	# Default: 12
 	# Range: 0 ~ 2147483646
-	maxTrainersPerPlayer = 4
+	maxTrainersPerPlayer = 12
 	#━━━━━━━━━━
 	#Total trainer spawn cap. This value may be increased for servers with higher expected
 	#player numbers (> 4), for example (|players| + 1)*maxTrainersPerPlayer.
@@ -62,6 +62,16 @@
 	# Default: 25
 	# Range: 0 ~ 100
 	maxLevelDiff = 25
+	#━━━━━━━━━━
+	#If enabled trainers will only spawn naturally around players that have a trainer card
+	#in their inventory (does not affect trainer spawners).
+	spawningRequiresTrainerCard = false
+	#━━━━━━━━━━
+	#If enabled a single trainer association npc may spawn naturally nearby players that carry a trainer
+	#card and have either not started a series or completed their current series. One may also spawn nearby
+	#any player in proximity to a village (at least 3 occupied beds and a village center). These can
+	#spawn everywhere but will respect the 'dimensionBlacklist' and 'dimensionWhitelist' settings.
+	spawnTrainerAssociation = true
 	#━━━━━━━━━━
 	#A comma separated list of dimensions (e.g. ["multiworld:spawn", "minecraft:the_end"]).
 	#In these dimensions trainers will never spawn.
@@ -81,20 +91,13 @@
 	#biome (unless the list is empty). Trainers may also have additional tags defined by a data pack.
 	biomeTagWhitelist = []
 	#━━━━━━━━━━
-	#A list of items that can be used to configure a trainer spawner to spawn specific
-	#trainers. Every entry must define an item followed by a space seperated list of
-	#trainer ids (of which one will be randomly chosen to spawn).
-	trainerSpawnerItems = ["cobblemon:focus_band elite_four_bruno_0050 elite_four_bruno_0051", "cobblemon:hard_stone leader_brock_019e", "cobblemon:life_orb champion_terry_01b6 champion_terry_01b7 champion_terry_01b8", "cobblemon:destiny_knot boss_giovanni_0045", "cobblemon:expert_belt trainer_brendan_0039", "cobblemon:vivichoke trainer_may_003d", "cobblemon:lucky_egg rival_terry_01b3 rival_terry_01b4 rival_terry_01b5", "cobblemon:poison_barb leader_koga_01a2", "cobblemon:dragon_scale leader_clair_004a", "cobblemon:black_tumblestone rocket_admin_archer_002e", "cobblemon:soothe_bell rival_terry_01b0 rival_terry_01b1 rival_terry_01b2", "minecraft:gold_nugget rival_terry_014c rival_terry_014d rival_terry_014e", "cobblemon:black_sludge rocket_admin_archer_ariana_m000", "cobblemon:charcoal_stick leader_blaine_01a3", "cobblemon:covert_cloak rocket_admin_archer_0043", "cobblemon:utility_umbrella rocket_admin_ariana_0044", "cobblemon:choice_scarf trainer_brendan_001a", "cobblemon:twisted_spoon leader_sabrina_01a4", "cobblemon:upgrade boss_giovanni_015c", "cobblemon:never_melt_ice elite_four_lorelei_004d elite_four_lorelei_004e", "cobblemon:mystic_water leader_misty_019f", "cobblemon:dubious_disc boss_giovanni_015d", "cobblemon:miracle_seed leader_erika_01a1", "cobblemon:cleanse_tag elite_four_agatha_0053 elite_four_agatha_0054", "cobblemon:magnet leader_lt_surge_01a0", "cobblemon:silk_scarf trainer_brendan_0032", "cobblemon:dragon_fang elite_four_lance_0056 elite_four_lance_0057"]
-	#━━━━━━━━━━
-	#If enabled trainers will only spawn naturally around players that have a trainer card
-	#in their inventory (does not affect trainer spawners).
-	spawningRequiresTrainerCard = false
-	#━━━━━━━━━━
-	#If enabled a single trainer association npc may spawn naturally nearby players that carry a trainer
-	#card and have either not started a series or completed their current series. One may also spawn nearby
-	#any player in proximity to a village (at least 3 occupied beds and a village center). These can
-	#spawn everywhere but will respect the 'dimensionBlacklist' and 'dimensionWhitelist' settings.
-	spawnTrainerAssociation = true
+	#By default, this mod prevents the spawning of a trainer if another entity with the same identity
+	#already exists anywhere in the world. However, if this is set to a positive value, the mod will check
+	#for the existence of a trainer with the same identity within the specified radius instead. Note that a
+	#greater radius will require more CPU resources (~ 100 to 200 should be fine for most machines).
+	# Default: -1
+	# Range: -2147483647 ~ 2147483646
+	uniqueTrainerRadius = -1
 
 [Players]
 	#━━━━━━━━━━
@@ -104,20 +107,26 @@
 	initialLevelCap = 15
 	#━━━━━━━━━━
 	#The required level cap for trainers is based of the strongest pokemon in their team.
-	#This value will be added to the derived level cap. Example: A trainer with a Pikachu at level 50
-	#has a level cap requirement of 50. If the additiveLevelCapRequirement is -10 the required level cap
-	#of that trainer becomes 40, if it is 10 the level cap requirement becomes 60.
+	#This value will be added to the derived player level cap (including the initial level cap).
+	#Example: A trainer with a Pikachu at level 50 has a level cap requirement of 50.
+	#If the additiveLevelCapRequirement is -10 the required level cap for that trainer becomes 40,
+	#if it is 10 the level cap requirement becomes 60.
 	additiveLevelCapRequirement = 0
 	#━━━━━━━━━━
 	#If enabled the level cap of a players will not prevent their pokemon from gaining experience and leveling up.
 	#Trainers will still refuse to battle players that carry pokemon above their level cap!
 	allowOverLeveling = false
 	#━━━━━━━━━━
-	#Can an empty series be considered completed or uncompletable? You tell me. If enabled an empty series
-	#will always be considered completed hence rewarding players immediately with a level cap of 100 otherwise
-	#the level cap of players will be as configured by initialLevelCap (and additiveLevelCapRequirement).
-	#Note that players will start with an empty series by default.
-	considerEmptySeriesCompleted = false
+	#The initial series players are placed in when entering a world for the first time. Apart from any series id
+	#this value may also be set to one of the special series ids "empty" (i.e. no series) or "freeroam".
+	#Note that when setting the initial series to "freeroam" it is usually a good idea to also disable
+	#'freeroamRequiresCompletedSeries'.
+	initialSeries = "empty"
+	#━━━━━━━━━━
+	#The freeroam series will grant a level cap of 100 and allows players to pause the progression of their
+	#current series. If this option is enabled, players must have completed any other series first to gain
+	#access to the trade at the trainer association.
+	freeroamRequiresCompletedSeries = true
 
 [Debug]
 	#━━━━━━━━━━

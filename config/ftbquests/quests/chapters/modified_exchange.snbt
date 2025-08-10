@@ -1,8 +1,10 @@
 {
 	autofocus_id: "7BC83E1C825581CD"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_repeatable_quest: true
+	disable_toast: true
 	filename: "modified_exchange"
 	group: ""
 	icon: {
@@ -48,7 +50,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_o.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_o.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -11.0d
@@ -56,7 +58,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_m.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_m.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -12.5d
@@ -64,7 +66,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_d.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_d.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -9.5d
@@ -72,7 +74,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_i.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_i.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -80,7 +82,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_f.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_f.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -6.5d
@@ -88,7 +90,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_i.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_i.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
@@ -96,7 +98,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_e.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_e.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -3.5d
@@ -104,7 +106,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_d.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_d.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: -2.0d
@@ -112,7 +114,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_e.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_e.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: 12.5d
@@ -120,7 +122,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_e.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_e.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
@@ -128,7 +130,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_x.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_x.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
@@ -136,7 +138,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_n.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_n.png"
 			rotation: 0.0d
 			width: 1.25d
 			x: 9.5d
@@ -144,7 +146,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_h.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_h.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: 6.5d
@@ -152,7 +154,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_a.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 8.0d
@@ -160,7 +162,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_c.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_c.png"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.0d
@@ -168,7 +170,7 @@
 		}
 		{
 			height: 1.5d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_g.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_g.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 11.0d
@@ -176,7 +178,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_s.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_s.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.5d
@@ -184,7 +186,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_e.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_e.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
@@ -192,7 +194,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_l.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_l.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.5d
@@ -200,15 +202,44 @@
 		}
 		{
 			height: 1.0d
-			image: "cobblemon:textures/entity_icon/0201_unown/unown_l.png"
+			image: "modified:textures/ftbquests/mon_icon/unown_l.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.5d
 			y: 6.5d
 		}
 	]
-	order_index: 2
-	quest_links: [ ]
+	order_index: 3
+	quest_links: [
+		{
+			id: "4A2791C16545FF65"
+			linked_quest: "7BC83E1C825581CD"
+			size: 4.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0B614BD700B66B07"
+			linked_quest: "3CC292C6490FCBFA"
+			size: 1.5d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "2986447079A14578"
+			linked_quest: "4AA91831F6D6858C"
+			size: 1.5d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "1439E0D883E671D9"
+			linked_quest: "141B30642F9A2655"
+			size: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
 	quests: [
 		{
 			can_repeat: true
@@ -227,34 +258,11 @@
 			tasks: [{
 				count: 2L
 				id: "09CBE6D9536690FD"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: false
-			icon: {
-				id: "modified:pokedollar"
-			}
-			icon_scale: 2.0d
-			id: "7BC83E1C825581CD"
-			rewards: [{
-				id: "0644369D11F9566A"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
-			size: 4.0d
-			tasks: [{
-				id: "2CEADAA3C6AFBB1B"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.0d
+			x: -10.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -341,11 +349,11 @@
 			tasks: [{
 				count: 4L
 				id: "303046AC7A3C8A65"
-				item: { count: 4, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.0d
+			x: -9.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -364,11 +372,11 @@
 			tasks: [{
 				count: 6L
 				id: "113CC30D480557F6"
-				item: { count: 6, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.0d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -387,11 +395,11 @@
 			tasks: [{
 				count: 8L
 				id: "4B52E0B4F1AC47DC"
-				item: { count: 8, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -7.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -410,11 +418,11 @@
 			tasks: [{
 				count: 9L
 				id: "6EA34F2CE44F5E33"
-				item: { count: 9, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -431,13 +439,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 24L
 				id: "6A4527930752A30D"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -454,9 +462,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 99L
-				id: "050B2CC094C97600"
-				item: { count: 99, id: "modified:pokedollar" }
+				count: 25L
+				id: "178D0E7C6FEEE120"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -479,11 +487,11 @@
 			tasks: [{
 				count: 5L
 				id: "028E3CC184C3A412"
-				item: { count: 5, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -502,11 +510,11 @@
 			tasks: [{
 				count: 2L
 				id: "3E1010865082A561"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -529,8 +537,8 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -553,8 +561,8 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -577,8 +585,8 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -601,8 +609,8 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -10.5d
+			y: 2.5d
 		}
 		{
 			icon: {
@@ -618,9 +626,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 20L
+				count: 50L
 				id: "3D92CE90EE3998B6"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -640,13 +648,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 50L
-				id: "6A0CA49F1EF65F11"
-				item: { count: 50, id: "modified:pokedollar" }
+				count: 3L
+				id: "65E8E143E477D89C"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -662,9 +670,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 40L
+				count: 77L
 				id: "0C0007DB1FD8C2A6"
-				item: { count: 40, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -692,13 +700,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 15L
+				count: 25L
 				id: "1DA63E0F4CAF0828"
-				item: { count: 15, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -714,9 +722,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 99L
-				id: "1473228CF4337F51"
-				item: { count: 69, id: "modified:pokedollar" }
+				count: 3L
+				id: "09B3BD0E16A633E2"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -736,15 +744,16 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 20L
+				count: 50L
 				id: "5FF05ADE8A5B4946"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
+			disable_toast: true
 			icon: {
 				id: "minecraft:cobblestone"
 			}
@@ -817,7 +826,7 @@
 			tasks: [{
 				count: 3L
 				id: "21866AD4B9D401E0"
-				item: { count: 3, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -961,9 +970,9 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 4L
+				count: 8L
 				id: "0E37B90B2FEC944F"
-				item: { count: 4, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -983,7 +992,7 @@
 			tasks: [{
 				count: 3L
 				id: "66175B0C2A5DB67E"
-				item: { count: 3, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -1003,7 +1012,7 @@
 			tasks: [{
 				count: 2L
 				id: "40834D8A9B172345"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -1021,15 +1030,16 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 20L
+				count: 50L
 				id: "028C0CE826CBD2E9"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
+			can_repeat: false
 			icon: {
 				id: "cobblemon:pc"
 			}
@@ -1043,9 +1053,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 15L
+				count: 50L
 				id: "6E6820471DEFBBFA"
-				item: { count: 15, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1065,9 +1075,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
+				count: 25L
 				id: "5839D52F768CCA7C"
-				item: { count: 10, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1085,13 +1095,13 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 30L
+				count: 50L
 				id: "057D37D7C1893AFA"
-				item: { count: 15, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -1107,9 +1117,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
+				count: 25L
 				id: "42813AB2DA4D8E15"
-				item: { count: 10, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1129,9 +1139,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 20L
+				count: 50L
 				id: "7DBC6E240842CA3C"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1152,13 +1162,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
+				count: 12L
 				id: "1EE927BFB341740F"
-				item: { count: 6, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -1175,16 +1185,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 69L
-				id: "196CBEF28F0178C1"
-				item: { count: 69, id: "modified:pokedollar" }
+				id: "22917BB5BF243A6A"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
 			x: -6.5d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				id: "mega_showdown:megabracelet"
 			}
@@ -1196,9 +1205,9 @@
 				type: "choice"
 			}]
 			tasks: [{
-				count: 99L
-				id: "3D4D2772233E8F5C"
-				item: { count: 1, id: "modified:pokedollar" }
+				count: 3L
+				id: "087FAE8A6DFA0594"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1223,8 +1232,8 @@
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -1245,13 +1254,14 @@
 				item: { count: 25, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
+			disable_toast: true
 			id: "58159F55C45FECAF"
 			rewards: [{
-				count: 8
+				count: 25
 				id: "40F02AE0D50A0A57"
 				item: {
 					count: 1
@@ -1268,6 +1278,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "1A4A546FB0DD1E63"
 			rewards: [{
 				count: 10
@@ -1279,6 +1290,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "62B6A850216613AA"
 				item: { count: 1, id: "cobgyms:gym_key" }
 				type: "item"
@@ -1287,6 +1299,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "37B85552391A5268"
 			rewards: [{
 				count: 32
@@ -1307,6 +1320,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "4F2D2F587D594828"
 			rewards: [{
 				count: 4
@@ -1327,9 +1341,10 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "01C9A6C228EDC1A1"
 			rewards: [{
-				count: 24
+				count: 50
 				id: "28F8543F969ADFBE"
 				item: {
 					count: 1
@@ -1346,6 +1361,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "0482D07DB337738E"
 			rewards: [{
 				id: "5CA0ABDA663F5068"
@@ -1365,6 +1381,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "0CECBC4D8B4F6DEE"
 			rewards: [{
 				id: "2C772C8B913DD66F"
@@ -1384,6 +1401,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "5ACEB4A2B7A7F73C"
 			rewards: [{
 				id: "689E9A572AD6C0C3"
@@ -1445,6 +1463,7 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "53950EA8A2C5B59A"
 			rewards: [{
 				id: "49B7FDB8C1D39C5D"
@@ -1464,6 +1483,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "62673B1C2426F051"
 			rewards: [{
 				id: "114DF0DD4929ADB0"
@@ -1483,6 +1503,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "5201B0CA44E2F86E"
 			rewards: [{
 				count: 5
@@ -1502,6 +1523,7 @@
 			y: 6.5d
 		}
 		{
+			disable_toast: true
 			id: "59EE84B56B128637"
 			rewards: [{
 				id: "22309CE70457C480"
@@ -1521,48 +1543,6 @@
 			y: 6.5d
 		}
 		{
-			id: "4AA91831F6D6858C"
-			rewards: [{
-				count: 99
-				id: "65D77F3A99CF7B21"
-				item: {
-					count: 1
-					id: "cobblemon:relic_coin"
-				}
-				type: "item"
-			}]
-			size: 0.88d
-			tasks: [{
-				count: 10L
-				id: "0DF28EB3347473E4"
-				item: { count: 1, id: "modified:pokedollar" }
-				type: "item"
-			}]
-			x: -1.3199999999999998d
-			y: 4.3999999999999995d
-		}
-		{
-			id: "3CC292C6490FCBFA"
-			rewards: [{
-				count: 6
-				id: "0F904EB3F806AA9C"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
-			size: 0.88d
-			tasks: [{
-				count: 64L
-				id: "67F5B6E44A0BBE78"
-				item: { count: 50, id: "cobblemon:relic_coin" }
-				type: "item"
-			}]
-			x: 1.3199999999999998d
-			y: 4.3999999999999995d
-		}
-		{
 			icon: {
 				components: {
 					"ftbquests:icon": "cobblemon_utility:item/goldencap"
@@ -1576,15 +1556,16 @@
 				table_id: 5809028283732151280L
 				type: "random"
 			}]
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
-				count: 20L
+				count: 50L
 				id: "02084CE19FD8CE7C"
 				item: { count: 10, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -14.25d
-			y: 3.75d
+			x: -12.0d
+			y: 2.5d
 		}
 		{
 			icon: {
@@ -1601,13 +1582,13 @@
 				type: "random"
 			}]
 			tasks: [{
-				count: 99L
-				id: "39DEC0172F865E61"
-				item: { count: 1, id: "modified:pokedollar" }
+				count: 3L
+				id: "39A4D3C60A0BA394"
+				item: { count: 1, id: "modified:mtoken" }
 				type: "item"
 			}]
 			x: -13.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -1623,13 +1604,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 12L
 				id: "4A972EA85A6994DE"
 				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: 2.5d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -1645,13 +1626,144 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 24L
 				id: "5DBF66BEB3BD7A22"
 				item: { count: 16, id: "modified:pokedollar" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: 3.5d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:ballsynchronizer"
+			}
+			id: "4138F9EC10D2D68D"
+			rewards: [{
+				id: "4E4BC56BCA7799A3"
+				item: {
+					count: 1
+					id: "cobblemon_utility:ballsynchronizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30AA4854C6B6CE11"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:transmutationorb"
+			}
+			id: "4C24BC9E3A89C29E"
+			rewards: [{
+				id: "067C3D5ACC3B3039"
+				item: {
+					count: 1
+					id: "cobblemon_utility:transmutationorb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12142ABDB6211BD1"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:devolutionrelic"
+			}
+			id: "35DA74905D84F820"
+			rewards: [{
+				id: "00589AB2C6C3009C"
+				item: {
+					count: 1
+					id: "cobblemon_utility:devolutionrelic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2443FADABC04DC85"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:voidfeather"
+			}
+			id: "714F0E2FA701CB55"
+			rewards: [{
+				id: "5972D3F1B5B08E06"
+				item: {
+					count: 1
+					id: "cobblemon_utility:voidfeather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F08759D61351952"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cobblemon_utility:poketreat"
+			}
+			id: "025BDB91E9442DBB"
+			rewards: [{
+				id: "71A4BCA1A0DBD723"
+				item: {
+					count: 1
+					id: "cobblemon_utility:poketreat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "45359742F0097949"
+				item: { count: 20, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "dimdungeons:block/block_keyhole_front_empty"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5B24BFBC77803832"
+			rewards: [{
+				id: "2ED60BADA012417D"
+				item: {
+					count: 1
+					id: "dimdungeons:block_key_charger"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 50L
+				id: "54884E12E7F93AEB"
+				item: { count: 50, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
 		}
 	]
 }

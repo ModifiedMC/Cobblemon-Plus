@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seasonal_field_research"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "aether:textures/gui/sprites/skins/refresh_button_highlighted.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "46F7535FCDC99B27"
+	images: [{
+		height: 15.0d
+		image: "modified:textures/ftbquests/backgrounds/bg_pokeball.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.5d
+		y: -1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/bug.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D1D2791C3FB9A6B"
+			rewards: [{
+				id: "754E882F3A8AE58A"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "defeat"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6E565E8922639410"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:item/poke_balls/friend_ball"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.8d
+			id: "48C601EFA4FF4658"
+			rewards: [{
+				id: "3D23628025E5B82A"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 20L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "435E576A2DACC259"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: "cobblemon:friend_ball"
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblenav:textures/gui/fishing/cloud.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D199C97E6E640A3"
+			rewards: [{
+				id: "274CD492A0230B34"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 50L
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				id: "0FCAE4D9B76D8292"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mcwholidays:block/stars_wall_deco"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3E35681DF6519305"
+			rewards: [{
+				id: "1961BCFEBA5D7E77"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7BD07BACE60D4A03"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "regions_unexplored:block/palm_sapling"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4742CF7571E021D1"
+			rewards: [{
+				id: "1005B1BB7F5E51B7"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 30L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: "alolan"
+				gender: ""
+				id: "5D9C05A2DE5F2F77"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.25d
+			y: -5.25d
+		}
+		{
+			id: "312C7F9627EAB2FF"
+			rewards: [{
+				id: "5AFCB11CC28CBBE1"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "042D38BE026B9D53"
+				item: { count: 1, id: "croptopia:kale_smoothie" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			id: "13C9C57AC15C91F2"
+			rewards: [{
+				id: "7306DCF5E2AA5887"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "35C71AB99E72375D"
+				item: { count: 1, id: "croptopia:pineapple_pepperoni_pizza" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			id: "716B176745A4188D"
+			rewards: [{
+				id: "6414C4686597CCB7"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "67A8C84A267965F7"
+				item: { count: 1, id: "extradelight:tea" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_challenge.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47B67BDA02E426CE"
+			rewards: [{
+				id: "5B43E3D3A71DC366"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "evolve"
+				amount: 25L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "721D9BB4BFF8511F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "handcrafted:painting/beach_sunrise_mid"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2311D9A81B141338"
+			rewards: [{
+				id: "79C5A6A1E9E70AF4"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					biome: "minecraft:beach"
+					id: "27363BD6EF439A9D"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:snowy_beach"
+					id: "04A7E381C2F2CA87"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:grassy_beach"
+					id: "4271CF2E075C35D0"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:gravel_beach"
+					id: "4278FAEF222F4FA4"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:rainbow_beach"
+					id: "359779060329B927"
+					type: "biome"
+				}
+				{
+					biome: "#c:island"
+					id: "7334D0C81745BB58"
+					type: "biome"
+				}
+				{
+					biome: "biomeswevegone:tropical_rainforest"
+					id: "38C74D70063DE2D0"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:tropics"
+					id: "049C74F7AE3C5DBA"
+					type: "biome"
+				}
+				{
+					biome: "regions_unexplored:tropical_river"
+					id: "378C9BB1FC2C44C8"
+					type: "biome"
+				}
+			]
+			x: -3.0d
+			y: -5.25d
+		}
+		{
+			id: "70D93430BECFCDDB"
+			rewards: [{
+				id: "17F65A13863CBC96"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "05C5064A10C194A9"
+				item: { count: 1, id: "minecraft:tropical_fish_bucket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/pokedex/search_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "77562025BBFC2360"
+			rewards: [{
+				id: "1176EFE763AE9084"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "scan"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0A8A31FBDE82C509"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2311D9A81B141338"
+				"716B176745A4188D"
+				"4742CF7571E021D1"
+				"47B67BDA02E426CE"
+				"4D199C97E6E640A3"
+				"7D1D2791C3FB9A6B"
+				"3E35681DF6519305"
+				"70D93430BECFCDDB"
+				"13C9C57AC15C91F2"
+				"48C601EFA4FF4658"
+				"77562025BBFC2360"
+				"312C7F9627EAB2FF"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4138D9321D8D504C"
+			rewards: [
+				{
+					id: "4D071B2F80325BC3"
+					table_id: 5809028283732151280L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "4BD7836B52E7C246"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					id: "1F570A607C904324"
+					table_id: 3250623903182936334L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "1B658FE4B0EA032B"
+					item: {
+						count: 1
+						id: "cobgyms:adept_cache_shiny"
+					}
+					type: "item"
+				}
+				{
+					id: "0B0D7655444C08C3"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								PokeTokenType: "NATURE"
+								nature: "cobblemon.nature.adamant"
+							}
+							"minecraft:custom_model_data": 101
+							"minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Nature Token\"}"
+							"minecraft:lore": [
+								"{\"color\":\"red\",\"italic\":false,\"text\":\"One time use\"}"
+								"{\"italic\":false,\"text\":\"\"}"
+								"{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click on a pokemon to change its nature to the specified nature.\"}"
+								"{\"italic\":false,\"text\":\"\"}"
+								"{\"color\":\"green\",\"extra\":[{\"color\":\"white\",\"text\":\"Adamant\"}],\"italic\":false,\"text\":\"Nature: \"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "745295AF66DBF5E5"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								CobblemonExtrasBallType: "shiny"
+								ShinyBallBallType: "great"
+							}
+							"minecraft:custom_model_data": 100
+							"minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Shiny Ball\"}"
+							"minecraft:lore": [
+								"{\"color\":\"gray\",\"italic\":false,\"text\":\"A unique ball that forces the captured\"}"
+								"{\"color\":\"gray\",\"italic\":false,\"text\":\" pokemon to transform into a shiny variant.\"}"
+							]
+						}
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "171712C59CF46B63"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "46833D0A66B23605"
+					item: {
+						count: 1
+						id: "cobgyms:master_cache_shiny"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "5761F9C165C83FDF"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fire.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B04742E67A4328F"
+			size: 1.5d
+			tasks: [{
+				action: "defeat"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "649804F8A30A0141"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/grass.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D52BD6717269BB0"
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 50L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4A0456A193F624E9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/water.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "436351D02886121C"
+			size: 1.5d
+			tasks: [{
+				action: "defeat"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "079AB9DCDB89AC67"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "5FC9F5F78FB0FB92"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2BF8F0A49B6BA9C4"
+				item: { count: 1, id: "extradelight:ice_cream_sundae" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.25d
+		}
+	]
+}

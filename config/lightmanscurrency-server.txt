@@ -286,6 +286,12 @@
 	#See the wiki for Money Value format: https://github.com/Lightman314/LightmansCurrency/wiki/Money-Value-Arguments
 	interestUpperLimits=[]
 	
+	#A list of Money Value unique ids that should not have interest applied to them.
+	#Example:
+	#Adding "lightmanscurrency:coins!chocolate_coins" will prevent chocolate coins from getting interest,
+	#Adding "lightmanscurrency:coins!*" will prevent all built-in money types from getting interest
+	interestBlacklist=[]
+	
 #Network Terminal Settings
 [terminal]
 	#Whether the /lcterminal command will exist allowing players to access the Trading Terminal without the physical item/block
@@ -298,7 +304,7 @@
 	
 #Paygate Settings
 [paygate]
-	#The maximum number of ticks that a paygate can be set to output a redstone signal for.
+	#The maximum number of ticks that a paygate can be set to output a redstone signal for
 	#Note: 20t = 1s
 	#Range: 0 -> 2147483647
 	#Default: 1200
@@ -306,8 +312,13 @@
 	
 #Command Trader Settings
 [command_trader]
+	#The permission level required to place the command trader block
+	#Range: 0 -> 2147483647
+	#Default: 2
+	placementPermissionLevel=2
+	
 	#The maximum permission level that can set and used by a command trader
-	#Range: 0 -> 4
+	#Range: 0 -> 2147483647
 	#Default: 4
 	maxPermissionLevel=4
 	
@@ -355,6 +366,12 @@
 	#Whether the Chocolate Coins will give players custom potion and/or healing effects on consumption.
 	#Default: true
 	chocolateEffects=true
+	
+#Model Variant Settings
+[model_variants]
+	#A list of Model Variant ids that will be hidden from the Variant Select Menu on the client,
+	#and cannot be selected in said menu.
+	variantBlacklist=[]
 	
 #Mod Compat Options
 [compat]

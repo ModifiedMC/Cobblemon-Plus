@@ -1,12 +1,12 @@
 [Etc]
-	#Lava Opacity for the Ignitium Helemt.
-	# Default: 0.5
-	# Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.5
-	#Whether to disable certain aspects of the Ignitium Helemt. Enable if issues with shaders persist.
-	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
+	#Forced viewpoint change when hit by a grab attack
+	"setThirdPerson(on/off)" = true
+	#Forced viewpoint change when hit by a grab attack
+	"setFirstPerson(on/off)" = true
+
+["bosses Common settings"]
 	#custombossbar(on/off)
 	"custombossbar(on/off)" = true
 	#BossMusic(on/off)
@@ -15,6 +15,10 @@
 	# Default: 1
 	# Range: 1 ~ 1000000
 	BossMusicVolume = 1
+	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
+	# Default: 20
+	# Range: 0 ~ 200
+	ReturnHome = 20
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -75,6 +79,30 @@
 	# Default: 300
 	# Range: 0 ~ 1000000
 	immolatorCooldown = 300
+	#Storm Bringer's LightningStorm Damage
+	# Default: 6.0
+	# Range: 0.0 ~ 1000000.0
+	"Ceraunus 's Lightning Storm Damage" = 6.0
+	#Ceraunus's Wave Damage
+	# Default: 6.0
+	# Range: 0.0 ~ 1000000.0
+	"Ceraunus's Wave Damage'" = 6.0
+	#Ceraunus's Cooldown
+	# Default: 150
+	# Range: 0 ~ 1000000
+	"Ceraunus Cooldown" = 150
+	#Astrape's LightningStorm Damage
+	# Default: 11.0
+	# Range: 0.0 ~ 1000000.0
+	"Astrape's Lightning Spear Damage" = 11.0
+	#Astrape's Wave Damage
+	# Default: 2.0
+	# Range: 0.0 ~ 1000000.0
+	"Astrape's Area Damage'" = 2.0
+	#Astrape's Cooldown
+	# Default: 80
+	# Range: 0 ~ 1000000
+	"Astrape Cooldown" = 80
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
@@ -152,7 +180,7 @@
 	# Range: 0.0 ~ 1000000.0
 	"Ancient Desert Stele Damage" = 18.0
 	#Player's Phantom Arrow's Damage
-	# Default: 5.0
+	# Default: 8.0
 	# Range: 0.0 ~ 1000000.0
 	"Phantom Arrow Damage" = 5.0
 	#Phantom Halberd's Damage
@@ -160,7 +188,7 @@
 	# Range: 0.0 ~ 1000000.0
 	"Phantom Halberd Damage" = 12.0
 	#Cursed Sandstorm's Damage
-	# Default: 6.0
+	# Default: 7.5
 	# Range: 0.0 ~ 1000000.0
 	"Cursed Sandstorm Damage" = 6.0
 	#Flame jet's Damage
@@ -190,9 +218,9 @@
 	# Range: 0 ~ 100
 	EnderGuardianDamageTime = 30
 	#EnderGuardian's Healing with out target
-	# Default: 10.0
+	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	EnderGuardianNatureHealing = 10.0
+	EnderGuardianNatureHealing = 20.0
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
 	#Guardian's Immune to Long distance attack range.
@@ -245,6 +273,14 @@
 	# Default: 3
 	# Range: 1 ~ 1000000
 	Lavabombamount = 3
+	#Lava Bomb of Monstrosity's Duration
+	# Default: 350
+	# Range: 1 ~ 10000
+	LavaBombDuration = 350
+	#Lava Bomb of Monstrosity's additional random duration size
+	# Default: 150
+	# Range: 1 ~ 10000
+	LavaBombRandomDuration = 150
 	#Monstrosity's Health Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -258,9 +294,9 @@
 	# Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
 	# Monstrosity's Healing with out target
-	# Default: 10.0
+	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	MonstrosityNatureHealing = 10.0
+	MonstrosityNatureHealing = 20.0
 	#Monstrosity's DamageCap
 	# Default: 22.0
 	# Range: 0.0 ~ 1000000.0
@@ -308,9 +344,9 @@
 	# Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 1.0
 	#Ignis's Healing with out target
-	# Default: 10.0
+	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	IgnisNatureHealing = 10.0
+	IgnisNatureHealing = 20.0
 	#Ignis's Healing Multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 1000000.0
@@ -404,9 +440,9 @@
 	# Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 1.0
 	#Leviathan's Healing with out target
-	# Default: 10.0
+	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	LeviathanNatureHealing = 10.0
+	LeviathanNatureHealing = 20.0
 	#Leviathan's Immune to Long distance attack range.
 	# Default: 38.0
 	# Range: 1.0 ~ 1000000.0
@@ -490,9 +526,9 @@
 	# Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.0
 	#AncientRemnant's Healing with out target
-	# Default: 10.0
+	# Default: 25.0
 	# Range: 0.0 ~ 1000000.0
-	AncientRemnantNatureHealing = 10.0
+	AncientRemnantNatureHealing = 20.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	# Default: 14.0
 	# Range: 1.0 ~ 1000000.0
@@ -580,13 +616,13 @@
 	# Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
 	#Maledictus's Healing with out target
+	# Default: 25.0
+	# Range: 0.0 ~ 1000000.0
+	MaledictusNatureHealing = 20.0
+	#Maledictus's Phantom Halberd Damage
 	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
-	MaledictusNatureHealing = 10.0
-	#Maledictus's Phantom Halberd Damage
-	# Default: 13.0
-	# Range: 0.0 ~ 1000000.0
-	"Maledictus' Phantom Halberd Damage'" = 13.0
+	"Maledictus' Phantom Halberd Damage'" = 10.0
 	#Maledictus's DamageCap
 	# Default: 20.0
 	# Range: 0.0 ~ 1000000.0
@@ -705,3 +741,71 @@
 	# Default: 2
 	# Range: 0 ~ 32
 	cursedPyramidHeightVariance = 2
+
+[Clawdian]
+	#Clawdian's Health Multiplier
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	ClawdianHealthMultiplier = 1.0
+	#Clawdian's Damage Multiplier
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	ClawdianDamageMultiplier = 1.0
+
+[Scylla]
+	#Scylla's Health Multiplier
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	ScyllaHealthMultiplier = 1.0
+	#Scylla's Damage Multiplier
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	ScyllaDamageMultiplier = 1.0
+	#Scylla's Immune to Long distance attack range.
+	# Default: 10.0
+	# Range: 1.0 ~ 1000000.0
+	"Scylla's prevent attacks from far away Range" = 10.0
+	#Scylla's Spear Damage
+	# Default: 14.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Spear Damage" = 14.0
+	#Scylla's Lightning Storm
+	# Default: 10.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Storm" = 10.0
+	#Scylla's Lightning Area
+	# Default: 4.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Area" = 4.0
+	#Scylla's Storm Serpent
+	# Default: 16.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Snake Damage" = 16.0
+	#Scylla's Anchor Damage
+	# Default: 16.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Anchor Damage" = 16.0
+	#Scylla's Healing with out target
+	# Default: 25.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla NatureHealing" = 25.0
+	#Scylla's DamageCap
+	# Default: 22.0
+	# Range: 0.0 ~ 1000000.0
+	"Scylla DamageCap" = 22.0
+	#Scylla's DamageTime
+	# Default: 25
+	# Range: 0 ~ 100
+	"Scylla DamageTime" = 25
+	#Scylla's HP Damage
+	# Default: 0.05
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's HP Damage" = 0.05
+	#Scylla's Spin HP Damage
+	# Default: 0.07
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Spin Hp Damage" = 0.07
+	#Scylla's Lightning Storm HP Damage
+	# Default: 0.04
+	# Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Storm HP Damage" = 0.04

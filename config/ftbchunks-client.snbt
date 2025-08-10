@@ -133,90 +133,23 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"ars_nouveau:whirlisprig": true
-			"minecraft:hoglin": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:vex": true
-			"minecraft:skeleton": true
-			"minecraft:piglin_brute": true
-			"minecraft:dolphin": true
-			"minecraft:illusioner": true
-			"minecraft:tadpole": true
-			"minecraft:phantom": true
-			"minecraft:ravager": true
-			"minecraft:villager": true
-			"minecraft:husk": true
-			"minecraft:cod": false
-			"minecraft:sniffer": true
-			"minecraft:armadillo": true
-			"minecraft:frog": true
-			"minecraft:goat": true
-			"minecraft:glow_squid": true
-			"minecraft:ender_dragon": true
-			"minecraft:witch": true
+			"minecraft:spider": true
+			"minecraft:squid": true
+			"minecraft:rabbit": true
 			"minecraft:bee": true
 			"minecraft:bat": true
-			"minecraft:camel": true
-			"minecraft:spider": true
-			"minecraft:guardian": true
-			"minecraft:bogged": true
-			"minecraft:wandering_trader": true
-			"minecraft:vindicator": true
-			"minecraft:cow": true
-			"minecraft:endermite": true
-			"minecraft:drowned": true
-			"minecraft:elder_guardian": true
-			"minecraft:fox": true
-			"minecraft:zombified_piglin": true
-			"artifacts:mimic": true
-			"minecraft:trader_llama": true
-			"minecraft:rabbit": true
-			"minecraft:skeleton_horse": true
-			"minecraft:shulker": true
-			"minecraft:iron_golem": true
-			"minecraft:pillager": true
-			"minecraft:piglin": true
-			"minecraft:panda": true
-			"minecraft:evoker": true
-			"minecraft:donkey": true
-			"minecraft:sheep": true
-			"minecraft:salmon": false
-			"minecraft:giant": true
-			"minecraft:blaze": true
-			"minecraft:breeze": true
-			"minecraft:ocelot": true
-			"minecraft:magma_cube": true
-			"minecraft:turtle": true
-			"minecraft:mule": true
-			"minecraft:tropical_fish": false
-			"minecraft:cat": true
-			"minecraft:ghast": true
-			"minecraft:strider": true
-			"minecraft:zombie_horse": true
-			"minecraft:enderman": true
 			"minecraft:creeper": true
-			"minecraft:horse": true
-			"minecraft:parrot": true
-			"minecraft:zombie_villager": true
-			"minecraft:polar_bear": true
+			"minecraft:enderman": true
+			"minecraft:sheep": true
+			"minecraft:skeleton": true
+			"minecraft:dolphin": true
 			"minecraft:wolf": true
-			"minecraft:squid": true
-			"minecraft:wither_skeleton": true
-			"minecraft:zoglin": true
-			"minecraft:wither": true
+			"minecraft:glow_squid": true
 			"minecraft:pig": true
-			"minecraft:axolotl": true
+			"minecraft:cod": false
 			"minecraft:zombie": true
-			"minecraft:stray": true
-			"minecraft:warden": true
-			"minecraft:mooshroom": true
-			"minecraft:llama": true
-			"minecraft:allay": true
-			"minecraft:slime": true
-			"minecraft:chicken": true
-			"minecraft:pufferfish": false
-			"minecraft:cave_spider": true
-			"minecraft:silverfish": true
+			"cobblemon:pokemon": true
+			"artifacts:mimic": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -336,11 +269,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: true
+		in_world_waypoints: false
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0

@@ -1,13 +1,13 @@
 name = "Accessories"
-filename = "accessories-neoforge-1.1.0-beta.42+1.21.1.jar"
+filename = "accessories-neoforge-1.1.0-beta.48+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "929c8a59bdf1e26e161f493f79cd24f9105a25b5"
+hash = "372204b89efd3e7cec6c13a93f840f7440627742"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6454790
+file-id = 6837975
 project-id = 938917

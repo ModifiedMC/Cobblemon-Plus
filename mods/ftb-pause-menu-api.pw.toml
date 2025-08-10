@@ -1,13 +1,13 @@
 name = "FTB Pause Menu API"
-filename = "ftb-pause-menu-api-21.1.1.jar"
+filename = "ftb-pause-menu-api-21.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6296db5b10f541ef6b1eedd3684422110633f517"
+hash = "7ac99edede4f7891c2cf025f686ff32fc799c901"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6215477
+file-id = 6695262
 project-id = 1197864

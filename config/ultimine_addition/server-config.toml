@@ -1,36 +1,37 @@
 [General]
 	#Defines a list of forbidden shape types for mining.
-	#Valid shape IDs: [shapeless, small_tunnel, small_square, large_tunnel, mining_tunnel, escape_tunnel]
+	#Press "F3-H" and then hold "Left Shift" to display the Shape ID in the shape selector.
+	#Valid shape IDs: ["ftbultimine:shapeless", "ftbultimine:small_tunnel", etc.]
 	blacklisted_shapes = []
 	#If enabled, blocks placed by entities will not count towards challenges.
 	#This prevents exploiting challenges with entity-placed blocks.
 	is_placed_by_entity_condition = true
 	#Sets the validation time (in seconds) for fixing corrupted Mining Skill Cards.
-	#Range: 1 ~ 600 seconds.
 	# Default: 2
 	# Range: 1 ~ 600
 	challenge_validator = 2
 
 [Gameplay]
 	#Adjusts the paper consumption rate in the Skills Record.
-	#Range: 0 (no consumption) to 1 (full consumption).
+	#Range: 0.0 (no consumption) to 1.0 (full consumption).
 	# Default: 0.35
 	# Range: 0.0 ~ 1.0
 	paper_consummation_rate = 0.35
 	#Defines the required amount range for the miner certificate challenge.
 	#Only applicable if the playstyle mode is set to LEGACY.
-	legacy_required_amount = "1, 100"
+	legacy_required_amount = "64, 128"
 	#Defines the number of challenges per tier.
 	#Each tier can have a different number of challenges.
-	#Range: 1 ~ 30
-	card_challenges_amount = "Unlearned=1, Adept=4, Apprentice=3, Novice=2"
+	#Range: 1 ~ 30 challenges
+	card_challenges_amount = "Unlearned=1, Apprentice=3, Novice=2, Adept=4"
 	#Defines the potion points awarded per tier.
 	#Higher tiers may award fewer points.
-	#Range: 1 ~ 20
-	card_potion_points = "Novice=3, Apprentice=2, Adept=1"
+	#Range: 1 ~ 20 points
+	card_potion_points = "Novice=3, Adept=1, Apprentice=2"
 	#Defines the duration (in seconds) of the Ultimine ability per tier.
+	#NOTE: Ensure to restart the world for the changes to take effect
 	#Range: 60 ~ 3600 seconds.
-	card_potion_durations = "Novice=300, Apprentice=600, Adept=1200"
+	card_potion_durations = "Novice=300, Adept=1200, Apprentice=600"
 	#If enabled, a Mastered Mining Skill Card grants the Ultimine ability for its corresponding tool.
 	#This provides a significant gameplay advantage.
 	card_mastered_effect = true
@@ -39,16 +40,7 @@
 	tier_based_max_blocks = true
 	#Defines the Ultimine max blocks value for each tier.
 	#Range: 1 ~ 64 blocks.
-	card_max_blocks = "Novice=8, Apprentice=16, Adept=32"
-
-[Trades]
-	#Defines the required trade level for card trading with villagers.
-	# Default: 1
-	# Range: 1 ~ 5
-	card_trade_level = 1
-	#Defines the trade price range for Mining Skill Cards.
-	#Range: 1 ~ 256.
-	card_trade_price = "10, 100"
+	card_max_blocks = "Novice=8, Adept=32, Apprentice=16"
 
 [Debugging]
 	#Enables or disables logging of ineligible blocks for challenges.

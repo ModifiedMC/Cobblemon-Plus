@@ -4,6 +4,7 @@
   "mobBlacklist": [
     "minecraft:bat"
   ],
+  "treatBlacklistAsWhitelist": false,
   "alertIconStyle": 0,
   "renderRange": 24.0,
   "xOffset": 0.0,

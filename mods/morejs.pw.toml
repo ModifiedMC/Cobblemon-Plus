@@ -1,13 +1,13 @@
 name = "MoreJS"
-filename = "morejs-neoforge-1.21-0.13.1.jar"
+filename = "morejs-neoforge-1.21-0.14.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "43a1509f51ff0921a3ab8f30ee6f829e5cf8b6ea"
+hash = "b37a51415f95eec2276a79d4b0dc25397ba43cda"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5718906
+file-id = 5884698
 project-id = 666198

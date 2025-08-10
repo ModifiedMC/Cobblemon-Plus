@@ -3,8 +3,1013 @@
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "3C2F0E57BE919025"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
 	id: "35BA9BDD51EA2E41"
+	images: [{
+		height: 5.0d
+		image: "chipped:block/end_stone/simple_end_stone_pillar"
+		rotation: 0.0d
+		width: 5.0d
+		x: 6.5d
+		y: 0.5d
+	}]
 	order_index: 3
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [
+		{
+			id: "7E7C25AB17C044D2"
+			linked_quest: "7FED8C5B8B3F0DA7"
+			size: 2.0d
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "45843CCD5F3224FA"
+			linked_quest: "3CE375869C1F5326"
+			x: 3.0d
+			y: -8.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"2B982D61E24A2013"
+				"52CAF57A1A86D8B6"
+				"760DE8DFD0ADC4BB"
+				"5999996636E237F9"
+				"089D656DEB3D2AAB"
+				"2EA4122B54842CCD"
+				"1A9F62404E5B5AC3"
+				"5E70BD94CEADDA21"
+				"62118D63589D0467"
+				"51508BCF05C0E2B2"
+				"0CB09BBF4D89BB16"
+				"1FB2E6E79043A9A2"
+				"5B4A4149435EEB09"
+				"26106C17271938E8"
+				"302BF172BE475624"
+				"079CDB28F0079048"
+			]
+			dependency_requirement: "one_completed"
+			id: "796F36F8C626FE90"
+			rewards: [
+				{
+					id: "1CFEC3E68B30F0CE"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46008797D02456ED"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "2E3FB6EA707EDAAE"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "760DE8DFD0ADC4BB"
+			rewards: [{
+				count: 25
+				id: "4CEB32783F752FE2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2D18B833B9B066D2"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "302BF172BE475624"
+			rewards: [{
+				count: 25
+				id: "0708EC238EA4ECED"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "476C28B33C2421E6"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "089D656DEB3D2AAB"
+			rewards: [{
+				count: 25
+				id: "01BB50EE93373191"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "797F8001A3F0FE0D"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "5E70BD94CEADDA21"
+			rewards: [{
+				count: 25
+				id: "6CCD3899B7F8A940"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "569AC97AD6B738AF"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "1FB2E6E79043A9A2"
+			rewards: [{
+				count: 25
+				id: "504D7E3CE86A0463"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "109CDCA3BD9B3075"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "51508BCF05C0E2B2"
+			rewards: [{
+				count: 25
+				id: "5C23CE478C5CD3B1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6809FA876ED73D78"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "5999996636E237F9"
+			rewards: [{
+				count: 25
+				id: "4E4E196A1126F1C1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "713B18D7507B1895"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "26106C17271938E8"
+			rewards: [{
+				count: 25
+				id: "7035DF7A2AA613FA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "585BBC84D2495A34"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "0CB09BBF4D89BB16"
+			rewards: [{
+				count: 25
+				id: "57CD043FF1A6D9A1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "29F0962AD2725221"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "079CDB28F0079048"
+			rewards: [{
+				count: 25
+				id: "5316411D026202F2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "08C29CF15E20C62B"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5B4A4149435EEB09"
+			rewards: [{
+				count: 25
+				id: "27B70A28D0216793"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "10C9BB4E41DA98B3"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "1A9F62404E5B5AC3"
+			rewards: [{
+				count: 25
+				id: "00EE39283225A95F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1F0B903EC7C248FF"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "52CAF57A1A86D8B6"
+			rewards: [{
+				count: 25
+				id: "22827B06D8118D76"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "492E1DF0839A11DB"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "62118D63589D0467"
+			rewards: [{
+				count: 25
+				id: "10CC36AD56AC3AF8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "477331434018616C"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "2B982D61E24A2013"
+			rewards: [{
+				count: 25
+				id: "0975DC99DB56BC66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "372144FE850881B4"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "2EA4122B54842CCD"
+			rewards: [{
+				count: 25
+				id: "0388B86CCCDEC9C4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "621DDCD7AA11BDE4"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "5DA0F8BE257DA3FB"
+			rewards: [{
+				count: 25
+				id: "477EE087DBDCA00E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "196F1C831C79C25A"
+				structure: "#minecraft:end_city"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "756B07765493D7D8"
+			rewards: [{
+				count: 10
+				id: "2255592DB4E3B435"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:end_barrens"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "663E3D126F9CC024"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "414DCE3B83DE0F3D"
+			rewards: [{
+				count: 10
+				id: "7B696403441E5D4B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				id: "77E108FEE8F12470"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "77DCCA13CD01FDB2"
+			rewards: [{
+				count: 10
+				id: "556D5C15E77788B6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:end_midlands"
+				id: "6A7FE09BEF2615CC"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "68B49623ED2F7BF3"
+			rewards: [{
+				count: 10
+				id: "5CC63165619A7DC8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:small_end_islands"
+				id: "3D56D09FCF863779"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "3FE70B6CA4C1AA42"
+			rewards: [{
+				count: 25
+				id: "28940041393C7771"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34786560FAC78C6B"
+				structure: "#repurposed_structures:explorer_maps/stronghold_end"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "209AC58E7B7A1FF7"
+			rewards: [{
+				count: 25
+				id: "01F0B570B60F2707"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B8E5080EABCA4A4"
+				structure: "#repurposed_structures:explorer_maps/pyramid_end"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "0CEFFCC1B6210E40"
+			rewards: [{
+				count: 25
+				id: "2BB8E9D98D8C10D7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "539F0B9B5150B8E9"
+				structure: "#repurposed_structures:explorer_maps/end_city"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "1D70E5E07399F536"
+			rewards: [{
+				count: 25
+				id: "650D56FB001B1D3F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C91BA5E16AACB2D"
+				structure: "#repurposed_structures:explorer_maps/ancient_city_end"
+				type: "structure"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "1561BB714812FBEA"
+			rewards: [{
+				count: 50
+				id: "2193858662052DC9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "034DDB4FB654184F"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					id: "3F66D5E458F210FA"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "43006FF696F56DBE"
+			rewards: [{
+				count: 50
+				id: "33F09EA22B96C1DF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				id: "4FA36E7BC8479942"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "3A0CE0FB76BC44F9"
+			rewards: [{
+				id: "65361DB18C117CF2"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "10195D26E652A5C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "5F5D6748B1D16817"
+			rewards: [{
+				count: 3
+				id: "7667F674F20AC9BB"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7E170177B69422D4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "364ECD5481A3E914"
+			tasks: [{
+				id: "14FB0F9F908EA84E"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "6D74E68C7DDFBDB1"
+			tasks: [{
+				id: "4FBA257F4EDA9443"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "22F9F543BE8FAA18"
+			tasks: [{
+				id: "4AFF754EF97C6097"
+				item: { count: 1, id: "cataclysm:void_scatter_arrow" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3F31DBD612D7997D"
+			rewards: [
+				{
+					id: "2C8DF1050C1FFE73"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "710506EDDF4663C4"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					id: "6249B6EC2C20D9E3"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "55456800864F9D56"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "55AB10DD94CA9CD2"
+			rewards: [{
+				count: 50
+				id: "5B54A6B0449E6421"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7519F65ED7296FA5"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53D87C85B08E6DCF"
+			rewards: [
+				{
+					id: "1D1B7F37BA7DAF4C"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:enderman"
+								name: "entity.minecraft.enderman"
+								rarity: "uncommon"
+								type: "minecraft:enderman"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "280BDEC0AE663088"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "67A854469B2A915C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "69E5FC29A7673730"
+				type: "kill"
+				value: 75L
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "22F72D4AF317A759"
+			rewards: [{
+				count: 25
+				id: "15C9786D1E0EC168"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "3FBEDBF1407B685E"
+				type: "kill"
+				value: 25L
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "10F9339AE9A9F7D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65B9495F2BF21423"
+					table_id: 1896954546521804432L
+					type: "choice"
+				}
+				{
+					count: 25
+					id: "568837510F134C16"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "2E22B451EF4274B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "49FFF8FE88B4DACA"
+			rewards: [{
+				id: "56A1BFE7353A7076"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F04E7C9D68377DC"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"796F36F8C626FE90"
+				"2CD9E079DFB40AF3"
+				"3FE70B6CA4C1AA42"
+				"68B49623ED2F7BF3"
+				"3F31DBD612D7997D"
+				"55AB10DD94CA9CD2"
+				"0CEFFCC1B6210E40"
+				"22F72D4AF317A759"
+				"414DCE3B83DE0F3D"
+				"756B07765493D7D8"
+				"4BBB0C669B96BFB3"
+				"5DA0F8BE257DA3FB"
+				"209AC58E7B7A1FF7"
+				"10F9339AE9A9F7D0"
+				"77DCCA13CD01FDB2"
+				"53D87C85B08E6DCF"
+				"1D70E5E07399F536"
+				"49FFF8FE88B4DACA"
+				"7FED8C5B8B3F0DA7"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "401BBE89C90F1DF5"
+			rewards: [
+				{
+					id: "703FEE494E3D99AB"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71FBE58C012F46F2"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "162642077D59EEF8"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "4BBB0C669B96BFB3"
+			rewards: [{
+				count: 10
+				id: "384B8F9D4569EFEC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "420C653D04DA45DB"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3A0CE0FB76BC44F9"
+				"5F5D6748B1D16817"
+				"6D74E68C7DDFBDB1"
+				"1561BB714812FBEA"
+				"43006FF696F56DBE"
+				"364ECD5481A3E914"
+				"22F9F543BE8FAA18"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CD9E079DFB40AF3"
+			rewards: [
+				{
+					count: 3
+					id: "40FC689C05F85CF1"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "613D2E9BE7651B39"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6A43CA3C71837AAE"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+	]
 }

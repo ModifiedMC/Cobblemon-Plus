@@ -86,6 +86,6 @@
 		# Add the name of the mod that items belong to in the item selection GUI.
 		# Note that several common mods also do this (modnametooltip,WTHIT,EMI...) so this is false by default
 		# Default: false
-		item_modname: true
+		item_modname: false
 	}
 }

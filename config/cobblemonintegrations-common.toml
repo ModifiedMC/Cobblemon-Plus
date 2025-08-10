@@ -8,30 +8,7 @@
 		#Any text prefixed with "$" will look for an associated lang entry. Example: "$crouch_message" pulls the lang entry "cobblemonintegrations.jade.pokemon_entity.crouch_message".
 		#Finally, you can configure conditions using "<placeholder>:<conditions>" where conditions are an & separated list of "<hidden/unknown>_<when/unless>_<condition>".
 		#Valid conditions are: unknown, encountered, caught, wild, yours, others, nicknamed
-		pokemonTooltip = """
-%dex_status %nickname:hidden_unless_nicknamed %species:hidden_when_nicknamed&unknown_when_unknown %gender:hidden_when_unknown %level
-#health
-$species_label:hidden_unless_nicknamed %species:hidden_unless_nicknamed&unknown_when_unknown
-%trainer:hidden_when_wild
-%typing:unknown_when_unknown
-%ev_yield:unknown_when_unknown
-{%nature:hidden_unless_caught
-%ability:hidden_unless_caught
-%ivs:hidden_unless_caught
-%evs:hidden_unless_caught&hidden_when_wild
-%battle_message:hidden_unless_wild}!{$crouch_message:hidden_unless_caught
-%battle_message:hidden_unless_wild&hidden_when_caught}
-"""
-
-[jei]
-	#What Pokedex progress level should be required to see Pokemon in JEI?
-	#Note that this will only hide the info specified by "pokemonHideMode".
-	#Allowed Values: NONE, ENCOUNTERED, CAUGHT
-	pokedexHideLevel = "NONE"
-	#What info should be hidden in JEI?
-	#This only takes effect if "pokedexHideLevel" is not "NONE".
-	#Allowed Values: NAME, POKEMON, BOTH
-	pokemonHideMode = "BOTH"
+		pokemonTooltip = "%dex_status %nickname:hidden_unless_nicknamed %species:hidden_when_nicknamed&unknown_when_unknown %gender:hidden_when_unknown %level\r\n#health\r\n$species_label:hidden_unless_nicknamed %species:hidden_unless_nicknamed&unknown_when_unknown\r\n%trainer:hidden_when_wild\r\n%typing:unknown_when_unknown\r\n%ev_yield:unknown_when_unknown\r\n{%nature:hidden_unless_caught\r\n%ability:hidden_unless_caught\r\n%ivs:hidden_unless_caught\r\n%evs:hidden_unless_caught&hidden_when_wild\r\n%battle_message:hidden_unless_wild}!{$crouch_message:hidden_unless_caught\r\n%battle_message:hidden_unless_wild&hidden_when_caught}\r\n"
 
 [enhancedcelestials]
 	#Most Enhanced Celestials configuration for Cobblemon Integrations must be done via Datapack.
@@ -46,3 +23,13 @@ $species_label:hidden_unless_nicknamed %species:hidden_unless_nicknamed&unknown_
 	waystonesMinLevel = 0
 	#Does the Pokemon need to have Teleport accessible? When disabled, any psychic type can teleport.
 	requireTeleportMove = true
+
+[jei]
+	#What Pokedex progress level should be required to see Pokemon in JEI?
+	#Note that this will only hide the info specified by "pokemonHideMode".
+	#Allowed Values: NONE, ENCOUNTERED, CAUGHT
+	pokedexHideLevel = "NONE"
+	#What info should be hidden in JEI?
+	#This only takes effect if "pokedexHideLevel" is not "NONE".
+	#Allowed Values: NAME, POKEMON, BOTH
+	pokemonHideMode = "BOTH"

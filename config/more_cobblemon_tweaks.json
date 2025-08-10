@@ -1,12 +1,61 @@
 {
   "pc_wallpapers": {
-    "cobblemon.mcserv.fun": {
-      "0": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/yellow_wallpaper.png"
+    "New World (3)": {
+      "0": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "1": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "2": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "3": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "4": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "5": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "6": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "7": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "8": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "9": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "10": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "11": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "12": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "13": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "14": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "15": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "16": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "17": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "18": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "19": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "20": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "21": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "22": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "23": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "24": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "25": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "26": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "27": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "28": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "29": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "30": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "31": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "32": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "33": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "34": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "35": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "36": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "37": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "38": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "39": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "40": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "41": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "42": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "43": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "44": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "45": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "46": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "47": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "48": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png",
+      "49": "more_cobblemon_tweaks:textures/gui/pc/wallpapers/purple_wallpaper.png"
     }
   },
   "pc_box_names": {
-    "cobblemon.mcserv.fun": {
-      "0": "Shinies!"
+    "New World (3)": {
+      "5": "pp"
     }
   }
 }

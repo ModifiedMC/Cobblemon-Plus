@@ -1,0 +1,30 @@
+{
+	id: "403FBC5DB76BD0C4"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{ id: "03FCDAA9A5279F9C", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_pikachu_helmet" } }
+		{ id: "78AA03F898C5978E", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_pikachu_shiny_helmet" } }
+		{ id: "60B928303411553B", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_gengar_helmet" } }
+		{ id: "4C653E9F1ECA6C42", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_gengar_shiny_helmet" } }
+		{ id: "2A31BB4C552FD8D0", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_greninja_helmet" } }
+		{ id: "3438E43203C48288", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_greninja_shiny_helmet" } }
+		{ id: "564B7A18BD93EA32", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_magikarp_helmet" } }
+		{ id: "5574A8A327E508B4", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_magikarp_shiny_helmet" } }
+		{ id: "1477F26EC8D87E33", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_wooper_helmet" } }
+		{ id: "1728F1772C8CD528", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_wooper_shiny_helmet" } }
+		{ id: "5CC6529B274EC1FF", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_wooper_paldean_shiny_helmet" } }
+		{ id: "13FCE4E5473BDD02", item: { count: 1, id: "weavers_cosmetics_cosplay:pokemaniac_wooper_paldean_shiny_helmet" } }
+		{ id: "520E02AFB6521CEA", item: { count: 1, id: "pkgbadges:eevee_hat" } }
+		{ id: "5EA587240F296139", item: { count: 1, id: "pkgbadges:pikachu_hat" } }
+		{ id: "36253D3F221B7C75", item: { count: 1, id: "pkgbadges:squirtle_hat" } }
+		{ id: "729C9004592A78AE", item: { count: 1, id: "pkgbadges:charmander_hat" } }
+		{ id: "4B3143A8710B0DF5", item: { count: 1, id: "pkgbadges:bulbasaur_hat" } }
+		{ id: "62F6B058C7D1C510", item: { count: 1, id: "pkgbadges:snorlax_hat" } }
+		{ id: "5E6CDB02DDE412AB", item: { count: 1, id: "pkgbadges:ninetales_hat" } }
+		{ id: "466B7F64DE56EC75", item: { count: 1, id: "pkgbadges:ninetales_shiny_hat" } }
+		{ id: "3A2F57D9D1EAC5E8", item: { count: 1, id: "pkgbadges:alola_ninetales_hat" } }
+		{ id: "7A1FB1C759598535", item: { count: 1, id: "pkgbadges:alola_ninetales_shiny_hat" } }
+		{ id: "727A9A5EB3944C13", item: { count: 1, id: "pkgbadges:ash_ketchum_i_choose_you_league_hat" } }
+	]
+}

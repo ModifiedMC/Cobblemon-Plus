@@ -102,23 +102,7 @@ echo -e "=====\n\n"
 rm -rf "$BASE_DIR/build/*.zip" "$BASE_DIR/build/client" "$BASE_DIR/build/server" "$BASE_DIR/build/work" "$BASE_DIR/*.zip"
 mkdir -p "$BASE_DIR/download/packwiz"
 
-# verifiy Complementary + Euphoria shaders
-shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
-if [[ "$shaderpack_count" != 2 ]] && [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ ! -z "${SHADER_REIMAGINED_URL+x}" ]]; then
-    echo "Complementary + Euphoria shaders missing, downloading from provided URLs"
 
-    filename="$(urldecode "$(basename "$SHADER_UNBOUND_URL")")"
-    curl -sL "$SHADER_UNBOUND_URL" -o "$BASE_DIR/shaderpacks/$filename"
-
-    filename="$(urldecode "$(basename "$SHADER_REIMAGINED_URL")")"
-    curl -sL "$SHADER_REIMAGINED_URL" -o "$BASE_DIR/shaderpacks/$filename"
-fi
-
-shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
-if [[ "$shaderpack_count" != 2 ]]; then
-    echo "Complementary + Euphoria shaders missing, cannot build client"
-    exit 1
-fi
 
 zip_file="$NAME-$VERSION.zip"
 server_zip_file="$NAME-$VERSION-server.zip"

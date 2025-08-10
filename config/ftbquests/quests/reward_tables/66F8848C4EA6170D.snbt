@@ -1,0 +1,11 @@
+{
+	id: "66F8848C4EA6170D"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{ id: "3DD0FE4274F5E57E", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "temperate" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "temperate" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "02D1302872F41F2A", item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "169D0D3BB1516881", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "cold" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "cold" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "4B1E5324DE12B343", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "warm" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "warm" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+	]
+}

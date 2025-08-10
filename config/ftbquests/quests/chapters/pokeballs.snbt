@@ -99,8 +99,17 @@
 			x: 5.0d
 			y: -11.0d
 		}
+		{
+			height: 4.0d
+			image: "modified:textures/ftbquests/trainers/collector.png"
+			order: 4
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: -10.0d
+		}
 	]
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -166,16 +175,15 @@
 		{
 			id: "260E17F008F355C3"
 			rewards: [{
-				id: "2DD00CFF412FB605"
+				id: "72C28978D4643385"
 				item: {
 					count: 1
-					id: "cobblemon:master_ball"
+					id: "cobblemon:ancient_origin_ball"
 				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			tasks: [{
-				consume_items: true
 				id: "75B5C6D86F2269F7"
 				item: { count: 1, id: "cobblemon:master_ball" }
 				type: "item"
@@ -774,7 +782,7 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"ftbquests:icon": "modified:textures/ftbquests/trainers/collector.png"
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -810,28 +818,11 @@
 					type: "item"
 				}
 				{
-					id: "787DDDB2D079FA5D"
-					item: {
-						count: 1
-						id: "cobblemon:ancient_origin_ball"
-					}
-					type: "item"
-				}
-				{
 					count: 5
 					id: "4A8015202CD98FE4"
 					item: {
 						count: 1
 						id: "cobblemon:relic_coin_pouch"
-					}
-					type: "item"
-				}
-				{
-					count: 99
-					id: "271D10850509D5E4"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
 					}
 					type: "item"
 				}
@@ -844,13 +835,29 @@
 					}
 					type: "item"
 				}
+				{
+					count: 3
+					id: "70BEEBDD4627EF9B"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F42DBCF7DAAAAF"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
 			]
 			shape: "octagon"
+			size: 2.0d
 			tasks: [{
 				id: "6E50A10CF724B7F1"
 				type: "checkmark"
 			}]
-			x: 6.5d
+			x: 9.0d
 			y: -11.0d
 		}
 		{

@@ -1,0 +1,14 @@
+#Max search depth for EvolutionStageCondition finding Pre-Evolutions of species.
+#Prevents crashes from recursive Pre-Evolutions.
+#Why? why anyone would do that is beyond me, but it exists somewhere.
+#If this activates, the Species will be considered Unevolving
+# Default: 10
+# Range: > 0
+maxPreEvoSearchDepth = 10
+#Max search depth for EvolutionStageCondition finding Evolutions of species.
+#Prevents crashes from recursive Evolutions.
+#Why? Some addons implement Form Changes for species such as Deoxys, as Evolutions into an alternate Form.
+#If this activates, the Species will be considered Unevolving
+# Default: 10
+# Range: > 0
+maxEvoSearchDepth = 10

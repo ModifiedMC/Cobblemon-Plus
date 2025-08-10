@@ -3,8 +3,7776 @@
 	default_quest_shape: ""
 	filename: "mob_hunter"
 	group: "24CDF24BE292524D"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:item/easy_mob_farm/mob_capture_card/creeper"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "48AD9200F46301BE"
 	order_index: 0
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0F4B9A183DFFC32C"
+			linked_quest: "53D87C85B08E6DCF"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "083F33A26F4BBD70"
+			linked_quest: "2B887500AD4F2881"
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			id: "4826D8A63C4D0C76"
+			linked_quest: "22F72D4AF317A759"
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			id: "384438739AE68A21"
+			linked_quest: "10F9339AE9A9F7D0"
+			x: 24.5d
+			y: 3.5d
+		}
+		{
+			id: "63F476F7E12FBFD2"
+			linked_quest: "3F31DBD612D7997D"
+			x: 24.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/zombie.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "527E2F52B8F8251F"
+			rewards: [
+				{
+					id: "3FF079DDB4676F15"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie"
+								name: "entity.minecraft.zombie"
+								type: "minecraft:zombie"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197B783B75554BBC"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "1C6EF7D602E98D2C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "69758013AA701DD9"
+				type: "kill"
+				value: 75L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "486AB38C1B2E35C5"
+			rewards: [{
+				count: 10
+				id: "1CE8F1B523DAE6C9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B3BC28BA9DA5ED6"
+				item: { count: 1, id: "easy_mob_farm:small_slot_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "19844C3FBEFEC9C4"
+			rewards: [{
+				count: 10
+				id: "1C40B2C8DC8874E7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC559ADCD5CBE80"
+				item: { count: 1, id: "easy_mob_farm:big_slot_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2145B45F4A3B65A9"
+			rewards: [
+				{
+					id: "06C71B555F2545DD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:skeleton"
+								name: "entity.minecraft.skeleton"
+								type: "minecraft:skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4AFC31CE13EDA3"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "61C2668890AD2210"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "7CE9871EBB8C7420"
+				type: "kill"
+				value: 75L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "29F08152716ABD39"
+			rewards: [
+				{
+					id: "3AEEB842BBEEBE17"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:spider"
+								name: "entity.minecraft.spider"
+								type: "minecraft:spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BE0C2660F254552"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "57A839953AA5D39C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "35749105370BF1A6"
+				type: "kill"
+				value: 75L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/cave_spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6EF4D6704051AFA4"
+			rewards: [
+				{
+					id: "5D8E3355D573CA31"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cave_spider"
+								name: "entity.minecraft.cave_spider"
+								rarity: "uncommon"
+								type: "minecraft:cave_spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F83348EBC984BEB"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "1AC9DD8C267384D6"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					id: "minecraft:lingering_potion"
+				}
+				id: "35EE87C5B4AE2032"
+				type: "kill"
+				value: 75L
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/chicken.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1AF04238A203D912"
+			rewards: [
+				{
+					id: "2A81C259C5531046"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:chicken"
+								name: "entity.minecraft.chicken"
+								type: "minecraft:chicken"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EC5213932898C9C"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "34DF0E899F4BCBD9"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "0102CE533926EA01"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/cow/cow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05676B7AD8496F93"
+			rewards: [
+				{
+					id: "624E256966971F91"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cow"
+								name: "entity.minecraft.cow"
+								type: "minecraft:cow"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30FFA3FE9B071BF9"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "3DE007E984A9A6AB"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "4FEF25711B81B789"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/entity_icon/variants/pig3.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "07D80BDA1D117D36"
+			rewards: [
+				{
+					id: "24622BACD8B34B4A"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:pig"
+								name: "entity.minecraft.pig"
+								type: "minecraft:pig"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75715BEAC1802AA0"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "21856EFD4C2E5411"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "39C0EBEBFCFDCD39"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/sheep/sheep.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2037D21055C8F5A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B671AF2F1B8AB5C"
+					table_id: 6498509267964054115L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E66B95BE68E118B"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "079C175DD8DF0D88"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "145B2885A5A08A7E"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/rabbit/salt.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "090803586F8210F7"
+			rewards: [
+				{
+					id: "779F52615160C97F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:rabbit"
+								name: "entity.minecraft.rabbit"
+								type: "minecraft:rabbit"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "414724AB962542AC"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "7773CCFFD625CB24"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "0C050649AAB41B31"
+				type: "kill"
+				value: 25L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "063B9BDFDD0C371C"
+			rewards: [{
+				id: "6E4D2CC290558AB8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "05C71E0F7D1D47E7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(easy_mob_farm:mob_farm_templates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5F3D581E05C8287A"
+			rewards: [{
+				count: 10
+				id: "2F0B0FD07C76DA7B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B9B0C47238E644C"
+				item: { count: 1, id: "easy_mob_farm:experience_enhancement" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "690F34287EE908CD"
+			rewards: [{
+				count: 10
+				id: "5DBC48F2A4B90EF4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62DD997F447C0F83"
+				item: { count: 1, id: "easy_mob_farm:loot_enhancement" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "2A82AE1AAA76591E"
+			rewards: [{
+				count: 10
+				id: "7859FD07740F5C65"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "514B16B8AB329585"
+				item: { count: 1, id: "easy_mob_farm:luck_enhancement" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "516870379ED03D47"
+			rewards: [{
+				count: 10
+				id: "20CDFB9A0461A116"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A75F419ECE0BDF4"
+				item: { count: 1, id: "easy_mob_farm:sheep_enhancement" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "6693E701FBAECDE3"
+			rewards: [{
+				count: 10
+				id: "42FEB511C743E84D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4144F858E13E1572"
+				item: { count: 1, id: "easy_mob_farm:sword_enhancement" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "5785007D50FFA53C"
+			rewards: [{
+				count: 10
+				id: "4CE4030ADB7B40E4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AFA79BB21515984"
+				item: { count: 1, id: "easy_mob_farm:speed_enhancement" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/squid.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "590EC510824632E0"
+			rewards: [
+				{
+					id: "397136C24292D5DF"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:squid"
+								name: "entity.minecraft.squid"
+								type: "minecraft:squid"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E55B9B26B02C8A2"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "4CFCB8003D4ED13B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:squid"
+				id: "368B2671D42DCF88"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/fish/cod.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "60F923FF5B88227E"
+			rewards: [
+				{
+					id: "50909F65E6E7B00E"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cod"
+								name: "entity.minecraft.cod"
+								type: "minecraft:cod"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB47C944A6A19A4"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "2BCEB47110159E3E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cod"
+				id: "23D13995247D258D"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/frog/temperate_frog.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D0429C8E3FE1873"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E7AD1363B589DD6"
+					table_id: 7419826124242687757L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65BAF800D4537646"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "3B2591B67A11D4B3"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:frog"
+				id: "4B9B5E40F364541E"
+				type: "kill"
+				value: 25L
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "31FB96B3A65D259C"
+			rewards: [
+				{
+					id: "3A4CD7B2CEDF92E6"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie"
+								name: "entity.minecraft.zombie"
+								type: "minecraft:zombie"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CDBB2E5AAC7F015"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "00063C1C5C1DA4AB"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "5E145D94BDDEF9E3"
+				type: "kill"
+				value: 150L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "697FD3947BB964E3"
+			rewards: [
+				{
+					id: "799A33BF2231CFB7"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie"
+								name: "entity.minecraft.zombie"
+								type: "minecraft:zombie"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DA3F677AD81C11C"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "38CA9013C1DF4772"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "466C0A07D0019449"
+				type: "kill"
+				value: 300L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "1FBF40D3925308F5"
+			rewards: [
+				{
+					id: "56C7E21EF0A2DF4D"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie"
+								name: "entity.minecraft.zombie"
+								type: "minecraft:zombie"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B10B46D1069335E"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "274BACB9E725C0B8"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13B5222B2717A59A"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "3163730C67ABD113"
+				type: "kill"
+				value: 500L
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "39D44C03964DF8DD"
+			rewards: [
+				{
+					id: "437ACE2C728C3190"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie"
+								name: "entity.minecraft.zombie"
+								type: "minecraft:zombie"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "614B80A430AB0814"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "7B899F44A39859A1"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "4282C8AD244B76E2"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "458D15A40F024C44"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09544121E718F860"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "6CA29A342B3C8B99"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "602FFD23F8DA0B56"
+				type: "kill"
+				value: 150L
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "46E291F821C4D3A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58BF107599076A27"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "188FC71CFDE7ED3D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "7DFFBE3E7380DEB0"
+				type: "kill"
+				value: 300L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "70C859876B493BBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08DA6A42662B70B6"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "351509BFBE9ABC5A"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2539045CC4750AC1"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "07EC6CF4DAECA946"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "5669DA4C15487856"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "643B1AE1B3C01F88"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "4A1366259E1E7D64"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "124732C17BADE6DF"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0BD0234579A433AC"
+			rewards: [
+				{
+					id: "5C16E4018A32648F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:enderman"
+								name: "entity.minecraft.enderman"
+								rarity: "uncommon"
+								type: "minecraft:enderman"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0460145F0635F7B3"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "36A8EEE288CE3117"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1CE371C076E8F1B4"
+				type: "kill"
+				value: 150L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "47D2FE3FE30C9CA5"
+			rewards: [
+				{
+					id: "639866FDF6D76956"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:enderman"
+								name: "entity.minecraft.enderman"
+								rarity: "uncommon"
+								type: "minecraft:enderman"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B131B44C28FDCE7"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "46C9B3C46A20F6C9"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "489E104D3ED06720"
+				type: "kill"
+				value: 300L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C73252D65979F28"
+			rewards: [
+				{
+					id: "691A8FC941E392EB"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:enderman"
+								name: "entity.minecraft.enderman"
+								rarity: "uncommon"
+								type: "minecraft:enderman"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AD26291EC6EB162"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "376F28CA98547DB4"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F2E256FAA6165D5"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4B4919678A723279"
+				type: "kill"
+				value: 500L
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderman/enderman.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "21673AAA3EBF2703"
+			rewards: [
+				{
+					id: "5739305313ACDC08"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:enderman"
+								name: "entity.minecraft.enderman"
+								rarity: "uncommon"
+								type: "minecraft:enderman"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BF4FB371F60A2AF"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "2BACE1B1C82A34B8"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "22B0FD06EF16845A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "067A85869BB35062"
+			rewards: [
+				{
+					id: "38C1CA1DCD403565"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:husk"
+								name: "entity.minecraft.husk"
+								rarity: "uncommon"
+								type: "minecraft:husk"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F921D3B4D96D9C8"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "687F073260F9286C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "1F242848FBA5FC7C"
+				type: "kill"
+				value: 50L
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D1C5D8ED88ACB3F"
+			rewards: [
+				{
+					id: "42930010C5CA1CAC"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:guardian"
+								name: "entity.minecraft.guardian"
+								rarity: "rare"
+								type: "minecraft:guardian"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CA00AF7147690D3"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "04184CAB6A1E4DA1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "76EF9416B9A8C9B3"
+				type: "kill"
+				value: 25L
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "55859AFF2C1A339F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E5868BD1D7699E0"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "0B4C7B841EE88ACC"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "04049B4EF6370DAB"
+				type: "kill"
+				value: 25L
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/blaze.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6994DD112717AD07"
+			rewards: [
+				{
+					id: "263DF3453B1A3ABC"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:blaze"
+								name: "entity.minecraft.blaze"
+								rarity: "rare"
+								type: "minecraft:blaze"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54DCAACFB25B551F"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "2A05657022B1CD7E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3FB24AEBD19DB18C"
+				type: "kill"
+				value: 75L
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "56A6583D766F632C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2786EACB8F6D5C3C"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "393664F5300A0C5A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "609AE6F3E403F465"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A2CC3C6C39CDC51"
+			rewards: [
+				{
+					id: "257DFD65652C94F6"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither_skeleton"
+								name: "entity.minecraft.wither_skeleton"
+								rarity: "epic"
+								type: "minecraft:wither_skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1108B87D30F65692"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "611B3C61A4AF7E43"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "067BCF0C18AA32F1"
+				type: "kill"
+				value: 25L
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			id: "07B32D6EF1B0FC66"
+			rewards: [
+				{
+					id: "07B07133FF1E6CE2"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:pillager"
+								name: "entity.minecraft.pillager"
+								type: "minecraft:pillager"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "074FDFB702BC5954"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "0729A085E10EEC96"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/illager/pillager.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "153E65136B79FCC6"
+				type: "kill"
+				value: 250L
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4CF140F727B4F27C"
+			rewards: [
+				{
+					id: "33394B7FCC2F28C9"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:evoker"
+								name: "entity.minecraft.evoker"
+								rarity: "uncommon"
+								type: "minecraft:evoker"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "625250B5B94C1784"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "72160CA87B660BD7"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/illager/evoker.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "01486EB9CDB119CC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			id: "2315C5006A07EA6A"
+			rewards: [
+				{
+					id: "7BB41086C4933612"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:villager"
+								name: "entity.minecraft.villager"
+								type: "minecraft:villager"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E87BABB6DF347CA"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "1DB4756DAB194E1D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:villager"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/villager/mason.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0ACCA2A94B867C67"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "68D65BB1750378A5"
+			rewards: [
+				{
+					id: "7A54725662436DEE"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombie_villager"
+								name: "entity.minecraft.zombie_villager"
+								type: "minecraft:zombie_villager"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "436D0A102C2B551A"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "6B274820AA9ACECE"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/zombie/zombie_villager.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1B34DC39B22B288E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/bee/bee.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3D2A850DE184C04D"
+			rewards: [
+				{
+					id: "553C57AC71D6C1A4"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:bee"
+								name: "entity.minecraft.bee"
+								type: "minecraft:bee"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AEA875C985CEB6C"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "4D8804D48DD36567"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "3E2AFF33F07F16CF"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/squid/glow_squid.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DA973F557DAEDE3"
+			rewards: [
+				{
+					id: "100F5F05F7E3E6FD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:glow_squid"
+								name: "entity.minecraft.glow_squid"
+								type: "minecraft:glow_squid"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "773E57418E946696"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "0C4D4A03D6125E8A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "49FE4D9C5D98592F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5554074D91EB4363"
+			rewards: [
+				{
+					id: "567DCBD8110272BA"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin"
+								name: "entity.minecraft.piglin"
+								type: "minecraft:piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76EC4126AE20E10F"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "465FC942F9D22185"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "767C0BEAA416BFE1"
+				type: "kill"
+				value: 75L
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/zombified_piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05260119EE93D0E4"
+			rewards: [
+				{
+					id: "6A4BC59394B5898F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:zombified_piglin"
+								name: "entity.minecraft.zombified_piglin"
+								rarity: "uncommon"
+								type: "minecraft:zombified_piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "11A49703F4CC1D7A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "2027FA4D9F96B3B6"
+				type: "kill"
+				value: 200L
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "24BA4C0D91E3C61A"
+			rewards: [
+				{
+					id: "150427C252DE1847"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin_brute"
+								name: "entity.minecraft.piglin_brute"
+								rarity: "epic"
+								type: "minecraft:piglin_brute"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C63F8A68680520F"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "6A6B2D282254189A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "0F09A53196C655B0"
+				type: "kill"
+				value: 75L
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/iron_golem.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13DDB00CB77406AA"
+			rewards: [
+				{
+					id: "3A376B93FEBFA989"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:iron_golem"
+								name: "entity.minecraft.iron_golem"
+								type: "minecraft:iron_golem"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "666747D24515DF88"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "0D6ADD5C68E26C3E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "14F5C937D2FFD492"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/turtle/big_sea_turtle.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11B523BC69C571A0"
+			rewards: [
+				{
+					id: "6949EC56399AA20E"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:turtle"
+								name: "entity.minecraft.turtle"
+								type: "minecraft:turtle"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37BDEAF6647B7BF0"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "249C8BB79C60CCB6"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:turtle"
+				id: "216119A1874FF6D8"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/ghast/ghast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B59C66525E4BE48"
+			rewards: [
+				{
+					id: "54A65D8BE9E3B039"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ghast"
+								name: "entity.minecraft.ghast"
+								rarity: "rare"
+								type: "minecraft:ghast"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D4BD6F95B53E904"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "2C44DA80C29C337E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "5914A020E7DE434C"
+				type: "kill"
+				value: 75L
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/drowned.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "00ACA93EEAAF0048"
+			rewards: [
+				{
+					id: "5D79CE5C8F6A2E4F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:drowned"
+								name: "entity.minecraft.drowned"
+								type: "minecraft:drowned"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "226769A3E70D75EC"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "6989FAC439926E02"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "293FECE33AC00DD1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A43F711E6FC5082"
+			rewards: [
+				{
+					id: "284B2B5E8C1BB1D4"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:stray"
+								name: "entity.minecraft.stray"
+								rarity: "uncommon"
+								type: "minecraft:stray"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB0A1E51F8234CE"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "2E862483428B8061"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "2F7C1744EC07D493"
+				type: "kill"
+				value: 50L
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "34EDA21D7E39682F"
+			rewards: [
+				{
+					id: "24494A72F6A21D3A"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:creeper"
+								name: "entity.minecraft.creeper"
+								type: "minecraft:creeper"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3420A9F349DDD816"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "51B1C2CCF5BEA99E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "0A8B124D0C09B82E"
+				type: "kill"
+				value: 75L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/cow/mooshroom.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "46560A4F70743697"
+			rewards: [
+				{
+					id: "37DCCABA3937FE49"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cow"
+								name: "entity.minecraft.cow"
+								type: "minecraft:cow"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F30BCCC3F43612"
+					table_id: 8248675418659322762L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73BE237C1577B21D"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "176FD5BF9C1152FD"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:mooshroom"
+				id: "6A64FF80889EA1B2"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/panda/panda.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7CF16C6B0144BF41"
+			rewards: [
+				{
+					id: "4BDF7352AA896AA7"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:panda"
+								name: "entity.minecraft.panda"
+								rarity: "uncommon"
+								type: "minecraft:panda"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E73A2EB5A2C8D3"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "46F8C18B70DCB337"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:panda"
+				id: "4545DFF4F588D60C"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/slime.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "016F08900A6444C6"
+			rewards: [
+				{
+					id: "69BC68456EF197FE"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:slime"
+								name: "entity.minecraft.slime"
+								rarity: "uncommon"
+								type: "minecraft:slime"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EFDD693714F3BFB"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "4954E9D2620B30F2"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "236ABAA65D28DAED"
+				type: "kill"
+				value: 75L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "6E50AAA3CF4A1B06"
+			rewards: [{
+				count: 10
+				id: "6F4939F170AC8C69"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F83194CAC53D16E"
+					item: { count: 1, id: "easy_mob_farm:frog_catalyst_cold_enhancement" }
+					type: "item"
+				}
+				{
+					id: "4A0A6BCFA4D8B701"
+					item: { count: 1, id: "easy_mob_farm:frog_catalyst_temperate_enhancement" }
+					type: "item"
+				}
+				{
+					id: "215407BAD41E8C8D"
+					item: { count: 1, id: "easy_mob_farm:frog_catalyst_warm_enhancement" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "3AFE370F36627EA3"
+			rewards: [{
+				count: 10
+				id: "5D00406249D6D470"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D62EC2D79CA798"
+				item: { count: 1, id: "easy_mob_farm:no_meat_filter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			id: "3555203F2CDF2822"
+			rewards: [{
+				count: 10
+				id: "3D08F93E72DC4DF5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CDEF6B9B5D9C3A6"
+				item: { count: 1, id: "easy_mob_farm:egg_collector_enhancement" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "3E9792A031BE9999"
+			rewards: [{
+				count: 10
+				id: "111970AC0F9245FE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CB987DCAFEDE464"
+				item: { count: 1, id: "easy_mob_farm:no_flowers_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "7AB56B7D3C6A087E"
+			rewards: [{
+				count: 10
+				id: "2F21DE9F68D3023A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33838361D70C2179"
+				item: { count: 1, id: "easy_mob_farm:honey_extractor_enhancement" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "5D41695E035E96BC"
+			rewards: [{
+				count: 10
+				id: "69D14BAEB841983A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "507C582E6F8FA653"
+				item: { count: 1, id: "easy_mob_farm:honey_harvester_frame_enhancement" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "206E2A5DE2B3FC4C"
+			rewards: [{
+				id: "1157996C05A966F9"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6619D243EB0E80CB"
+				item: { count: 1, id: "easy_mob_farm:void_binding_chain" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "5FA60E4DDD53CD11"
+			rewards: [{
+				count: 25
+				id: "1257D3863FC625DF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65528EEE7E98A531"
+				item: { count: 1, id: "easy_mob_farm:mystic_binding_crystal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "5B2A27E94FE0D16A"
+			rewards: [{
+				count: 10
+				id: "06834D52A2830DDF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E38A02A391612D9"
+				item: { count: 1, id: "easy_mob_farm:ironbound_containment_cage" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "757952855E8012D9"
+			rewards: [{
+				count: 5
+				id: "216452870A0CEF1A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55A135473AC7AEBB"
+				item: { count: 1, id: "easy_mob_farm:enduring_capture_net" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "65B66C440ADDB821"
+			rewards: [{
+				count: 10
+				id: "517959C3CEB7BA51"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37BF8251FB663DD6"
+				item: { count: 1, id: "easy_mob_farm:milk_extractor_enhancement" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/magmacube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "549789011C1EFE68"
+			rewards: [
+				{
+					id: "2528996A765C9769"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:magma_cube"
+								name: "entity.minecraft.magma_cube"
+								rarity: "rare"
+								type: "minecraft:magma_cube"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B960558DAACE52"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "128792D52465096A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "56F5FCC073C4A7AF"
+				type: "kill"
+				value: 75L
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/illager/ravager.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7434CC8923AF0576"
+			rewards: [
+				{
+					id: "2082D6CAF6265DF0"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ravager"
+								name: "entity.minecraft.ravager"
+								rarity: "rare"
+								type: "minecraft:ravager"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "546A27789E957696"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "4B2D1E4D96F6160C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "1862FFF9A2463380"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/hoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6990181B3120728A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "633E3A24F267DCB6"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "0369A47D5F6EE949"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "2551E5A9A0AB29CE"
+				type: "kill"
+				value: 25L
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/zoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1269EBFF3CB83AEF"
+			rewards: [{
+				count: 50
+				id: "641FB202557040F5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zoglin"
+				id: "77D5F04669225E56"
+				type: "kill"
+				value: 100L
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			id: "148EE2D203381CD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "556CBFBB359CC821"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5F13CE165B32ECF7"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "goblintraders:goblin_trader"
+				id: "439211B26AFB26C4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			id: "79048CF2FB0F3B93"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C62B55359B25AE2"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "728B1B50596A480A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "goblintraders:vein_goblin_trader"
+				id: "158A01D7248B1B4E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2E899C21344850C4"
+			rewards: [
+				{
+					id: "70D181A72EAAA85F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:spider"
+								name: "entity.minecraft.spider"
+								type: "minecraft:spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0723FCE56610B759"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "561C4AACECC756FD"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "46808E9A52D4CC68"
+				type: "kill"
+				value: 150L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A1738C4689691C3"
+			rewards: [
+				{
+					id: "20895DD679781D1E"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:spider"
+								name: "entity.minecraft.spider"
+								type: "minecraft:spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "025812B9DBD28E39"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "2FB246E3ED913764"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "0382C202A8BB791B"
+				type: "kill"
+				value: 300L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "247FA58EDAFE483F"
+			rewards: [
+				{
+					id: "00B8D24027EC4431"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:spider"
+								name: "entity.minecraft.spider"
+								type: "minecraft:spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E4F3E9E26D7AA57"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "44DF45B3AA4CC063"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68756CEA12B92115"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "6647FEE7E6079F3F"
+				type: "kill"
+				value: 500L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1F4BFB1DA93E9015"
+			rewards: [
+				{
+					id: "4A6762F854D6B222"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:spider"
+								name: "entity.minecraft.spider"
+								type: "minecraft:spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0324B68C0B4B717F"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "34FCFE81404E05B1"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_eye"
+				}
+				id: "030847400F30C24D"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6D293F0BC04D5F22"
+			rewards: [
+				{
+					id: "2BE7B1316D1A7934"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:creeper"
+								name: "entity.minecraft.creeper"
+								type: "minecraft:creeper"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2667FDD8F3BD0B4F"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "3E66FA2904FA67D1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "36F180552273CB0F"
+				type: "kill"
+				value: 150L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "31C837D26D645D1B"
+			rewards: [
+				{
+					id: "615F61B905FEFE04"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:creeper"
+								name: "entity.minecraft.creeper"
+								type: "minecraft:creeper"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C43E42EA5CCECD9"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "219561C0051E2406"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "0697E0FD4F68D5CB"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6805E43057D2EF47"
+			rewards: [
+				{
+					id: "171FE6BDAB4FF115"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:creeper"
+								name: "entity.minecraft.creeper"
+								type: "minecraft:creeper"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F6CF3B988528BEC"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "03745DA2B4A2AEB1"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "241A4123C7EDFB34"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "17C0ABFDED3C5D89"
+				type: "kill"
+				value: 500L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "457D2AD61C5AA7D8"
+			rewards: [
+				{
+					id: "6DE9319A720F471F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:creeper"
+								name: "entity.minecraft.creeper"
+								type: "minecraft:creeper"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54F045509472E5BF"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "47A732A5F6B2CFAA"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "64AB6252583965F5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/slime.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3FFCC058A236E86F"
+			rewards: [
+				{
+					id: "2A25880A6947C554"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:slime"
+								name: "entity.minecraft.slime"
+								rarity: "uncommon"
+								type: "minecraft:slime"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB8424772DE169E"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5BAF266771C63663"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4B982CA2F2FED1FF"
+				type: "kill"
+				value: 150L
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/slime.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0B776292562B2CBF"
+			rewards: [
+				{
+					id: "6E6B3151C5EAAA7F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:slime"
+								name: "entity.minecraft.slime"
+								rarity: "uncommon"
+								type: "minecraft:slime"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3147145277F4E00C"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "35BE16ED91B6FF36"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "21B35A6C601493C8"
+				type: "kill"
+				value: 300L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/slime.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "68C7E70AAC30FEEC"
+			rewards: [
+				{
+					id: "10DB5272932205BA"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:slime"
+								name: "entity.minecraft.slime"
+								rarity: "uncommon"
+								type: "minecraft:slime"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "315CB5B72B752497"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "50EF9C47D79C8DD7"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "016D0CC5507BCB99"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "7F453F5D0CC1B668"
+				type: "kill"
+				value: 500L
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/slime.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5EA755F1BCA32D65"
+			rewards: [
+				{
+					id: "7006549DEE77BB56"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:slime"
+								name: "entity.minecraft.slime"
+								rarity: "uncommon"
+								type: "minecraft:slime"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EE2E50EECE1BD1C"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "4D27EA631590D14E"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4E64E5D0ACB82837"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/cave_spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "055F52B0C223D18D"
+			rewards: [
+				{
+					id: "0B907583B3A95524"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cave_spider"
+								name: "entity.minecraft.cave_spider"
+								rarity: "uncommon"
+								type: "minecraft:cave_spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44056FBBD65CA53A"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "29193119D9D2DFD5"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					id: "minecraft:lingering_potion"
+				}
+				id: "4E2B580277919549"
+				type: "kill"
+				value: 150L
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/cave_spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0F5CB97FFB14D744"
+			rewards: [
+				{
+					id: "0799371E941D164C"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cave_spider"
+								name: "entity.minecraft.cave_spider"
+								rarity: "uncommon"
+								type: "minecraft:cave_spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23BB77C01CB5D1D7"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "63AC9C5C48B6DBA9"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					id: "minecraft:lingering_potion"
+				}
+				id: "4F04203BA77D85CC"
+				type: "kill"
+				value: 300L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/cave_spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "211F72C041058507"
+			rewards: [
+				{
+					id: "45B266F8AF5ABFD3"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cave_spider"
+								name: "entity.minecraft.cave_spider"
+								rarity: "uncommon"
+								type: "minecraft:cave_spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4295B45EF7C757BB"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2D4758136B4D95CA"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ADD0D8C1DACA275"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					id: "minecraft:lingering_potion"
+				}
+				id: "64EEF2A50932D693"
+				type: "kill"
+				value: 500L
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/spider/cave_spider.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "39851CA09809BA46"
+			rewards: [
+				{
+					id: "7FDC502833F0D3B4"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:cave_spider"
+								name: "entity.minecraft.cave_spider"
+								rarity: "uncommon"
+								type: "minecraft:cave_spider"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "793B2B63635FA423"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "22F83022CDB9B71C"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					id: "minecraft:lingering_potion"
+				}
+				id: "38FF8686C6C870DA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "515E0F054CEB80C7"
+			rewards: [
+				{
+					id: "3FABAB8210B9E0C6"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:husk"
+								name: "entity.minecraft.husk"
+								rarity: "uncommon"
+								type: "minecraft:husk"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3403E2DA345BB40D"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "4CE1364F97F8FD0E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "042C83B4BAE2406E"
+				type: "kill"
+				value: 150L
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "63EE0C5B6301AE83"
+			rewards: [
+				{
+					id: "09C5282105760497"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:husk"
+								name: "entity.minecraft.husk"
+								rarity: "uncommon"
+								type: "minecraft:husk"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4289BF165B3C7BC2"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "7BD848EAE075468A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "03E7EAC77E1A901B"
+				type: "kill"
+				value: 300L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D9D06F87A1EDDDC"
+			rewards: [
+				{
+					id: "00389D08E9395F68"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:husk"
+								name: "entity.minecraft.husk"
+								rarity: "uncommon"
+								type: "minecraft:husk"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C23100418DB6CC4"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "04554B83312A5F90"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E831A8ED32A0772"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "7208965179405A6E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13DBAD633A0C9330"
+			rewards: [
+				{
+					id: "6ED5E5A8F22EBA90"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:husk"
+								name: "entity.minecraft.husk"
+								rarity: "uncommon"
+								type: "minecraft:husk"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24FF9CB8A3BA1AAB"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "3926C8AFC3B5E9BC"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "5DBA4B960CD42232"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/drowned.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "64B45C21810F5FE7"
+			rewards: [
+				{
+					id: "73DCC0116A0F3611"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:drowned"
+								name: "entity.minecraft.drowned"
+								type: "minecraft:drowned"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0975272CC582CCB5"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "0371ABD7F4CC752A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "7FC81B41E995D5E6"
+				type: "kill"
+				value: 150L
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/drowned.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7429928BBD55626E"
+			rewards: [
+				{
+					id: "6EEB7EFAFF407E63"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:drowned"
+								name: "entity.minecraft.drowned"
+								type: "minecraft:drowned"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EE0FF7831B675A3"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "6DD60E754971897B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "2DAD66DFB4A1B964"
+				type: "kill"
+				value: 300L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/drowned.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "195AC9C46C39AD72"
+			rewards: [
+				{
+					id: "03F0F9FB8CE585AB"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:drowned"
+								name: "entity.minecraft.drowned"
+								type: "minecraft:drowned"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CC2F0EE195B329A"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "704EB55A05FBD86E"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B132554CF65C85B"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "543B171165303999"
+				type: "kill"
+				value: 500L
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/zombie/drowned.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5C7CE1FACB67C8EB"
+			rewards: [
+				{
+					id: "001E35C70175FE8D"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:drowned"
+								name: "entity.minecraft.drowned"
+								type: "minecraft:drowned"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61230AE4604452DF"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "23D53FEC747A34FB"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "65695032DCE0D5A1"
+				type: "kill"
+				value: 800L
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "15CE48B0DFB711F4"
+			rewards: [
+				{
+					id: "49AB1E0F7EEB0012"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:guardian"
+								name: "entity.minecraft.guardian"
+								rarity: "rare"
+								type: "minecraft:guardian"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03343A8CB02C0F03"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "30D98BCEBA075A63"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1998BFFCCF152C80"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "4AAFCE0D103C2164"
+				type: "kill"
+				value: 300L
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49A7F7C61BF7CACF"
+			rewards: [
+				{
+					id: "024461C415E4482C"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:guardian"
+								name: "entity.minecraft.guardian"
+								rarity: "rare"
+								type: "minecraft:guardian"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D3AFB71AD69708A"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "215B4941DB18539B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "7CEB1370533C42ED"
+				type: "kill"
+				value: 50L
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "72F3D0CBD4691E46"
+			rewards: [
+				{
+					id: "1F1DCD6CB24D1FCB"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:guardian"
+								name: "entity.minecraft.guardian"
+								rarity: "rare"
+								type: "minecraft:guardian"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7799354FEB4D33D3"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3C84FD0929E9E9C4"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "5E8334BEB63FF077"
+				type: "kill"
+				value: 100L
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "50F08438E47EFFB0"
+			rewards: [
+				{
+					id: "776D3C10344A1E59"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:guardian"
+								name: "entity.minecraft.guardian"
+								rarity: "rare"
+								type: "minecraft:guardian"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E95918F8906BBDF"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "09708E0120BEBE19"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "3AB79D09E4DF9CDB"
+				type: "kill"
+				value: 500L
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A80CB36E6B6A6AB"
+			rewards: [
+				{
+					id: "5F74010396268FCD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:stray"
+								name: "entity.minecraft.stray"
+								rarity: "uncommon"
+								type: "minecraft:stray"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBC306FFB82C786"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "3F2C4E2F8BDB7B80"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "77A82FA7F8C89693"
+				type: "kill"
+				value: 150L
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6F69F5994DAB4371"
+			rewards: [
+				{
+					id: "5032CDA7965BEFE1"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:stray"
+								name: "entity.minecraft.stray"
+								rarity: "uncommon"
+								type: "minecraft:stray"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B25BC91DAE01723"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "691BB5CDD2D2BF9B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "184CE8BC799DE041"
+				type: "kill"
+				value: 300L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0987A4B71F9B703A"
+			rewards: [
+				{
+					id: "3D5BCA6B09C4CBCC"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:stray"
+								name: "entity.minecraft.stray"
+								rarity: "uncommon"
+								type: "minecraft:stray"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "194C228769362860"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "41D94D8C57703712"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78432233B2D69D81"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "370D13F807A2B8D4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/stray.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0182BC5181FDC24C"
+			rewards: [
+				{
+					id: "55CAD8463F589DF1"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:stray"
+								name: "entity.minecraft.stray"
+								rarity: "uncommon"
+								type: "minecraft:stray"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4859811507915231"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "66752FA152C3260C"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "67B71DA21C979E5C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3D700B9819D91D54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F68B3EBDD7F5078"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "555D0BA51EC19CC2"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "644B2E3ED8C4A551"
+				type: "kill"
+				value: 50L
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1C2A15571ADA5BDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FD26A00DBE8DFFE"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3AD959CBAC11B0ED"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "6DAC9377E4815DB4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2C22EBA4AEA41E33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0163C080C3D995A6"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "2751A2493ABBA5B2"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "555DC7BC6DF67CC6"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "470041FFD9902145"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/wind_charged.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "65231AA438BFE18C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D374BB8BEB71D45"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "641A2AB11F9205E6"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:breeze"
+				id: "49FF9D821B529C8D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B05DEB73239D54F"
+			rewards: [
+				{
+					id: "779A616B4B7806AF"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin"
+								name: "entity.minecraft.piglin"
+								type: "minecraft:piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06465EDDA4836FE2"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "54FA51B0F5883F74"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "541D0E599C459FE3"
+				type: "kill"
+				value: 150L
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1C60CE88C6C65745"
+			rewards: [
+				{
+					id: "6011AE3A6DFFF45A"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin"
+								name: "entity.minecraft.piglin"
+								type: "minecraft:piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3264A7A3D12E97AA"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "766C8BABA0DF1732"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "789EDD6621400E94"
+				type: "kill"
+				value: 300L
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "422F8B76666BC714"
+			rewards: [
+				{
+					id: "1BACA766913C84D7"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin"
+								name: "entity.minecraft.piglin"
+								type: "minecraft:piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F6170844856171E"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5B3F7F9827AB282E"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F4E876FAE03C31"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "1071BF3A67E4C922"
+				type: "kill"
+				value: 500L
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A399B431E4A9D1F"
+			rewards: [
+				{
+					id: "6A79B8DC9264B7CD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin"
+								name: "entity.minecraft.piglin"
+								type: "minecraft:piglin"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CCA13BB22E67AD5"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "029EBD8732A94CA8"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "66F6624C68145322"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/hoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2709F4F781ECACA5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DECD5B01154F6B3"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "180355C7F024CB0D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "349789BB6D61DF9B"
+				type: "kill"
+				value: 50L
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/hoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52753F4A2A5438FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41334B0B44ECDAEB"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3E0AE17D6BC9389D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "1A6D3ACFD0125B16"
+				type: "kill"
+				value: 100L
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/hoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4A156348C8ADE8B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1268F49081F66B50"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "736D1AEC5E935BB9"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6667F7E8DB590DC5"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "5C22563E8117C5F2"
+				type: "kill"
+				value: 200L
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/hoglin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "738B91329757EFD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ABFFA026397B917"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "4F08BCA20BFC044B"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "34F980406BA01335"
+				type: "kill"
+				value: 400L
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "26D2DE7B782DC14A"
+			rewards: [
+				{
+					id: "587FFF7C74059C8E"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin_brute"
+								name: "entity.minecraft.piglin_brute"
+								rarity: "epic"
+								type: "minecraft:piglin_brute"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19F1F26C0C5E8687"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "406F890402CEE0F8"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "505320D676C7BB29"
+				type: "kill"
+				value: 150L
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A999928B46BE28B"
+			rewards: [
+				{
+					id: "38C29A8093921F0F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin_brute"
+								name: "entity.minecraft.piglin_brute"
+								rarity: "epic"
+								type: "minecraft:piglin_brute"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06974D77AF8F138C"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "637D077D0C986BED"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "1EF228891426E929"
+				type: "kill"
+				value: 300L
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7327C527F42EA648"
+			rewards: [
+				{
+					id: "6465E493D1661C1B"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin_brute"
+								name: "entity.minecraft.piglin_brute"
+								rarity: "epic"
+								type: "minecraft:piglin_brute"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080F1843861041A6"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "48D942782A53ADE4"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "628963D35C3DEAAC"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "7C4AB1F844F7EBFD"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0B87FE511C4B4796"
+			rewards: [
+				{
+					id: "447D2264BA775A2E"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:piglin_brute"
+								name: "entity.minecraft.piglin_brute"
+								rarity: "epic"
+								type: "minecraft:piglin_brute"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60FCFBA366CB1D77"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "5AB6DEB27946AF29"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "00AC5B41B05ABBA3"
+				type: "kill"
+				value: 800L
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/ghast/ghast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6E17BDCB3D3D23AB"
+			rewards: [
+				{
+					id: "59B16AEA009753E3"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ghast"
+								name: "entity.minecraft.ghast"
+								rarity: "rare"
+								type: "minecraft:ghast"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E2DB9227E01C9EF"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "33C4E6C85968E8B1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "75926C54931CBEC9"
+				type: "kill"
+				value: 150L
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/ghast/ghast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "139B43E4ED1D340E"
+			rewards: [
+				{
+					id: "7406B65BE6F8F699"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ghast"
+								name: "entity.minecraft.ghast"
+								rarity: "rare"
+								type: "minecraft:ghast"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "5525D9E899FF003D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "214B30B61087D291"
+				type: "kill"
+				value: 300L
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/ghast/ghast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "48FA446FC045A3DA"
+			rewards: [
+				{
+					id: "7E67894015E4BF6B"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ghast"
+								name: "entity.minecraft.ghast"
+								rarity: "rare"
+								type: "minecraft:ghast"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "335581B765972D2B"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4816DF46A9411D1A"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F2D9553F6FDEE2A"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "32908E2D6134CCC0"
+				type: "kill"
+				value: 500L
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/ghast/ghast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49765CD6D67AC961"
+			rewards: [
+				{
+					id: "5F9D3F7E9B76BA63"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ghast"
+								name: "entity.minecraft.ghast"
+								rarity: "rare"
+								type: "minecraft:ghast"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7318C9802301061C"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "73FB1B05A7A2E399"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "6EB23EBBC151B282"
+				type: "kill"
+				value: 800L
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/blaze.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05C9BEBA47B9D915"
+			rewards: [
+				{
+					id: "1D3A09B12298F137"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:blaze"
+								name: "entity.minecraft.blaze"
+								rarity: "rare"
+								type: "minecraft:blaze"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C858A69046227F"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "6B26F53D39BE5EA1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3156FA8A1003B060"
+				type: "kill"
+				value: 150L
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/blaze.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05D43AD722E5E197"
+			rewards: [
+				{
+					id: "09B641DE896F423C"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:blaze"
+								name: "entity.minecraft.blaze"
+								rarity: "rare"
+								type: "minecraft:blaze"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48A35B6C47D7DE30"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "2BD087C866259930"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "67090AA834F5467D"
+				type: "kill"
+				value: 300L
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/blaze.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A83F21D14E80FE6"
+			rewards: [
+				{
+					id: "7B221DB1E9AE5FE5"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:blaze"
+								name: "entity.minecraft.blaze"
+								rarity: "rare"
+								type: "minecraft:blaze"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701489225E208854"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "485EAAD86FDF536A"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5A27FB3F94A65BB6"
+				type: "kill"
+				value: 500L
+			}]
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/blaze.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "471268F9FD196786"
+			rewards: [
+				{
+					id: "024CC11962665123"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:blaze"
+								name: "entity.minecraft.blaze"
+								rarity: "rare"
+								type: "minecraft:blaze"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CDC5C3ACDCC2E61"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "49C7805B2FBBB9D7"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "0BC6256013675567"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/magmacube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6529C63ACF3556AC"
+			rewards: [
+				{
+					id: "0714E1779AD08FF5"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:magma_cube"
+								name: "entity.minecraft.magma_cube"
+								rarity: "rare"
+								type: "minecraft:magma_cube"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65A35AA7DC2EF270"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "197185A4921B4DF1"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "338F1985B848CFFF"
+				type: "kill"
+				value: 150L
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/magmacube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "41DF9DD0311863FC"
+			rewards: [
+				{
+					id: "1476DD2DE0C5251F"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:magma_cube"
+								name: "entity.minecraft.magma_cube"
+								rarity: "rare"
+								type: "minecraft:magma_cube"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "623838E1DD9E753F"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "65B58875EB45C75A"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "10753D0FCA57DF83"
+				type: "kill"
+				value: 300L
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/magmacube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "437441E6600EE3E2"
+			rewards: [
+				{
+					id: "2D324D88D9C563DD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:magma_cube"
+								name: "entity.minecraft.magma_cube"
+								rarity: "rare"
+								type: "minecraft:magma_cube"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "410E698E904D524B"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "706E7906DFADDF41"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "20738B3C405AA57D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/slime/magmacube.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6F3265DB7CEEF371"
+			rewards: [
+				{
+					id: "2B534A1807E8066B"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:magma_cube"
+								name: "entity.minecraft.magma_cube"
+								rarity: "rare"
+								type: "minecraft:magma_cube"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B2652CA48F01C8E"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "32477F441E599A9D"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "2DDB514E90DE439C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "54761A03ADAF2D9B"
+			rewards: [
+				{
+					id: "32E51FBEECC31C32"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither_skeleton"
+								name: "entity.minecraft.wither_skeleton"
+								rarity: "epic"
+								type: "minecraft:wither_skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A5818156C3ABFB"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "5AEBE346023857F5"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "64061F9F4BF1FAAF"
+				type: "kill"
+				value: 50L
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1E45E8CC5A3040A3"
+			rewards: [
+				{
+					id: "07D33DAB44D02AEF"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither_skeleton"
+								name: "entity.minecraft.wither_skeleton"
+								rarity: "epic"
+								type: "minecraft:wither_skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10F4274BBBD0AF1B"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "090B94DEF5880F46"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0C614C208A595F4E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3CDBA862DB2E5108"
+			rewards: [
+				{
+					id: "05836B413C663CC6"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither_skeleton"
+								name: "entity.minecraft.wither_skeleton"
+								rarity: "epic"
+								type: "minecraft:wither_skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ABC55205DB72A99"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1D9D43C16E8D45AF"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49B3E87C607F9640"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "614B50BD3E98528A"
+				type: "kill"
+				value: 200L
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "24E6F6FB4F499B04"
+			rewards: [
+				{
+					id: "3AF4B3B3058CE3C7"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither_skeleton"
+								name: "entity.minecraft.wither_skeleton"
+								rarity: "epic"
+								type: "minecraft:wither_skeleton"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7539723B866104FD"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "5F86FD1801241075"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "65D4920D8CAE3255"
+				type: "kill"
+				value: 400L
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "63E27E4E18682E8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D4A02151501E559"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "6E6392697B7903AC"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "227868F0708299EA"
+				type: "kill"
+				value: 3L
+			}]
+			x: 20.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "529398B6DC5D4AD4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B56D63DB0093B46"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "000943ED0A99EE7B"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "7BEABB3219E91699"
+				type: "kill"
+				value: 5L
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "343E0F0C815DADA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7555CBE344A9AA03"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "152D2B8A14C0E8C2"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "535C5E9ADB4C7784"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6048B9C781A95B16"
+				type: "kill"
+				value: 10L
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D73CD0E32E7AEBE"
+			rewards: [
+				{
+					id: "4C9D7E207AF2A779"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:wither"
+								name: "entity.minecraft.wither"
+								rarity: "epic"
+								type: "minecraft:wither"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B835FC029B3B9DA"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "68A931E4E7FD8339"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "036B4D7989D0A3DD"
+				type: "kill"
+				value: 25L
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			id: "4D88CDC4F007C1A9"
+			rewards: [{
+				count: 10
+				id: "05AF0E72195AB865"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7008D9AA544CD65B"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:iron_golem_farm" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 6.0d
+		}
+		{
+			id: "6D81FC43D8DC4A0D"
+			rewards: [{
+				count: 10
+				id: "44A7BA90EE82F6E8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "64185CF007743CC2"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:lucky_drop_farm" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.5d
+		}
+		{
+			id: "01F0BB75330B2C50"
+			rewards: [{
+				count: 10
+				id: "011F51FD3FB2AA8E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1164354F4C99C88A"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:monster_plains_cave_farm" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "006CC091A9CF8E12"
+			rewards: [{
+				count: 10
+				id: "2B9554CF656E99B8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "614865BD78C9EC5A"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:nether_fortress_farm" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			id: "2E43DE406A50B9B8"
+			rewards: [{
+				count: 10
+				id: "77E5E9591400E9F6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "60C8046BA357D5CE"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:bee_hive_farm" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "5BB91208A52C60DD"
+			rewards: [{
+				count: 10
+				id: "563789CA6E827DFA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "33312F370267AE5E"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:desert_farm" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "61C9FEE93DFEDCD5"
+			rewards: [{
+				count: 10
+				id: "0A2F671EF1F6F06C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7DC3BA9FED78B5CB"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:jungle_farm" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "1CEB8E7EB353A0FE"
+			rewards: [{
+				count: 10
+				id: "527C1654B9CDF212"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4A5B497525B7DA4A"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:swamp_farm" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "08B63E033E3C2B46"
+			rewards: [{
+				count: 10
+				id: "342C4214CAE0D1CB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "746C568E836E6DA4"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:ocean_farm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "3A5E27FE8E132147"
+			rewards: [{
+				count: 10
+				id: "47C9396DFF5E9DFD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5B65030240368637"
+				item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_2" }, "minecraft:custom_model_data": 2 }, count: 1, id: "easy_mob_farm:animal_plains_farm" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["700FBC762A11A218"]
+			id: "490DBE0FC3600CC7"
+			rewards: [{
+				id: "14699B8382605D28"
+				item: {
+					count: 1
+					id: "modified:coinblock_mtoken"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2AC60B26DFB82192"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:nether_fortress_farm" }
+					type: "item"
+				}
+				{
+					id: "0A1C5E2EE850BD79"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:monster_plains_cave_farm" }
+					type: "item"
+				}
+				{
+					id: "082E133AC61670A6"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:lucky_drop_farm" }
+					type: "item"
+				}
+				{
+					id: "3A98C667DA60360D"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:jungle_farm" }
+					type: "item"
+				}
+				{
+					id: "1BAA796989A5E39E"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:swamp_farm" }
+					type: "item"
+				}
+				{
+					id: "3F950AABB68F3AAB"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:animal_plains_farm" }
+					type: "item"
+				}
+				{
+					id: "2C3B2C23B37516FD"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:bee_hive_farm" }
+					type: "item"
+				}
+				{
+					id: "2BFDB95786659DFC"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:desert_farm" }
+					type: "item"
+				}
+				{
+					id: "318C6D4FB13D52A4"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:iron_golem_farm" }
+					type: "item"
+				}
+				{
+					id: "053DC7901E6AE583"
+					item: { components: { "easy_mob_farm:mob_farm_data": { tierLevel: "tier_3" }, "minecraft:custom_model_data": 3 }, count: 1, id: "easy_mob_farm:jungle_farm" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"19844C3FBEFEC9C4"
+				"690F34287EE908CD"
+				"516870379ED03D47"
+				"486AB38C1B2E35C5"
+				"65B66C440ADDB821"
+				"2A82AE1AAA76591E"
+				"3E9792A031BE9999"
+				"3AFE370F36627EA3"
+				"5F3D581E05C8287A"
+				"3555203F2CDF2822"
+				"5785007D50FFA53C"
+				"7AB56B7D3C6A087E"
+				"5D41695E035E96BC"
+				"6693E701FBAECDE3"
+				"6E50AAA3CF4A1B06"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "700FBC762A11A218"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0348611EA1936268"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "5B50E30FFF000328"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "12B7D4DF180B5E69"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0583CC1788715FBC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76BF6A113CB8242B"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "213E3D09C9AC2221"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "73675A6C29811FB3"
+				type: "kill"
+				value: 3L
+			}]
+			x: 24.0d
+			y: 0.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7DAC29670B4198B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15985E0E9BC05B5D"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "36E2BB4926058E6A"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A9226A25BF6D9C2"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5F90F3DFC6F244DC"
+				type: "kill"
+				value: 5L
+			}]
+			x: 24.0d
+			y: -0.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42CD68A3C0CA86E1"
+			rewards: [
+				{
+					id: "69B236C8157D029B"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:ender_dragon"
+								name: "entity.minecraft.ender_dragon"
+								rarity: "epic"
+								type: "minecraft:ender_dragon"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F248D5B4EC1C6A4"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "5308B30FDADCB750"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0F591792A6D1B291"
+				type: "kill"
+				value: 10L
+			}]
+			x: 24.0d
+			y: -2.25d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "54171B81E9DF59ED"
+			rewards: [
+				{
+					id: "20E525C9C8019AE8"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:warden"
+								name: "entity.minecraft.warden"
+								rarity: "epic"
+								type: "minecraft:warden"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "585B1A7D5F21427E"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "4BED945F8105B884"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "5A83A479057BE3FB"
+				type: "kill"
+				value: 2L
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "207E2A0BCAADBCEE"
+			rewards: [
+				{
+					id: "17171A14C877ABAD"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:warden"
+								name: "entity.minecraft.warden"
+								rarity: "epic"
+								type: "minecraft:warden"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13A01845AEE6F72E"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "02C01E401B1D2A28"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "381426CC008AF4DA"
+				type: "kill"
+				value: 4L
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "21796480C6198A07"
+			rewards: [
+				{
+					id: "740FB3EB1717FE3D"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:warden"
+								name: "entity.minecraft.warden"
+								rarity: "epic"
+								type: "minecraft:warden"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262CD2510A66774D"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1BB3BCCBFB466726"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E3A81E8B9F3A14"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "31D11817828CB455"
+				type: "kill"
+				value: 8L
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6C88C8B0B0D0AD48"
+			rewards: [
+				{
+					id: "6EBE2D50A885C06B"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:warden"
+								name: "entity.minecraft.warden"
+								rarity: "epic"
+								type: "minecraft:warden"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD292BD327EEA28"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "497695AAEEEA0442"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3C7F67838AC42E64"
+				type: "kill"
+				value: 12L
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			id: "1F60CF7D95204FA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CAF06138EFEB6BF"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "7CF44173672BA838"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/phantom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4C9E4858C29D6382"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "24F889D931D2D10C"
+			rewards: [
+				{
+					count: 8
+					id: "017D62FE70ECDD76"
+					item: {
+						count: 1
+						id: "chipped:end_purple_carved_pumpkin"
+					}
+					type: "item"
+				}
+				{
+					id: "6991CB1165418443"
+					item: {
+						count: 1
+						id: "mega_showdown:icememory"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B75EC7A5575DA86"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "5CD391D29502F2FB"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:snow_golem"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/snowman.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "430424519A7E07EC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "4A6C03D1BCF308A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A5EF13D341C9FFB"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 50
+					id: "01677B66CB709BA7"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/phantom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7F28393E9E9844AD"
+				type: "kill"
+				value: 150L
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "3D02F6086937D2BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40570691688853B2"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "58A8B71E89FAFD0C"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/phantom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "075093AB91899957"
+				type: "kill"
+				value: 300L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "79F64C57457FAC3E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32481D99CA8057EA"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6754EA96509338E9"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "700A1705420631B9"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/phantom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7EE7E90DA1BF46F9"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "50A37135D03BCA26"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "487D8EEC98231E9C"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "4A3A46941B672025"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity_icon/phantom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "107D4227B342BE26"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CFD10ACAE968234"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4529290EBF42829C"
+					table_id: 1896954546521804432L
+					type: "choice"
+				}
+				{
+					count: 50
+					id: "1BEC82B8F66AAC8D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1C2F62AFB4375081"
+				type: "kill"
+				value: 20L
+			}]
+			x: 25.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "485263D8AEA4619A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "405590ECBF6A277A"
+					table_id: 1896954546521804432L
+					type: "choice"
+				}
+				{
+					count: 100
+					id: "05CD7B78C3D7194D"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "000BC229512CF33F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 26.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6E279F75C9267CEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70CA27CF8A8F832B"
+					table_id: 1896954546521804432L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "64BA9EAAEDDB80DA"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1C41D5304A029A2A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42194502CB834932"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "527F85A30857746B"
+					table_id: 1896954546521804432L
+					type: "choice"
+				}
+				{
+					id: "3765C103548E5898"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "3C823AF2072F3690"
+				type: "kill"
+				value: 250L
+			}]
+			x: 28.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4730FA45FF097C55"
+			rewards: [{
+				count: 50
+				id: "2A28428F0ADC4E9C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "0CE9C0D54DA0FCD0"
+				type: "kill"
+				value: 50L
+			}]
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "33F21A58D312B08C"
+			rewards: [{
+				count: 100
+				id: "5594B18386887A04"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "175D47493E62CDBF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7815FF7A6ECF8330"
+			rewards: [{
+				count: 2
+				id: "3F45877D69FA5C69"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "6EE0871D7E9F8F82"
+				type: "kill"
+				value: 250L
+			}]
+			x: 23.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/endermite.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6CE4921DC36386E6"
+			rewards: [{
+				id: "5F610EF7CE51561C"
+				item: {
+					count: 1
+					id: "modified:coinpile_mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "24BD5D9DEBE6FD4B"
+				type: "kill"
+				value: 500L
+			}]
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"13DBAD633A0C9330"
+				"5A1738C4689691C3"
+				"50F08438E47EFFB0"
+				"3D02F6086937D2BA"
+				"2145B45F4A3B65A9"
+				"31FB96B3A65D259C"
+				"5C7CE1FACB67C8EB"
+				"50A37135D03BCA26"
+				"5EA755F1BCA32D65"
+				"68C7E70AAC30FEEC"
+				"0987A4B71F9B703A"
+				"2C22EBA4AEA41E33"
+				"72F3D0CBD4691E46"
+				"7429928BBD55626E"
+				"1F60CF7D95204FA7"
+				"53D87C85B08E6DCF"
+				"0BD0234579A433AC"
+				"6805E43057D2EF47"
+				"2E899C21344850C4"
+				"1D9D06F87A1EDDDC"
+				"4D1C5D8ED88ACB3F"
+				"457D2AD61C5AA7D8"
+				"6F69F5994DAB4371"
+				"7A80CB36E6B6A6AB"
+				"2A43F711E6FC5082"
+				"067A85869BB35062"
+				"247FA58EDAFE483F"
+				"697FD3947BB964E3"
+				"65231AA438BFE18C"
+				"63EE0C5B6301AE83"
+				"70C859876B493BBE"
+				"5669DA4C15487856"
+				"15CE48B0DFB711F4"
+				"055F52B0C223D18D"
+				"47D2FE3FE30C9CA5"
+				"39D44C03964DF8DD"
+				"1FBF40D3925308F5"
+				"527E2F52B8F8251F"
+				"6D293F0BC04D5F22"
+				"195AC9C46C39AD72"
+				"49A7F7C61BF7CACF"
+				"016F08900A6444C6"
+				"211F72C041058507"
+				"79F64C57457FAC3E"
+				"4C73252D65979F28"
+				"0182BC5181FDC24C"
+				"31C837D26D645D1B"
+				"3D700B9819D91D54"
+				"34EDA21D7E39682F"
+				"39851CA09809BA46"
+				"458D15A40F024C44"
+				"4A6C03D1BCF308A1"
+				"29F08152716ABD39"
+				"0B776292562B2CBF"
+				"21673AAA3EBF2703"
+				"6EF4D6704051AFA4"
+				"0F5CB97FFB14D744"
+				"00ACA93EEAAF0048"
+				"515E0F054CEB80C7"
+				"46E291F821C4D3A4"
+				"1C2A15571ADA5BDD"
+				"1F4BFB1DA93E9015"
+				"3FFCC058A236E86F"
+				"64B45C21810F5FE7"
+				"55859AFF2C1A339F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D2FEDF7F9627088"
+			rewards: [
+				{
+					id: "6D66E132B17B10C9"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D157E591785FA96"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "113A42CCD533E9FE"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "623748757C096209"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B0BDA9DA9BBCF95"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "400A3C9EE63B703D"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4F7968ACA60B89B1"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1269EBFF3CB83AEF"
+				"54761A03ADAF2D9B"
+				"4A156348C8ADE8B2"
+				"6B05DEB73239D54F"
+				"05260119EE93D0E4"
+				"343E0F0C815DADA7"
+				"6529C63ACF3556AC"
+				"48FA446FC045A3DA"
+				"6E17BDCB3D3D23AB"
+				"63E27E4E18682E8E"
+				"0B87FE511C4B4796"
+				"24BA4C0D91E3C61A"
+				"26D2DE7B782DC14A"
+				"1B59C66525E4BE48"
+				"24E6F6FB4F499B04"
+				"5A83F21D14E80FE6"
+				"52753F4A2A5438FA"
+				"5554074D91EB4363"
+				"5A999928B46BE28B"
+				"6994DD112717AD07"
+				"56A6583D766F632C"
+				"1E45E8CC5A3040A3"
+				"05C9BEBA47B9D915"
+				"3CDBA862DB2E5108"
+				"549789011C1EFE68"
+				"6990181B3120728A"
+				"4D73CD0E32E7AEBE"
+				"422F8B76666BC714"
+				"7327C527F42EA648"
+				"5A2CC3C6C39CDC51"
+				"1C60CE88C6C65745"
+				"41DF9DD0311863FC"
+				"139B43E4ED1D340E"
+				"529398B6DC5D4AD4"
+				"2A399B431E4A9D1F"
+				"05D43AD722E5E197"
+				"471268F9FD196786"
+				"738B91329757EFD8"
+				"6F3265DB7CEEF371"
+				"2709F4F781ECACA5"
+				"49765CD6D67AC961"
+				"437441E6600EE3E2"
+				"79048CF2FB0F3B93"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "640DB6778C11CF18"
+			rewards: [
+				{
+					id: "602DAF6036581D90"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3512461B03609BA5"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E24CD45F17A7A27"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "212FC9E1C031A81C"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6C88C8B0B0D0AD48"
+				"2D2FEDF7F9627088"
+				"640DB6778C11CF18"
+				"54171B81E9DF59ED"
+				"4A456C156ED537C1"
+				"4381D98A007BE595"
+				"207E2A0BCAADBCEE"
+				"2B887500AD4F2881"
+				"21796480C6198A07"
+			]
+			hide_dependency_lines: true
+			hide_lock_icon: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_rainbow.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "57C5D5C30996868A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67C9AAE673C5422C"
+					table_id: 3166971824460296523L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40AFF8ABC14407F1"
+					table_id: 3166971824460296523L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "408731FCFC9EF468"
+					table_id: 3166971824460296523L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0387A76538809AF5"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4543B86F2BC113F5"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "34BD0308EB038560"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0519921A72176D95"
+					table_id: 5908052254546743763L
+					type: "random"
+				}
+				{
+					id: "7D08124ED457CA16"
+					item: {
+						count: 1
+						id: "cobblemon_utility:goldencap"
+					}
+					type: "item"
+				}
+				{
+					id: "46A32A8E2B4BC272"
+					item: {
+						count: 1
+						id: "modified:coinblock_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40A942D69DC1E427"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36336E9EC42B5589"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				id: "2DE3F152C3C1CCB0"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"68D65BB1750378A5"
+				"5D0429C8E3FE1873"
+				"7434CC8923AF0576"
+				"4DA973F557DAEDE3"
+				"07D80BDA1D117D36"
+				"090803586F8210F7"
+				"2037D21055C8F5A8"
+				"05676B7AD8496F93"
+				"07B32D6EF1B0FC66"
+				"11B523BC69C571A0"
+				"4CF140F727B4F27C"
+				"3D2A850DE184C04D"
+				"13DDB00CB77406AA"
+				"60F923FF5B88227E"
+				"2315C5006A07EA6A"
+				"590EC510824632E0"
+				"1AF04238A203D912"
+				"46560A4F70743697"
+				"148EE2D203381CD8"
+				"24F889D931D2D10C"
+				"7CF16C6B0144BF41"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4381D98A007BE595"
+			rewards: [
+				{
+					id: "70CBAE97E607A3FF"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45D5B70E340CA51D"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "07CFD6C620DF54AB"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"42CD68A3C0CA86E1"
+				"4730FA45FF097C55"
+				"42194502CB834932"
+				"3F31DBD612D7997D"
+				"7815FF7A6ECF8330"
+				"22F72D4AF317A759"
+				"2CFD10ACAE968234"
+				"485263D8AEA4619A"
+				"33F21A58D312B08C"
+				"7DAC29670B4198B3"
+				"0583CC1788715FBC"
+				"10F9339AE9A9F7D0"
+				"6E279F75C9267CEF"
+				"6CE4921DC36386E6"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4A456C156ED537C1"
+			rewards: [
+				{
+					id: "4E50AC777C2F1199"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57C6C06A4298B7BF"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "240595E2EB8A1CEA"
+				type: "checkmark"
+			}]
+			x: 26.25d
+			y: 1.5d
+		}
+	]
 }

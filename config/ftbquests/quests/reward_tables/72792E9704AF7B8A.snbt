@@ -1,0 +1,39 @@
+{
+	id: "72792E9704AF7B8A"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{
+			id: "7F0BB2F081B6994F"
+			item: {
+				count: 1
+				id: "collectorsalbum:legendary_brown_mushroom_card"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "7F20B2C78FE7D2BE"
+			item: {
+				count: 1
+				id: "collectorsalbum:legendary_red_mushroom_card"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "0D6A81BBEAA961CD"
+			item: {
+				count: 1
+				id: "collectorsalbum:mythical_brown_mushroom_card"
+			}
+			weight: 1.5f
+		}
+		{
+			id: "18F84557BB705349"
+			item: {
+				count: 1
+				id: "collectorsalbum:mythical_red_mushroom_card"
+			}
+			weight: 1.5f
+		}
+	]
+}

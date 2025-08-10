@@ -15,7 +15,7 @@
 	#lootr will automatically log all unresolved tables (i.e., for containers that have a loot table associated with them but, for whatever reason, the lookup for this table returns empty). setting this option to true additionally informs players when they open containers.
 	report_unresolved_tables = false
 	#disregard chests and chunks that are outside of the world border; enable this option if you are using a world border and are suffering consistent TPS issues; if you change the world border, you will need to restart your client
-	check_world_border = true
+	check_world_border = false
 	#checks structure pieces as well as structure starts when determining if a structure contains a position, more accurate but may cause lag (default true)
 	perform_piecewise_check = true
 
@@ -63,13 +63,13 @@
 [notifications]
 	#configuration options for notifications
 	#prevent notifications of decaying or refreshed chests
-	disable_notifications = true
+	disable_notifications = false
 	#maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)
 	# Default: 600
 	# Range: > -1
-	notification_delay = 999999999
+	notification_delay = 600
 	#disables styling of breaking, decaying and refreshing messages sent to players
-	disable_message_styles = true
+	disable_message_styles = false
 
 [decay]
 	#configuration options for decaying containers
@@ -95,7 +95,7 @@
 	#how long (in ticks) a refreshing loot containers should take to refresh their contents (default 20 minutes = 20 * 60 * 20)
 	# Default: 24000
 	# Range: > 0
-	refresh_value = 12024000
+	refresh_value = 24000
 	#list of loot tables which will refresh (default blank, meaning no chests refresh, in the format of ["modid:loot_table", "othermodid:loot_table"])
 	refresh_loot_tables = []
 	#list of mod IDs whose loot tables will refresh (default blank, meaning no chests refresh, in the format of ["modid", "othermodid"])
@@ -105,6 +105,6 @@
 	#containers that have already been marked as refreshing will be refreshed during level tick as well as when next trapped
 	perform_refresh_while_ticking = true
 	#containers that have not yet been marked as refreshing will be marked for refresh during level tick as well as when next trapped
-	start_refresh_while_ticking = false
+	start_refresh_while_ticking = true
 	#overriding refresh_loot_tables, refresh_modids and refresh_dimensions: all chests will refresh after being trapped for the first time
-	refresh_all = true
+	refresh_all = false

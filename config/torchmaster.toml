@@ -24,7 +24,7 @@
 	#Block zombies: ["+minecraft:zombie"]
 	#Allow creepers: ["-minecraft:creeper"],
 	#Multiple Entries: ["+minecraft:pig", "-gaia:dryad"]
-	megaTorchEntityBlockListOverrides = ["+cobblemon:pokemon", "+cobblemon:npc", "rctmod:trainer"]
+	megaTorchEntityBlockListOverrides = []
 	#Same as the mega torch block list override, just for the dread lamp
 	#Block squid: ["+minecraft:squid"]
 	#Allow pigs: ["-minecraft:pig"]

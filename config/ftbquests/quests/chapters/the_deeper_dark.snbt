@@ -3,8 +3,587 @@
 	default_quest_shape: ""
 	filename: "the_deeper_dark"
 	group: "3C2F0E57BE919025"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/sculk_shrieker_can_summon_inner_top"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "025908A4CF6D347D"
+	images: [{
+		height: 15.0d
+		image: "minecraft:block/sculk_shrieker_inner_top"
+		rotation: 0.0d
+		width: 15.0d
+		x: -2.5d
+		y: 2.0d
+	}]
 	order_index: 1
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [
+		{
+			id: "17B29EA771DF80E6"
+			linked_quest: "3A67E5AF7FB66154"
+			size: 1.5d
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "49FE8D12181F0497"
+			linked_quest: "5846D0C73F68DBB5"
+			size: 1.5d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "4BB2D07996EC2901"
+			linked_quest: "6BCF4D7B8076EE83"
+			size: 1.5d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "4F215BA893EAC5A5"
+			linked_quest: "30BBE57EFD9E7D14"
+			size: 1.5d
+			x: -7.0d
+			y: 5.5d
+		}
+	]
+	quests: [
+		{
+			id: "464DD0E2DAE0BFBF"
+			rewards: [
+				{
+					count: 5
+					id: "5BDD7098C9B0F43F"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "26ED060E651A8322"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:blooming_caverns"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "12D9AA2D5129A3AF"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "07D4B46D8FDD85E1"
+			rewards: [
+				{
+					count: 5
+					id: "2C57CC88C4B13D42"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "5C762617977CC21E"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				id: "7385AD30CBA3E63E"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "63EA610BA7997E1B"
+			rewards: [
+				{
+					count: 5
+					id: "576A0E6A7F3D03B5"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "05F1DEB99C554CBB"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: {
+					id: "naturescompass:naturescompass"
+				}
+				id: "612A63E76BC40673"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "6DB515C7A36A6DDC"
+			rewards: [
+				{
+					count: 5
+					id: "7AB0DC1E01CC7D8F"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "532F816163E8C33F"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				id: "4514EAC5D555002D"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "2B33817C4744BC5E"
+			rewards: [{
+				count: 10
+				id: "2E45E6480E3EC2F3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "19634816CBA723F3"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "1C99919252A194A7"
+			rewards: [{
+				count: 25
+				id: "2C9B795A83F52486"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "07F66054E8DE9088"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "56322983F02623B3"
+			rewards: [{
+				count: 25
+				id: "472792026D4003A3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "051380932606C5B2"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "40F9FC36FD7183E4"
+			rewards: [{
+				count: 25
+				id: "538C605F6C2FA11E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "092867F6CDCB2B93"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "158CBDF5D8F893E8"
+			rewards: [{
+				count: 25
+				id: "2E689D838E56C5C4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "4F2E8ABE918874A1"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "1EDDFBC4BE3A43E9"
+			rewards: [{
+				count: 10
+				id: "6D3C5ADDB8716792"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55E1A8F320428B7C"
+				item: { count: 1, id: "deeperdarker:warden_carapace" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B887500AD4F2881"
+			rewards: [
+				{
+					id: "3BA35F21E2DC48F7"
+					item: {
+						components: {
+							"easy_mob_farm:mob_capture_data": {
+								entityType: "minecraft:warden"
+								name: "entity.minecraft.warden"
+								rarity: "epic"
+								type: "minecraft:warden"
+							}
+						}
+						count: 1
+						id: "easy_mob_farm:mob_capture_card"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5548BEB91384DD78"
+					table_id: 1306244536609157783L
+					type: "random"
+				}
+				{
+					count: 25
+					id: "39242AF1E915D671"
+					item: {
+						count: 1
+						id: "modified:pokedollar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3539B2F150104E96"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "7C6B2D67B37D3976"
+			rewards: [{
+				count: 10
+				id: "4D1F2FA206CF5F65"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "02E91E24E228E898"
+				item: { count: 1, id: "deeperdarker:ancient_vase" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "1BE2131019FBF7F9"
+			rewards: [{
+				count: 10
+				id: "64549F47AC7B9591"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "607A38AC4BA579FE"
+				item: { count: 1, id: "deeperdarker:soul_dust" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "7B78C91B23D319A1"
+			rewards: [{
+				count: 25
+				id: "45626906AA09603B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "0964617A441292EB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "536D168293CC214F"
+			rewards: [{
+				count: 25
+				id: "56DE543566AB2F6D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "7D9165049C903F82"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "2DB1AAB2B126B4E0"
+			rewards: [{
+				count: 25
+				id: "7747D0B92B6E8799"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "573985B6B73FC4CE"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "4C84C6E66DE2D6F1"
+			rewards: [{
+				count: 10
+				id: "378DCFDCEE6C09F6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "147D84E937AD416A"
+				item: { count: 1, id: "deeperdarker:sculk_bone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "3CE375869C1F5326"
+			rewards: [{
+				id: "3DA89D7E5FFD34C1"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "60E5CA095ABBF44E"
+				item: { count: 1, id: "deeperdarker:soul_elytra" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "6D66A36A0FC9F1C9"
+			rewards: [{
+				count: 25
+				id: "1164C698BCFEA8A7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8F0F3C0BCDA201"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "582B26455CB34B7A"
+			rewards: [{
+				count: 25
+				id: "7B6A03DB7F23A79B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "422A142506E41FEC"
+				item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6BCF4D7B8076EE83"
+				"63EA610BA7997E1B"
+				"6DB515C7A36A6DDC"
+				"56322983F02623B3"
+				"2DB1AAB2B126B4E0"
+				"07D4B46D8FDD85E1"
+				"2B887500AD4F2881"
+				"582B26455CB34B7A"
+				"7C6B2D67B37D3976"
+				"158CBDF5D8F893E8"
+				"3A67E5AF7FB66154"
+				"1EDDFBC4BE3A43E9"
+				"536D168293CC214F"
+				"6D66A36A0FC9F1C9"
+				"1C99919252A194A7"
+				"30BBE57EFD9E7D14"
+				"1BE2131019FBF7F9"
+				"464DD0E2DAE0BFBF"
+				"7B78C91B23D319A1"
+				"4C84C6E66DE2D6F1"
+				"2B33817C4744BC5E"
+				"40F9FC36FD7183E4"
+				"5846D0C73F68DBB5"
+				"3CE375869C1F5326"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "763C22D897322C56"
+			rewards: [
+				{
+					count: 5
+					id: "45CF9CCA288A08D6"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684D7B4A8BCFF22C"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "677BF6F27AA468A1"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+	]
 }

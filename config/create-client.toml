@@ -117,6 +117,13 @@
 		ambientVolumeCap = 0.10000000149011612
 
 	#.
+	#Mod Integration and JEI
+	[client.jeiIntegration]
+		#.
+		#Whether to auto-update the JEI search when searching in the stock keeper UI
+		syncJeiSearch = true
+
+	#.
 	#Railway related settings
 	[client.trains]
 		#.
@@ -137,10 +144,3 @@
 		#Track Network Color on maps
 		#Allowed Values: RED, GREY, WHITE
 		trainMapColorTheme = "RED"
-
-	#.
-	#Mod Integration and JEI
-	[client.jeiIntegration]
-		#.
-		#Whether to auto-update the JEI search when searching in the stock keeper UI
-		syncJeiSearch = true

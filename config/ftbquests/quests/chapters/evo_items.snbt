@@ -3,8 +3,14 @@
 	default_quest_shape: ""
 	filename: "evo_items"
 	group: "1F4AE109ED6749AD"
+	icon: {
+		components: {
+			"ftbquests:icon": "cobblemon:textures/particle/request/icon_trade.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "5F3C2D5936DF2212"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -185,6 +191,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				id: "6BF2A69AC08C55E4"
 				item: { count: 1, id: "cobblemon:link_cable" }
@@ -555,6 +562,12 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0A13345122B89DC9"
 			rewards: [{
 				id: "1C7292E1C694C4C8"
@@ -568,11 +581,10 @@
 				id: "4F11941A3076A00E"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "10618F35AB20AFAA"
 			rewards: [{
 				count: 5
@@ -592,7 +604,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "096EF3E02DD9A4BF"
 			rewards: [{
 				count: 5
@@ -612,7 +623,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "0FC9368708CB4703"
 			rewards: [{
 				count: 5
@@ -632,7 +642,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "417F33B815B5EF96"
 			rewards: [{
 				count: 5
@@ -652,7 +661,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "5714104F69B1AFEE"
 			rewards: [{
 				count: 8
@@ -672,7 +680,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "6F6F13E45243CF87"
 			rewards: [{
 				count: 8
@@ -692,7 +699,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "29467A749D880EE7"
 			rewards: [{
 				count: 10
@@ -712,7 +718,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "636A34D9B8B4BECF"
 			rewards: [{
 				count: 10
@@ -732,7 +737,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "4F7AA7CFC1BCE6C1"
 			rewards: [{
 				count: 10
@@ -752,7 +756,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0A13345122B89DC9"]
 			id: "44080C369087292A"
 			rewards: [{
 				count: 10
@@ -789,6 +792,227 @@
 			}]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"043388CAF9A98011"
+				"3BE217F31248FFDB"
+				"5714104F69B1AFEE"
+				"12D76E217F409A72"
+				"0FC9368708CB4703"
+				"636A34D9B8B4BECF"
+				"4F7AA7CFC1BCE6C1"
+				"1FEB88B4732DFFF8"
+				"372955E458EB53EA"
+				"6F6F13E45243CF87"
+				"44080C369087292A"
+				"7C3F119EB2BB51C9"
+				"6E41FC2D07C53BBF"
+				"7C627E61AA1DDC08"
+				"49BD57A32C17C39F"
+				"595F5BFC46536D68"
+				"0DDEA9AEA517107F"
+				"40219301DDDB15A2"
+				"371400B53BDAF461"
+				"000E4E74A0DAFEBA"
+				"29467A749D880EE7"
+				"10618F35AB20AFAA"
+				"1580C123E939E304"
+				"32BA8274ED8ACCA6"
+				"417F33B815B5EF96"
+				"53553193E421B9C1"
+				"1CC7DDCA68C5746F"
+				"096EF3E02DD9A4BF"
+				"1404B4B3FBE175BA"
+				"53326045457E62E7"
+				"1316410C45AE5BDB"
+				"1750BF5DABF5B181"
+				"14493F864DD8ACEE"
+				"7DC64D088D00B835"
+				"1A505EE2B4EB9265"
+				"730E73CB41894271"
+				"555F5354AAA471D1"
+				"126E4B156E3E4E3C"
+				"1365F63E345C774C"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67C908FD42CFC692"
+			rewards: [
+				{
+					count: 3
+					id: "4D2651CC79FE88EE"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E13A3946F9615DC"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6715C4E2D1FA0C81"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "528487A9C9A9F91D"
+			rewards: [{
+				count: 10
+				id: "74F5E0DD413A0B25"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EBCE86DE3E46E7E"
+				item: { count: 1, id: "mega_showdown:rotom_washing_machine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "116900D6B965721C"
+			rewards: [{
+				count: 10
+				id: "42F7CB93A799BDF4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66CE8326720BF788"
+				item: { count: 1, id: "mega_showdown:rotom_fan" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "7D27CCA2E79A3BE5"
+			rewards: [{
+				count: 10
+				id: "362888B876F8D328"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33F7144773A4C180"
+				item: { count: 1, id: "mega_showdown:rotom_mow" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "3454D6A2CDF01A79"
+			rewards: [{
+				count: 10
+				id: "7B6D772EEDA2AAB9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BFB4E24F7240851"
+				item: { count: 1, id: "mega_showdown:rotom_fridge" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "78B0C7C41A7A52E7"
+			rewards: [{
+				count: 10
+				id: "5B92BE75B55F07FA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0398B64B40A01CA3"
+				item: { count: 1, id: "mega_showdown:rotom_oven" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "126E4B156E3E4E3C"
+			rewards: [{
+				count: 2
+				id: "687F890FBDA55D7E"
+				item: {
+					count: 1
+					id: "modified:coinpile_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2B9469193D383AD1"
+				item: { count: 1, id: "mega_showdown:rotom_catalogue" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "1365F63E345C774C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D2DC5593F906493"
+				table_id: 1306244536609157783L
+				type: "random"
+			}]
+			tasks: [{
+				action: "catch,obtain"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "26E280CA874C1545"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:rotom"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 	]
 }

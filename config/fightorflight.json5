@@ -23,6 +23,8 @@
 	"always_aggro_below": -128.0,
 	// Pokemon stops running away if the hp is not full.
 	"stop_running_after_hurt": true,
+	// Wild pokemon will be slow down if the hp is not full.
+	"slow_down_after_hurt": false,
 	// Pokemon with these natures are slightly more aggressive.
 	"aggressive_nature": [
 		"sassy",
@@ -61,6 +63,8 @@
 	],
 	// The aggression multiplier for natures above.
 	"more_peaceful_nature_multiplier": -2.0,
+	// If the behavior data will work?(Still W.I.P, not avialable yet)
+	"enable_datapack_driven_behavior": true,
 	// Forms that will always be aggressive
 	"always_aggro_aspects": [
 		"alolan"
@@ -93,14 +97,28 @@
 		"turboblaze",
 		"teravolt"
 	],
+	// Whitelist for all pokemon.(won't influence the Poke Staff)
+	"all_pokemon_targeting_whitelist": [
+		"minecraft:villager"
+	],
+	// Whitelist for wild pokemon.
+	"wild_pokemon_targeting_whitelist": [],
+	// Whitelist for player owned pokemon.(won't influence the Poke Staff)
+	"player_owned_pokemon_targeting_whitelist": [],
 	// Allow the Pokemon to use the teleport move to flee if the Pokemon had learnt it?
 	"allow_teleport_to_flee": true,
 	// Do player Pokemon defend their owners when they attack or are attacked by other mobs?
 	"do_pokemon_defend_owner": true,
 	// Do player Pokemon defend their owners proactively? (follows the same rules as Iron Golems!!!)
 	"do_pokemon_defend_proactive": true,
+	// 0 zero means follow the same rule as Iron Golem. 1 means ignores neutral mobs that are not aiming at the player.
+	"pokemon_proactive_level": 1,
+	// The enemy detection radius for the pokemon to defend its owner.
+	"pokemon_defend_proactive_radius": 8.0,
 	// Do player Pokemon defend their owners from Creepers proactively?(Iron Golems won't attack Creeper proactively.
 	"do_pokemon_defend_creeper_proactive": false,
+	// If the player's cat pokemon will attack the creeper proactively(LivelierPokemon required) 
+	"do_cat_pokemon_defend_creeper_proactive": true,
 	// Can player Pokemon target other players? (EXPERIMENTAL)
 	"do_player_pokemon_attack_other_players": false,
 	// Can player Pokemon target other player's Pokemon? (EXPERIMENTAL)
@@ -128,7 +146,7 @@
 	// The minimum damage wild pokemon could do on hit
 	"minimum_attack_damage": 1.0,
 	// The maximum damage wild pokemon could do on hit
-	"maximum_attack_damage": 10.0,
+	"maximum_attack_damage": 50.0,
 	// Minimum damage multiplier player-owned pokemon would do
 	"minimum_attack_damage_player": 1.2000000476837158,
 	// Damage multiplier player-owned pokemon would do
@@ -143,6 +161,10 @@
 	"maximum_movement_speed": 2.0,
 	// The speed stat required for a pokemon to reach the highest fleeing and pursuing speed.The default value(548) is the max speed stat of a lvl.100 Regieleki with a beneficial nature.
 	"speed_stat_limit": 548,
+	// Use the classic type effect after hitting the enemy.(Levitate for the psychic type move,regeneration for grass type move)
+	"activate_type_effect": false,
+	// Use the move effect after hitting the enemy(Inferno will always burn the target, Flamethrower has a 10% chance to burn the target.)
+	"activate_move_effect": true,
 	// The maximum damage reduction wild pokemon can get from its defense/special defense(uses the highest one)
 	"max_damage_reduction_multiplier": 0.4000000059604645,
 	// The multiplier for player-owned Pokemon for maximum damage reduction
@@ -159,10 +181,14 @@
 	"minimum_ranged_attack_interval": 1.0,
 	// The maximum time between pokemons ranged attacks. In seconds.
 	"maximum_ranged_attack_interval": 3.0,
-	// Minimum damage wild pokemon will do with ranged attacks
+	// The minimum time between pokemons melee attacks. In seconds.
+	"minimum_melee_attack_interval": 1.0,
+	// The maximum time between pokemons melee attacks. In seconds.
+	"maximum_melee_attack_interval": 3.0,
+	// Minimum damage wild pokemon would do with ranged attacks
 	"minimum_ranged_attack_damage": 1.0,
 	// Maximum damage wild pokemon would do with ranged attacks
-	"maximum_ranged_attack_damage": 10.0,
+	"maximum_ranged_attack_damage": 50.0,
 	// Minimum damage multiplier player-owned pokemon would do with ranged attacks
 	"minimum_ranged_attack_damage_player": 1.2000000476837158,
 	// Damage multiplier player-owned pokemon would do with ranged attacks
@@ -171,6 +197,14 @@
 	"maximum_ranged_attack_damage_player": 1.2000000476837158,
 	// Special attack stat required to reach the maximum damage,the default value is calculated with 50 level, 130 stat, 252 EVs, IVs of 31, and a helpful nature.
 	"maximum_special_attack_stat": 200,
+	// If the pokemon type effectiveness will be activated outside standard Pokemon battle
+	"type_effectiveness_between_pokemon": true,
+	// Multiplier for super effective damage against the other Pokemon
+	"super_effective_multiplier": 2.0,
+	// Multiplier for not very effective damage against the other Pokemon
+	"not_very_effective_multiplier": 0.5,
+	// Multiplier for no effect damage against the other Pokemon
+	"no_effect_multiplier": 0.10000000149011612,
 	// Water type damage will be more effective on mobs like Blaze,Enderman,etc.
 	"water_type_super_effective_dmg_multiplier": 2.0,
 	// Fire type damage will be not very effective against fire immune entity.(set to 0 if you want a complete immune)
@@ -197,5 +231,14 @@
 	"mid_HP_required_stat": 160,
 	// HP stat needed to get maximum HP outside standard pokemon battle. The max hp of a Blissey is 714.
 	"max_HP_required_stat": 500,
-	"stay_after_move_command": true
+	// The Pokemon stays still after finishing the move command.
+	"stay_after_move_command": true,
+	// If the player need to hold a Poke Staff to use the command keybind
+	"should_check_poke_staff": true,
+	// If the pokemon can use held item(This config has the highest priority)
+	"can_use_held_item": true,
+	// If the pokemon can use damage-increasing held item
+	"can_use_held_item_damage_influencing": true,
+	// If the pokemon can use hp-restoring/damage-inflicting held item(Life Orb not included)
+	"can_use_held_item_hp_influencing": true
 }

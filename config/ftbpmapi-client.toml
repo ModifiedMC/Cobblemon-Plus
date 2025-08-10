@@ -11,9 +11,9 @@ enabled = true
 [supportLinks]
 	#Support links that can be configured for the built in support links
 	#The Discord link to open when the Discord button is clicked
-	discordLink = "https://discord.gg/k4jWHxy2M9"
+	discordLink = ""
 	#The GitHub link to open when the GitHub button is clicked
-	githubLink = "https://github.com/ModifiedMC/Cobblemon_Plus"
+	githubLink = ""
 
 [removeButtons]
 	#Remove buttons from the stock pause menu

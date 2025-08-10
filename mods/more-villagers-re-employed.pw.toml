@@ -1,13 +1,13 @@
 name = "More Villagers : Re-employed"
-filename = "morevillagers-re-1.21.x-neoforge-5.1.1.jar"
+filename = "morevillagers-re-1.21.1-neoforge-5.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "44119a44ac6159cde5c5d0daba7bebbf2f5e64d3"
+hash = "c9dd20a30024442f2694b99e2514152aeecba966"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6374809
+file-id = 6604919
 project-id = 1147438

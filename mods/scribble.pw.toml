@@ -1,0 +1,13 @@
+name = "Scribble"
+filename = "Scribble-1.5.1+mc1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e713547a837a80791f76fa92f21fc1ba41b6759e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6240188
+project-id = 1051344

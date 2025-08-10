@@ -12,7 +12,7 @@ _version = 3
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 64
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -389,7 +389,7 @@ _version = 3
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
+			rendererMode = "DISABLED"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 

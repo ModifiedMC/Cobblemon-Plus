@@ -6,6 +6,13 @@
     "resurrection",
     "fish"
   ],
+  "broadcast": [
+    "capture",
+    "ko",
+    "resurrection",
+    "fish",
+    "hatch"
+  ],
   "formOverrides": [
     {
       "fromSpecies": "cobblemon:aegislash",

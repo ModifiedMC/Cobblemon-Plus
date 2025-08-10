@@ -1,13 +1,13 @@
 name = "Luki's Crazy Chambers"
-filename = "lukis-crazy-chambers-1.0.jar"
+filename = "lukis-crazy-chambers-1.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7f0b04100aaed106cdcddc0a5b251ad19d1ed8a9"
+hash = "13dd6ca774c58b4ecca908b84af37e329cc2cb11"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5623227
+file-id = 6735758
 project-id = 1082929

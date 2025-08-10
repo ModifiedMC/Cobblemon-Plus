@@ -1,13 +1,13 @@
 name = "Extra Delight"
-filename = "extradelight-2.4.2.jar"
+filename = "extradelight-2.5.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2b91e0315bf6b7def23d16d494c209c90503af5e"
+hash = "bab77112555afe25759ddcf72dbb161b83c0c477"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6362163
+file-id = 6717470
 project-id = 842106

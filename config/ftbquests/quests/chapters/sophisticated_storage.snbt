@@ -1,4 +1,5 @@
 {
+	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_storage"
@@ -7,33 +8,21 @@
 		id: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
 	}
 	id: "0D50D729CD170633"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "64152EE3F297225F"
-			rewards: [
-				{
-					id: "6849F937CDA02FA3"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "1A666B9D249BFE34"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "432B0624806EA600"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "777FEF4AC640F217"
 				item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" }
@@ -45,29 +34,15 @@
 		{
 			dependencies: ["64152EE3F297225F"]
 			id: "77E612F76A8A1F83"
-			rewards: [
-				{
-					count: 2
-					id: "3F52F50AAB01EC54"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "25E9C7D937E7C34B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "651DA4F8172D9EB8"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "585D275549D23B48"
 				item: { count: 1, id: "sophisticatedstorage:advanced_pickup_upgrade" }
@@ -79,159 +54,95 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "5D601081791F7A0C"
-			rewards: [
-				{
-					id: "0A2966CC68CF4AD5"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "79A79E48E25AAA06"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "14053CE54A1F31A9"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DD02FD7C4D6F493"
 				item: { count: 1, id: "sophisticatedstorage:filter_upgrade" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -6.5d
+			x: -12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5D601081791F7A0C"]
 			id: "40280A98556B26E9"
-			rewards: [
-				{
-					count: 2
-					id: "43C51D81A44418F6"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "00C42E6C44C5A577"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "15DC4ED407A0F56A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A70013AA0729A50"
 				item: { count: 1, id: "sophisticatedstorage:advanced_filter_upgrade" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -6.5d
+			x: -12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "5F1AC6B2A062AFDA"
-			rewards: [
-				{
-					id: "2973142A94B46BAA"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "6EFF19FCD6431C05"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "5E34639733EB7728"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "45504E479A8F4FFD"
 				item: { count: 1, id: "sophisticatedstorage:magnet_upgrade" }
 				type: "item"
 			}]
 			x: -10.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5F1AC6B2A062AFDA"]
 			id: "7638D53ACA53EC4B"
-			rewards: [
-				{
-					count: 2
-					id: "120E814C12575D36"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "594893E850573AD8"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "13360912FF3EED07"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "11FA35CA7D042E68"
 				item: { count: 1, id: "sophisticatedstorage:advanced_magnet_upgrade" }
 				type: "item"
 			}]
 			x: -9.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "78C49CA6D052C342"
-			rewards: [
-				{
-					id: "4C1324DB1331B349"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "36536A315EFAEFCB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "0FCB67FDC09D7616"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F87B741CF808315"
 				item: { count: 1, id: "sophisticatedstorage:feeding_upgrade" }
@@ -243,29 +154,15 @@
 		{
 			dependencies: ["78C49CA6D052C342"]
 			id: "71A271DF91D08BD2"
-			rewards: [
-				{
-					count: 2
-					id: "2D5FDD973BA36DE0"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "3F9E1A68D8A14572"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "7C23E6F5CB4254B3"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C55E0EF9069C04D"
 				item: { count: 1, id: "sophisticatedstorage:advanced_feeding_upgrade" }
@@ -277,225 +174,135 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "45BDE84CAB41D68E"
-			rewards: [
-				{
-					id: "032C5F6FBD9909F9"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "1E4A246FB2576BDC"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "5B36195E8A0A80A1"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "31C15803733F96C8"
 				item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["45BDE84CAB41D68E"]
 			id: "78748C3CB4A0C0C6"
-			rewards: [
-				{
-					count: 2
-					id: "722611FDEC56E416"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "7FF087952346716E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "68F030AE6D36E516"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1397F432B54D6F3C"
 				item: { count: 1, id: "sophisticatedstorage:advanced_compacting_upgrade" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "62C183E12B83743D"
-			rewards: [
-				{
-					id: "75E6CD26281B6DE1"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "51E41D999A9C3831"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "37C72D6B013CA2F5"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A796CB74694BF91"
 				item: { count: 1, id: "sophisticatedstorage:void_upgrade" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["62C183E12B83743D"]
 			id: "76402128D51E5322"
-			rewards: [
-				{
-					count: 2
-					id: "3CD5AC11285410DD"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "6C4D2776C350695F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "346AA0A7C1E09F1B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DAC44788E005B8B"
 				item: { count: 1, id: "sophisticatedstorage:advanced_void_upgrade" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "07CDCC8EB6BFB3FC"
-			rewards: [
-				{
-					id: "36BB6115553A72B4"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "67E433CB45843460"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "5B3591C73A3549A4"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C0BB7D7D16E62DC"
 				item: { count: 1, id: "sophisticatedstorage:smelting_upgrade" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -15.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["07CDCC8EB6BFB3FC"]
 			id: "13908C0DDC9DBDB9"
-			rewards: [
-				{
-					count: 2
-					id: "1624E6CA485E981F"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "2D2260997CA82468"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "7E635D7D3983B70A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "322039140BBC058D"
 				item: { count: 1, id: "sophisticatedstorage:auto_smelting_upgrade" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -15.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "6400BEEA42218F85"
-			rewards: [
-				{
-					id: "16E0EF923FAE2019"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "33750C5ADD9164CE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "781EFFA6D944665D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "79797776BD1C19BB"
 				item: { count: 1, id: "sophisticatedstorage:smoking_upgrade" }
@@ -507,29 +314,15 @@
 		{
 			dependencies: ["6400BEEA42218F85"]
 			id: "250B172809F93288"
-			rewards: [
-				{
-					count: 2
-					id: "1CDCA47D4CDDFCAA"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "39D9564728DE22EB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "77981BADE1AEB6D1"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A1DD2BDFD482EEF"
 				item: { count: 1, id: "sophisticatedstorage:auto_smoking_upgrade" }
@@ -541,27 +334,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "719AFD5DD226BCA6"
-			rewards: [
-				{
-					id: "421DF894F23519CD"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "07CDFA3A45D19A24"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "40E1C23045D58DEB"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "38349FA65EFC35F7"
 				item: { count: 1, id: "sophisticatedstorage:blasting_upgrade" }
@@ -573,29 +354,15 @@
 		{
 			dependencies: ["719AFD5DD226BCA6"]
 			id: "6D0AAF8EB8F20C5D"
-			rewards: [
-				{
-					count: 2
-					id: "47657E64AFB00B06"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "464DB46E13134FB6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "4D6864D294089C99"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C047E50E0E4871E"
 				item: { count: 1, id: "sophisticatedstorage:auto_blasting_upgrade" }
@@ -607,62 +374,18 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "089DB3C6186D0E87"
-			rewards: [
-				{
-					id: "6CCF3D831D259816"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "1A266733A42EE236"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "1504A366D9548F29"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D68976FB318A45F"
 				item: { count: 1, id: "sophisticatedstorage:crafting_upgrade" }
-				type: "item"
-			}]
-			x: -15.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["555AB15F9FBB0727"]
-			id: "6D4D3DC114AB1784"
-			rewards: [
-				{
-					id: "759559977B629B4B"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-				{
-					id: "0CD03E28B5920919"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "45EB5DF03F7C7246"
-				item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" }
 				type: "item"
 			}]
 			x: -16.5d
@@ -670,28 +393,36 @@
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
+			id: "6D4D3DC114AB1784"
+			rewards: [{
+				count: 5
+				id: "4E9A75372B46FE64"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45EB5DF03F7C7246"
+				item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["555AB15F9FBB0727"]
 			id: "607047DE9EBB874D"
-			rewards: [
-				{
-					id: "518571593CCD1DFB"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "21B8F9B9C4C869D9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "3F47B7EE6FE54E12"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FEC0B56EC1B3F94"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
@@ -703,27 +434,15 @@
 		{
 			dependencies: ["607047DE9EBB874D"]
 			id: "1C456675C1043F25"
-			rewards: [
-				{
-					id: "54FFE6EDAFFDADC4"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 7
+				id: "2724C509813FC5E4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "791310A5111428C8"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "12F7DDF81EABBF80"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1_plus" }
@@ -735,27 +454,15 @@
 		{
 			dependencies: ["1C456675C1043F25"]
 			id: "7F7EBF0F0F794C37"
-			rewards: [
-				{
-					id: "17A4722C21D23744"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "11F4E892CFFB7279"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "6D2F94423F5AE335"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6144822A018E5BCA"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_2" }
@@ -767,29 +474,15 @@
 		{
 			dependencies: ["7F7EBF0F0F794C37"]
 			id: "476073F9FBE0DC38"
-			rewards: [
-				{
-					count: 3
-					id: "0D2CEB2DECA64798"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 25
+				id: "0AA5245AA8D91D87"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 2
-					id: "3AD4E12D1F9DA196"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "250D87E62B9DB850"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_3" }
@@ -801,29 +494,15 @@
 		{
 			dependencies: ["476073F9FBE0DC38"]
 			id: "6EAA0C774789DCF2"
-			rewards: [
-				{
-					count: 5
-					id: "1DA05A9148639146"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 50
+				id: "3D5C4154BCAEE4AF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 3
-					id: "419899BEB461CC53"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4119C29E7F5AB7EC"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_4" }
@@ -835,37 +514,14 @@
 		{
 			dependencies: ["6EAA0C774789DCF2"]
 			id: "5CC31396F40B17D1"
-			rewards: [
-				{
-					count: 10
-					id: "7AA0A281D6BCBB51"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				id: "1B945F87449A38F7"
+				item: {
+					count: 1
+					id: "modified:mtoken"
 				}
-				{
-					id: "08F1F6B743CC05DD"
-					item: {
-						count: 1
-						id: "sophisticatedstorage:stack_upgrade_tier_5"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "74F1A2E170312B29"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "76BD74E23B873370"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_5" }
@@ -877,28 +533,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "0CF5EF622F53179F"
-			rewards: [
-				{
-					count: 2
-					id: "1F9199ADA1AF2DE0"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5FF7BF65F9365AA2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "49D2F5BC51ABB539"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "57918E9A8054F9B6"
 				item: { count: 1, id: "sophisticatedstorage:jukebox_upgrade" }
@@ -910,27 +553,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "31470ED7AC7264C4"
-			rewards: [
-				{
-					id: "58203567C2621E9D"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "2444B60CAE7A63A5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "28DD70E70A257E02"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "38397B44A6E7B417"
 				item: { count: 1, id: "sophisticatedstorage:pump_upgrade" }
@@ -942,40 +573,15 @@
 		{
 			dependencies: ["31470ED7AC7264C4"]
 			id: "14418ECB4695C8D6"
-			rewards: [
-				{
-					count: 2
-					id: "1DAE0AF3F88F7615"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "0B04F0F1E4B1264C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "5D7B01ABADE0479A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7F40EB1911A458A1"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F073A32C1D74420"
 				item: { count: 1, id: "sophisticatedstorage:advanced_pump_upgrade" }
@@ -987,29 +593,6 @@
 		{
 			dependencies: ["14418ECB4695C8D6"]
 			id: "5CD8295567421070"
-			rewards: [
-				{
-					count: 3
-					id: "4D6D8223B6FC6309"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "12E86D42AE2B90C2"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "377B0BBFAFE4F878"
 				item: { count: 1, id: "sophisticatedstorage:xp_pump_upgrade" }
@@ -1021,59 +604,35 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "15C9A9EE0A38814F"
-			rewards: [
-				{
-					id: "55843F9BF48CA398"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "25AE2DB4D5F89DBD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "4960AABCDA8F6312"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "12C7107217159115"
 				item: { count: 1, id: "sophisticatedstorage:compression_upgrade" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: -3.5d
+			x: -10.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "733AEF0F877D5766"
-			rewards: [
-				{
-					id: "5B497FE01ECCC538"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "65CB12BD1742A6DE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "023281C63A676D39"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "021056F164F87E41"
 				item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" }
@@ -1085,254 +644,151 @@
 		{
 			dependencies: ["733AEF0F877D5766"]
 			id: "40CC45BF1870A879"
-			rewards: [
-				{
-					count: 2
-					id: "0A527A09ECBECB25"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "08F2BBEEA6B75ACB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "7BB32296B8FC792A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2150EEAC9AFF3711"
 				item: { count: 1, id: "sophisticatedstorage:advanced_hopper_upgrade" }
 				type: "item"
 			}]
-			x: -14.5d
-			y: -3.5d
+			x: -13.5d
+			y: -2.5d
 		}
 		{
 			id: "06AF3D049265A356"
-			rewards: [
-				{
-					id: "0B0915B5E335F1D0"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				id: "2C29CAAC8B375055"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "4666B2A98ABEA2AD"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "73FC211C1FBE89E1"
 				item: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
 				type: "item"
 			}]
-			x: -23.0d
-			y: -8.5d
+			x: -24.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06AF3D049265A356"]
 			id: "78C4602EA5B45CA7"
-			rewards: [
-				{
-					id: "16AE7DFADBFFA388"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "30E7B710D8A5CD47"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "378A04EE0A43A23E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "23F35CCE8485D24C"
 				item: { count: 1, id: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
 				type: "item"
 			}]
-			x: -22.0d
-			y: -8.5d
+			x: -23.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["78C4602EA5B45CA7"]
 			id: "3FD7B3E9FFEAA295"
-			rewards: [
-				{
-					id: "378F894A455689B0"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5DA7153A89CEE472"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "0019904A7E7702BB"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E94B88E08D1A737"
 				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
 				type: "item"
 			}]
-			x: -21.0d
-			y: -8.5d
+			x: -22.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3FD7B3E9FFEAA295"]
 			id: "4C10D485C0CDC462"
-			rewards: [
-				{
-					id: "2B25FE42C64E08DC"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "3E014379D6F537A4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "60B861B82CD9394B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E61532C4E727685"
 				item: { count: 1, id: "sophisticatedstorage:basic_to_gold_tier_upgrade" }
 				type: "item"
 			}]
-			x: -20.0d
-			y: -8.5d
+			x: -21.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C10D485C0CDC462"]
 			id: "7C9DD0046D774612"
-			rewards: [
-				{
-					count: 2
-					id: "4DFD2ADDAB334941"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 25
+				id: "05DD69F465B4FB7A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 3
-					id: "3789350266C77889"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "26257D51A06342AC"
 				item: { count: 1, id: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -8.5d
+			x: -20.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7C9DD0046D774612"]
 			id: "181427A01946ED3A"
-			rewards: [
-				{
-					count: 3
-					id: "4509E9990437B56F"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 50
+				id: "74FED702B0E4728E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					count: 5
-					id: "19C8D6DA99B9F930"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "64ACF01BA031EEF0"
 				item: { count: 1, id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -8.5d
+			x: -19.5d
+			y: -1.0d
 		}
 		{
 			id: "555AB15F9FBB0727"
-			rewards: [
-				{
-					id: "612C6E80AA6C0515"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				id: "612C6E80AA6C0515"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "29B3CC50CF0E64A2"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D87EC7E07A5A71E"
 				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
@@ -1344,28 +800,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "66B9F2A0CA2A4BBC"
-			rewards: [
-				{
-					count: 3
-					id: "5672408CB19AA8BC"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "03912F9A87FE1929"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "32985F061DE1189D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "20EB302B3387D948"
 				item: { count: 1, id: "sophisticatedstorage:chipped/botanist_workbench_upgrade" }
@@ -1377,28 +820,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "38493C6478F1B86F"
-			rewards: [
-				{
-					count: 3
-					id: "508764A57E46FAB4"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "6982F9F6B4AA60D2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "2BFD63AAFC9B2AE4"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C74C33304F0EBD9"
 				item: { count: 1, id: "sophisticatedstorage:chipped/glassblower_upgrade" }
@@ -1410,28 +840,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "6B002284EA4E6D76"
-			rewards: [
-				{
-					count: 3
-					id: "49929E8E18716537"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "27D5521BFBC52698"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "6DD926871AAC3037"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0761C75B16410326"
 				item: { count: 1, id: "sophisticatedstorage:chipped/carpenters_table_upgrade" }
@@ -1443,28 +860,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "4228A12222610800"
-			rewards: [
-				{
-					count: 3
-					id: "0BCC8E4D23AEAF02"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3050304398625A12"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "65D124FED9C10041"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "618CE21C661EB222"
 				item: { count: 1, id: "sophisticatedstorage:chipped/loom_table_upgrade" }
@@ -1476,28 +880,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "2CBEDC1534FAC6AE"
-			rewards: [
-				{
-					count: 3
-					id: "22FD402FA8136AC6"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "76F1AE0647F17F66"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "00305CDB87EB054C"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "182ACDFDD72C69E4"
 				item: { count: 1, id: "sophisticatedstorage:chipped/mason_table_upgrade" }
@@ -1510,28 +901,15 @@
 			dependencies: ["555AB15F9FBB0727"]
 			id: "6E7C1E2759806F7C"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "05E358EAC1325789"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "0E493D4B9E355059"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "28ED226C16765534"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "60429628AF30CFAA"
 				item: { count: 1, id: "sophisticatedstorage:chipped/alchemy_bench_upgrade" }
@@ -1543,28 +921,15 @@
 		{
 			dependencies: ["555AB15F9FBB0727"]
 			id: "44FB10C4B751BF6D"
-			rewards: [
-				{
-					count: 3
-					id: "7BF1AB072A3BD81B"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5081641581E2E6AB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "74290540E82BE33B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0035773BA55FEF21"
 				item: { count: 1, id: "sophisticatedstorage:chipped/tinkering_table_upgrade" }
@@ -1575,130 +940,266 @@
 		}
 		{
 			id: "0EBB3AF2C745B067"
-			rewards: [
-				{
-					id: "417C375C7530A497"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "18455182599115B3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "0C723E9C0148780A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "615C86A2C171331E"
 				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
-				type: "item"
-			}]
-			x: -21.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["596E7279DE886CA8"]
-			id: "6C68FB7EEA0AB95B"
-			rewards: [
-				{
-					id: "5ACC32A300967F8A"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-				{
-					id: "281FE9F7966BF0D6"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "63C8E8706550E2C0"
-				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
 				type: "item"
 			}]
 			x: -19.5d
 			y: -5.0d
 		}
 		{
+			dependencies: ["596E7279DE886CA8"]
+			id: "6C68FB7EEA0AB95B"
+			rewards: [{
+				count: 5
+				id: "3971B8DFDC3B0D37"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C8E8706550E2C0"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.5d
+		}
+		{
 			id: "596E7279DE886CA8"
-			rewards: [
-				{
-					id: "1437410C8907F97F"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				id: "11550F83A21E9F3C"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
 				}
-				{
-					count: 3
-					id: "3398377EBF0ED488"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "144C77B47776DCC0"
 				item: { count: 1, id: "sophisticatedstorage:controller" }
 				type: "item"
 			}]
-			x: -20.5d
-			y: -5.0d
+			x: -21.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["596E7279DE886CA8"]
 			id: "5FDAF21C72ADE73F"
-			rewards: [
-				{
-					id: "1DEB9DA00D98DF8C"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "4FC0A99F5A111D74"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
 				}
-				{
-					id: "410FDBF8E53FD249"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:greater_experience_gem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "02B984B5007A0418"
 				item: { count: 1, id: "sophisticatedstorage:storage_link" }
 				type: "item"
 			}]
-			x: -20.0d
-			y: -6.0d
+			x: -21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["555AB15F9FBB0727"]
+			id: "2F20B341E3FD6F04"
+			rewards: [{
+				count: 5
+				id: "57E76A809CDAF948"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F9CD4AA082564EB"
+				item: { count: 1, id: "sophisticatedstorage:alchemy_upgrade" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F20B341E3FD6F04"]
+			id: "0BF5D57D869A0A8C"
+			rewards: [{
+				count: 10
+				id: "243F5AFB0310D426"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07E4D925A4AACDBF"
+				item: { count: 1, id: "sophisticatedstorage:advanced_alchemy_upgrade" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CC31396F40B17D1"]
+			id: "5A973D27AEF17356"
+			rewards: [{
+				count: 3
+				id: "24450A8B433FA3A1"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D52FF5704F81476"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_omega_tier" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3FD7B3E9FFEAA295"
+				"5FDAF21C72ADE73F"
+				"53D288EF522F8AB4"
+				"596E7279DE886CA8"
+				"6C68FB7EEA0AB95B"
+				"181427A01946ED3A"
+				"06AF3D049265A356"
+				"78C4602EA5B45CA7"
+				"4C10D485C0CDC462"
+				"0EBB3AF2C745B067"
+				"7C9DD0046D774612"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/misc_icon/trophy_rect_gold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14F0F79B626D9350"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BFC6FE49547BE4E"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "4089ABFF49FFB21E"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "690957CE63AA0CBD"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"07CDCC8EB6BFB3FC"
+				"476073F9FBE0DC38"
+				"44FB10C4B751BF6D"
+				"719AFD5DD226BCA6"
+				"14418ECB4695C8D6"
+				"6400BEEA42218F85"
+				"5CC31396F40B17D1"
+				"66B9F2A0CA2A4BBC"
+				"15C9A9EE0A38814F"
+				"5F1AC6B2A062AFDA"
+				"1C456675C1043F25"
+				"250B172809F93288"
+				"76402128D51E5322"
+				"5A973D27AEF17356"
+				"2F20B341E3FD6F04"
+				"77E612F76A8A1F83"
+				"607047DE9EBB874D"
+				"7638D53ACA53EC4B"
+				"0CF5EF622F53179F"
+				"0BF5D57D869A0A8C"
+				"62C183E12B83743D"
+				"6D4D3DC114AB1784"
+				"31470ED7AC7264C4"
+				"6EAA0C774789DCF2"
+				"6E7C1E2759806F7C"
+				"4228A12222610800"
+				"6D0AAF8EB8F20C5D"
+				"733AEF0F877D5766"
+				"78748C3CB4A0C0C6"
+				"089DB3C6186D0E87"
+				"78C49CA6D052C342"
+				"5D601081791F7A0C"
+				"40280A98556B26E9"
+				"38493C6478F1B86F"
+				"13908C0DDC9DBDB9"
+				"40CC45BF1870A879"
+				"6B002284EA4E6D76"
+				"64152EE3F297225F"
+				"45BDE84CAB41D68E"
+				"71A271DF91D08BD2"
+				"5CD8295567421070"
+				"7F7EBF0F0F794C37"
+				"2CBEDC1534FAC6AE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53D288EF522F8AB4"
+			rewards: [
+				{
+					count: 3
+					id: "176BFA7FCE4359B7"
+					item: {
+						count: 1
+						id: "modified:mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE452DAAC1C8D3D"
+					table_id: 4334962057985762648L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2A3B827B0E6D6175"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -10.5d
 		}
 	]
 }

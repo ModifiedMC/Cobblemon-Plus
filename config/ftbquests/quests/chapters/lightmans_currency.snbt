@@ -1,4 +1,6 @@
 {
+	autofocus_id: "3CC292C6490FCBFA"
+	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lightmans_currency"
@@ -11,6 +13,1062 @@
 	}
 	id: "55606C3E0A76E6B8"
 	order_index: 0
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "541241D47D604483"
+		linked_quest: "49715D490B752014"
+		x: -6.5d
+		y: 2.5d
+	}]
+	quests: [
+		{
+			id: "2113F43870B92BCB"
+			rewards: [{
+				count: 25
+				id: "201153A033C1C482"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "004EC7730FD558C8"
+				item: { count: 1, id: "lightmanscurrency:atm" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "6586F11D847B8EA4"
+			rewards: [{
+				count: 5
+				id: "07EAE39CE3C96DCD"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E9430EBF17E1A1A"
+				item: { count: 1, id: "lightmanscurrency:portable_atm" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "183AC27998E6DC38"
+			rewards: [{
+				count: 50
+				id: "0268D32FE05515A9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0449109065F4506A"
+				item: { components: { "lightmanscurrency:wallet_data": { AutoExchange: 1b, BonusSlots: 0, Items: [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ] } }, count: 1, id: "lightmanscurrency:wallet_nether_star" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "3989E5F2051ED738"
+			rewards: [{
+				count: 5
+				id: "0892D856169EFB39"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "35A59B9CF3952C73"
+				item: { count: 1, id: "lightmanscurrency:coin_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			id: "1F071775C50BACC0"
+			rewards: [{
+				count: 5
+				id: "339722178BE1506E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55125883FB708CBE"
+				item: { count: 1, id: "lightmanscurrency:coin_chest_exchange_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "1245283850A4D130"
+			rewards: [{
+				count: 5
+				id: "75AC35F2EF8262FF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32CB9081A0596865"
+				item: { count: 1, id: "lightmanscurrency:coin_chest_bank_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "6DD7840868209D9B"
+			rewards: [{
+				count: 5
+				id: "57588DFA291BC5AE"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "642165DB47D0F54F"
+				item: { count: 1, id: "lightmanscurrency:coin_chest_security_upgrade" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:item/enchanted_book"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0ECAC6F0C686F8C4"
+			rewards: [{
+				id: "1DE7C43939466077"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7926327461CE43A0"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			id: "4AA91831F6D6858C"
+			rewards: [{
+				count: 99
+				id: "65D77F3A99CF7B21"
+				item: {
+					count: 1
+					id: "cobblemon:relic_coin"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0DF28EB3347473E4"
+				item: { count: 1, id: "modified:pokedollar" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cobblemon:relic_coin"
+			}
+			id: "3CC292C6490FCBFA"
+			rewards: [{
+				count: 6
+				id: "0F904EB3F806AA9C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "67F5B6E44A0BBE78"
+				item: { count: 50, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			icon: {
+				id: "modified:pokedollar"
+			}
+			icon_scale: 2.0d
+			id: "7BC83E1C825581CD"
+			rewards: [{
+				id: "0644369D11F9566A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 4.0d
+			tasks: [{
+				id: "2CEADAA3C6AFBB1B"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "modified:mtoken"
+			}
+			id: "141B30642F9A2655"
+			rewards: [{
+				id: "15E4CCB90BC4EFA8"
+				item: {
+					count: 1
+					id: "modified:mtoken"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "597AE8701995B16F"
+				item: { count: 3, id: "modified:coinblock_pokedollar" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "2E14DCC7421A573A"
+			rewards: [{
+				count: 5
+				id: "5E74D675E0F6F30F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4C94B0BEF82CAAC5"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:trader)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/particle/request/icon_team.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B6B590B9FDEE095"
+			rewards: [{
+				id: "3E4A78F6C0FABF12"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0679AC5827E8A6FB"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "01EEDFCCFC6294C1"
+			rewards: [{
+				count: 5
+				id: "7B23E3E5B8F1345A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E2F91592B46458D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/display_case)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "468AA7332C642CD4"
+			rewards: [{
+				count: 5
+				id: "1B1C32897C2129B3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DA76652C3006AC7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/card_display)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "392958B671649821"
+			rewards: [{
+				count: 5
+				id: "3C494D29EE7E87CF"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B4780C997D5D31"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/shelf)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "0FDF103F598F589A"
+			rewards: [{
+				count: 5
+				id: "03E509727D16405D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "655188DDBE77A96C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/shelf_2x2)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "286FEA12AAD2A0F4"
+			rewards: [{
+				count: 5
+				id: "7BC62BC59847AD46"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3098BF9E23E7AD0D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/vending_machine)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "001000EC8168B472"
+			rewards: [{
+				count: 5
+				id: "7FB0676B626CFF60"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28D6BA71A2AD574B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/freezer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "24F57519916C5B0E"
+			rewards: [{
+				count: 5
+				id: "7870DAF66CFE67DA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C51A18BECCFA0A2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/large_vending_machine)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "0D7E1DB20A714001"
+			rewards: [{
+				count: 5
+				id: "756121FE68170A1D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3402A0F62EC52908"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/armor_display)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "473A6E6B6C37D2EF"
+			rewards: [{
+				count: 5
+				id: "4EA7F74C2C90BD4A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B2259837A10E33"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/bookshelf)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "4ABEBBD81BE7D163"
+			rewards: [{
+				count: 5
+				id: "4E97307599158695"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F87F8DEDD4EBB9E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/gacha_machine)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "2BE7CE3293059396"
+			rewards: [{
+				count: 5
+				id: "18EBCADF7E2B3B46"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7926F1391A0869F1"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/paygate)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "1BB8A7DD5328BCD5"
+			rewards: [{
+				count: 5
+				id: "7B5141580DE35F2A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BFC4FFCCB3C85A6"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/slot_machine)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "36FBF602231FEAD2"
+			rewards: [{
+				count: 5
+				id: "58820AD058719224"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E3669281B5F2FCD"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/special/ticket_kiosk)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "6BA76FF4D89CB3CF"
+			rewards: [{
+				count: 25
+				id: "5B761960D70484D5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "08B9515B1EA57055"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:auction_stand)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "030FD3D61D3BB79D"
+			rewards: [{
+				count: 10
+				id: "131A121A5DADAC4A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F91436FBD2AD4D"
+				item: { count: 1, id: "lightmanscurrency:trading_core" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "3AA0A99F5F9B05CF"
+			rewards: [{
+				count: 5
+				id: "4EDAA2614765A54B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C96A6C8DB225E8"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(lightmanscurrency:traders/network/item)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "572B15751BE671F0"
+			rewards: [{
+				count: 5
+				id: "494EABBD1D13230C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B7485CB31B45C19"
+				item: { count: 1, id: "lightmanscurrency:terminal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "279FA87AFA663597"
+			rewards: [{
+				count: 5
+				id: "36F64103BEA1C8E9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07811DE3D910E4C7"
+				item: { count: 1, id: "lightmanscurrency:item_trader_interface" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "16321741BF3C5B63"
+			rewards: [{
+				count: 5
+				id: "3C5991713F7B8948"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F0A3E8916199016"
+				item: { count: 1, id: "lightmanscurrency:item_capacity_upgrade_1" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "0844AC35F8C4DE30"
+			rewards: [{
+				count: 5
+				id: "36ABAB7659C94164"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27F5EA60A7C07D6D"
+				item: { count: 1, id: "lightmanscurrency:item_capacity_upgrade_2" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "6A8AAFFA4568155D"
+			rewards: [{
+				count: 5
+				id: "45199E30F232D24B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B46A3FC43903D21"
+				item: { count: 1, id: "lightmanscurrency:item_capacity_upgrade_3" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "212458FDD06C9889"
+			rewards: [{
+				count: 5
+				id: "646FBF4D91B52676"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "119466142FA56DE7"
+				item: { count: 1, id: "lightmanscurrency:item_capacity_upgrade_4" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "3AAFCC93CF3F84DF"
+			rewards: [{
+				count: 5
+				id: "21C9FDDFA28360C0"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "596D7A336B61FA88"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_1" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "6EAFA9DFA22E4212"
+			rewards: [{
+				count: 5
+				id: "37705E9E01DC1CA4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C639EADBF6B79DB"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_2" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "21DB1063EA9D0FE2"
+			rewards: [{
+				count: 5
+				id: "76ABF488F978EE8C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A7A82F7A0E4A981"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_3" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "7E62CDBFD8306B71"
+			rewards: [{
+				count: 5
+				id: "06F7BFB2DE04EE43"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF5F81A951B1975"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_4" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "5DD4FEA5B7C83F3A"
+			rewards: [{
+				count: 5
+				id: "356DB28BACE79A61"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43A5A1A89322C915"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_5" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "32285B8F25E8627D"
+			rewards: [{
+				count: 5
+				id: "0C076D6E0CAFD4A1"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30E1BCD6CB71A5BA"
+				item: { count: 1, id: "lightmanscurrency:offer_upgrade_6" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "3175C07E070D1826"
+			rewards: [{
+				count: 5
+				id: "679BC8139B50EB0D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "637C02818D649BE8"
+				item: { count: 1, id: "lightmanscurrency:network_upgrade" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "7023359C4AA7C3A0"
+			rewards: [{
+				count: 5
+				id: "28569B65EB4DE9B2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "703F64D7D0228E19"
+				item: { count: 1, id: "lightmanscurrency:speed_upgrade_1" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			id: "52762C83A1F06CD9"
+			rewards: [{
+				count: 5
+				id: "4E0215A2868C23F9"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0638CCEDC1583244"
+				item: { count: 1, id: "lightmanscurrency:speed_upgrade_2" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			id: "3AF4D1F86398EC1B"
+			rewards: [{
+				count: 5
+				id: "45BF322146053E20"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78986F48D7BC8658"
+				item: { count: 1, id: "lightmanscurrency:speed_upgrade_3" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			id: "75DCFCDD24F42F97"
+			rewards: [{
+				count: 5
+				id: "29BD9D31FF837A91"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05E4FC83F2C5B601"
+				item: { count: 1, id: "lightmanscurrency:speed_upgrade_4" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			id: "14A0A4D5ECDF56FE"
+			rewards: [{
+				count: 5
+				id: "42B5D4FF8C628F7E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C38F331FA9A209"
+				item: { count: 1, id: "lightmanscurrency:speed_upgrade_5" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "10C4A13F85DC2264"
+			rewards: [{
+				count: 5
+				id: "0656A85D16FD1F02"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24011830A2F924D7"
+				item: { count: 1, id: "lightmanscurrency:hopper_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6BA76FF4D89CB3CF"
+				"01EEDFCCFC6294C1"
+				"5DD4FEA5B7C83F3A"
+				"0844AC35F8C4DE30"
+				"473A6E6B6C37D2EF"
+				"468AA7332C642CD4"
+				"24F57519916C5B0E"
+				"3AF4D1F86398EC1B"
+				"279FA87AFA663597"
+				"1BB8A7DD5328BCD5"
+				"7E62CDBFD8306B71"
+				"183AC27998E6DC38"
+				"3175C07E070D1826"
+				"7B6B590B9FDEE095"
+				"16321741BF3C5B63"
+				"141B30642F9A2655"
+				"32285B8F25E8627D"
+				"36FBF602231FEAD2"
+				"7023359C4AA7C3A0"
+				"1F071775C50BACC0"
+				"212458FDD06C9889"
+				"0D7E1DB20A714001"
+				"4AA91831F6D6858C"
+				"10C4A13F85DC2264"
+				"6586F11D847B8EA4"
+				"6A8AAFFA4568155D"
+				"2BE7CE3293059396"
+				"21DB1063EA9D0FE2"
+				"572B15751BE671F0"
+				"6EAFA9DFA22E4212"
+				"7BC83E1C825581CD"
+				"14A0A4D5ECDF56FE"
+				"2113F43870B92BCB"
+				"49715D490B752014"
+				"392958B671649821"
+				"286FEA12AAD2A0F4"
+				"52762C83A1F06CD9"
+				"3AAFCC93CF3F84DF"
+				"3989E5F2051ED738"
+				"75DCFCDD24F42F97"
+				"4ABEBBD81BE7D163"
+				"6DD7840868209D9B"
+				"001000EC8168B472"
+				"1245283850A4D130"
+				"3AA0A99F5F9B05CF"
+				"3CC292C6490FCBFA"
+				"2E14DCC7421A573A"
+				"0FDF103F598F589A"
+				"0ECAC6F0C686F8C4"
+				"030FD3D61D3BB79D"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "53FA409E6D43B4BD"
+			rewards: [
+				{
+					id: "490659D9CE31D4DA"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20E655154B227424"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5B4784752165ACC8"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+	]
 }

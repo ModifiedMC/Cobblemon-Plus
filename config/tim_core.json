@@ -1,0 +1,7 @@
+{
+  "expAllMultiplier": 1.0,
+  "enableExpAll": true,
+  "forceExpAll": false,
+  "addBucketToData": true,
+  "debug": false
+}

@@ -1,0 +1,12 @@
+{
+	id: "0F4FDB5FE6E64C71"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{ id: "1ED2C152F980DF74", item: { count: 1, id: "weavers_cosmetics_cosplay:pkmn_trainer_red_helmet" } }
+		{ id: "4F787DF0F67FBE9A", item: { count: 1, id: "weavers_cosmetics_cosplay:pkmn_trainer_blue_helmet" } }
+		{ id: "102A2498F64C4F86", item: { count: 1, id: "weavers_cosmetics_cosplay:pkmn_trainer_green_helmet" } }
+		{ id: "4039C126379C1E97", item: { count: 1, id: "weavers_cosmetics_cosplay:pkmn_trainer_yellow_helmet" } }
+		{ id: "7719F91497041C2A", item: { count: 1, id: "weavers_cosmetics_cosplay:pkmn_trainer_pink_helmet" } }
+	]
+}

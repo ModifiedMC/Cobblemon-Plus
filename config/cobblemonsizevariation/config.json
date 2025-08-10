@@ -1,0 +1,14 @@
+{
+  "sizeModificationChance": 0.5,
+  "preventShoulderMountSize": 1.5,
+  "permissions": [
+    {
+      "cobblemonsizevariation.command.pokesizer": 2
+    },
+    {
+      "cobblemonsizevariation.command.pokesizer.self": 2
+    }
+  ],
+  "sizingAlgorithm": "basic",
+  "biasSizeTowardAverage": false
+}

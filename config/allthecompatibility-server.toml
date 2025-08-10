@@ -2,3 +2,8 @@
 [general]
 	#Enables ingame rewards on first spawn for Patreons
 	patreon_rewards = true
+
+#Content
+[content]
+	#AllTheOres only generates shards, clumps & dirty dusts if Mekanism is installed, this makes many ATC recipes invalid, so ATC lets them generate even if Mekanism is not installed
+	mekanism_compatibility_items = true

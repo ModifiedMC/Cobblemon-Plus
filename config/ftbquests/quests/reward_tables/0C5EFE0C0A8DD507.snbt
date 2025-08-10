@@ -1,0 +1,111 @@
+{
+	id: "0C5EFE0C0A8DD507"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			count: 4
+			id: "0AC40096FCB8444A"
+			item: {
+				count: 1
+				id: "simplyswords:runic_tablet"
+			}
+		}
+		{
+			count: 2
+			id: "490F476DF931DF35"
+			item: {
+				count: 1
+				id: "simplyswords:empowered_remnant"
+			}
+		}
+		{ id: "396D08A330139D26", item: { count: 1, id: "simplyswords:wraithfang" } }
+		{ id: "1334F2C85FB9730D", item: { count: 1, id: "simplyswords:caelestis" } }
+		{
+			id: "73564DA09F3DA33B"
+			item: {
+				count: 1
+				id: "simplyswords:magiblade"
+			}
+			weight: 0.44f
+		}
+		{
+			id: "02639C5FF58AB9E5"
+			item: {
+				count: 1
+				id: "simplyswords:magispear"
+			}
+			weight: 0.44f
+		}
+		{ id: "19AEE55F0A45C8C5", item: { count: 1, id: "simplyswords:enigma" } }
+		{
+			id: "4816C73FD490633E"
+			item: {
+				count: 1
+				id: "simplyswords:magiscythe"
+			}
+			weight: 0.44f
+		}
+		{ id: "323C9FF3DACFF66C", item: { count: 1, id: "simplyswords:decaying_relic" } }
+		{ id: "62F3D3EE9EC0205A", item: { count: 1, id: "simplyswords:ribboncleaver" } }
+		{ id: "0B25C15355212A28", item: { count: 1, id: "simplyswords:flamewind" } }
+		{ id: "5A5875A5C8D77C16", item: { count: 1, id: "simplyswords:tempest" } }
+		{ id: "19EEC7E16F5FC386", item: { count: 1, id: "simplyswords:wickpiercer" } }
+		{ id: "335EB15340D8D34F", item: { count: 1, id: "simplyswords:stars_edge" } }
+		{ id: "4AB150E90167A2C5", item: { count: 1, id: "simplyswords:hiveheart" } }
+		{ id: "2F87988915BF833D", item: { count: 1, id: "simplyswords:waxweaver" } }
+		{ id: "42558BF202D58921", item: { count: 1, id: "simplyswords:emberlash" } }
+		{ id: "5127A30C7398C31C", item: { count: 1, id: "simplyswords:whisperwind" } }
+		{
+			id: "38EEA50C2D2447DA"
+			item: {
+				count: 1
+				id: "simplyswords:harbinger"
+			}
+			weight: 0.44f
+		}
+		{
+			id: "397B65ACD5B498F7"
+			item: {
+				count: 1
+				id: "simplyswords:sunfire"
+			}
+			weight: 0.44f
+		}
+		{ id: "605E2CC227372FFA", item: { count: 1, id: "simplyswords:tainted_relic" } }
+		{ id: "65300A1A08AEBFA0", item: { count: 1, id: "simplyswords:righteous_relic" } }
+		{ id: "1B09154B7AC724B7", item: { count: 1, id: "simplyswords:dormant_relic" } }
+		{ id: "7FC254C901B427F8", item: { count: 1, id: "simplyswords:shadowsting" } }
+		{
+			id: "26A5011B5A6FD8C0"
+			item: {
+				count: 1
+				id: "simplyswords:awakened_lichblade"
+			}
+			weight: 0.44f
+		}
+		{ id: "65F91D0A6E5887A8", item: { count: 1, id: "simplyswords:waking_lichblade" } }
+		{ id: "2C0F3993357E70B3", item: { count: 1, id: "simplyswords:slumbering_lichblade" } }
+		{ id: "7F0A208D33D07238", item: { count: 1, id: "simplyswords:mjolnir" } }
+		{ id: "3E1F686419E0495C", item: { count: 1, id: "simplyswords:thunderbrand" } }
+		{ id: "1B96F55C2B350470", item: { count: 1, id: "simplyswords:arcanethyst" } }
+		{ id: "476898FCE846AE99", item: { count: 1, id: "simplyswords:icewhisper" } }
+		{ id: "371DAB62E5BA18DE", item: { count: 1, id: "simplyswords:livyatan" } }
+		{ id: "55228FC7CAC67F24", item: { count: 1, id: "simplyswords:molten_edge" } }
+		{ id: "6189B01D6949E22A", item: { count: 1, id: "simplyswords:frostfall" } }
+		{ id: "4BEC111E3F9C609B", item: { count: 1, id: "simplyswords:soulpyre" } }
+		{ id: "5C8ACA2CA7F5E948", item: { count: 1, id: "simplyswords:soulrender" } }
+		{ id: "045BA784D700BE4D", item: { count: 1, id: "simplyswords:soulstealer" } }
+		{ id: "56F126A16FC5619D", item: { count: 1, id: "simplyswords:twisted_blade" } }
+		{ id: "0EC942396A29F437", item: { count: 1, id: "simplyswords:soulkeeper" } }
+		{ id: "5F69A99B0486D6D4", item: { count: 1, id: "simplyswords:hearthflame" } }
+		{ id: "67430E52622F2C4A", item: { count: 1, id: "simplyswords:emberblade" } }
+		{ id: "02E3DACC6D519C0F", item: { count: 1, id: "simplyswords:toxic_longsword" } }
+		{ id: "17E1577B5553A761", item: { count: 1, id: "simplyswords:watching_warglaive" } }
+		{ id: "73BB9A9C09F7C7A5", item: { count: 1, id: "simplyswords:bramblethorn" } }
+		{ id: "173910AA9E9B097F", item: { count: 1, id: "simplyswords:stormbringer" } }
+		{ id: "3EF6E9855224E9E4", item: { count: 1, id: "simplyswords:storms_edge" } }
+		{ id: "5D365D23EAA46EEA", item: { count: 1, id: "simplyswords:watcher_claymore" } }
+		{ id: "48C56E3EBF59594C", item: { count: 1, id: "simplyswords:brimstone_claymore" } }
+	]
+}

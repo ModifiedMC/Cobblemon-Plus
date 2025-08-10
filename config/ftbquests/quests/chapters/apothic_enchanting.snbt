@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_enchanting"
+	group: "29492D17252C54A8"
+	icon: {
+		components: {
+			"ftbquests:icon": "apothic_enchanting:blocks/blazing_hellshelf"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3A540E4A05F9C254"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "538FA4343DBE25A1"
+			rewards: [{
+				count: 25
+				id: "4EDDBE2290017F7C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4AB060DEAA4A52"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["538FA4343DBE25A1"]
+			id: "4CB426CB4F9FE862"
+			rewards: [{
+				count: 5
+				id: "183A8C410C468D7D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE0C5DBF860BE01"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["538FA4343DBE25A1"]
+			id: "1289DBC3B069002E"
+			rewards: [{
+				count: 5
+				id: "00E9501574061140"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25272D46CC070BFE"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4CB426CB4F9FE862"
+				"1289DBC3B069002E"
+			]
+			id: "64361D5EB8314B2A"
+			tasks: [{
+				id: "1AAC725077D79539"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "6DCC2B10A11F316A"
+			rewards: [{
+				count: 20
+				id: "6FCDA0EFE69B9294"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DF43A99576B8C55"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "093B223AC0CE1B02"
+			rewards: [{
+				count: 20
+				id: "35E3ECDA1D6C22F3"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D176AD3B4EAD20"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "75B174A119D7EE32"
+			rewards: [{
+				count: 20
+				id: "1C7A9C33AD0E11E2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37BCDFDDC5E41D7F"
+				item: { count: 1, id: "apothic_enchanting:dormant_deepshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "10EAD6FDD8EF53FF"
+			rewards: [{
+				count: 20
+				id: "14B300EBD8EDC6B2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CAD8A5ADDDDCD81"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DCC2B10A11F316A"]
+			id: "5BB092FE082E0182"
+			rewards: [{
+				count: 25
+				id: "017FDE3C32BFA17E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F0083C727E88983"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5BB092FE082E0182"]
+			id: "40D7E5616BAD1667"
+			rewards: [{
+				count: 20
+				id: "127C53B68E938DAB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "676DA7549186A7A1"
+				item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5BB092FE082E0182"]
+			id: "7038ADDBE4BDF0A6"
+			rewards: [{
+				count: 20
+				id: "0097046A7E97EB4C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ADA9B2EA307F367"
+				item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["093B223AC0CE1B02"]
+			id: "08072808A9F111A7"
+			rewards: [{
+				count: 25
+				id: "3D7EC2FE2A29A58B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "648BD97AFA2C21A7"
+				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08072808A9F111A7"]
+			id: "7B3194B98544861B"
+			rewards: [{
+				count: 20
+				id: "5841958228FEAD9B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "451247D9DFBE33C5"
+				item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08072808A9F111A7"]
+			id: "6DE78725BAD0A3A2"
+			rewards: [{
+				count: 20
+				id: "403AEBEDDA6361F2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CDBFE16E7A33845"
+				item: { count: 1, id: "apothic_enchanting:heart_seashelf" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["75B174A119D7EE32"]
+			id: "686B1405D2FDADD6"
+			rewards: [{
+				count: 25
+				id: "443889B65DAA0FC2"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A730D5247B55851"
+				item: { count: 1, id: "apothic_enchanting:deepshelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["686B1405D2FDADD6"]
+			id: "15D632129EE5C5E3"
+			rewards: [{
+				count: 20
+				id: "7595C5EE7293806B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C3FF2B2F883C9A0"
+				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["686B1405D2FDADD6"]
+			id: "5D56EDEBBEF8D582"
+			rewards: [{
+				count: 20
+				id: "63C19629C9598D10"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44A8E801D2C236BA"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15D632129EE5C5E3"]
+			id: "0F392A1D1C7505B9"
+			rewards: [{
+				count: 20
+				id: "7C767CC897DDD5F4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02F3F00BD0B60AE6"
+				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5D56EDEBBEF8D582"]
+			id: "35A1BEC107E8479F"
+			rewards: [{
+				count: 20
+				id: "59522648E704F1FB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64B7C3735B553FF3"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["10EAD6FDD8EF53FF"]
+			id: "0C882195F6A8CB6E"
+			rewards: [{
+				count: 20
+				id: "4675654C2AEA1B27"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FBB83991821706E"
+				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["10EAD6FDD8EF53FF"]
+			id: "14A401AB4C135BA8"
+			rewards: [{
+				count: 20
+				id: "0D2445F2EB1E0042"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE72A9E8018646C"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08072808A9F111A7"]
+			id: "34D772219875FE79"
+			rewards: [{
+				count: 20
+				id: "45E3C3B64380B762"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "446781FA372E291C"
+				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5BB092FE082E0182"]
+			id: "387DCECB4821FFD9"
+			rewards: [{
+				count: 20
+				id: "1D093D09BB06C872"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA13E4105406208"
+				item: { count: 1, id: "apothic_enchanting:sightshelf" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["387DCECB4821FFD9"]
+			id: "1924735252DD9A95"
+			rewards: [{
+				count: 25
+				id: "3E878162B831472B"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A1984473D16EA9B"
+				item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["686B1405D2FDADD6"]
+			id: "390CDCDA582A8757"
+			rewards: [{
+				count: 25
+				id: "689A1E48386F71C4"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F46D49411F1741D"
+				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "4C582FEE14F7DAE5"
+			rewards: [{
+				count: 20
+				id: "4A0C73840009F5B7"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5751512FE392CA96"
+				item: { count: 1, id: "apothic_enchanting:stoneshelf" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "3776199BB22FB522"
+			rewards: [{
+				count: 20
+				id: "17B13B077CDC333D"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4062EDF7EBA7EEA6"
+				item: { count: 1, id: "apothic_enchanting:beeshelf" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "538739A07D8039A3"
+			rewards: [{
+				count: 20
+				id: "668B7FB2E6223507"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C657B757A97BB40"
+				item: { count: 1, id: "apothic_enchanting:melonshelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64361D5EB8314B2A"]
+			id: "649B29BC64D1090A"
+			rewards: [{
+				count: 20
+				id: "56315180A43313A5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "592A0B50E2A3C291"
+				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "741F03EECE5D3C04"
+			rewards: [{
+				count: 20
+				id: "4C1A3D61339E8F03"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1201506A964017CD"
+				item: { count: 1, id: "apothic_enchanting:helmet_tome" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "76A36979B79EBA31"
+			rewards: [{
+				count: 20
+				id: "7BE532180669ACA6"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05757FAA4A741B10"
+				item: { count: 1, id: "apothic_enchanting:chestplate_tome" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "1B763C6859C9049C"
+			rewards: [{
+				count: 20
+				id: "7D5BB6AB00D9C909"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18FDE98225DABF09"
+				item: { count: 1, id: "apothic_enchanting:leggings_tome" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "6D302B2D70E51A00"
+			rewards: [{
+				count: 20
+				id: "32EF51F0FD77C1BA"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3118D07B62D617A2"
+				item: { count: 1, id: "apothic_enchanting:boots_tome" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["538FA4343DBE25A1"]
+			id: "09DA8C18724AE7EB"
+			rewards: [{
+				count: 5
+				id: "4BAC6D8E50D2A71F"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C4D9BA895C1497A"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "5BD37D9480DC8D36"
+			rewards: [{
+				count: 20
+				id: "6BB38C407E4FC8B5"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "008047F800F34815"
+				item: { count: 1, id: "apothic_enchanting:weapon_tome" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "183AE67FCC1ACFBD"
+			rewards: [{
+				count: 20
+				id: "2DC1E6761E827356"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "167C13FF05A9B297"
+				item: { count: 1, id: "apothic_enchanting:bow_tome" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "31406F39802E3EC8"
+			rewards: [{
+				count: 20
+				id: "6DF1E6EED17FE559"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "296999A912264984"
+				item: { count: 1, id: "apothic_enchanting:pickaxe_tome" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "54BDF1B47A87A15E"
+			rewards: [{
+				count: 20
+				id: "50199FEEF84A8787"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E6F4825F5B53895"
+				item: { count: 1, id: "apothic_enchanting:fishing_tome" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09DA8C18724AE7EB"]
+			id: "13DB920F401619AF"
+			rewards: [{
+				count: 20
+				id: "23B8EF13954BB01C"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62598B06BF94F5B0"
+				item: { count: 1, id: "apothic_enchanting:other_tome" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["538FA4343DBE25A1"]
+			id: "072AD0FD23E0C283"
+			rewards: [{
+				count: 5
+				id: "464BE7E355AC7C2E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "733113D7305EAF3C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072AD0FD23E0C283"]
+			id: "643BD91CEEA23C8F"
+			rewards: [{
+				count: 20
+				id: "1945F7EE02D0A21E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B296D9243D876CB"
+				item: { count: 1, id: "apothic_enchanting:scrap_tome" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["072AD0FD23E0C283"]
+			id: "57472646BBCAE630"
+			rewards: [{
+				count: 20
+				id: "3E84964B01CA8125"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B3345F9FF6EE58"
+				item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072AD0FD23E0C283"]
+			id: "72AE5DD47759C7E4"
+			rewards: [{
+				count: 20
+				id: "6DE121679710DC42"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E2430A958B6EF6B"
+				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["538FA4343DBE25A1"]
+			id: "71CBAA8C9CF31D34"
+			rewards: [{
+				count: 25
+				id: "19BD1A52554A29BB"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57B598DDB98831C4"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71CBAA8C9CF31D34"]
+			id: "3440869EEB16932A"
+			rewards: [{
+				count: 25
+				id: "376AD8949473CB7A"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5259F3E7644A938B"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "2BFC236C6AB6F169"
+			rewards: [{
+				count: 20
+				id: "440EA6EE507E722E"
+				item: {
+					count: 1
+					id: "modified:pokedollar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BC86AFDB87280C8"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+	]
+}

@@ -4,6 +4,9 @@
 	sr_edit_mode = false
 
 	[Settings.Visuals]
+		#This config controls the list of shapes appearing on the screen.If set to ALL, it will show all shapes including blacklisted ones.If set to ENABLED_SHAPES, it will show only non-blacklisted shapes.
+		#Allowed Values: ALL, ENABLED_SHAPES
+		shape_selector_filter = "ALL"
 		#Toggles the drop shadow effect on text in the Skills Record screen.
 		#When enabled, text will have a subtle shadow for better readability.
 		text_screen_shadow = true

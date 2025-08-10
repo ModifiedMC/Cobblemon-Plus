@@ -1,8 +1,17 @@
 {
   "screenScale": 1.0,
+  "enableBlurEffect": true,
   "sendErrorMessagesToChat": true,
   "obscureUnknownPokemon": true,
   "useSwimmingAnimationIfSubmerged": true,
   "pokefinderOverlayOffset": 10,
-  "trackArrowYOffset": 80
+  "trackArrowYOffset": 80,
+  "maxCloudNumber": 12,
+  "maxCloudVelocity": 6,
+  "collectableClientConditions": {
+    "encounter": true,
+    "overall_counts": true,
+    "streak_counts": true,
+    "fishing_count": true
+  }
 }

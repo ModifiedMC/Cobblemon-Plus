@@ -1,12 +1,9 @@
 {
   "version": 9,
-  "detectionMode": "HUD_KNOWN_TAGS",
   "debugMode": "NONE",
   "notifMode": "ALL_SINGLE_SOUND",
   "restyleMode": "ALL_INSTANCES",
   "sendMode": "PACKET",
-  "senderDetectionMode": "COMBINED",
-  "checkOwnMessages": true,
   "soundSource": "PLAYERS",
   "defaultColor": 16761856,
   "defaultSound": {
@@ -16,6 +13,12 @@
     "volume": 1.0,
     "pitch": 1.0
   },
+  "detectionMode": "HUD_KNOWN_TAGS",
+  "actionBarDetectionMode": "NONE",
+  "titleDetectionMode": "NONE",
+  "subtitleDetectionMode": "NONE",
+  "senderDetectionMode": "COMBINED",
+  "checkOwnMessages": true,
   "prefixes": [
     "/shout",
     "/me",
@@ -23,12 +26,12 @@
   ],
   "notifications": [
     {
-      "version": 7,
+      "version": 8,
       "enabled": true,
       "checkOwnMode": "DEFER",
       "inclusionEnabled": true,
-      "exclusionEnabled": false,
-      "responseEnabled": false,
+      "exclusionEnabled": true,
+      "responseEnabled": true,
       "sound": {
         "version": 1,
         "enabled": true,
@@ -38,8 +41,8 @@
       },
       "textStyle": {
         "version": 2,
-        "doColor": false,
-        "color": 15532287,
+        "doColor": true,
+        "color": 16761856,
         "bold": "DISABLED",
         "italic": "DISABLED",
         "underlined": "DISABLED",
@@ -54,11 +57,15 @@
       "titleMsgEnabled": false,
       "toastMsg": "",
       "toastMsgEnabled": false,
+      "typedMsg": "",
+      "typedMsgEnabled": false,
+      "clipboardMsg": "",
+      "clipboardMsgEnabled": false,
       "triggers": [
         {
           "version": 4,
           "enabled": true,
-          "string": "xImpavid",
+          "string": "Profile name",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -70,7 +77,19 @@
         {
           "version": 4,
           "enabled": true,
-          "string": "xImpavid",
+          "string": "Display name",
+          "styleTarget": {
+            "version": 2,
+            "enabled": false,
+            "string": "",
+            "type": "NORMAL"
+          },
+          "type": "NORMAL"
+        },
+        {
+          "version": 4,
+          "enabled": true,
+          "string": "Shiny",
           "styleTarget": {
             "version": 2,
             "enabled": false,
@@ -82,7 +101,7 @@
       ],
       "inclusionTriggers": [],
       "exclusionTriggers": [],
-      "responseMessages": []
+      "responses": []
     }
   ]
 }

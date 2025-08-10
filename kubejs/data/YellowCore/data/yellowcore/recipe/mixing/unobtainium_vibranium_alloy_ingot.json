@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        { "tag": "c:storage_blocks/slime" },
+        { "tag": "c:storage_blocks/slime" },
+        { "tag": "c:storage_blocks/slime" },
+        { "tag": "c:storage_blocks/slime" },
+        { "item": "allthemodium:piglich_heart" },
+        { "item": "allthemodium:piglich_heart" },
+        { "item": "allthemodium:vibranium_ingot" },
+        { "item": "allthemodium:unobtainium_ingot" },
+        { "type": "fluid_stack", "fluid": "allthemodium:soul_lava", "amount": 1000 }
+    ],
+    "results": [
+        { "id": "allthemodium:unobtainium_vibranium_alloy_ingot", "amount": 1 }
+    ]
+}

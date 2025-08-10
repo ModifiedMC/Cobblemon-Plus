@@ -5,7 +5,7 @@
 cooldownOverlayOffset = 10
 #Display artifacts on cooldown next to the hotbar
 #Allowed Values: true, false
-enableCooldownOverlay = false
+enableCooldownOverlay = true
 #Whether models for gloves are shown in first person
 #Allowed Values: true, false
 showFirstPersonGloves = true
