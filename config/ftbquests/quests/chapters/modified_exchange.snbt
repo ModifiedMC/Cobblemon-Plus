@@ -209,7 +209,7 @@
 			y: 6.5d
 		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [
 		{
 			id: "4A2791C16545FF65"
@@ -1813,3 +1813,4 @@
 		}
 	]
 }
+
