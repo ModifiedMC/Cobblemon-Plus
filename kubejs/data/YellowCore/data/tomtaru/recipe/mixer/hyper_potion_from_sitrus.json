@@ -1,9 +1,0 @@
-{
-    "type": "immersiveengineering:mixer",
-    "energy": 1600,
-    "fluid": { "fluid": "tmtceic:medicinal_brew", "amount": 1000 },
-    "inputs": [
-        { "item": "cobblemon:sitrus_berry" }
-    ],
-    "result": { "id": "tmtceic:hyper_potion", "amount": 1000 }
-}

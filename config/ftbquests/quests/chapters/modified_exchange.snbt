@@ -209,37 +209,8 @@
 			y: 6.5d
 		}
 	]
-	order_index: 3
-	quest_links: [
-		{
-			id: "4A2791C16545FF65"
-			linked_quest: "7BC83E1C825581CD"
-			size: 4.0d
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			id: "0B614BD700B66B07"
-			linked_quest: "3CC292C6490FCBFA"
-			size: 1.5d
-			x: 2.0d
-			y: -3.5d
-		}
-		{
-			id: "2986447079A14578"
-			linked_quest: "4AA91831F6D6858C"
-			size: 1.5d
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			id: "1439E0D883E671D9"
-			linked_quest: "141B30642F9A2655"
-			size: 2.0d
-			x: 0.0d
-			y: -3.5d
-		}
-	]
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
@@ -1764,6 +1735,52 @@
 			}]
 			x: 12.0d
 			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "yellowcore:shrink_salve"
+			}
+			id: "12FC17BD52342D2B"
+			rewards: [{
+				count: 4
+				id: "2681290E05B319BF"
+				item: {
+					count: 1
+					id: "yellowcore:shrink_salve"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "519770DF74262F85"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "yellowcore:growth_salve"
+			}
+			id: "3DDE23B9AD386F32"
+			rewards: [{
+				count: 4
+				id: "7B53B9D83F53A8E8"
+				item: {
+					count: 1
+					id: "yellowcore:growth_salve"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABFAF18EB715141"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
 		}
 	]
 }

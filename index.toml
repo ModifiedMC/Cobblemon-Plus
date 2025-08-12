@@ -2958,7 +2958,7 @@ hash = "b557a54d8efe63bf72438138bc135d498bbf378ab4353213cf453f4e25a32dee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modified_exchange.snbt"
-hash = "921c0fe4adef2945e224c4cd265ddd713d74067b43270e2cecebeb668a9e71e3"
+hash = "30304380a0dc6c70526d46ed2ece7511c94bd2f99e0c4048581da53bbf895057"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/more_then_meets_the_ball.snbt"
@@ -6055,70 +6055,6 @@ hash = "7a0afc2c5167206e082e16935fb6ac2bfc3770ae41ebbb44a224fbee44cbeb4b"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "bdfc2d5fbe14b78dfeadc04a3ca4e3b5a74dde9e13a786005e2399ca84bb251f"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/tomtaru/recipe/mixer/hyper_potion_from_sitrus.json"
-hash = "cede229e9b1ffc1f3bc6335e6529f67f659f5427abe2d6cd571d8811dce79a54"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/enchanting_apparatus/alloy_axe.json"
-hash = "981ae5ea46bdb2883e71d40bdfd798621f92bb8814a1375762144cef603486a1"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/enchanting_apparatus/alloy_pick.json"
-hash = "54e0c55485cb02f91b353434cae270d71ec911897795a9d4ecfef6c09d1d5516"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/enchanting_apparatus/alloy_shovel.json"
-hash = "d79abfc93c60198ca478cf3130a04a55fed90d6e0db9d196e44428a4ee26c161"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/enchanting_apparatus/alloy_sword.json"
-hash = "fd1cb6313ab64aea17f5a6eefe1af1a67c4a1c891889aa65d050a2796c1525bd"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/enchanting_apparatus/unobtainium_allthemodium_alloy_ingot.json"
-hash = "26e82f98be97802771c28f2180f366e9edb08d324a90bff5450fbcb0f8ea38f9"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/energizing/vibranium_allthemodium_alloy_ingot.json"
-hash = "95085717933d527cc2bcd8bcb3693a30bdaa40f3062df8d33f27a6a508483e21"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/mechanical_crafting/alloy_paxel.json"
-hash = "cf996593753d220ba48c85e7708e1d2ac219ef95fd105ea9d0c4a1e3ed6b09c3"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/mixing/molten_allthemodium.json"
-hash = "f0e03f8833f1429ac6b85f9e1c8824a0da44656e5a57cfd25b9d284588b5d4a9"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/mixing/molten_unobtainium.json"
-hash = "53b0784b222a1378874494689cc0cbcc6840905a56625292687c28f46230f827"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/mixing/molten_vibranium.json"
-hash = "d3577396b7d66bba83b2a6366fc2f4023721f3cebc1c64e9866517467f6f8ac8"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/mixing/unobtainium_vibranium_alloy_ingot.json"
-hash = "1f0f9fcc8c4b75d3c0f63d095d372ba617517e0bc13574e8880017e47ef6e3f8"
-
-[[files]]
-file = "kubejs/data/YellowCore/data/yellowcore/recipe/sequenced_assembly/shiny_card.json"
-hash = "f102d1e3831e0923e3384cfe1d5fb37c73780bf0705b00d264969e03d76bdb66"
-
-[[files]]
-file = "kubejs/data/YellowCore/license.txt"
-hash = "c83a8b5216c9395b0eb4b1f133fa01acac467118e29bed58b42386cc85eadce5"
-
-[[files]]
-file = "kubejs/data/YellowCore/pack.mcmeta"
-hash = "b89c6d5c6568f374881fce60020c3b66b24e67a8676ed2041a557f6e9afa72e6"
-
-[[files]]
-file = "kubejs/data/YellowCore/pack.png"
-hash = "5a5fdb9b1db9cde2e4e6e857b4e06fb6cb1e6e09843857f87f23d0e95e3acab6"
 
 [[files]]
 file = "kubejs/data/alltheores/worldgen/placed_feature/ore_cinnabar_placed.json"
@@ -9488,6 +9424,11 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "76b07f47147fb18bb31d8719f9c7beb6622b55f59ae14411c7cf022b4d99d910"
+metafile = true
+
+[[files]]
+file = "mods/yellowcore.pw.toml"
+hash = "51cf424018da2d4380b22e1a728dd2a3e52ab3f437d7fe61b8d21d2977125cb5"
 metafile = true
 
 [[files]]
