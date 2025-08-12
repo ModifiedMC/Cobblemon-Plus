@@ -210,7 +210,36 @@
 		}
 	]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "4A2791C16545FF65"
+			linked_quest: "7BC83E1C825581CD"
+			size: 4.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0B614BD700B66B07"
+			linked_quest: "3CC292C6490FCBFA"
+			size: 1.5d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "2986447079A14578"
+			linked_quest: "4AA91831F6D6858C"
+			size: 1.5d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "1439E0D883E671D9"
+			linked_quest: "141B30642F9A2655"
+			size: 2.0d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
 	quests: [
 		{
 			can_repeat: true
