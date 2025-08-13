@@ -3,11 +3,11 @@ filename = "create-1.21.1-6.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/LNytGWDc/versions/tS7ygzAE/create-1.21.1-6.0.6.jar"
-hash-format = "sha512"
-hash = "a65723abb0439ab5bb9dfae0b66db33a7c41422d015be7524912033b6cb39a1ef3a247b4b842981131cd541d141cc257d761b6de4e8837960a98b43054049228"
+hash-format = "sha1"
+hash = "07453cffbd20bdc5acc8ea7afb472bf55538958b"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "LNytGWDc"
-version = "tS7ygzAE"
+[update.curseforge]
+file-id = 6641610
+project-id = 328085
