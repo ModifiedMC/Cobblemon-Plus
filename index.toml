@@ -7036,6 +7036,11 @@ hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
+file = "mods/armor-of-the-ages.pw.toml"
+hash = "2d66fdcd166fcfca5fc88bc334307bb69c7b3c7a03025f5162b1ad1dabb176d2"
+metafile = true
+
+[[files]]
 file = "mods/armourers-workshop.pw.toml"
 hash = "57d1fa6e6428c682ac58cac495795f3caeddc186626e2be7c048d94d32116412"
 metafile = true
