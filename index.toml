@@ -1582,7 +1582,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "cd05ae263a9f7f383e388dfa3b996f121ab8a0b0664a22e2d0e8c2fc27709f2e"
+hash = "364ddf2c222c95df9bf94c6f020cd9ad2cfefcac988e435bc662b07ad0d318c2"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -2958,7 +2958,7 @@ hash = "b557a54d8efe63bf72438138bc135d498bbf378ab4353213cf453f4e25a32dee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modified_exchange.snbt"
-hash = "30304380a0dc6c70526d46ed2ece7511c94bd2f99e0c4048581da53bbf895057"
+hash = "17ea059f92c0a38ed2281c7e062137170780e3d668d41a98b988bc49c42efd97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/more_then_meets_the_ball.snbt"
@@ -3034,7 +3034,11 @@ hash = "788dc908c290af9a9de02e8ad8f92a2c277cbcece18d1d377a86b6670914a2ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f0325b8d3c48a26d0b9b9504be98cede3eb949e4dec2e60d340645a70d90e70c"
+hash = "6f3b44c4661112f49b56e991ecf8058169e305d5ca92de1958e7241096f49905"
+
+[[files]]
+file = "config/ftbquests/quests/lang/es_es.snbt"
+hash = "51c59ba9776704b86c3292874a6d2522da04ee9f1e4818b32b5556649f919ba7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/018B7DD83BAE2B01.snbt"
@@ -4158,7 +4162,7 @@ hash = "26b4d328ac88d1b3438a71f836981be03e97b9083cb33b57a9ed32f0b89468a1"
 
 [[files]]
 file = "config/raised.json"
-hash = "0275d16d3b29b02bd0d8351d08fb27b91e051ba83bdf404be1473fc2195ad582"
+hash = "3303b2edc4ba9ff50ce005e38e2259850495568761932da60ec88d144e1911ee"
 
 [[files]]
 file = "config/rarcompat/mimic.yaml"
@@ -8618,7 +8622,7 @@ metafile = true
 
 [[files]]
 file = "mods/morecobblemontweaks.pw.toml"
-hash = "a1e79a8bbeffd8ebfa8e37e16ddd3810329a379a68cdc67f965c218cb3cff4b1"
+hash = "ce9bd7d1f2b3907e93660cc5c96b8330e824ae1c9d526ef2805a67e7aaa8c5d9"
 metafile = true
 
 [[files]]
@@ -9108,7 +9112,7 @@ metafile = true
 
 [[files]]
 file = "mods/smithing-template-viewer.pw.toml"
-hash = "d57e8161eb21eaa4a1d3deac98926afda0f4d01cf891deee934868d1cac5dd74"
+hash = "0d5a805b094f0bf0936c7de227621dd8571a09c24659fb19dd1f4806a909a47b"
 metafile = true
 
 [[files]]
