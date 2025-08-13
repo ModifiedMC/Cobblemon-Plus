@@ -1765,5 +1765,52 @@
 			x: 12.0d
 			y: 1.0d
 		}
+		{
+			can_repeat: true
+			icon: {
+				id: "yellowcore:shrink_salve"
+			}
+			id: "12FC17BD52342D2B"
+			rewards: [{
+				count: 4
+				id: "2681290E05B319BF"
+				item: {
+					count: 1
+					id: "yellowcore:shrink_salve"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "519770DF74262F85"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "yellowcore:growth_salve"
+			}
+			id: "3DDE23B9AD386F32"
+			rewards: [{
+				count: 4
+				id: "7B53B9D83F53A8E8"
+				item: {
+					count: 1
+					id: "yellowcore:growth_salve"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABFAF18EB715141"
+				item: { count: 1, id: "modified:mtoken" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
 	]
 }
+

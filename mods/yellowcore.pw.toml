@@ -1,0 +1,13 @@
+name = "YellowCore"
+filename = "yellowcore-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ceef91e76f9d7d65e9596f6841fc676cbc0cc52b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6876036
+project-id = 1325435
