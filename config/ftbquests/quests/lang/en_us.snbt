@@ -4674,7 +4674,7 @@
 	quest.6740CCAA2EACB0B9.quest_subtitle: "Can be found in a Plains/Orchard"
 	quest.676159E4A04A629C.quest_subtitle: "Crafted from Aether Ingredients"
 	quest.6764FAFA232450EE.quest_desc: [
-		"&dFTBTeams&r lets you join forces with other players for a collaborative experience. When you form or join a team, all your claimed chunks will automatically include your teammates.\\n\\n&e&lHow to Use FTBTeams:&r&r\\n1. Click the Teams icon at the very top left of your inventory (shown below).\\n2. Create a team or join an existing one.\\n3. Share resources, progress, and adventures with your team!"
+		"&dFTBTeams&r lets you join forces with other players for a collaborative experience. When you ally with another team, all your claimed chunks will now let you set specific permission / include your allies.\n\n&e&lHow to Use FTBTeams:&r&r\n1. Click the Teams icon at the very top left of your inventory (shown below).\n2. Create a team\n3.Add your friends as an Ally so you can Share resources, chunks, and more! (or not)"
 		"{image:ftbteams:textures/teams.png width:100 height:100 align:center}"
 	]
 	quest.6764FAFA232450EE.quest_subtitle: "Work together with FTBTeams"
