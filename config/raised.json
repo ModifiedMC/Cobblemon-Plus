@@ -80,7 +80,7 @@
     "appleskin:exhaustion_level": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -91,7 +91,7 @@
     "appleskin:food_offset": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -102,7 +102,7 @@
     "appleskin:health_offset": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -113,7 +113,7 @@
     "appleskin:health_restored": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -124,7 +124,7 @@
     "appleskin:hunger_restored": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -135,7 +135,7 @@
     "appleskin:saturation_level": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
@@ -471,7 +471,7 @@
         "x": "NONE",
         "y": "UP"
       },
-      "sync": "minecraft:hotbar"
+      "sync": "appleskin:health_offset"
     },
     "minecraft:other": {
       "displacement": {

@@ -1,11 +1,11 @@
 name = "Modified Cobblemon Plus"
-version = "11.8.0"
+version = "11.8.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7c2ef746d6913dcb0798cefd74f0d6de0462d7cc2c856135fb1784daf15385ca"
+hash = "d755d762654e92e1a005278cd8fe224b7c8ecd9bbed9828fe13bfefbf182f025"
 
 [versions]
 minecraft = "1.21.1"
