@@ -1582,7 +1582,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "364ddf2c222c95df9bf94c6f020cd9ad2cfefcac988e435bc662b07ad0d318c2"
+hash = "ec9e1813b305c2ffe6d99384a8d098d1ca551612b60676080a8ec547bced6e43"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -4159,6 +4159,10 @@ hash = "d7baa398f36afaf80474e653ad6c1f010b8f19236850abc287b0b0677976730d"
 [[files]]
 file = "config/rainbows/overworld.json"
 hash = "26b4d328ac88d1b3438a71f836981be03e97b9083cb33b57a9ed32f0b89468a1"
+
+[[files]]
+file = "config/raised.json"
+hash = "3303b2edc4ba9ff50ce005e38e2259850495568761932da60ec88d144e1911ee"
 
 [[files]]
 file = "config/rarcompat/mimic.yaml"
