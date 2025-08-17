@@ -1582,7 +1582,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "ec9e1813b305c2ffe6d99384a8d098d1ca551612b60676080a8ec547bced6e43"
+hash = "fd44427ffc9cb5b37f61304191c4ec9f3b84dcfb0127169769fe8dc71415b06a"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -1667,10 +1667,6 @@ hash = "9ddc626d65c34343128e5d5faa50931e11bd0c45324f77888c4a47424ec92a8f"
 [[files]]
 file = "config/betterthirdperson-common.toml"
 hash = "55406dc103678dc459c50fbb85bcdc7b9e7421576b4ee56e57344dd6c79cf140"
-
-[[files]]
-file = "config/bhmenu-client.toml"
-hash = "ae88b39a149865ff3989e454e9e3c3ad5a2155268ba565f9fe40c0fe1e94ed8b"
 
 [[files]]
 file = "config/biomemusic.json"
@@ -2058,7 +2054,7 @@ hash = "6f2a0de9bf7a64540881d1d43912be340ff8281f2307d947c652782ddd52e48c"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
-hash = "f873e9dfbe06565cb0964a085ccf3e7971413433d3ebc8a1a0ab94700cbe121b"
+hash = "6e8ead54fb947f4fb9f09346b914688921e0591764940b0696fe535447f53ae8"
 
 [[files]]
 file = "config/crash_assistant/lang/en_us.json"
@@ -2866,7 +2862,7 @@ hash = "2373ee61948e714f1678ec13deee77553513726fcf8fe1f548d7b02fc97e679a"
 
 [[files]]
 file = "config/ftbpmapi-client.toml"
-hash = "c5e009563c0ded86deff8d41aed7146384e5ffe168e23d644f922a9ef5d6e2a2"
+hash = "52d771fec469e934224dbce595ab4c88b73d7d25f705f791f54361f70bd0b4ca"
 
 [[files]]
 file = "config/ftbqopt.snbt"
@@ -3754,7 +3750,7 @@ hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/logbegone.json"
-hash = "4e73cc30162191ffcaae1de4d30f5ba1ffc9d15744fcc7e4fcd5f9b3449135a5"
+hash = "824454e90f1eed3ec7c2cb98637114f4302ced392120eba6e2ce68aeecc5b1f7"
 
 [[files]]
 file = "config/logprot.json"
@@ -5091,6 +5087,10 @@ hash = "308c7ce7c6c19e00ba27919602663af528964d03ddcc7abf6efcbe45d4b17337"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+
+[[files]]
+file = "config/yigd.json"
+hash = "01d786aee2f7eca99d6b043a1bd1dc06aae50b8b96f003310fcee8213e668228"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -7694,11 +7694,6 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
-metafile = true
-
-[[files]]
-file = "mods/curios.pw.toml"
-hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
