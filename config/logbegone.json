@@ -5,14 +5,19 @@
       "Channels ",
       "Found reference to unknown structure 'valhelsia_structures:",
       "valhelsia",
-      "Unknown structure start: valhelsia_structures:"
+      "Unknown structure start: valhelsia_structures:",
+      "yigd:grave",
+      "[minecraft/ItemStack]: Tried to load invalid item:",
+      "No key id in MapLike"
     ],
     "regex": [
       "Disconnecting VANILLA connection attempt",
       "Channels ",
       "Found reference to unknown structure 'valhelsia_structures:",
       "valhelsia",
-      "Unknown structure start: valhelsia_structures:"
+      "Unknown structure start: valhelsia_structures:",
+      "yigd:grave",
+      "No key id in MapLike"
     ]
   }
 }

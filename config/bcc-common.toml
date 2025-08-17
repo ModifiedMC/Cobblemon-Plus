@@ -7,7 +7,7 @@ modpackProjectID = 867058
 #The name of the modpack
 modpackName = "Modified_Cobblemon_Plus"
 #The version of the modpack
-modpackVersion = "11.8.2"
+modpackVersion = "11.8.3"
 #Use the metadata.json to determine the modpack version
 #ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 useMetadata = false

@@ -5093,10 +5093,6 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
-file = "config/yigd.json"
-hash = "01d786aee2f7eca99d6b043a1bd1dc06aae50b8b96f003310fcee8213e668228"
-
-[[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
 hash = "6d5592c9b61ca156d7901a1b2a626d9c1f5401ec6988e73fe01fab57c7df2260"
 
@@ -7136,6 +7132,11 @@ hash = "21782cf50547212bf6fca41564043a520971c80277ded0f20c94acbdc2ff86ba"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "caf8d9539dfbe24903e1b71f1fb82a37810575b7db57e113a7351dd8d40b60b8"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "d9d36014e5764d21bbf65ca24c3182f8bf4ed781d7e08232c5cbcaa25197c5bb"
 metafile = true
@@ -7661,6 +7662,11 @@ hash = "9acc4609af14b66a868a2c7573ddfb1af4c026b477a7e0e7f2973b6d9fe5e8fc"
 metafile = true
 
 [[files]]
+file = "mods/create-winery.pw.toml"
+hash = "ce90ad73142b62c5e8b12393efba4e4806981ec18a537b0a5c207c4eff4a2492"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "1070f0faa541f5be34e84140f981d12e08d6d4ee753a7b0b0938c3b8760b2bd2"
 metafile = true
@@ -7688,6 +7694,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -8143,6 +8154,16 @@ metafile = true
 [[files]]
 file = "mods/golden-hopper.pw.toml"
 hash = "373b49f5326798ea30c000bbb36b797a066fd068b45350b9fcbae7c16b4d4f41"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "f6fe00aafaa353a72b0fed76650c57132b506aacb7d90bbeedf874909df7cdf5"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "bac64d66334b78287575f7717aeb542bf4871c0fda866e9a9df4c080f7fdfed7"
 metafile = true
 
 [[files]]
@@ -9458,11 +9479,6 @@ metafile = true
 [[files]]
 file = "mods/yellowcore.pw.toml"
 hash = "51cf424018da2d4380b22e1a728dd2a3e52ab3f437d7fe61b8d21d2977125cb5"
-metafile = true
-
-[[files]]
-file = "mods/youre-in-grave-danger.pw.toml"
-hash = "6b548f0402651a554b18cb6560bf85744d0827dfd001bb66232904e7962258e1"
 metafile = true
 
 [[files]]
