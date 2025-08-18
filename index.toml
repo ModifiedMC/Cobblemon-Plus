@@ -3746,7 +3746,7 @@ hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/logbegone.json"
-hash = "824454e90f1eed3ec7c2cb98637114f4302ced392120eba6e2ce68aeecc5b1f7"
+hash = "ae0e0f566c5227f8c4c82b730acc9c7d9187431915004bbefcca1fa7c0999ef3"
 
 [[files]]
 file = "config/logprot.json"
@@ -9469,7 +9469,7 @@ metafile = true
 
 [[files]]
 file = "mods/yellowcore.pw.toml"
-hash = "51cf424018da2d4380b22e1a728dd2a3e52ab3f437d7fe61b8d21d2977125cb5"
+hash = "22308c72e5b34ecadaa24c7289a63cef509a32bcd73da2aaf5e4f84dabb5f11d"
 metafile = true
 
 [[files]]
