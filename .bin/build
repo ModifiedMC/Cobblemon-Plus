@@ -6,6 +6,7 @@ set -o nounset
 
 BASE_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" )/../ )
 TYPE="${1:-both}"
+CI="${CI:-false}"
 NAME="$(cat pack.toml | grep "name = " | sed -e 's/name = "\(.*\)"/\1/')"
 VERSION="$(cat pack.toml | grep "version = " | sed -e 's/version = "\(.*\)"/\1/')"
 NEOFORGE_VERSION="$(cat "$BASE_DIR/pack.toml" | grep "neoforge = " | sed -e 's/neoforge = "\(.*\)"/\1/')"
@@ -111,8 +112,8 @@ echo "====="
 echo "Type: $TYPE"
 echo -e "=====\n\n"
 
-# Validate MOD_BASE_URL accessibility if configured
-if [[ ! -z "${MOD_BASE_URL+x}" ]] && [[ "$MOD_BASE_URL" != "" ]]; then
+# Validate MOD_BASE_URL accessibility if configured (skip in CI)
+if [[ ! -z "${MOD_BASE_URL+x}" ]] && [[ "$MOD_BASE_URL" != "" ]] && [[ "$CI" != "true" ]]; then
     echo "Validating file server accessibility..."
     # Test with a known file instead of directory listing (which may be disabled)
     test_file="Cobblemon Interface Modded v1.9.2.zip"
@@ -126,6 +127,8 @@ if [[ ! -z "${MOD_BASE_URL+x}" ]] && [[ "$MOD_BASE_URL" != "" ]]; then
         exit 1
     fi
     echo "✓ File server is accessible"
+elif [[ "$CI" == "true" ]]; then
+    echo "Skipping file server validation in CI environment"
 fi
 
 # remove any previous build

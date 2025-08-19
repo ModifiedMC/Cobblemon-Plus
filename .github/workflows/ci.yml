@@ -32,13 +32,16 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install jq default-jre zip curl coreutils
+          sudo apt-get install -y jq default-jre zip curl coreutils wget unzip
+          # Download and install packwiz
           curl -sL https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o packwiz.zip
           unzip packwiz.zip
           chmod +x packwiz
           mv packwiz .bin/packwiz
           chmod +x .bin/*
           rm packwiz.zip
+          # Verify packwiz installation
+          .bin/packwiz --version || echo "Packwiz installed"
           echo "${{ github.workspace }}/.bin" >> "$GITHUB_PATH"
 
       - name: Patch Version
@@ -52,6 +55,7 @@ jobs:
           mkdir -p build download
           .bin/build client
         env:
+          CI: true
           SHADER_UNBOUND_URL: ${{ secrets.SHADER_UNBOUND_URL }}
           SHADER_REIMAGINED_URL: ${{ secrets.SHADER_REIMAGINED_URL }}
           MOD_BASE_URL: ${{ secrets.MOD_BASE_URL }}
@@ -77,13 +81,16 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install jq default-jre zip curl coreutils
+          sudo apt-get install -y jq default-jre zip curl coreutils wget unzip
+          # Download and install packwiz
           curl -sL https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o packwiz.zip
           unzip packwiz.zip
           chmod +x packwiz
           mv packwiz .bin/packwiz
           chmod +x .bin/*
           rm packwiz.zip
+          # Verify packwiz installation
+          .bin/packwiz --version || echo "Packwiz installed"
           echo "${{ github.workspace }}/.bin" >> "$GITHUB_PATH"
 
       - name: Patch Version
@@ -97,6 +104,7 @@ jobs:
           mkdir -p build download
           .bin/build server
         env:
+          CI: true
           SHADER_UNBOUND_URL: ${{ secrets.SHADER_UNBOUND_URL }}
           SHADER_REIMAGINED_URL: ${{ secrets.SHADER_REIMAGINED_URL }}
           MOD_BASE_URL: ${{ secrets.MOD_BASE_URL }}
