@@ -30,9 +30,17 @@ function download-file() {
         url="$MOD_BASE_URL/${file/ /%20}"
         status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' "$url")"
         if [[ "$status" == "200" ]]; then
-            curl -sL "$MOD_BASE_URL/$file" -o "$BASE_DIR/download/$file" 2>/dev/null 1>&2 || true
+            if ! curl -sL "$MOD_BASE_URL/$file" -o "$BASE_DIR/download/$file" 2>/dev/null 1>&2; then
+                echo "  ✗ ERROR: Failed to download $file from $url"
+                return 1
+            fi
+        else
+            echo "  ✗ ERROR: File not found on server: $file (HTTP $status)"
+            echo "    URL: $url"
+            return 1
         fi
     fi
+    return 0
 }
 
 function check-upload() {
@@ -103,6 +111,20 @@ echo "====="
 echo "Type: $TYPE"
 echo -e "=====\n\n"
 
+# Validate MOD_BASE_URL accessibility if configured
+if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
+    echo "Validating file server accessibility..."
+    status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' --max-time 10 "$MOD_BASE_URL/" || echo "000")"
+    if [[ "$status" != "200" ]]; then
+        echo "✗ FATAL: MOD_BASE_URL is not accessible (HTTP $status)"
+        echo "  URL: $MOD_BASE_URL"
+        echo "  This would cause critical download failures during build"
+        echo "  Please check your file server configuration"
+        exit 1
+    fi
+    echo "✓ File server is accessible"
+fi
+
 # remove any previous build
 rm -rf "$BASE_DIR/build/*.zip" "$BASE_DIR/build/client" "$BASE_DIR/build/server" "$BASE_DIR/build/work" "$BASE_DIR/*.zip"
 mkdir -p "$BASE_DIR/download/packwiz"
@@ -117,21 +139,21 @@ if [[ "$shaderpack_count" != 2 ]] && [[ ! -z "${SHADER_UNBOUND_URL+x}" ]] && [[ 
 
     filename="$(urldecode "$(basename "$SHADER_UNBOUND_URL")")"
     echo "Downloading: $filename"
-    curl -sL "$SHADER_UNBOUND_URL" -o "$BASE_DIR/shaderpacks/$filename"
-    if [[ $? -eq 0 ]]; then
-        echo "✓ Downloaded Unbound shader"
-    else
-        echo "✗ Failed to download Unbound shader"
+    if ! curl -sL "$SHADER_UNBOUND_URL" -o "$BASE_DIR/shaderpacks/$filename"; then
+        echo "✗ FATAL: Failed to download Unbound shader from $SHADER_UNBOUND_URL"
+        echo "  Build cannot continue without required shaders"
+        exit 1
     fi
+    echo "✓ Downloaded Unbound shader"
 
     filename="$(urldecode "$(basename "$SHADER_REIMAGINED_URL")")"
     echo "Downloading: $filename"
-    curl -sL "$SHADER_REIMAGINED_URL" -o "$BASE_DIR/shaderpacks/$filename"
-    if [[ $? -eq 0 ]]; then
-        echo "✓ Downloaded Reimagined shader"
-    else
-        echo "✗ Failed to download Reimagined shader"
+    if ! curl -sL "$SHADER_REIMAGINED_URL" -o "$BASE_DIR/shaderpacks/$filename"; then
+        echo "✗ FATAL: Failed to download Reimagined shader from $SHADER_REIMAGINED_URL"
+        echo "  Build cannot continue without required shaders"
+        exit 1
     fi
+    echo "✓ Downloaded Reimagined shader"
 fi
 
 shaderpack_count="$(find shaderpacks -iname "Complementary*EuphoriaPatches*.zip" | wc -l)"
@@ -249,7 +271,12 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
 
         mod_count=$((mod_count + 1))
         any_download="true"
-        download-file "$filename"
+        if ! download-file "$filename"; then
+            echo "  ✗ FATAL: Required mod download failed: $filename"
+            echo "    Build cannot continue without this file"
+            echo "    Please check your MOD_BASE_URL configuration and file availability"
+            exit 1
+        fi
         if [[ -f "$BASE_DIR/download/$filename" ]]; then
             cp "$BASE_DIR/download/$filename" "mods/$filename"
             download_count=$((download_count + 1))
@@ -258,9 +285,11 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
         fi
 
         if [[ ! -f "mods/$filename" ]]; then
-            echo "  ✗ ERROR: Failed to download $filename"
+            echo "  ✗ FATAL: Required mod file missing after download: $filename"
+            echo "    This indicates a critical build failure"
             echo "    Manual download required from: $cf_url"
             echo "    Save to: $BASE_DIR/download/$filename"
+            exit 1
         fi
         old_filename="$filename"
     done <<< "$(java -jar $BASE_DIR/download/packwiz-installer-bootstrap.jar -g -s server $BASE_DIR/pack.toml 2>&1)" || true

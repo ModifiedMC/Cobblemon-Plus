@@ -13,7 +13,7 @@ fullBackupTimer = 525960
 #The max amount of backup files to keep.
 # Default: 10
 # Range: 1 ~ 32767
-backupsToKeep = 10
+backupsToKeep = 2
 #The time between two backups in minutes
 #5 = each 5 minutes
 #60 = each hour
@@ -33,7 +33,7 @@ sendMessages = true
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
-maxDiskSize = "25 GB"
+maxDiskSize = "50 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
 #Create backups, even if nobody is online
