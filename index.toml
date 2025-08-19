@@ -4450,7 +4450,7 @@ hash = "6cdb9e30371a83f636b118b2232b559906a5dbf1068adb6409974fec13774769"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "ab037adcc3a6beba7cd838d606728051b5d7df7ae1ae5f416a67035fd1ae06d0"
+hash = "574a2685dca734e823c53209f611d9e01779bcd8c7f7830d077d4cdde56c709e"
 
 [[files]]
 file = "config/simplebackups-server.toml"
@@ -6919,7 +6919,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "e6448befb831607b6f7522250c5f6f2bfd57c80b614467286465b248258c3939"
+hash = "4292e216d9c436006b801a6d90a3a355c47ea1949219187e577afae78737d729"
 metafile = true
 
 [[files]]
@@ -8340,6 +8340,11 @@ metafile = true
 [[files]]
 file = "mods/kleeslabs.pw.toml"
 hash = "0a4cccfaef6e590d95d2a07d32b0c8ec133b50bc669f802f754abdc04277b30c"
+metafile = true
+
+[[files]]
+file = "mods/kobolds.pw.toml"
+hash = "06612718f3a2497b319248375a339fa504e36c15451ed5fd7dd17e4240ea6d0b"
 metafile = true
 
 [[files]]

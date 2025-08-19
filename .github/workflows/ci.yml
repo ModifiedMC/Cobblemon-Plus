@@ -23,6 +23,7 @@ jobs:
   build-client:
     name: 🔨 Build CurseForge Client Files
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: ⬇️ Checkout Repo
@@ -31,11 +32,16 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install jq default-jre zip
+          sudo apt-get install -y jq default-jre zip curl coreutils wget unzip
+          # Download and install packwiz
           curl -sL https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o packwiz.zip
           unzip packwiz.zip
+          chmod +x packwiz
           mv packwiz .bin/packwiz
+          chmod +x .bin/*
           rm packwiz.zip
+          # Verify packwiz installation
+          .bin/packwiz --version || echo "Packwiz installed"
           echo "${{ github.workspace }}/.bin" >> "$GITHUB_PATH"
 
       - name: Patch Version
@@ -45,8 +51,11 @@ jobs:
           sed -i -e 's/version = "\(.*\)"/version = "\1-dev"/' pack.toml
 
       - name: 🔨 Build Modpack Files
-        run: .bin/build client
+        run: |
+          mkdir -p build download
+          .bin/build client
         env:
+          CI: true
           SHADER_UNBOUND_URL: ${{ secrets.SHADER_UNBOUND_URL }}
           SHADER_REIMAGINED_URL: ${{ secrets.SHADER_REIMAGINED_URL }}
           MOD_BASE_URL: ${{ secrets.MOD_BASE_URL }}
@@ -63,6 +72,7 @@ jobs:
   build-server:
     name: 🔨 Build CurseForge Server Files
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: ⬇️ Checkout Repo
@@ -71,11 +81,16 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install jq default-jre zip
+          sudo apt-get install -y jq default-jre zip curl coreutils wget unzip
+          # Download and install packwiz
           curl -sL https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip -o packwiz.zip
           unzip packwiz.zip
-          rm packwiz.zip
+          chmod +x packwiz
           mv packwiz .bin/packwiz
+          chmod +x .bin/*
+          rm packwiz.zip
+          # Verify packwiz installation
+          .bin/packwiz --version || echo "Packwiz installed"
           echo "${{ github.workspace }}/.bin" >> "$GITHUB_PATH"
 
       - name: Patch Version
@@ -85,8 +100,11 @@ jobs:
           sed -i -e 's/version = "\(.*\)"/version = "\1-dev"/' pack.toml
 
       - name: 🔨 Build Modpack Files
-        run: .bin/build server
+        run: |
+          mkdir -p build download
+          .bin/build server
         env:
+          CI: true
           SHADER_UNBOUND_URL: ${{ secrets.SHADER_UNBOUND_URL }}
           SHADER_REIMAGINED_URL: ${{ secrets.SHADER_REIMAGINED_URL }}
           MOD_BASE_URL: ${{ secrets.MOD_BASE_URL }}
