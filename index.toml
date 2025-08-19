@@ -4450,7 +4450,7 @@ hash = "6cdb9e30371a83f636b118b2232b559906a5dbf1068adb6409974fec13774769"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "ab037adcc3a6beba7cd838d606728051b5d7df7ae1ae5f416a67035fd1ae06d0"
+hash = "574a2685dca734e823c53209f611d9e01779bcd8c7f7830d077d4cdde56c709e"
 
 [[files]]
 file = "config/simplebackups-server.toml"
@@ -8343,6 +8343,11 @@ hash = "0a4cccfaef6e590d95d2a07d32b0c8ec133b50bc669f802f754abdc04277b30c"
 metafile = true
 
 [[files]]
+file = "mods/kobolds.pw.toml"
+hash = "06612718f3a2497b319248375a339fa504e36c15451ed5fd7dd17e4240ea6d0b"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "51e8c729a6722d04ff85da2afac2b1c2178587be7713027cbc9cd0c58f668929"
 metafile = true
@@ -9469,7 +9474,7 @@ metafile = true
 
 [[files]]
 file = "mods/yellowcore.pw.toml"
-hash = "51cf424018da2d4380b22e1a728dd2a3e52ab3f437d7fe61b8d21d2977125cb5"
+hash = "6c7d2837a85babf2a024e3be0a0afed8d230c5abb7443925fa274d2edd2d9835"
 metafile = true
 
 [[files]]

@@ -112,14 +112,17 @@ echo "Type: $TYPE"
 echo -e "=====\n\n"
 
 # Validate MOD_BASE_URL accessibility if configured
-if [[ ! -z "${MOD_BASE_URL+x}" ]]; then
+if [[ ! -z "${MOD_BASE_URL+x}" ]] && [[ "$MOD_BASE_URL" != "" ]]; then
     echo "Validating file server accessibility..."
-    status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' --max-time 10 "$MOD_BASE_URL/" || echo "000")"
+    # Test with a known file instead of directory listing (which may be disabled)
+    test_file="Cobblemon Interface Modded v1.9.2.zip"
+    test_url="$MOD_BASE_URL/$(echo "$test_file" | sed 's/ /%20/g')"
+    status="$(curl -o /dev/null --silent --head --write-out '%{http_code}\n' --max-time 10 "$test_url" || echo "000")"
     if [[ "$status" != "200" ]]; then
         echo "✗ FATAL: MOD_BASE_URL is not accessible (HTTP $status)"
-        echo "  URL: $MOD_BASE_URL"
+        echo "  URL: $test_url"
         echo "  This would cause critical download failures during build"
-        echo "  Please check your file server configuration"
+        echo "  Please check your file server configuration and authentication"
         exit 1
     fi
     echo "✓ File server is accessible"
