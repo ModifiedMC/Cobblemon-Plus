@@ -2354,7 +2354,7 @@ hash = "8985518d94f16dafd4d9b00807592608e2af56f38807772a77324f967c50390d"
 
 [[files]]
 file = "config/easy_mob_farm/mob_capture_card.cfg"
-hash = "7a3076f6be69641b0efd334686fb7d9ec1d09a5a2c56cebdc8697c31d74fd955"
+hash = "58defa497deb4c5fb400bf090fa2f73c593a06f36835a34c8618b5cba3ca8da4"
 
 [[files]]
 file = "config/easy_mob_farm/mob_capture_card_models.cfg"
@@ -6851,6 +6851,34 @@ hash = "ca8180d05354259f4e0e67ad2f9c91a4b0586044672dc758ed0ef4e3155f9543"
 [[files]]
 file = "kubejs/data/mega_showdown/tags/item/tera_shards.json"
 hash = "8483ef1fa6b889c4a1548d7abc46819f560081c3b35d908a4e2a2eb741df8032"
+
+[[files]]
+file = "kubejs/server_scripts/dungeon_teleport.js"
+hash = "213f6572f4c1934d875f224787359343a97f19dd847affb0c20c8cb7c8d1306b"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+hash = "3514ac2481b12e2d57761a9fa9b081f4944a966b4bef4bab30c030c18543eb4d"
+
+[[files]]
+file = "kubejs/server_scripts/login_kit.js"
+hash = "1665543d1bea956080b5186ea1595c1e1951c934be15a4d0d709011cdd6d01ec"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/server_scripts/modified_recipes.js"
+hash = "e4bd75350817cfc40676268caf2fb51513ae957bdab6f749c258af73fd0abe79"
+
+[[files]]
+file = "kubejs/server_scripts/moon_events.js"
+hash = "42c170846432c4345ccde43667a1ac3d1f0a1e96853289604230c273b6c4175a"
+
+[[files]]
+file = "kubejs/server_scripts/quest_events.js"
+hash = "384ae2e54ba31dbb8058d36e6074b6178389534843bfe2abc7064e6e98f9c416"
 
 [[files]]
 file = "kubejs/startup_scripts/coins.js"
