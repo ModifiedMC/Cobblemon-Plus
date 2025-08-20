@@ -264,6 +264,10 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     fi
     
     # loop over packwiz install output to get mods that need to be downloaded manually
+    if [[ "$CI" == "true" ]]; then
+        echo "CI environment detected - running packwiz installer simulation"
+    fi
+    
     while read line; do
         if [[ ! "$line" =~ ^Please\ go\ to ]]; then
             continue
@@ -271,12 +275,28 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
 
         cf_url="$(echo "$line" | sed -e 's/Please go to \(.*\) and save this file to \(.*\)/\1/')"
         filename="$(basename "$(echo "$line" | sed -e 's/Please go to \(.*\) and save this file to \(.*\)/\2/')")"
+        
+        if [[ "$CI" == "true" ]]; then
+            echo "CI Debug: Found excluded mod request for $filename"
+        fi
+        
         if [[ -f "mods/$filename" ]] || [[ "$old_filename" == "$filename" ]]; then
             continue
         fi
 
         mod_count=$((mod_count + 1))
         any_download="true"
+        
+        # Check if this mod is configured for CurseForge download
+        mod_toml_file=$(find "$BASE_DIR/mods" -name "*.pw.toml" -exec grep -l "filename = \"$filename\"" {} \; | head -1)
+        if [[ -n "$mod_toml_file" ]] && grep -q "mode = \"metadata:curseforge\"" "$mod_toml_file"; then
+            echo "  ⏭️ Skipping $filename (configured for CurseForge download)"
+            if [[ "$CI" == "true" ]]; then
+                echo "    CI Debug: Found CurseForge mod in excluded list - this suggests packwiz API issues"
+            fi
+            continue
+        fi
+        
         if ! download-file "$filename"; then
             echo "  ✗ FATAL: Required mod download failed: $filename"
             echo "    Build cannot continue without this file"
