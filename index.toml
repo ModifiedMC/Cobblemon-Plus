@@ -1125,6 +1125,50 @@ file = "config/ars_nouveau/wololo.toml"
 hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
 
 [[files]]
+file = "config/ars_technica/glyph_apply.toml"
+hash = "b5addaeab9da0707cc24f464066c3db8cddd3bddf7f53e6355d2139621832ca1"
+
+[[files]]
+file = "config/ars_technica/glyph_carve.toml"
+hash = "bc9197cecb4147c298e62f92c7c6a30eab1255e7e17ba9a7f1236cb099bfa51b"
+
+[[files]]
+file = "config/ars_technica/glyph_fuse.toml"
+hash = "4f29b4fb92450106414bec76b41737ca6986121afb56651e4fc23682094cfc16"
+
+[[files]]
+file = "config/ars_technica/glyph_insert.toml"
+hash = "9db2dd74cc050aa04b50bac8059a39db9b70271faffee5952ee35d51a44c0e85"
+
+[[files]]
+file = "config/ars_technica/glyph_obliterate.toml"
+hash = "57f5c88ef1792725a60fcdcc24bebe245f1f14321b23a53d970ba17b2e260840"
+
+[[files]]
+file = "config/ars_technica/glyph_pack.toml"
+hash = "bc9197cecb4147c298e62f92c7c6a30eab1255e7e17ba9a7f1236cb099bfa51b"
+
+[[files]]
+file = "config/ars_technica/glyph_polish.toml"
+hash = "ad97fffbcd7bdb01c3d1e4cb1abd9979481d6c393bf7b35d45e38a5e8aee1f1c"
+
+[[files]]
+file = "config/ars_technica/glyph_press.toml"
+hash = "e7ef4faaa308d5f449fba4712bf59c59a8e5c65164b35f720d118f30de1bb9d4"
+
+[[files]]
+file = "config/ars_technica/glyph_superheat.toml"
+hash = "07f892de563a8c59c7e5b2cfd5c470a5ff5a4935c2e77f2a4a17f9073ae48d9c"
+
+[[files]]
+file = "config/ars_technica/glyph_telefeast.toml"
+hash = "3a7748ff27cd4df2f13ec8683944b6c8075f7cccc58fc33b632f65fc37da2ae7"
+
+[[files]]
+file = "config/ars_technica/glyph_whirl.toml"
+hash = "b756a91b6b033b2c29a9e70e079ecdf887f80ef2c37288dda74c2e9fc5ac53bd"
+
+[[files]]
 file = "config/ars_unification-server.toml"
 hash = "352788b598766d628b8338db1a74743e30899c8063ef5d48b7e26e23c6a23dea"
 
