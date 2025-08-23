@@ -1,6 +1,6 @@
 name = "Clickable advancements[Forge/Fabric]"
 filename = "clickadv-1.21-3.8.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

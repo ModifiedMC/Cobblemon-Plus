@@ -1,6 +1,6 @@
 name = "AppleSkin"
 filename = "appleskin-neoforge-mc1.21-3.0.7.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

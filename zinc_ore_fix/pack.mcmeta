@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Makes alltheores:zinc_ore drop create:zinc_ore"
+  }
+}

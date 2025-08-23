@@ -1,13 +1,13 @@
 name = "Refined Storage - Quartz Arsenal"
-filename = "refinedstorage-quartz-arsenal-neoforge-1.0.4.jar"
+filename = "refinedstorage-quartz-arsenal-neoforge-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0a171d3818632629b2b9dbd17ba1c7bfbf62762"
+hash = "34f9e55bc798bc0f914f2b9852673e2923b5b97f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6850492
+file-id = 6916455
 project-id = 1230483

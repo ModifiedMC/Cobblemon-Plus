@@ -1,6 +1,6 @@
 name = "Particle Core"
 filename = "particle_core-0.2.6+1.21+neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
