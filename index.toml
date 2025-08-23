@@ -1626,7 +1626,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "d3a35b06f2b88583d337ef8271c02baace50fd2e73534e4cdb2fad4c1f0c7d35"
+hash = "1a71675a5963223042776f3dd5c7bf4be1b2d83a2e658bf9ef0a6d97e84c4d51"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -6097,6 +6097,10 @@ file = "kubejs/config/web_server.json"
 hash = "bdfc2d5fbe14b78dfeadc04a3ca4e3b5a74dde9e13a786005e2399ca84bb251f"
 
 [[files]]
+file = "kubejs/data/alltheores/loot_tables/blocks/zinc_ore.json"
+hash = "8d5047b73526f3449daa6fc8c9e5c636de8a458b889c925b1703cc2b85e64d15"
+
+[[files]]
 file = "kubejs/data/cobbleride/dex_entries/pokemon/rideable/decidueye-combined.json"
 hash = "9b7eb858a5976ed6aed008277141da4bdbfbe42d2aff2cab43a930068c6dad4b"
 
@@ -6953,7 +6957,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether-emissivity.pw.toml"
-hash = "027e74806f0a3ac663d77948003b24ea6b3cd960e7dc5e2eb904614c642a3c1f"
+hash = "41475072280bf2fa34b12c4da05f49604674ca0534302598cecced77d1c466a5"
 metafile = true
 
 [[files]]
@@ -7063,7 +7067,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "871e6ba4c2cb76a228c0ed0d638bb22e80bb293883e7672235ec9355f77f9528"
+hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
 
 [[files]]
@@ -7168,7 +7172,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "21782cf50547212bf6fca41564043a520971c80277ded0f20c94acbdc2ff86ba"
+hash = "a0db17587447505aca17451f55c6ec5e65488a87c0c7d51ab8eea8ececd9a5ba"
 metafile = true
 
 [[files]]
@@ -7328,7 +7332,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d8cfcb1bc52b784d9c064a7ab694ac7cf9d5316167b2df6a5e0536e3ae8b2958"
+hash = "581afa45dd065b266908230de28cfefd16a206368b9ab5c2117e1c8a3660ebf0"
 metafile = true
 
 [[files]]
@@ -7383,7 +7387,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickable-advancements.pw.toml"
-hash = "24115fd10b762afb87867d5a21ab16ebc5c96fc4d3474ae66a2a4ded84a076c9"
+hash = "7b5c86be25546796eb891e4444e0478aaf93d3515e57df4fd20cdda0daa05a52"
 metafile = true
 
 [[files]]
@@ -7613,7 +7617,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "557fb70a30a62b195c7c51056e0fbaed893b46b142457d4beee0ed91f2597a83"
+hash = "f3328bf87fad2caa4d87e846d50a839a49ec47ecaae50095b44819d5292f691c"
 metafile = true
 
 [[files]]
@@ -7813,7 +7817,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "4fa1d6b802032c2335bd0f2263e2977b376fd22ee07dc5f57dae9797d0c267d3"
+hash = "cc3295d41a237e4167cc1e3253a3a2f1f17d2e971c4a8f61f2374925002ad02f"
 metafile = true
 
 [[files]]
@@ -8003,7 +8007,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "9d093b62fbc3006495ba111bff1ffa120287bb294214f7dd7456e99014fd9503"
+hash = "38d33f6100ad8148333520660118b608191ea407641629f471db061bf827d988"
 metafile = true
 
 [[files]]
@@ -8143,7 +8147,7 @@ metafile = true
 
 [[files]]
 file = "mods/fuel-info.pw.toml"
-hash = "6c0a0b2b4c503e6c6e37550c16adfa7f5766f1ca4f1ad45b4aa573530db628b9"
+hash = "bf754881ddc9a7acb152562282eafc87f5f6cf9e3ac55396f67d7d8da7302e87"
 metafile = true
 
 [[files]]
@@ -8158,7 +8162,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "38714a5263860d77e6f25f95e10abc24dfbd0f259a2aa45e1d439901eae51131"
+hash = "6c5dc4f1cc5828d0964fb634b32b63ae985e0dec9ac8cb83befcc6e2b96f2201"
 metafile = true
 
 [[files]]
@@ -8428,7 +8432,7 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
-hash = "90884d8e75897120ad7e7a6fc4ad3ab2a08bcf050286a98cac27c7412e043a68"
+hash = "0004f14a9f41e930775229f57d22b2df5e09f43b138f8dcedd4429161e00c377"
 metafile = true
 
 [[files]]
@@ -8603,7 +8607,7 @@ metafile = true
 
 [[files]]
 file = "mods/magnesium-extras.pw.toml"
-hash = "af6b190e42b601eb0e2ca6fd58209f0242ab8c403996f1814956a6699dcd4f86"
+hash = "a03b7bdf3eb3442d8cf9fa9008d02f5137195ef36d52ff8bbdd1558cf8c421a4"
 metafile = true
 
 [[files]]
@@ -8773,7 +8777,7 @@ metafile = true
 
 [[files]]
 file = "mods/nolijium.pw.toml"
-hash = "f448b2d9937031e57277bb9dee0425c9be9e3af552078d316d023f7af9a38b38"
+hash = "36f8189bb57be713280a80f2efdfbf31d57cb46c826778740489774553e93532"
 metafile = true
 
 [[files]]
@@ -8838,7 +8842,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
-hash = "5552f19bf64b1151452efdd0848611ce417e1073e48639910f8a7fdb4a9ac803"
+hash = "8deecb8d7b9e184d869d9c501707ca1eb283fd97648145ae24e17fb85e3573ce"
 metafile = true
 
 [[files]]
@@ -8978,7 +8982,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "6a48780ffd4bc3b941f81232c84034aba5ff7645ea635c604de6df71e6596bb3"
+hash = "e5a88eeea38105e024dc8c8849e28d90af25cec68f1d0f6716796fe9746bddd2"
 metafile = true
 
 [[files]]
@@ -9103,7 +9107,7 @@ metafile = true
 
 [[files]]
 file = "mods/server-browser.pw.toml"
-hash = "afe56d08db2f4e7197b370932321315ede06603c5dffde42b2569f69a01af53d"
+hash = "a415f0c26ea3d74a23fd7c1c9c0b7af0f910ca499eaa30108ea7706a9e1c27ac"
 metafile = true
 
 [[files]]
@@ -9198,12 +9202,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-embeddium-options-mod-compat.pw.toml"
-hash = "a4f6a16457def1195d1d8ab781eb8deadbe72c8094336501496f2686a43e12dd"
+hash = "20040033ab1c7acf834e78d88ce1126c9632cf6986816804de70fce70bcfdf31"
 metafile = true
 
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
-hash = "05953528b550760efecc9834796d90177e09bd0d231ce814b43578e386468a73"
+hash = "40e1fdc8c58f72bb947b978a773cf963b2d28bb49832500c2bd886f7ac6629bb"
 metafile = true
 
 [[files]]
@@ -9213,7 +9217,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
+hash = "f3c75c6d415e4d68307d972ed30ced99ba05968c7ff85301154a60fc42eeed95"
 metafile = true
 
 [[files]]
@@ -9628,3 +9632,11 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "7b6564ffa9ddc510af5479b593a1db26851e8d331229ea6a59f50f777c24b08b"
 metafile = true
+
+[[files]]
+file = "zinc_ore_fix/data/alltheores/loot_tables/blocks/zinc_ore.json"
+hash = "8d5047b73526f3449daa6fc8c9e5c636de8a458b889c925b1703cc2b85e64d15"
+
+[[files]]
+file = "zinc_ore_fix/pack.mcmeta"
+hash = "39e0a75839c10e060298162f4ea5e9515e7b5b4696124375d7c73dc8a58f7dfd"
