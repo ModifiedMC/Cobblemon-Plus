@@ -1,13 +1,13 @@
 name = "FTB Ultimine (Forge)"
-filename = "ftb-ultimine-neoforge-2101.1.8.jar"
+filename = "ftb-ultimine-neoforge-2101.1.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "053ca6aae96b4c7804e75fe328e0351c3642ed5d"
+hash = "72253077abc87162987fd2c724a143a7da9bb15f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6899425
+file-id = 6930900
 project-id = 386134

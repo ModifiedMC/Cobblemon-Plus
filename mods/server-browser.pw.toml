@@ -1,13 +1,13 @@
 name = "Server Browser - In Game Server Listings"
-filename = "serverbrowser-neoforge-1.4.1-1.21.1.jar"
+filename = "serverbrowser-neoforge-1.4.2-1.21.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c24bc78814be1f953e2e52651d405b727cf36baf"
+hash = "5c0eef58fa4cbd0574eb09eee37ce7969bf86cd0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6880155
+file-id = 6928401
 project-id = 825617
