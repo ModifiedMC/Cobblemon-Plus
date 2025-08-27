@@ -394,7 +394,7 @@ hash = "c34c0ac1f978b1c80b99fe3b78b8fb29a633392c33b05495e8804d04be6d5449"
 
 [[files]]
 file = "config/aether-client.toml"
-hash = "1eb44b8a4ebc37ceee3bcf09a55f0a4757328df30c8be3eacab5162709be54c9"
+hash = "6966bb8084f0ef3652186cb7a46c05342ffb01c2ffebf841bc38a2707da117d0"
 
 [[files]]
 file = "config/aether-common.toml"
@@ -4883,6 +4883,18 @@ hash = "8927d44c31f267698d3b47912be28fa25c5834d7c2780fdf1d83cccce9f7c95c"
 [[files]]
 file = "config/toms_storage-server.toml"
 hash = "a880e3220dd5051ed2901cfcba028d59bccfef4af8775232037ed8a2c2e81cf7"
+
+[[files]]
+file = "config/toolbelt-client.toml"
+hash = "dded1400222e8c1da8191df7a81f7becfd99f88b660de7837a6a5f5936b4c454"
+
+[[files]]
+file = "config/toolbelt-common.toml"
+hash = "d35292a326f50836adf2b4d7ab2b8f544122a4ee6b29b3699a433ec75ad6c15b"
+
+[[files]]
+file = "config/toolbelt-server.toml"
+hash = "d89a5b2e9bea1c953809981cb1b8608a0eecd43e3ec944803625159ea0524f76"
 
 [[files]]
 file = "config/torchmaster.toml"
