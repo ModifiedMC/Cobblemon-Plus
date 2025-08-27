@@ -4885,18 +4885,6 @@ file = "config/toms_storage-server.toml"
 hash = "a880e3220dd5051ed2901cfcba028d59bccfef4af8775232037ed8a2c2e81cf7"
 
 [[files]]
-file = "config/toolbelt-client.toml"
-hash = "dded1400222e8c1da8191df7a81f7becfd99f88b660de7837a6a5f5936b4c454"
-
-[[files]]
-file = "config/toolbelt-common.toml"
-hash = "d35292a326f50836adf2b4d7ab2b8f544122a4ee6b29b3699a433ec75ad6c15b"
-
-[[files]]
-file = "config/toolbelt-server.toml"
-hash = "d89a5b2e9bea1c953809981cb1b8608a0eecd43e3ec944803625159ea0524f76"
-
-[[files]]
 file = "config/torchmaster.toml"
 hash = "4765c6a67959c7a4c0e5366eb28b13f4188577d8e54bde7d07b0adc9f92bb3ad"
 
@@ -9349,11 +9337,6 @@ metafile = true
 [[files]]
 file = "mods/tomtarus-cobblemon-immersive-engineering-tweaks.pw.toml"
 hash = "12dc5ad70440f66bc676b38d2cf76709a215cdd6d05b27ecc1700b40d81e579d"
-metafile = true
-
-[[files]]
-file = "mods/tool-belt.pw.toml"
-hash = "aedf2d63eac9d47f5097bf5472e2f67bf7b2cf12d1ad6719e35e082cbd7acd5c"
 metafile = true
 
 [[files]]
