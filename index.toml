@@ -1602,7 +1602,7 @@ hash = "c51ed7f0af9528cffc79b6bf65e50dbf3dd49b21b1ec3ee7815b17c90f2d5638"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "1a71675a5963223042776f3dd5c7bf4be1b2d83a2e658bf9ef0a6d97e84c4d51"
+hash = "d9fe47ae6e2fc61f213aaf86d9c0569726f1ed49545f8d4f60f0fadc5594e409"
 
 [[files]]
 file = "config/berry_good-common.toml"
@@ -6899,11 +6899,6 @@ hash = "f79e5ebafb49df971452a61c2313d5dfdf0359832facef03283da529e702c292"
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
-metafile = true
-
-[[files]]
-file = "mods/actually-harvest.pw.toml"
-hash = "3609ca133c9f1bc0ac0af787d8e52a4f62fcc69bc9486bcaf42f0e647a5554c0"
 metafile = true
 
 [[files]]
