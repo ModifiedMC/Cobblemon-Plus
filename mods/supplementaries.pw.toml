@@ -1,13 +1,13 @@
 name = "Supplementaries"
-filename = "supplementaries-1.21-3.4.9-neoforge.jar"
+filename = "supplementaries-1.21-3.4.12-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "83396b0a6918f07765820b1e0a0f10e37554f4c9"
+hash = "d0dffa89b15170a93617e46f3875180f321f5763"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6913494
+file-id = 6933876
 project-id = 412082

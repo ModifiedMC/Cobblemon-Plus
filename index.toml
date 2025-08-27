@@ -145,30 +145,6 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
-file = "config/accessories.json5"
-hash = "406c5f8030db77b9223b0900dade41727825de8b4d6fcf40223f3a3ee4c9a591"
-
-[[files]]
-file = "config/accessorify-client.toml"
-hash = "a487da1f0b382adb103e8768701afd479e2edb7215b2d6dc70dfaa0e2022b544"
-
-[[files]]
-file = "config/accessorify-common.toml"
-hash = "0f59ecad6b04f0a38818ab73835e5ddc6212628bd039e4ae063fafb946529069"
-
-[[files]]
-file = "config/accessorify-server.toml"
-hash = "bd39fa7aa1d64907d732c101fa1c91c5c6696f2ef8a7dee2779c582cd24a1066"
-
-[[files]]
-file = "config/accessorify/client_config.toml"
-hash = "4a4110016504d19c7eccc207db57eef8c89cdc2371f4c79d70bc02175f9c56c0"
-
-[[files]]
-file = "config/accessorify/config.toml"
-hash = "90065faf2ec63985a53317f199d3c79b58e45ddc9e7732e8a150f6a071df638c"
-
-[[files]]
 file = "config/achiopt-common.toml"
 hash = "d065111814d09c74fa9aa50153f980a68ef935209ce038db7fa7dba3459b5585"
 
@@ -6926,21 +6902,6 @@ hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
 
 [[files]]
-file = "mods/accessories-cc-layer.pw.toml"
-hash = "c923f6539fabaadf6234b8346111069baa53fcc95d2445a7eebc50cb3751c25d"
-metafile = true
-
-[[files]]
-file = "mods/accessories.pw.toml"
-hash = "53b8759301fb32d2b8fcef1125984414e33aab748c4119c253812ea17bf28f4b"
-metafile = true
-
-[[files]]
-file = "mods/accessorify.pw.toml"
-hash = "6982264e94dd5325c97c1cbee9a55c1702c4af2307f5541839cd029772636bc4"
-metafile = true
-
-[[files]]
 file = "mods/actually-harvest.pw.toml"
 hash = "3609ca133c9f1bc0ac0af787d8e52a4f62fcc69bc9486bcaf42f0e647a5554c0"
 metafile = true
@@ -7317,7 +7278,7 @@ metafile = true
 
 [[files]]
 file = "mods/cfm-refurbished-circuit-breaker.pw.toml"
-hash = "0c81d037c4919c66c4938854474b016a1cdb66da47ca9893edd6674368cfa60a"
+hash = "d7e96d995b29b34fa898e0bbf48a20a3ecd773fe6f5145ab3c2a1c102bc74cb4"
 metafile = true
 
 [[files]]
@@ -7722,7 +7683,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "f8f33d750e9ac6d7ef92bdaaf21812908787f4d5f5833c59de33ea5613d43833"
+hash = "29ae44de786e60c21b9f50555f71087ef8c9251ea985a95e712e347e4fbecd4e"
 metafile = true
 
 [[files]]
@@ -7738,6 +7699,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -8407,7 +8373,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-tweaks.pw.toml"
-hash = "08d122f33a3121444a24c286d2b05be3cb88c1f418ffca1748941c7974c2879f"
+hash = "1f0ac5ee6a6ca2a691d8da10aa79bc4ad11a5034096ac9d266e34758e7f9ce10"
 metafile = true
 
 [[files]]
@@ -8468,6 +8434,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "a77c051483c3182542400b0eb644bbead02ed7f63aca6cf4a0063516c2bfbe4b"
+metafile = true
+
+[[files]]
+file = "mods/littletiles.pw.toml"
+hash = "edb8fc5abf879cd53b9966f169ed1ff962a14c2ade57d804bb5bda382a962251"
 metafile = true
 
 [[files]]
@@ -8642,7 +8613,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "53f5462c2ba40c3ea6d520614f70447a2f66495abc5982175734f16e54cde336"
+hash = "ba5200f8cf0e3840f610e0d2fd4b08973fdbb37034fcf1028168df5a9ff3ec7d"
 metafile = true
 
 [[files]]
@@ -8802,7 +8773,7 @@ metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "4a88412e27d18168d7936b18e99130ffc4238ee7a9047ff85bebe4ba17898cc5"
+hash = "32f8d722b8e90a4ded120d3cbc7d6718d7bc2ea57a292af725978117710a6490"
 metafile = true
 
 [[files]]
@@ -9102,7 +9073,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "280b65831111c737228c09a931097d87726c061071710c7a172f0f4b423e98b6"
+hash = "cbc55d671a14bc023ab26c4ac46fefeee3daa0127f605157d45400a197b03c58"
 metafile = true
 
 [[files]]
@@ -9232,7 +9203,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0c5df1c3b185222324a53a8edec72672b5221fa5422403b4991b4a2968645bf8"
+hash = "c9822d23d77c16a5bd0d2333c987035ac99997fee9bea42f5adc8533006dce97"
 metafile = true
 
 [[files]]
@@ -9322,7 +9293,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "6e651021a5f2e38f79d6dc21adc9ab25c251e3ec4293e8f997aada4cad9000c7"
+hash = "ed317b1feb02477053336481864a2c431326b6612fec62fb2261a299c3592e80"
 metafile = true
 
 [[files]]
@@ -9632,11 +9603,3 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "7b6564ffa9ddc510af5479b593a1db26851e8d331229ea6a59f50f777c24b08b"
 metafile = true
-
-[[files]]
-file = "zinc_ore_fix/data/alltheores/loot_tables/blocks/zinc_ore.json"
-hash = "8d5047b73526f3449daa6fc8c9e5c636de8a458b889c925b1703cc2b85e64d15"
-
-[[files]]
-file = "zinc_ore_fix/pack.mcmeta"
-hash = "39e0a75839c10e060298162f4ea5e9515e7b5b4696124375d7c73dc8a58f7dfd"
