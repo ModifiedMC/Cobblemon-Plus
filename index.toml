@@ -7222,6 +7222,16 @@ hash = "9fa00b1e5c34244e681630a6b9d51ac1e7abe43e81d3349e981e7b0d2fc780bc"
 metafile = true
 
 [[files]]
+file = "mods/botany-pots.pw.toml"
+hash = "47fdf3b5301f8d5a93774b0ea51378d00dfdbbce809ce18d545b7662652db322"
+metafile = true
+
+[[files]]
+file = "mods/botany-trees.pw.toml"
+hash = "0f65903b12bae41e80128a499439d818fec9597604f6c8d5ea04d443c0eda93c"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "c854b73ec29fc1b2af09becafc5380d24dbe91ee809bd3803166563c13d98214"
 metafile = true
