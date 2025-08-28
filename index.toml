@@ -6902,6 +6902,21 @@ hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
 
 [[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "b795ac74968a1a4eb9c0796bb2e3b19d16dc9ffb3a01a4b368b7e7322dcfa3b9"
+metafile = true
+
+[[files]]
+file = "mods/accessories.pw.toml"
+hash = "53b8759301fb32d2b8fcef1125984414e33aab748c4119c253812ea17bf28f4b"
+metafile = true
+
+[[files]]
+file = "mods/accessorify.pw.toml"
+hash = "6982264e94dd5325c97c1cbee9a55c1702c4af2307f5541839cd029772636bc4"
+metafile = true
+
+[[files]]
 file = "mods/additional-lights.pw.toml"
 hash = "2a1d37592310a332c4bd5d03df4663054b855e28f797f5c91bb13414416dd632"
 metafile = true
@@ -7973,7 +7988,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-async-world-save-forge-fabric.pw.toml"
-hash = "967e2145e86fb9de3ef8f9d0bb20cb1d15ccb294cab7b2611fdebcf405dbf98d"
+hash = "c19754832997fe5fbd9488eeb3b02f3221f36893f94003e403b731ed9e9132ce"
 metafile = true
 
 [[files]]
@@ -9078,7 +9093,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "cbc55d671a14bc023ab26c4ac46fefeee3daa0127f605157d45400a197b03c58"
+hash = "280b65831111c737228c09a931097d87726c061071710c7a172f0f4b423e98b6"
 metafile = true
 
 [[files]]
