@@ -1,6 +1,6 @@
 name = "Aether Addon: Emissivity"
 filename = "aether_emissivity-1.21.1-1.0.1-neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
