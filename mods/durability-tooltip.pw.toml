@@ -1,6 +1,6 @@
 name = "Durability Tooltip"
 filename = "durabilitytooltip-1.1.6-neoforge-mc1.21.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
