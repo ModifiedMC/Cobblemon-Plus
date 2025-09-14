@@ -1,6 +1,6 @@
 name = "Oracle Index"
 filename = "oracle_index-neoforge-0.4.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

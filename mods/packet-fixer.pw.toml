@@ -1,13 +1,13 @@
 name = "Packet Fixer"
-filename = "packetfixer-3.2.0-1.20.5-1.21.X-merged.jar"
+filename = "packetfixer-3.3.0-1.20.5-1.21.X-merged.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "75ff036fb43f3a734b1603bdd4f99949c2e08257"
+hash = "ff28ce5462ba2c1dff9b559b5e0dd428b2eac804"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6931760
+file-id = 6940441
 project-id = 689467

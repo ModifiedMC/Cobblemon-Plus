@@ -1,6 +1,6 @@
 name = "Longer Chat History [Forge/NeoForge/Fabric]"
 filename = "LongerChatHistory-neoforge-1.7.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

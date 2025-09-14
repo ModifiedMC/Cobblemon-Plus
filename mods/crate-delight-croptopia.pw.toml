@@ -1,0 +1,13 @@
+name = "Crate Delight: Croptopia"
+filename = "cratedelightcroptopia-24.12.27-1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47c973ee268ea774228488d68e5a920ca6b93b8e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6028868
+project-id = 1166929

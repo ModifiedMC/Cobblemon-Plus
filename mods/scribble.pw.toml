@@ -1,6 +1,6 @@
 name = "Scribble"
 filename = "Scribble-1.5.1+mc1.21-neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
