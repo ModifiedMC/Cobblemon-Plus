@@ -4013,6 +4013,10 @@ file = "config/paxi/datapacks/BCA-PokeDollars.zip"
 hash = "3bfe5cdf14e3363f941175bfae74ef7574e664e408061bcf767b8bfa3d15bfdc"
 
 [[files]]
+file = "config/paxi/datapacks/Laya_Tweaks.zip"
+hash = "57a4147420f553141800dfd06457a9494068c2ccbe8188848f702805e655fc30"
+
+[[files]]
 file = "config/paxi/datapacks/MSD recipes RENEWED 1.2.zip"
 hash = "09592f5c5035fcf9c6fd185782118c72a948df40ba55e9fabe289d27a189d760"
 
