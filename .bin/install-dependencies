@@ -31,10 +31,30 @@ function packwiz-path() {
     fi
 }
 
+to_install=""
 zip_installed="$(type zip 2>/dev/null 1>&2 && echo "true" || echo "false")"
 if [[ "$zip_installed" == "false" ]]; then
-    echo "Installing zip..."
-    install-apt zip
+    to_install="$to_install zip"
+fi
+
+jq_installed="$(type jq 2>/dev/null 1>&2 && echo "true" || echo "false")"
+if [[ "$jq_installed" == "false" ]]; then
+    to_install="$to_install jq"
+fi
+
+java_installed="$(type java 2>/dev/null 1>&2 && echo "true" || echo "false")"
+if [[ "$java_installed" == "false" ]]; then
+    to_install="$to_install default-jre"
+fi
+
+python_installed="$(type python3 2>/dev/null 1>&2 && echo "true" || echo "false")"
+if [[ "$python_installed" == "false" ]]; then
+    to_install="$to_install python3"
+fi
+
+if [[ ! -z "$to_install" ]]; then
+    echo "Installing apt packages: $to_install"
+    install-apt "$to_install"
 fi
 
 if [[ -z "$(packwiz-path)" ]]; then
@@ -43,18 +63,6 @@ if [[ -z "$(packwiz-path)" ]]; then
     unzip packwiz.zip
     rm packwiz.zip
     mv packwiz .bin/packwiz
-fi
-
-jq_installed="$(type jq 2>/dev/null 1>&2 && echo "true" || echo "false")"
-if [[ "$jq_installed" == "false" ]]; then
-    echo "Installing jq..."
-    install-apt jq
-fi
-
-java_installed="$(type java 2>/dev/null 1>&2 && echo "true" || echo "false")"
-if [[ "$java_installed" == "false" ]]; then
-    echo "Installing java..."
-    install-apt default-jre
 fi
 
 echo "Dependencies installed"

@@ -9563,7 +9563,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/cobblemon-interface-modded.pw.toml"
-hash = "2de55c7988d2ebc8754329eaba2853e10f4cb522df05728700c122f397d78765"
+hash = "b773ca99d0539a809df8b88390b7b2f2648abac00d92ca3deb308780c9942276"
 metafile = true
 
 [[files]]
@@ -9592,12 +9592,12 @@ hash = "d56faf1280b0873578367d1fe635449cad63d327a4495d5ef38a57f5a24d6653"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.5.zip"
-hash = "4434feaa2deb48c2cd3f75229ae2276b4c4d4af445d66259bdeb67e796bea12c"
+file = "shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.zip"
+hash = "b1f4742320d7d66217f7f7eb2d74a953396ba3b8682f9ec4d7d700ef6beba4d7"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.5.zip"
-hash = "8cc87c486a108ffee2797b4cd22eab765b3ccb1f77f4830e7c149e10e308aa36"
+file = "shaderpacks/ComplementaryUnbound_r5.4 + EuphoriaPatches_1.5.2.zip"
+hash = "af0f717d5fe557ed8daee407475dfeb0672d8b1c4c2081bf7f1a9ed9f6a7685b"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
