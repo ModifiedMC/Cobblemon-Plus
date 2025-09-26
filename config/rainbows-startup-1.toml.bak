@@ -1,9 +1,0 @@
-[General]
-	#Global toggle for controlling rainbow detail.
-	globalDetailOverride = false
-	#If set to true, then the configs will update every mod update. Set to false if you want to manage config changes yourself.
-	globalShouldAutoUpdate = true
-	#How high of a resolution should the rainbow render in? Lower value = lower resolution and quality but more FPS.
-	# Default: 150
-	# Range: > 0
-	rainbowDetail = 150

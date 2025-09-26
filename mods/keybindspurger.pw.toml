@@ -1,13 +1,13 @@
 name = "KeybindsPurger"
-filename = "keybindspurger-1.21.x-neoforge-1.3.3.jar"
+filename = "keybindspurger-1.21.x-neoforge-1.3.4.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "ff99f103d30562b14aa33365aa526443c4eb94e3"
+hash = "b932087d2f3cfed4ec05ee7a4fe294b959794dd1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6197097
+file-id = 6986027
 project-id = 1099143

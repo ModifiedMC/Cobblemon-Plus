@@ -1,13 +1,13 @@
 name = "Iron Furnaces"
-filename = "ironfurnaces-neoforge-1.21.1-4.3.1.jar"
+filename = "ironfurnaces-neoforge-1.21.1-4.3.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9e698e4ba86249fc3a206e3aebcbeb1d8dd9ea0f"
+hash = "9a40f949ec9794cdef79bdabb61a12a918613194"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6816232
+file-id = 7034259
 project-id = 237664

@@ -1,13 +1,13 @@
 name = "Miniature Shader"
-filename = "miniature-shader-2.16.1.zip"
+filename = "miniature-shader-2.18.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "de9a068f38b612713e515131d4e41f05280e4830"
+hash = "d0bf8fc0acf36291c3fa633c2834d618c459b270"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6857529
+file-id = 7027492
 project-id = 602290

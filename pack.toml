@@ -1,15 +1,15 @@
 name = "Modified Cobblemon Plus"
-version = "11.9.0"
+version = "11.9.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0e0112738d1aa5c28369e78fac63bd4e2a31fbeca7eefd9471cc8c1513dc1d24"
+hash = "f39ebdff0cd3653382238538d8272c3b07f001b7d68d52900e890af52597a8bd"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.203"
+neoforge = "21.1.209"
 
 [export]
 [export.curseforge]

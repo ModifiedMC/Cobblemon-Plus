@@ -1,13 +1,13 @@
 name = "Accessories Compatibility Layer"
-filename = "accessories_compat_layer-neoforge-0.1.5+1.21.1.jar"
+filename = "accessories_compat_layer-neoforge-0.1.9+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f809f8ec868504b4a3ea0646a5d5c64a3fd0477b"
+hash = "14bc2757608b5a8acb448d5fcb3efb8a448d26a7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6927972
+file-id = 7005354
 project-id = 1315611
