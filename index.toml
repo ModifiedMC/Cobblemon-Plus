@@ -4325,10 +4325,6 @@ file = "config/reusable_rockets-server.toml"
 hash = "19403ab870e7044131a824e281d0f4579a1c9671f5c18a3ea97b7a690f05abad"
 
 [[files]]
-file = "config/rightclickharvest.json5"
-hash = "9826817c15eddc7d781847bb2ec543e115de479bc7e6086eeccf845b59c98ae9"
-
-[[files]]
 file = "config/runelic.json"
 hash = "9e5d4a1869bb499cd08e18e9c2ea9f0658650c7b52714870aa7e2f72b02fa181"
 
@@ -6817,6 +6813,11 @@ hash = "c8ecb69a4edcdc915a4009af34b1c5c18f67eaabfa20f144564a8925c8c5dcd7"
 metafile = true
 
 [[files]]
+file = "mods/actually-harvest.pw.toml"
+hash = "a852722a8276099f99ad467a5808f41e94552741b8bb9816354f3e4423df8863"
+metafile = true
+
+[[files]]
 file = "mods/additional-lights.pw.toml"
 hash = "2a1d37592310a332c4bd5d03df4663054b855e28f797f5c91bb13414416dd632"
 metafile = true
@@ -8969,11 +8970,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "690f29c73b126a49334f9936b585b915200bf0572f5573fbde200ee256b79c92"
-metafile = true
-
-[[files]]
-file = "mods/rightclickharvest.pw.toml"
-hash = "198e68ce859405a409ec91f9861f3b58adf56ce3221ffb77850bef10afbf3da8"
 metafile = true
 
 [[files]]

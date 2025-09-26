@@ -1,0 +1,13 @@
+name = "Actually Harvest (right click and XP)"
+filename = "actuallyharvest-1.21.1-1.1.3.5-NEOFORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aca9566a7fd4010a9ce5ef890a4950e3792846c8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7024196
+project-id = 1076278
