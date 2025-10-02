@@ -183,7 +183,7 @@
 		}
 		{
 			height: 1.0d
-			image: "emi_loot:textures/gui/spawns_with.png"
+			image: "collectorsalbum:item/epic_zombie_card"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
@@ -204,22 +204,6 @@
 			width: 1.0d
 			x: 17.5d
 			y: 12.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/entity_icon/skeleton/skeleton.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/entity_icon/spider/cave_spider.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 7.0d
 		}
 		{
 			height: 3.0d
@@ -247,7 +231,7 @@
 		}
 		{
 			height: 3.0d
-			image: "minecraft:textures/entity_icon/guardian.png"
+			image: "refurbished_furniture:textures/tv_channels/ocean_sunset.png"
 			rotation: 0.0d
 			width: 3.0d
 			x: 1.0d

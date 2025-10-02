@@ -1,0 +1,13 @@
+name = "Merge Enchantments"
+filename = "merenc-neoforge-1.21.x-v4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebefc64d5d9adc5bb4263a2983cb4b89530a5b0a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6218605
+project-id = 627101

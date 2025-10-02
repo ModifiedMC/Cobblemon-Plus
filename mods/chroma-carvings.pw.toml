@@ -1,0 +1,13 @@
+name = "Chroma Carvings"
+filename = "chromacarvings-1.21.1-0.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b791809827bfd4e3d28fc208815d92bfed92c602"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6921832
+project-id = 1283857

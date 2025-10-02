@@ -12,13 +12,7 @@
 	}
 	id: "4AF3C71FC353146E"
 	order_index: 0
-	quest_links: [{
-		id: "27CA43E3F9B945BB"
-		linked_quest: "063B9BDFDD0C371C"
-		size: 2.0d
-		x: -4.0d
-		y: -5.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			icon: {

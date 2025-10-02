@@ -9,7 +9,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "minecraft:textures/entity_icon/villager/nitwit.png"
+			"ftbquests:icon": "modified:textures/ftbquests/mon_icon/mew_coin.png"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -49,7 +49,7 @@
 			y: -0.5d
 		}
 		{
-			height: 1.5d
+			height: 1.3d
 			image: "modified:textures/ftbquests/mon_icon/unown_o.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -303,7 +303,7 @@
 			tasks: [{
 				count: 4L
 				id: "3F5D3D01216CB522"
-				item: { count: 4, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -326,7 +326,7 @@
 			tasks: [{
 				count: 7L
 				id: "071DB2C98BE785ED"
-				item: { count: 7, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -654,7 +654,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			icon: {
@@ -786,7 +786,7 @@
 			tasks: [{
 				count: 2L
 				id: "2AC32F85E4CCE3FA"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -806,7 +806,7 @@
 			tasks: [{
 				count: 2L
 				id: "7D3639703310EE56"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -849,7 +849,7 @@
 			tasks: [{
 				count: 5L
 				id: "17A5D8D79385A9CC"
-				item: { count: 5, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -869,7 +869,7 @@
 			tasks: [{
 				count: 2L
 				id: "76D1B1C6F20F5430"
-				item: { count: 2, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -908,7 +908,7 @@
 			tasks: [{
 				count: 4L
 				id: "7EA70B3E922D2EF6"
-				item: { count: 3, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -1168,7 +1168,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -1234,28 +1234,6 @@
 			}]
 			x: -4.0d
 			y: 3.0d
-		}
-		{
-			icon: {
-				id: "ultimine_addition:mining_skill_card_empty"
-			}
-			id: "066ED74217A194D5"
-			rewards: [{
-				id: "61670623E56C4746"
-				item: {
-					count: 1
-					id: "ultimine_addition:mining_skill_card_empty"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 25L
-				id: "1C397116B45FD84B"
-				item: { count: 25, id: "modified:pokedollar" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: 2.0d
 		}
 		{
 			disable_toast: true
@@ -1561,7 +1539,7 @@
 			tasks: [{
 				count: 50L
 				id: "02084CE19FD8CE7C"
-				item: { count: 10, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1628,7 +1606,7 @@
 			tasks: [{
 				count: 24L
 				id: "5DBF66BEB3BD7A22"
-				item: { count: 16, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1734,7 +1712,7 @@
 			tasks: [{
 				count: 20L
 				id: "45359742F0097949"
-				item: { count: 20, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1759,7 +1737,7 @@
 			tasks: [{
 				count: 50L
 				id: "54884E12E7F93AEB"
-				item: { count: 50, id: "modified:pokedollar" }
+				item: { count: 1, id: "modified:pokedollar" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -1813,4 +1791,3 @@
 		}
 	]
 }
-

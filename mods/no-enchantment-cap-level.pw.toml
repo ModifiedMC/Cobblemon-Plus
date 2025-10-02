@@ -1,0 +1,13 @@
+name = "No Enchantment Cap Level"
+filename = "NoEnchantmentCapLevel-neoforge-1.21.x-v1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6acdca1ec4d6a5fb758c107ca53c0cc5f93c5813"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6266096
+project-id = 1211400

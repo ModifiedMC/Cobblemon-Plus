@@ -108,12 +108,6 @@
 	quest.01E10848967E2381.quest_subtitle: "Haz clic para ver todos los objetos posibles"
 	quest.01E10848967E2381.title: "Botín de Mazmorra de Bronce"
 	quest.01E593EF7E9F5B61.quest_desc: ["Causa que un Pokémon que hace contacto directo con el portador reciba daño."]
-	quest.01E621F5343075C2.quest_desc: [
-		"Hay cuatro tipos diferentes de Tarjetas de Habilidad de Minería: Pico, Hacha, Pala y Azada."
-		""
-		"Puedes crear uno de estos tipos poniendo la tarjeta vacía con una de las herramientas mencionadas."
-	]
-	quest.01E621F5343075C2.quest_subtitle: "Usando el Registro de Habilidades pt.1"
 	quest.01EEDFCCFC6294C1.quest_subtitle: "Cantidad de Intercambios: 1"
 	quest.01EEDFCCFC6294C1.title: "Vitrina"
 	quest.02036208ACA48E38.quest_desc: [
@@ -288,21 +282,8 @@
 	quest.05B490DEA8841D61.title: "Raíz Grande"
 	quest.05B8CB4A870A394B.quest_subtitle: "Se puede encontrar en un Bosque"
 	quest.05BE8C190EAE653D.quest_subtitle: "Se puede encontrar en un Bosque"
-	quest.05DF0D01D6A1BE7D.quest_desc: [
-		"Ve pt. 1 para obtener una tarjeta específica."
-		""
-		"El bolígrafo debe llenarse antes de usarlo. Puedes llenarlo con cualquier tinte vía la mesa de creación."
-		""
-		"Puedes seleccionar una de las tarjetas insertadas pasando por encima y haciendo clic derecho en ella."
-		""
-		"&d¡Los desafíos aparecerán en la pantalla para que los completes!&r"
-		"&6Completa todos ellos para ir al siguiente nivel.&r"
-	]
-	quest.05DF0D01D6A1BE7D.title: "Usando el Registro de Habilidades pt.2"
 	quest.05EF06E4D55A9347.title: "Mago Experto"
 	quest.06397E386E51FABE.quest_desc: ["Aumenta la duración de las pociones en un 15% por cada nivel."]
-	quest.063B9BDFDD0C371C.quest_subtitle: "¡Disponible en muchos niveles / biomas específicos!"
-	quest.063B9BDFDD0C371C.title: "Granjas de Mobs Fáciles"
 	quest.064C0A7D7E1F79BA.quest_subtitle: "Obtén todos los tipos Tierra."
 	quest.064E9F11A5441981.quest_desc: [
 		"Puedes insertar y extraer recursos en la red de almacenamiento dentro de la Rejilla."
@@ -364,7 +345,6 @@
 	quest.064E9F11A5441981.quest_subtitle: "La Rejilla permite acceso a los recursos almacenados en la red de almacenamiento."
 	quest.064E9F11A5441981.title: "Rejillas"
 	quest.065739A79D4F6B3D.title: "Tipos Hielo de Hoenn"
-	quest.066ED74217A194D5.quest_desc: ["Tarjeta de Habilidad de Minería - ¡Usada para progresar con Ultimine!"]
 	quest.0689DB6E3B1DB2F9.quest_subtitle: "Movido con un Artilugio Automatizado"
 	quest.069B7BF26D9B41D7.quest_subtitle: "cuando es sostenido por Palkia cambiará a su Forma Origen."
 	quest.069B7BF26D9B41D7.title: "Forma Origen - Palkia"
@@ -769,8 +749,6 @@
 	quest.119FBCFAB10D9F28.quest_desc: ["¡Una colección de herramientas dirigidas a hacer construcciones grandes más manejables en supervivencia!"]
 	quest.119FBCFAB10D9F28.quest_subtitle: "¡Simplifica esas construcciones!"
 	quest.11C9CE5395966DEA.title: "¡Todas las Azadas!"
-	quest.11CA74A02F4C5C83.quest_subtitle: "¡Desbloquea esa tecla ~!"
-	quest.11CA74A02F4C5C83.title: "¡Ultimine!"
 	quest.11EE831E2EF2F773.quest_subtitle: "usado para fusionar múltiples Paquetes de Cartón"
 	quest.11F9052F72DD994E.quest_subtitle: "Se puede encontrar en un Bosque Oscuro"
 	quest.1215A4828E6D46EC.quest_subtitle: "Puede usarse para ordenar objetos en Cintas Mecánicas"
@@ -1027,17 +1005,6 @@
 	quest.1652746389A20AB4.quest_subtitle: "¿Qué es una Llave de Gimnasio?"
 	quest.166715904F4D6A69.quest_desc: ["Aumenta el poder de los movimientos físicos del portador."]
 	quest.169403A7ABE23E19.title: "Tipos Siniestro de Paldea"
-	quest.16BD408A5CAF433B.quest_desc: [
-		"Forma opcional de obtener la Habilidad Ultimine temporalmente:"
-		""
-		"Haz una &dPoción de Conocimiento&r usando cualquiera de los &6Libros Encantados&r en un soporte de pociones."
-		""
-		"Luego usa las Pociones de Conocimiento en la parte inferior del soporte de pociones, y agrega una carta de habilidad arriba para hacer un &dJugo de Mine-Go&r \\& ¡desbloquear ultimine temporalmente!"
-		""
-		"&6El tiempo varía según el nivel de la carta de habilidad.&r"
-	]
-	quest.16BD408A5CAF433B.quest_subtitle: "Jugo de Mine-Go"
-	quest.16BD408A5CAF433B.title: "¡Ultimine Temporal!"
 	quest.16EAD2F5D4CA9B93.title: "Iniciales de la Región de Alola"
 	quest.17052794146772C7.title: "Tipos Hielo de Johto"
 	quest.17299D0188D8AF68.title: "Pluma de Hada"
@@ -1543,8 +1510,6 @@
 	quest.1FFD74C920A57C9A.title: "Bloques Tipo Vela"
 	quest.200271E86B5EEAF7.quest_subtitle: "Obtén todos los Tipos Fuego."
 	quest.20420F2BF84AC83B.title: "Iniciales de la Región Kanto"
-	quest.204B7F1E9DA58947.quest_desc: ["Explicaremos el uso de planos más tarde, pero primero antes de usar la tarjeta vacía para crear el Registro de Habilidades, ¡trata de crear un &eplano&r de tarjeta para que puedas hacer otra tarjeta a partir de él!"]
-	quest.204B7F1E9DA58947.quest_subtitle: "Paso 2"
 	quest.205A7A0364D1DEC3.quest_desc: [
 		"Coloca uno en la fuente de energía, y conecta a otro con el cable apropiado donde quieras enviar la energía"
 		""
@@ -1778,15 +1743,6 @@
 	quest.2550749BBA4B4309.title: "Tipos Roca de Hoenn"
 	quest.256BA22ECE812C88.quest_subtitle: "Armas de Clase Media como Lanzas, Hojas Gemelas y Espadas Largas"
 	quest.256BA22ECE812C88.title: "Simply Swords - Armas Medianas"
-	quest.256BE43416AD50B3.quest_desc: [
-		"Una vez que hayas progresado a través de todos los niveles para cada carta desbloquearás la &6maestría&r."
-		""
-		"Para obtener el &dCertificado de Minero&r, necesitas tener &6todos los diferentes tipos de Cartas de Habilidad Minera &dDOMINADAS&r y ponerlas con papel en la mesa de crafteo."
-		""
-		"&dInteractúa con el Certificado de Minero para obtener la Habilidad Ultimine permanentemente.&r"
-	]
-	quest.256BE43416AD50B3.quest_subtitle: "Graduado de la Escuela Ultimine"
-	quest.256BE43416AD50B3.title: "¡Ultimine Desbloqueado!"
 	quest.258912C5B8333516.quest_desc: ["Genera una cantidad moderada de fuente de comida cercana, generando más para comida más nutritiva. La comida de Bayas de Fuente vale mucho más que otras comidas mundanas. Además, el Enlace de Fuente Micelial convertirá Hierba o Tierra en el área de 3x3 debajo de él en Micelio y hará crecer hongos alrededor dado que el espacio esté vacío. El Enlace de Fuente también extraerá objetos de pedestales cercanos."]
 	quest.25917A446482088C.quest_desc: ["Un &dX Precisión&r es un tipo de objeto que aumenta la estadística de precisión del objetivo en una etapa cuando se usa en batalla."]
 	quest.2595CD4D52049FED.title: "Eevee"
@@ -2054,12 +2010,12 @@
 	quest.2BE7CE3293059396.quest_subtitle: "Usado para varias acciones extra"
 	quest.2BE7CE3293059396.title: "Portón de Pago"
 	quest.2BFC236C6AB6F169.quest_desc: [
-               "En Apotheosis, los Yunques tienen significativamente más utilidad que antes. Los Yunques no tienen límite de nivel y son encantables. Los Yunques pueden recibir Irrompible, División y Obliteración."
-               ""
-               "División es un nuevo encantamiento que te permite soltar un yunque sobre un libro encantado con múltiples encantamientos, y recibir un libro individual para cada nivel. Sin embargo, este proceso solo tiene un 20% de posibilidad de éxito por nivel de división, y siempre causará daño al yunque (pero puede ser prevenido por irrompible)."
-               ""
-               "Obliteración es similar, tiene las mismas reglas de éxito, pero funciona en libros con un solo encantamiento por encima del nivel uno. Creará dos libros, cada uno un nivel más bajo que el original. Piénsalo como lo inverso de combinar dos libros en un yunque."
-       ]
+		"En Apotheosis, los Yunques tienen significativamente más utilidad que antes. Los Yunques no tienen límite de nivel y son encantables. Los Yunques pueden recibir Irrompible, División y Obliteración."
+		""
+		"División es un nuevo encantamiento que te permite soltar un yunque sobre un libro encantado con múltiples encantamientos, y recibir un libro individual para cada nivel. Sin embargo, este proceso solo tiene un 20% de posibilidad de éxito por nivel de división, y siempre causará daño al yunque (pero puede ser prevenido por irrompible)."
+		""
+		"Obliteración es similar, tiene las mismas reglas de éxito, pero funciona en libros con un solo encantamiento por encima del nivel uno. Creará dos libros, cada uno un nivel más bajo que el original. Piénsalo como lo inverso de combinar dos libros en un yunque."
+	]
 	quest.2C1D9F06ED3A144B.quest_subtitle: "¡Puede contener hasta 30 niveles de exp!"
 	quest.2C2F85051706E97E.title: "Evolita"
 	quest.2C380EF423920765.quest_desc: ["El Mezclador requiere una velocidad rotacional mínima de 30 RPM de su fuente de energía para funcionar."]
@@ -2318,7 +2274,6 @@
 		"&dEfecto de Cebo:&r Hace que los Pokémon en los Grupos de Huevos Agua 3 y Bicho sean 10 veces más propensos a ser encontrados"
 	]
 	quest.37C60E878FDBA507.quest_desc: ["Periódicamente hace que los animales cercanos se reproduzcan si es posible. Este ritual requiere fuente para operar, y no tendrá efecto si hay veinte o más animales cerca."]
-	
 	quest.37DE01BA4E2F0BC6.quest_subtitle: "Se puede encontrar en Llanuras"
 	quest.3808B72C1784E21C.title: "Tipos Fantasma de Johto"
 	quest.38136FFBDD1D6C1A.quest_subtitle: "Se puede encontrar en un Bosque"
@@ -2810,12 +2765,6 @@
 		""
 		"&dEfecto como Cebo:&r Hace que los Pokémon del Grupo Huevo Campo sean 10 veces más propensos a ser encontrados"
 	]
-	quest.42941AD8F80D28DC.quest_desc: [
-		"- Primero necesitas buscar un aldeano que tenga la profesión de &dherrero de herramientas&r."
-		"- Debes comerciar con ese aldeano hasta que alcance &dNivel 2&r (Aprendiz)."
-		"- Cuando hayas alcanzado ese nivel, el aldeano tendrá una nueva oferta para una &eTarjeta de Habilidad de Minería&r vacía."
-	]
-	quest.42941AD8F80D28DC.quest_subtitle: "Paso 1"
 	quest.42B13A2DB35ACC90.quest_desc: [
 		"&dEfecto en Pokémon:&r Reduce a la mitad el daño de un ataque súper efectivo de tipo Siniestro."
 		""
@@ -2928,10 +2877,10 @@
 		"&dEfecto como Cebo:&r Hace que los Pokémon de tipo Fuego sean 10 veces más propensos a ser encontrados"
 	]
 	quest.4670D46AFDD51E3B.quest_desc: [
-               "Los Hilos pueden aplicarse a la armadura usando el Aparato de Alteración. Cada pieza de armadura tiene un conjunto único de Ranuras de Hilo con su propia variedad de niveles. Algunos Hilos pueden requerir una Ranura de Hilo de un nivel mínimo, pero muchos hilos simplemente aumentan en poder basado en la ranura que se les asigna."
-               ""
-               "Los Hilos solo se aplican una sola vez en todo un conjunto de armadura, y no se acumulan. Para más información sobre aplicar hilos, consulta la Mesa de Alteración."
-       ]
+		"Los Hilos pueden aplicarse a la armadura usando el Aparato de Alteración. Cada pieza de armadura tiene un conjunto único de Ranuras de Hilo con su propia variedad de niveles. Algunos Hilos pueden requerir una Ranura de Hilo de un nivel mínimo, pero muchos hilos simplemente aumentan en poder basado en la ranura que se les asigna."
+		""
+		"Los Hilos solo se aplican una sola vez en todo un conjunto de armadura, y no se acumulan. Para más información sobre aplicar hilos, consulta la Mesa de Alteración."
+	]
 	quest.468AA7332C642CD4.quest_subtitle: "Cuenta de Intercambio: 4"
 	quest.468AA7332C642CD4.title: "Exhibidor de Cartas"
 	quest.46A1894770C28964.quest_subtitle: "Usado para Terastalizar un Pokémon"
@@ -3043,14 +2992,6 @@
 	quest.49084993B6ADCAB4.quest_subtitle: "Pájaro + Draco"
 	quest.49084993B6ADCAB4.title: "Dracozolt"
 	quest.490A15DFC1ADDE1A.quest_desc: ["Puebla el área cercana con flores y hierba. Aumentar con una gema de fuente incrementará el radio en 1 por cada gema. Aumentar con arena reemplazará las flores con Cactus y Arbustos Muertos."]
-	quest.490DBE0FC3600CC7.quest_subtitle: "Alcanza T3 para todas las granjas disponibles"
-	quest.490DBE0FC3600CC7.title: "Granjas al Máximo"
-	quest.490FD66E4C370550.quest_desc: [
-		"Después de elaborar el Registro de Habilidades, interactúa para abrirlo. Aparecerá una pantalla."
-		""
-		"Necesitarás poner cualquier &dTarjeta de Habilidades de Minería&r, &dPluma&r, \\&&d Papeles&r."
-	]
-	quest.490FD66E4C370550.quest_subtitle: "Una Herramienta necesaria para mejorar tus habilidades de minería"
 	quest.4915825B660CD27C.title: "Tipos Eléctrico de Johto"
 	quest.4925284AEF38184E.quest_desc: ["Cuando se coloca un Enlace de Stock en un Empaquetador, el Empaquetador puede recibir solicitudes de una Red Logística. Puede crear paquetes con una dirección, objetos específicos, y una cantidad específica de objetos."]
 	quest.4925284AEF38184E.quest_subtitle: "usado para conectar Empaquetadores a Redes Logísticas."
@@ -3160,14 +3101,14 @@
 	quest.4BB2573CF772E2D0.quest_desc: ["¡Puedes usar un cable de enlace para simular intercambio para evolucionar ciertos pokémon!"]
 	quest.4BB2573CF772E2D0.quest_subtitle: "¿Sin amigos en línea?"
 	quest.4BC9FC78D1335665.quest_desc: [
-               "Para comenzar a invocar familiares, necesitarás obtener un Pergamino Vinculado de la entidad con la que deseas hacerte amigo. Estos pueden obtenerse realizando el Ritual de Vinculación cerca de una entidad relevante."
-               ""
-               "Consulta la lista completa de entidades elegibles en la sección de Familiares del Tomo Desgarrado."
-               ""
-               "Una vez que hayas obtenido un Pergamino Vinculado, úsalo para aprender el familiar."
-               ""
-               "Seleccionar un Familiar lo invocará en el mundo y te dará Enfermedad de Familiar, impidiendo que invoques otro por un corto tiempo. Para obtener tu primer familiar, realiza el Ritual de Vinculación cerca de un Starbuncle. Los Familiares están vinculados al jugador y no pueden transferirse entre libros."
-       ]
+		"Para comenzar a invocar familiares, necesitarás obtener un Pergamino Vinculado de la entidad con la que deseas hacerte amigo. Estos pueden obtenerse realizando el Ritual de Vinculación cerca de una entidad relevante."
+		""
+		"Consulta la lista completa de entidades elegibles en la sección de Familiares del Tomo Desgarrado."
+		""
+		"Una vez que hayas obtenido un Pergamino Vinculado, úsalo para aprender el familiar."
+		""
+		"Seleccionar un Familiar lo invocará en el mundo y te dará Enfermedad de Familiar, impidiendo que invoques otro por un corto tiempo. Para obtener tu primer familiar, realiza el Ritual de Vinculación cerca de un Starbuncle. Los Familiares están vinculados al jugador y no pueden transferirse entre libros."
+	]
 	quest.4BE1611B889CDCF8.title: "Minerales de Platino"
 	quest.4C24BC9E3A89C29E.quest_subtitle: "Cambia el género de tu mon"
 	quest.4C24BC9E3A89C29E.title: "&dOrbe de Transmutación"
@@ -3540,16 +3481,16 @@
 	quest.53793A1711744622.quest_desc: ["Este colgante místico potencia los movimientos de tipo &3Agua&r del portador."]
 	quest.538EFCB16C7710E5.quest_desc: ["Captura una entidad cercana y la coloca en cualquier Jarra de Contención cercana colocada. Después de la primera captura, este ritual requiere fuente adicional para continuar. Los mobs y jarras deben estar dentro de 3 bloques del brasero."]
 	quest.538FA4343DBE25A1.quest_desc: [
-                "Ahora hay un nuevo sistema de encantamiento que usa tres estadísticas, en lugar del sistema original de una sola estadística. Algunas estadísticas son las mismas (Eterna es el Poder de Encantamiento ya existente), pero otras son nuevas."
-                ""
-                ""
-                "Eterna es la estadística que controla en qué nivel está tu mesa de encantamientos. Ciertos tipos de estanterías solo son capaces de proporcionar ciertos niveles máximos de Eterna, así que asegúrate de verificar el máximo en el bloque. El nivel actual de la mesa es igual al doble de Eterna. Eterna llega hasta un máximo de 50, lo que resulta en un nivel de encantamiento de 100. El nivel máximo de Eterna se escalará hasta el más alto disponible, si supera 50."
-                ""
-                "{@pagebreak}"
-                "Quanta determina cuánto flujo hay en tu proceso de encantamiento. Cuando comienzas un proceso de encantamiento, después de gastar tu experiencia, tu nivel de Quanta trabajará tras bambalinas para cambiar tu nivel de encantamiento. Esto no siempre es beneficioso, ya que Quanta es capaz tanto de aumentar como de disminuir el nivel de encantamiento real. ¡Con mucho Quanta y un poco de suerte, técnicamente podrías recibir un encantamiento equivalente a gastar 200 niveles! Pero si tu suerte es mala, podrías estar desperdiciando completamente tu experiencia."
-                ""
-                "Arcana determina qué tan difícil es obtener encantamientos raros. Al 0%, se aplican las reglas base para la rareza de encantamientos, pero a medida que tu Arcana aumenta, los encantamientos raros se volverán más comunes, y los encantamientos comunes se volverán bastante raros. Al 100% de Arcana, las rarezas se invierten por completo, y los encantamientos Muy Raros aparecerán a la velocidad de los encantamientos comunes, ¡mientras que los encantamientos Comunes serán difíciles de encontrar! Finalmente, al 25% y 75% de Arcana, cada vez que encantas, tienes garantizado un encantamiento extra. Esto significa que después del 75% de Arcana, siempre recibirás 3 encantamientos."
-        ]
+		"Ahora hay un nuevo sistema de encantamiento que usa tres estadísticas, en lugar del sistema original de una sola estadística. Algunas estadísticas son las mismas (Eterna es el Poder de Encantamiento ya existente), pero otras son nuevas."
+		""
+		""
+		"Eterna es la estadística que controla en qué nivel está tu mesa de encantamientos. Ciertos tipos de estanterías solo son capaces de proporcionar ciertos niveles máximos de Eterna, así que asegúrate de verificar el máximo en el bloque. El nivel actual de la mesa es igual al doble de Eterna. Eterna llega hasta un máximo de 50, lo que resulta en un nivel de encantamiento de 100. El nivel máximo de Eterna se escalará hasta el más alto disponible, si supera 50."
+		""
+		"{@pagebreak}"
+		"Quanta determina cuánto flujo hay en tu proceso de encantamiento. Cuando comienzas un proceso de encantamiento, después de gastar tu experiencia, tu nivel de Quanta trabajará tras bambalinas para cambiar tu nivel de encantamiento. Esto no siempre es beneficioso, ya que Quanta es capaz tanto de aumentar como de disminuir el nivel de encantamiento real. ¡Con mucho Quanta y un poco de suerte, técnicamente podrías recibir un encantamiento equivalente a gastar 200 niveles! Pero si tu suerte es mala, podrías estar desperdiciando completamente tu experiencia."
+		""
+		"Arcana determina qué tan difícil es obtener encantamientos raros. Al 0%, se aplican las reglas base para la rareza de encantamientos, pero a medida que tu Arcana aumenta, los encantamientos raros se volverán más comunes, y los encantamientos comunes se volverán bastante raros. Al 100% de Arcana, las rarezas se invierten por completo, y los encantamientos Muy Raros aparecerán a la velocidad de los encantamientos comunes, ¡mientras que los encantamientos Comunes serán difíciles de encontrar! Finalmente, al 25% y 75% de Arcana, cada vez que encantas, tienes garantizado un encantamiento extra. Esto significa que después del 75% de Arcana, siempre recibirás 3 encantamientos."
+	]
 	quest.53950EA8A2C5B59A.title: "Drops Hostiles Comunes"
 	quest.53ADCB69FE68E299.quest_subtitle: "Encontrado en Climas Templados"
 	quest.53B63856D2DA0DDE.quest_desc: [
@@ -3933,7 +3874,6 @@
 	quest.5B15BD154D395DB0.title: "Tipos Veneno"
 	quest.5B1F60891CBEDA8C.title: "Tipos Agua de Hoenn"
 	quest.5B24BFBC77803832.quest_subtitle: "Estación de Inscripción de Llaves (Mazmorras Dimensionales)"
-	quest.5B2A27E94FE0D16A.quest_subtitle: "Usado para Mobs Medianos"
 	quest.5B3D2FF22FFA5722.quest_desc: [
 		"(Si está habilitado en tu servidor) tendrás acceso a;"
 		""
@@ -4034,7 +3974,6 @@
 	quest.5F7FC46D12719121.quest_subtitle: "Usado para conectarse a tu sistema de forma inalámbrica"
 	quest.5F7FC46D12719121.title: "Receptor de Red"
 	quest.5F8B88A3D68ECA87.title: "Bola Crepúsculo"
-	quest.5FA60E4DDD53CD11.quest_subtitle: "Usado para Mobs Más Grandes"
 	quest.5FA8DBC3B6C0231D.quest_desc: ["&dEfecto en Pokémon:&r -"]
 	quest.5FB3E5D29E773B02.quest_subtitle: "Se puede encontrar en una Jungla"
 	quest.5FD1A85676F6ED43.quest_desc: ["Haz clic derecho con un cubo para llenar el cubo con agua."]
@@ -4546,7 +4485,6 @@
 		"Se puede crear."
 	]
 	quest.6E41FC2D07C53BBF.quest_subtitle: "Spritzee -> Aromatisse"
-	quest.6E50AAA3CF4A1B06.title: "Catalizadores de Rana"
 	quest.6E7898AEB6A8D3A4.quest_subtitle: "Invoca una variedad aleatoria de animales salvajes nativos del bioma en el que está."
 	quest.6E79003749C3ECEE.quest_subtitle: "Alcance de bloque extendido"
 	quest.6E7DBDBC7FC7A91E.quest_subtitle: "¡Colecciona todos los Pokémon Míticos y Legendarios!"
@@ -4599,8 +4537,6 @@
 	quest.6FCFC8D4159F01D4.quest_subtitle: "Mezcla con agua para crear Pulpa"
 	quest.6FCFC8D4159F01D4.title: "Recursos Pulpificables"
 	quest.7003ABB52D497D47.quest_subtitle: "usado para crear varios dispositivos de red de almacenamiento."
-	quest.700FBC762A11A218.quest_subtitle: "Obtén todas las Mejoras"
-	quest.700FBC762A11A218.title: "Mejoras de Granja"
 	quest.701C05E611FF1DA1.quest_desc: [
 		"&6El Brazo Mecánico puede tomar o depositar objetos de varios bloques dentro de un radio de 5 bloques de donde se coloca.&r El orden en que hace esto está determinado por su comportamiento así como el orden en que los bloques fueron seleccionados durante la colocación."
 		""
@@ -4654,10 +4590,10 @@
 	quest.71931A15BADBBFF1.quest_subtitle: "¡Colecciona todos los Pokémon Míticos y Legendarios!"
 	quest.71931A15BADBBFF1.title: "Región de Hoenn"
 	quest.71A4026599ACCBE5.quest_desc: [
-               "Usado para inscribir Hilos en armaduras mágicas."
-               ""
-               "Para usar la mesa, coloca la armadura en el soporte de la mesa. La tableta mostrará las Ranuras de Hilo disponibles en la armadura. Para añadir o remover un Hilo, usa el hilo en la tableta de la mesa. Remover la armadura aplicará los hilos a la armadura. Para remover un hilo, coloca la armadura en la mesa e interactúa con la pantalla con la mano vacía."
-       ]
+		"Usado para inscribir Hilos en armaduras mágicas."
+		""
+		"Para usar la mesa, coloca la armadura en el soporte de la mesa. La tableta mostrará las Ranuras de Hilo disponibles en la armadura. Para añadir o remover un Hilo, usa el hilo en la tableta de la mesa. Remover la armadura aplicará los hilos a la armadura. Para remover un hilo, coloca la armadura en la mesa e interactúa con la pantalla con la mano vacía."
+	]
 	quest.71AD21ACC28D0487.quest_desc: ["Uno de los biomas más comunes, contiene muchos árboles skyroot agrupados juntos."]
 	quest.71AE3633F61FD6A5.quest_desc: [
 		"En Cobbreeding la forma regional se hereda directamente de la madre sin requerir el uso de una Piedra Eterna."
@@ -4666,10 +4602,10 @@
 	quest.71AE3633F61FD6A5.quest_subtitle: "Heredado de la madre"
 	quest.71AE3633F61FD6A5.title: "Forma y Aspecto"
 	quest.71CBAA8C9CF31D34.quest_desc: [
-               "La Biblioteca de Encantamientos es un bloque enfocado en almacenar encantamientos. Simplemente inserta un libro encantado, y cada encantamiento en ese libro será almacenado en la biblioteca internamente. Cada encantamiento en un libro depositado será almacenado como puntos. Un punto es simplemente equivalente a un encantamiento de nivel 1, y como tal un encantamiento vale la cantidad de puntos que tomaría combinarlo desde libros de nivel uno (2^(nivel -1) puntos por nivel). La biblioteca también registra el nivel máximo que ha visto para un encantamiento dado, y solo puedes extraer encantamientos hasta ese nivel. Esto significa que si quieres poder extraer un nivel más alto de un encantamiento, la biblioteca necesitará haber tenido ese nivel depositado al menos una vez."
-               ""
-               "Para extraer encantamientos de la biblioteca, simplemente haz clic en la casilla del encantamiento que quieres extraer, y será extraído a la ranura de salida. Si la ranura de salida está vacía, se generará un nuevo libro encantado. Si no está vacía, aplicará el siguiente nivel de ese encantamiento al libro (si tienes suficientes puntos). Hacer Shift-clic en una casilla intentará extraer el nivel máximo disponible (si tienes suficientes puntos). El costo en puntos para extraer se muestra en la descripción emergente. Si esa descripción emergente es roja, no tienes suficientes puntos para esa operación."
-       ]
+		"La Biblioteca de Encantamientos es un bloque enfocado en almacenar encantamientos. Simplemente inserta un libro encantado, y cada encantamiento en ese libro será almacenado en la biblioteca internamente. Cada encantamiento en un libro depositado será almacenado como puntos. Un punto es simplemente equivalente a un encantamiento de nivel 1, y como tal un encantamiento vale la cantidad de puntos que tomaría combinarlo desde libros de nivel uno (2^(nivel -1) puntos por nivel). La biblioteca también registra el nivel máximo que ha visto para un encantamiento dado, y solo puedes extraer encantamientos hasta ese nivel. Esto significa que si quieres poder extraer un nivel más alto de un encantamiento, la biblioteca necesitará haber tenido ese nivel depositado al menos una vez."
+		""
+		"Para extraer encantamientos de la biblioteca, simplemente haz clic en la casilla del encantamiento que quieres extraer, y será extraído a la ranura de salida. Si la ranura de salida está vacía, se generará un nuevo libro encantado. Si no está vacía, aplicará el siguiente nivel de ese encantamiento al libro (si tienes suficientes puntos). Hacer Shift-clic en una casilla intentará extraer el nivel máximo disponible (si tienes suficientes puntos). El costo en puntos para extraer se muestra en la descripción emergente. Si esa descripción emergente es roja, no tienes suficientes puntos para esa operación."
+	]
 	quest.71D3D2C181B923C9.quest_desc: [
 		"Más información está incluida bajo la sección de &dHerramientas&r de misiones. Necesitarás obtener una &eTarjeta de Habilidad Minera&r, y eventualmente un &6Certificado de Minero&r."
 		""
@@ -4816,7 +4752,6 @@
 		"Los objetos en conductos se verán afectados por la gravedad y caerán a conductos por defecto. Para tirar objetos hacia arriba, se necesita un Ventilador Encapsulado apropiadamente alimentado encima o debajo de los conductos. Por ejemplo, un ventilador debajo de los conductos empujaría los objetos hacia arriba, y un ventilador encima de los conductos tiraría los objetos hacia arriba. La velocidad del Ventilador Encapsulado puede cambiar qué tan rápido van los objetos hacia arriba."
 	]
 	quest.756DD6B226EF1FE6.quest_subtitle: "Permite más control y filtros sobre el Conducto estándar"
-	quest.757952855E8012D9.quest_subtitle: "Usado para mobs pequeños"
 	quest.75809A1082C1D83A.title: "Piedra Fuego"
 	quest.758389BB1A836CD2.quest_desc: ["Este objeto potenciará los &amovimientos tipo Bicho del portador.&r"]
 	quest.758F82F005783ED6.title: "Premier Ball"
@@ -5061,7 +4996,6 @@
 	quest.7B6B590B9FDEE095.title: "Equipos de Comercio"
 	quest.7B7A6E46C7269AB9.quest_subtitle: "Envía un cultivo para obtener la guía de Croptopia"
 	quest.7B7E824D7BD29739.quest_subtitle: "Sin aumento de límite, ¡pero derrota para Recompensas!"
-	quest.7B85355A8C431289.quest_subtitle: "¡Plano + Carta de habilidad = duplicar!"
 	quest.7B8B8DEEE5B11934.quest_desc: [
 		"&dEfecto en Pokémon:&r -"
 		""

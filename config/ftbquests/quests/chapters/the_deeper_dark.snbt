@@ -303,28 +303,13 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:warden"
 				}
 				id: "ftbquests:custom_icon"
 			}
 			id: "2B887500AD4F2881"
 			rewards: [
-				{
-					id: "3BA35F21E2DC48F7"
-					item: {
-						components: {
-							"easy_mob_farm:mob_capture_data": {
-								entityType: "minecraft:warden"
-								name: "entity.minecraft.warden"
-								rarity: "epic"
-								type: "minecraft:warden"
-							}
-						}
-						count: 1
-						id: "easy_mob_farm:mob_capture_card"
-					}
-					type: "item"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "5548BEB91384DD78"

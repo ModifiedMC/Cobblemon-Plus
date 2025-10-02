@@ -5,7 +5,7 @@
 	group: ""
 	icon: {
 		components: {
-			"ftbquests:icon": "journeymap:textures/waypoint/icon/waypoint-house-1.png"
+			"ftbquests:icon": "chalk:block/mark/house"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -162,18 +162,9 @@
 			disable_toast: true
 			icon: {
 				components: {
-					"ultimine_addition:mining_skill_card_data": {
-						DisplayItem: "minecraft:netherite_pickaxe"
-						Tier: 4
-						UUID: [I;
-							1801058755
-							248857928
-							-1222871239
-							391230063
-						]
-					}
+					"ftbquests:icon": "createqol:block/ender_packager_iris_open"
 				}
-				id: "ultimine_addition:mining_skill_card_pickaxe"
+				id: "ftbquests:custom_icon"
 			}
 			id: "71D3D2C181B923C9"
 			rewards: [{

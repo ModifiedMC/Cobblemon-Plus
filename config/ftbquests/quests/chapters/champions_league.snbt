@@ -1544,7 +1544,7 @@
 			id: "5D124ABC55250B59"
 			rewards: [{
 				auto: "enabled"
-				command: "/rctmod trainer summon gym_leader_maylene_03d8"
+				command: "/rctmod trainer summon champion_cynthia_03a5"
 				exclude_from_claim_all: true
 				id: "26AA0CA40BACD7B5"
 				permission_level: 4

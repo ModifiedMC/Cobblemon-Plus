@@ -222,7 +222,7 @@
 				consume_items: true
 				count: 64L
 				id: "67F5B6E44A0BBE78"
-				item: { count: 50, id: "cobblemon:relic_coin" }
+				item: { count: 1, id: "cobblemon:relic_coin" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -270,7 +270,7 @@
 				consume_items: true
 				count: 3L
 				id: "597AE8701995B16F"
-				item: { count: 3, id: "modified:coinblock_pokedollar" }
+				item: { count: 1, id: "modified:coinblock_pokedollar" }
 				type: "item"
 			}]
 			x: -3.0d

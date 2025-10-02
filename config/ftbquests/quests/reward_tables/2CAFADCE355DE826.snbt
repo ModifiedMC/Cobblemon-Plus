@@ -3,15 +3,15 @@
 	loot_size: 1
 	order_index: 42
 	rewards: [
-		{ id: "0ACCD5C54F34B5A9", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "calico" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "calico" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "7AB4BFA5EC759FA4", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "persian" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "persian" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "5B5493C57A781783", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "ragdoll" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "ragdoll" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "317E6EC953E46CBB", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "siamese" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "siamese" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "57A05CE7206F0012", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "white" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "white" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "616BA02692E938B9", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "red" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "red" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "5417C3CF9C8AD130", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "all_black" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "all_black" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "246AC4163E632A1E", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "tabby" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "tabby" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "0FC08E0E3419DCD1", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "british_shorthair" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "british_shorthair" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
-		{ id: "55A9D5F4E7D81711", item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "black" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "black" } }, count: 1, id: "easy_mob_farm:mob_capture_card" } }
+		{ id: "0ACCD5C54F34B5A9", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7AB4BFA5EC759FA4", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5B5493C57A781783", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "317E6EC953E46CBB", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "57A05CE7206F0012", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "616BA02692E938B9", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5417C3CF9C8AD130", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "246AC4163E632A1E", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0FC08E0E3419DCD1", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "55A9D5F4E7D81711", item: { components: { "ftbquests:missing_item": "easy_mob_farm:mob_capture_card" }, count: 1, id: "ftbquests:missing_item" } }
 	]
 }

@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.5d
-			image: "emi_loot:textures/gui/chest.png"
+			image: "aether:block/dungeon/pillar_carved"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -38,8 +38,8 @@
 		{
 			id: "17CB24BA3841140E"
 			linked_quest: "0ECAC6F0C686F8C4"
-			x: -10.5d
-			y: 2.0d
+			x: -11.5d
+			y: 2.5d
 		}
 		{
 			id: "008D116532385926"
@@ -73,265 +73,6 @@
 		}
 	]
 	quests: [
-		{
-			id: "11CA74A02F4C5C83"
-			rewards: [{
-				id: "2E170650890ECE15"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "10E5A09BC4A42BE1"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["11CA74A02F4C5C83"]
-			id: "42941AD8F80D28DC"
-			rewards: [
-				{
-					id: "23B90A2CB77D896B"
-					item: {
-						count: 1
-						id: "ultimine_addition:mining_skill_card_empty"
-					}
-					type: "item"
-				}
-				{
-					id: "6B5FDBE7667A6F0A"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0427EC575F3D7D79"
-				item: { count: 1, id: "ultimine_addition:mining_skill_card_empty" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["42941AD8F80D28DC"]
-			id: "204B7F1E9DA58947"
-			rewards: [
-				{
-					id: "1A3FAE969C0E5085"
-					item: {
-						count: 1
-						id: "ultimine_addition:card_blueprint"
-					}
-					type: "item"
-				}
-				{
-					id: "3C1AF36FD8FED904"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2C88EE4D439C0DFC"
-				item: { count: 1, id: "ultimine_addition:card_blueprint" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7B85355A8C431289"]
-			id: "490FD66E4C370550"
-			rewards: [
-				{
-					count: 5
-					id: "5620B9DA126435FC"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-				{
-					id: "74DB1755DE632FA2"
-					item: {
-						count: 1
-						id: "create:experience_block"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "65FC5BD389CB9CBF"
-				item: { count: 1, id: "ultimine_addition:skills_record" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["204B7F1E9DA58947"]
-			id: "7B85355A8C431289"
-			rewards: [{
-				id: "5C521473178334F2"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2A9658243ADAC536"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: -1.5d
-		}
-		{
-			id: "16BD408A5CAF433B"
-			rewards: [
-				{
-					count: 3
-					id: "06BEF288CCB4E334"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "ultimine_addition:knowledge"
-							}
-						}
-						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					id: "0B62524EAD5DD26F"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5F6D7DA78DE19400"
-				item: { components: { "minecraft:potion_contents": { potion: "ultimine_addition:knowledge" } }, count: 1, id: "minecraft:potion" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["05DF0D01D6A1BE7D"]
-			id: "256BE43416AD50B3"
-			rewards: [
-				{
-					count: 12
-					id: "19A08B0C288769CE"
-					item: {
-						count: 1
-						id: "create:experience_block"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "788FF7C5E67CAF1B"
-					item: {
-						count: 1
-						id: "modified:mtoken"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5EE5D90E9DC75512"
-				item: { count: 1, id: "ultimine_addition:miner_certificate" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["01E621F5343075C2"]
-			id: "05DF0D01D6A1BE7D"
-			rewards: [
-				{
-					count: 128
-					id: "1CF8B27A9F811448"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
-					type: "item"
-				}
-				{
-					count: 9
-					id: "73447EEE96606072"
-					item: {
-						count: 1
-						id: "minecraft:black_dye"
-					}
-					type: "item"
-				}
-				{
-					count: 10
-					id: "3D3F45D6BB69F2AD"
-					item: {
-						count: 1
-						id: "modified:pokedollar"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "58E32C1EA24AB829"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ultimine_addition:mining_skill_card)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "4B669606AAB676CE"
-					item: { count: 1, id: "ultimine_addition:pen" }
-					type: "item"
-				}
-				{
-					id: "44CFAD269DB7E6BA"
-					item: { count: 1, id: "minecraft:paper" }
-					type: "item"
-				}
-			]
-			x: -11.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["490FD66E4C370550"]
-			id: "01E621F5343075C2"
-			rewards: [{
-				id: "28273CA3AD07C263"
-				item: {
-					count: 1
-					id: "modified:pokedollar"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "097D63388CDECE0E"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: -3.5d
-		}
 		{
 			id: "130B2FCFDB76A008"
 			rewards: [{
@@ -2171,7 +1912,6 @@
 		{
 			dependencies: [
 				"6D4D4590FE29FDC4"
-				"256BE43416AD50B3"
 				"0443F3FB25EB20A0"
 				"11C9CE5395966DEA"
 				"08DD6D35400CDEB3"

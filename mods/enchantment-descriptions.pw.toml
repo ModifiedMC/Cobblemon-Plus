@@ -1,13 +1,13 @@
 name = "Enchantment Descriptions"
-filename = "enchdesc-neoforge-1.21.1-21.1.8.jar"
+filename = "enchdesc-neoforge-1.21.1-21.1.9.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c5b3b4392c05426ebc672174c9357fa1e3803588"
+hash = "e4fa515c5deab3165f250f2a1297ac836d496064"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6910375
+file-id = 7039849
 project-id = 250419

@@ -108,12 +108,6 @@
 	quest.01E10848967E2381.quest_subtitle: "Click to view all possible items"
 	quest.01E10848967E2381.title: "Bronze Dungeon Loot"
 	quest.01E593EF7E9F5B61.quest_desc: ["Causes a Pokémon that makes direct contact with the holder to take damage."]
-	quest.01E621F5343075C2.quest_desc: [
-		"There are four different Mining Skill Card types: Pickaxe, Axe, Shovel, and Hoe."
-		""
-		"You can craft one of these types by putting the empty card with one of the mentioned tools."
-	]
-	quest.01E621F5343075C2.quest_subtitle: "Using the Skills Record pt.1"
 	quest.01EEDFCCFC6294C1.quest_subtitle: "Trade Count: 1"
 	quest.01EEDFCCFC6294C1.title: "Display Case"
 	quest.02036208ACA48E38.quest_desc: [
@@ -288,21 +282,8 @@
 	quest.05B490DEA8841D61.title: "Big Root"
 	quest.05B8CB4A870A394B.quest_subtitle: "Can be found in a Forest"
 	quest.05BE8C190EAE653D.quest_subtitle: "Can be found in a Forest"
-	quest.05DF0D01D6A1BE7D.quest_desc: [
-		"See pt. 1 to obtain a specific card."
-		""
-		"The pen must be filled before using it. You can fill it with any dye via the crafting table."
-		""
-		"You can select one of the inserted cards by hovering on top and Right-clicking it."
-		""
-		"&dChallenges will appear on the screen for you to accomplish them!&r"
-		"&6Complete all of them to go to the next tier.&r"
-	]
-	quest.05DF0D01D6A1BE7D.title: "Using the Skills Record pt.2"
 	quest.05EF06E4D55A9347.title: "Expert Wizard"
 	quest.06397E386E51FABE.quest_desc: ["Increases the duration of potions by 15% each level."]
-	quest.063B9BDFDD0C371C.quest_subtitle: "Available in many tiers / specific biomes!"
-	quest.063B9BDFDD0C371C.title: "Easy Mob Farms"
 	quest.064C0A7D7E1F79BA.quest_subtitle: "Obtain all Ground Types."
 	quest.064E9F11A5441981.quest_desc: [
 		"You can insert and extract resources in the storage network within the Grid."
@@ -364,7 +345,6 @@
 	quest.064E9F11A5441981.quest_subtitle: "The Grid allows access to the resources stored in the storage network."
 	quest.064E9F11A5441981.title: "Grids"
 	quest.065739A79D4F6B3D.title: "Hoenn Ice Types"
-	quest.066ED74217A194D5.quest_desc: ["Mining Skill Card - Used to progress with Ultimine!"]
 	quest.0689DB6E3B1DB2F9.quest_subtitle: "Moved with an Automated Contraption"
 	quest.069B7BF26D9B41D7.quest_subtitle: "when held by Palkia will change to its Origin Form. "
 	quest.069B7BF26D9B41D7.title: "Origin Form - Palkia"
@@ -636,7 +616,12 @@
 	quest.0ECAC6F0C686F8C4.quest_desc: [
 		"&d&nMoney Mending&r"
 		"Money mending isn't an enchantment that goes on the wallet itself, but instead goes on any damageable tool (same as the vanilla Mending enchantment). When an item with Money Mending is equipped (main-hand, off-hand, or armor slots) it will be automatically repaired to full durability every second, at a defined money cost that will be taken from your equipped wallet. &6The default repair cost is 1 relic coin per unit of durability&r"
+		""
+		"{@pagebreak}"
+		""
+		"You can also right-click your items with the standard mending to use your already earned exp instead of having to earn exp with the tool!"
 	]
+	quest.0ECAC6F0C686F8C4.title: "Mending Updates"
 	quest.0ECF89119F491AC0.title: "Alola Fighting Types"
 	quest.0ED3D8138C89FADB.quest_subtitle: "Obtain all Ice Types."
 	quest.0EFD2B37B83A4723.title: "Healing Catcher: Heal Ball"
@@ -648,7 +633,7 @@
 		"{image:ftblibrary:icons/map width:100 height:100 align:center}"
 		""
 		""
-		"&e&lHow to Claim Chunks:&r&r\\n1. Open your map (default: `&6M&r`).\\n2 Make sure the FTBChunks overlay button on the left is toggled.\\n3. Left-click on a chunk to claim it. \\n4. Shift-Left click to load it and keep it active. \\n5. Right-click to unclaim."
+		"&e&lHow to Claim Chunks:&r&r\\n1. Open your map (top left of invtory screen).\\n2 Make sure the FTBChunks overlay button on the left is toggled.\\n3. Left-click on a chunk to claim it. \\n4. Shift-Left click to load it and keep it active. \\n5. Right-click to unclaim."
 	]
 	quest.0F0306978AC3001A.quest_subtitle: "Protect your base with FTBChunks"
 	quest.0F0306978AC3001A.title: "Claiming Your Territory"
@@ -693,6 +678,7 @@
 	quest.100D6B01D6D7D5F4.quest_subtitle: "Charges electric items, and can also be used to inflict damage to Players and Mobs."
 	quest.101191DABC256ACD.quest_subtitle: "Used for the Oven (\\& Occasionally the chiller!)"
 	quest.101191DABC256ACD.title: "Baking Trays"
+	quest.1012E73ABEFD9FA1.quest_subtitle: "Used to train data models"
 	quest.1020019D768F85B0.quest_subtitle: "Travel with a crowd!"
 	quest.1020019D768F85B0.title: "Large Boats"
 	quest.10484D7AE5784586.quest_desc: [
@@ -773,8 +759,6 @@
 	quest.119FBCFAB10D9F28.quest_desc: ["A collection of tools aimed to make large builds more managable in survival!"]
 	quest.119FBCFAB10D9F28.quest_subtitle: "Simplify those builds!"
 	quest.11C9CE5395966DEA.title: "All the Hoes!"
-	quest.11CA74A02F4C5C83.quest_subtitle: "Unlock that ~ key!"
-	quest.11CA74A02F4C5C83.title: "Ultimine!"
 	quest.11EE831E2EF2F773.quest_subtitle: "used to merge multiple Cardboard Packages "
 	quest.11F9052F72DD994E.quest_subtitle: "Can be found in a Dark Forest"
 	quest.1215A4828E6D46EC.quest_subtitle: "Can be used to sort items on Mechanical Belts"
@@ -838,6 +822,7 @@
 		""
 		"&dBait Effect:&r 5% chance to attract a Pokémon with a Hidden Ability"
 	]
+	quest.12FC17BD52342D2B.title: "Shrink your mon!"
 	quest.131339B75D65CDE3.quest_desc: ["Grants vision of a given block through any other block for a given time. White particles signify you are very close, green is semi-far, and blue particles are blocks very far from you. To complete the ritual, throw any block of your choice before starting. You may also add a Manipulation Essence to increase the duration to 15 minutes."]
 	quest.1316410C45AE5BDB.quest_desc: [
 		"A &eGalarica Wreath&r is an evolution item that is used to evolve &dGalarian Slowpoke&r into &dGalarian Slowking&r. Using it consumes the Galarica Wreath. "
@@ -1034,17 +1019,6 @@
 	quest.1652746389A20AB4.quest_subtitle: "Whats a Gym Key?"
 	quest.166715904F4D6A69.quest_desc: ["Boosts the power of the holder's physical moves."]
 	quest.169403A7ABE23E19.title: "Paldea Dark Types"
-	quest.16BD408A5CAF433B.quest_desc: [
-		"Optional way to get Ultimine Ability temporarily:"
-		""
-		"Make a &dKnowledge Potion&r by using any of the &6Enchanted Books&r in a brewing stand. "
-		""
-		"Then use the Knowledge Potions in the bottom of the brewing stand, and add a skill card to the top to make a &dMine-Go Juice&r \\& temporarily unlock ultimine!"
-		""
-		"&6Time varies based on the skill card level.&r"
-	]
-	quest.16BD408A5CAF433B.quest_subtitle: "Mine-Go Juice"
-	quest.16BD408A5CAF433B.title: "Temporary Ultimine!"
 	quest.16EAD2F5D4CA9B93.title: "Alola Region Starters"
 	quest.17052794146772C7.title: "Johto Ice Types"
 	quest.17299D0188D8AF68.title: "Fairy Feather"
@@ -1553,8 +1527,6 @@
 	quest.1FFD74C920A57C9A.title: "Sail Type Blocks"
 	quest.200271E86B5EEAF7.quest_subtitle: "Obtain all Fire Types."
 	quest.20420F2BF84AC83B.title: "Kanto Region Starters"
-	quest.204B7F1E9DA58947.quest_desc: ["We'll explain the use of blueprints later, but first before using the empty card to craft the Skills Record, try to craft a card &eblueprint&r so you can make another card out of it!"]
-	quest.204B7F1E9DA58947.quest_subtitle: "Step 2"
 	quest.205A7A0364D1DEC3.quest_desc: [
 		"Place one on the source of power, and connect to another one with the appropriate wire where you want to send the power"
 		""
@@ -1788,15 +1760,6 @@
 	quest.2550749BBA4B4309.title: "Hoenn Rock Types"
 	quest.256BA22ECE812C88.quest_subtitle: "Middle Class weapons such as Spears, Twinblades, \\& Longswords"
 	quest.256BA22ECE812C88.title: "Simply Swords - Medium Weapons"
-	quest.256BE43416AD50B3.quest_desc: [
-		"Once you've progressed through all the levels for each card you will unlock the &6mastery&r."
-		""
-		"To get the &dMiner Certificate&r, you need to have &6all the different types of Mining Skill Cards &dMASTERED&r and put them with paper on the crafting table."
-		""
-		"&dInteract with the Miner Certificate to get the Ultimine Ability permanently.&r "
-	]
-	quest.256BE43416AD50B3.quest_subtitle: "Graduate of Ultimine School"
-	quest.256BE43416AD50B3.title: "Ultimine Unlocked!"
 	quest.258912C5B8333516.quest_desc: ["Generates a moderate amount of source from nearby food, generating more for more nourishing food. Source Berry food is worth far more than other mundane foods. Additionally, the Mycelial Sourcelink will convert Grass or Dirt in the 3x3 below it into Mycelium and will grow mushrooms around it given that the space is empty. The Sourcelink will also pull items from nearby pedestals."]
 	quest.25917A446482088C.quest_desc: ["An &dX Accuracy&r is a type of item that raises the target's accuracy stat by one stage when used in battle."]
 	quest.2595CD4D52049FED.title: "Eevee"
@@ -1810,7 +1773,7 @@
 	quest.26268C6664767A53.quest_desc: ["The Agronomic Sourcelink generates source from crop and tree growth within 15 blocks. Bonus source is generated for magical plants such as Mageblooms, Source Berry Bushes, and Archwood Saplings. Source will be output from the Sourcelink to nearby jars within 5 blocks. Note: Bonemealing crops will not grant Source."]
 	quest.262A99A8918B935C.quest_subtitle: "Even better Villages!"
 	quest.2635646DA4564163.title: "Hoenn Normal Types"
-	quest.263E9079E5058F97.quest_subtitle: "Prevents Hostile \\& Cobblemon spawns in your base!"
+	quest.263E9079E5058F97.quest_subtitle: "Prevents Hostile spawns around the area placed"
 	quest.26422473A71CC510.quest_desc: ["Before reaching the final boss, you might bump into the &eAptrgangr&r, which is a &dminiboss, and it has 160 Health points&r. Around 5 of these can be found within the Frosted Prison, making exploring challenging."]
 	quest.2669FA867691A5E3.title: "Paldea Ghost Types"
 	quest.269A3318AFDED628.quest_desc: [
@@ -2292,6 +2255,7 @@
 	quest.30419A82959384E7.quest_desc: ["&6Apricorn sprouts&r have a 10% chance of dropping when an apricorn is harvested. "]
 	quest.30419A82959384E7.title: "Seedlings"
 	quest.3076E0A9579F4A95.quest_subtitle: "Crafted or obtained as Loot from the Aether"
+	quest.30786CB125DFA649.quest_subtitle: "Used to gather data on mobs"
 	quest.30AFA76D450CACA3.quest_subtitle: "Crafted or obtained as Loot from the Aether"
 	quest.30BBE57EFD9E7D14.quest_subtitle: "Made using Reinforced Echo Shards"
 	quest.30BE785B59929F65.quest_subtitle: "+ Sp. Attack / - Defense"
@@ -2368,6 +2332,8 @@
 	quest.32BA8274ED8ACCA6.quest_subtitle: "Rhydon -> Rhyperior"
 	quest.32BC132722BAD647.title: "Johto Rock Types"
 	quest.32CCA92495103810.quest_subtitle: "used to craft various storage network devices."
+	quest.32DB99BA4F47F7AB.quest_desc: ["Mob Predictions will need to be processed in a Loot Fabricator, a device which uses power to convert predictions to mob drops. The drops which are available are based on a list of pre-defined items, and a target can be selected for each type of model. The loot fabricator will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator."]
+	quest.32DB99BA4F47F7AB.quest_subtitle: "Generate those mob drops!"
 	quest.32E274FA4C3FB77D.quest_desc: [
 		"&eHoopa Unbound&r is the true, powerful form of the Mythical Pokémon Hoopa."
 		""
@@ -2879,6 +2845,7 @@
 		"&dBait Effect:&r Makes DragonType Pokémon 10x more likely to be encountered"
 	]
 	quest.3DCFEA9C79659B3A.quest_desc: ["This stabby barb will boost the holders&d Poison-Type moves.&r"]
+	quest.3DDE23B9AD386F32.title: "Grow that mon!"
 	quest.3DE81858A2C537E6.quest_desc: [
 		"&dUsed to craft:&r "
 		"- Poke Balls, "
@@ -3074,12 +3041,6 @@
 		""
 		"&dBait Effect:&r Makes Pokémon in the Field Egg Group 10x more likely to be encountered"
 	]
-	quest.42941AD8F80D28DC.quest_desc: [
-		"- You need first to search for a villager who has a profession of &dtoolsmith&r."
-		"- You must trade with that villager until it reaches &dLevel 2&r (Apprentice)."
-		"- When you have reached that level, The villager will have a new offer for an empty &eMining Skill Card&r."
-	]
-	quest.42941AD8F80D28DC.quest_subtitle: "Step 1"
 	quest.42B13A2DB35ACC90.quest_desc: [
 		"&dEffect on Pokémon:&rHalves damage from one super effective Dark-type attack."
 		""
@@ -3307,14 +3268,6 @@
 	quest.49084993B6ADCAB4.quest_subtitle: "Bird + Drake"
 	quest.49084993B6ADCAB4.title: "Dracozolt"
 	quest.490A15DFC1ADDE1A.quest_desc: ["Populates the nearby area with flowers and grass. Augmenting with a source gem will increase the radius by 1 for each gem. Augmenting with sand will replace flowers with Cactus and Dead Bushes."]
-	quest.490DBE0FC3600CC7.quest_subtitle: "Reach T3 for all available farms"
-	quest.490DBE0FC3600CC7.title: "Maxed out Farms"
-	quest.490FD66E4C370550.quest_desc: [
-		"After crafting the Skills Record, interact to open it. A screen will pop up."
-		""
-		"You will need to put in any &dMining Skills Card&r, &dPen&r, \\&&d Papers&r."
-	]
-	quest.490FD66E4C370550.quest_subtitle: "A Tool needed for upgrading your mining skills"
 	quest.4915825B660CD27C.title: "Johto Electric Types"
 	quest.4925284AEF38184E.quest_desc: ["When a Stock Link is placed on a Packager, the Packager can receive requests from a Logistics Network. It can create packages with an address, specific items, and a specific amount of items."]
 	quest.4925284AEF38184E.quest_subtitle: "used to connect Packagers to Logistics Networks."
@@ -3457,6 +3410,12 @@
 		""
 		"&dBait Effect:&r Attracts Pokémon with HP EV Yields"
 	]
+	quest.4C7A7C1F58407894.quest_desc: [
+		"The fundamental unit of this mod is the &6Data Model&r - an item which holds information about an entity that you can utilize to generate their drops. To get a Data Model, you must first craft a &eData Model Framework&r, and use it on the target entity to build the model. Once you have your model, you will have to train it."
+		""
+		"Training a Data Model can be done in one of two ways, with a &eDeep Learner&r or with a &eSimulation Chamber&r. The deep learner allows you to store a few data models within, and kills you receive will begin to train the model. All models start out in the Faulty state, and &dmust be trained up to Basic in the deep learner&r."
+	]
+	quest.4C7A7C1F58407894.title: "About Hostile Neural Networks"
 	quest.4CA48D65000B4B28.quest_desc: ["A &aGuard Spec&r is a battle item that prevents the player's Pokémon from status reductions for 5 turns during battle."]
 	quest.4CB426CB4F9FE862.quest_desc: [
 		"While enchanting, the most important stats are:"
@@ -4197,7 +4156,6 @@
 	quest.5B15BD154D395DB0.title: "Poison Types"
 	quest.5B1F60891CBEDA8C.title: "Hoenn Water Types"
 	quest.5B24BFBC77803832.quest_subtitle: "&lKey Inscribing Station &r(Dim Dungeons)"
-	quest.5B2A27E94FE0D16A.quest_subtitle: "Used for Medium Mobs"
 	quest.5B3D2FF22FFA5722.quest_desc: [
 		"(If enabled on your server) you will have access to;"
 		""
@@ -4275,6 +4233,8 @@
 	]
 	quest.5D124ABC55250B59.quest_subtitle: "Defeat to raise your level cap to 100!"
 	quest.5D187F0215CD6073.quest_subtitle: "Can be used to Specify Ingredient Arrangements"
+	quest.5D2184EF8476F6FA.quest_subtitle: "Hostile Neural Network"
+	quest.5D2184EF8476F6FA.title: "HNN Basics"
 	quest.5D22D76A4A1DD7B8.title: "0004 Charmander"
 	quest.5D2B40A9C48386F9.quest_subtitle: "Can be found in a Plains"
 	quest.5D3311AA4AA0B591.quest_subtitle: "Octagon = Section Complete"
@@ -4326,7 +4286,6 @@
 	quest.5F7FC46D12719121.quest_subtitle: "Used to connect to your system wirelessly"
 	quest.5F7FC46D12719121.title: "Network Receiver"
 	quest.5F8B88A3D68ECA87.title: "Dusk Ball"
-	quest.5FA60E4DDD53CD11.quest_subtitle: "Used for Larger Mobs"
 	quest.5FA8DBC3B6C0231D.quest_desc: [
 		"&dEffect on Pokémon:&r -"
 		""
@@ -4674,7 +4633,12 @@
 	quest.6740CCAA2EACB0B9.quest_subtitle: "Can be found in a Plains/Orchard"
 	quest.676159E4A04A629C.quest_subtitle: "Crafted from Aether Ingredients"
 	quest.6764FAFA232450EE.quest_desc: [
-		"&dFTBTeams&r lets you join forces with other players for a collaborative experience. When you ally with another team, all your claimed chunks will now let you set specific permission / include your allies.\n\n&e&lHow to Use FTBTeams:&r&r\n1. Click the Teams icon at the very top left of your inventory (shown below).\n2. Create a team\n3.Add your friends as an Ally so you can Share resources, chunks, and more! (or not)"
+		"&dFTBTeams&r lets you join forces with other players for a collaborative experience. When you &eally&r with another team, all your claimed chunks will now let you set specific permission / include your allies."
+		""
+		"&e&lHow to Use FTBTeams:&r&r"
+		"1. Click the Teams icon at the very top left of your inventory (shown below)."
+		"2. Create a team"
+		"3.Add your friends as an Ally so you can Share resources, chunks, and more! (or not)"
 		"{image:ftbteams:textures/teams.png width:100 height:100 align:center}"
 	]
 	quest.6764FAFA232450EE.quest_subtitle: "Work together with FTBTeams"
@@ -4935,6 +4899,8 @@
 	]
 	quest.6CAAFB6F0147B503.quest_subtitle: "Scavenging tools!"
 	quest.6CAAFB6F0147B503.title: "Knives"
+	quest.6CC75D74890E19DE.quest_desc: ["Once your model is Basic or higher, you can use the simulation chamber to run simulations of your model. Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model. The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a Prediction Matrix."]
+	quest.6CC75D74890E19DE.quest_subtitle: "Brains of the operation"
 	quest.6CCF383C505A2E5A.quest_desc: [
 		"A flying cow is a common passive mob and a source of leather, beef, and milk. They can be ridden when equipped with a saddle."
 		""
@@ -5030,7 +4996,6 @@
 		"Can be crafted."
 	]
 	quest.6E41FC2D07C53BBF.quest_subtitle: "Spritzee -> Aromatisse"
-	quest.6E50AAA3CF4A1B06.title: "Frog Catalysts"
 	quest.6E7898AEB6A8D3A4.quest_subtitle: "Summon a random variety of wild animals native to the biome it's in."
 	quest.6E79003749C3ECEE.quest_subtitle: "Extended Block reach"
 	quest.6E7DBDBC7FC7A91E.quest_subtitle: "Collect all Mythical \\& Legendary Mon!"
@@ -5083,8 +5048,6 @@
 	quest.6FCFC8D4159F01D4.quest_subtitle: "Mix with water to create Pulp"
 	quest.6FCFC8D4159F01D4.title: "Pulpifiable Resources"
 	quest.7003ABB52D497D47.quest_subtitle: "used to craft various storage network devices."
-	quest.700FBC762A11A218.quest_subtitle: "Obtain all Upgrades"
-	quest.700FBC762A11A218.title: "Farm Enhancements"
 	quest.701C05E611FF1DA1.quest_desc: [
 		"&6The Mechanical Arm can take or deposit items from various blocks within a 5 block radius of where it is placed.&r The order it does this in is determined by its behavior as well as the order the blocks were selected in during placement. "
 		""
@@ -5154,13 +5117,9 @@
 		""
 		"To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."
 	]
-	quest.71D3D2C181B923C9.quest_desc: [
-		"More information is included under the &dTools&r section of quests. You will need to obtain a &eMining Skill card&r, and eventually a &6Miner Certificate&r."
-		""
-		""
-		"{ \"text\": \"Quest Line here\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11CA74A02F4C5C83\" } }"
-	]
-	quest.71D3D2C181B923C9.quest_subtitle: "Yes! You can unlock the ~ key!"
+	quest.71D3D2C181B923C9.quest_desc: ["Within this modpack you will find several features improving your gameplay; such as FTB Ultimine (Mine connected blocks effortlessly), JEI (view item recipes without having to look them up or unlock them first!, Waystones (Quickly Teleport/fast travel), Performance enhancements - many mods to speed up your load time, and many other aspects of the game even while including hundreds of mods!"]
+	quest.71D3D2C181B923C9.quest_subtitle: "Quick rundown on some of the features"
+	quest.71D3D2C181B923C9.title: "QOL Enhancements"
 	quest.71F7EB6A202D78D5.quest_desc: [
 		"&dEffect on Pokémon:&r -"
 		""
@@ -5300,7 +5259,6 @@
 		"Items in chutes will be affected by gravity and tumble down to chutes by default. To pull items up, an appropriately powered Encased Fan is needed on top of or under the chutes. For instance, a fan below the chutes would push items up, and a fan above the chutes would pull the items up. The speed of the Encased Fan can change how fast items go upwards."
 	]
 	quest.756DD6B226EF1FE6.quest_subtitle: "Allows for more control \\& filters over the standard Chute"
-	quest.757952855E8012D9.quest_subtitle: "Used for Small mobs"
 	quest.75809A1082C1D83A.title: "Fire Stone"
 	quest.758389BB1A836CD2.quest_desc: ["This item will boost the holders &aBug-Type moves.&r"]
 	quest.758F82F005783ED6.title: "Premier Ball"
@@ -5601,7 +5559,6 @@
 		"{image:cobblemon:item/held_items/covert_cloak width:25 height:25 align:center}"
 	]
 	quest.7B7E824D7BD29739.quest_subtitle: "No raise in cap, but defeat for Rewards!"
-	quest.7B85355A8C431289.quest_subtitle: "Blueprint + Skill card = duplicate!"
 	quest.7B8B8DEEE5B11934.quest_desc: [
 		"&dEffect on Pokémon:&r -"
 		""

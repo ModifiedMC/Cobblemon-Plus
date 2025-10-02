@@ -205,7 +205,7 @@
 			tasks: [{
 				count: 9L
 				id: "0A1A3EFD598762DE"
-				item: { count: 9, id: "minecraft:stone_bricks" }
+				item: { count: 1, id: "minecraft:stone_bricks" }
 				type: "item"
 			}]
 			x: 0.0d

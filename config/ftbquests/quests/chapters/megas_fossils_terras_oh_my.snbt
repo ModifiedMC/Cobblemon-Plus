@@ -345,7 +345,7 @@
 					consume_items: true
 					count: 10L
 					id: "5DC11AEDA2780E86"
-					item: { count: 5, id: "modified:pokedollar" }
+					item: { count: 1, id: "modified:pokedollar" }
 					type: "item"
 				}
 			]

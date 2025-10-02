@@ -236,15 +236,21 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "client" ]]; then
         ls -la
         exit 1
     fi
+    
+    unzip "$zip_file" -d "$BASE_DIR/build/client" 2>/dev/null 1>&2
+    rm "$zip_file"
 
-    if ! unzip -p Modified\ Cobblemon\ Plus-11.9.0.zip manifest.json | jq -r .minecraft.modLoaders | grep -q -i neoforge; then
-        if [[ -f "$BASE_DIR/.bin/packwiz" ]]; then
-            rm "$BASE_DIR/.bin/packwiz"
-            echo "packwiz needs upgraded. Re-run build to get latest version of packwiz"
-        else
-            echo "packwiz needs upgraded. Upgrade packwiz using whatever method you used to install it."
-        fi
-    fi
+    # patch manifest to add neoforge version
+    cd "$BASE_DIR/build/client"
+    cat "$BASE_DIR/build/client/manifest.json" | jq ".minecraft.modLoaders[0] |= {\"id\": \"neoforge-$NEOFORGE_VERSION\", \"primary\": true}" > "$BASE_DIR/build/client/manifest.tmp.json"
+    mv "$BASE_DIR/build/client/manifest.tmp.json" "$BASE_DIR/build/client/manifest.json"
+
+    # re-zip client pack
+    echo "Packaging client files..."
+    zip -r "$zip_file" * 2>/dev/null 1>&2
+    cd "$BASE_DIR/build"
+    mv "$BASE_DIR/build/client/$zip_file" $BASE_DIR/build/
+    rm -rf "$BASE_DIR/build/client"
 
     echo "✅ CurseForge client zip exported to $BASE_DIR/build/$zip_file"
     echo -e "=====\n\n"
@@ -276,7 +282,16 @@ if [[ "$TYPE" == "both" ]] || [[ "$TYPE" == "server" ]]; then
     download_count=0
     mod_count=0
     echo "Building server (pass 1/2)..."
-
+    
+    # Pre-copy all files from download directory to avoid packwiz installer failures
+    if [[ -d "$BASE_DIR/download" ]]; then
+        echo "Pre-copying downloaded files..."
+        find "$BASE_DIR/download" -name "*.jar" -exec cp {} "$BASE_DIR/build/server/mods/" \;
+        pre_copied_count=$(find "$BASE_DIR/build/server/mods/" -name "*.jar" | wc -l)
+        echo "✓ Pre-copied $pre_copied_count files from download directory"
+    fi
+    
+    # loop over packwiz install output to get mods that need to be downloaded manually
     while read line; do
         if [[ ! "$line" =~ ^Please\ go\ to ]]; then
             continue
