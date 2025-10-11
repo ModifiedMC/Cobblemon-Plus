@@ -6,99 +6,117 @@
       "name": "Kanto",
       "displayName": "cobblemon.starterselection.category.kanto",
       "pokemon": [
-        "Bulbasaur level=10",
-        "Charmander level=10",
-        "Squirtle level=10"
+        "Bulbasaur level=5",
+        "Charmander level=5",
+        "Squirtle level=5"
       ]
     },
     {
       "name": "Johto",
       "displayName": "cobblemon.starterselection.category.johto",
       "pokemon": [
-        "Chikorita level=10",
-        "Cyndaquil level=10",
-        "Totodile level=10"
+        "Chikorita level=5",
+        "Cyndaquil level=5",
+        "Totodile level=5"
       ]
     },
     {
       "name": "Hoenn",
       "displayName": "cobblemon.starterselection.category.hoenn",
       "pokemon": [
-        "Treecko level=10",
-        "Torchic level=10",
-        "Mudkip level=10"
+        "Treecko level=5",
+        "Torchic level=5",
+        "Mudkip level=5"
       ]
     },
     {
       "name": "Sinnoh",
       "displayName": "cobblemon.starterselection.category.sinnoh",
       "pokemon": [
-        "Turtwig level=10",
-        "Chimchar level=10",
-        "Piplup level=10"
+        "Turtwig level=5",
+        "Chimchar level=5",
+        "Piplup level=5"
       ]
     },
     {
       "name": "Unova",
       "displayName": "cobblemon.starterselection.category.unova",
       "pokemon": [
-        "Snivy level=10",
-        "Tepig level=10",
-        "Oshawott level=10"
+        "Snivy level=5",
+        "Tepig level=5",
+        "Oshawott level=5"
       ]
     },
     {
       "name": "Kalos",
       "displayName": "cobblemon.starterselection.category.kalos",
       "pokemon": [
-        "Chespin level=10",
-        "Fennekin level=10",
-        "Froakie level=10"
+        "Chespin level=5",
+        "Fennekin level=5",
+        "Froakie level=5"
       ]
     },
     {
       "name": "Alola",
       "displayName": "cobblemon.starterselection.category.alola",
       "pokemon": [
-        "Rowlet level=10",
-        "Litten level=10",
-        "Popplio level=10"
+        "Rowlet level=5",
+        "Litten level=5",
+        "Popplio level=5"
       ]
     },
     {
       "name": "Galar",
       "displayName": "cobblemon.starterselection.category.galar",
       "pokemon": [
-        "Grookey level=10",
-        "Scorbunny level=10",
-        "Sobble level=10"
+        "Grookey level=5",
+        "Scorbunny level=5",
+        "Sobble level=5"
       ]
     },
     {
       "name": "Hisui Bias",
       "displayName": "cobblemon.starterselection.category.hisui_bias",
       "pokemon": [
-        "Rowlet region_bias=hisui level=10 pokeball=ancient_poke_ball",
-        "Cyndaquil region_bias=hisui level=10 pokeball=ancient_poke_ball",
-        "Oshawott region_bias=hisui level=10 pokeball=ancient_poke_ball"
+        "Rowlet region_bias=hisui level=5 pokeball=ancient_poke_ball",
+        "Cyndaquil region_bias=hisui level=5 pokeball=ancient_poke_ball",
+        "Oshawott region_bias=hisui level=5 pokeball=ancient_poke_ball"
       ]
     },
     {
       "name": "Paldea",
       "displayName": "cobblemon.starterselection.category.paldea",
       "pokemon": [
-        "Sprigatito level=10",
-        "Fuecoco level=10",
-        "Quaxly level=10"
+        "Sprigatito level=5",
+        "Fuecoco level=5",
+        "Quaxly level=5"
       ]
     },
     {
       "name": "Modified",
       "displayName": "cobblemon.starterselection.category.modified",
       "pokemon": [
-        "Pichu level=10",
-        "Eevee level=10",
-        "Riolu level=10"
+        "Pichu level=5 pokeball=premier_ball",
+        "Eevee level=5 pokeball=premier_ball",
+        "Oddish level=5 pokeball=premier_ball"
+      ]
+    },
+    {
+      "name": "Tokiwa",
+      "displayName": "cobblemon.starterselection.category.tokiwa",
+      "pokemon": [
+        "Abra level=5 pokeball=premier_ball",
+        "Mankey level=5 pokeball=premier_ball",
+        "Sandile level=5 pokeball=premier_ball"
+      ]
+    },
+    {
+      "name": "Koryu",
+      "displayName": "cobblemon.starterselection.category.koryu",
+      "pokemon": [
+        "Axew level=5 pokeball=premier_ball",
+        "Horsea level=5 pokeball=premier_ball",
+        "Trapinch level=5 pokeball=premier_ball"
       ]
     }
   ]

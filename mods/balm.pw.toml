@@ -1,13 +1,13 @@
 name = "Balm"
-filename = "balm-neoforge-1.21.1-21.0.52.jar"
+filename = "balm-neoforge-1.21.1-21.0.53.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5868aec699239168996eee4217fbfb9f859dc7e3"
+hash = "d643b35a615da26151692d8aafe0963a0f42d7ba"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7047859
+file-id = 7087255
 project-id = 531761

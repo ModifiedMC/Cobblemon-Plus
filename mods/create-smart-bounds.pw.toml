@@ -1,0 +1,13 @@
+name = "Create: Smart Bounds"
+filename = "smart_bounds-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d271d70b1d2870d5c232e71e2923abaac3a6767"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6731245
+project-id = 1300292

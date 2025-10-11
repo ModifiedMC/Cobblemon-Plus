@@ -1,0 +1,13 @@
+name = "Building Wands"
+filename = "BuildingWands-neoforge-MC1.21-2.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a133650d7e87a7425ee2de44d688271fd6234519"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6547877
+project-id = 363392

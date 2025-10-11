@@ -1,0 +1,13 @@
+name = "Toggleable Enchantments"
+filename = "toggleable_enchantments-neoforge-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "426680cb8f49f57ac9a9007f3faa86a1814a8e8a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6520911
+project-id = 1260072

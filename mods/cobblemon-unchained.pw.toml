@@ -1,13 +1,13 @@
 name = "Cobblemon Unchained"
-filename = "cobblemon-unchained-1.6-neoforge-1.3.0.jar"
+filename = "unchained-neoforge-1.6.1-1.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "96bb8351d6fdca8f119b54e84fb4e8a87b4f4432"
+hash = "de2b17cb67aae45175bcaf2cfb22a4d8233b2064"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6847508
+file-id = 7068545
 project-id = 901476

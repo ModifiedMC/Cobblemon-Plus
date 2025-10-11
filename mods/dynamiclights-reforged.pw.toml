@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Dynamic Lights"
 filename = "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

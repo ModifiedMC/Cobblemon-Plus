@@ -1,13 +1,13 @@
 name = "Cobblemon Counter"
-filename = "cobblemon-counter-1.6-neoforge-1.5.1.jar"
+filename = "counter-neoforge-1.6.1-1.6.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fa436aea1a86ea56c20b1667e65080c1fc4b63cf"
+hash = "8eaa7f74f6d4b36705eef87b7c0e2d2e1c27ca4d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6676745
+file-id = 7068472
 project-id = 900238
