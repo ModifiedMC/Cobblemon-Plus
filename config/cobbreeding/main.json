@@ -3,7 +3,7 @@
   "eggCheckChance": 0.5,
   "eggHatchMultiplier": 1.0,
   "shinyMethod": [
-    "crystal"
+    "masuda"
   ],
   "shinyMultiplier": 2.0,
   "hiddenAbilitiesEnabled": true,
