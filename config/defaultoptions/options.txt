@@ -86,7 +86,7 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-menuBackgroundBlurriness:5
+menuBackgroundBlurriness:0
 soundCategory_master:0.5066276903973509
 soundCategory_music:0.207075264084507
 soundCategory_record:1.0

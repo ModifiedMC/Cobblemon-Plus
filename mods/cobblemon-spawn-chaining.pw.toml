@@ -1,0 +1,13 @@
+name = "Cobblemon Spawn Chaining"
+filename = "spawnchaining-neoforge-1.6.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "867f07bc361fabadf9969d1d270efebdd1003eed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7118782
+project-id = 1359318

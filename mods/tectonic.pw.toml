@@ -1,13 +1,13 @@
 name = "Tectonic"
-filename = "tectonic-3.0.13-neoforge-1.21.1.jar"
+filename = "tectonic-3.0.16-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3fc135afc22e391b96e4d680086c4cf5dab459f7"
+hash = "b0ebb2d9b55d1e9e573fd771224e4a8a66e4bdd9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7027484
+file-id = 7128220
 project-id = 686836

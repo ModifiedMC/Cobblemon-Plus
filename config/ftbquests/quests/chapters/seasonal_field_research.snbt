@@ -10,14 +10,32 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "46F7535FCDC99B27"
-	images: [{
-		height: 15.0d
-		image: "modified:textures/ftbquests/backgrounds/bg_pokeball.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.5d
-		y: -1.5d
-	}]
+	images: [
+		{
+			height: 15.0d
+			image: "modified:textures/ftbquests/backgrounds/bg_pokeball.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 15.0d
+			image: "mcwpaintings:painting/pumpkin"
+			rotation: 0.0d
+			width: 15.0d
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "mcwholidays:block/ghost_haunting"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: 0.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -101,7 +119,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 0.0d
+			x: -0.75d
 			y: -3.0d
 		}
 		{
@@ -183,7 +201,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 0.0d
+			x: -0.75d
 			y: 0.0d
 		}
 		{
@@ -266,7 +284,7 @@
 				item: { count: 1, id: "croptopia:pineapple_pepperoni_pizza" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.75d
 			y: 2.25d
 		}
 		{
@@ -474,6 +492,10 @@
 				"48C601EFA4FF4658"
 				"77562025BBFC2360"
 				"312C7F9627EAB2FF"
+				"7B04742E67A4328F"
+				"436351D02886121C"
+				"5FC9F5F78FB0FB92"
+				"5D52BD6717269BB0"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -613,7 +635,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 0.0d
+			x: -0.75d
 			y: -5.25d
 		}
 		{
@@ -694,6 +716,994 @@
 			}]
 			x: 2.25d
 			y: 2.25d
+		}
+		{
+			id: "5AF315ACA4B69363"
+			rewards: [{
+				id: "7B153BD4DE74088D"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					id: "0F6C99AD43ABB934"
+					item: { count: 1, id: "chromacarvings:white_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5872402D2CF3A4E1"
+					item: { count: 1, id: "chromacarvings:orange_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3277220B9669F11E"
+					item: { count: 1, id: "chromacarvings:magenta_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "237F5494DFFFE015"
+					item: { count: 1, id: "chromacarvings:light_blue_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1C2AA577850BA8DF"
+					item: { count: 1, id: "chromacarvings:yellow_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4301C7D94E598C8D"
+					item: { count: 1, id: "chromacarvings:lime_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "55297840567D285C"
+					item: { count: 1, id: "chromacarvings:pink_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5316024D7FE5F6D8"
+					item: { count: 1, id: "chromacarvings:gray_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78E6DACE8AB4869D"
+					item: { count: 1, id: "chromacarvings:light_gray_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A5E8F3329CEDE0A"
+					item: { count: 1, id: "chromacarvings:cyan_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1718CFA05F78B904"
+					item: { count: 1, id: "chromacarvings:purple_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "161329116390948A"
+					item: { count: 1, id: "chromacarvings:blue_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6FBF57D6AD06C696"
+					item: { count: 1, id: "chromacarvings:brown_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "111BF9C99B6ED962"
+					item: { count: 1, id: "chromacarvings:green_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "051F463DFEF030FA"
+					item: { count: 1, id: "chromacarvings:red_carved_pumpkin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2815E0D911201BCE"
+					item: { count: 1, id: "chromacarvings:black_carved_pumpkin" }
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 0.75d
+		}
+		{
+			id: "0B5FC3FDAB79C6A4"
+			rewards: [{
+				id: "3D804BFF04F62B7F"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3C3B03F8DF83A9C5"
+				item: { count: 1, id: "croptopia:pumpkin_spice_latte" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			id: "1096F428CF6F287D"
+			rewards: [{
+				id: "39EA330E263135B6"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "41EF8387D6AF64E2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:carved_pumpkin)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -6.0d
+		}
+		{
+			id: "1397633507DBFFEB"
+			rewards: [{
+				id: "0D6CCF4FEF60F9F4"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "51A322EE11BB9BB9"
+					item: { count: 1, id: "cobblemon:ghost_gem" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "0DD653E7E64277DA"
+					item: { count: 1, id: "cobblemon:dark_gem" }
+					type: "item"
+				}
+			]
+			x: 17.25d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "gravestone:item/gravestone"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DD7A4730114B178"
+			rewards: [{
+				id: "1E424A3CC37193EC"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5B4D2E2777551FA0"
+				structure: "formationsoverworld:graveyard"
+				type: "structure"
+			}]
+			x: 9.75d
+			y: 3.0d
+		}
+		{
+			id: "00CCB4AA086735EB"
+			rewards: [{
+				id: "0E5FE8A0903F56B1"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "26EEF8F88403DF94"
+				item: { count: 1, id: "extradelight:caramel_golden_apple" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "0771ACE5A70DC0CC"
+			rewards: [{
+				id: "6A368D6DDD993BF8"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch,obtain"
+				amount: 25L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "modified:textures/ftbquests/type_icons/ghost_icon.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "16F069A3E1179528"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/type_icons/ghost_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "06590C3C984F2F42"
+			rewards: [{
+				id: "78795084E09003EE"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "defeat"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2CDDF670B2F0BE8B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 9.75d
+			y: -3.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/type_icons/dark_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5C668F421D0380E6"
+			rewards: [{
+				id: "5A5AA173C11A4CEC"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "defeat"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5EC484C5D43A3B5A"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			id: "61CEB404F2359A47"
+			rewards: [{
+				id: "7FD0934961DC91AC"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "130F865C4E8E4C2D"
+				item: { count: 1, id: "croptopia:candy_corn" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.75d
+		}
+		{
+			id: "7721559EB2D03B52"
+			rewards: [{
+				id: "4197059312390929"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1EE275424734ABCC"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: -6.0d
+		}
+		{
+			id: "6827D08B7EB5F07C"
+			rewards: [{
+				id: "3454559D682BA2F0"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4EFC5D217448C2BF"
+				item: { count: 1, id: "extradelight:milk_chocolate_filled_bar" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:item/poke_balls/dusk_ball"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "10D36A8A1B2FC5A3"
+			rewards: [{
+				id: "1B7A889945741324"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 25L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "60702C734DC624ED"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: "cobblemon:dusk_ball"
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 17.25d
+			y: -3.75d
+		}
+		{
+			id: "30F00D40C4DD1C01"
+			rewards: [{
+				id: "17A4F81E10BD4631"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 14L
+					id: "508B28FC0A4BEDF7"
+					item: { count: 1, id: "minecraft:skeleton_skull" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 14L
+					id: "7492E33B23D7F257"
+					item: { count: 1, id: "minecraft:zombie_head" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "79EDD7A290FA6CC2"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			id: "2D07F3BC99FB6461"
+			rewards: [{
+				id: "43F443F4C4252814"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "5BC017E439368DB8"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "77D806D63F4CD864"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: -1.5d
+		}
+		{
+			id: "5ACA3CA840D763AB"
+			rewards: [{
+				id: "4834EF6AC14753DD"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "005D6E0362B75FE6"
+				item: { count: 1, id: "aether:invisibility_cloak" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "1E1793C578FB769D"
+			rewards: [{
+				id: "1A251573C01741AA"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					action: "obtain,catch"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2CAA6A9AE08589CA"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:umbreon"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "obtain,catch"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "54F44E6CE34C02CF"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:pumpkaboo"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "0C6D02FF38672DA6"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:haunter"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "1DFDAF50D4837227"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:dusclops"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "2F54A4A2B81A3432"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:houndstone"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "677E08A4BE7C0C69"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:mimikyu"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "caught"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "37E74CF3067DEADE"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:phantump"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "6CC5F39F8DF6D845"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:murkrow"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "obtain,catch"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "73A58DE90FDDD17E"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:banette"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch,obtain"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "627F2A9440A3DED7"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:mismagius"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 19.5d
+			y: 0.75d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mcwholidays:block/stars_wall_deco"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "68D99556F03E139A"
+			rewards: [{
+				id: "3A22B982051A5662"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 3L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6452A5FCF6418072"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 17.25d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"217C7BBA20945D32"
+				"2D07F3BC99FB6461"
+				"5C668F421D0380E6"
+				"6827D08B7EB5F07C"
+				"06590C3C984F2F42"
+				"4DD7A4730114B178"
+				"5AF315ACA4B69363"
+				"00CCB4AA086735EB"
+				"68D99556F03E139A"
+				"1096F428CF6F287D"
+				"30F00D40C4DD1C01"
+				"79127B068A3669D0"
+				"1397633507DBFFEB"
+				"1E1793C578FB769D"
+				"10D36A8A1B2FC5A3"
+				"0771ACE5A70DC0CC"
+				"61CEB404F2359A47"
+				"7721559EB2D03B52"
+				"5ACA3CA840D763AB"
+				"0B5FC3FDAB79C6A4"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/check"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7C4231290E44C5BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F649E56C9E1194B"
+					table_id: 5809028283732151280L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66A6DDE063EAC332"
+					table_id: 3772112013035621083L
+					type: "random"
+				}
+				{
+					id: "18608518A9E2848C"
+					item: {
+						count: 1
+						id: "cobblemon_utility:cobblemax"
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "171B66C96C4C26FA"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "50AD6E5FF7A2B981"
+					item: {
+						count: 1
+						id: "modified:coinpile_mtoken"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B631D49F7ADAB17"
+					item: {
+						count: 1
+						id: "cobgyms:master_cache_shiny"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E4FC4E07402625C"
+					table_id: 1330018018658076549L
+					type: "random"
+				}
+				{
+					count: 12
+					id: "64A947D1365EA01F"
+					item: {
+						count: 1
+						id: "cobgyms:adept_cache_shiny"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2101AF4B254D124C"
+					table_id: 891429103936066823L
+					type: "random"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "0AAB4C548F4C4CCE"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "modified:textures/ftbquests/type_icons/dark_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79127B068A3669D0"
+			rewards: [{
+				id: "73A712795D484007"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				action: "catch"
+				amount: 25L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "674463AE8E271B18"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 17.25d
+			y: 3.0d
+		}
+		{
+			id: "217C7BBA20945D32"
+			rewards: [{
+				id: "0F97C677C3B5ED95"
+				item: {
+					count: 1
+					id: "modified:coinblock_pokedollar"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0BEC5BE5F0131E1C"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "48A10A0080DF2515"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:strong_poison" } }, count: 1, id: "minecraft:splash_potion" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 3.0d
 		}
 	]
 }

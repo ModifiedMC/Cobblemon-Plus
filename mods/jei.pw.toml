@@ -1,13 +1,13 @@
 name = "Just Enough Items (JEI)"
-filename = "jei-1.21.1-neoforge-19.25.0.322.jar"
+filename = "jei-1.21.1-neoforge-19.25.0.323.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f42aa17f8490dd437e75b8f4abd8360e9f0265b9"
+hash = "b38486570e5bbd6430f8abfd6af72bc9351be344"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7057366
+file-id = 7129287
 project-id = 238222

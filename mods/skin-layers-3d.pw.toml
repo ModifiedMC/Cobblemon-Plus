@@ -1,13 +1,13 @@
 name = "Skin Layers 3D"
-filename = "skinlayers3d-neoforge-1.9.1-mc1.21.1.jar"
+filename = "skinlayers3d-neoforge-1.9.2-mc1.21.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "ced9781c80b2d4a7dcbcd7c506b2360ee7fb0560"
+hash = "c75d03796b22e70b3441f0cfa1b1b0a59d2ddd14"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7082874
+file-id = 7091108
 project-id = 521480

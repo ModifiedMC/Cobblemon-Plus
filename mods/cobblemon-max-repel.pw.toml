@@ -1,13 +1,13 @@
 name = "Cobblemon: Max Repel"
-filename = "MaxRepel-neoforge-1.1.1.jar"
+filename = "MaxRepel-neoforge-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "afb0507ddbcf7cf656bf5cb363eec30c962a5e32"
+hash = "a3fa9c8e7b36142e4083fbfc776ae2419681cb1e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6687510
+file-id = 7116183
 project-id = 1290170

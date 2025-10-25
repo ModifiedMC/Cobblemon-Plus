@@ -1,0 +1,23 @@
+{
+	id: "12752C575AFBC785"
+	loot_size: 1
+	order_index: 49
+	rewards: [
+		{
+			id: "50534E27BBC3235C"
+			item: {
+				count: 1
+				id: "weavers_cosmetics_cosplay:pokemaniac_gengar_shiny_helmet"
+			}
+			weight: 1.5f
+		}
+		{
+			id: "47513F4450CE8015"
+			item: {
+				count: 1
+				id: "weavers_cosmetics_cosplay:pokemaniac_gengar_helmet"
+			}
+			weight: 20.0f
+		}
+	]
+}

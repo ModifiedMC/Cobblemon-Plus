@@ -83,6 +83,8 @@
 	quest.00C07F48A8B0D6B8.title: "Galar Flying Types"
 	quest.00C2DBE008D05E3C.quest_subtitle: "extracts resources from the storage network and inserts them into a connected external inventory."
 	quest.00C2DBE008D05E3C.title: "Exporter"
+	quest.00CCB4AA086735EB.quest_subtitle: "Probably not recommended by any doctors"
+	quest.00CCB4AA086735EB.title: "The tooth breaker"
 	quest.00DC13B9DFF892DA.quest_subtitle: "Can be found in a Forest"
 	quest.00E62CC5FADEC704.quest_subtitle: "Found from Suspicious Gravel"
 	quest.00EFC5447248C88B.quest_desc: ["Take a chance at getting a different random fossil!"]
@@ -345,6 +347,8 @@
 	quest.064E9F11A5441981.quest_subtitle: "The Grid allows access to the resources stored in the storage network."
 	quest.064E9F11A5441981.title: "Grids"
 	quest.065739A79D4F6B3D.title: "Hoenn Ice Types"
+	quest.06590C3C984F2F42.quest_subtitle: "Defeat 100 Ghost pokemon in battle!"
+	quest.06590C3C984F2F42.title: "GhostBusters!"
 	quest.0689DB6E3B1DB2F9.quest_subtitle: "Moved with an Automated Contraption"
 	quest.069B7BF26D9B41D7.quest_subtitle: "when held by Palkia will change to its Origin Form. "
 	quest.069B7BF26D9B41D7.title: "Origin Form - Palkia"
@@ -386,6 +390,8 @@
 		""
 		"&dPottery sherds&r can be found as suspicious block loot in trail ruins, ocean ruins, desert pyramids and desert wells, and can be extracted from these blocks &eusing a brush.&r"
 	]
+	quest.0771ACE5A70DC0CC.quest_subtitle: "Catch 25 Ghost-Type mon!"
+	quest.0771ACE5A70DC0CC.title: "Ghost Hunter"
 	quest.07799E1F5C690621.quest_subtitle: "Can be found in a Dark Forest"
 	quest.07863C1899A78E38.quest_desc: [
 		"Tired of waiting for a specific trainer? Or maybe you used the quest spawning system before you could battle them?"
@@ -498,6 +504,8 @@
 	quest.0B09CA0EECD3D059.title: "Roseate Ball"
 	quest.0B1F89BBDC9C6C2B.quest_desc: ["Increases the speed of the player by 20%% each level."]
 	quest.0B365D156A2AF58C.quest_subtitle: "+ Speed / - Defense"
+	quest.0B5FC3FDAB79C6A4.quest_subtitle: "An order at the office came in! 32 PSLs ASAP!"
+	quest.0B5FC3FDAB79C6A4.title: "Tis the season"
 	quest.0B6DFB95AB48BE68.quest_subtitle: "Found in Plains Biomes"
 	quest.0B8FF038A16D8410.quest_desc: ["This fashionable scarf will&b Boost your Pokemons Speed,&r but only allows the &6use of one move&r. This is useful if you have a slower high-attack Pokemon, and want it to deal damage first."]
 	quest.0BA3F93092A15EA5.quest_subtitle: "Find with the Eye of Monstrous"
@@ -693,6 +701,8 @@
 		"Pansear ➜ Simisear"
 		"Capsakid ➜ Scovillain"
 	]
+	quest.1096F428CF6F287D.quest_subtitle: "Use a carved pumpkin in a Chipped Workbench"
+	quest.1096F428CF6F287D.title: "Pumpkin Faces"
 	quest.10A508B7C1009526.title: "1x &6PokeDollar"
 	quest.10C4A13F85DC2264.quest_desc: [
 		"The Hopper Upgrade allows the Trader Interface to attempt to collect or push its storage contents to neighboring blocks. For example an Item Trader Interface will automatically collect any items that it's giving to its linked trader from a chest (or other valid item handler) directly next to one of its input sides. Using the same example, it would also export any items that it's getting from the trader would be to any chests (or other valid item handler) directly next to one of its output sides."
@@ -856,6 +866,8 @@
 		"{ \"text\": \"Frosted Prison\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"75DD728FA12D28F1\" } }"
 	]
 	quest.138E6ED5616909CC.title: "Catch the Creation Trio (\\& Creator of the Universe)"
+	quest.1397633507DBFFEB.quest_subtitle: "Type-Gems are craftable with berries in this modpack!"
+	quest.1397633507DBFFEB.title: "The powers of the night"
 	quest.13DB0D2D16ADA25F.quest_subtitle: "Own every set of armor!"
 	quest.13DB0D2D16ADA25F.title: "Armory Master"
 	quest.13E78999B4EDC78D.quest_subtitle: "Transfer items to and from inventories on Mechanical Belts"
@@ -1440,6 +1452,14 @@
 	quest.1DDDBEAB7ECEF3B1.quest_subtitle: "All the armour!"
 	quest.1DDDBEAB7ECEF3B1.title: "Trimmable Armor"
 	quest.1E1769CB659D8A7C.quest_subtitle: "Every. Single. Starter."
+	quest.1E1793C578FB769D.quest_desc: [
+		"Stuck searching for a specific mon? "
+		""
+		"Use /where (mon name) in the Discord!"
+		""
+	]
+	quest.1E1793C578FB769D.quest_subtitle: "Catch/Obtain the following 10 pokemon"
+	quest.1E1793C578FB769D.title: "Spooky Season catch list"
 	quest.1E7128595422D3B8.quest_desc: [
 		"The mods will check every move from both parents to pass down every egg move it can find for the Pokémon in the egg. This includes the current moveset as well as benched moves."
 		""
@@ -1611,6 +1631,7 @@
 	quest.21344541460B888F.quest_subtitle: "Loot or Craft all sets of these armors"
 	quest.214CF0BDFE336E17.title: "Protector"
 	quest.21572205805605E6.quest_subtitle: "Crafted or obtained as Loot from the Aether"
+	quest.217C7BBA20945D32.title: "Witches Brew"
 	quest.21871E95378D1444.quest_desc: ["These spawn randomly in the ocean holding a fishing rod and will always spawn holding a Lionfish on a lead."]
 	quest.218DBED729F31B6A.quest_subtitle: "Smelt down your gear to forge new items!"
 	quest.21A1C83979A34B34.quest_desc: ["This upgrade will take a lot, two bosses and defending a raid isn't a challenge for you, is it? Alowing you to cast tier 3 glyphs, it's worth it."]
@@ -2114,6 +2135,8 @@
 		""
 		"&dBait Effect:&r Reduces bite time by 25%, prevents items from being caught"
 	]
+	quest.2D07F3BC99FB6461.quest_subtitle: "Bring back the remains from fighting off the horde of undead!"
+	quest.2D07F3BC99FB6461.title: "Monster Slayer"
 	quest.2D2FEDF7F9627088.title: "Overworld Spawning Hostiles"
 	quest.2D34AC3506CB3B61.quest_subtitle: "Gains about 0.3× catch rate per turn passed in battle, up to a maximum catch rate of 4×."
 	quest.2D6288823D3173E9.title: "Johto Bug Types"
@@ -2273,6 +2296,8 @@
 	quest.30C658B66F1BF29E.quest_subtitle: "Boosts the power of &lGrass-type&r moves by 20%."
 	quest.30C7BF6B8B82A86D.title: "Johto Dark Types"
 	quest.30E3DB4CBBF7F548.quest_desc: ["This item increases the duration of the &6holders terrain moves to 8 turns.&r"]
+	quest.30F00D40C4DD1C01.quest_subtitle: "Collect various mob skulls"
+	quest.30F00D40C4DD1C01.title: "Head Hunter"
 	quest.30F596338568AB8F.quest_desc: ["The Basin is a block that holds items and fluids used in Packing, Compacting, and Mixing recipes. A Basin can also function as an interaction point in fluid systems as fluids can be placed in or removed from a Basin directly by a player. In a survival game, a Basin's most significant function is creating Brass, which is essential for the creation of most advanced components."]
 	quest.30F596338568AB8F.quest_subtitle: "A block used for various machines"
 	quest.3115E9F5FD34D8BE.quest_subtitle: "Chapter Complete"
@@ -4145,7 +4170,11 @@
 		"Shift+Right Click to pick up the item."
 	]
 	quest.5AAC286CC05907CF.quest_subtitle: "The Wrench is a tool used to rotate, dismantle and configure components "
+	quest.5ACA3CA840D763AB.quest_subtitle: "Found in aether dungeons"
+	quest.5ACA3CA840D763AB.title: "Ghost Costume"
 	quest.5ACEB4A2B7A7F73C.title: "Logs"
+	quest.5AF315ACA4B69363.quest_subtitle: "Dye pumpkins any colour you prefer"
+	quest.5AF315ACA4B69363.title: "Pumpkins of the Rainbow!"
 	quest.5B0C9B5F6DC7FFC3.quest_desc: [
 		"The Steam Whistle can be placed on Fluid Tanks. The Tank must have a heat source beneath it for the Whistle to function. It can be activated by Redstone. Right click with a Whistle in hand to extend it. The Whistle can be extended up to 12 times, playing up to 13 notes per octave. Use a Wrench to change the octave; 3 octaves are available. Engineer's Goggles can be used to view the current note."
 		""
@@ -4360,6 +4389,7 @@
 	quest.61BAF9C2C35F4AD4.quest_subtitle: "Powered with Fuel!"
 	quest.61BAF9C2C35F4AD4.title: "Furnace Boats"
 	quest.61C0780BB5BDA24E.quest_desc: ["Enables the transport of source between Source Jars and other Source Relays. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay."]
+	quest.61CEB404F2359A47.quest_subtitle: "Oddly sweet corn.."
 	quest.61D00728EEBE8C4B.quest_desc: [
 		"&eSpecialty:&r Water-type"
 		"&dReward:&r Fen Badge, TM55"
@@ -4707,6 +4737,7 @@
 		"You need &e50 of a specific Tera Shard&r to change its type."
 	]
 	quest.67F552CDF4D4542E.title: "Tera Shards"
+	quest.6827D08B7EB5F07C.quest_subtitle: "Make some FILLED chocolate bars!"
 	quest.683169A5BCF00735.quest_desc: ["Heals nearby entities or harms undead over time. Additionally, Zombie Villagers will be instantly cured, and the resulting villager will offer discounts if a player was nearby. This ritual requires source to operate."]
 	quest.685AC61588E4F281.quest_subtitle: "Can be found in a Jungle"
 	quest.68753C8BEB7CBAE4.quest_subtitle: "used to move Cardboard Packages from and to Chain Conveyors."
@@ -5345,6 +5376,7 @@
 		"Adult moas lay an egg of their respective color every five to ten minutes"
 	]
 	quest.7719EEC5689BE506.quest_subtitle: "Obtain a Moa Egg"
+	quest.7721559EB2D03B52.quest_subtitle: "We need candies for hallows eve!"
 	quest.7722D8A6E773A794.quest_desc: ["A beast of copper and steel, built to conquer the skies! Four seats, moving turret, 6 weapon mounts and bigger than Minecraft physics would like it to be."]
 	quest.7722D8A6E773A794.quest_subtitle: "Four seats, moving turret,"
 	quest.773DD3685CEC3C45.quest_desc: [
@@ -5747,6 +5779,7 @@
 	reward_table.0C5EFE0C0A8DD507.title: "$imply Swords"
 	reward_table.0F4FDB5FE6E64C71.title: "cobblemon - hats"
 	reward_table.1220B67C3A623297.title: "$Modified - Basic"
+	reward_table.12752C575AFBC785.title: "$easonal - Fall Hats"
 	reward_table.130DB275A6191979.title: "cobblemon - apricorns"
 	reward_table.14A0D2FD1224AE91.title: "cobblemon - loot - rare"
 	reward_table.14EA99A342542A9C.title: "cobblemon - loot - basic"
@@ -5810,6 +5843,7 @@
 	task.097D63388CDECE0E.title: "Specific Card"
 	task.09AEC91D5F8E67AE.title: "Any #cobblemon:mints"
 	task.0A22F21D4514AC08.title: "Form & Aspect"
+	task.0AAB4C548F4C4CCE.title: "Complete ALL tasks"
 	task.0AD3941FE8028987.title: "Exclusive mons!"
 	task.0B794FEFD2FA7E4F.title: "Barry Final Rival"
 	task.0B79E794D52A2317.title: "Contraptions?!"
@@ -5915,6 +5949,7 @@
 	task.40BE5F8EDB2E0801.title: "Why must I submit?"
 	task.417B7AC6E24A118D.title: "Riding Cobblemon"
 	task.41E926EA7E817694.title: "Berries"
+	task.41EF8387D6AF64E2.title: "Any #chipped:carved_pumpkin"
 	task.4277EA7FAFA355E3.title: "Create + Redstone?"
 	task.43352FCD96C1E9D5.title: "Any #cobblemon:tier_5_poke_balls"
 	task.4368400EDBEBD42D.title: "Any #cobblemon:battle_items"
@@ -5952,6 +5987,7 @@
 	task.58CEF0D65D843475.title: "Brock"
 	task.58E32C1EA24AB829.title: "Any #ultimine_addition:mining_skill_card"
 	task.59766723765BFF5B.title: "Record Junkie"
+	task.598DE7EBFC59E73A.title: "Any #copycats:copycat_block"
 	task.598ED8F3B73493A4.title: "World Traveller"
 	task.5AE0955C2576D023.title: "Gym Leader Roark"
 	task.5B6C21307762D6ED.title: "Forms"

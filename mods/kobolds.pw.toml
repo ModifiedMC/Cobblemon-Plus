@@ -1,13 +1,13 @@
 name = "Kobolds!"
-filename = "Kobolds-3.0.25.jar"
+filename = "Kobolds-3.0.33.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7d7cef00afc2e88249c556d751eb62069922ad06"
+hash = "955c65235862a8f35039ee7c35967016b4cdb31a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6735874
+file-id = 7123283
 project-id = 484967

@@ -1,13 +1,13 @@
 name = "Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons"
-filename = "Enhanced-Celestials-NeoForge-1.21.1-6.0.2.4.jar"
+filename = "Enhanced-Celestials-NeoForge-1.21.1-6.0.2.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "320c9f81d573a4f59fc5fad55cc12edf6787cba6"
+hash = "120a2f2ad8f9fcbefebd087c60592b8057a834fc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6849257
+file-id = 7093308
 project-id = 438447
